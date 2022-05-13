@@ -1,7 +1,7 @@
 # Charter Environmental Sustainability WG
 ## Introduction
 ​​
-This document outlines the charter for the Environmental Sustainability Working Group, a [independent Working Group](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md) under the [https://github.com/cncf/toc).
+This document outlines the charter for the Environmental Sustainability Working Group, a [independent Working Group](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md) under the [CNCF ToC](https://github.com/cncf/toc).
 
 ## Problem Statement
 
@@ -68,7 +68,6 @@ The Environmental Sustainability WG works to enable widespread and successful ad
 - Yann Albou (Sokube)
 - Max Charas (Spotify)
 - Marlow Weston (Intel)
-- Jim Craig (Red Hat)
 - Kate Goldenring (Microsoft)
 - Rajib Mitra (self employed)
 - Jim St. Leger (Intel)
@@ -92,7 +91,6 @@ The Environmental Sustainability WG works to enable widespread and successful ad
 - Divya Rani (VMware)
 - Shailesh Pant (VMware)
 - Daan Terpstra (Sustainable Digital Infrastructure Alliance)
-- Jim St. Leger (Intel)
 - Lauri Apple (VMware)
 - Ashwin Krishnan (Orange)
 - Harish Yayi (VMware)
