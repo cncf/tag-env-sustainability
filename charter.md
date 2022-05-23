@@ -102,3 +102,8 @@ The Environmental Sustainability WG works to enable widespread and successful ad
 - Frederick Kautz
 - Roberth Strand (Crayon)
 - Benoit Petit (Hubblo, Boavizta)
+- Barry L. Rountree (LLNL)
+- Tapasya Patki (LLNL)
+- Chiara Muzzolon (Mia-Platform)
+- Dimitri Mazmanov (Spotify)
+
