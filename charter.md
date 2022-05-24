@@ -106,4 +106,4 @@ The Environmental Sustainability WG works to enable widespread and successful ad
 - Tapasya Patki (LLNL)
 - Chiara Muzzolon (Mia-Platform)
 - Dimitri Mazmanov (Spotify)
-
+- Damien Mathieu (Okta/Auth0)
