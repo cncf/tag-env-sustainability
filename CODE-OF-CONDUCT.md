@@ -31,9 +31,7 @@ In keeping with this commitment, we offer the following guidelines:
      used in accordance with the group [Mission and
      Charter][charter],
      the open source license, and to be used for the equal benefit of all
-     members of the community.  Further information on use of work may be found
-     in [Security Reviews:
-     Outcome][review-outcome]
+     members of the community.
 
 ## Incident handling and escalation
 
@@ -101,7 +99,7 @@ and is relevant to the item discussed or used in response to post to signify
 voting, opinion, acceptance, emotion, etc.  
 
 Example of reasonable image and video:  Posting a picture of a community meetup*
-or posting a recording to a presentation on cloud native security.
+or posting a recording to a presentation on cloud native environmental sustainability.
 
 *Note: Many events within the community may include content which is only
 acceptable depending on the context it is used in.  An example of this is
@@ -117,8 +115,8 @@ The above guidelines are inspired by and borrowed from other communities:
 * <https://bridgefoundry.org/code-of-conduct>
 * <https://www.rust-lang.org/policies/code-of-conduct>
 * <https://golang.org/conduct>
+* <https://github.com/cncf/tag-security/blob/main/CODE-OF-CONDUCT.md>
 
 [cncf-coc]: https://github.com/cncf/foundation/blob/master/code-of-conduct.md  
-[charter]: https://github.com/cncf/tag-security/blob/main/governance/charter.md
-[review-outcome]: https://github.com/cncf/tag-security/tree/main/assessments#outcome
+[charter]: https://github.com/cncf/wg-env-sustainability/blob/main/charter.md
 [cncf-toc]: https://www.cncf.io/people/technical-oversight-committee/
