@@ -1,0 +1,33 @@
+{
+    "version": "0.1",
+    "language": "en",
+    "ignorePaths": [
+        "**/.github/**",
+        "**/ci/**"
+    ],
+    "words": [
+        "CNCF",
+        "K8s",
+        "Kubernetes",
+        "kubecon",
+        "Roadmap",
+        "CODEOWNERS",
+        "explainability",
+        "APAC",
+        "EMEA",
+        "markdownlint",
+        "Microservices",
+        "microservices",
+        "lifecycles",
+        "toolset",
+        "cgroups",
+        "runtimes",
+        "hyperconverged",
+        "intercompatible",
+        "usecase",
+        "SBOM",
+        "operationalize",
+        "codecov",
+        "cloudcustodian"
+    ]
+}
