@@ -107,3 +107,4 @@ The Environmental Sustainability WG works to enable widespread and successful ad
 - Chiara Muzzolon (Mia-Platform)
 - Dimitri Mazmanov (Spotify)
 - Damien Mathieu (Okta/Auth0)
+- Daniel Shown (PowerFlex)
