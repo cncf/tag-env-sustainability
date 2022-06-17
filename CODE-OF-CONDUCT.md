@@ -42,20 +42,18 @@ involving community conduct occurs, please follow the guidelines below on how to
 handle and report the issue:
 
 * If you see content that clearly does not meet the official Code of Conduct,
-  please send an e-mail to the Co-Chair/TL mailing list
-  (cncf-tag-security-leads@lists.cncf.io) and the creator of the content. (For
+  please send an slack message to the Co-Chair/TL and the creator of the content. (For
   more details refer to the [CNCF Code of Conduct][cncf-coc]).  If it is
   regarding a co-chair, reach out to the two other chairs directly if you are
   uncomfortable using the mailing list.
 * If you are uncomfortable with a piece of content (but it may not necessarily
   violate the code of conduct), we suggest sending a private message to the
   content owner expressing your concerns. If this is not resolved, you may wish
-  to request the help of a Co-Chair/TL via cncf-tag-security-leads@lists.cncf.io
-  to help mediate the situation.
+  to request the help of a Co-Chair/TL to help mediate the situation.
 * Discussions about these potential code of conduct violations and concerns are
   important, and there are great avenues to discuss them. This includes bringing
   up concerns to the [CNCF TOC][cncf-toc] (which can be done through discussion
-  with Security TAG leadership) or talking to Security TAG leadership about
+  with WG Environmental Sustainability leadership) or talking to WG Environmental Sustainability leadership about
   moderating a post. To help ensure that we can give focus to these issues and
   not tangle them up with technical discussions, we should keep these
   discussions separate from channels which are focused around technical

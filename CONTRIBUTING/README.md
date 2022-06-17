@@ -35,3 +35,8 @@ and commenting on issues is a great way to get involved!
 When creating or reviewing pull requests, please refer to the
 [writing style guide](writing-style.md) to help maintain consistency across
 all of our documents.
+
+## Discussions
+
+To implement a permanent track of discussions, we move them out of the regular communication channels to GH Discussions. Mailing lists and Slack messages tend to be overwhelming, confusing/unclear structured and getting lost/not transparent to new joiners. 
+
