@@ -108,3 +108,4 @@ The Environmental Sustainability WG works to enable widespread and successful ad
 - Dimitri Mazmanov (Spotify)
 - Damien Mathieu (Okta/Auth0)
 - Daniel Shown (PowerFlex)
+- Nikhil Vytla (TruEra)
