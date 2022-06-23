@@ -4,7 +4,7 @@ Welcome to the Environmental Sustainability Working Group. This WG works with th
 
 We want to raise awareness of environmental sustainability as a key element of open source development and support projects which foster an understanding of energy drivers. All activities should positively impact the community by changing mindset, increasing efficiency, and putting sustainability on everyone's agenda.
 
-The [Environmental Sustainability](https://github.com/cncf/env-sustainability-wg/charter.md) WG Charter further outlines the scope of our group activities as well as the goals and intended deliverables.
+The [Environmental Sustainability WG Charter](charter.md) further outlines the scope of our group activities as well as the goals and intended deliverables.
 
 ## Meetings
 
