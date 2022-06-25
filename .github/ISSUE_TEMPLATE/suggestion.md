@@ -1,6 +1,6 @@
 ---
 name: Suggestion
-about: You have an idea for a new resource or process that will improve cloud native environment sustainability and you aren't sure if you are the person to work on it or want to get feedback from others to refine the idea
+about: Idea for a new resource or process for the env sustainability WG and you are not sure if you are the right person to work on it, or you want to get feedback from others to refine the idea
 title: "[Suggestion] some descriptive title"
 labels: "suggestion, triage-required"
 assignees: ''
