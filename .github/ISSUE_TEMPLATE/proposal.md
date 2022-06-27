@@ -1,6 +1,6 @@
 ---
 name: Proposal
-about: To suggest an idea for a new resource or process that will improve cloud native environmental sustainability that you want to work on (if you have an idea that you don't personally want to work on, make a "suggestion")
+about: Idea for a new resource or process that will improve the env sustainability WG you want to work on (If you personally do not want to implement the idea, you should use the "suggestion" template)
 title: "[Proposal] Project Name"
 labels: "proposal, triage-required"
 assignees: ''
