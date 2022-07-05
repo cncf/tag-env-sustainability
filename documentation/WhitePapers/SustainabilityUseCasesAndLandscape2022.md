@@ -3,42 +3,69 @@
 ### Contributors
 Huamin Chen, Marlow Weston, Niki Manoledaki
 
+
+<!-- 
+Formatting convention:
+## for top level topic
+### for sub level topics and so on
+-->
+
 <!-- ## Use Cases -->
 ## Use Cases
 <!--- TODO: add in details on these use cases --->
+### Green/sustainable computing
+
+System architecture and designs to optimize resource consumption, reduce environmental impact, and improve sustainability
+
+### Carbon/Energy Accounting
+
+System, services, and methodology to track and account carbon/energy consumption.
+
+## Challenges
+Quantifying the operational emissions per service is not trivial because of the following reasons:
+
+* Multiple HW components enclosed in a server - power modeling is required for various HW components (e.g., CPU, Memory, GPU, Storage, I/O) for accurate quantification/estimation.
+
+* Different HW for a service is used by multiple users/accounts –power modeling per different user (e.g., a/multiple software thread(s)) is a totally different problem for modeling. The SW/HW interaction should be well-understood for power modeling.
+
+* Different generations/architecture/vendors of HW in Cloud Infrastructure - power modeling is required for different generations/architecture/vendors for example, Intel vs. AMD vs. ARM, Skylake vs. Sapphire Rapids, and ConnectX-5 vs. ConnectX-6.
+
+* Dependencies of the services - a service may use different services. (e.g., Kubernetes uses COS service), applications may be distributed across datacenters and clouds.
+
+* Services running in virtualized/containerized environments - power modeling is required for virtualized/containerized environments, which increases the complexity of modeling
+
+* Separate fan/cooling controller in the server – The fan and other cooling components are often controlled by a separate controller, which requires additional modeling.
+
+* Missing data – due to the limitation of exposing internal data in Cloud, accessing the key data to calculate the operation emission is prohibited. On-Prem data centers are sometimes lacking power measurement technology.
+
+* Telemetry/ observability – a user often uses multiple hardware at the same time, reliable and high-granularity telemetry becomes more important. However, telemetry/observability overhead should be low relative to the services being executed on the server/cloud.
+
+* AI/ML workloads – dramatic increase in using Artificial Intelligence (AI)/ Machine Learning (ML) workload leads to the strong need of dedicated GPU-based clusters. The characteristics of such workloads are different than traditional workloads and their power consumptions are significantly higher.
 
 ## Layers of the solutions
 
 We can divide a system up into three general areas.  The first is what datacenter to use, if you have options.  The second is where to place the workload once you have chosen a datacenter.  The third is how to manage the resources on the node where you have chosen to place the resource.  All of these elements can be looked at individually.
 
-### Intelligently choosing which datacenter to schedule on according to environmental impact, time of day, et cetera
 
-#### Telemetry
 
-#### Current Research
+| Area | Goal | Efforts |
+| -------- | -------- | -------- |
+| Multi Data Centers     | Intelligently choosing which datacenter to schedule on according to environmental impact, time of day, et cetera     |  Cluster Management    |
+| Within Data Center     | Scheduling effectively according to workload, availability, and urgency of workload     | Power Management, K8S Scheduler Plugin   |
+| Within a node     | Optimizing resources to handle workload specifications (which may include performance parameters) while minimizing resource consumption     |  Node Tuning, Pod Scaling    |
 
-#### Current developed projects
 
-### Within a datacenter, scheduling effectively according to workload, availability, and urgency of workload
+## Current Research
 
-#### Telemetry
+## Current Projects
 
-#### Current Research
 
-#### Current developed projects
-
-### Within a node, optimizing resources to handle workload specifications (which may include performance parameters) while minimizing resource consumption
-
-#### Telemetry
-
-#### Current Research
-
-#### Current developed projects
 
 ## Current Landscape
 <!-- ## Telemetry -->
 
 <!--- TODO: add a diagram to illustrate data center composition --->
+### Telemetry
 
 ### Cooling / BMC
 * OCP Cooling Telemetry [Improve data center cooling facility efficiency through platform power telemetry](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf)
@@ -70,7 +97,7 @@ We can divide a system up into three general areas.  The first is what datacente
 <!-- ## Energy Efficient Computing -->
 
 ### Scheduling 
-* Power Driven Scheduling and Scaling with CPU telemetry in K8s[Power Driven Scheduling and Scaling with CPU telemetry in Kubernetes](https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power)
+* Power Driven Scheduling and Scaling with CPU telemetry in K8s [Power Driven Scheduling and Scaling with CPU telemetry in Kubernetes](https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power)
 * Energy aware scheduling [Paper] [Improving Data Center Efficiency Through Holistic Scheduling In Kubernetes](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
 * Carbon-aware Kubernetes scheduler [Paper] [A Low Carbon Kubernetes Scheduler](http://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
 
@@ -88,15 +115,23 @@ Batch scheduling according to power costs (carbon, money, et cetera)
 <!-- # Current Research/Initiaives -->
 
 ### Sustainability Initiatives
+* Green Software Foundation [Building a trusted ecosystem of people, standards, tooling and best practices for green software](https://greensoftware.foundation/)
 * Equinix [Article] ["Equinix Prices $1.2 billion of Green Bonds in its Fourth Offering to Advance Sustainability Initiatives"](https://www.equinix.com/newsroom/press-releases/2022/04/equinix-prices-1-2-billion-of-green-bonds-in-its-fourth-offering-to-advance-sustainability-initiatives)
 * Etsy and Cloud carbon footprint.org [Cloud Carbon Footprint - Methodology](https://www.cloudcarbonfootprint.org/docs/methodology/)
 * LF Energy [Leading the energy transition through global open source collaboration](https://www.lfenergy.org/)
 * Energy Efficient High Performance Computing Working Group [Encourages implementation of energy conservation measures, energy efficient design in high performance computing (HPC)](https://eehpcwg.llnl.gov/)
 
-### Emission Reports
+### Emissions Reports
 
 * IEA [Emissions - Global Energy and CO2 Status Report 2019](https://www.iea.org/reports/global-energy-co2-status-report-2019/emissions)
 * European Environment Agency [EU Greenhouse Emission Intensity](https://www.eea.europa.eu/ims/greenhouse-gas-emission-intensity-of-1)
+
+### Net Zero / Carbon Neutrality
+
+* The Climate Pledge [Net-Zero Carbon by 2040](https://www.theclimatepledge.com/)
+* WeTransfer [WeTransfer becomes Climate Neutral](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)
+* Adrian Cockroft, Amazon VP of Sustainability Architecture ["Cloud computing pioneer's new focus is on sustainability transformation"](https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation)
+* Supercritical [Helping businesses achieve net zero](https://gosupercritical.com/)
 
 ### HPC Specific Models
 
