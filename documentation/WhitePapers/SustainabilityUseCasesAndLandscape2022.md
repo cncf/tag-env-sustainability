@@ -1,7 +1,7 @@
 # Current Sustainability Efforts and Use Cases Within the Cloud Native Landscape
 
 ### Contributors
-Huamin Chen, Marlow Weston, Niki Manoledaki
+Huamin Chen, Marlow Weston, Niki Manoledaki, Eun Kyung Lee
 
 
 <!-- 
@@ -21,8 +21,10 @@ System architecture and designs to optimize resource consumption, reduce environ
 
 System, services, and methodology to track and account carbon/energy consumption.
 
-## Challenges
-Quantifying the operational emissions per service is not trivial because of the following reasons:
+## Challenges for Carbon/Energy Accounting
+Carbon emission for the Cloud computing system is largely composed of operational and embodied (or embeded) carbon emission. The operational carbon emissionis the amount of carbon pollution emitted during the operational or in-use phase of a Cloud computing system. The embodied carbon emission is the amount of carbon pollution emitted during the creation and disposal of Computing system (e.g., device, chip, servers, and etc.)
+
+Quantifying the operational carbon emission is not trivial because of the following reasons:
 
 * Multiple HW components enclosed in a server - power modeling is required for various HW components (e.g., CPU, Memory, GPU, Storage, I/O) for accurate quantification/estimation.
 
@@ -41,6 +43,8 @@ Quantifying the operational emissions per service is not trivial because of the 
 * Telemetry/ observability – a user often uses multiple hardware at the same time, reliable and high-granularity telemetry becomes more important. However, telemetry/observability overhead should be low relative to the services being executed on the server/cloud.
 
 * AI/ML workloads – dramatic increase in using Artificial Intelligence (AI)/ Machine Learning (ML) workload leads to the strong need of dedicated GPU-based clusters. The characteristics of such workloads are different than traditional workloads and their power consumptions are significantly higher.
+
+Quantifying embedded carbon emissions is also very challenging as manufactural details should be incorporated into the quantification. This is currently not the scope of this white paper. [We may want to put some directions though // +1, would this be guidance/best practice on methods to quantify these emissions or guidance on methods to mitigate these emissions?]
 
 ## Layers of the solutions
 
