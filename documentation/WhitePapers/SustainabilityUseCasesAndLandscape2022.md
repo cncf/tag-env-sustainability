@@ -6,8 +6,11 @@ Huamin Chen, Marlow Weston, Niki Manoledaki, Eun Kyung Lee
 
 <!-- 
 Formatting convention:
+
 ## for top level topic
 ### for sub level topics and so on
+
+Suggestions please use comments instead of inline with text
 -->
 
 <!-- ## Use Cases -->
@@ -44,7 +47,7 @@ Quantifying the operational carbon emission is not trivial because of the follow
 
 * AI/ML workloads – dramatic increase in using Artificial Intelligence (AI)/ Machine Learning (ML) workload leads to the strong need of dedicated GPU-based clusters. The characteristics of such workloads are different than traditional workloads and their power consumptions are significantly higher.
 
-Quantifying embedded carbon emissions is also very challenging as manufactural details should be incorporated into the quantification. This is currently not the scope of this white paper. [We may want to put some directions though // +1, would this be guidance/best practice on methods to quantify these emissions or guidance on methods to mitigate these emissions?]
+Quantifying embedded carbon emissions is also very challenging as manufactural details should be incorporated into the quantification. This is currently not the scope of this white paper. <!-- We may want to put some directions though // +1, would this be guidance/best practice on methods to quantify these emissions or guidance on methods to mitigate these emissions? -->
 
 ## Layers of the solutions
 
@@ -59,10 +62,28 @@ We can divide a system up into three general areas.  The first is what datacente
 | Within a node     | Optimizing resources to handle workload specifications (which may include performance parameters) while minimizing resource consumption     |  Node Tuning, Pod Scaling    |
 
 
-## Current Research
+## Current Research and Development
 
-## Current Projects
+### Runtime System Power Measurement
 
+[A summarization of topics and research up to 2016](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
+
+### Energy Conservation and Carbon Reduction
+
+#### Scheduling
+At scheduling phase, energy to be consumed by the workload can be reduced by intelligent schedulers that are aware of carbon footprint in a data center, thermal temperature and cooling, caching aware, or server power efficiency.
+
+
+#### Tuning, Scaling, and Configuration
+At runtime, energy consumed by workload can be reduced at HW level through DVFS based scaling, at SW level through runtime paramter tuning and re-configuration or at the orchestration level through scale-to-zero automation. 
+
+### Green System Architecture
+
+Green HW/SW systems either improve sub system efficiency or change the way that computation is conducted. 
+
+For instance, programs written in [energy efficient langugages](https://haslab.github.io/SAFER/scp21.pdf) or running on more [optimized runtimes](https://hal.inria.fr/hal-03275286/document) are generally "greener". 
+
+On the other hand, architectures that address the root cause of energy waste, including idle power and data center cooling, are evaluated to be more environmental friendly. For instance, Federated Learning spreads model training to devices that do not require expensive cooling is [evaluated](https://www.cam.ac.uk/research/news/can-federated-learning-save-the-world) to reduce carbon footprint in aggregate. 
 
 
 ## Current Landscape
@@ -96,7 +117,7 @@ We can divide a system up into three general areas.  The first is what datacente
 <!--- TODO: add a diagram to illustrate computing devices and power draw --->
 
 ### Power Management
-* Kubernetes Power Manager[Kubernetes Operator designed to expose and utilize Intel specific power management technologies in a Kubernetes Environment](https://github.com/intel/kubernetes-power-manager)
+* Kubernetes Power Manager [Kubernetes Operator designed to expose and utilize Intel specific power management technologies in a Kubernetes Environment](https://github.com/intel/kubernetes-power-manager)
 
 <!-- ## Energy Efficient Computing -->
 
