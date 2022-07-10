@@ -4,8 +4,7 @@ We aspire to create a welcoming environment for collaboration on this project
 and ask that all contributors do the same. For more details, see our [code of
 conduct](/CODE-OF-CONDUCT.md).
 
-This document covers contributions to this git repository. Please review
-[governance](/governance) for our mission, charter, and other operations.
+This document covers contributions to this git repository.
 
 ## Open source
 
@@ -38,5 +37,8 @@ all of our documents.
 
 ## Discussions
 
-To implement a permanent track of discussions, we move them out of the regular communication channels to GH Discussions. Mailing lists and Slack messages tend to be overwhelming, confusing/unclear structured and getting lost/not transparent to new joiners. 
+To implement a permanent track of discussions, we move them out of the regular communication channels to [GH Discussions](https://github.com/cncf/wg-env-sustainability/discussions). Mailing lists and Slack messages tend to be overwhelming, confusing/unclear structured and getting lost/not transparent to new joiners. 
 
+## Priviliged Access and Rights
+
+If you need additional access rights for the WG GitHub Repository and/or the [Project Board](https://github.com/orgs/cncf/projects/10), please open a [simple issue](https://github.com/cncf/wg-env-sustainability/issues/new) with the request.

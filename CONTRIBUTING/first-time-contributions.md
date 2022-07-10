@@ -27,6 +27,7 @@ New members are advised to:
   * [Governance and Processes](../governance/README.md)
 * Regularly join one of the [Zoom meetings](https://github.com/cncf/wg-env-sustainability#meetings) at least for the first
   couple of months to get yourself up to speed.
+* Have a look and participate at our [GH Discussions](https://github.com/cncf/wg-env-sustainability/discussions)
 * Here are multiple ways to get involved:
   * Join the meeting as advised above and express your area of interests or if
     you want to work on any specific issue.
@@ -75,13 +76,3 @@ You can reach us via our [Mailing List](mailto:cncf-wg-env-sustainability@lists.
 
 You can also reach out on our slack [#wg-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6).
 
-### You can reach out to our members
-
-Our members list can be found
-[here](https://github.com/cncf/wg-env-sustainability#members).
-
-## After PR merge
-
-Once you have successfully get your
-first PR merged, you can add your name
-to our Members list in [members.md](../members.md).

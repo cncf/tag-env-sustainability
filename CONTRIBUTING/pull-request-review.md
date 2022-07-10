@@ -56,9 +56,6 @@ A person with access, including the PR author, may then perform the merge.
 A person with access, other than the PR author, can both review **and** merge a
 PR if found favorable after review.
 
-[Code owners](/CODEOWNERS) need to be at least one concurring reviewer or the
-merging party.
-
 #### Significant changes
 
 Significant changes are defined as:
@@ -76,8 +73,6 @@ and provide concurrence prior to merging.
 Two persons with access, other than the PR author, must review the PR and
 provide concurrence, the last of which should perform the merge.
 
-[Code owners](/CODEOWNERS) need to be at least one concurring reviewer or the
-merging party.
 
 ### Merging pull requests
 
