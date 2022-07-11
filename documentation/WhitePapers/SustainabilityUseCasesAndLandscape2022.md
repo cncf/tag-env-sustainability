@@ -150,6 +150,7 @@ Batch scheduling according to power costs (carbon, money, et cetera)
 
 * IEA [Emissions - Global Energy and CO2 Status Report 2019](https://www.iea.org/reports/global-energy-co2-status-report-2019/emissions)
 * European Environment Agency [EU Greenhouse Emission Intensity](https://www.eea.europa.eu/ims/greenhouse-gas-emission-intensity-of-1)
+* electricityMap's [real-time CO2 emission data](https://app.electricitymap.org)
 
 ### Net Zero / Carbon Neutrality
 
