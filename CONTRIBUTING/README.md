@@ -37,7 +37,7 @@ all of our documents.
 
 ## Discussions
 
-To implement a permanent track of discussions, we move them out of the regular communication channels to [GH Discussions](https://github.com/cncf/wg-env-sustainability/discussions). Mailing lists and Slack messages tend to be overwhelming, confusing/unclear structured and getting lost/not transparent to new joiners. 
+You are welcomed to open discussions to the community and to bring in your ideas. Reach out to us through our Slack channel, mailing list or GitHub Discussion.
 
 ## Priviliged Access and Rights
 
