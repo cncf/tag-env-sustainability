@@ -28,7 +28,7 @@ New members are advised to:
 
 ## Getting involved and contributing
 
-As a new contributor, you might find difficulties in understanding where to start.Don't worry! We got you.
+As a new contributor, you might find difficulties in understanding where to start. Don't worry! We are here to help you.
 
 In the interest of getting more new people involved, we have issues marked as[good-first-issues](https://github.com/cncf/wg-env-sustainability/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) and [help wanted](https://github.com/cncf/wg-env-sustainability/labels/help%20wanted).
 These are issues that have a smaller scope, and are great to start with.

@@ -57,6 +57,10 @@ A person without access, other than the PR author can and _is_ encouraged to rev
 
 Two persons with access, other than the PR author, must review the PR and provide concurrence, the last of which should perform the merge.
 
+### Reviewing Pull Request
+
+It is good practice to propose the changes you would like to see directly through the GitHub review feature. This speeds up the rework process and makes your suggestions clear. In addition, an explaining comment helps to understand why you would change it that way. 
+
 
 ### Merging pull requests
 
