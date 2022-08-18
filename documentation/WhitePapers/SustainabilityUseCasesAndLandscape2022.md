@@ -131,6 +131,7 @@ Batch scheduling according to power costs (carbon, money, et cetera)
 ### Scaling
 * On-demand: Serverless
 * VPA [Vertical Pod Autoscaler (VPA) recommenders pluggable with the default VPA on OpenShift](https://github.com/openshift/predictive-vpa-recommenders)
+* Carbon Aware Scaling: Scale down or pause workloads when "Electricity Marginal Carbon Intensity (CO2eq/KHw)" is high  
 
 ### Tuning
 * Node tuning [Manage node-level tuning by orchestrating the tuned daemon](https://docs.openshift.com/container-platform/4.10/scalability_and_performance/using-node-tuning-operator.html)
