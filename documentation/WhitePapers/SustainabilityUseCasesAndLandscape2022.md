@@ -4,7 +4,7 @@
 Huamin Chen, Marlow Weston, Niki Manoledaki, Eun Kyung Lee
 
 
-<!-- 
+<!--
 Formatting convention:
 
 ## for top level topic
@@ -47,6 +47,10 @@ Quantifying the operational carbon emission is not trivial because of the follow
 
 * AI/ML workloads – dramatic increase in using Artificial Intelligence (AI)/ Machine Learning (ML) workload leads to the strong need of dedicated GPU-based clusters. The characteristics of such workloads are different than traditional workloads and their power consumptions are significantly higher.
 
+* Confidential workloads - evolve from VM use case to confidential container (SGX/SEV/TDX), the TEE (Trusted Execution Environment)
+and the usage of bounce buffer/SWIOTLB might cost more energy. However, the confidential workload is hard to be observered due to
+security concern.
+
 Quantifying embedded carbon emissions is also very challenging as manufactural details should be incorporated into the quantification. This is currently not the scope of this white paper. <!-- We may want to put some directions though // +1, would this be guidance/best practice on methods to quantify these emissions or guidance on methods to mitigate these emissions? -->
 
 ## Layers of the solutions
@@ -75,15 +79,15 @@ At scheduling phase, energy to be consumed by the workload can be reduced by int
 
 
 #### Tuning, Scaling, and Configuration
-At runtime, energy consumed by workload can be reduced at HW level through DVFS based scaling, at SW level through runtime paramter tuning and re-configuration or at the orchestration level through scale-to-zero automation. 
+At runtime, energy consumed by workload can be reduced at HW level through DVFS based scaling, at SW level through runtime paramter tuning and re-configuration or at the orchestration level through scale-to-zero automation.
 
 ### Green System Architecture
 
-Green HW/SW systems either improve sub system efficiency or change the way that computation is conducted. 
+Green HW/SW systems either improve sub system efficiency or change the way that computation is conducted.
 
-For instance, programs written in [energy efficient langugages](https://haslab.github.io/SAFER/scp21.pdf) or running on more [optimized runtimes](https://hal.inria.fr/hal-03275286/document) are generally "greener". 
+For instance, programs written in [energy efficient langugages](https://haslab.github.io/SAFER/scp21.pdf) or running on more [optimized runtimes](https://hal.inria.fr/hal-03275286/document) are generally "greener".
 
-On the other hand, architectures that address the root cause of energy waste, including idle power and data center cooling, are evaluated to be more environmental friendly. For instance, Federated Learning spreads model training to devices that do not require expensive cooling is [evaluated](https://www.cam.ac.uk/research/news/can-federated-learning-save-the-world) to reduce carbon footprint in aggregate. 
+On the other hand, architectures that address the root cause of energy waste, including idle power and data center cooling, are evaluated to be more environmental friendly. For instance, Federated Learning spreads model training to devices that do not require expensive cooling is [evaluated](https://www.cam.ac.uk/research/news/can-federated-learning-save-the-world) to reduce carbon footprint in aggregate.
 
 
 ## Current Landscape
@@ -110,7 +114,7 @@ On the other hand, architectures that address the root cause of energy waste, in
 * PowerAPI [Python framework for building software-defined power meters](https://github.com/powerapi-ng/)
 * Kubernetes Efficient Power Level Exporter [Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics](https://github.com/sustainable-computing-io/kepler)
 * Open Telemetry [High-quality, ubiquitous, and portable telemetry to enable effective observability](https://opentelemetry.io/)
-<!-- 
+<!--
 ## Compute Node -->
 
 <!-- ### Device and Power -->
@@ -121,7 +125,7 @@ On the other hand, architectures that address the root cause of energy waste, in
 
 <!-- ## Energy Efficient Computing -->
 
-### Scheduling 
+### Scheduling
 * Power Driven Scheduling and Scaling with CPU telemetry in K8s [Power Driven Scheduling and Scaling with CPU telemetry in Kubernetes](https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power)
 * Energy aware scheduling [Paper] [Improving Data Center Efficiency Through Holistic Scheduling In Kubernetes](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
 * Carbon-aware Kubernetes scheduler [Paper] [A Low Carbon Kubernetes Scheduler](http://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
