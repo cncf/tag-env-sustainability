@@ -1,111 +1,54 @@
-# Charter Environmental Sustainability WG
+# CNCF TAG Environmental Sustainability
+
 ## Introduction
-​​
-This document outlines the charter for the Environmental Sustainability Working Group, a [independent Working Group](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md) under the [CNCF ToC](https://github.com/cncf/toc).
 
-## Problem Statement
+The Paris Climate Accords outline the link between economic activity, greenhouse gas (GHG) emissions, and the impacts of climate change. GHG  emissions, primarily made from Carbon Dioxide, are released during the combustion of fossil fuels to produce electricity. To reach net zero goals, we will first identify how to reduce the environmental footprints of increasingly large data centers and then help the community take action to mitigate these footprints.
 
-Data Centers, and therefore every compute resource accessible, are currently using 2% of the world's energy. This is conservatively expected to grow to hold 1-2% in the next couple of years, up to 12% by 2040. The growth in energy for computing is out-pacing the global growth in energy production. The contributing factors include explosion in data, emergence of energy-intensive workloads such as AI and, the flattening of Moore's law. The energy consumption of data centers is therefore causing half of the Greenhouse gas (GHG) emissions of countries like Germany or Japan. GHG emissions are one of the key factors for global warming. In order to curb this trend, we should immediately start looking for ways to reduce the environmental footprints of increasingly large data centers. The good news is that there is also an increase in industry initiatives for environmental sustainability. This working group was formed to advocate for, develop, support, and help evaluate environmental sustainability initiatives.
+References:
 
-## Mission
+* https://www.iea.org/reports/net-zero-by-2050
+* https://www.whitehouse.gov/wp-content/uploads/2021/10/US-Long-Term-Strategy.pdf
+* https://www.worldbank.org/en/news/feature/2022/05/23/what-you-need-to-know-about-net-zero
 
-The WG Environmental Sustainability will work with the open source community to define environmental sustainability factors for the cloud native landscape, incubate and advocate open source projects to observe and measure Cloud Native infrastructure carbon footprint, optimize and eventually reduce carbon footprint and promote Cloud Native infrastructure to combat environmental challenges. We want to raise awareness of environmental sustainability as a key element of open source development and support projects which foster an understanding of energy drivers. All activities should positively impact the community by changing mindset, increasing efficiency, and putting sustainability on everyone's agenda.
+## Mission Statement
+This TAG's goal is to advocate for, develop, support, and help evaluate environmental sustainability initiatives in cloud native technologies.  This TAG will identify values and possible incentives for service providers to reduce their consumption and carbon footprint through cloud native tooling.
 
-## Goals
+## Responsibilities & Deliverables
 
-- **Ecosystem:** Foster and grow the ecosystem of environmental sustainability projects, users and maintainers
-- **Best Practices:** Define procedures to improve environmental sustainability factors, develop benchmarks for the quantification of energy consumption of software, develop techniques to manage software such that the overall energy consumption and associated carbon is reduced.
-- **Guidance:** Support open source tools that improve environmental sustainability factors and emphasize environmental sustainability concerns
-- **Education:** Develop and participate in the creation of white papers regarding environmental sustainability within the open source space
-- **Awareness:** Put environmental sustainability on the agenda of open source projects
-- **Accountability:** Implement accountability of environmental sustainability in the open source community and create an impact on the green software engineering
-- **Measurement:** Define environmental sustainability factors for cloud native and provide directions on how to create measurements
-- **Overview:** Developing a landscape for environmental sustainability of cloud-native projects
-- **End-User:** Support end user community to utilize and drive environmental sustainability activities and show correlations on potential cost savings
-- **Reporting:** Regularly report  on the state of environmental sustainability in the CNCF to the ToC
+### Background
+We recognize that: 
+- the trade off between reducing resource consumption and higher performance is hard to balance
+- there is a lack of well supported and documented approaches for evaluating the environmental sustainability of cloud native projects in their default or optimized configurations
 
 
-## Non-Goals
+### In-Scope
 
-- Creation of any new software projects
-- Recommendations of individual projects or tools
+- Identify, define, and develop tooling to assess and improve environmental sustainability approaches, including
+    - Quantify the energy consumption of cloud native implementations individually as well as in common integration patterns
+    - Recommendations and strategies to develop, package, distribute, deploy, and operate cloud native implementations to reduce energy consumption and carbon as well as the various environments they operate in and which impact their consumption
+    - Capabilities, benchmarks, and processes to evaluate technological and architectural health of projects
+- Community outreach and engagement on the work of this TAG
+- Collaboration with other environmental or sustainability organizations, initiatives, activities, and efforts that may fall outside of the CNCF (Cloud Native Computing Foundation)
 
+### Out of scope
+- Form an umbrella organization beyond the CNCF
+- Establish a compliance and standards body beyond the CNCF space
+- Evaluate individual company infrastructures
+- Focus outside of cloud native technologies, according to the [CNCF Cloud Native definition](https://github.com/cncf/toc/blob/main/DEFINITION.md)
 
-## Cloud Native Alignment
-The Environmental Sustainability WG works to enable widespread and successful adoption of the Sustainability pattern in cloud-native environments by:
+## Deliverables to TOC
+- Landscape for carbon and energy efficiency in the form of metrics, measurements, and management techniques
+- Environmental sustainability recommendations and optimizations to new and existing projects within the landscape
+- Reports on gaps in the environmental sustainability coverage of the landscape
+- Reviews, inputs, and recommendations for proposed projects for CNCF hosting and advancement
+- Suggestions for improvements for CNCF internal processes, for example, education for sustainability
 
-- Providing valuable deliveries to the Cloud Native community, and objective information to CNCF TOC, End Users and Projects of the CNCF regarding areas considered in scope (see [goals](#goals) and [non-goals](#non-goals))
-- Collaborating effectively with other related groups inside and outside the cloud native ecosystem
-- Helping to enable environmental sustainability aspects within CNCF projects
+## Audiences
 
-## Other Related Groups
-- [Green Software Foundation](https://greensoftware.foundation/): a community building a trusted ecosystem of people, standards, tooling and best practices for green software
-- [FinOps Foundation](https://www.finops.org/introduction/what-is-finops/): Aligning on how sustainability actions can impact cloud costs, where everyone takes ownership of their cloud usage 
-- [Boavizta](https://boavizta.org/en) : a working group focussing on means of evaluation of the impacts ICT services have on the environment, regarding their full lifecycle and multiple criterias of impact (GWP, ADP, PE, …). The group works on open-source tools and methods, open data, including an open database of impacts
-- [Sustainable Digital Infrastructure Alliance](https://sdialliance.org/)
+- Education - audience is end users, developers, stakeholders
+- Project intelligence - audience is TOC/CNCF Community
+- External collaboration - organizations, initiatives, activities, and efforts outside of CNCF (Cloud Native Computing Foundation)
 
-# Interested Parties
+## Operations
 
-- Max Körbächer (Liquid Reply)
-- Leonard Pahlke (Liquid Reply)
-- Chen Wang (IBM)
-- Eun Kyung Lee (IBM)
-- Michel Murabito (Mia-Platform)
-- Alex Jones (Canonical)
-- Jim Craig (Red Hat)
-- Huamin Chen (Red Hat)
-- Vincent Caldeira (Red Hat)
-- Christophe Laprun (Red Hat)
-- Wojtek Cichon	 (Akuity)
-- Hong Wang (Akuity)
-- Vanessa Kantner (Liquid Reply)
-- Saul O'Driscoll	 (Liquid Reply)
-- William Caban	 (Red Hat)
-- Jaime Magiera (University of Michigan)
-- Erik Riedel (Sesame / ITRenew)
-- Parul Singh (Red Hat)
-- Gaurav Singh (Red Hat)
-- Yann Albou (Sokube)
-- Max Charas (Spotify)
-- Marlow Weston (Intel)
-- Kate Goldenring (Microsoft)
-- Rajib Mitra (self employed)
-- Jim St. Leger (Intel)
-- Juergen Sommer (Red Hat)
-- Christoph Buchli (Helio / SDIA)
-- Scott Rigby (Weaveworks)
-- Niki Manoledaki (Weaveworks)
-- Nishad Mehendale (Capgemini)
-- Tamar Eilam (IBM Research)
-- Deb Bernstein (Intel)
-- Hervé Leclerc (alter way)
-- Liz Rice (Isovalent)
-- Cara Delia (Red Hat)
-- John Archer (Red Hat)
-- Brian Fox (Self employed)
-- Tom Kivlin (Vodafone)
-- Daniel Helfand (Intuit)
-- Ayush Ghosh (Cisco)
-- Alolita Sharma (Apple)
-- Marcelo Amaral (IBM)
-- Divya Rani (VMware)
-- Shailesh Pant (VMware)
-- Daan Terpstra (Sustainable Digital Infrastructure Alliance)
-- Lauri Apple (VMware)
-- Ashwin Krishnan (Orange)
-- Harish Yayi (VMware)
-- Manasi Gandhi (VMware)
-- Joshua Bezaleel (Shipper)
-- Rich Hill - ( Green Cloud Computing ) 
-- Oshrat Nir (Giant Swarm)
-- Stephen Augustus (Cisco)
-- Frederick Kautz
-- Roberth Strand (Crayon)
-- Benoit Petit (Hubblo, Boavizta)
-- Barry L. Rountree (LLNL)
-- Tapasya Patki (LLNL)
-- Chiara Muzzolon (Mia-Platform)
-- Dimitri Mazmanov (Spotify)
-- Damien Mathieu (Okta/Auth0)
-- Daniel Shown (PowerFlex)
-- Nikhil Vytla (TruEra)
+Environmental Sustainability TAG operations are consistent with standard TAG operating guidelines provided by the [CNCF Technical Oversight Committee TOC](https://github.com/cncf/toc).
