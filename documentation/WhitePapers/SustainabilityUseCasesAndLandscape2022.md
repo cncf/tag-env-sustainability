@@ -92,6 +92,9 @@ On the other hand, architectures that address the root cause of energy waste, in
 <!--- TODO: add a diagram to illustrate data center composition --->
 ### Telemetry
 
+### Smart Data Centers
+* ECO-Qube is a holistic management system which aims to enhance energy efficiency and cooling performance by orchestrating both hardware and software components in edge computing applications [ECO-Qube](https://eco-qube.eu/)
+
 ### Cooling / BMC
 * OCP Cooling Telemetry [Improve data center cooling facility efficiency through platform power telemetry](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf)
 * BMC Telemetry [Exposes Baseboard Management Controller data in Prometheus format.](https://github.com/gebn/bmc_exporter)
