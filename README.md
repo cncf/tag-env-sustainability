@@ -6,6 +6,10 @@ We want to raise awareness of environmental sustainability as a key element of o
 
 The [TAG Environmental Sustainability Charter](charter.md) further outlines the scope of our group activities as well as the goals and intended deliverables.
 
+## Glossary
+
+Within our [glossary](https://github.com/cncf/tag-env-sustainability/blob/main/glossary/glossary.md) you can find common wording, abbreviations and definitions we might use frequently. In case you are missing something or is unclear, your contribution is more than welcome!
+
 ## Meetings
 
 * The working group meets every 1st and 3rd Wednesday at 5pm CEST/GMT+2 (8am Pacific) on [Zoom](https://zoom.us/my/cncftagenvsustainability)
