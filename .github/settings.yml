@@ -17,7 +17,7 @@ repository:
   # a specific role, and we trust these individuals to act according to their
   # role. If there are questions, please contact one of the chairs.
 collaborators:
-
+  # admin: CNCF staff
   - username: caniszczyk
     permission: admin
 
