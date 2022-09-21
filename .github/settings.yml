@@ -41,15 +41,4 @@ collaborators:
     
   - username: scottrigby
     permission: maintain
-    
-  - username: catblade
-    permission: admin
-    
-  - username: scottrigby
-    permission: admin
 
-  - username: nikimanoledaki
-    permission: admin
-    
-  - username: cdeliaRH
-    permission: admin
