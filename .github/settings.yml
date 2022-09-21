@@ -17,7 +17,7 @@ repository:
   # a specific role, and we trust these individuals to act according to their
   # role. If there are questions, please contact one of the chairs.
 collaborators:
-  # Chairs
+
   - username: caniszczyk
     permission: admin
 
@@ -26,4 +26,15 @@ collaborators:
   
   - username: mkorbi
     permission: admin
+    
+  - username: catblade
+    permission: admin
+    
+  - username: scottrigby
+    permission: admin
 
+  - username: nikimanoledaki
+    permission: admin
+    
+  - username: cdeliaRH
+    permission: admin
