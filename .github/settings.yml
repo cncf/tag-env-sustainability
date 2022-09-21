@@ -24,8 +24,23 @@ collaborators:
   - username: amye
     permission: admin
   
+  # maintain: Bootstrap group volunteers prior to governance voting
+  # Alphabetically
+
+  - username: catblade
+    permission: maintain
+
+  - username: cdeliaRH
+    permission: maintain
+
+  - username: nikimanoledaki
+    permission: maintain
+
   - username: mkorbi
-    permission: admin
+    permission: maintain
+    
+  - username: scottrigby
+    permission: maintain
     
   - username: catblade
     permission: admin
