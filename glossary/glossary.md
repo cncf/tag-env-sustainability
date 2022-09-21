@@ -13,7 +13,7 @@ This glossary aims to define the wording used within our Technical Advisory Grou
 #### **Carbon or Carbon Dioxide (CO2)**
 
 Carbon Dioxide commonly just named carbon is a colorless, odorless gas, that is released from burning fossil fuels, such as coal, oil, and natural gas. 
-This happens in order to produce energy, that therefore is needed to produce/provide goods (e.g. computer chips, cables etc.) and services (e.g. digital services like cloud computing, file sharing etc.).
+CO2 emissions are fundamentally a natural process, but one that has been exacerbated by the burning of natural resources for energy production or logistics to such an extent that it is now a major factor in climate change. Depending on how the supply chain of hardware (e.g. computer chips, cables etc.) and software (e.g. digital services like cloud computing, file sharing etc.) production/services is structured, CO2 gets emitted. 
 
 #### **Carbon Diet**
 
