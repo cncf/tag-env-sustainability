@@ -29,7 +29,7 @@ This includes the release of GHG through direct use (e.g. the energy consumption
 
 Often used by organizations and companies to express that they equalize the cause of carbon pollution they generate. 
 This typically happens by buying negative carbon emissions from organizations that really saved carbon or are net-zero or even reduce more carbon than they produce. 
-However, it is important to understand that this is just compensation. Please read about Net Zero, as both terms are often mixed or misleadingly used.
+However, it is important to understand that this is only a compensation and does not have to imply a new product development leading to more sustainability. Please also read about the term "Net Zero" as both terms are often mixed or misleadingly used.
 
 ### E
 
