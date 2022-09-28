@@ -2,10 +2,10 @@ repository:
   # See https://developer.github.com/v3/repos/#edit for all available settings.
 
   # The name of the repository. Changing this will rename the repository
-  name: wg-env-sustainability
+  name: tag-env-sustainability
 
   # A short description of the repository that will show up on GitHub
-  description: 🌳🌍♻️ Environmental Sustainability Working Group 
+  description: 🌳🌍♻️ TAG Environmental Sustainability 
 
   # A URL with more information about the repository
   homepage: https://cncf.io/projects
@@ -17,13 +17,28 @@ repository:
   # a specific role, and we trust these individuals to act according to their
   # role. If there are questions, please contact one of the chairs.
 collaborators:
-  # Chairs
+  # admin: CNCF staff
   - username: caniszczyk
     permission: admin
 
   - username: amye
     permission: admin
   
+  # maintain: Bootstrap group volunteers prior to governance voting
+  # Alphabetically
+
+  - username: catblade
+    permission: maintain
+
+  - username: cdeliaRH
+    permission: maintain
+
+  - username: nikimanoledaki
+    permission: maintain
+
   - username: mkorbi
-    permission: admin
+    permission: maintain
+    
+  - username: scottrigby
+    permission: maintain
 
