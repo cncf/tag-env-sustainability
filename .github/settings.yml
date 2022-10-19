@@ -24,21 +24,14 @@ collaborators:
   - username: amye
     permission: admin
   
-  # maintain: Bootstrap group volunteers prior to governance voting
+  # maintain: CNCF TAG Environmental Sustainability co-chairs
   # Alphabetically
 
   - username: catblade
     permission: maintain
 
-  - username: cdeliaRH
-    permission: maintain
-
-  - username: nikimanoledaki
+  - username: leonardpahlke
     permission: maintain
 
   - username: mkorbi
     permission: maintain
-    
-  - username: scottrigby
-    permission: maintain
-
