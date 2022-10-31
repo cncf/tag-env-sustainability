@@ -12,3 +12,9 @@ The [TAG Environmental Sustainability Charter](charter.md) further outlines the 
 * Meeting notes & agenda can be found [here](https://docs.google.com/document/d/1TkmMyXJABC66NfYmivnh7z8Y_vpq9f9foaOuDVQS_Lo/edit#)
 * Public discussion runs on https://lists.cncf.io/g/cncf-tag-env-sustainability/ via mailto:cncf-tag-env-sustainability@lists.cncf.io
 * Reach us at [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) slack channel on slack.cncf.io
+
+### TAG Environmental Sustainability
+* [Marlow Weston](https://github.com/catblade)
+* [Max Körbächer](https://github.com/mkorbi)
+* [Leonard Vincent Simon Pahlke](https://github.com/leonardpahlke)
+
