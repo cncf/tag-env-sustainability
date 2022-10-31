@@ -18,27 +18,26 @@ repository:
   # role. If there are questions, please contact one of the chairs.
 collaborators:
   # admin: CNCF staff
-  - username: caniszczyk
-    permission: admin
-
+  # Alphabetically
   - username: amye
     permission: admin
+  - username: caniszczyk
+    permission: admin
   
-  # maintain: Bootstrap group volunteers prior to governance voting
+  # CNCF TAG Environmental Sustainability co-chairs
   # Alphabetically
-
   - username: catblade
-    permission: maintain
+    permission: admin
+  - username: leonardpahlke
+    permission: admin
+  - username: mkorbi
+    permission: admin
 
+  # maintainers: BOOTSTRAPPING MAINTAINERS, the TAG is currently in the formation phase and has not yet documented governance or appointed maintainers.
+  # Alphabetically
   - username: cdeliaRH
     permission: maintain
-
   - username: nikimanoledaki
     permission: maintain
-
-  - username: mkorbi
-    permission: maintain
-    
   - username: scottrigby
     permission: maintain
-
