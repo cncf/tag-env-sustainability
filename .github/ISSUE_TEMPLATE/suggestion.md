@@ -1,6 +1,6 @@
 ---
 name: Suggestion
-about: Idea for a new resource or process for the Environmental Sustainability TAG and you are not sure if you are the right person to work on it, or you want to get feedback from others to refine the idea
+about: Idea for a new resource or process that will improve the TAG Environmental Sustainability you want to work on (If you do want to implement the idea personally, you should use the "Proposal" template).
 title: "[Suggestion] some descriptive title"
 labels: "suggestion, triage-required"
 assignees: ''
@@ -9,7 +9,7 @@ assignees: ''
 
 <!-- Thank you for contributing to the TAG!
     Please remind that an issue is not the place to ask a question.
-    The README documents how to reach us https://github.com/cncf/tag-env-sustainability#meetings! 
+    The README documents how to reach us https://github.com/cncf/tag-env-sustainability#contact 
     Thank you :) -->
 
 #### Description
