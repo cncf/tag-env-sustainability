@@ -19,4 +19,3 @@ The [TAG Environmental Sustainability Charter](charter.md) further outlines the 
 * [Marlow Weston](https://github.com/catblade)
 * [Max Körbächer](https://github.com/mkorbi)
 * [Leonard Vincent Simon Pahlke](https://github.com/leonardpahlke)
-
