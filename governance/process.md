@@ -22,7 +22,7 @@ line with the [mission and charter](../charter.md).
 
 1. **Raise an Issue:**
 
-[Create an issue](https://github.com/cncf/wg-env-sustainability/issues/new)
+[Create an issue](https://github.com/cncf/tag-env-sustainability/issues/new)
 that outlines the problem to be solved. Use the proposal template if you
 are interested in leading the work, or suggestion template if you would like
 someone else to lead the effort. If possible, include:
@@ -45,7 +45,7 @@ might share insights (via invited presentation) or wish to get involved.
    interested in working on the project is able to attend, then add the issue
    to the meeting agenda: include a link and the name of the person who will
    present the proposal in the "Planned Meeting" area of the
-   [meeting notes][https://github.com/cncf/wg-env-sustainability#meetings].
+   [meeting notes][https://github.com/cncf/tag-env-sustainability#meetings].
    Then at the meeting:
    * The presenter should screen share the github issue (or ask the meeting
    facilitator ahead of time to do so) and explain the motivation, expected

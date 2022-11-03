@@ -6,11 +6,11 @@ This document is intended to provide a consistent mechanism for cloud nativecenv
 
 If a proposal is made that includes a paper as a deliverable, the proposal needs to ensure that there is a clearly identified lead and a well defined paper scope.
 
-The paper scope and topic should be raised in at least one WG meeting to solicit more volunteers (ideally 4). A diverse group of contributors from different companies/geos/backgrounds would be valuable. Interested parties should meet at least once to describe the intent of the paper, & propose a very rough outline to present to WG leadership for planning and scheduling as a project.
+The paper scope and topic should be raised in at least one TAG meeting to solicit more volunteers (ideally 4). A diverse group of contributors from different companies/geos/backgrounds would be valuable. Interested parties should meet at least once to describe the intent of the paper, & propose a very rough outline to present to TAG leadership for planning and scheduling as a project.
 
 ## Project
 
-Once a WG Leadership sponsor is assigned to the project, the group should meet to and agree on a tentative schedule.
+Once a TAG Leadership sponsor is assigned to the project, the group should meet to and agree on a tentative schedule.
 
 ### Tentative schedule milestones
 
@@ -89,7 +89,7 @@ This is the opportunity for the group to collectively review the polished paper 
 
 ### Community Review
 
-At this point the paper needs to be locked from editing with the exception of the Adjudicators (see below).  It should be made public with the permission settings such that suggestions and comments are permitted. The lead will then provide a brief write up of a call to action with a link to the document and the due by date for comments. This write up and corresponding links and details will be emailed to the Environmental Sustainability WG mailing list, at which point we actively solicit public comment.
+At this point the paper needs to be locked from editing with the exception of the Adjudicators (see below).  It should be made public with the permission settings such that suggestions and comments are permitted. The lead will then provide a brief write up of a call to action with a link to the document and the due by date for comments. This write up and corresponding links and details will be emailed to the Environmental Sustainability TAG mailing list, at which point we actively solicit public comment.
 
 ### Public comment adjudication
 
@@ -99,7 +99,7 @@ Decisive resolution is the practice by which the group attempts to immediately r
 
 ### CNCF publishing engagement
 
-Once the comments on the paper are adjudicated the paper is ready for publishing. The WG Leadership sponsor will work with the CNCF gather resources to assist in final edits and conversion to PDF and graphics inclusion (if needed). They can also assist with the conversion to markdown. The paper lead will work with the WG Leadership sponsor to review publishing drafts prior to final versioned copy and inclusion in the repo.
+Once the comments on the paper are adjudicated the paper is ready for publishing. The TAG Leadership sponsor will work with the CNCF gather resources to assist in final edits and conversion to PDF and graphics inclusion (if needed). They can also assist with the conversion to markdown. The paper lead will work with the TAG Leadership sponsor to review publishing drafts prior to final versioned copy and inclusion in the repo.
 
 ### Addition to the repo
 
@@ -109,18 +109,18 @@ The CNCF may initiate the PR for the converted markdown of the paper and the gra
 * About - covers what the paper was about, a brief summary
 * Updates to the paper - "intended to be a living document created and maintained for the community, by its members."
   * Markdown -  "maintained in markdown and all updates will be made in markdown."
-  * Contributing updates - "All members of the community are welcome to contribute updates. We ask potential contributors to refer to the original design decisions, listed below, as guidance when determining the content of their updates. It is highly recommended that you seek peer review for your updates beyond that of the Technical Leads and Co-Chairs of the WG."
-  * Versioning and publishing - "It is expected that many minor updates will occur, corrections to grammar, spelling, clarification in language, translations, etc. When these occur they are considered minor changes to the overall content and will not warrant the regeneration of the PDF.  When significant changes to the intent, content, or numerous minor changes occur, the contributors will assess and determine if a new major version of the PDF needs published. When this decision is made, the markdown content will be converted to text document and sent to the CNCF technical writers to create the PDF. The PDF will then be published back into the repository annotating the new version, updating the links in the README.md accordingly.  Minor updates to the markdown shall receive a minor version bump indicated in the Metadata table of the document and recorded as WIP. When enough significant changes have been recorded, the markdown will be placed "In Review" (via PR) and solicited to the CNCF Environmental Sustainability WG and TOC mailing list for review, at a minimum. Upon completion of review, the Environmental Sustainability WG's TOC Liaison shall provide final approval on the PR. At which point the markdown state will be changed to "Approved" and merged."
+  * Contributing updates - "All members of the community are welcome to contribute updates. We ask potential contributors to refer to the original design decisions, listed below, as guidance when determining the content of their updates. It is highly recommended that you seek peer review for your updates beyond that of the Technical Leads and Co-Chairs of the TAG."
+  * Versioning and publishing - "It is expected that many minor updates will occur, corrections to grammar, spelling, clarification in language, translations, etc. When these occur they are considered minor changes to the overall content and will not warrant the regeneration of the PDF.  When significant changes to the intent, content, or numerous minor changes occur, the contributors will assess and determine if a new major version of the PDF needs published. When this decision is made, the markdown content will be converted to text document and sent to the CNCF technical writers to create the PDF. The PDF will then be published back into the repository annotating the new version, updating the links in the README.md accordingly.  Minor updates to the markdown shall receive a minor version bump indicated in the Metadata table of the document and recorded as WIP. When enough significant changes have been recorded, the markdown will be placed "In Review" (via PR) and solicited to the CNCF Environmental Sustainability TAG and TOC mailing list for review, at a minimum. Upon completion of review, the Environmental Sustainability TAG's TOC Liaison shall provide final approval on the PR. At which point the markdown state will be changed to "Approved" and merged."
 * Original design decisions - this is important as it is intended to enable the original contributors to not be gateways to content updates and allows both reviewers and future contributors to understand a create content around centralized guidance.
 * Links - include links to the files in the repo
 
 ### Blog publishing and coordination
 
-In an effort to increase visibility and awareness of the final product, it is strongly recommended the paper lead coordinate with WG leadership to engage the CNCF team for posting a blog to summarize and link to the paper. As community events occur, it is also recommended that the WG coordinate a submission to community events (presentation) on the paper.
+In an effort to increase visibility and awareness of the final product, it is strongly recommended the paper lead coordinate with TAG leadership to engage the CNCF team for posting a blog to summarize and link to the paper. As community events occur, it is also recommended that the TAG coordinate a submission to community events (presentation) on the paper.
 
 #### Authorship, attribution and acknowledgements
 
-Papers and other resources created from Environmental Sustainability WG efforts are under the authorship of Environmental Sustainability WG, and all members who have made contributions to the document (through writing, editing, creating illustrations, etc.) are considered "Contributors". Members of the public or Environmental Sustainability WG who have commented and given feedback during the Request for Comment (RFC) period of during the creation of the document are considered "Reviewers" of the project.
+Papers and other resources created from Environmental Sustainability TAG efforts are under the authorship of Environmental Sustainability TAG, and all members who have made contributions to the document (through writing, editing, creating illustrations, etc.) are considered "Contributors". Members of the public or Environmental Sustainability TAG who have commented and given feedback during the Request for Comment (RFC) period of during the creation of the document are considered "Reviewers" of the project.
 
 Individuals/groups who have made huge contributions/impact on the work can be acknowledged in an "Acknowledgements" section. This is to highlight stellar contributions and commitments by individuals that have went above and beyond to contribute to the project.
 

@@ -93,7 +93,7 @@ Project leads are responsible for the following:
 - Ensure progress and status reports are communicated to the TAG representative of the project
 - Resolving conflict within the project and escalating to leadership when required
 - Outreach and recruitment for the project
-- Provide retrospective of a project to the WG
+- Provide retrospective of a project to the TAG
 
 ## Role of Environmental Sustainability TAG representatives
 
