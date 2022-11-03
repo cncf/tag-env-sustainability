@@ -1,128 +1,85 @@
-# Roles within the WG
+# Roles within the TAG Environmental Sustainability
 
-The WG includes several key roles that are critical to the group's success.
+The TAG includes several key roles that are critical to the group's success.
 The group will have many members, all serving in varying capacities.  Within
 this document, "member" may refer to a Chair, a Technical Lead, or other
 Member roles.
 
-Through the high variety of inputs we received during the WG creation phase and the different perspectives displayed, a member structure similar to a TAG will be suitable.
+Through the high variety of inputs we received during the TAG creation phase and the different perspectives displayed, a member structure similar to a TAG will be suitable.
 
 The following is the current listing of member roles:
 
 * [Chairs](#role-of-chairs)
 * [Technical Leads](#role-of-technical-leads)
 * [Project Leads](#role-of-project-leads)
-* [STAG Representatives](#role-of-stag-representatives)
+* [TAG Representatives](#role-of-tag-representatives)
 * [Team leads](#role-of-team-leads)
 * [Group Members](#role-of-members)
 * [TOC Liaison](#toc-liaison)
 * [Facilitation Roles](#facilitation-roles)
 
-All members are identified in the WG [members](/members.md) file, with annotations
-where they hold an additional role.
-
-Members fulfilling any Roles in WG are responsible for understanding
-and abiding the by the governance and policies defined in this group.
-This commitment and execution of understanding includes not only commits to
-the repo, but also to any approvals or direction required by their Role.
+Members fulfilling any Roles in TAG are responsible for understanding and abiding the by the governance and policies defined in this group.
+This commitment and execution of understanding includes not only commits to the repo, but also to any approvals or direction required by their Role.
 
 ## Role of members
 
 * The primary role of a member is to contribute expertise to the group.
-* To add yourself as a member, submit a Pull Request (PR) adding yourself
-to the list of members.
+* To add yourself as a member, submit a Pull Request (PR) adding yourself to the list of members.
 
 ### Maintaining active members
 
 * Members *SHOULD* remain active and responsive in their Roles.
-* Members taking an extended leave of 1 or more months *SHOULD* coordinate with
-other members to ensure the role is adequately staffed during the leave.
-* Members going on leave for 1-3 months *MAY* work with other members to
-identify a temporary replacement.
-* Members of a role *SHOULD* remove any other members that have not
-communicated a leave of absence and either cannot be reached for more than 1
-month or are not fulfilling their documented responsibilities for more than 1
-month. This may be done through a super-majority vote of members, or if there
-are not enough *active* members to get a super-majority of votes cast, then
-removal may occur through a super-majority vote of the Chairs.
-* Members contribute to projects, according to the
-  [process](process.md).
+* Members taking an extended leave of 1 or more months *SHOULD* coordinate with other members to ensure the role is adequately staffed during the leave.
+* Members going on leave for 1-3 months *MAY* work with other members to identify a temporary replacement.
+* Members of a role *SHOULD* remove any other members that have not communicated a leave of absence and either cannot be reached for more than 1 month or are not fulfilling their documented responsibilities for more than 1 month. This may be done through a super-majority vote of members, or if there are not enough *active* members to get a super-majority of votes cast, then removal may occur through a super-majority vote of the Chairs.
+* Members contribute to projects, according to the [process](process.md).
 
 ### Managing membership
 
-* Membership disagreements may be escalated to the Chairs.  Disagreements
-among the Chairs may be escalated to a Environmental Sustainability WG TOC Liaison. (yet tbd)
-* Members *MAY* decide to step down at anytime and optionally propose a
-replacement.
+* Membership disagreements may be escalated to the Chairs. Disagreements among the Chairs may be escalated to a Environmental Sustainability TAG TOC Liaison.
+* Members *MAY* decide to step down at anytime and optionally propose a replacement.
 
 ## Role of chairs
 
-The Chairs serve in administrative roles, guiding the WG and support the decision taking. However, due to the pure complexity of the WG topic, the role of the chairs include also the activities of technical leads.
+The Chairs serve in administrative roles, guiding the TAG and support the decision taking. However, due to the pure complexity of the TAG topic, the role of the chairs include also the activities of technical leads.
 
 * Primary role of Chairs is to run operations and the governance of the group.
-* The Chairs are responsible for ensuring that group meetings are planned
-and facilitated effectively, while also engaging group members in leadership
-roles. Effective facilitation includes (but is not limited to) the following
-activities:
+* The Chairs are responsible for ensuring that group meetings are planned and facilitated effectively, while also engaging group members in leadership roles. Effective facilitation includes (but is not limited to) the following activities:
   * setting the agenda for meetings
-  * extending discussion via asynchronous communication to be inclusive of
-members who cannot attend a specific meeting time.
+  * extending discussion via asynchronous communication to be inclusive of members who cannot attend a specific meeting time.
   * scheduling discussion of proposals that have been submitted
   * asking for new proposals to be made to address an identified need
-  * partnering with Technical Leads to establish a roadmap and manage ongoing
-    projects
-
-If the WG has less than two Technical
-Leads, any Chair may act as Technical Lead.
+  * partnering with Technical Leads to establish a roadmap and manage ongoing projects
 
 ## Role of technical leads
 
-Technical Leads (TLs) expand the bandwidth of the leadership team. Proposals
-must have a TL or Chair working as an active sponsor (as detailed in
-[WG process](process.md)).
+Technical Leads (TLs) expand the bandwidth of the leadership team. Proposals must have a TL or Chair working as an active sponsor (as detailed in [TAG process](process.md)).
 
 The general list of activities for TL are:
 
 * Establish new sub-projects
 * Decommission existing sub-projects
 * Resolve cross-sub-project technical issues and decisions
-* Propose agenda items for meetings to ensure that open issues are
-  discussed with the group when needed
+* Propose agenda items for meetings to ensure that open issues are discussed with the group when needed
 
-[Environmental Sustainability WG TL nomination
-process](tech-lead-proposal-process.md)
+[Environmental Sustainability TAG TL nomination process](tech-lead-proposal-process.md)
 
 ## Role of project leads
 
-Project Leads lead specific projects where a deliverable has been defined
-within the issue.
+Project Leads lead specific projects where a deliverable has been defined within the issue.
 
 Project Leads are nominated and approved by the following process:
 
-  1. Project Lead actively participates in the group, initiates the proposal or
-  volunteers to take on a project that has been prioritized by the group
-  1. A Chair or TL nominates a candidate, or requests the community to
-  nominate in a slack thread
-  1. The nomination is communicated via a pull request annotating the list
-   of members in the [WG members](/members.md) with a link to the issue tracking
-   the project or on the issue tracking the project if a README is not yet made.
-  The nomination is typically open for a week (but may be shorter with LGTM
-  of at least two Chairs).
-  1. The issue is updated with the assignment of the project lead as "assignee"
-  alongside the TAG Leadership member.
-  1. Project Leads will be given the OWNER role of the directory or sub-directory
-  for their team's activities in order to empower merge/approve.
+  1. Project Lead actively participates in the group, initiates the proposal or volunteers to take on a project that has been prioritized by the group
+  1. A Chair or TL nominates a candidate, or requests the community to nominate in a slack thread
+  1. The issue is updated with the assignment of the project lead as "assignee" alongside the TAG Leadership member.
+  1. Project Leads will be given the OWNER role of the directory or sub-directory for their team's activities in order to empower merge/approve.
   
 ### On-going projects
   
-  On the occasion where a project becomes long term, Project Leads are also
-  given the OWNER role of the directory or sub-directory along with 1 other
-  nominated individual to ensure continuity in review and ongoing support of
-  the project.
+  On the occasion where a project becomes long term, Project Leads are also given the OWNER role of the directory or sub-directory along with 1 other nominated individual to ensure continuity in review and ongoing support of the project.
 
-Depending on the expected length of the project, Project Leads may be assigned
-as OWNERS of the project directory in this repository to help facilitate and
- moderate new content to the project.
+Depending on the expected length of the project, Project Leads may be assigned as OWNERS of the project directory in this repository to help facilitate and moderate new content to the project.
 
 ### Duties of a project lead
 
@@ -133,63 +90,46 @@ Project leads are responsible for the following:
 - Ensure smooth day-to-day operations of the project. This includes:
   - Ensuring meetings are scheduled, announced and recorded
   - Facilitation of meetings, ensuring minutes are recorded
-- Ensure progress and status reports are communicated to the WG
-representative of the project
-- Resolving conflict within the project and escalating to leadership
-when required
+- Ensure progress and status reports are communicated to the TAG representative of the project
+- Resolving conflict within the project and escalating to leadership when required
 - Outreach and recruitment for the project
 - Provide retrospective of a project to the WG
 
-## Role of WG representatives
+## Role of Environmental Sustainability TAG representatives
 
-Environmental Sustainability WG representatives are leadership executive sponsors of a project. The
-WG representative acts as a point of liaison with the WG leadership team
-and takes on a role of mentorship for the project lead(s).
+Environmental Sustainability TAG representatives are leadership executive sponsors of a project. The TAG representative acts as a point of liaison with the TAG leadership team and takes on a role of mentorship for the project lead(s).
 
-WG representatives are required to be part of the WG leadership team.
-This includes co-chairs, technical leads and co-chair emeritus roles.
-A WG representative may be of capacity of an individual contributor but
-cannot be the project lead of the same project they are representing.
+TAG Environmental Sustainability representatives are required to be part of the TAG leadership team. This includes co-chairs, technical leads and co-chair emeritus roles. A TAG representative may be of capacity of an individual contributor but cannot be the project lead of the same project they are representing.
 
-WG representatives are appointed through the following process:
+Environmental Sustainability TAG representatives are appointed through the following process:
 
-- A member of the leadership indicates that they would like to be a WG
-representative on a project by:
-  - editing the issue's "WG Representative" field to their github ID.
-  - setting the issue milestone to the corresponding milestone created for
-  their github ID.
-- WG representatives may change based on discretion of co-chairs.
+- A member of the leadership indicates that they would like to be a TAG representative on a project by:
+  - editing the issue's "TAG Representative" field to their github ID.
+  - setting the issue milestone to the corresponding milestone created for their github ID.
+- TAG representatives may change based on discretion of co-chairs.
 
-### Duties of a WG representative
+### Duties of a Environmental Sustainability TAG representative
 
-WG representatives are responsible for the following:
+Environmental Sustainability TAG representatives are responsible for the following:
 
-- Reporting back to the leadership on the status of the project, indicating
-when the project requires external governance help. For example, these
-include:
+- Reporting back to the leadership on the status of the project, indicating when the project requires external governance help. For example, these include:
   - Project is understaffed or suffers from rampant scope creep.
   - Project is inactive and needs to be discontinued.
   - Inter-personal issues within leads and/or members causing disruption.
-- Provide feedback to project lead to whether the current scope and operation
-of a project is in line with the vision and governance of the WG.
+- Provide feedback to project lead to whether the current scope and operation of a project is in line with the vision and governance of the TAG.
 - Mentorship of project leads on matters of leadership and governance process.
 - Provide privilege facilities that a project lead does not have access to.
+
 Examples are:
   - Creating a ServiceNow ticket with the CNCF for design help
   - Uploading of meeting recordings to youtube
-  - Approval of messages to WG mailing list
+  - Approval of messages to TAG mailing list
 
 ## TOC liaison
 
-> As WG we search for a deep alignment with the TOC and community, therefore, we apply TAG rules/processes
+The TOC Liaison for the Environmental Sustainability TAG is nominated by the TOC. The TAG Chairs are responsible for establishing effective communication with the TOC liaison, including further communication to the wider TOC upon request.
 
-The [CNCF TAG](https://github.com/cncf/toc/blob/master/tags) process identifies
-a TOC Liaison.  The WG Chairs are responsible for establishing effective
-communication with the TOC liaison, including further communication to the
-wider TOC upon request.
-
-The TOC Liaison will occasionally prioritize WG activities, as needed by the
-TOC, to further the [CNCF mission](https://github.com/cncf/foundation/blob/master/charter.md#1-mission-of-the-cloud-native-computing-foundation).
+The TOC Liaison will occasionally prioritize TAG activities, as needed by the TOC, to further the [CNCF mission](https://github.com/cncf/foundation/blob/master/charter.md#1-mission-of-the-cloud-native-computing-foundation).
 
 ## Facilitation roles
 
@@ -213,9 +153,7 @@ are welcome and PRs can be approved by any single Chair.
 
 ### Meeting facilitator
 
-The group meetings are an important part of community building and the
-facilitator ensures a welcoming and inclusive atmosphere. In keeping with these
-goals, the meeting facilitator has the following responsibilities:
+The group meetings are an important part of community building and the facilitator ensures a welcoming and inclusive atmosphere. In keeping with these goals, the meeting facilitator has the following responsibilities:
 
 * prepares the meeting notes with template and agenda
 * coordinates with presenter, if applicable
@@ -235,8 +173,7 @@ One or more of the following:
 * tech lead
 * co-chair
 
-Any member who meets the above qualifications is encouraged to add themselves
-to the [list of people in this role](/.github/settings.yml).
+Any member who meets the above qualifications is encouraged to add themselves to the [list of people in this role](/.github/settings.yml).
 
 ### Meeting Scribe(s)
 
@@ -244,16 +181,13 @@ Each meeting must have at a minimal one scribe and preferable with two.
 
 Scribe is expected to perform the following:
 
-* Plan to coordinate/review meeting Agenda with facilitator via Slack before
-start of meeting
+* Plan to coordinate/review meeting Agenda with facilitator via Slack before start of meeting
 * Summarize discussions and capture into meeting notes (not transcribe verbatim)
-* Clarify and annotate actions as discussion progresses with assignee and due
-dates
+* Clarify and annotate actions as discussion progresses with assignee and due dates
 * Partner with Facilitator to capture major occurring items in the meeting
 * Add links to issues being discussed if not already in Agenda
 * Open new issues to track action items from meeting
 
 ### Project teams
 
-Some ongoing projects may have teams where members are identified for
-additional roles and may be required to have specific expertise. If needed, this roles will be specify within each project.
+Some ongoing projects may have teams where members are identified for additional roles and may be required to have specific expertise. If needed, this roles will be specify within each project.
