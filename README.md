@@ -11,9 +11,9 @@ The [Environmental Sustainability](https://github.com/cncf/env-sustainability-wg
 If you are new to the group, we encourage you to check out our [First Time Contributing](/CONTRIBUTING/first-time-contributions.md) Page.
 
 **tl;dr**
-We utilize GitHub Discussions to open a space for asynchronously discussing topics of interest and move them out of mailing lists and slack threads.
+We utilize GitHub Issues to open a space for asynchronously discussing topics of interest and move them out of mailing lists and slack threads.
 
-Issues within this repository are meant for active tasks and work organization. 
+Issues within this repository are meant for active tasks, work organization and tracking progress. 
 
 
 ## Meetings

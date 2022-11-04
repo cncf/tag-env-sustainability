@@ -41,4 +41,4 @@ You are welcomed to open discussions to the community and to bring in your ideas
 
 ## Priviliged Access and Rights
 
-If you need additional access rights for the WG GitHub Repository and/or the [Project Board](https://github.com/orgs/cncf/projects/10), please open a [simple issue](https://github.com/cncf/wg-env-sustainability/issues/new) with the request.
+If you need additional access rights for the TAG Environmental Sustainability GitHub Repository and/or the [Project Board](https://github.com/orgs/cncf/projects/10), please open a [simple issue](https://github.com/cncf/tag-env-sustainability/issues/new) with the request.

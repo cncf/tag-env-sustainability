@@ -4,7 +4,7 @@ Except for urgent or very small grammar or spelling fixes, such as simple change
 
 ### Favorable review
 
-A favorable review is determined by the contents of the PR complying with the contributing guide, the writing style, and agreement the contents align with the WG's goals, objectives, and scope. It is anticipated that PRs submitted, with the exception of spelling and grammar changes, have been discussed with members of the WG via slack or issues.
+A favorable review is determined by the contents of the PR complying with the contributing guide, the writing style, and agreement the contents align with the TAG's goals, objectives, and scope. It is anticipated that PRs submitted, with the exception of spelling and grammar changes, have been discussed with members of the TAG via slack or issues.
 
 #### Nits
 
@@ -64,4 +64,4 @@ It is good practice to propose the changes you would like to see directly throug
 
 ### Merging pull requests
 
-PRs may be merged after at least one review as occurred, dependent on the type of changes reflected in the PR.  The merging party needs to verify a review has occurred, the PR is in alignment with this guide, and is in scope of the WG.
+PRs may be merged after at least one review as occurred, dependent on the type of changes reflected in the PR.  The merging party needs to verify a review has occurred, the PR is in alignment with this guide, and is in scope of the TAG.
