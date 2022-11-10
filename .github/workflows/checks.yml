@@ -1,5 +1,5 @@
 ---
-name: WG-Linter
+name: Linter
 
 # Run this workflow on every PR to main
 on:
