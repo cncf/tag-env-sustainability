@@ -1,9 +1,9 @@
 # Environmetal Sustainability TAG presentations
 
 Part of the TAG activities include having guest presentations by members of the community.
-We welcome any topic related to our mission and charter. Typical topics include projects,
-real-world use-cases, challenges or success stories. However, presentations must follow the
-following guidelines.
+We welcome any topic related to our mission and charter.
+Typical topics include projects, real-world use-cases, challenges or success stories.
+However, presentations must follow the following guidelines.
 
 ## Guidelines
 

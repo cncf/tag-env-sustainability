@@ -1,9 +1,8 @@
 # Roles within the TAG Environmental Sustainability
 
 The TAG includes several key roles that are critical to the group's success.
-The group will have many members, all serving in varying capacities.  Within
-this document, "member" may refer to a Chair, a Technical Lead, or other
-Member roles.
+The group will have many members, all serving in varying capacities.
+Within this document, "member" may refer to a Chair, a Technical Lead, or other Member roles.
 
 Through the high variety of inputs we received during the TAG creation phase and the different perspectives displayed, a member structure similar to a TAG will be suitable.
 
@@ -77,7 +76,7 @@ Project Leads are nominated and approved by the following process:
   
 ### On-going projects
   
-  On the occasion where a project becomes long term, Project Leads are also given the OWNER role of the directory or sub-directory along with 1 other nominated individual to ensure continuity in review and ongoing support of the project.
+On the occasion where a project becomes long term, Project Leads are also given the OWNER role of the directory or sub-directory along with 1 other nominated individual to ensure continuity in review and ongoing support of the project.
 
 Depending on the expected length of the project, Project Leads may be assigned as OWNERS of the project directory in this repository to help facilitate and moderate new content to the project.
 
@@ -97,9 +96,12 @@ Project leads are responsible for the following:
 
 ## Role of Environmental Sustainability TAG representatives
 
-Environmental Sustainability TAG representatives are leadership executive sponsors of a project. The TAG representative acts as a point of liaison with the TAG leadership team and takes on a role of mentorship for the project lead(s).
+Environmental Sustainability TAG representatives are leadership executive sponsors of a project.
+The TAG representative acts as a point of liaison with the TAG leadership team and takes on a role of mentorship for the project lead(s).
 
-TAG Environmental Sustainability representatives are required to be part of the TAG leadership team. This includes co-chairs, technical leads and co-chair emeritus roles. A TAG representative may be of capacity of an individual contributor but cannot be the project lead of the same project they are representing.
+TAG Environmental Sustainability representatives are required to be part of the TAG leadership team.
+This includes co-chairs, technical leads and co-chair emeritus roles.
+A TAG representative may be of capacity of an individual contributor but cannot be the project lead of the same project they are representing.
 
 Environmental Sustainability TAG representatives are appointed through the following process:
 
@@ -127,33 +129,26 @@ Examples are:
 
 ## TOC liaison
 
-The TOC Liaison for the Environmental Sustainability TAG is nominated by the TOC. The TAG Chairs are responsible for establishing effective communication with the TOC liaison, including further communication to the wider TOC upon request.
+The TOC Liaison for the Environmental Sustainability TAG is nominated by the TOC.
+The TAG Chairs are responsible for establishing effective communication with the TOC liaison, including further communication to the wider TOC upon request.
 
 The TOC Liaison will occasionally prioritize TAG activities, as needed by the TOC, to further the [CNCF mission](https://github.com/cncf/foundation/blob/master/charter.md#1-mission-of-the-cloud-native-computing-foundation).
 
 ## Facilitation roles
 
-Members often contribute by working in small groups that research and discuss
-options and then share their findings with the rest of the group in a
-presentation and typically contribute to the body of work in this
-repository (via Pull Request). Some tasks can be effectively executed
-by simply chiming in on a github issue and independently contributing a PR
-without any particular role or authorization.
+Members often contribute by working in small groups that research and discuss options and then share their findings with the rest of the group in a presentation and typically contribute to the body of work in this repository (via Pull Request).
+Some tasks can be effectively executed by simply chiming in on a github issue and independently contributing a PR without any particular role or authorization.
 
-This section describes roles where more coordination is helpful and the
-work benefits from identifying one or more members who will take
-on specific responsibilities.  Our goal is to empower members to move forward
-independently, while defining an approval process designed to support
-communication and alignment across the wider group.
+This section describes roles where more coordination is helpful and the work benefits from identifying one or more members who will take on specific responsibilities.
+Our goal is to empower members to move forward independently, while defining an approval process designed to support communication and alignment across the wider group.
 
-New roles in this section are typically defined after someone has acted in
-that role for some time informally, then proposed as an on-going role by Pull
-Request which must be approved by a majority of Chairs.  Process clarifications
-are welcome and PRs can be approved by any single Chair.
+New roles in this section are typically defined after someone has acted in that role for some time informally, then proposed as an on-going role by Pull Request which must be approved by a majority of Chairs.
+Process clarifications are welcome and PRs can be approved by any single Chair.
 
 ### Meeting facilitator
 
-The group meetings are an important part of community building and the facilitator ensures a welcoming and inclusive atmosphere. In keeping with these goals, the meeting facilitator has the following responsibilities:
+The group meetings are an important part of community building and the facilitator ensures a welcoming and inclusive atmosphere.
+In keeping with these goals, the meeting facilitator has the following responsibilities:
 
 * prepares the meeting notes with template and agenda
 * coordinates with presenter, if applicable
@@ -190,4 +185,5 @@ Scribe is expected to perform the following:
 
 ### Project teams
 
-Some ongoing projects may have teams where members are identified for additional roles and may be required to have specific expertise. If needed, this roles will be specify within each project.
+Some ongoing projects may have teams where members are identified for additional roles and may be required to have specific expertise.
+If needed, this roles will be specify within each project.
