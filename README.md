@@ -22,9 +22,4 @@ The [TAG Environmental Sustainability Charter](charter.md) further outlines the 
 
 ## New contributors
 
-If you are new to the group, we encourage you to check out our [First Time Contributing](/CONTRIBUTING/first-time-contributions.md) Page.
-
-**tl;dr**
-We utilize GitHub Issues to open a space for asynchronously discussing topics of interest and move them out of mailing lists and slack threads.
-
-Issues within this repository are meant for active tasks, work organization and tracking progress. 
+We encourage new contributors to read the [contributing documentation](CONTRIBUTING.md). If you have any questions, please contact us through the channels mentioned above.
