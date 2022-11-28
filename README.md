@@ -25,3 +25,7 @@ In case you are missing something or is unclear, your contribution is more than 
 * [Marlow Weston](https://github.com/catblade)
 * [Max Körbächer](https://github.com/mkorbi)
 * [Leonard Vincent Simon Pahlke](https://github.com/leonardpahlke)
+
+## New contributors
+
+We encourage new contributors to read the [contributing documentation](CONTRIBUTING.md). If you have any questions, please contact us through the channels mentioned above.
