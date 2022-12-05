@@ -21,7 +21,8 @@ In case you are missing something or is unclear, your contribution is more than 
 * Public discussion runs on our [mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/) via mailto:cncf-tag-env-sustainability@lists.cncf.io
 * Reach us at [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) slack channel on slack.cncf.io
 
-### TAG Environmental Sustainability
+### TAG Environmental Sustainability Co-Chairs
+
 * [Marlow Weston](https://github.com/catblade)
 * [Max Körbächer](https://github.com/mkorbi)
 * [Leonard Vincent Simon Pahlke](https://github.com/leonardpahlke)
