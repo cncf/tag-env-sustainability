@@ -1,7 +1,5 @@
 # TAG Environmental Sustainability 🌳🌍♻️
 
-🌱 [TAG Environmental Sustainability -- 2022 Survey](https://www.surveymonkey.com/r/TAG-Environmental-Sustainability-2022) (closing 11/25/2022) 🌱
-
 Welcome to the Environmental Sustainability Technical Advisory Group. This TAG works with the open source community to define environmental sustainability factors for the cloud native landscape, incubate and advocate open source projects to observe and measure Cloud Native infrastructure carbon footprint, optimize and eventually reduce carbon footprint and promote Cloud Native infrastructure to combat environmental challenges. 
 
 We want to raise awareness of environmental sustainability as a key element of open source development and support projects which foster an understanding of energy drivers. 
@@ -21,10 +19,15 @@ In case you are missing something or is unclear, your contribution is more than 
 * Public discussion runs on our [mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/) via mailto:cncf-tag-env-sustainability@lists.cncf.io
 * Reach us at [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) slack channel on slack.cncf.io
 
-### TAG Environmental Sustainability
+### TAG Environmental Sustainability Co-Chairs
+
 * [Marlow Weston](https://github.com/catblade)
 * [Max Körbächer](https://github.com/mkorbi)
 * [Leonard Vincent Simon Pahlke](https://github.com/leonardpahlke)
+
+### TAG Environmental Sustainability Tech Leads
+
+* [Cara Delia](https://github.com/caradelia)
 
 ## New contributors
 
