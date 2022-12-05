@@ -25,7 +25,7 @@ In case you are missing something or is unclear, your contribution is more than 
 * [Max Körbächer](https://github.com/mkorbi)
 * [Leonard Vincent Simon Pahlke](https://github.com/leonardpahlke)
 
-### TAG Environmental Sustainability
+### TAG Environmental Sustainability Tech Leads
 
 * [Cara Delia](https://github.com/caradelia)
 
