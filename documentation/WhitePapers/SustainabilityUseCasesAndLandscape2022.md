@@ -1,7 +1,7 @@
 # Current Sustainability Efforts and Use Cases Within the Cloud Native Landscape
 
 ### Contributors
-Huamin Chen, Marlow Weston, Niki Manoledaki, Eun Kyung Lee, [Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz)
+Huamin Chen, Marlow Weston, Niki Manoledaki, Eun Kyung Lee, [Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz), [Christopher Cantalupo](https://github.com/cmcantalupo)
 
 
 <!--
@@ -180,7 +180,29 @@ Batch scheduling according to power costs (carbon, money, et cetera)
 ### HPC Specific Models
 
 * OSTI [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
-* geopm [Extensible Power Manager](https://github.com/geopm/geopm)
+
+* GEOPM [Extensible Power Manager](https://geopm.github.io):<br>
+The Global Extensible Open Power Manager (GEOPM) is a framework for
+exploring power and energy optimizations on heterogeneous platforms.
+The GEOPM software is split into two packages: The GEOPM Service and
+the GEOPM Runtime. The GEOPM Service provides user-space access to low
+level hardware metrics and configuration knobs. The GEOPM Runtime
+leverages the GEOPM Service to tune hardware settings in reaction to
+hardware metrics and application feedback. The application feedback is
+collected through light weight asynchronous profiling hooks injected
+with callbacks into middle-ware packages. The GEOPM Runtime has a
+plugin architecture for selecting between optimization
+algorithms. Some of the built in algorithms target energy efficiency,
+and others optimize performance within a power bound.  The port of
+GEOPM to Kubernetes is ongoing. There is an [experimental
+branch](https://github.com/geopm/geopm/tree/cloud#experimental-branch)
+called ``cloud`` with implementations of new features that support
+Kubernetes.  These features will be migrated into the main ``dev``
+branch as they each become production ready. Additional documentation
+may be found in the [service readme
+file](https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support)
+and in the [runtime k8
+directory](https://github.com/geopm/geopm/tree/cloud/k8).
 
 ### Programming Languages
 
