@@ -1,7 +1,7 @@
 # Current Sustainability Efforts and Use Cases Within the Cloud Native Landscape
 
 ### Contributors
-Huamin Chen, Marlow Weston, Niki Manoledaki, Eun Kyung Lee
+Huamin Chen, Marlow Weston, Niki Manoledaki, Eun Kyung Lee, Chen Wang
 
 
 <!-- 
@@ -133,7 +133,8 @@ Batch scheduling according to power costs (carbon, money, et cetera)
 
 ### Scaling
 * On-demand: Serverless
-* VPA [Vertical Pod Autoscaler (VPA) recommenders pluggable with the default VPA on OpenShift](https://github.com/openshift/predictive-vpa-recommenders)
+* Predictive VPA [Predictive Vertical Pod Autoscaler (VPA) recommenders pluggable with the default VPA on OpenShift](https://github.com/openshift/predictive-vpa-recommenders)
+* CLEVER [Container Level Energy-efficient VPA Recommender pluggable with the default VPA on Kubernetes](https://github.com/sustainable-computing-io/clever)
 * Carbon Aware Scaling: Scale down or pause workloads when "Electricity Marginal Carbon Intensity (CO2eq/KHw)" is high  
 
 ### Tuning
