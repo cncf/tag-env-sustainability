@@ -1,7 +1,7 @@
 # Current Sustainability Efforts and Use Cases Within the Cloud Native Landscape
 
 ### Contributors
-Huamin Chen, Marlow Weston, Niki Manoledaki, Eun Kyung Lee, Chen Wang
+Huamin Chen, Marlow Weston, Niki Manoledaki, Eun Kyung Lee, Chen Wang, Chris Lloyd-Jones
 
 
 <!-- 
@@ -119,6 +119,7 @@ On the other hand, architectures that address the root cause of energy waste, in
 * Kubernetes Efficient Power Level Exporter [Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics](https://github.com/sustainable-computing-io/kepler)
 * Open Telemetry [High-quality, ubiquitous, and portable telemetry to enable effective observability](https://opentelemetry.io/)
 * [Carbon QL](https://github.com/Green-Software-Foundation/carbon-ql) - The intent of this project is to build a single API codenamed carbonQL that you can use to measure your software emissions for every runtime environment.
+* [Isotope](https://azuremarketplace.microsoft.com/en-en/marketplace/apps/avanade-5299580.amp_isotope_access?tab=overview) - Using [Azure Arc](https://azure.microsoft.com/en-us/products/azure-arc) to measure estimated carbon emissions.
 
 ## Compute Node
 * [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/) - Get to know the carbon footprint of your cloud usage - and reduce it.
