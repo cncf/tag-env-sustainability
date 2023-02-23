@@ -28,6 +28,8 @@
         "SBOM",
         "operationalize",
         "codecov",
-        "cloudcustodian"
+        "cloudcustodian",
+        "coefficiency",
+        "SIEC"
     ]
 }
