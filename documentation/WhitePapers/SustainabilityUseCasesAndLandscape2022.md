@@ -1,7 +1,7 @@
 # Current Sustainability Efforts and Use Cases Within the Cloud Native Landscape
 
 ### Contributors
-Huamin Chen, Marlow Weston, Niki Manoledaki, Eun Kyung Lee, [Parul Singh](https://github.com/husky-parul)
+Huamin Chen, Marlow Weston, Niki Manoledaki, Eun Kyung Lee, [Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz)
 
 
 <!--
@@ -126,6 +126,7 @@ On the other hand, architectures that address the root cause of energy waste, in
 * Open Telemetry [High-quality, ubiquitous, and portable telemetry to enable effective observability](https://opentelemetry.io/)
 * Green Metrics Tool [A holistic framework to measure the energy / co2 of your application.](https://docs.green-coding.berlin/)
 * Cloud Carbon Footprint [Measure, monitor, and reduce carbon emissions from the cloud](https://www.cloudcarbonfootprint.org/docs/)
+* [InfluxData Telegraf Collector](https://github.com/influxdata/telegraf) - an open source, plugin-based agent for collecting, processing, aggregating, and writing metrics. Includes multiple input plugins that help determine energy consumption, e.g. [intel_powerstat](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/intel_powerstat) (exposes CPU & DRAM power consumption, CPU temperature, TDP, CPU and uncore frequencies, C-State residencies), [ipmi_sensor](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/ipmi_sensor) (exposes IPMI sensor data), [redfish](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/redfish) (exposes CPU temperature, fan speed, power supply and voltage data as exposed by [DMTF's Redfish](https://redfish.dmtf.org/) interfaces), and a high number of plugins that help determine utilization of individual resources that in turn help identifying where the power is consumed. A rich set of available output plugins makes it easy to integrate with various metrics destinations.
 <!--
 ## Compute Node -->
 
