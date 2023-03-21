@@ -229,7 +229,7 @@ algorithms that can be safely deployed and use high level languages for data
 analysis.  To effectively gain energy efficiency with some applications,
 significant software dependencies may be required.  Control algorithms may
 rely on optimization software like machine learning packages, or other
-numerical packages.  The application being optimized my be composed of
+numerical packages.  The application being optimized may be composed of
 millions of lines of code, and there may be significant coupling between the
 application and control algorithm.  For these reasons, restricting the
 privileges of the processes running the control algorithm reduces software
@@ -245,7 +245,7 @@ Service:
 
 - Enable application feedback to drive power management decisions.
 
-- Ensure that power management decisions to not impact performance of future
+- Ensure power management decisions do not impact performance of future
   users of the platform after the application terminates.
 
 - Provide administrators with a fine grained access control interface
@@ -259,11 +259,11 @@ Service:
     service in Kubernetes.
 
   + Fast channel is interprocess shared memory with commands sent over a
-    blocking fifo to a supporting privileged thread. This provides extremely
+    blocking FIFO to a supporting privileged thread. This provides extremely
     fast batch operations especially when coupled to ioctl drivers or
     liburing.
 
-- Enable extention to support arbitrary hardware interfaces through the C++
+- Enable extension to support arbitrary hardware interfaces through the C++
   IOGroup plugin infrastructure.
 
 - Provide access to the service with bindings to C, C++, and Python (possibly
