@@ -1,5 +1,5 @@
 baseURL = "https://sustainability.cncf.io/"
-title = "CNCF TAG App Delivery"
+title = "CNCF TAG Environmental Sustainability"
 
 # Language settings
 contentDir = "content"
@@ -47,8 +47,8 @@ anchor = "smart"
 
 [languages]
 [languages.en]
-title = "CNCF TAG App Delivery"
-description = "TAG App Delivery focuses on enabling projects and initiatives related to delivering cloud-native applications, including building, deploying, managing, and operating them."
+title = "CNCF TAG Environmental Sustainability"
+description = "TAG Environmental Sustainability focuses on enabling projects and initiatives related to delivering cloud-native applications, including building, deploying, managing, and operating them."
 languageName ="English"
 # Weight used for sorting.
 weight = 1
@@ -107,7 +107,7 @@ prism_syntax_highlighting = false
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
 [params.github]
-  repo = "https://github.com/cncf/tag-app-delivery"
+  repo = "https://github.com/cncf/tag-env-sustainability"
   branch = "main"
   subdir = "website"
 

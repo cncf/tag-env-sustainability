@@ -6,13 +6,13 @@ toc_hide: true
 <div class="row mt-5 mb-3">
     <div class="col-lg-6">
         <div class="lead">
-        TAG App Delivery supports projects and initiatives related to delivering
+        TAG Environmental Sustainability supports projects and initiatives related to delivering
         cloud-native applications, including building, packaging, deploying,
         managing, and operating them.
         </div>
     </div>
     <div class="col-lg-6">
-        <img src="/images/tag-app-delivery-horizontal-color.svg" alt="Tag App Delivery logo" style="max-width: 300px;">
+        <img src="/images/tag-app-delivery-horizontal-color.svg" alt="Tag Environmental Sustainability logo" style="max-width: 300px;">
     </div>
 </div>
 

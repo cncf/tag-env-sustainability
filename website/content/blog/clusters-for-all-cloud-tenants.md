@@ -16,7 +16,7 @@ For these reasons and others, tenants often require their own isolated clusters 
 
 But deploying physical or even virtual machines for many clusters is inefficient and difficult to manage, so organizations have struggled to provide clusters to tenant teams. Happily :smile:, to meet these organizations' and users' needs, leading Kubernetes vendors have been researching and developing lighter weight mechanisms to provide isolated clusters for an organization's tenants. In this post we'll compare and contrast several of these emergent efforts.
 
-Do you have other projects and ideas to enhance multitenancy for cloud architecture? Then please join CNCF's App Delivery advisory group in discussing these [here](https://github.com/cncf/tag-app-delivery/issues/193); thank you!
+Do you have other projects and ideas to enhance multitenancy for cloud architecture? Then please join CNCF's Environmental Sustainability advisory group in discussing these [here](https://github.com/cncf/tag-app-delivery/issues/193); thank you!
 
 ### vcluster
 
@@ -54,4 +54,4 @@ As opposed to hosted virtual clusters, child clusters in kcp _could_ manage thei
 
 vcluster, CAPN, HyperShift, and kcp are emerging projects and ideas to meet cloud users' needs for multitenancy with _clusters_ as the unit of tenancy. Early adopters are already providing feedback on good and better parts of these approaches and new ideas emerge daily.
 
-Want to help drive new ideas for cloud multitenancy? Want to help cloud users understand and give feedback on emerging paradigms in this domain? Then join [the discussion](https://github.com/cncf/tag-app-delivery/issues/193) in CNCF's TAG App Delivery. Thank you!
+Want to help drive new ideas for cloud multitenancy? Want to help cloud users understand and give feedback on emerging paradigms in this domain? Then join [the discussion](https://github.com/cncf/tag-app-delivery/issues/193) in CNCF's TAG Environmental Sustainability. Thank you!

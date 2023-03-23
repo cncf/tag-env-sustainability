@@ -6,7 +6,7 @@ author: Josh Gavant
 
 ![infrastructure integration](/images/infrastructure-integration.png)
 
-TAG App Delivery formed the Cooperative Delivery working group in late 2021 to gather and report on emerging trends around coordinated delivery of infrastructure capabilities and applications. The TAG noted that while infrastructure teams are successfully adopting software development practices and deploying features and fixes continuously via the likes of GitOps and IaC (Infrastructure as Code), delivery of infrastructure capabilities is often not coordinated well with delivery of applications using that infrastructure. That is, there's a *gap* in delivery between application and infrastructure and coordination/cooperation is needed to bridge that gap.
+TAG Environmental Sustainability formed the Cooperative Delivery working group in late 2021 to gather and report on emerging trends around coordinated delivery of infrastructure capabilities and applications. The TAG noted that while infrastructure teams are successfully adopting software development practices and deploying features and fixes continuously via the likes of GitOps and IaC (Infrastructure as Code), delivery of infrastructure capabilities is often not coordinated well with delivery of applications using that infrastructure. That is, there's a *gap* in delivery between application and infrastructure and coordination/cooperation is needed to bridge that gap.
 
 The primary goals of the group have been to a) confirm the hypothesis that there is a gap, b) clarify how it manifests for end users and c) identify and encourage emerging trends to facilitate cooperation. For example, the group's [first hypotheses](https://github.com/cncf/tag-app-delivery/blob/main/cooperative-delivery-wg/charter/README.md#examples-of-known-patterns-aimed-to-deploy-applications) mentioned the following existing trends:
 
@@ -42,6 +42,6 @@ Late resolution and injection loosens coupling of apps and infrastructure and is
 
 ## Conclusion
 
-The mission of the Cooperative Delivery WG - soon to be the Platforms WG - is to gather feedback and highlight emerging trends that address gaps in coordination of infrastructure capabilities and applications. [Join us](https://github.com/cncf/tag-app-delivery) in TAG App Delivery to advance this topic and others relevant to application and platform developers and operators.
+The mission of the Cooperative Delivery WG - soon to be the Platforms WG - is to gather feedback and highlight emerging trends that address gaps in coordination of infrastructure capabilities and applications. [Join us](https://github.com/cncf/tag-app-delivery) in TAG Environmental Sustainability to advance this topic and others relevant to application and platform developers and operators.
 
 <sub>Image credit https://www.cleo.com/blog/knowledge-base-cloud-integration-platform</sub>

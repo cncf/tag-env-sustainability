@@ -1,11 +1,11 @@
 ---
-title: About TAG App Delivery
+title: About TAG Environmental Sustainability
 linkTitle: About
 toc_hide: true
 menu:
   main:
     weight: 20
-description: Projects and initatives maintained by TAG App Delivery
+description: Projects and initatives maintained by TAG Environmental Sustainability
 ---
 
 ## Working Groups

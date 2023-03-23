@@ -1,12 +1,12 @@
 ---
-title:  TAG App Delivery at Kubecon EU 2023
+title:  TAG Environmental Sustainability at Kubecon EU 2023
 date:   2023-03-20 12:00:00 +0000
 author: Josh Gavant
 ---
 
 ![Kubecon EU 2023](/images/kubecon-eu-2023.jpg)
 
-At Kubecon EU next month TAG App Delivery will bring together cloud-native
+At Kubecon EU next month TAG Environmental Sustainability will bring together cloud-native
 application developers and framework builders to meet each other and share
 insights and knowledge. Our goal is to make cloud development better for all by
 gathering feedback, finding synergies and guiding both users and projects.
@@ -35,7 +35,7 @@ Time   | Topic
 
 ## Project Pavilion booth
 
-TAG App Delivery will maintain a booth in the projects pavilion too. Stop by to
+TAG Environmental Sustainability will maintain a booth in the projects pavilion too. Stop by to
 talk about cross-cutting cloud development topics like platforms and GitOps and
 to meet fellow TAG contributors. The schedule for the booth follows:
 
