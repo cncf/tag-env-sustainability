@@ -201,10 +201,10 @@ In the case of an operator, a custom resource contains the desired state of the 
 The following example illustrates, how such an custom resource instance definition could look like:
 
 ```yaml
-apiVersion: example-app.appdelivery.cncf.io/v1alpha1
+apiVersion: example-app.sustainability.cncf.io/v1alpha1
 kind: ExampleApp
 metadata:
-  name: appdelivery-example-app
+  name: sustainability-example-app
 spec:
   appVersion: 0.0.1
   features:
@@ -218,12 +218,12 @@ spec:
   status:
     currentVersion: 0.0.1
     url: https://myloadbalancer/exampleapp/
-    authSecretName: appdelivery-example-app-auth
+    authSecretName: sustainability-example-app-auth
     backup:
       lastBackupTime: 12:00
 ```
 
-This example represents a custom resource with the name “appdelivery-example-app” of the kind “ExampleApp”.
+This example represents a custom resource with the name “sustainability-example-app” of the kind “ExampleApp”.
 
 The “spec” section is where the user can declare the desired state. This example declares that appVersion 0.0.1 should be deployed with one feature enabled and another disabled. Furthermore, backups of this application should be made, and a s3 bucket should be used.
 

@@ -16,6 +16,8 @@ toc_hide: true
     </div>
 </div>
 
+<p class="mt-5 mb-5"><img src="/images/windfarm.jpg" alt="Ocean wind farm"></p>
+
 
 The TAG produces guidance for and gathers feedback from cloud app users and
 developers and provides guidance and coordination to CNCF projects in the TAG's
@@ -27,7 +29,6 @@ technical domains.
     - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
 - [Mailing list](https://lists.cncf.io/g/cncf-tag-app-delivery/topics)
 
-<p class="mt-5"><img src="/images/man-using-laptop.jpg" alt="Man working on computer"></p>
 
 
 ## Meetings
