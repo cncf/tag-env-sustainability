@@ -1,5 +1,5 @@
 ---
-title: "CNCF TAG App Delivery"
+title: "TAG Environmental Sustainability"
 toc_hide: true
 ---
 
