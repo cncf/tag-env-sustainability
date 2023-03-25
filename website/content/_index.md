@@ -1,6 +1,6 @@
 ---
-title: "TAG Environmental Sustainability"
-toc_hide: true
+title: Events
+toc_hide: false
 ---
 
 <div class="row mt-5 mb-3">
@@ -12,24 +12,19 @@ toc_hide: true
         </div>
     </div>
     <div class="col-lg-6">
-        <img src="/images/tag-app-delivery-horizontal-color.svg" alt="Tag Environmental Sustainability logo" style="max-width: 300px;">
+        <img src="/images/tag-environmental-sustainability_color.svg" alt="Tag Environmental Sustainability logo" style="max-width: 300px;">
     </div>
 </div>
 
 <p class="mt-5 mb-5"><img src="/images/windfarm.jpg" alt="Ocean wind farm"></p>
 
+This TAG's goal is to advocate for, develop, support, and help evaluate environmental sustainability initiatives in cloud native technologies. This TAG will identify values and possible incentives for service providers to reduce their consumption and carbon footprint through cloud native tooling.
 
-The TAG produces guidance for and gathers feedback from cloud app users and
-developers and provides guidance and coordination to CNCF projects in the TAG's
-technical domains.
-
-- [TAG Charter](https://github.com/cncf/toc/blob/main/tags/app-delivery.md)
-- [Community events](https://community.cncf.io/tag-app-delivery/)
-- Slack channel: [#tag-app-delivery](https://cloud-native.slack.com/messages/CL3SL0CP5)
+- [TAG Charter](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md)
+- Community events (in the works)
+- Slack channel: [#tag-env-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6)
     - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
-- [Mailing list](https://lists.cncf.io/g/cncf-tag-app-delivery/topics)
-
-
+- [Mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/topics)
 
 ## Meetings
 
@@ -37,17 +32,16 @@ technical domains.
 time](https://dateful.com/convert/utc?t=16)).
 
 Meetings are listed on the [main CNCF calendar](https://www.cncf.io/calendar/)
-as well as the [CNCF Community Calendar](https://community.cncf.io/tag-app-delivery/).
+as well as the [TAG ENV Calendar](https://tockify.com/cncf.public.events/monthly?search=TAG%20Environmental%20Sustainability).
 
-* [Agenda and Notes](https://docs.google.com/document/d/1OykvqvhSG4AxEdmDMXilrupsX2n1qCSJUWwTc3I7AOs/edit#)
-* [Zoom Meeting](https://zoom.us/j/7276783015) (Passcode: 77777)
-* [Recordings of previous meetings](https://www.youtube.com/playlist?list=PLj6h78yzYM2OHd1Ht3jiZuucWzvouAAci)
+* [Agenda and Notes](https://bit.ly/cncf-tag-env-meeting-notes)
+* [Zoom Meeting](https://zoom.us/my/cncftagenvsustainability) (Passcode: `77777`)
+* [Recordings of previous meetings](https://www.youtube.com/@CNCFEnvTAG/playlists) (uploads are done in batches end of the month)
 
 ## Leads
 
-- [Alois Reitbauer](https://github.com/AloisReitbauer) (Chair)
-- [Jennifer Strejevitch](https://github.com/jenniferstrej) (Chair)
-- [Hongchao Deng](https://github.com/hongchaodeng) (Chair)
-- [Alex Jones](https://github.com/alexsjones) (TL)
-- [Thomas Schuetz](https://github.com/thschue) (TL)
-- [Josh Gavant](https://github.com/joshgav) (TL)
+- [Leonard Pahlke](https://github.com/leonardpahlke) (Chair)
+- [Marlow Weston](https://github.com/catblade) (Chair)
+- [Max Körbächer](https://github.com/mkorbi) (Chair)
+
+- [Cara Delia](https://github.com/caradelia) (TL)
