@@ -43,5 +43,4 @@ as well as the [TAG ENV Calendar](https://tockify.com/cncf.public.events/monthly
 - [Leonard Pahlke](https://github.com/leonardpahlke) (Chair)
 - [Marlow Weston](https://github.com/catblade) (Chair)
 - [Max Körbächer](https://github.com/mkorbi) (Chair)
-
 - [Cara Delia](https://github.com/caradelia) (TL)
