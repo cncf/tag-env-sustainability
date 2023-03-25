@@ -1,5 +1,5 @@
 ---
-title: Events
+title: TAG Environmental Sustainability
 toc_hide: false
 ---
 

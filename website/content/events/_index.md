@@ -1,5 +1,5 @@
 ---
-title: Events TAG Environmental Sustainability
+title: Events
 linkTitle: Events
 list_pages: true
 menu:
