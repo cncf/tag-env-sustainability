@@ -1,7 +1,7 @@
 ---
 title: Events TAG Environmental Sustainability
 linkTitle: Events
-toc_hide: true
+list_pages: true
 menu:
   main:
     weight: 30
