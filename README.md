@@ -12,6 +12,10 @@ The [TAG Environmental Sustainability Charter](charter.md) further outlines the 
 Within our [glossary](./glossary/glossary.md) you can find common wording, abbreviations and definitions we might use frequently. 
 In case you are missing something or is unclear, your contribution is more than welcome!
 
+## Website
+
+In addition to what you can find in this repository, the TAG Environmental Sustainability maintains the website [sustainability.cncf.io](https://sustainability.cncf.io/) to more easily present information about TAG.
+
 ## Contact
 
 * The working group meets every 1st and 3rd Wednesday at 5pm CEST/GMT+2 (8am Pacific) on [Zoom](https://zoom.us/my/cncftagenvsustainability)
