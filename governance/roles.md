@@ -23,7 +23,7 @@ This commitment and execution of understanding includes not only commits to the 
 ## Role of members
 
 * The primary role of a member is to contribute expertise to the group.
-* To add yourself as a member, submit a Pull Request (PR) adding yourself to the list of members.
+* To add yourself as a member, submit a [Pull Request (PR)](https://github.com/cncf/people/blob/80529e2dac7b7e00cd385dbec2d3e6c7d04a1cfb/config.yaml#L1083) adding yourself to the list of members. Please put put TAG co-chairs in CC of the PR.
 
 ### Maintaining active members
 
