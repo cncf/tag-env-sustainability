@@ -1,7 +1,7 @@
 # Current Sustainability Efforts and Use Cases Within the Cloud Native Landscape
 
 ### Contributors
-Huamin Chen, Marlow Weston, Niki Manoledaki, Eun Kyung Lee, [Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz)
+Huamin Chen, Marlow Weston, Niki Manoledaki, Eun Kyung Lee, [Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz), [Christopher Cantalupo](https://github.com/cmcantalupo)
 
 
 <!--
@@ -180,7 +180,131 @@ Batch scheduling according to power costs (carbon, money, et cetera)
 ### HPC Specific Models
 
 * OSTI [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
-* geopm [Extensible Power Manager](https://github.com/geopm/geopm)
+
+* GEOPM [Extensible Power Manager](https://geopm.github.io):<br>
+The Global Extensible Open Power Manager (GEOPM) is a framework for
+exploring power and energy optimizations on heterogeneous platforms.
+The GEOPM software is split into two packages: The GEOPM Service and
+the GEOPM Runtime. The GEOPM Service provides user-space access to low
+level hardware metrics and configuration knobs. The GEOPM Runtime
+leverages the GEOPM Service to tune hardware settings in reaction to
+hardware metrics and application feedback. The application feedback is
+collected through light weight asynchronous profiling hooks injected
+with callbacks into middle-ware packages. The GEOPM Runtime has a
+plugin architecture for selecting between optimization
+algorithms. Some of the built in algorithms target energy efficiency,
+and others optimize performance within a power bound.  The port of
+GEOPM to Kubernetes is ongoing. There is an [experimental
+branch](https://github.com/geopm/geopm/tree/cloud#experimental-branch)
+called ``cloud`` with implementations of new features that support
+Kubernetes.  These features will be migrated into the main ``dev``
+branch as they each become production ready. Additional documentation
+may be found in the [service readme
+file](https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support)
+and in the [runtime k8
+directory](https://github.com/geopm/geopm/tree/cloud/k8).
+
+#### The GEOPM Approach
+
+The goal of GEOPM is to drive application energy efficiency by resolving three
+related challenges.  The first challenge is to enable hardware tuning
+algorithms to derive a robust estimate of application performance.  This is
+crucial because measurements of energy efficiency are expressed as ratios of
+performance to power, e.g. "perf per watt."  Any dynamic tuning of hardware
+power control parameters with a goal of energy efficiency must derive some
+estimate of application performance.  Without application feedback about the
+critical path, these performance estimates may be very inaccurate.  In this
+way, hardware tuning algorithms may interfere with application performance
+leading to longer run times which incur even higher energy costs per unit of
+work than if an adaptive algorithm were not applied.
+
+This leads to the second challenge: enabling a hardware control algorithm to
+be driven by unprivileged user input (i.e. application feedback) is a security
+risk.  Without proper guards in place, this can lead to escalation of
+privilege, denial of service, and impacts to quality of service for other
+users of the system.
+
+The third challenge is providing a software development platform for control
+algorithms that can be safely deployed and use high level languages for data
+analysis.  To effectively gain energy efficiency with some applications,
+significant software dependencies may be required.  Control algorithms may
+rely on optimization software like machine learning packages, or other
+numerical packages.  The application being optimized may be composed of
+millions of lines of code, and there may be significant coupling between the
+application and control algorithm.  For these reasons, restricting the
+privileges of the processes running the control algorithm reduces software
+security audit requirements significantly.
+
+#### The GEOPM Service
+
+The requirements of the GEOPM Runtime drove the creation of the GEOPM
+Service:
+
+- Read low level metrics from hardware components supplied by a variety of
+  vendors.
+
+- Enable application feedback to drive power management decisions.
+
+- Ensure power management decisions do not impact performance of future
+  users of the platform after the application terminates.
+
+- Provide administrators with a fine grained access control interface
+  for restricting privileges to telemetry and control.
+
+- Initiate interactions with clients through a secure channel in order to
+  configure communications over faster mechanisms:
+
+  + Secure channel is DBus when run as a systemd service.  This has been ported
+    to use gRPC as the secure communication channel to support a containerized
+    service in Kubernetes.
+
+  + Fast channel is interprocess shared memory with commands sent over a
+    blocking FIFO to a supporting privileged thread. This provides extremely
+    fast batch operations especially when coupled to ioctl drivers or
+    liburing.
+
+- Enable extension to support arbitrary hardware interfaces through the C++
+  IOGroup plugin infrastructure.
+
+- Provide access to the service with bindings to C, C++, and Python (possibly
+  Rust and Golang soon).
+
+The latest tagged release of the GEOPM Systemd Service is available
+from the [OpenSUSE hardware
+repository](https://download.opensuse.org/repositories/hardware) and
+does not have any HPC specific requirements.
+
+#### Ongoing work to port GEOPM to Kubernetes
+
+There are a number of GEOPM features under development that will enable use
+within Kubernetes:
+
+- Supporting gRPC as an alternative to DBus for communication with the GEOPM
+  Service
+
+- Enabling the GEOPM HPC Runtime to track non-MPI applications and run without
+  MPI
+
+- Adding support for liburing to enable asynchronous kernel IO
+
+- Fully managing the topology definition through the GEOPM service APIs
+
+- Kubernetes manifest files with examples of deploying the GEOPM
+  Service and Runtime
+
+Each of these features will be merged into the main GEOPM development
+branch, ``dev``, through individual pull requests when they are
+production ready.  In the mean time, an experimental branch is being
+maintained called [cloud](https://github.com/geopm/geopm/tree/cloud)
+which includes pre-production implementations for these features.
+This branch will be rebased on top of the ``dev`` branch periodically.
+These changes will then be part of a future GEOPM 3.0 release.
+
+Builds of the experimental ``cloud`` branch for the Tumbleweed
+distribution are posted to [OpenSUSE
+OBS](https://download.opensuse.org/repositories/home:/cmcantal:/cloud/openSUSE_Tumbleweed/)
+and a experimental docker images are maintained on
+[Dockerhub](https://hub.docker.com/repository/docker/cmcantal/geopm-service).
 
 ### Programming Languages
 
