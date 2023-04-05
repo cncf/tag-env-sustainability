@@ -103,7 +103,7 @@ to get this set of customers to use sustainable options, care must be taken to l
 ### Energy Conservation and Carbon Reduction
 
 #### Scheduling
-At scheduling phase, energy to be consumed by the workload can be reduced by intelligent schedulers that are aware of carbon footprint in a data center, thermal temperature and cooling, caching aware, or server power efficiency.
+
 
 #### Tuning, Scaling, and Configuration
 At runtime, energy consumed by workload can be reduced at HW level through DVFS based scaling, at SW level through runtime paramter tuning and re-configuration or at the orchestration level through scale-to-zero automation. 
@@ -117,9 +117,7 @@ On the other hand, architectures that address the root cause of energy waste, in
 
 ## Current Landscape
 
-### Software
-
-#### Telemetry Software and Measurement
+### Telemetry Software and Measurement
 * gProfiler [OS code profiling tool to visualize applications' execution sequences and resource usage down to the line of code level](https://docs.gprofiler.io/)
 * PowerAPI [Python framework for building software-defined power meters](https://github.com/powerapi-ng/)
 * [Kubernetes-based Efficient Power Level Exporter: ](https://github.com/sustainable-computing-io/kepler) <br>
@@ -135,7 +133,7 @@ On the other hand, architectures that address the root cause of energy waste, in
 * BMC Telemetry [Exposes Baseboard Management Controller data in Prometheus format.](https://github.com/gebn/bmc_exporter)
 * (thermal???)
 
-### Methodology For Measurement
+### Measurement Methodologies
 * Runtime system power consumption estimate [Run-time estimation of system and sub-system level power consumption](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 * [Software Carbon Intensity (SCI) Standard](https://github.com/Green-Software-Foundation/sci) - A specification that describes how to calculate a carbon intensity for software applications.
 * [Green Software Patterns](https://patterns.greensoftware.foundation/) - An online open-source database of software patterns reviewed and curated by the Green Software Foundation across a wide range of categories.
@@ -143,7 +141,6 @@ On the other hand, architectures that address the root cause of energy waste, in
 
 
 #### Telemetry Software
-
 
 * Energy Consumption Metrology Agent [Energy consumption metrology agent](https://github.com/hubblo-org/scaphandre)
 * Scaphandre [Energy Consumption Metrology Agent](https://github.com/hubblo-org/scaphandre)
@@ -156,18 +153,15 @@ On the other hand, architectures that address the root cause of energy waste, in
 * [Isotope](https://azuremarketplace.microsoft.com/en-en/marketplace/apps/avanade-5299580.amp_isotope_access?tab=overview) - Using [Azure Arc](https://azure.microsoft.com/en-us/products/azure-arc) to measure estimated carbon emissions.
 
 ## Compute Node
-* [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/) - Get to know the carbon footprint of your cloud usage - and reduce it.
 
-<!-- ### Device and Power -->
-<!--- TODO: add a diagram to illustrate computing devices and power draw --->
+* [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/) - Get to know the carbon footprint of your cloud usage - and reduce it.<br>
+Cloud Carbon Footprint is an open source tool that provides visibility and tooling to measure, monitor and reduce your cloud carbon emissions. We use best practice methodologies to convert cloud utilization into estimated energy usage and carbon emissions, producing metrics and carbon savings estimates that can be shared with employees, investors, and other stakeholders.
 
-### Power Management
-* Kubernetes Power Manager [Kubernetes Operator designed to expose and utilize Intel specific power management technologies in a Kubernetes Environment](https://github.com/intel/kubernetes-power-manager)
+### Scheduling At The Cluster Level
+At the cluster-level scheduling phase, energy to be consumed by the workload can be reduced by intelligent schedulers that are aware of carbon footprint in a data center, thermal temperature and cooling, caching aware, or server power efficiency.
 
-<!-- ## Energy Efficient Computing -->
-
-### Scheduling 
 * Power Driven Scheduling and Scaling with CPU telemetry in K8s [Power Driven Scheduling and Scaling with CPU telemetry in Kubernetes](https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power)
+* [Intent Driven Orchestration] (https://github.com/intel/intent-driven-orchestration)
 * Energy aware scheduling [Paper] [Improving Data Center Efficiency Through Holistic Scheduling In Kubernetes](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
 * Carbon-aware Kubernetes scheduler [Paper] [A Low Carbon Kubernetes Scheduler](http://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
 * [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): A [Green Software Foundation](https://greensoftware.foundation) project, to time-shift & region shift software to do more when the electricity is clean and do less when the electricity is dirty; by measuring the "Electricity Marginal Carbon Intensity (CO2eq/KHw)."
@@ -180,24 +174,23 @@ Batch scheduling according to power costs (carbon, money, et cetera)
 * CLEVER [Container Level Energy-efficient VPA Recommender pluggable with the default VPA on Kubernetes](https://github.com/sustainable-computing-io/clever)
 * [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): A [Green Software Foundation](https://greensoftware.foundation) project, to scale software to do more when the electricity is clean and do less when the electricity is dirty; by measuring the "Electricity Marginal Carbon Intensity (CO2eq/KHw)."
 
-### Tuning
-* Node tuning [Manage node-level tuning by orchestrating the tuned daemon](https://docs.openshift.com/container-platform/4.10/scalability_and_performance/using-node-tuning-operator.html)
+### On-Node Power Management Tuning
 * CPU tuning: x86, arm
 * GPU tuning
+* Node tuning [Manage node-level tuning by orchestrating the tuned daemon](https://docs.openshift.com/container-platform/4.10/scalability_and_performance/using-node-tuning-operator.html)
+* Kubernetes Power Manager [Kubernetes Operator designed to expose and utilize Intel specific power management technologies in a Kubernetes Environment](https://github.com/intel/kubernetes-power-manager) <br>
+This power manager is an operator which allows users to control power use of their containers.  This allows the leveraging of hardware and kernel features controlling power savings within  Kubernetes environments.  It has been proven to work with TuneD as well to allow TuneD profiles to bem used to control the power on the nodes according to various frequency tunings.
 
 ### Sustainability Initiatives
 * Green Software Foundation [Building a trusted ecosystem of people, standards, tooling and best practices for green software](https://greensoftware.foundation/)
   The Green Software Foundation (GSF) exists to change how we build software, [so there are zero harmful environmental effects](https://greensoftware.foundation/articles/theory-of-change-defining-strategy-gsf), a foundation with over 42 member organizations.
   Key pillars are Knowledge, Tech Culture, and Tooling; which are delivered through a [standards working group](https://standards.greensoftware.foundation/), an [open source working group](https://opensource.greensoftware.foundation/), a [community working group](https://community.greensoftware.foundation/), and a [policy working group](https://policy.greensoftware.foundation/).
   The GSF has created a [software carbon intensity (SCI)](https://github.com/Green-Software-Foundation/software_carbon_intensity) standard, which has been submitted to ISO (International Standards Organisation) for ratification, to ensure we measure carbon consistently. This standard is being implemented in code through the [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) (a tool to do more when the energy grid is green, and less when it is dirty), the [Carbon Pipeline](https://github.com/Green-Software-Foundation/Carbon_CI_Pipeline_Tooling) (measuring carbon in the CICD process, and [CarbonQL](https://github.com/Green-Software-Foundation/carbon-ql) - a standardized API for measuring carbon according to the SCI standard.
-* Equinix [Article] ["Equinix Prices $1.2 billion of Green Bonds in its Fourth Offering to Advance Sustainability Initiatives"](https://www.equinix.com/newsroom/press-releases/2022/04/equinix-prices-1-2-billion-of-green-bonds-in-its-fourth-offering-to-advance-sustainability-initiatives)
 * Etsy and Cloud carbon footprint.org [Cloud Carbon Footprint - Methodology](https://www.cloudcarbonfootprint.org/docs/methodology/)
 * LF Energy [Leading the energy transition through global open source collaboration](https://www.lfenergy.org/)
 * Energy Efficient High Performance Computing Working Group [Encourages implementation of energy conservation measures, energy efficient design in high performance computing (HPC)](https://eehpcwg.llnl.gov/)
 * [Green Software Training](https://learn.greensoftware.foundation/) - This initiative will teach you how to build, maintain and run greener applications irrespective of the application domain, industry, organization size or type, programming language, or framework; leading to a [Green Software Certification](https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/) backed by the Linux Foundation.
 * Linux Foundation's SustainabilityCon [The first sustainability-focused track by the Linux Foundation](https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/)
-
-### Emissions Reports
 
 ### Carbon Emissions Reports
 
@@ -218,27 +211,16 @@ Batch scheduling according to power costs (carbon, money, et cetera)
 
 * OSTI [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
 * GEOPM [Extensible Power Manager](https://geopm.github.io):<br>
-The Global Extensible Open Power Manager (GEOPM) is a framework for
-exploring power and energy optimizations on heterogeneous platforms.
-The GEOPM software is split into two packages: The GEOPM Service and
-the GEOPM Runtime. The GEOPM Service provides user-space access to low
-level hardware metrics and configuration knobs. The GEOPM Runtime
-leverages the GEOPM Service to tune hardware settings in reaction to
-hardware metrics and application feedback. The application feedback is
-collected through light weight asynchronous profiling hooks injected
-with callbacks into middle-ware packages. The GEOPM Runtime has a
-plugin architecture for selecting between optimization
-algorithms. Some of the built in algorithms target energy efficiency,
-and others optimize performance within a power bound.  The port of
-GEOPM to Kubernetes is ongoing. There is an [experimental
-branch](https://github.com/geopm/geopm/tree/cloud#experimental-branch)
-called ``cloud`` with implementations of new features that support
-Kubernetes.  These features will be migrated into the main ``dev``
-branch as they each become production ready. Additional documentation
-may be found in the [service readme
-file](https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support)
-and in the [runtime k8
-directory](https://github.com/geopm/geopm/tree/cloud/k8).
+The Global Extensible Open Power Manager (GEOPM) is a framework for exploring power and energy optimizations on heterogeneous platforms.
+The GEOPM software is split into two packages: The GEOPM Service and the GEOPM Runtime. The GEOPM Service provides user-space access to low
+level hardware metrics and configuration knobs. The GEOPM Runtime leverages the GEOPM Service to tune hardware settings in reaction to
+hardware metrics and application feedback. The application feedback is collected through light weight asynchronous profiling hooks injected
+with callbacks into middle-ware packages. The GEOPM Runtime has a plugin architecture for selecting between optimization
+algorithms. Some of the built in algorithms target energy efficiency, and others optimize performance within a power bound.  The port of
+GEOPM to Kubernetes is ongoing. There is an [experimental branch](https://github.com/geopm/geopm/tree/cloud#experimental-branch)
+called ``cloud`` with implementations of new features that support Kubernetes.  These features will be migrated into the main ``dev``
+branch as they each become production ready. Additional documentation may be found in the [service readme
+file](https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support) and in the [runtime k8 directory](https://github.com/geopm/geopm/tree/cloud/k8).
 
 ### Programming Language Efficiency Analysis
 
