@@ -60,16 +60,39 @@ All of these elements can be investigated further individually.
 
 ####  Providers
 Providers try to keep their day-to day down, but what functionality they expose users to can be quite limited.
+They do not trust their users, as users vary from amateur to experienced.  They also are not always great
+at accounting for carbon costs by specific users, and the carbon accounting can take much longer than users
+have to connect to individual types of jobs.  How this information is measured is often obtuse.
 
-#### Users
+####  Users
+Users are often not experienced.  Those that do care about carbon have a hard time connecting their
+individual workloads with actual carbon costs.
+
+### Bare Metal Clouds
 
 ### Generic Bare Metal Cloud
 In this evironment, the administrators are generally more trusting of users, as the users are accountable
 to the cloud they are running on.
 
 ### AI/ML
+AI/Ml clusters often have the normal issues found in bare metal clouds, but also have the added benefit of 
+XPUs, or accelerators.  These accelerators take a lot of energy, often more than that required from regular
+computer chips.  Additionally, some of the workloads on these clusters are not time sensitive, for instance
+traning sets of information, and some are time-sensitive, for instance inference jobs for recognition 
+systems.  The complexities of these environments are many.
 
 ### Telco
+Telco customers are often demanding.  Telco needs their systems to be extremely stable, and the traffic to be
+fast and reliable.  Some systems are left entirely at full-power because power modulation can affect traffic
+and the tolerance for this is low.  Building systems that reduce power that Telco is confident will not affect
+their traffic is challenging.
+
+### Finance
+Finance can have simulations being run, in the off-hours, and those will look like an AI/ML workload.  However,
+for transactions and fast-traffic, finance has predictable times of day of use-when the markets are up.  For this
+reason, time of day adjustments on the majority of the clusters run by finance can be limited.  However, transaction
+times do affect real dollars, so being fast will be prioritized in these environments over power use.  In order
+to get this set of customers to use sustainable options, care must be taken to limit impact to their bottom line.
 
 ## Current Research and Development
 
