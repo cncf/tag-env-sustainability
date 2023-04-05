@@ -4,21 +4,6 @@
 Huamin Chen, [Marlow Weston](https://github.com/catblade), Niki Manoledaki, Eun Kyung Lee, Chen Wang, Chris Lloyd-Jones, 
 [Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz), [Christopher Cantalupo](https://github.com/cmcantalupo)
 
-Formatting convention:
-
-## for top level topic
-### for sub level topics and so on
-
-Suggestions please use comments instead of inline with text
--->
-
-<!-- ## Use Cases -->
-## Use Cases
-<!--- TODO: add in details on these use cases --->
-### Green/sustainable computing
-
-System architecture and designs to optimize resource consumption, reduce environmental impact, and improve sustainability
-
 ## Challenges for Carbon/Energy Accounting
 Carbon emission for the Cloud computing system is largely composed of operational and embodied (or embeded) carbon emission. The operational carbon emissionis the amount of carbon pollution emitted during the operational or in-use phase of a Cloud computing system. The embodied carbon emission is the amount of carbon pollution emitted during the creation and disposal of Computing system (e.g., device, chip, servers, and etc.)
 
@@ -69,6 +54,46 @@ All of these elements can be investigated further individually.
 | Within a node     | Optimizing resources to handle workload specifications (which may include performance parameters) while minimizing resource consumption     |  Node Tuning, Pod Scaling    |
 
 
+## Use Cases
+
+### Cloud Service Providers
+
+####  Providers
+Providers try to keep their day-to day down, but what functionality they expose users to can be quite limited.
+They do not trust their users, as users vary from amateur to experienced.  They also are not always great
+at accounting for carbon costs by specific users, and the carbon accounting can take much longer than users
+have to connect to individual types of jobs.  How this information is measured is often obtuse.
+
+####  Users
+Users are often not experienced.  Those that do care about carbon have a hard time connecting their
+individual workloads with actual carbon costs.
+
+### Bare Metal Clouds
+
+### Generic Bare Metal Cloud
+In this evironment, the administrators are generally more trusting of users, as the users are accountable
+to the cloud they are running on.
+
+### AI/ML
+AI/Ml clusters often have the normal issues found in bare metal clouds, but also have the added benefit of 
+XPUs, or accelerators.  These accelerators take a lot of energy, often more than that required from regular
+computer chips.  Additionally, some of the workloads on these clusters are not time sensitive, for instance
+traning sets of information, and some are time-sensitive, for instance inference jobs for recognition 
+systems.  The complexities of these environments are many.
+
+### Telco
+Telco customers are often demanding.  Telco needs their systems to be extremely stable, and the traffic to be
+fast and reliable.  Some systems are left entirely at full-power because power modulation can affect traffic
+and the tolerance for this is low.  Building systems that reduce power that Telco is confident will not affect
+their traffic is challenging.
+
+### Finance
+Finance can have simulations being run, in the off-hours, and those will look like an AI/ML workload.  However,
+for transactions and fast-traffic, finance has predictable times of day of use-when the markets are up.  For this
+reason, time of day adjustments on the majority of the clusters run by finance can be limited.  However, transaction
+times do affect real dollars, so being fast will be prioritized in these environments over power use.  In order
+to get this set of customers to use sustainable options, care must be taken to limit impact to their bottom line.
+
 ## Current Research and Development
 
 ### Runtime System Power Measurement
@@ -79,7 +104,6 @@ All of these elements can be investigated further individually.
 
 #### Scheduling
 At scheduling phase, energy to be consumed by the workload can be reduced by intelligent schedulers that are aware of carbon footprint in a data center, thermal temperature and cooling, caching aware, or server power efficiency.
-
 
 #### Tuning, Scaling, and Configuration
 At runtime, energy consumed by workload can be reduced at HW level through DVFS based scaling, at SW level through runtime paramter tuning and re-configuration or at the orchestration level through scale-to-zero automation. 
@@ -92,10 +116,14 @@ For instance, programs written in [energy efficient langugages](https://haslab.g
 On the other hand, architectures that address the root cause of energy waste, including idle power and data center cooling, are evaluated to be more environmental friendly. For instance, Federated Learning spreads model training to devices that do not require expensive cooling is [evaluated](https://www.cam.ac.uk/research/news/can-federated-learning-save-the-world) to reduce carbon footprint in aggregate.
 
 ## Current Landscape
-<!-- ## Telemetry -->
 
-<!--- TODO: add a diagram to illustrate data center composition --->
-### Telemetry
+### Software
+
+#### Telemetry Software and Measurement
+* gProfiler [OS code profiling tool to visualize applications' execution sequences and resource usage down to the line of code level](https://docs.gprofiler.io/)
+* PowerAPI [Python framework for building software-defined power meters](https://github.com/powerapi-ng/)
+* [Kubernetes-based Efficient Power Level Exporter: ](https://github.com/sustainable-computing-io/kepler) <br>
+  Kepler leverages eBPF programs to probe per-container energy consumption related to system counters and exports them as Prometheus metrics. These metrics help end users monitor their containers’ energy consumption and help cluster administrators make intelligent decisions towards achieving their energy conservation goals. The [Kepler Model Server](https://github.com/sustainable-computing-io/kepler-model-server) is an internal program that provides Kepler with ML models for estimating power consumption on Kubernetes workloads. The Kepler Model Server pre-trains its models with node energy statistics (labels) and node performance counters (features) as Prometheus metrics on a variety of different Kubernetes clusters and workloads. Once the models achieve an acceptable performance level, Kepler Model Server exports them via flask routes and Kepler can then access them to calculate per-pod energy consumption metrics given per-pod performance counters. Unlike other similar projects, the Kepler Model Server also continuously trains and tunes its pre-trained models using node data scraped by Kepler’s Power Estimate Agents from client clusters. This gives Kepler the ability to further adapt its pod energy consumption calculation capabilities to serve clients’ unique systems.<br>
 
 ### Smart Data Centers
 * ECO-Qube is a holistic management system which aims to enhance energy efficiency and cooling performance by orchestrating both hardware and software components in edge computing applications [ECO-Qube](https://eco-qube.eu/)
@@ -107,23 +135,18 @@ On the other hand, architectures that address the root cause of energy waste, in
 * BMC Telemetry [Exposes Baseboard Management Controller data in Prometheus format.](https://github.com/gebn/bmc_exporter)
 * (thermal???)
 
-<!-- ### Software Agent -->
-
-<!--- TODO: add a diagram to explain the relationship between workload and power sources  --->
-
-### Methodology
+### Methodology For Measurement
 * Runtime system power consumption estimate [Run-time estimation of system and sub-system level power consumption](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 * [Software Carbon Intensity (SCI) Standard](https://github.com/Green-Software-Foundation/sci) - A specification that describes how to calculate a carbon intensity for software applications.
 * [Green Software Patterns](https://patterns.greensoftware.foundation/) - An online open-source database of software patterns reviewed and curated by the Green Software Foundation across a wide range of categories.
 * [SCI Guidance](https://sci-data.greensoftware.foundation/) - The SCI Guidance project details various approaches on how to understand the different methodologies that are available for calculating energy, carbon intensity,embodied emissions and functional unit values which are the core components of the SCI calculation.
 
-### Software Agent
-* gProfiler [OS code profiling tool to visualize applications' execution sequences and resource usage down to the line of code level](https://docs.gprofiler.io/)
+
+#### Telemetry Software
+
+
 * Energy Consumption Metrology Agent [Energy consumption metrology agent](https://github.com/hubblo-org/scaphandre)
 * Scaphandre [Energy Consumption Metrology Agent](https://github.com/hubblo-org/scaphandre)
-* PowerAPI [Python framework for building software-defined power meters](https://github.com/powerapi-ng/)
-* [Kubernetes-based Efficient Power Level Exporter: ](https://github.com/sustainable-computing-io/kepler) <br>
-  Kepler leverages eBPF programs to probe per-container energy consumption related to system counters and exports them as Prometheus metrics. These metrics help end users monitor their containers’ energy consumption and help cluster administrators make intelligent decisions towards achieving their energy conservation goals. The [Kepler Model Server](https://github.com/sustainable-computing-io/kepler-model-server) is an internal program that provides Kepler with ML models for estimating power consumption on Kubernetes workloads. The Kepler Model Server pre-trains its models with node energy statistics (labels) and node performance counters (features) as Prometheus metrics on a variety of different Kubernetes clusters and workloads. Once the models achieve an acceptable performance level, Kepler Model Server exports them via flask routes and Kepler can then access them to calculate per-pod energy consumption metrics given per-pod performance counters. Unlike other similar projects, the Kepler Model Server also continuously trains and tunes its pre-trained models using node data scraped by Kepler’s Power Estimate Agents from client clusters. This gives Kepler the ability to further adapt its pod energy consumption calculation capabilities to serve clients’ unique systems.<br>
 * [Container Level Energy-efficient VPA Recommender for Kubernetes](https://github.com/sustainable-computing-io/clever): <br>Vertical Pod Autoscalers in Kubernetes allow for automatic CPU and memory request and limit adjustment based on historical resource usage measurements. A VPA deployment has three main components: VPA Recommender, VPA Updater, and VPA Admission Controller. It is possible to replace the default VPA Recommender with a custom Recommender. CLEVER, an intelligent recommender, uses this feature to ensure the QoS or performance of the workloads are not compromised when you try to adjust the CPU frequencies of your cluster. Here’s how it works: assume you have a frequency tuner deployed in your cluster to update the frequency of the CPUs frequencies as per a target metrics or energy consumption budget.  Intuitively, when you lower down the frequencies, you do save energy but the performance of workloads also decreases. To counter this you can obtain information like ClusterState and CPU frequencies for the nodes after the frequencies were changed. CLEVER recomputes the new recommendation for CPU requests for pods managed by the VPA based on the updated CPU frequencies. That’s how CLEVER guarantees a similar QoS for a workload by lowering the frequencies to reduce energy but at the same time increasing CPU allocation.<br>
 * Open Telemetry [High-quality, ubiquitous, and portable telemetry to enable effective observability](https://opentelemetry.io/)
 * Green Metrics Tool [A holistic framework to measure the energy / co2 of your application.](https://docs.green-coding.berlin/)
