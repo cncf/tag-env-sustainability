@@ -188,17 +188,26 @@ The Node Tuning Operator helps you manage node-level tuning by orchestrating the
 This power manager is an operator which allows users to control power use of their containers.  This allows the leveraging of hardware and kernel features controlling power savings within  Kubernetes environments.  It has been proven to work with TuneD as well to allow TuneD profiles to bem used to control the power on the nodes according to various frequency tunings.
 
 ## Sustainability Initiatives
+
+### Organizations
 * :honeybee: Green Software Foundation [Building a trusted ecosystem of people, standards, tooling and best practices for green software](https://greensoftware.foundation/) <br>
   The Green Software Foundation (GSF) exists to change how we build software, [so there are zero harmful environmental effects](https://greensoftware.foundation/articles/theory-of-change-defining-strategy-gsf), a foundation with over 42 member organizations.
   Key pillars are Knowledge, Tech Culture, and Tooling; which are delivered through a [standards working group](https://standards.greensoftware.foundation/), an [open source working group](https://opensource.greensoftware.foundation/), a [community working group](https://community.greensoftware.foundation/), and a [policy working group](https://policy.greensoftware.foundation/). <br>
   The GSF has created a [software carbon intensity (SCI)](https://github.com/Green-Software-Foundation/software_carbon_intensity) standard, which has been submitted to ISO (International Standards Organisation) for ratification, to ensure we measure carbon consistently. This standard is being implemented in code through the [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) (a tool to do more when the energy grid is green, and less when it is dirty), the [Carbon Pipeline](https://github.com/Green-Software-Foundation/Carbon_CI_Pipeline_Tooling) (measuring carbon in the CICD process, and [CarbonQL](https://github.com/Green-Software-Foundation/carbon-ql) - a standardized API for measuring carbon according to the SCI standard.
 * :honeybee: [LF Energy](https://www.lfenergy.org/)<br>
   LF Energy is an open source foundation focused on the power systems sector, hosted within The Linux Foundation. LF Energy provides a neutral, collaborative community to build the shared digital investments that will transform the world’s relationship to energy.  This organization contains the repositories for the core LF Energy Foundation and many of the hosted projects and working groups. Their landscape can be found [here](https://landscape.lfenergy.org/).  
-* :honeybee: Energy Efficient High Performance Computing Working Group [Encourages implementation of energy conservation measures, energy efficient design in high performance computing (HPC)](https://eehpcwg.llnl.gov/)
-* :honeybee: [Green Software Training](https://learn.greensoftware.foundation/) - This initiative will teach you how to build, maintain and run greener applications irrespective of the application domain, industry, organization size or type, programming language, or framework; leading to a [Green Software Certification](https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/) backed by the Linux Foundation.
-* :honeybee: Linux Foundation's SustainabilityCon [The first sustainability-focused track by the Linux Foundation](https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/)
-* :honeybee: [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/)<br> Get to know the carbon footprint of your cloud usage - and reduce it.<br>
+* :honeybee: Energy Efficient High Performance Computing Working Group [Encourages implementation of energy conservation measures, energy efficient design in high performance computing (HPC)](https://eehpcwg.llnl.gov/)<br>
+  Mission is to encourage implementation of energy conservation measures, energy efficient design in high performance computing (HPC), and 
+  share ideas.  Can find an extensive collection of papers [here](https://datacenters.lbl.gov/resources?field_focus_areas_tid) that can be
+  extrapolated from in terms of patterns to be lifted into the cloud native landscape.
+* :honeybee: [Green Software Training](https://learn.greensoftware.foundation/) <br>
+  This initiative will teach you how to build, maintain and run greener applications irrespective of the application domain, industry, organization size or type, programming language, or framework; leading to a [Green Software Certification](https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/) backed by the Linux Foundation.
+* :honeybee: [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/)<br> 
+  Get to know the carbon footprint of your cloud usage - and reduce it.<br>
 Cloud Carbon Footprint is an open source tool that provides visibility and tooling to measure, monitor and reduce your cloud carbon emissions. We use best practice methodologies to convert cloud utilization into estimated energy usage and carbon emissions, producing metrics and carbon savings estimates that can be shared with employees, investors, and other stakeholders.
+
+### Conferences
+* :honeybee: Linux Foundation's SustainabilityCon [The first sustainability-focused track by the Linux Foundation](https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/)
 
 ### Carbon Emissions Reports
 
