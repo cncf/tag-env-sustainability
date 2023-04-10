@@ -96,12 +96,11 @@ systems.
 
 ### Runtime System Power Measurement
 
-:book: [A summarization of topics and research up to 2016](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
+:green_book: [A summarization of topics and research up to 2016](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 
 ### Energy Conservation and Carbon Reduction
 
 #### Scheduling
-
 
 #### Tuning, Scaling, and Configuration
 At runtime, energy consumed by workload can be reduced at HW level through DVFS based scaling, at SW level through runtime paramter tuning and re-configuration or at the orchestration level through scale-to-zero automation. 
@@ -127,11 +126,10 @@ On the other hand, architectures that address the root cause of energy waste, in
 
 ### Measurement Methodologies
 
-* Runtime system power consumption estimate [Run-time estimation of system and sub-system level power consumption](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 * [Software Carbon Intensity (SCI) Standard](https://github.com/Green-Software-Foundation/sci) - A specification that describes how to calculate a carbon intensity for software applications.
 * [Green Software Patterns](https://patterns.greensoftware.foundation/) - An online open-source database of software patterns reviewed and curated by the Green Software Foundation across a wide range of categories.
 * [SCI Guidance](https://sci-data.greensoftware.foundation/) - The SCI Guidance project details various approaches on how to understand the different methodologies that are available for calculating energy, carbon intensity,embodied emissions and functional unit values which are the core components of the SCI calculation.
-
+* Runtime system power consumption estimate [Run-time estimation of system and sub-system level power consumption](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 
 ### Telemetry Software
 
@@ -144,7 +142,7 @@ PowerAPI is a middleware toolkit for building software-defined power meters. Sof
   Kepler leverages eBPF programs to probe per-container energy consumption related to system counters and exports them as Prometheus metrics. These metrics help end users monitor their containers’ energy consumption and help cluster administrators make intelligent decisions towards achieving their energy conservation goals. The [Kepler Model Server](https://github.com/sustainable-computing-io/kepler-model-server) is an internal program that provides Kepler with ML models for estimating power consumption on Kubernetes workloads. The Kepler Model Server pre-trains its models with node energy statistics (labels) and node performance counters (features) as Prometheus metrics on a variety of different Kubernetes clusters and workloads. Once the models achieve an acceptable performance level, Kepler Model Server exports them via flask routes and Kepler can then access them to calculate per-pod energy consumption metrics given per-pod performance counters. Unlike other similar projects, the Kepler Model Server also continuously trains and tunes its pre-trained models using node data scraped by Kepler’s Power Estimate Agents from client clusters. This gives Kepler the ability to further adapt its pod energy consumption calculation capabilities to serve clients’ unique systems.<br>
 * :eyes: [Container Level Energy-efficient VPA Recommender for Kubernetes](https://github.com/sustainable-computing-io/clever): <br>Vertical Pod Autoscalers in Kubernetes allow for automatic CPU and memory request and limit adjustment based on historical resource usage measurements. A VPA deployment has three main components: VPA Recommender, VPA Updater, and VPA Admission Controller. It is possible to replace the default VPA Recommender with a custom Recommender. CLEVER, an intelligent recommender, uses this feature to ensure the QoS or performance of the workloads are not compromised when you try to adjust the CPU frequencies of your cluster. Here’s how it works: assume you have a frequency tuner deployed in your cluster to update the frequency of the CPUs frequencies as per a target metrics or energy consumption budget.  Intuitively, when you lower down the frequencies, you do save energy but the performance of workloads also decreases. To counter this you can obtain information like ClusterState and CPU frequencies for the nodes after the frequencies were changed. CLEVER recomputes the new recommendation for CPU requests for pods managed by the VPA based on the updated CPU frequencies. That’s how CLEVER guarantees a similar QoS for a workload by lowering the frequencies to reduce energy but at the same time increasing CPU allocation.<br>
 * :eyes: Energy Consumption Metrology Agent [Energy consumption metrology agent](https://github.com/hubblo-org/scaphandre) <br> Scaphandre is a monitoring agent, dedicated to energy consumption metrics. Its purpose is to help measuring and thus understanding tech services energy consumption patterns. This is key, in our opinion, to enable the tech industry to shift towards more sustainability
-* Green Metrics Tool [A holistic framework to measure the energy / co2 of your application.](https://docs.green-coding.berlin/)
+* :eyes: Green Metrics Tool [A holistic framework to measure the energy / co2 of your application.](https://docs.green-coding.berlin/)
 * :eyes: Cloud Carbon Footprint [Measure, monitor, and reduce carbon emissions from the cloud](https://www.cloudcarbonfootprint.org/docs/)
 * :eyes: [InfluxData Telegraf Collector](https://github.com/influxdata/telegraf) - an open source, plugin-based agent for collecting, processing, aggregating, and writing metrics. Includes multiple input plugins that help determine energy consumption, e.g. [intel_powerstat](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/intel_powerstat) (exposes CPU & DRAM power consumption, CPU temperature, TDP, CPU and uncore frequencies, C-State residencies), [ipmi_sensor](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/ipmi_sensor) (exposes IPMI sensor data), [redfish](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/redfish) (exposes CPU temperature, fan speed, power supply and voltage data as exposed by [DMTF's Redfish](https://redfish.dmtf.org/) interfaces), and a high number of plugins that help determine utilization of individual resources that in turn help identifying where the power is consumed. A rich set of available output plugins makes it easy to integrate with various metrics destinations.
 * :eyes: [Carbon QL](https://github.com/Green-Software-Foundation/carbon-ql) - The intent of this project is to build a single API codenamed carbonQL that you can use to measure your software emissions for every runtime environment.
@@ -155,16 +153,19 @@ This application pulls usage data (compute, storage, networking, etc.) from majo
 ### Scheduling At The Cluster Level
 At the cluster-level scheduling phase, energy to be consumed by the workload can be reduced by intelligent schedulers that are aware of carbon footprint in a data center, thermal temperature and cooling, caching aware, or server power efficiency.  Batch scheduling according to power costs (carbon, money, et cetera).
 
-* Power Driven Scheduling and Scaling with CPU telemetry in K8s [Power Driven Scheduling and Scaling with CPU telemetry in Kubernetes](https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power)
-* [Intent Driven Orchestration] (https://github.com/intel/intent-driven-orchestration)
-* Energy aware scheduling [Paper] [Improving Data Center Efficiency Through Holistic Scheduling In Kubernetes](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
-* Carbon-aware Kubernetes scheduler [Paper] [A Low Carbon Kubernetes Scheduler](http://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
+* :train: Power Driven Scheduling and Scaling with CPU telemetry in K8s [Power Driven Scheduling and Scaling with CPU telemetry in Kubernetes](https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power) <br>
+Telemetry Aware Scheduling, a scheduling extension, and the Kubernetes native Horizontal Pod Autoscaler are used to enable cluster automation based on real time information about the current state of power usage on the node.  The power metrics used to drive placement and scaling decisions derive from Intel's Running Average Power Limit (RAPL). collectd is used to gather the metrics and expose them to Prometheus which makes them available inside the cluster using the Prometheus Adapter.
+* :train: [Intent Driven Orchestration](https://github.com/intel/intent-driven-orchestration) <br>
+This grants a new way to do orchestration by moving from an imperative model to an intent driven model for choosing workload placement.  In this model, the user expresses their intents in form of objectives (e.g. as required latency, throughput, or reliability targets) and the orchestration stack itself determines what resources in the infrastructure are required to fulfill the objectives. This new approach will continue to benefit from community investments in scheduling (determining when & where to place workloads) and be augmented with a continuous running planning loop determining what/how to configure in the system.  There is already preliminary work being done to leverage this in a power-optimal usage ienvironment.
+* :green_book: Carbon-aware Kubernetes scheduler [A Low Carbon Kubernetes Scheduler](http://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
+* :green_book: Energy aware scheduling [Paper] [Improving Data Center Efficiency Through Holistic Scheduling In Kubernetes](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
+
 
 ### Scaling
 
-* Predictive VPA [Predictive Vertical Pod Autoscaler (VPA) recommenders pluggable with the default VPA on OpenShift](https://github.com/openshift/predictive-vpa-recommenders)
-* CLEVER [Container Level Energy-efficient VPA Recommender pluggable with the default VPA on Kubernetes](https://github.com/sustainable-computing-io/clever)
-* [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): A [Green Software Foundation](https://greensoftware.foundation) project, to time-shift & region shift software to do more when the electricity is clean and do less when the electricity is dirty; by measuring the "Electricity Marginal Carbon Intensity (CO2eq/KHw)."
+* :speedboat: Predictive VPA [Predictive Vertical Pod Autoscaler (VPA) recommenders pluggable with the default VPA on OpenShift](https://github.com/openshift/predictive-vpa-recommenders)
+* :speedboat: CLEVER [Container Level Energy-efficient VPA Recommender pluggable with the default VPA on Kubernetes](https://github.com/sustainable-computing-io/clever)
+* :speedboat: [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): A [Green Software Foundation](https://greensoftware.foundation) project, to time-shift & region shift software to do more when the electricity is clean and do less when the electricity is dirty; by measuring the "Electricity Marginal Carbon Intensity (CO2eq/KHw)."
 
 ### On-Node Power Management Tuning
 
