@@ -159,6 +159,8 @@ PowerAPI is a middleware toolkit for building software-defined power meters. Sof
 * :eyes: [Isotope](https://azuremarketplace.microsoft.com/en-en/marketplace/apps/avanade-5299580.amp_isotope_access?tab=overview) - Using [Azure Arc](https://azure.microsoft.com/en-us/products/azure-arc) to measure estimated carbon emissions.
 * :eyes: Etsy and Cloud carbon footprint.org [Cloud Carbon Footprint - Methodology](https://www.cloudcarbonfootprint.org/docs/methodology/) <br>
 This application pulls usage data (compute, storage, networking, etc.) from major cloud providers and calculates estimated energy (Watt-Hours) and greenhouse gas emissions expressed as carbon dioxide equivalents (metric tons CO2e). We display these visualizations in a dashboard for developers, sustainability leaders and other stakeholders in an organization to view and take action. It currently supports AWS, Google Cloud and Microsoft Azure.
+* :eyes: OSTI [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
+
 
 ### Scheduling At The Cluster Level
 At the cluster-level scheduling phase, energy to be consumed by the workload can be reduced by intelligent schedulers that are aware of carbon footprint in a data center, thermal temperature and cooling, caching aware, or server power efficiency.  Batch scheduling according to power costs (carbon, money, et cetera).
@@ -186,6 +188,22 @@ per node.
 The Node Tuning Operator helps you manage node-level tuning by orchestrating the TuneD daemon. The majority of high-performance applications require some level of kernel tuning. The Node Tuning Operator provides a unified management interface to users of node-level sysctls and more flexibility to add custom tuning specified by user needs.
 * :musical_note: Kubernetes Power Manager [Kubernetes Operator designed to expose and utilize Intel specific power management technologies in a Kubernetes Environment](https://github.com/intel/kubernetes-power-manager) <br>
 This power manager is an operator which allows users to control power use of their containers.  This allows the leveraging of hardware and kernel features controlling power savings within  Kubernetes environments.  It has been proven to work with TuneD as well to allow TuneD profiles to bem used to control the power on the nodes according to various frequency tunings.
+* :musical_note: GEOPM [Extensible Power Manager](https://geopm.github.io):<br>
+Initially specific to HPC environments, but now more generalized, the Global Extensible Open Power Manager (GEOPM) is a framework for exploring 
+power and energy optimizations on heterogeneous platforms.  The GEOPM software is split into two packages: The GEOPM Service and the GEOPM Runtime. 
+The GEOPM Service provides user-space access to low level hardware metrics and configuration knobs. The GEOPM Runtime leverages the GEOPM Service 
+to tune hardware settings in reaction to hardware metrics and application feedback. The application feedback is collected through light weight
+asynchronous profiling hooks injected with callbacks into middle-ware packages. The GEOPM Runtime has a plugin architecture for selecting between 
+optimization algorithms. Some of the built in algorithms target energy efficiency, and others optimize performance within a power bound.  The port of
+GEOPM to Kubernetes is ongoing. There is an [experimental branch](https://github.com/geopm/geopm/tree/cloud#experimental-branch)
+called ``cloud`` with implementations of new features that support Kubernetes.  These features will be migrated into the main ``dev``
+branch as they each become production ready. Additional documentation may be found in the [service readme
+file](https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support) and in the [runtime k8 directory](https://github.com/geopm/geopm/tree/cloud/k8).
+
+
+### HPC Specific Models
+
+
 
 ## Sustainability Initiatives
 
@@ -219,26 +237,11 @@ Cloud Carbon Footprint is an open source tool that provides visibility and tooli
 
 ### Net Zero / Carbon Neutrality
 
-* The Climate Pledge [Net-Zero Carbon by 2040](https://www.theclimatepledge.com/)
-* WeTransfer [WeTransfer becomes Climate Neutral](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)
-* Adrian Cockroft, ex-Amazon VP of Sustainability Architecture ["Cloud computing pioneer's new focus is on sustainability transformation"](https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation)
-* Supercritical [Helping businesses achieve net zero](https://gosupercritical.com/)
-
-### HPC Specific Models
-
-* OSTI [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
-* GEOPM [Extensible Power Manager](https://geopm.github.io):<br>
-The Global Extensible Open Power Manager (GEOPM) is a framework for exploring power and energy optimizations on heterogeneous platforms.
-The GEOPM software is split into two packages: The GEOPM Service and the GEOPM Runtime. The GEOPM Service provides user-space access to low
-level hardware metrics and configuration knobs. The GEOPM Runtime leverages the GEOPM Service to tune hardware settings in reaction to
-hardware metrics and application feedback. The application feedback is collected through light weight asynchronous profiling hooks injected
-with callbacks into middle-ware packages. The GEOPM Runtime has a plugin architecture for selecting between optimization
-algorithms. Some of the built in algorithms target energy efficiency, and others optimize performance within a power bound.  The port of
-GEOPM to Kubernetes is ongoing. There is an [experimental branch](https://github.com/geopm/geopm/tree/cloud#experimental-branch)
-called ``cloud`` with implementations of new features that support Kubernetes.  These features will be migrated into the main ``dev``
-branch as they each become production ready. Additional documentation may be found in the [service readme
-file](https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support) and in the [runtime k8 directory](https://github.com/geopm/geopm/tree/cloud/k8).
+* :leafy_green: The Climate Pledge [Net-Zero Carbon by 2040](https://www.theclimatepledge.com/)
+* :leafy_green: WeTransfer [WeTransfer becomes Climate Neutral](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)
+* :leafy_green: Adrian Cockroft, ex-Amazon VP of Sustainability Architecture ["Cloud computing pioneer's new focus is on sustainability transformation"](https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation)
+* :leafy_green: Supercritical [Helping businesses achieve net zero](https://gosupercritical.com/)
 
 ### Programming Language Efficiency Analysis
 
-* Energy Efficiency of Languages [The complete set of tools for energy consumption analysis of programming languages, using Computer Language Benchmark Game](https://github.com/greensoftwarelab/Energy-Languages)
+* :electric_plug: Energy Efficiency of Languages [The complete set of tools for energy consumption analysis of programming languages, using Computer Language Benchmark Game](https://github.com/greensoftwarelab/Energy-Languages)
