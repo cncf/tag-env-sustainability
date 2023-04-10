@@ -36,14 +36,11 @@ Quantifying embedded carbon emissions is also very challenging as manufactural d
 
 ## Layers of the solutions
 
-| Area | Goal | Efforts |
-| -------- | -------- | -------- |
-| Multi Data Centers     | Intelligently choosing which datacenter to schedule on according to environmental impact, time of day, et cetera     |  Cluster Management    |
 We can divide a system up into three general areas:
 
 1. Which datacenter to use, if there are mulitple options available.
-2. Where to place the workload once a datacenter is chosen.
-3. How to manage the resources on the node allocated for a resource to run on.
+1. Where to place the workload once a datacenter is chosen.
+1. How to manage the resources on the node allocated for a resource to run on.
 
 All of these elements can be investigated further individually.
 
@@ -57,42 +54,43 @@ All of these elements can be investigated further individually.
 ## Use Cases
 
 ### Cloud Service Providers
-
-####  Providers
+These include any cloud service provider, the most famous of these being clouds such as GKC, Azure, and AWS.  These 
+are often quite restrictive, as the providers restrict decisions users can make in regard to customers regarding
 Providers try to keep their day-to day down, but what functionality they expose users to can be quite limited.
 They do not trust their users, as users vary from amateur to experienced.  They also are not always great
 at accounting for carbon costs by specific users, and the carbon accounting can take much longer than users
 have to connect to individual types of jobs.  How this information is measured is often obtuse.
 
-####  Users
+####  Users of Cloud Service Providers
 Users are often not experienced.  Those that do care about carbon have a hard time connecting their
 individual workloads with actual carbon costs.
 
-### Bare Metal Clouds
+### Industry or User-Run Clouds
+These are clouds run by particular companies or universitios for use of the members of those companies or
+universitios.  These clouds are often more trusting environments, as the users are accountable to the 
+administrators or management of the cloud they are running their workloads on.  
 
-### Generic Bare Metal Cloud
-In this evironment, the administrators are generally more trusting of users, as the users are accountable
-to the cloud they are running on.
-
-### AI/ML
-AI/Ml clusters often have the normal issues found in bare metal clouds, but also have the added benefit of 
-XPUs, or accelerators.  These accelerators take a lot of energy, often more than that required from regular
-computer chips.  Additionally, some of the workloads on these clusters are not time sensitive, for instance
-traning sets of information, and some are time-sensitive, for instance inference jobs for recognition 
-systems.  The complexities of these environments are many.
-
-### Telco
+#### Telco
 Telco customers are often demanding.  Telco needs their systems to be extremely stable, and the traffic to be
 fast and reliable.  Some systems are left entirely at full-power because power modulation can affect traffic
 and the tolerance for this is low.  Building systems that reduce power that Telco is confident will not affect
 their traffic is challenging.
 
-### Finance
+#### Finance
 Finance may have simulations being run, in the off-hours, and those will look like an AI/ML workload.  However,
 for transactions and fast-traffic, finance has predictable times of day of use-when the markets are up.  For this
 reason, time of day adjustments on the majority of the clusters run by finance can be limited.  However, transaction
 times do affect real dollars, so being fast will be prioritized in these environments over power use.  In order
 to get this set of customers to use sustainable options, care must be taken to limit impact to their bottom line.
+
+### AI/ML
+These cases can exist either as schedulable compute at a cloud service provider or within a bare metal environment.
+In either case, the AI/Ml clusters often have the normal issues found in the above clouds, but also have the added complexity 
+of XPUs, or accelerators.  These accelerators take significant amounts of power to run, more by an order of magnitude required from regular
+computer chips.  Additionally, some of the workloads on these clusters are not time sensitive, for instance
+traning sets of information, and some are time-sensitive, for instance inference jobs for recognition 
+systems.
+
 
 ## Current Research and Development
 
@@ -187,16 +185,16 @@ This power manager is an operator which allows users to control power use of the
 * :honeybee: Energy Efficient High Performance Computing Working Group [Encourages implementation of energy conservation measures, energy efficient design in high performance computing (HPC)](https://eehpcwg.llnl.gov/)
 * :honeybee: [Green Software Training](https://learn.greensoftware.foundation/) - This initiative will teach you how to build, maintain and run greener applications irrespective of the application domain, industry, organization size or type, programming language, or framework; leading to a [Green Software Certification](https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/) backed by the Linux Foundation.
 * :honeybee: Linux Foundation's SustainabilityCon [The first sustainability-focused track by the Linux Foundation](https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/)
-* [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/)<br> Get to know the carbon footprint of your cloud usage - and reduce it.<br>
+* :honeybee: [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/)<br> Get to know the carbon footprint of your cloud usage - and reduce it.<br>
 Cloud Carbon Footprint is an open source tool that provides visibility and tooling to measure, monitor and reduce your cloud carbon emissions. We use best practice methodologies to convert cloud utilization into estimated energy usage and carbon emissions, producing metrics and carbon savings estimates that can be shared with employees, investors, and other stakeholders.
 
 ### Carbon Emissions Reports
 
 * :page_facing_up: IEA [Emissions - Global Energy and CO2 Status Report 2019](https://www.iea.org/reports/global-energy-co2-status-report-2019/emissions)
-* European Environment Agency [EU Greenhouse Emission Intensity](https://www.eea.europa.eu/ims/greenhouse-gas-emission-intensity-of-1)
-* electricityMap's [real-time CO2 emission data](https://app.electricitymap.org)
+* :page_facing_up: European Environment Agency [EU Greenhouse Emission Intensity](https://www.eea.europa.eu/ims/greenhouse-gas-emission-intensity-of-1)
+* :page_facing_up: electricityMap's [real-time CO2 emission data](https://app.electricitymap.org)
 * [SCI Reporting](https://github.com/Green-Software-Foundation/sci-reporting) - Creating the infrastructure, and processes to store, host, and publicly report SCI scores, and other related reporting requirements within the SCI specification. 
-* WattTime API [Provides insight into a electricity grid’s marginal emissions rate](https://www.watttime.org/api-documentation/#introduction)
+* :page_facing_up: WattTime API [Provides insight into a electricity grid’s marginal emissions rate](https://www.watttime.org/api-documentation/#introduction)
 
 ### Net Zero / Carbon Neutrality
 
