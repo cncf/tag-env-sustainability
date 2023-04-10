@@ -120,9 +120,19 @@ On the other hand, architectures that address the root cause of energy waste, in
 * [Open Compute Sustainability Project](https://www.opencompute.org/projects/sustainability) - Leveraging the expertise of the OCP community, we offer an open framework and resources for OCP members and data center industry – vendors, suppliers, and end users - to deploy industry best practices that promotes reusability and circularity.  
 
 ### Cooling / BMC
-* OCP Cooling Telemetry [Improve data center cooling facility efficiency through platform power telemetry](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf)
-* BMC Telemetry [Exposes Baseboard Management Controller data in Prometheus format.](https://github.com/gebn/bmc_exporter)
-* (thermal???)
+* :newspaper: :ice_cube: OCP Cooling Telemetry [Improve data center cooling facility efficiency through platform power telemetry](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf) <br> 
+Data center operators usually overprovision facility capacity to ensure enough buffer to fulfill peak demand. The
+overprovisioning brings great pressure to data center total cost of ownership (TCO). Today, the data center
+management stack has been widely deployed to monitor data center runtime heath status and it gathered tons
+of data across power, temperature and resource utilization. These data create opportunity to optimize data
+center efficiency through data intelligences. In this paper, we introduced our practices in cloud environment for
+using power trend prediction to improve cooling efficiency. Meanwhile, this paper discussed some key challenges
+and design considerations while enabling IT platform data driven facility control at hyper scale data center, e.g.
+telemetry collection, messaging mechanism, and management API. Effective interoperability among IT devices,
+facility and management system is very critical for solution deployment, and the adoption of Open Compute
+Project design and Redfish API easier system level integration and reduce deployment costs over different
+systems and different manufacturers. 
+* :ice_cube: BMC Telemetry [Exposes Baseboard Management Controller data in Prometheus format.](https://github.com/gebn/bmc_exporter)
 
 ### Measurement Methodologies
 
