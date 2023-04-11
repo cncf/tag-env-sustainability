@@ -55,11 +55,11 @@ All of these elements can be investigated further individually.
 
 ### Cloud Service Providers
 These include any cloud service provider, the most famous of these being clouds such as GKC, Azure, and AWS.  These 
-are often quite restrictive, as the providers restrict decisions users can make in regard to customers regarding
+are often quite restrictive, as the providers limit decisions users can make in regard to getting sustainability-related metrics, such as the energy consumption, hardware, electricity source, data center PUE, etc.
 Providers try to keep their day-to-day down, but what functionality they expose users to can be quite limited.
 They do not trust their users, as users vary from amateur to experienced.  They also are not always great
 at accounting for carbon costs by specific users, and the carbon accounting can take much longer than users
-have to connect to individual types of jobs.  How this information is measured is often obtuse.
+have to connect to individual types of jobs. The hyperscalers mentioned above offer insight into the carbon emissions of cloud resources through carbon dashboards, yet these can be quite limited, have a considerable time lag for the carbon emission data to become available. In addition, the methodologies used to calculate carbon emissions can vary between cloud providers.  How this information is measured is often obtuse.
 
 ####  Users of Cloud Service Providers
 Users are often not experienced.  Those that do care about carbon have a hard time connecting their
