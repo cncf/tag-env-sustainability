@@ -2,7 +2,7 @@
 
 ### Contributors
 Huamin Chen, [Marlow Weston](https://github.com/catblade), [Niki Manoledaki](https://github.com/nikimanoledaki), Eun Kyung Lee, Chen Wang, Chris Lloyd-Jones, 
-[Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz), [Christopher Cantalupo](https://github.com/cmcantalupo)
+[Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz), [Christopher Cantalupo](https://github.com/cmcantalupo), [Paricia Cahill](https://github.com/patricia-cahill)
 
 ## Challenges for Carbon/Energy Accounting
 Carbon emission for the Cloud computing system is largely composed of operational and embodied (or embedded) carbon emissions. The operational carbon emissions is the amount of carbon pollution emitted during the operational or in-use phase of a Cloud computing system. The embodied carbon emission is the amount of carbon pollution emitted during the creation and disposal of Computing system (e.g., device, chip, servers, etc.)
@@ -186,7 +186,10 @@ per node.
 * :musical_note: Node tuning via TuneD on OCP [Manage node-level tuning by orchestrating the tuned daemon](https://docs.openshift.com/container-platform/4.10/scalability_and_performance/using-node-tuning-operator.html) <br> 
 The Node Tuning Operator helps you manage node-level tuning by orchestrating the TuneD daemon. The majority of high-performance applications require some level of kernel tuning. The Node Tuning Operator provides a unified management interface to users of node-level sysctls and more flexibility to add custom tuning specified by user needs.
 * :musical_note: Kubernetes Power Manager [Kubernetes Operator designed to expose and utilize Intel specific power management technologies in a Kubernetes Environment](https://github.com/intel/kubernetes-power-manager) <br>
-This power manager is an operator which allows users to control power use of their containers.  This allows the leveraging of hardware and kernel features controlling power savings within  Kubernetes environments.  It has been proven to work with TuneD as well to allow TuneD profiles to bem used to control the power on the nodes according to various frequency tunings.
+The allocation of CPU resources from a pool of platforms in a container orchestration engine like Kubernetes (K8s) is exclusively based on availability. In order to expose and use power management technologies in a Kubernetes context, the Kubernetes Power Manager is a Kubernetes operator created using the Operator SDK.
+
+The Kubernetes Power Manager makes use of a powerful set of power management technologies that give users more precise control over CPU performance and power usage on a per-core basis. Yet, Kubernetes is purposefully built to operate as an abstraction layer between the workload and such hardware capabilities as a workload orchestrator. Users of Kubernetes who are running performance-critical applications with particular requirements that depend on hardware capabilities have a hurdle as a result of this. By enabling the user to adjust the frequencies and determine the priority level of the cores selected by the Kubernetes Native CPU Manager, the Kubernetes Power Manager fills the gap between the hardware feature enablement and the container orchestration layer.  It has been proven to work with TuneD as well to allow TuneD profiles to bem used to control the power on the nodes according to various frequency tunings.
+
 * :musical_note: GEOPM [Extensible Power Manager](https://geopm.github.io):<br>
 Initially specific to HPC environments, but now more generalized, the Global Extensible Open Power Manager (GEOPM) is a framework for exploring 
 power and energy optimizations on heterogeneous platforms.  The GEOPM software is split into two packages: The GEOPM Service and the GEOPM Runtime. 
