@@ -55,7 +55,7 @@ All of these elements can be investigated further individually.
 
 ### Cloud Service Providers
 Cloud service providers, such as AWS, Azure, and GCP are often quite restrictive, as the providers limit decisions users can make in regard to getting sustainability-related metrics, such as the energy consumption, hardware, electricity source, data center PUE, etc.
-Providers try to keep their day-to-day down, but what functionality they expose users to can be quite limited.
+Providers try to keep their day-to-day costs/energy usage/emmissions down, but what functionality they expose users to can be quite limited.
 <!--- this statement needs reference: They do not trust their users, as users vary from amateur to experienced. --->  
 They also are not always great
 at accounting for carbon costs by specific users, and the carbon accounting can take much longer than users
