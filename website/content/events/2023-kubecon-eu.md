@@ -12,4 +12,4 @@ Let’s reduce the environmental of the cloud, datacenters and our projects.
 
 ### Details
 * [Schedule](https://sched.co/1JWOX)
-* [Agenda](https://docs.google.com/document/d/1ESxvXcSiorwi_Zh1WXuVmHJcSlR5aJQbCYfh11xRXqw/edit#)
+* [Agenda](https://docs.google.com/document/d/1ESxvXcSiorwi_Zh1WXuVmHJcSlR5aJQbCYfh11xRXqw/edit)
