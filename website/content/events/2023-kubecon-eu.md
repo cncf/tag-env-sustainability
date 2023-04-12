@@ -6,7 +6,7 @@ description: TAG Environmental Sustainability presence at Cloud Native Computing
 The Cloud Native Computing Foundation’s flagship conference gathers adopters and technologists from leading open source and cloud native communities in Amsterdam, The Netherlands from 18-21 April, 2023.
 And we as a TAG have a few sessions planned on site!
 
-## TAG Meetup ([schedule](https://sched.co/1JWOX))
+### TAG Meetup - [link](https://sched.co/1JWOX)
 
 Are you interested in the impact your cloud projects and cloud-related work has on the environment?
 Then we would love to meet you at our [**TAG Environmental Sustainability Project Meeting**](https://sched.co/1JWOX) at KubeCon + CloudNativeCon Europe 2023.
@@ -14,11 +14,11 @@ We have some exiting presentations and discussions planned.
 We are looking forward to hearing your perspectives and welcome everyone who wants to contribute to our effort.
 Let’s reduce the environmental of the cloud, data centers and our projects.
 
-## TAG Talk ([schedule](https://sched.co/1Hzd3))
+### TAG Talk - [link](https://sched.co/1Hzd3)
 
 In the talk we will talk about the latest from the CNCF Environmental Sustainability TAG. We’ll focus on the findings exploring the Cloud Native Sustainability landscape, the landscape of organizations that we collaborate with! We highlight current bottlenecks and challenges and provide guidance and opportunities to contribute to sustainability yourself. We will introduce you to cloud native projects that you can use today to build your tech stack a little more sustainable.
 
-## Sustainability related talks at a glance
+### Sustainability related talks at a glance
 
 **Tuesday 19th of April**
 * Power-Aware Scheduling: https://sched.co/1HyWC
