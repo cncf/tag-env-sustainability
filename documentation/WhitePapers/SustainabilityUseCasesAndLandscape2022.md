@@ -54,10 +54,10 @@ All of these elements can be investigated further individually.
 ## Use Cases
 
 ### Cloud Service Providers
-These include any cloud service provider, the most famous of these being clouds such as GKC, Azure, and AWS.  These 
-are often quite restrictive, as the providers limit decisions users can make in regard to getting sustainability-related metrics, such as the energy consumption, hardware, electricity source, data center PUE, etc.
+Cloud service providers, such as AWS, Azure, and GCP are often quite restrictive, as the providers limit decisions users can make in regard to getting sustainability-related metrics, such as the energy consumption, hardware, electricity source, data center PUE, etc.
 Providers try to keep their day-to-day down, but what functionality they expose users to can be quite limited.
-They do not trust their users, as users vary from amateur to experienced.  They also are not always great
+<!--- this statement needs reference: They do not trust their users, as users vary from amateur to experienced. --->  
+They also are not always great
 at accounting for carbon costs by specific users, and the carbon accounting can take much longer than users
 have to connect to individual types of jobs. The hyperscalers mentioned above offer insight into the carbon emissions of cloud resources through carbon dashboards, yet these can be quite limited, have a considerable time lag for the carbon emission data to become available. In addition, the methodologies used to calculate carbon emissions can vary between cloud providers.  How this information is measured is often obtuse.
 
@@ -200,7 +200,7 @@ branch as they each become production ready. Additional documentation may be fou
 file](https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support) and in the [runtime k8 directory](https://github.com/geopm/geopm/tree/cloud/k8).
 
 
-### HPC Specific Models
+<!--- ### HPC Specific Models --->
 
 
 
