@@ -1,8 +1,6 @@
-# Governance
-Environmental Sustainability Working Group is a CNCF Working Group and reports to the Technical Oversight Comittee (TOC).
+# Surveys
+We frequently gather the feedback from the cloud native community. The results will be presented here.
 
-* [Charter](../charter.md) - mission and scope
-* [Roles](roles.md) - the work of the group is facilitated by Chairs, Technical Leads, and active group members
-* [Process](process.md) - how projects are proposed and work is tracked
-* Writing [paper process](paper-process.md) - how to proceed if the proposed project include paper
-* [Presentations](presentation.md) 
+* [2022 Survey](2022-Survey-Results.pdf) - this survey run between October and November 2022
+
+
