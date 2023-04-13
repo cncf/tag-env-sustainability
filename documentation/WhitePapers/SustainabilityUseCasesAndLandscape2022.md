@@ -1,80 +1,66 @@
-# Current Sustainability Efforts and Use Cases Within the Cloud Native Landscape
+# Current Sustainability Efforts and Challenges Within the Cloud Native Landscape
 
-### Contributors
+## Contributors
 Huamin Chen, [Marlow Weston](https://github.com/catblade), [Niki Manoledaki](https://github.com/nikimanoledaki), Eun Kyung Lee, Chen Wang, Chris Lloyd-Jones, 
-[Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz), [Christopher Cantalupo](https://github.com/cmcantalupo), [Paricia Cahill](https://github.com/patricia-cahill)
+[Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz), [Christopher Cantalupo](https://github.com/cmcantalupo), [Paricia Cahill](https://github.com/patricia-cahill), [Jochen Joswig](https://github.com/by-d-sign)
 
-## Challenges for Carbon/Energy Accounting
-Carbon emission for the Cloud computing system is largely composed of operational and embodied (or embedded) carbon emissions. The operational carbon emissions is the amount of carbon pollution emitted during the operational or in-use phase of a Cloud computing system. The embodied carbon emission is the amount of carbon pollution emitted during the creation and disposal of Computing system (e.g., device, chip, servers, etc.)
+## Foundations of Sustainable Cloud Systems
+### Carbon Emissions of the Cloud
+The carbon emissions of Information and Communication Technology (short: ICT) systems are largely composed of:
+- **operational emissions**: the amount of carbon emitted during the operational or in-use phase of an ICT system.
+These emissions are mostly due to burning of fossil fuels to generate the electricity required by these systems.
+- **embodied emissions**: the amount of carbon emitted during the creation and disposal the hardware (short: HW) and physical components of an ICT system (e.g.: devices, servers, cables, buildings, etc.).
+Embodied emissions are also referred to as embedded emissions.
 
-Green computing refers to the architecture and design of software and systems that monitor and optimize resource consumption, reduce environmental impact, and improve sustainability.
+This applies in particular to cloud systems.
+### Green Computing
+Green computing refers to the architecture and design of software and systems that monitor and optimize resource consumption, reduce environmental impact, and improve sustainability, while providing useful services to its users and stakeholders.
 
 ### Carbon/Energy Accounting
-
 Carbon and energy accounting refers to systems, services, and methodologies to track and account for carbon and energy consumption.
-
-Operational carbon emissions refer to the amount of carbon pollution emitted during the operational or in-use phase of a Cloud computing system.
-
-The embodied carbon emission is the amount of carbon pollution emitted during the creation and disposal of the hardware (HW) and physical components of a Computing system, including hardware such as devices, chips, servers, etc.
-
+## Challenges of Carbon/Energy Accounting
+### Quantifying Operational Carbon Emission
 Quantifying the operational carbon emission is not trivial due to the following reasons:
 
 * Multiple HW components enclosed in a server - power modeling is required for various HW components (e.g., CPU, Memory, GPU, Storage, I/O) for accurate quantification/estimation.
 * Different HW for a service is used by multiple users/accounts –power modeling per different user (e.g., a/multiple software thread(s)) is a totally different problem for modeling. The SW/HW interaction should be well-understood for power modeling.
-* Different generations/architecture/vendors of HW in Cloud Infrastructure - power modeling is required for different generations/architecture/vendors for example, Intel vs. AMD vs. ARM, Skylake vs. Sapphire Rapids, and ConnectX-5 vs. ConnectX-6.
+* Different generations/architecture/vendors of HW in cloud Infrastructure - power modeling is required for different generations/architecture/vendors for example, Intel vs. AMD vs. ARM, Skylake vs. Sapphire Rapids, and ConnectX-5 vs. ConnectX-6.
 * Dependencies of the services - a service may use different services. (e.g., Kubernetes uses COS service), applications may be distributed across data centers and clouds.
 * Services running in virtualized/containerized environments - power modeling is required for virtualized/containerized environments, which increases the complexity of modeling
 * Separate fan/cooling controller in the server – The fan and other cooling components are often controlled by a separate controller, which requires additional modeling.
-* Missing data – due to the limitation of exposing internal data in the Cloud, accessing the key data to calculate the operation emission is prohibited. On-Prem data centers are sometimes lacking power measurement technology.
+* Missing data – due to the limitation of exposing internal data in the cloud, accessing the key data to calculate the operation emission is prohibited. On-Prem data centers are sometimes lacking power measurement technology.
 * Telemetry & observability – a user often uses multiple HW at the same time, reliable and high-granularity telemetry becomes more important. However, telemetry/observability overhead should be low relative to the services being executed on the server/cloud.
 * AI/ML workloads – dramatic increase in using Artificial Intelligence (AI)/ Machine Learning (ML) workload leads to the strong need of dedicated GPU-based clusters. The characteristics of such workloads are different than traditional workloads and their power consumptions are significantly higher.
 * Confidential workloads - evolve from VM use case to confidential container (SGX/SEV/TDX), the TEE (Trusted Execution Environment)
 and the usage of bounce buffer/SWIOTLB might cost more energy. However, the confidential workload is hard to be observed due to
 security concerns.
 
-Quantifying embedded carbon emissions is also very challenging as manufactural details should be incorporated into the quantification. This is currently not the scope of this white paper. <!-- We may want to put some directions though // +1, would this be guidance/best practice on methods to quantify these emissions or guidance on methods to mitigate these emissions? -->
+Quantifying embedded carbon emissions is also very challenging as manufactural details should be incorporated into the quantification. This is currently not the scope of this white paper. <!-- We may want to put some directions though // +1, would this be guidance/best practice on methods to quantify these emissions or guidance on methods to mitigate these emissions? --> 
 
-## Layers of the solutions
-
-We can divide a system into three general areas:
-
-1. Which data center to use, if there are mulitple options available.
-1. Where to place the workload once a data center is chosen.
-1. How to manage the resources on the node allocated for a resource to run on.
-
-All of these elements can be investigated further individually.
-
-| Area | Goal | Efforts |
-| -------- | -------- | -------- |
-| Multi Data Centers     | Intelligently choosing which data center to schedule on according to environmental factors such as whether the region is powered by renewables, the region's Marginal Emissions Rate, Power Usage Effectiveness (PUE), time of day, etc.     |  Cluster Management    |
-| Within Data Center     | Scheduling effectively according to workload, availability, and urgency of workload     | Power Management, K8S Scheduler Plugin   |
-| Within a node     | Optimizing resources to handle workload specifications (which may include performance parameters) while minimizing resource consumption     |  Node Tuning, Pod Scaling    |
-
-
-## Use Cases
-
-### Cloud Service Providers
-Cloud service providers, such as AWS, Azure, and GCP are often quite restrictive, as the providers limit decisions users can make in regard to getting sustainability-related metrics, such as the energy consumption, hardware, electricity source, data center PUE, etc.
+### Challenges in the Public Cloud
+Public cloud providers, such as AWS, Azure, and GCP are often quite restrictive, as the providers limit decisions users can make in regard to getting sustainability-related metrics, such as the energy consumption, hardware, electricity source, data center PUE, etc.
 Providers try to keep their day-to-day costs/energy usage/emmissions down, but what functionality they expose users to can be quite limited.
 <!--- this statement needs reference: They do not trust their users, as users vary from amateur to experienced. --->  
-They also are not always great
-at accounting for carbon costs by specific users, and the carbon accounting can take much longer than users
-have to connect to individual types of jobs. The hyperscalers mentioned above offer insight into the carbon emissions of cloud resources through carbon dashboards, yet these can be quite limited, have a considerable time lag for the carbon emission data to become available. In addition, the methodologies used to calculate carbon emissions can vary between cloud providers.  How this information is measured is often obtuse.
+They also are not always great at accounting for carbon costs by specific users, and the carbon accounting can take much longer than users have to connect to individual types of jobs.
+The hyperscalers mentioned above offer insight into the carbon emissions of cloud resources through carbon dashboards or APIs.
+Yet, these can be quite limited and/or have a considerable time lag for the carbon emission data to become available.
+In addition, the methodologies used to calculate carbon emissions can vary between cloud providers.
+How this information is measured or estimated is often obtuse.
 
 ####  Users of Cloud Service Providers
-Users are often not experienced.  Those that do care about carbon have a hard time connecting their
-individual workloads with actual carbon costs.
+Users are often unaware and inexperienced.
+Those that do care about their environmental impact have a hard time connecting their individual workloads to their carbon costs.
 
-### Industry or User-Run Clouds
-These are clouds run by particular companies or universities for use of the members of those companies or
-universities.  These clouds are often more trusting environments, as the users are accountable to the 
-administrators or management of the cloud they are running their workloads on.  
+### Challenges in the Private Clouds
+These are clouds run by particular companies or universities for use of the members of those companies or universities.
+These clouds are often more trusting environments, as the users are accountable to the administrators or management of the cloud they are running their workloads on.
 
+### Sector specific Challenges
 #### Telco
-Telco customers are often demanding.  Telco needs their systems to be extremely stable, and the traffic to be
-fast and reliable.  Some systems are left entirely at full-power because power modulation can affect traffic
-and the tolerance for this is low.  Building systems that reduce power that Telco is confident will not affect
-their traffic is challenging.
+Telco customers are often demanding.
+Telco needs their systems to be extremely stable, and the traffic to be fast and reliable.
+Some systems are left entirely at full-power because power modulation can affect traffic and the tolerance for this is low.
+Building systems that reduce power that Telco is confident will not affect their traffic is challenging.
 
 #### Finance
 Finance may have simulations being run, in the off-hours, and those will look like an AI/ML workload.  However,
@@ -83,7 +69,8 @@ reason, time-of-day adjustments on the majority of the clusters run by finance c
 times do affect real dollars, so being fast will be prioritized in these environments over power use.  In order
 to get this set of customers to use sustainable options, care must be taken to limit the impact to their bottom line.
 
-### AI/ML
+### Workload Specific Challenges
+#### AI/ML
 These cases can exist either as schedulable compute at a cloud service provider or within a bare metal environment.
 In either case, the AI/Ml clusters often have the normal issues found in the above clouds, but also have the added complexity 
 of XPUs, or accelerators.  These accelerators take significant amounts of power to run, more by an order of magnitude required from regular
@@ -91,6 +78,21 @@ computer chips.  Additionally, some of the workloads on these clusters are not t
 training sets of information, and some are time-sensitive, for instance inference jobs for recognition 
 systems.
 
+## Layers of the solutions
+
+We can divide a system into three general areas:
+
+1. Which data center to use, if there are mulitple options available.
+1. Where to place the workload once a data center is chosen.
+1. How to manage the resources on the node allocated for a workload to run on.
+
+All of these elements can be investigated further individually.
+
+| Area | Goal | Efforts |
+| -------- | -------- | -------- |
+| Multi Data Centers     | Intelligently choosing which data center to schedule on according to environmental factors such as whether the region is powered by renewables, the region's Marginal Emissions Rate, Power Usage Effectiveness (PUE), time of day, etc.     |  Cluster Management    |
+| Within Data Center     | Scheduling effectively according to workload, availability, and urgency of workload     | Power Management, K8S Scheduler Plugin   |
+| Within a node     | Optimizing resources to handle workload specifications (which may include performance parameters) while minimizing resource consumption     |  Node Tuning, Pod Scaling    |
 
 ## Current Research and Development
 
@@ -228,6 +230,7 @@ Cloud Carbon Footprint is an open source tool that provides visibility and tooli
 
 ### Conferences
 * :honeybee: Linux Foundation's SustainabilityCon [The first sustainability-focused track by the Linux Foundation](https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/)
+* :honeybee: [EnviroInfo](https://www.enviroinfo2023.eu/): EnviroInfo 2023 is the 37th edition of the long-standing and well-established international and interdisciplinary conference series on leading environmental information and communication technologies.
 
 ### Carbon Emissions Reports
 
