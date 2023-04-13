@@ -20,17 +20,15 @@ In the talk we will talk about the latest from the CNCF Environmental Sustainabi
 
 ### Sustainability related talks at a glance
 
-**Tuesday 19th of April**
+**Tuesday 18th of April**
 * [Power-Aware Scheduling](https://sched.co/1HyWC)
 * [GreenCourier](https://sched.co/1HyXM)
 * [TAG Project Meeting](https://sched.co/1JWOX) ⬅️ brought to you by the TAG ENV
 
 **Wednesday 19th of April**
-* [Accelerate Sustainable Community Collaboration](https://sched.co/1HyPf)
-* [Be the Change Our Planet Seeks: How YOU Can Contribute to Running Environment-Friendly Workloads on Kubernetes](https://sched.co/1HyW9)
-* [Building a Sustainable, Carbon-Aware Cloud: Scale Workloads and Reduce Emissions](https://sched.co/1HyPo)
 * [Accelerate Sustainable Computing with Community Collaboration](https://sched.co/1HyPf)
 * [Be the Change Our Planet Seeks: How YOU Can Contribute to Running Environment-Friendly Workloads on Kubernetes](https://sched.co/1HyW9)
+* [Building a Sustainable, Carbon-Aware Cloud: Scale Workloads and Reduce Emissions](https://sched.co/1HyPo)
 
 **Thursday 20th of April**
 * [The state of green software + cloud native](https://sched.co/1Hzd3) ⬅️ brought to you by the TAG ENV
