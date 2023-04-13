@@ -21,15 +21,23 @@ In the talk we will talk about the latest from the CNCF Environmental Sustainabi
 ### Sustainability related talks at a glance
 
 **Tuesday 19th of April**
-* Power-Aware Scheduling: https://sched.co/1HyWC
-* GreenCourier: https://sched.co/1HyXM
-* TAG Project Meeting: https://sched.co/1JWOX ⬅️ brought to you by the TAG ENV
+* [Power-Aware Scheduling](https://sched.co/1HyWC)
+* [GreenCourier](https://sched.co/1HyXM)
+* [TAG Project Meeting](https://sched.co/1JWOX) ⬅️ brought to you by the TAG ENV
 
 **Wednesday 19th of April**
-* Building a Sustainable, Carbon-Aware Cloud: https://sched.co/1HyPo
-* Accelerate Sustainable Computing with Community Collaboration: https://sched.co/1HyPf 
-* Be the Change Our Planet Seeks: How YOU Can Contribute to Running Environment-Friendly Workloads on Kubernetes: https://sched.co/1HyW9
+* [Accelerate Sustainable Community Collaboration](https://sched.co/1HyPf)
+* [Be the Change Our Planet Seeks: How YOU Can Contribute to Running Environment-Friendly Workloads on Kubernetes](https://sched.co/1HyW9)
+* [Building a Sustainable, Carbon-Aware Cloud: Scale Workloads and Reduce Emissions](https://sched.co/1HyPo)
+* [Accelerate Sustainable Computing with Community Collaboration](https://sched.co/1HyPf)
+* [Be the Change Our Planet Seeks: How YOU Can Contribute to Running Environment-Friendly Workloads on Kubernetes](https://sched.co/1HyW9)
 
 **Thursday 20th of April**
-* The state of green software + cloud native: https://sched.co/1Hzd3 ⬅️ brought to you by the TAG ENV
-* Minimizing Energy Consumption in Bare Metal Environments: https://sched.co/1HybW
+* [The state of green software + cloud native](https://sched.co/1Hzd3) ⬅️ brought to you by the TAG ENV
+* [Minimizing Energy Consumption in Bare Metal K8s Clusters](https://sched.co/1HybW)
+* [Evolution of on-Node Adaptive Power Tuning](https://sched.co/1Hycj)
+
+**Friday 21st of April**
+* [Scale Down Your Environmental Impact](https://sched.co/1Hybr)
+* [Sustainability Through Accountability in a CNCF Ecosystem](https://sched.co/1HyYK)
+
