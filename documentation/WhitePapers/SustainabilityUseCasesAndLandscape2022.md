@@ -13,10 +13,10 @@ Sustainable cloud and cloud native systems may only be constructed when three fo
 These foundations form the basis of informed design, decision-making, and accountability in cloud and cloud native architectures.
 
 ### Carbon Emissions of the Cloud
-The carbon emissions of Information and Communication Technology (ICT) systems are categorized as and composed of:
+The carbon emissions of Information and Communication Technology (short: ICT) systems are categorized as and composed of:
 - **operational emissions**: the amount of carbon emitted during the operational or in-use phase of an ICT system.
 These emissions are mostly due to burning of fossil fuels to generate the electricity required by these systems.
-- **embodied emissions**: the amount of carbon emitted during the creation and disposal the hardware (HW) and physical components of an ICT system (e.g.: devices, servers, cables, buildings, etc.).
+- **embodied emissions**: the amount of carbon emitted during the creation and disposal the hardware (short: HW) and physical components of an ICT system (e.g.: devices, servers, cables, buildings, etc.).
 Embodied emissions are also referred to as embedded emissions.
 
 Cloud and cloud native systems are no exception to the foundation of carbon emissions to ensure environmentally sustainable computing as they are firmly under the umbrella of ICT systems.
@@ -34,6 +34,7 @@ two rapidly developing fields with interest from a variety of industry sectors. 
 these technologies increases. However, the below section attempts to capture current challenges across the foundations.
 A popular standard for Carbon Accounting is the [Greenhouse Gas Protocol](https://ghgprotocol.org/) (short: GHG protocol, GHGP).
 
+## Challenges of Carbon/Energy Accounting
 ### Quantifying Operational Carbon Emission
 Observability in the performance of cloud native workloads has grown in popularity as organizations learn the value in various telemetry data points for increased visibility and understanding of how their architectures are operating.
 As more organizations begin to consider how to reach similar value in the resource utilization and energy consumption, they're learning that quantifying the operational carbon emission is not as simple as deploying tooling for visibility and accountability.
@@ -44,7 +45,6 @@ Quantifying the operational carbon emission is not trivial for a number of reaso
 A important issue to understand here is [Energy Proportionality](https://learn.greensoftware.foundation/energy-efficiency#energy-proportionality).
 The SW/HW interaction should be well-understood for power modeling.
 * Different generations/architecture/vendors of HW in cloud Infrastructure - power modeling is required for different generations/architecture/vendors for example, Intel vs. AMD vs. ARM, Skylake vs. Sapphire Rapids, and ConnectX-5 vs. ConnectX-6.
-
 * Dependencies of the services - a service may use different services. (e.g., Kubernetes uses COS service), applications may be distributed across data centers and clouds.
 * Services running in virtualized/containerized environments - power modeling is required for virtualized/containerized environments, which increases the complexity of modeling
 * Separate fan/cooling controller in the server – The fan and other cooling components are often controlled by a separate controller, which requires additional modeling.
@@ -59,7 +59,7 @@ Quantifying embedded carbon emissions is also very challenging as manufactural d
 
 ### Clouds
 
-#### Public Cloud
+#### Challenges in the Public Cloud
 Public cloud providers, such as AWS, Azure, and GCP are often quite restrictive with consumption and emission data, as the providers limit decisions users can make with regard to accessing sustainability-related metrics. 
 Sustainability-related metrics include data points such as the energy consumption, hardware, electricity source, data center PUE, etc.
 
@@ -75,7 +75,7 @@ How this information is measured or estimated is often obtuse, inconsistent, and
 Users are often unaware and inexperienced in how their workloads effect their organization's carbon footprint.
 Those that do care about their environmental impact have a hard time connecting their individual workloads to their carbon costs.
 
-#### Private Clouds
+#### Challenges in the Private Clouds
 These are clouds run by particular companies or universities for use of the members of those companies or universities.
 These clouds are often more trusting environments, as the users are accountable to the administrators or management of the cloud they are running their workloads on. 
 Due to the special-purposes of private clouds, environmental sustainability, green computing, and accountability of emissions are not in the forefront of design, operation, or even expense, thus contributing to further challenges unique to private cloud. These are still yet unknown.
