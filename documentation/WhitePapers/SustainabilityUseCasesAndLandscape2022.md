@@ -1,12 +1,12 @@
-# Current Sustainability Efforts and Challenges Within the Cloud Native Landscape V. 0.1
+# Current Sustainability Efforts and Challenges Within the Cloud Native Landscape v0.1
 
-This captures the known and ongoing sustainbility efforts within the cloud native landscape as well as identifies challenge areas.
+This captures the known and ongoing sustainability efforts within the cloud native landscape as well as identifies challenge areas.
 
 ## Contributors
 A special thank you to our contributors of this document. If you are interested in improving and enhancing the content, please file a PR on the repo and ensure you add yourself as a contributor below!
 
 Huamin Chen, [Marlow Weston](https://github.com/catblade), [Niki Manoledaki](https://github.com/nikimanoledaki), Eun Kyung Lee, Chen Wang, Chris Lloyd-Jones, 
-[Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz), [Christopher Cantalupo](https://github.com/cmcantalupo), [Patricia Cahill](https://github.com/patricia-cahill), [Jochen Joswig](https://github.com/by-d-sign), [Emily Fox](https://github.com/thefoxatwork)
+[Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz), [Christopher Cantalupo](https://github.com/cmcantalupo), [Patricia Cahill](https://github.com/patricia-cahill), [Jochen Joswig](https://github.com/by-d-sign), [Emily Fox](https://github.com/thefoxatwork), [Leonard Pahlke](https://github.com/leonardpahlke)
 
 ## Foundations of Sustainable Cloud Systems
 Sustainable cloud and cloud native systems may only be constructed when three foundations exist.
@@ -27,11 +27,9 @@ Green computing refers to the architecture and design of software and systems th
 ### Carbon/Energy Accounting
 Carbon and energy accounting refers to systems, services, and methodologies to track and account for carbon and energy consumption.
 
-
 ## Challenges of Sustainable Cloud Systems
-The challenges associated with building and maintaining sustainabile cloud systems are still being uncovered with green computing and carbon and energy accounting as 
-two rapidly developing fields with interest from a variety of industry sectors. We anticipate more challenges _and_ solutions to be uncovered as more adoption and maturity of 
-these technologies increases. However, the below section attempts to capture current challenges across the foundations.
+The challenges associated with building and maintaining sustainable cloud systems are still being uncovered with green computing and carbon and energy accounting as two rapidly developing fields with interest from a variety of industry sectors.
+We anticipate more challenges _and_ solutions to be uncovered as more adoption and maturity of these technologies increases. However, the below section attempts to capture current challenges across the foundations.
 A popular standard for Carbon Accounting is the [Greenhouse Gas Protocol](https://ghgprotocol.org/) (short: GHG protocol, GHGP).
 
 ## Challenges of Carbon/Energy Accounting
@@ -41,7 +39,7 @@ As more organizations begin to consider how to reach similar value in the resour
 Quantifying the operational carbon emission is not trivial for a number of reasons, not limited to the following:
 
 * Multiple Hardware (HW) components enclosed in a server - power modeling is required for various HW components (e.g., CPU, Memory, GPU, Storage, I/O) for accurate quantification/estimation.
-* HW is used by multiple users/accounts simultaniously – power modeling per different user (e.g., multiple software thread(s)) is a totally different problem for modeling.
+* HW is used by multiple users/accounts simultaneously – power modeling per different user (e.g., multiple software thread(s)) is a totally different problem for modeling.
 A important issue to understand here is [Energy Proportionality](https://learn.greensoftware.foundation/energy-efficiency#energy-proportionality).
 The SW/HW interaction should be well-understood for power modeling.
 * Different generations/architecture/vendors of HW in cloud Infrastructure - power modeling is required for different generations/architecture/vendors for example, Intel vs. AMD vs. ARM, Skylake vs. Sapphire Rapids, and ConnectX-5 vs. ConnectX-6.
@@ -55,7 +53,9 @@ The SW/HW interaction should be well-understood for power modeling.
 and the usage of bounce buffer/SWIOTLB might cost more energy. However, the confidential workload is hard to be observed due to
 security concerns.
 
-Quantifying embedded carbon emissions is also very challenging as manufactural details (embodied emissions) are not being incorporated into information for holistic quantification by consumers of manufactured technology. This is out of the scope of this white paper, however this TAG encourages interested readers to suggest guidance, best practices, methods, and mechanisms to quantify these emissions by filing an issue or pull request on our [repository](https://github.com/cncf/tag-env-sustainability). <!-- We may want to put some directions though // +1, would this be guidance/best practice on methods to quantify these emissions or guidance on methods to mitigate these emissions? --> 
+Quantifying embedded carbon emissions is also very challenging as manufactural details (embodied emissions) are not being incorporated into information for holistic quantification by consumers of manufactured technology.
+This is out of the scope of this white paper, however this TAG encourages interested readers to suggest guidance, best practices, methods, and mechanisms to quantify these emissions by filing an issue or pull request on our [repository](https://github.com/cncf/tag-env-sustainability).
+<!-- We may want to put some directions though // +1, would this be guidance/best practice on methods to quantify these emissions or guidance on methods to mitigate these emissions? --> 
 
 ### Clouds
 
@@ -63,13 +63,15 @@ Quantifying embedded carbon emissions is also very challenging as manufactural d
 Public cloud providers, such as AWS, Azure, and GCP are often quite restrictive with consumption and emission data, as the providers limit decisions users can make with regard to accessing sustainability-related metrics. 
 Sustainability-related metrics include data points such as the energy consumption, hardware, electricity source, data center PUE, etc.
 
-Providers do try to keep their day-to-day costs, energy usage, and emmissions down, but the functionality exposed to users to can be quite limited. This is likely due in part to the shared responsibility model upon which cloud computing is designed - abstracting the operational complexity organizations would otherwise be responsible for in running their own data centers.
+Providers do try to keep their day-to-day costs, energy usage, and emissions down, but the functionality exposed to users to can be quite limited.
+This is likely due in part to the shared responsibility model upon which cloud computing is designed - abstracting the operational complexity organizations would otherwise be responsible for in running their own data centers.
 <!--- this statement needs reference: They do not trust their users, as users vary from amateur to experienced. --->  
 Additionally, the quantification challenges previously identified also contribute heavily to further difficulties in accounting for carbon costs by specific users, as the carbon accounting can take much longer than users have to connect to individual types of jobs.
 The hyperscalers mentioned above offer insight into the carbon emissions of cloud resources through carbon dashboards or APIs.
 Yet, these can be quite limited and/or have a considerable time lag for the carbon emission data to become available within an acceptable timewindow for users to take action on.
 In addition, the methodologies used to calculate carbon emissions can vary between cloud providers, reducing a user's ability to compare between providers.
-How this information is measured or estimated is often obtuse, inconsistent, and without industry consensus. As with most emerging technology areas, the variance in underlying implementations will continue until industry centers around a collective schema or framework for both measuring and expressing those measurements.
+How this information is measured or estimated is often obtuse, inconsistent, and without industry consensus.
+As with most emerging technology areas, the variance in underlying implementations will continue until industry centers around a collective schema or framework for both measuring and expressing those measurements.
 
 #####  Users of Cloud Service Providers
 Users are often unaware and inexperienced in how their workloads effect their organization's carbon footprint.
@@ -78,21 +80,22 @@ Those that do care about their environmental impact have a hard time connecting 
 #### Challenges in the Private Clouds
 These are clouds run by particular companies or universities for use of the members of those companies or universities.
 These clouds are often more trusting environments, as the users are accountable to the administrators or management of the cloud they are running their workloads on. 
-Due to the special-purposes of private clouds, environmental sustainability, green computing, and accountability of emissions are not in the forefront of design, operation, or even expense, thus contributing to further challenges unique to private cloud. These are still yet unknown.
+Due to the special-purposes of private clouds, environmental sustainability, green computing, and accountability of emissions are not in the forefront of design, operation, or even expense, thus contributing to further challenges unique to private cloud.
+These are still yet unknown.
 
 ### Sector Specific Challenges
 #### Telco
-Telecommunications (Telco) customers are often demanding due to their unique needs in providing high reliability and high velocity service to theircustomers.
+Telecommunications (Telco) customers are often demanding due to their unique needs in providing high reliability and high velocity service to their customers.
 Telco needs their systems to be extremely stable, and the traffic to be fast and reliable.
 Some systems are left entirely at full-power because power modulation can affect traffic and the tolerance for this is low.
 Building systems that reduce power that Telco is confident will not affect their traffic is challenging.
 
 #### Finance
-Finance may have simulations being run, in the off-hours, and those will look like an AI/ML workload.  However,
-for transactions and fast-traffic, finance has predictable times of day of use-when the markets are up.  For this
-reason, time-of-day adjustments on the majority of the clusters run by finance can be limited.  However, transaction
-times do affect real dollars, so being fast will be prioritized in these environments over power use.  In order
-to get this set of customers to use sustainable options, care must be taken to limit the impact to their bottom line.
+Finance may have simulations being run, in the off-hours, and those will look like an AI/ML workload.
+However, for transactions and fast-traffic, finance has predictable times of day of use-when the markets are up.
+For this reason, time-of-day adjustments on the majority of the clusters run by finance can be limited.
+However, transaction times do affect real dollars, so being fast will be prioritized in these environments over power use.
+In order to get this set of customers to use sustainable options, care must be taken to limit the impact to their bottom line.
 Additional, high-security and regulatory requirements can increase the utilization and emissions from finance workloads as a result of increased logging, monitoring, and other factors.
 
 ### Workload Specific Challenges
@@ -100,17 +103,15 @@ Additional, high-security and regulatory requirements can increase the utilizati
 #### AI/ML
 In addition to the challenges identified above, Artificial Intelligence (AI) and Machine Learning (ML) workloads exist either as schedulable compute at a cloud service provider or within a bare metal environment.
 In either case, AI/Ml clusters often  have the added complexity of XPUs, or accelerators.
-These accelerators take significant amounts of power to run, more by an order of magnitude required from regular
-computer chips. Additionally, some of the workloads on these clusters are not time-sensitive, for instance
-training sets of information, and some are time-sensitive, for instance inference jobs for recognition 
-systems.
+These accelerators take significant amounts of power to run, more by an order of magnitude required from regular computer chips.
+Additionally, some of the workloads on these clusters are not time-sensitive, for instance training sets of information, and some are time-sensitive, for instance inference jobs for recognition systems.
 
 ## Layers of the solutions
 When considering solutions complimentary to the three foundations of sustainable cloud systems, we can divide solution considerations into three general areas:
 
-1. Which data center to use, if there are mulitple options available.
-1. Where to place the workload once a data center is chosen.
-1. How to manage the resources on the node allocated for a workload to run on.
+1. Which data center to use, if there are multiple options available.
+2. Where to place the workload once a data center is chosen.
+3. How to manage the resources on the node allocated for a workload to run on.
 
 All of these elements can be investigated further individually.
 
@@ -121,7 +122,8 @@ All of these elements can be investigated further individually.
 | Within a node     | Optimizing resources to handle workload specifications (which may include performance parameters) while minimizing resource consumption     |  Node Tuning, Pod Scaling    |
 
 ## Current Industry Research and Development
-There are a number of developments and ongoing research in the field of sustainable computing. If you know of some that aren't captured here, we would love for you to contribute them!
+There are a number of developments and ongoing research in the field of sustainable computing.
+If you know of some that aren't captured here, we would love for you to contribute them!
 
 ### Runtime System Power Measurement
 :green_book: [A summarization of topics and research up to 2016](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
@@ -136,7 +138,8 @@ Green HW/SW systems either improve sub-system efficiency or change the way that 
 
 For instance, programs written in [energy efficient langugages](https://haslab.github.io/SAFER/scp21.pdf) or running on more [optimized runtimes](https://hal.inria.fr/hal-03275286/document) are generally "greener".
 
-On the other hand, architectures that address the root cause of energy waste, including idle power and data center cooling, are evaluated to be more environmentally friendly. For instance, Federated Learning spreads model training to devices that do not require expensive cooling is [evaluated](https://www.cam.ac.uk/research/news/can-federated-learning-save-the-world) to reduce carbon footprint in aggregate.
+On the other hand, architectures that address the root cause of energy waste, including idle power and data center cooling, are evaluated to be more environmentally friendly.
+For instance, Federated Learning spreads model training to devices that do not require expensive cooling is [evaluated](https://www.cam.ac.uk/research/news/can-federated-learning-save-the-world) to reduce carbon footprint in aggregate.
 
 ## Current Sustainable Computing Landscape
 ### Smart Data Centers
@@ -146,16 +149,13 @@ On the other hand, architectures that address the root cause of energy waste, in
 
 ### Cooling / BMC
 * :newspaper: :ice_cube: OCP Cooling Telemetry [Improve data center cooling facility efficiency through platform power telemetry](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf) <br> 
-Data center operators usually overprovision facility capacity to ensure enough buffer to fulfill peak demand. Overprovisioning brings great pressure to data centers' total cost of ownership (TCO). Today, the data center
-management stack has been widely deployed to monitor data center runtime health status and it gathered tons
-of data across power, temperature, and resource utilization. These data create opportunities to optimize data
-center efficiency through data intelligences. In this paper, we introduced our practices in cloud environments for
-using power trend prediction to improve cooling efficiency. Meanwhile, this paper discussed some key challenges
-and design considerations while enabling IT platform data-driven facility control at hyperscale data center, e.g.
-telemetry collection, messaging mechanism, and management API. Effective interoperability among IT devices,
-facility and management systems is very critical for solution deployment, and the adoption of Open Compute
-Project design and Redfish API easier system-level integration and reduce deployment costs over different
-systems and different manufacturers. 
+Data center operators usually over provision facility capacity to ensure enough buffer to fulfill peak demand.
+Over provisioning brings great pressure to data centers' total cost of ownership (TCO).
+Today, the data center management stack has been widely deployed to monitor data center runtime health status and it gathered tons of data across power, temperature, and resource utilization.
+These data create opportunities to optimize data center efficiency through data intelligences.
+In this paper, we introduced our practices in cloud environments for using power trend prediction to improve cooling efficiency. 
+Meanwhile, this paper discussed some key challenges and design considerations while enabling IT platform data-driven facility control at hyperscale data center, e.g. telemetry collection, messaging mechanism, and management API.
+Effective interoperability among IT devices, facility and management systems is very critical for solution deployment, and the adoption of Open Compute Project design and Redfish API easier system-level integration and reduce deployment costs over different systems and different manufacturers. 
 * :ice_cube: BMC Telemetry [Exposes Baseboard Management Controller data in Prometheus format.](https://github.com/gebn/bmc_exporter)
 
 ### Measurement Methodologies
@@ -206,7 +206,8 @@ A rich set of available output plugins makes it easy to integrate with various m
 * :eyes: [Carbon QL](https://github.com/Green-Software-Foundation/carbon-ql) - The intent of this project is to build a single API codenamed carbonQL that you can use to measure your software emissions for every runtime environment.
 * :eyes: [Isotope](https://azuremarketplace.microsoft.com/en-en/marketplace/apps/avanade-5299580.amp_isotope_access?tab=overview) - Using [Azure Arc](https://azure.microsoft.com/en-us/products/azure-arc) to measure estimated carbon emissions.
 * :eyes: Etsy and Cloud carbon footprint.org [Cloud Carbon Footprint - Methodology](https://www.cloudcarbonfootprint.org/docs/methodology/) <br>
-This application pulls usage data (compute, storage, networking, etc.) from major cloud providers and calculates estimated energy (Watt-Hours) and greenhouse gas emissions expressed as carbon dioxide equivalents (metric tons CO2e). We display these visualizations in a dashboard for developers, sustainability leaders and other stakeholders in an organization to view and take action. It currently supports AWS, Google Cloud and Microsoft Azure.
+This application pulls usage data (compute, storage, networking, etc.) from major cloud providers and calculates estimated energy (Watt-Hours) and greenhouse gas emissions expressed as carbon dioxide equivalents (metric tons CO2e). 
+We display these visualizations in a dashboard for developers, sustainability leaders and other stakeholders in an organization to view and take action. It currently supports AWS, Google Cloud and Microsoft Azure.
 * :eyes: OSTI [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
 * :eyes: [PowerTOP](https://github.com/fenrus75/powertop) - a Linux tool, which among other things allows you to monitor the power consumption per process running on the Linux machine.
 
@@ -215,9 +216,13 @@ At the cluster-level scheduling phase, energy to be consumed by the workload can
 Batch scheduling according to power costs (carbon, money, et cetera).
 
 * :train: Power Driven Scheduling and Scaling with CPU telemetry in K8s [Power Driven Scheduling and Scaling with CPU telemetry in Kubernetes](https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power) <br>
-Telemetry Aware Scheduling, a scheduling extension, and the Kubernetes native Horizontal Pod Autoscaler are used to enable cluster automation based on real-time information about the current state of power usage on the node.  The power metrics used to drive placement and scaling decisions derive from Intel's Running Average Power Limit (RAPL). collectd is used to gather the metrics and expose them to Prometheus which makes them available inside the cluster using the Prometheus Adapter.
+Telemetry Aware Scheduling, a scheduling extension, and the Kubernetes native Horizontal Pod Autoscaler (HPA) are used to enable cluster automation based on real-time information about the current state of power usage on the node.
+The power metrics used to drive placement and scaling decisions derive from Intel's Running Average Power Limit (RAPL). [collectd](https://collectd.org/) is used to gather the metrics and expose them to Prometheus which makes them available inside the cluster using the Prometheus Adapter.
 * :train: [Intent Driven Orchestration](https://github.com/intel/intent-driven-orchestration) <br>
-This grants a new way to do orchestration by moving from an imperative model to an intent driven model for choosing workload placement.  In this model, the user expresses their intents in the form of objectives (e.g. as required latency, throughput, or reliability targets) and the orchestration stack itself determines what resources in the infrastructure are required to fulfill the objectives. This new approach will continue to benefit from community investments in scheduling (determining when & where to place workloads) and be augmented with a continuous running planning loop determining what/how to configure in the system.  There is already preliminary work being done to leverage this in a power-optimal usage environment.
+This grants a new way to do orchestration by moving from an imperative model to an intent driven model for choosing workload placement.
+In this model, the user expresses their intents in the form of objectives (e.g. as required latency, throughput, or reliability targets) and the orchestration stack itself determines what resources in the infrastructure are required to fulfill the objectives. 
+This new approach will continue to benefit from community investments in scheduling (determining when & where to place workloads) and be augmented with a continuous running planning loop determining what/how to configure in the system.
+There is already preliminary work being done to leverage this in a power-optimal usage environment.
 * :green_book: Carbon-aware Kubernetes scheduler [A Low Carbon Kubernetes Scheduler](http://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
 * :green_book: Energy aware scheduling [Paper] [Improving Data Center Efficiency Through Holistic Scheduling In Kubernetes](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
 
@@ -230,13 +235,15 @@ This grants a new way to do orchestration by moving from an imperative model to 
 * :speedboat: [Keda](https://keda.sh/): Kubernetes Event-driven Autoscaling enables scale-to-zero platforms.
 
 ### On-Node Power Management Tuning
-Once the region and node are chosen, administrators and users can further tune the node to minimize the amount of power necessary to run workloads.  This can reduce power 30% or more
-per node.
+Once the region and node are chosen, administrators and users can further tune the node to minimize the amount of power necessary to run workloads.
+This can reduce power 30% or more per node.
 
 * :musical_note: Node tuning via TuneD on OCP [Manage node-level tuning by orchestrating the tuned daemon](https://docs.openshift.com/container-platform/4.10/scalability_and_performance/using-node-tuning-operator.html) <br> 
-The Node Tuning Operator helps you manage node-level tuning by orchestrating the TuneD daemon. The majority of high-performance applications require some level of kernel tuning. The Node Tuning Operator provides a unified management interface to users of node-level sysctls and more flexibility to add custom tuning specified by user needs.
+The Node Tuning Operator helps you manage node-level tuning by orchestrating the TuneD daemon.
+The majority of high-performance applications require some level of kernel tuning. The Node Tuning Operator provides a unified management interface to users of node-level sysctl's and more flexibility to add custom tuning specified by user needs.
 * :musical_note: Kubernetes Power Manager [Kubernetes Operator designed to expose and utilize Intel specific power management technologies in a Kubernetes Environment](https://github.com/intel/kubernetes-power-manager) <br>
-The allocation of CPU resources from a pool of platforms in a container orchestration engine like Kubernetes (K8s) is exclusively based on availability. In order to expose and use power management technologies in a Kubernetes context, the Kubernetes Power Manager is a Kubernetes operator created using the Operator SDK.
+The allocation of CPU resources from a pool of platforms in a container orchestration engine like Kubernetes (K8s) is exclusively based on availability.
+In order to expose and use power management technologies in a Kubernetes context, the Kubernetes Power Manager is a Kubernetes operator created using the Operator SDK.
 
 The Kubernetes Power Manager makes use of a powerful set of power management technologies that give users more precise control over CPU performance and power usage on a per-core basis.
 Yet, Kubernetes is purposefully built to operate as an abstraction layer between the workload and such hardware capabilities as a workload orchestrator.
@@ -245,16 +252,11 @@ By enabling the user to adjust the frequencies and determine the priority level 
 It has been proven to work with TuneD as well to allow TuneD profiles to bem used to control the power on the nodes according to various frequency tunings.
 
 * :musical_note: GEOPM [Extensible Power Manager](https://geopm.github.io):<br>
-Initially specific to HPC environments, but now more generalized, the Global Extensible Open Power Manager (GEOPM) is a framework for exploring 
-power and energy optimizations on heterogeneous platforms.  The GEOPM software is split into two packages: The GEOPM Service and the GEOPM Runtime. 
-The GEOPM Service provides user-space access to low-level hardware metrics and configuration knobs. The GEOPM Runtime leverages the GEOPM Service 
-to tune hardware settings in reaction to hardware metrics and application feedback. The application feedback is collected through lightweight
-asynchronous profiling hooks injected with callbacks into middle-ware packages. The GEOPM Runtime has a plugin architecture for selecting between 
-optimization algorithms. Some of the built-in algorithms target energy efficiency, and others optimize performance within a power bound.  The port of
-GEOPM to Kubernetes is ongoing. There is an [experimental branch](https://github.com/geopm/geopm/tree/cloud#experimental-branch)
-called ``cloud`` with implementations of new features that support Kubernetes.  These features will be migrated into the main ``dev``
-branch as they each become production ready. Additional documentation may be found in the [service readme
-file](https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support) and in the [runtime k8 directory](https://github.com/geopm/geopm/tree/cloud/k8).
+Initially specific to HPC environments, but now more generalized, the Global Extensible Open Power Manager (GEOPM) is a framework for exploring power and energy optimizations on heterogeneous platforms. <br>
+The GEOPM software is split into two packages: The GEOPM Service and the GEOPM Runtime. The GEOPM Service provides user-space access to low-level hardware metrics and configuration knobs. The GEOPM Runtime leverages the GEOPM Service to tune hardware settings in reaction to hardware metrics and application feedback. The application feedback is collected through lightweight asynchronous profiling hooks injected with callbacks into middle-ware packages. <br>
+The GEOPM Runtime has a plugin architecture for selecting between optimization algorithms. Some of the built-in algorithms target energy efficiency, and others optimize performance within a power bound.
+The port of GEOPM to Kubernetes is ongoing. There is an [experimental branch](https://github.com/geopm/geopm/tree/cloud#experimental-branch) called ``cloud`` with implementations of new features that support Kubernetes. These features will be migrated into the main ``dev`` branch as they each become production ready.<br>
+Additional documentation may be found in the [service readme file](https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support) and in the [runtime k8 directory](https://github.com/geopm/geopm/tree/cloud/k8).
 
 <!--- ### HPC Specific Models --->
 
