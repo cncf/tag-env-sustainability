@@ -2,6 +2,49 @@
 
 This captures the known and ongoing sustainability efforts within the cloud native landscape as well as identifies challenge areas.
 
+## Table of Contents
+
+- [Current Sustainability Efforts and Challenges Within the Cloud Native Landscape v0.1](#current-sustainability-efforts-and-challenges-within-the-cloud-native-landscape-v01)
+  - [Table of Contents](#table-of-contents)
+  - [Contributors](#contributors)
+  - [Foundations of Sustainable Cloud Systems](#foundations-of-sustainable-cloud-systems)
+    - [Carbon Emissions of the Cloud](#carbon-emissions-of-the-cloud)
+    - [Green Computing](#green-computing)
+    - [Carbon/Energy Accounting](#carbonenergy-accounting)
+  - [Challenges of Sustainable Cloud Systems](#challenges-of-sustainable-cloud-systems)
+  - [Challenges of Carbon/Energy Accounting](#challenges-of-carbonenergy-accounting)
+    - [Quantifying Operational Carbon Emission](#quantifying-operational-carbon-emission)
+    - [Clouds](#clouds)
+      - [Challenges in the Public Cloud](#challenges-in-the-public-cloud)
+        - [Users of Cloud Service Providers](#users-of-cloud-service-providers)
+      - [Challenges in the Private Clouds](#challenges-in-the-private-clouds)
+    - [Sector Specific Challenges](#sector-specific-challenges)
+      - [Telco](#telco)
+      - [Finance](#finance)
+    - [Workload Specific Challenges](#workload-specific-challenges)
+      - [AI/ML](#aiml)
+  - [Layers of the solutions](#layers-of-the-solutions)
+  - [Current Industry Research and Development](#current-industry-research-and-development)
+    - [Runtime System Power Measurement](#runtime-system-power-measurement)
+    - [Energy Conservation and Carbon Reduction](#energy-conservation-and-carbon-reduction)
+      - [Tuning, Scaling, and Configuration](#tuning-scaling-and-configuration)
+    - [Green System Architecture](#green-system-architecture)
+  - [Current Sustainable Computing Landscape](#current-sustainable-computing-landscape)
+    - [Smart Data Centers](#smart-data-centers)
+    - [Cooling / BMC](#cooling--bmc)
+    - [Measurement Methodologies](#measurement-methodologies)
+    - [Telemetry Software](#telemetry-software)
+    - [Scheduling At The Cluster Level](#scheduling-at-the-cluster-level)
+    - [Scaling](#scaling)
+    - [On-Node Power Management Tuning](#on-node-power-management-tuning)
+  - [Sustainability Initiatives](#sustainability-initiatives)
+    - [Organizations](#organizations)
+    - [Conferences](#conferences)
+    - [Carbon Emissions Reports](#carbon-emissions-reports)
+    - [Net Zero / Carbon Neutrality](#net-zero--carbon-neutrality)
+    - [Programming Language Efficiency Analysis](#programming-language-efficiency-analysis)
+
+
 ## Contributors
 A special thank you to our contributors of this document. If you are interested in improving and enhancing the content, please file a PR on the repo and ensure you add yourself as a contributor below!
 
