@@ -2,9 +2,24 @@
 
 This captures the known and ongoing sustainability efforts within the cloud native landscape as well as identifies challenge areas.
 
+## Summary
+
+Cloud computing has revolutionized the way we store and process data, enabling organizations to be more agile, efficient, and scalable.
+However, as companies transform their business models to meet sustainability requirements, concerns about environmental sustainability in cloud computing have also emerged.
+The carbon footprint of cloud computing has become a topic of discussion, as it indirectly causes enormous amounts of emissions due to its energy consumption.
+As a result, it has become imperative to quantify and reduce carbon emissions associated with cloud computing to mitigate the impact on the environment.
+
+Quantifying operational carbon emissions is not as simple as deploying tooling for visibility and accountability.
+This is particularly true for cloud computing, as there are multiple hardware components enclosed in a server, different generations/architecture/vendors of hardware in cloud Infrastructure, dependencies of the services, services running in virtualized/containerized environments, separate fan/cooling controller in the server, missing data, telemetry & observability, AI/ML workloads, and confidential workloads.
+These challenges make it difficult to accurately measure carbon emissions associated with cloud computing.
+
+In this white paper, we explore the challenges associated with carbon and energy accounting in cloud computing and provide insights into the complexities of quantifying carbon emissions in public and private clouds.
+Furthermore, the paper explores sector-specific challenges, such as the telecommunications industry.
+
 ## Table of Contents
 
 - [Current Sustainability Efforts and Challenges Within the Cloud Native Landscape v0.1](#current-sustainability-efforts-and-challenges-within-the-cloud-native-landscape-v01)
+  - [Summary](#summary)
   - [Table of Contents](#table-of-contents)
   - [Contributors](#contributors)
   - [Foundations of Sustainable Cloud Systems](#foundations-of-sustainable-cloud-systems)
@@ -43,7 +58,6 @@ This captures the known and ongoing sustainability efforts within the cloud nati
     - [Carbon Emissions Reports](#carbon-emissions-reports)
     - [Net Zero / Carbon Neutrality](#net-zero--carbon-neutrality)
     - [Programming Language Efficiency Analysis](#programming-language-efficiency-analysis)
-
 
 ## Contributors
 A special thank you to our contributors of this document. If you are interested in improving and enhancing the content, please file a PR on the repo and ensure you add yourself as a contributor below!
