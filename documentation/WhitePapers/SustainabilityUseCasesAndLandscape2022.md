@@ -44,14 +44,18 @@ Furthermore, the paper explores sector-specific challenges, such as the telecomm
     - [Energy Conservation and Carbon Reduction](#energy-conservation-and-carbon-reduction)
       - [Tuning, Scaling, and Configuration](#tuning-scaling-and-configuration)
     - [Green System Architecture](#green-system-architecture)
-  - [Current Sustainable Computing Landscape](#current-sustainable-computing-landscape)
-    - [Smart Data Centers](#smart-data-centers)
-    - [Cooling / BMC](#cooling--bmc)
-    - [Measurement Methodologies](#measurement-methodologies)
-    - [Telemetry Software](#telemetry-software)
-    - [Scheduling At The Cluster Level](#scheduling-at-the-cluster-level)
-    - [Scaling](#scaling)
-    - [On-Node Power Management Tuning](#on-node-power-management-tuning)
+  - [Current Sustainable Cloud Computing Landscape](#current-sustainable-cloud-computing-landscape)
+    - [Data centers](#data-centers)
+      - [Smart Data Centers](#smart-data-centers)
+      - [Cooling / BMC](#cooling--bmc)
+    - [Methodologies](#methodologies)
+      - [Measurement Methodologies](#measurement-methodologies)
+      - [Observability Methodologies](#observability-methodologies)
+    - [Observability Tooling](#observability-tooling)
+    - [Infrastructure Tooling](#infrastructure-tooling)
+      - [Scheduling At The Cluster Level](#scheduling-at-the-cluster-level)
+      - [Scaling](#scaling)
+      - [On-Node Power Management Tuning](#on-node-power-management-tuning)
   - [Sustainability Initiatives](#sustainability-initiatives)
     - [Organizations](#organizations)
     - [Conferences](#conferences)
@@ -172,11 +176,11 @@ When considering solutions complimentary to the three foundations of sustainable
 
 All of these elements can be investigated further individually.
 
-| Area | Goal | Efforts |
-| -------- | -------- | -------- |
-| Multi Data Centers     | Intelligently choosing which data center to schedule on according to environmental factors such as whether the region is powered by renewables, the region's Marginal Emissions Rate, Power Usage Effectiveness (PUE), time of day, etc.     |  Cluster Management    |
-| Within Data Center     | Scheduling effectively according to workload, availability, and urgency of workload     | Power Management, K8S Scheduler Plugin   |
-| Within a node     | Optimizing resources to handle workload specifications (which may include performance parameters) while minimizing resource consumption     |  Node Tuning, Pod Scaling    |
+| Area               | Goal                                                                                                                                                                                                                                     | Efforts                                |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| Multi Data Centers | Intelligently choosing which data center to schedule on according to environmental factors such as whether the region is powered by renewables, the region's Marginal Emissions Rate, Power Usage Effectiveness (PUE), time of day, etc. | Cluster Management                     |
+| Within Data Center | Scheduling effectively according to workload, availability, and urgency of workload                                                                                                                                                      | Power Management, K8S Scheduler Plugin |
+| Within a node      | Optimizing resources to handle workload specifications (which may include performance parameters) while minimizing resource consumption                                                                                                  | Node Tuning, Pod Scaling               |
 
 ## Current Industry Research and Development
 There are a number of developments and ongoing research in the field of sustainable computing.
@@ -198,13 +202,34 @@ For instance, programs written in [energy efficient langugages](https://haslab.g
 On the other hand, architectures that address the root cause of energy waste, including idle power and data center cooling, are evaluated to be more environmentally friendly.
 For instance, Federated Learning spreads model training to devices that do not require expensive cooling is [evaluated](https://www.cam.ac.uk/research/news/can-federated-learning-save-the-world) to reduce carbon footprint in aggregate.
 
-## Current Sustainable Computing Landscape
-### Smart Data Centers
+## Current Sustainable Cloud Computing Landscape
+
+The diagram below illustrates the dimensions of the sustainable cloud computing landscape, which are described in detail in the following sections.
+
+```mermaid
+---
+title: Overview of the Sustainable Cloud Computing Landscape
+---
+%%{init: {'theme':'neutral'}}%%
+flowchart TB
+    root{{Sustainable Cloud Computing Landscape}} -.- dc[Data centers] & methodologies[Methodologies]
+    root -..- infra[Infrastructure Tooling] & obs[Observability Tooling]
+    dc --> smart_dc[Smart Data centers] & cooling[Cooling / BMC]
+    methodologies --> measurement[Measurement Methodologies] & obs_methodologies[Observability Methodologies]
+    infra --> scheduling[Scheduling] & scaling[Scaling] & tuning[Resource Tuning]
+
+    classDef dimensions fill:#ececff,stroke:#9572db,stroke-width:4px
+    class dc,methodologies,infra,obs dimensions;
+```
+
+### Data centers
+
+#### Smart Data Centers
 * ECO-Qube is a holistic management system that aims to enhance energy efficiency and cooling performance by orchestrating both hardware and software components in edge computing applications [ECO-Qube](https://eco-qube.eu/)
 * [Patchwork Kilt](https://openuk.uk/patchworkkilt/) - A blueprint for sustainable data centers.
 * [Open Compute Sustainability Project](https://www.opencompute.org/projects/sustainability) - Leveraging the expertise of the OCP community, we offer an open framework and resources for OCP members and data center industry – vendors, suppliers, and end users - to deploy industry best practices that promotes reusability and circularity.  
 
-### Cooling / BMC
+#### Cooling / BMC
 * :newspaper: :ice_cube: OCP Cooling Telemetry [Improve data center cooling facility efficiency through platform power telemetry](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf) <br> 
 Data center operators usually over provision facility capacity to ensure enough buffer to fulfill peak demand.
 Over provisioning brings great pressure to data centers' total cost of ownership (TCO).
@@ -215,16 +240,56 @@ Meanwhile, this paper discussed some key challenges and design considerations wh
 Effective interoperability among IT devices, facility and management systems is very critical for solution deployment, and the adoption of Open Compute Project design and Redfish API easier system-level integration and reduce deployment costs over different systems and different manufacturers. 
 * :ice_cube: BMC Telemetry [Exposes Baseboard Management Controller data in Prometheus format.](https://github.com/gebn/bmc_exporter)
 
-### Measurement Methodologies
+### Methodologies
+#### Measurement Methodologies
 * [Software Carbon Intensity (SCI) Standard](https://github.com/Green-Software-Foundation/sci) - A specification that describes how to calculate the carbon intensity of software applications.
 * [Green Software Patterns](https://patterns.greensoftware.foundation/) - An online open-source database of software patterns reviewed and curated by the Green Software Foundation across a wide range of categories.
 * [SCI Guidance](https://sci-data.greensoftware.foundation/) - The SCI Guidance project details various approaches on how to understand the different methodologies that are available for calculating energy, carbon intensity, embodied emissions, and functional unit values which are the core components of the SCI calculation.
 * Runtime system power consumption estimate [Run-time estimation of system and sub-system level power consumption](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 
-### Telemetry Software
+#### Observability Methodologies
+
 * :eyes: Open Telemetry [High-quality, ubiquitous, and portable telemetry to enable effective observability](https://opentelemetry.io/)<br>
 A CNCF incubating project designed to create and collect telemetry data from services and software and then forward these to a variety of analysis tools.
 OpenTelemetry integrates with popular libraries and frameworks such as Spring, ASP.NET Core, Express, Quarkus, and others.  
+
+### Observability Tooling
+
+The diagram below illustrates the infrastructure dimension of the sustainable cloud computing landscape.
+
+```mermaid
+---
+title: The Observability Domain of the Sustainable Cloud Computing Landscape
+---
+%%{init: {'theme':'neutral'}}%%
+flowchart TB
+    root{{Observability - Sustainable Cloud Computing Landscape}} -.- obs[Observability Tooling]
+
+    %% OBSERVABILITY
+    obs --> g_profiler[gProfiler]
+    obs --> power_api[PowerAPI\n a Python\n framework]
+    obs --> kepler[Kepler\n Kubernetes based\n Efficient Power\n Level Exporter]
+    obs --> scaphandre[Scaphandre\n Energy consumption\n metrology agent]
+    obs --> green_metrics_tool[Green Metrics\n Tool]
+    obs --> cloud_carbon_footprint[Cloud Carbon\n Footprint]
+    obs --> influx_telegraf[InfluxData\n Telegraf Collector]
+    obs --> carbon_ql[Carbon QL]
+    obs --> powertop[PowerTOP]
+
+    click g_profiler "https//docs.gprofiler.io/" "Source"
+    click power_api "https://github.com/powerapi-ng/" "Source"
+    click kepler "https://github.com/sustainable-computing-io/kepler" "Source"
+    click scaphandre "https://github.com/hubblo-org/scaphandre" "Source"
+    click green_metrics_tool "https://docs.green-coding.berlin/" "Source"
+    click cloud_carbon_footprint "https://www.cloudcarbonfootprint.org/docs/" "Source"
+    click influx_telegraf "https://github.com/influxdata/telegraf" "Source"
+    click carbon_ql "https://github.com/Green-Software-Foundation/carbon-ql" "Source"
+    click powertop "https://github.com/fenrus75/powertop" "Source"
+
+    classDef sections fill:#ececff,stroke:#9572db,stroke-width:4px
+    class obs sections;
+```
+
 * :eyes: gProfiler [OS code profiling tool to visualize applications' execution sequences and resource usage down to the line of code level](https://docs.gprofiler.io/)<br>
 gProfiler, is a free, self-service, and open source, enabling businesses to improve application performance through continuous profiling, thereby reducing costs and minimizing carbon footprint.
 Granulate users can monitor their carbon emission reduction on the gCenter dashboard, alongside cost and resource reductions, with the CO2 Savings Meter.
@@ -241,34 +306,64 @@ The Kepler Model Server pre-trains its models with node energy statistics (label
 Once the models achieve an acceptable performance level, Kepler Model Server exports them via flask routes and Kepler can then access them to calculate per-pod energy consumption metrics given per-pod performance counters.
 Unlike other similar projects, the Kepler Model Server also continuously trains and tunes its pre-trained models using node data scraped by Kepler’s Power Estimate Agents from client clusters.
 This gives Kepler the ability to further adapt its pod energy consumption calculation capabilities to serve clients’ unique systems.
-* :eyes: [Container Level Energy-efficient VPA Recommender for Kubernetes](https://github.com/sustainable-computing-io/clever):<br>
-Vertical Pod Autoscalers in Kubernetes allow for automatic CPU and memory request and limit adjustment based on historical resource usage measurements.
-A VPA deployment has three main components: VPA Recommender, VPA Updater, and VPA Admission Controller.
-It is possible to replace the default VPA Recommender with a custom Recommender.
-CLEVER, an intelligent recommender, uses this feature to ensure the QoS or performance of the workloads are not compromised when you try to adjust the CPU frequencies of your cluster.
-Here’s how it works: assume you have a frequency tuner deployed in your cluster to update the frequency of the CPUs frequencies as per a target metrics or energy consumption budget.
-Intuitively, when you lower down the frequencies, you do save energy but the performance of workloads also decreases.
-To counter this you can obtain information like ClusterState and CPU frequencies for the nodes after the frequencies were changed.
-CLEVER recomputes the new recommendation for CPU requests for pods managed by the VPA based on the updated CPU frequencies.
-That’s how CLEVER guarantees a similar QoS for a workload by lowering the frequencies to reduce energy but at the same time increasing CPU allocation.
 * :eyes: Energy Consumption Metrology Agent [Energy consumption metrology agent](https://github.com/hubblo-org/scaphandre)<br>
 Scaphandre is a monitoring agent, dedicated to energy consumption metrics.
 Its purpose is to help measure and thus understand tech services' energy consumption patterns.
 This is key, in our opinion, to enable the tech industry to shift towards more sustainability.
 * :eyes: Green Metrics Tool [A holistic framework to measure the energy / co2 of your application.](https://docs.green-coding.berlin/)
-* :eyes: Cloud Carbon Footprint [Measure, monitor, and reduce carbon emissions from the cloud](https://www.cloudcarbonfootprint.org/docs/)
 * :eyes: [InfluxData Telegraf Collector](https://github.com/influxdata/telegraf) - an open source, plugin-based agent for collecting, processing, aggregating, and writing metrics.
 Includes multiple input plugins that help determine energy consumption, e.g. [intel_powerstat](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/intel_powerstat) (exposes CPU & DRAM power consumption, CPU temperature, TDP, CPU and uncore frequencies, C-State residencies), [ipmi_sensor](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/ipmi_sensor) (exposes IPMI sensor data), [redfish](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/redfish) (exposes CPU temperature, fan speed, power supply and voltage data as exposed by [DMTF's Redfish](https://redfish.dmtf.org/) interfaces), and a high number of plugins that help determine the utilization of individual resources that in turn help identifying where the power is consumed.
 A rich set of available output plugins makes it easy to integrate with various metrics destinations.
 * :eyes: [Carbon QL](https://github.com/Green-Software-Foundation/carbon-ql) - The intent of this project is to build a single API codenamed carbonQL that you can use to measure your software emissions for every runtime environment.
-* :eyes: [Isotope](https://azuremarketplace.microsoft.com/en-en/marketplace/apps/avanade-5299580.amp_isotope_access?tab=overview) - Using [Azure Arc](https://azure.microsoft.com/en-us/products/azure-arc) to measure estimated carbon emissions.
-* :eyes: Etsy and Cloud carbon footprint.org [Cloud Carbon Footprint - Methodology](https://www.cloudcarbonfootprint.org/docs/methodology/) <br>
+* :eyes: [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/docs/) <br>
 This application pulls usage data (compute, storage, networking, etc.) from major cloud providers and calculates estimated energy (Watt-Hours) and greenhouse gas emissions expressed as carbon dioxide equivalents (metric tons CO2e). 
 We display these visualizations in a dashboard for developers, sustainability leaders and other stakeholders in an organization to view and take action. It currently supports AWS, Google Cloud and Microsoft Azure.
-* :eyes: OSTI [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
 * :eyes: [PowerTOP](https://github.com/fenrus75/powertop) - a Linux tool, which among other things allows you to monitor the power consumption per process running on the Linux machine.
+* :green_book: OSTI [Paper] [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
+* :green_book: [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): The Carbon Aware SDK is a WebApi and Command Line Interface (CLI) to assist in building carbon aware software.
 
-### Scheduling At The Cluster Level
+### Infrastructure Tooling
+
+The diagram below illustrates the infrastructure dimension of the sustainable cloud computing landscape.
+
+```mermaid
+---
+title: The Infrastructure Domain of the Sustainable Cloud Computing Landscape
+---
+%%{init: {'theme':'neutral'}}%%
+flowchart TB
+    root{{Infrastructure - Sustainable Cloud Computing Landscape}} -.- scheduling[Scheduling] & scaling[Scaling] & tuning[Resource Tuning]
+
+    %% SCHEDULING
+    scheduling --> plat_aware_scheduling[Platform aware\n scheduling]
+    scheduling --> intent_driven_orch[Intend driven\n orchestration]
+
+    click plat_aware_scheduling "https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power" "Source"
+    click intent_driven_orch "https://github.com/intel/intent-driven-orchestration" "Source"
+
+    %% SCALING
+    scaling --> predictive_vpa[Predictive Vertical\n Pod Autoscaler]
+    scaling --> clever[Container Level Energy \n efficient VPA Recommender]
+    scaling --> keda[Kubernetes Event\n driven Autoscaling]
+
+    click predictive_vpa "https://github.com/openshift/predictive-vpa-recommenders" "Source"
+    click clever "https://github.com/sustainable-computing-io/clever" "Source"
+    click keda "https://keda.sh/" "Source"
+
+    %% RESOURCE TUNING
+    tuning --> tuned_on_ocp[Node tuning\n via TuneD on OCP]
+    tuning --> k8s_power_manager[Kubernetes\n Power Manager]
+    tuning --> geopm[Extensible\n Power Manager]
+
+    click tuned_on_ocp "https://docs.openshift.com/container-platform/4.10/scalability_and_performance/using-node-tuning-operator.html" "Source"
+    click k8s_power_manager "https://github.com/intel/kubernetes-power-manager" "Source"
+    click geopm "https://geopm.github.io" "Source"
+
+    classDef sections fill:#ececff,stroke:#9572db,stroke-width:4px
+    class scheduling,scaling,tuning sections;
+```
+
+#### Scheduling At The Cluster Level
 At the cluster-level scheduling phase, energy to be consumed by the workload can be reduced by intelligent schedulers that are aware of carbon footprint in a data center, thermal temperature and cooling, caching aware, or server power efficiency.
 Batch scheduling according to power costs (carbon, money, et cetera).
 
@@ -283,15 +378,22 @@ There is already preliminary work being done to leverage this in a power-optimal
 * :green_book: Carbon-aware Kubernetes scheduler [A Low Carbon Kubernetes Scheduler](http://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
 * :green_book: Energy aware scheduling [Paper] [Improving Data Center Efficiency Through Holistic Scheduling In Kubernetes](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
 
-
-### Scaling
+#### Scaling
 
 * :speedboat: Predictive VPA [Predictive Vertical Pod Autoscaler (VPA) recommenders pluggable with the default VPA on OpenShift](https://github.com/openshift/predictive-vpa-recommenders)
-* :speedboat: CLEVER [Container Level Energy-efficient VPA Recommender pluggable with the default VPA on Kubernetes](https://github.com/sustainable-computing-io/clever)
-* :speedboat: [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): A [Green Software Foundation](https://greensoftware.foundation) project, to time-shift & region shift software to do more when the electricity is clean and do less when the electricity is dirty; by measuring the "Electricity Marginal Carbon Intensity (CO2eq/KHw)."
+* :speedboat: CLEVER [Container Level Energy-efficient VPA Recommender for Kubernetes](https://github.com/sustainable-computing-io/clever):<br>
+Vertical Pod Autoscalers in Kubernetes allow for automatic CPU and memory request and limit adjustment based on historical resource usage measurements.
+A VPA deployment has three main components: VPA Recommender, VPA Updater, and VPA Admission Controller.
+It is possible to replace the default VPA Recommender with a custom Recommender.
+CLEVER, an intelligent recommender, uses this feature to ensure the QoS or performance of the workloads are not compromised when you try to adjust the CPU frequencies of your cluster.
+Here’s how it works: assume you have a frequency tuner deployed in your cluster to update the frequency of the CPUs frequencies as per a target metrics or energy consumption budget.
+Intuitively, when you lower down the frequencies, you do save energy but the performance of workloads also decreases.
+To counter this you can obtain information like ClusterState and CPU frequencies for the nodes after the frequencies were changed.
+CLEVER recomputes the new recommendation for CPU requests for pods managed by the VPA based on the updated CPU frequencies.
+That’s how CLEVER guarantees a similar QoS for a workload by lowering the frequencies to reduce energy but at the same time increasing CPU allocation.
 * :speedboat: [Keda](https://keda.sh/): Kubernetes Event-driven Autoscaling enables scale-to-zero platforms.
 
-### On-Node Power Management Tuning
+#### On-Node Power Management Tuning
 Once the region and node are chosen, administrators and users can further tune the node to minimize the amount of power necessary to run workloads.
 This can reduce power 30% or more per node.
 
