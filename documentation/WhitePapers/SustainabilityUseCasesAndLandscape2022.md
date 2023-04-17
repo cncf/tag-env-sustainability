@@ -66,7 +66,7 @@ Furthermore, the paper explores sector-specific challenges, such as the telecomm
 ## Contributors
 A special thank you to our contributors of this document. If you are interested in improving and enhancing the content, please file a PR on the repo and ensure you add yourself as a contributor below!
 
-Huamin Chen, [Marlow Weston](https://github.com/catblade), [Niki Manoledaki](https://github.com/nikimanoledaki), Eun Kyung Lee, Chen Wang, Chris Lloyd-Jones, 
+Huamin Chen, [Marlow Weston](https://github.com/catblade), [Niki Manoledaki](https://github.com/nikimanoledaki), Eun Kyung Lee, [Chen Wang](https://github.com/wangchen615), [Chris Lloyd-Jones](https://github.com/Sealjay), 
 [Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz), [Christopher Cantalupo](https://github.com/cmcantalupo), [Patricia Cahill](https://github.com/patricia-cahill), [Jochen Joswig](https://github.com/by-d-sign), [Emily Fox](https://github.com/thefoxatwork), [Leonard Pahlke](https://github.com/leonardpahlke)
 
 ## Foundations of Sustainable Cloud Systems
