@@ -22,7 +22,6 @@ This TAG's goal is to advocate for, develop, support, and help evaluate environm
 
 - [GitHub Repository](https://github.com/cncf/tag-env-sustainability)
 - [TAG Charter](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md)
-- [TAG GitHub](https://github.com/cncf/tag-env-sustainability)
 - [Events](https://tag-env-sustainability.cncf.io/events/)
 - Slack channel: [#tag-env-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6)
     - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
