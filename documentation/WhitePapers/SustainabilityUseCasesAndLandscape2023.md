@@ -2,6 +2,8 @@
 
 This captures the known and ongoing sustainability efforts within the cloud native landscape as well as identifies challenge areas.
 
+All relevant wordings can be found explained here in the [glossary](https://github.com/cncf/tag-env-sustainability/blob/main/glossary/glossary.md).
+
 ## Summary
 
 Cloud computing has revolutionized the way we store and process data, enabling organizations to be more agile, efficient, and scalable.
