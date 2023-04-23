@@ -20,12 +20,14 @@ toc_hide: false
 
 This TAG's goal is to advocate for, develop, support, and help evaluate environmental sustainability initiatives in cloud native technologies. This TAG will identify values and possible incentives for service providers to reduce their consumption and carbon footprint through cloud native tooling.
 
+- [GitHub Repository](https://github.com/cncf/tag-env-sustainability)
 - [TAG Charter](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md)
 - [TAG GitHub](https://github.com/cncf/tag-env-sustainability)
 - [Events](https://tag-env-sustainability.cncf.io/events/)
 - Slack channel: [#tag-env-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6)
     - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
 - [Mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/topics)
+- [Surveys](https://github.com/cncf/tag-env-sustainability/tree/main/surveys)
 
 ## Meetings
 
