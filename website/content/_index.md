@@ -36,7 +36,7 @@ time](https://dateful.com/convert/utc?t=16)).
 Meetings are listed on the [main CNCF calendar](https://www.cncf.io/calendar/)
 as well as the [TAG ENV Calendar](https://tockify.com/cncf.public.events/monthly?search=TAG%20Environmental%20Sustainability).
 
-You can also add meeting series to your calendar: [tag-meeting-series-invite.ics](https://github.com/cncf/tag-env-sustainability/tree/main/media/tag-meeting-series-invite.ics) .
+You can also add meeting series to your calendar: [tag-meeting-series-invite.ics](https://raw.githubusercontent.com/cncf/tag-env-sustainability/main/media/tag-meeting-series-invite.ics). After clicking on the link, right-click and choose "Save Page as...".
 
 * [Agenda and Notes](https://bit.ly/cncf-tag-env-meeting-notes)
 * [Zoom Meeting](https://zoom.us/my/cncftagenvsustainability) (Passcode: `77777`)
