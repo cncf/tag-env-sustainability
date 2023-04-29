@@ -36,7 +36,11 @@ time](https://dateful.com/convert/utc?t=16)).
 Meetings are listed on the [main CNCF calendar](https://www.cncf.io/calendar/)
 as well as the [TAG ENV Calendar](https://tockify.com/cncf.public.events/monthly?search=TAG%20Environmental%20Sustainability).
 
-You can also add meeting series to your calendar: [tag-meeting-series-invite.ics](https://raw.githubusercontent.com/cncf/tag-env-sustainability/main/media/tag-meeting-series-invite.ics). After clicking on the link, right-click and choose "Save Page as...".
+You can add working group meeting series to your calendar in two ways.
+
+The first way is to import the TAG Environmental Sustainability CNCF calendar feed into your calendar from following URL: [https://icalfilter.com/j9732u68l2](https://icalfilter.com/j9732u68l2). Here's a guide for how to do it in Google Calendar: [Subscribe to someone’s Google Calendar](https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DDesktop). In this case your calendar will be automatically updated once new events are published.
+
+The second way is to download the .ics file by navigating directly to the following URL: [https://icalfilter.com/j9732u68l2](https://icalfilter.com/j9732u68l2). In this case no automatic updates are supported.
 
 * [Agenda and Notes](https://bit.ly/cncf-tag-env-meeting-notes)
 * [Zoom Meeting](https://zoom.us/my/cncftagenvsustainability) (Passcode: `77777`)
