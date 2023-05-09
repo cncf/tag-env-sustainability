@@ -142,6 +142,8 @@ The paper lead will need to create the paper's README.md that includes the follo
 In an effort to increase visibility and awareness of the final product, it is strongly recommended the paper lead coordinate with TAG leadership to engage the CNCF team for posting a blog to summarize and link to the paper.
 As community events occur, it is also recommended that the TAG coordinate a submission to community events (presentation) on the paper.
 
+To guide this process follow the steps outlines in the blog post [issue template](https://github.com/cncf/tag-env-sustainability/issues/new?assignees=&labels=blog+post&template=blog.md&title=Blog).
+
 #### Authorship, attribution and acknowledgements
 
 Papers and other resources created from the TAG Environmental Sustainability efforts are under the authorship of the TAG Environmental Sustainability, and all members who have made contributions to the document (through writing, editing, creating illustrations, etc.) are considered "Contributors".
