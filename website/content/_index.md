@@ -1,6 +1,6 @@
 ---
 title: TAG Environmental Sustainability
-toc_hide: false
+toc_hide: true
 ---
 
 <div class="row mt-5 mb-3">

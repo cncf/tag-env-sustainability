@@ -1,7 +1,10 @@
 ---
-title: Current Sustainability Efforts and Challenges Within the Cloud Native Landscape v0.1
+title: Cloud Native Sustainability Landscape
 description: This captures the known and ongoing sustainability efforts within the cloud native landscape as well as identifies challenge areas.
+slug: landscape
 ---
+
+*This document is in version 0.1 and contains gaps which will be addressed in the upcoming versions. Contributions are very welcome!*
 
 Cloud computing has revolutionized the way we store and process data, enabling organizations to be more agile, efficient, and scalable.
 However, as companies transform their business models to meet sustainability requirements, concerns about environmental sustainability in cloud computing have also emerged.
