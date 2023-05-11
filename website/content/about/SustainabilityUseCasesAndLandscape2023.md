@@ -207,9 +207,6 @@ For instance, Federated Learning spreads model training to devices that do not r
 The diagram below illustrates the dimensions of the sustainable cloud computing landscape, which are described in detail in the following sections.
 
 ```mermaid
----
-title: Overview of the Sustainable Cloud Computing Landscape
----
 %%{init: {'theme':'neutral'}}%%
 flowchart TB
     root{{Sustainable Cloud Computing Landscape}} -.- dc[Data centers] & methodologies[Methodologies]
@@ -258,9 +255,6 @@ OpenTelemetry integrates with popular libraries and frameworks such as Spring, A
 The diagram below illustrates the infrastructure dimension of the sustainable cloud computing landscape.
 
 ```mermaid
----
-title: The Observability Domain of the Sustainable Cloud Computing Landscape
----
 %%{init: {'theme':'neutral'}}%%
 flowchart TB
     root{{Observability - Sustainable Cloud Computing Landscape}} -.- obs[Observability Tooling]
@@ -327,9 +321,6 @@ We display these visualizations in a dashboard for developers, sustainability le
 The diagram below illustrates the infrastructure dimension of the sustainable cloud computing landscape.
 
 ```mermaid
----
-title: The Infrastructure Domain of the Sustainable Cloud Computing Landscape
----
 %%{init: {'theme':'neutral'}}%%
 flowchart TB
     root{{Infrastructure - Sustainable Cloud Computing Landscape}} -.- scheduling[Scheduling] & scaling[Scaling] & tuning[Resource Tuning]
