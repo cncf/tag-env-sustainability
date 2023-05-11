@@ -13,16 +13,18 @@ assignees: ''
 -->
 
 - **Authors**: *TBD*
-- **TAG ENV Representative**: *TBD*
-- **Reviewers**: *TBD*
+- **Reviewers**: *TBD* <!-- Author, please update the list with all reviewers contributing to the blog -->
+- **TAG ENV Lead**: *TBD* <!-- One of the TAG ENV leads will assign themselves! -->
 
 <!--
-Authors: anyone can propose to write a blog post which is published to the TAG ENV blog
-TAG ENV Representative: is either a TAG ENV chair or TL
-Reviewers: anyone can be a reviewer of the blog post
+ROLES
+- Authors: anyone can propose to write a blog post which is published to the TAG ENV blog
+- Reviewers: anyone can be a reviewer of the blog post
+- TAG ENV Lead: is either a TAG ENV chair or TechLead
+- TAG ENV ToC Liaison: is one of the ToC representatives assigned to the TAG ENV
 -->
 
-## Outline
+## Abstract
 
 <!--
 Please summarize what this blog post is about
@@ -65,20 +67,23 @@ Please summarize the non-goals of the blog post
 A more complete summary of tasks are described on XYZ.
 
 - [ ] Outline Blog post
-    - [ ] [**Author**] written a brief outline and the scope of the article so that it can be discussed by the TAG representative and reviewers
-    - [ ] [**TAG ENV Representative**] Blog post outline and theme has been discussed
+    - [ ] [**Author**] described the abstract of the blog post, defined the scope, goals and non-goals, and defined the expected audience.
+    - [ ] [**Author**] notified TAG ENV community to review the outline via Slack on the `tag-env-sustainability` channel.
+    - [ ] [**TAG ENV Lead**] One of the TAG ENV leads assigned themselves to wrangle the blog
+    - [ ] [**TAG ENV Lead**] Blog post outline and theme has been discussed
 - [ ] [**Author**] Blog post written and ready for review
 - [ ] Review
-    - [ ] [**Author**] blog post draft shared blog post via GoogleDocs (public comment).
-    - [ ] [**Author**] notified TAG Community for review via Slack on the `tag-env-sustainability` channel.
+    - [ ] [**Author**] blog post PR opened (blog posts are added to the [`website/content/blog`](https://github.com/cncf/tag-env-sustainability/tree/main/website/content/blog) folder, images to [`website/static/images/blog/<YEAR>-<MONTH>-<title>/*.jpg`](https://github.com/cncf/tag-env-sustainability/tree/main/website/static/images))
+    - [ ] [**Author**] notified TAG ENV community for review via Slack on the `tag-env-sustainability` channel.
     - [ ] [**Author**] gave a minimum of a week to collect public feedback, depending on reviews this will get extended. If there is a major event (conference, etc.) or holidays coming up, please extend accordingly.
     - [ ] [**Author**] Feedback and comments have been resolved.
     - [ ] [**Reviewers**] reviewed blog post.
-    - [ ] [**TAG ENV Representative**] reviewed blog post.
-    - [ ] [**TAG ENV Representative**] ready to get published.
-    - [ ] [**Author**] Opened a PR to publicize the blog post draft to the TAG ENV blog (blog posts are added to the folder [website/content/blog](https://github.com/cncf/tag-env-sustainability/tree/main/website/content/blog)).
-    - [ ] [**TAG ENV Representative**] merged blog post.
-    - [ ] _optional_ [**TAG ENV Representative**] schedule the blog post on the CNCF blog next to the TAG ENV blog
+    - [ ] [**TAG ENV Lead**] reviewed blog post.
+    - [ ] [**TAG ENV Lead**] ready to get published.
+    - [ ] [**TAG ENV Lead**] notified one of the ToC liaisons to sign off the blog post.
+    - [ ] [**TAG ENV ToC Liaison**] reviewed blog post.
+    - [ ] [**TAG ENV Lead**] merged blog post.
+    - [ ] _optional_ [**TAG ENV Lead**] schedule the blog post on the CNCF blog next to the TAG ENV blog
     - [ ] [**Author**] Wrote feedback about the blog post process as a comment under this issue
 
 ## Comments 
