@@ -57,7 +57,7 @@ stateDiagram-v2
 3. The author asks for blog post outline reviews publicly. Follow this section [asking for reviews](#asking-for-reviews) for more insights.
 4. The author includes feedback. Follow this section [incorporating reviews](#incorporating-reviews) for more insights.
 5. As soon as the outline has been discussed feedback has been included the assigned TAG Lead will do the sign off.
-6. The author writes the blog post following the previously established outline.
+6. The author writes the blog post following the previously established outline. The blog post can be written directly in a Markdown file, which is pushed directly to the website via a PR. The review is then performed in the PR. Alternatively, blog posts can be written in a Google Docs file that is publicly editable. We are flexible on this.
 7. The author asks for blog post reviews publicly. Follow this section [asking for reviews](#asking-for-reviews) for more insights.
 8. The author includes feedback. Follow this section [incorporating reviews](#incorporating-reviews) for more insights.
 9. As soon as the blog post has been discussed feedback has been included the assigned TAG Lead will do the sign off.
@@ -129,3 +129,5 @@ Hello Word!
 Hello World!
 ```
 ````
+
+If the review is done on google docs make sure to use the [suggestion](https://support.google.com/docs/answer/6033474?hl=en&co=GENIE.Platform%3DDesktop&oco=0) feature. If that's not possible, make sure you make it clear how the author can clearly incorporate your review and not have to guess what exactly you mean by your proposed change.
