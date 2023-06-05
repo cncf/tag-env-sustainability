@@ -427,6 +427,8 @@ There are a number of sustainability initiatives ongoing, if we've missed one pl
 * :honeybee: [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/)<br> 
   Get to know the carbon footprint of your cloud usage - and reduce it.<br>
 Cloud Carbon Footprint is an open source tool that provides visibility and tooling to measure, monitor and reduce your cloud carbon emissions. We use best practice methodologies to convert cloud utilization into estimated energy usage and carbon emissions, producing metrics and carbon savings estimates that can be shared with employees, investors, and other stakeholders.
+* 🐝 [Open Compute Project](https://www.opencompute.org/projects/heat-reuse)<br>
+  Almost 100% of the energy used in a processor turns into heat. Up until very recently this has been a liability and a challenge, immense quantity of heat needed to be removed employing even more energy for it. With the proper design, data center cooling systems can be converted into a heat source and a heat management opportunity that in turn converts the heat from a liability to an asset. The OCP Heat Reuse subgroup explores these challenges and opportunities. Its goal is to suggest solutions to allow easier implementations of technologies aimed at harnessing the heat and turn it into profit instead of a cost.
 
 ### Conferences
 * :honeybee: Linux Foundation's SustainabilityCon [The first sustainability-focused track by the Linux Foundation](https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/)
