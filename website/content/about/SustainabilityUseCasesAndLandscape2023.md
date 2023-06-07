@@ -265,7 +265,7 @@ flowchart TB
     obs --> g_profiler[gProfiler]
     obs --> power_api[PowerAPI\n a Python\n framework]
     obs --> kepler[Kepler\n Kubernetes based\n Efficient Power\n Level Exporter]
-    obs --> scaphandre[Scaphandre\n Energy consumption\n metrology agent]
+    obs --> scaphandre[Scaphandre\n Multi-platform energy consumption\n metrology agent]
     obs --> green_metrics_tool[Green Metrics\n Tool]
     obs --> cloud_carbon_footprint[Cloud Carbon\n Footprint]
     obs --> influx_telegraf[InfluxData\n Telegraf Collector]
@@ -302,10 +302,8 @@ The Kepler Model Server pre-trains its models with node energy statistics (label
 Once the models achieve an acceptable performance level, Kepler Model Server exports them via flask routes and Kepler can then access them to calculate per-pod energy consumption metrics given per-pod performance counters.
 Unlike other similar projects, the Kepler Model Server also continuously trains and tunes its pre-trained models using node data scraped by Kepler’s Power Estimate Agents from client clusters.
 This gives Kepler the ability to further adapt its pod energy consumption calculation capabilities to serve clients’ unique systems.
-* :eyes: Energy Consumption Metrology Agent [Energy consumption metrology agent](https://github.com/hubblo-org/scaphandre)<br>
-Scaphandre is a monitoring agent, dedicated to energy consumption metrics.
-Its purpose is to help measure and thus understand tech services' energy consumption patterns.
-This is key, in our opinion, to enable the tech industry to shift towards more sustainability.
+* :eyes: Scaphandre [Scaphandre](https://github.com/hubblo-org/scaphandre)<br>
+Scaphandre is a multi-platform monitoring agent, dedicated to power usage / energy consumption metrics and other useful data for reducing ICT software impacts.
 * :eyes: Green Metrics Tool [A holistic framework to measure the energy / co2 of your application.](https://docs.green-coding.berlin/)
 * :eyes: [InfluxData Telegraf Collector](https://github.com/influxdata/telegraf) - an open source, plugin-based agent for collecting, processing, aggregating, and writing metrics.
 Includes multiple input plugins that help determine energy consumption, e.g. [intel_powerstat](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/intel_powerstat) (exposes CPU & DRAM power consumption, CPU temperature, TDP, CPU and uncore frequencies, C-State residencies), [ipmi_sensor](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/ipmi_sensor) (exposes IPMI sensor data), [redfish](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/redfish) (exposes CPU temperature, fan speed, power supply and voltage data as exposed by [DMTF's Redfish](https://redfish.dmtf.org/) interfaces), and a high number of plugins that help determine the utilization of individual resources that in turn help identifying where the power is consumed.
