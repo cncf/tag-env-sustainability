@@ -5,7 +5,8 @@ Meetings are held to coordinate and discuss TAG ENV activities. The TAG ENV lead
 ## Requirements to host the meeting
 
 * Install Zoom and check your settings (especially audio and video).
-* Get access to the [CNCF TAG YouTube Channel](https://www.youtube.com/@CNCFEnvTAG) to start the livestream.
+* Get access to the CNCF TAG ENV Zoom account or receive the `hostkey` to start and stop recordings.
+* Get access to the [CNCF TAG YouTube Channel](https://www.youtube.com/@CNCFEnvTAG) to set the meeting recordings public.
 
 ## Pre-Meeting
 * Add a new blank agenda entry to the meeting notes by copying the template and editing the details accordingly.
@@ -27,19 +28,18 @@ If anyone has anything they’d like to discuss, please add to it to the agenda,
 ### Preparation
 
 * Slack reminder (thread) *"The meeting start now!"*
-* [Join](https://zoom.us/my/cncftagenvsustainability) the meeting
+* [Join](https://zoom.us/my/cncftagenvsustainability) the meeting with the CNCF TAG ENV Zoom account or claim host by entering the `hostkey`
 * Turn on your camera
 * Say hello to everyone 
   * *"Hello all, let's wait a few minutes for everyone to join"*
 * Ask for a note taker
 * Post the meeting notes to the meeting chat
   * *"I posted the meeting notes link to chat, please add yourself to the attendees list, thank you!"*
-* Prepare the YouTube livestream
 * Open meeting notes and share screen
 * Wait until 5 minutes have passed. Talk to people during this time so that the session does not get stalled.
   * *"Since it is now 3 minutes past, we will get started"*
   * *"If you rather not get recorded, you can now turn off your video"*
-* Start the YouTube livestream
+* Start the Zoom recording
 
 ### Intro
 
@@ -66,7 +66,7 @@ If anyone has anything they’d like to discuss, please add to it to the agenda,
 
 ### End of the Meeting
 * *"Is there anything else you like to discuss?"*
-* End the Livestream
+* End the Recording
 * Off record discussions *"I stopped the recording, is there anything you like to discuss off record?"* wait a few seconds
 * Thank all for joining the meeting *"Thank you all again for joining the meeting, see you in the next one!"*
 
@@ -85,3 +85,15 @@ Thanks all for attending the meeting!
 
 Talk to you all latest at the next TAG ENV meeting on the [<data>](https://tockify.com/cncf.public.events/monthly?search=TAG%20Environmental%20Sustainability).
 ```
+
+Go to the [CNCF TAG YouTube Channel Studio Page](https://studio.youtube.com/channel/UCMOopJuyyIWB8vXGct1ffNw/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D) and look up your recent meeting. This may take up to 1h to show up.
+
+1. Click on "Details" to update recording settings (pencil icon)
+2. Update the following parts
+   1. Remove the timestamp off the meeting title `CNCF TAG ENV Meeting 2023-06-14T14:56:38Z` -> `CNCF TAG ENV Meeting 2023-06-14`
+   2. Upload the generic thumbnail ([link](https://drive.google.com/drive/folders/153zPgRVBhR4fZVPLMgNQC0obCPwqonRa?ths=true))
+   3. Add the meeting to the community meeting playlist
+   4. Select it is made of kids
+   5. Update the visibility to public
+3. Publish the video to YouTube
+4. Drop a link to the YouTube recording in Slack
