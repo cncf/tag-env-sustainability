@@ -17,13 +17,13 @@ The following is the current listing of member roles:
 * [TOC Liaison](#toc-liaison)
 * [Facilitation Roles](#facilitation-roles)
 
-Members fulfilling any Roles in TAG are responsible for understanding and abiding the by the governance and policies defined in this group.
+Members fulfilling any Roles in the TAG are responsible for understanding and abiding by the governance and policies defined in this group.
 This commitment and execution of understanding includes not only commits to the repo, but also to any approvals or direction required by their Role.
 
-## Role of members
+## Serving as a member in a specific role
 
-* The primary role of a member is to contribute expertise to the group.
-* To add yourself as a member, submit a [Pull Request (PR)](https://github.com/cncf/people/blob/80529e2dac7b7e00cd385dbec2d3e6c7d04a1cfb/config.yaml#L1083) adding yourself to the list of members. Please put put TAG co-chairs in CC of the PR.
+Each role has a different scope and responsibility to it, please refer to the role specific sections below for more information in terms of process, requirements and expectations.
+If you serve in any of the roles described in this document please add yourself as a member with a Pull Request (PR) to this [file](https://github.com/cncf/people/blob/80529e2dac7b7e00cd385dbec2d3e6c7d04a1cfb/config.yaml#L1083).
 
 ### Maintaining active members
 
