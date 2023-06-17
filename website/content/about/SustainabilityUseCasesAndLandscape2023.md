@@ -6,6 +6,8 @@ slug: landscape
 
 *This document is in version 0.1 and contains gaps which will be addressed in the upcoming versions. Contributions are very welcome!*
 
+<i class="fas fa-globe-asia mb-3"></i>[Read the Korean translation of this document here](/about/landscape-ko/).
+
 Cloud computing has revolutionized the way we store and process data, enabling organizations to be more agile, efficient, and scalable.
 However, as companies transform their business models to meet sustainability requirements, concerns about environmental sustainability in cloud computing have also emerged.
 The carbon footprint of cloud computing has become a topic of discussion, as it indirectly causes enormous amounts of emissions due to its energy consumption.
