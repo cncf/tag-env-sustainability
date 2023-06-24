@@ -1,6 +1,6 @@
 ---
 name: Presentation
-about: Have something you want to share with the group? Or someone you would like to invite to speak? Propose a presentation for the TAG-Security weekly meetings.
+about: Have something you want to share with the group? Or someone you would like to invite to speak? Propose a presentation for the TAG Environmental Sustainability regular meetings.
 title: "[Presentation] some descriptive title"
 labels: "presentation, triage-required"
 assignees: ''
@@ -28,7 +28,8 @@ assignees: ''
 ...
 
 ### Time
-<!-- How long will the presentation take? (estimate) -->
+<!-- How long will the presentation take? Please aim for 10 minutes or limit the presentation to 15 minutes to leave
+enough time for discussion and other agenda items. (estimate) -->
 
 ...
 
