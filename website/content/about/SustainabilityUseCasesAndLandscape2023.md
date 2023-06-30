@@ -4,7 +4,7 @@ description: This captures the known and ongoing sustainability efforts within t
 slug: landscape
 ---
 
-*This document is in version 23.06 and contains gaps which will be addressed in the upcoming versions. Contributions are very welcome!*
+*This document was published on 23.06. We are aware that this document contains gaps that will be addressed in future releases. Contributions are very welcome!*
 
 <i class="fas fa-globe-asia mb-3"></i>[Read the Korean translation of this document here](/about/landscape-ko/).
 
