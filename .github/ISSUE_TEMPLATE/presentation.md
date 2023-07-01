@@ -40,10 +40,8 @@ enough time for discussion and other agenda items. (estimate) -->
 
 ### Steps
 1. [ ] First, contact one of [TAG ENV
-   Co-Chairs](https://github.com/cncf/tag-env-sustainability#tag-environmental-sustainability-co-chairs) or [TLs](https://github.com/cncf/tag-env-sustainability#tag-environmental-sustainability-tech-leads) to confirm your presentation. You can tag them in this GitHub issue or contact them on the CNCF Slack.
+   Co-Chairs](https://github.com/cncf/tag-env-sustainability#tag-environmental-sustainability-co-chairs) or [TLs](https://github.com/cncf/tag-env-sustainability#tag-environmental-sustainability-tech-leads) to confirm your presentation. You can tag them in this GitHub issue or contact them through the [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) channel [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6).
 2. [ ] Then, add the topic to the Agenda of the upcoming regular meeting in the
-   [meeting
-   notes](https://docs.google.com/document/d/1TkmMyXJABC66NfYmivnh7z8Y_vpq9f9foaOuDVQS_Lo/edit).
-   Format: _[NAME] Presentation: "<title of your presentation>"_ <link to this
-   issue>
-3. [ ] Post a message in the CNCF Slack channel `#tag-env-sustainability channel` to inform other TAG ENV contributors!
+   [meeting notes](https://docs.google.com/document/d/1TkmMyXJABC66NfYmivnh7z8Y_vpq9f9foaOuDVQS_Lo/edit).
+   Format: `[NAME] Presentation: "<title of your presentation>" <link to this issue>`
+3. [ ] Post a message in the [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) channel [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) to inform other TAG ENV members so that they can join!
