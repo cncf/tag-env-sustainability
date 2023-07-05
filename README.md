@@ -23,6 +23,7 @@ In addition to what you can find in this repository, the TAG Environmental Susta
   Ways to add to your calendar:
   - Import the TAG Environmental Sustainability CNCF calendar feed into your calendar from following URL: [https://icalfilter.com/j9732u68l2](https://icalfilter.com/j9732u68l2). [Subscribe to someone’s Google Calendar](https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DDesktop). In this case your calendar will be automatically updated once new events are published.
   - Download the .ics file by navigating directly to the following URL in the web browser: [https://icalfilter.com/j9732u68l2](https://icalfilter.com/j9732u68l2). Note:  in this case automatic updates are NOT supported.
+    
   Meeting notes & agenda [here](https://docs.google.com/document/d/1TkmMyXJABC66NfYmivnh7z8Y_vpq9f9foaOuDVQS_Lo/edit#)
 * [Mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/) via mailto:cncf-tag-env-sustainability@lists.cncf.io
 * Slack: [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) slack channel on slack.cncf.io
