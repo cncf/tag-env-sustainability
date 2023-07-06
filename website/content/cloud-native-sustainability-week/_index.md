@@ -1,13 +1,21 @@
 ---
 title: CNCF Cloud Native Sustainability Week
-description: Cloud Native Sustainability Week is an event to organize meetings in CNCF community groups around the theme of Cloud Native Sustainability during the second week of October 2023.
+linkTitle: Cloud Native Sustainability Week
+toc_hide: true
+exclude_search: true
+menu:
+  main:
+    weight: 30
+description: Cloud Native Sustainability Week is a global event where CNCF community organize local meetups around the topic of cloud native sustainability. Cloud Native Sustainability Week will take place during the second week of October 2023.
 slug: cloud-native-sustainability-week
 ---
 
-The CNCF Global Week of Cloud Native Sustainability is an event organized by the [Cloud Native Computing Foundation (CNCF)](http://cncf.io) community to address the emerging topic of environmental sustainability in the cloud native industry and open-source space. The event aims to engage with the community and industry, understand the current landscape, and promote collaboration and knowledge sharing.
+The CNCF Global Week of Cloud Native Sustainability is an event organized by the [Cloud Native Computing Foundation (CNCF)](http://cncf.io) community to address the emerging topic of environmental sustainability in the cloud native industry and open source space. The event aims to engage with the community and IT industry as a whole, get a better understanding of the current environmental sustainability landscape, and promote collaboration and knowledge sharing on the topic.
 
-During the **second week of October 2023 (W41)**, the [broader Cloud Native community](https://community.cncf.io/chapters/) will organize meetups in their cities with a focus on cloud native sustainability. These meetups can be organized by anyone interested in supporting the effort. Additionally, the [CNCF Environmental Sustainability Technical Advisory Group (TAG ENV)](http://github.com/cncf/tag-env-sustainability), will host a virtual meetup using the [bevy](http://bevy.com) platform.
+During the **second week of October 2023 (W41)**, the [CNCF community groups around the globe](https://community.cncf.io/chapters/) will organize meetups in their cities with a focus on cloud native sustainability. These meetups can be organized by anyone interested in supporting the effort. Additionally, the [CNCF Environmental Sustainability Technical Advisory Group (TAG ENV)](http://github.com/cncf/tag-env-sustainability), will host a virtual meetup using the [bevy](http://bevy.com) platform.
+These meetups can be organized by anyone interested in supporting the effort. If you would like to contribute, check out the [Contact and Resources](#contact-and-resources) section below.
 
+There will be two types of events organized during the Cloud Native Sustainability Week:
 1. **Local in-person events**: Meetups organized worldwide during the second week of October 2023 by [CNCF community groups](https://community.cncf.io/chapters/) about cloud native sustainability.
 2. **Virtual Event**: A virtual meetup organized by the CNCF TAG ENV.
 
@@ -44,13 +52,14 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 | 23 | Aydin Mir Mohammadi | Germany, Karlsruhe | *tbd* | *tbd* |
 | 24 | Leonard Pahlke | Germany, Hamburg | *tbd* | *tbd* |
 | 25 | Michel Murabito | Italy, Milan | *tbd* | *tbd* |
+| 26 | Antonio Di Turi, Max Körbächer | Germany, Munich | *tbd* | *tbd* |
 
 ## Event Goals
 
-1. **Understand the current [landscape](https://tag-env-sustainability.cncf.io/about/landscape/)**: Engaging with the community and industry to better understand the [landscape](https://tag-env-sustainability.cncf.io/about/landscape/) of cloud native environmental sustainability.
-2. **Identify Knowledge Gaps**: Identifying areas of knowledge gaps and further exploration in cloud native environmental sustainability.
-3. **Foster project collaboration**: Facilitating collaboration among participants on ongoing projects and tools related to cloud native sustainability.
-4. **Raise awareness**: Increasing awareness and knowledge about cloud native environmental sustainability.
+1. **Gain better insights into the current [cloud native environmental sustainability landscape](https://tag-env-sustainability.cncf.io/about/landscape/)**: Engage with the community and IT industry as a whole to develop a deeper understanding of the [cloud native environmental sustainability landscape](https://tag-env-sustainability.cncf.io/about/landscape/).  
+2. **Identify knowledge gaps**: Recognize domain areas for cloud native environmental sustainability where further exploration and knowledge sharing is needed.
+3. **Foster project collaboration**: Encourage participants to actively collaborate on further development and improvement of existing projects and tools that pertain to the field of cloud native sustainability.
+4. **Raise awareness**: Increase awareness: Enhance awareness and knowledge sharing around the topic of cloud native environmental sustainability.
 5. **Promote TAG ENV and CNCF**: Promoting the #tag-environmental-sustainability and raising awareness about the CNCF in general.
 6. **Survey**: distributing a survey to gather information on end user adoption of cloud native sustainability.
 7. **Badges**: providing badges from credly for organizers and potentially speakers.
@@ -69,12 +78,12 @@ If you are a meetup organizer, we have a [tracking issue](https://github.com/cnc
 
 ## Acknowledgements ✨
 
-The event is organized by volunteers in their spare time. Its truly a community effort without that this would not be possible. Thanks everyone for helping!
+The event is organized solely by volunteers who dedicate their spare time, making it a true community effort. Without the collective contributions of everyone involved, this event would not have been possible. Thank you to each and every community member for your support and contributions!
 
-Special thanks to Nancy Chauhan, Adriana Villela, Kristina Devochko, Niki Manoledaki, Mercy Bamiduro, Mehmet, Rodolfo Martínez Vega and Leonard Pahlke to help organise the event.
+Special thanks to Adriana Villela, Kristina Devochko, Leonard Pahlke, Nancy Chauhan, Niki Manoledaki, Mercy Bamiduro, Mehmet and Rodolfo Martínez Vega to help organise the event.
 
 Special thanks to all the local meetup organizers.
 
-Special thanks to Katie Gamanji, Ricardo Rocha, Wojtek Cichoń, Nikhita Raghunath, Tom Kerkhove, Alena Prokharchyk, Abdel Sghiouar, Huamin Chen, Nate W. and Emily Fox for facilitating, sharing their thoughts and reaching out to people that might be interested organizing a meetup.
+Special thanks to Abdel Sghiouar, Alena Prokharchyk, Emily Fox, Huamin Chen, Katie Gamanji, Nate W., Nikhita Raghunath, Ricardo Rocha, Tom Kerkhove and Wojtek Cichoń for facilitating, sharing their thoughts and reaching out to people that might be interested organizing a meetup.
 
 Special thanks to Katie Greenly and the entire CNCF team for their support.
