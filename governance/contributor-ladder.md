@@ -1,11 +1,11 @@
-# Outlining your Contributor Path
+# Contributor Path
 
 The CNCF Environmental Sustainability TAG aims to support individuals who are passionate about cloud native sustainability and provide a space for personal growth as contributors.
 This document outlines a path for advancing as a contributor in the TAG. 
 It's important to note that your journey may not precisely align with this path, as the document serves as a general guide.
 If you have already made significant contributions to another TAG or a project within the CNCF landscape and are familiar with the community, your path will naturally differ from that of someone who is just starting out.
 
-- [Outlining your Contributor Path](#outlining-your-contributor-path)
+- [Contributor Path](#contributor-path)
   - [Starting out](#starting-out)
   - [Taking ownership \& responsibility](#taking-ownership--responsibility)
   - [Leading a project](#leading-a-project)
@@ -22,23 +22,23 @@ Find out if you genuinely derive joy from this line of work and consider what ar
 Remember, actively participating and providing valuable input are significant aspects of your involvement in the community.
 By engaging with others and sharing your insights, you contribute to the collective growth and success of the open source ecosystem.
 
-* Join Community Meetings, the Slack Channel and the mailing list (take a look at [this page](https://github.com/cncf/tag-env-sustainability/#contact))
+* Join Community Meetings, the Slack Channel and the mailing list (take a look at [this page](https://github.com/cncf/tag-env-sustainability/#contact)).
 * Proactively participate in discussions at community meetings, in Slack threads, or [GitHub issues](https://github.com/cncf/tag-env-sustainability/issues).
-* Reflect on your personal journey spent at TAG
-* Get to know the Group
+* Get to know the Group.
 
 ## Taking ownership & responsibility
 
-Embracing more leadership within the Environmental Sustainability TAG is highly encouraged. Actively participating in discussions and driving ideas and projects forward is crucial for the group's advancement.
+Providing more leadership within the Environmental Sustainability TAG is highly encouraged. Actively participating in discussions and driving ideas and projects forward is crucial for the group's advancement.
 Within the [`roles.md`](roles.md) file, you will find various volunteer positions available.
 To begin, consider taking ownership of a small initiative within the TAG, such as opening an issue that was discussed during a meeting, or taking on responsibilities like reviewing pull requests (PRs).
 Additionally, you can contribute by raising awareness about the TAG ENV among your network. This can involve sharing information and updates, presenting talks at conferences or events, organizing meetups, or even writing a blog post (refer to [blog post process](blogpost-process.md) for guidance).
 Collaboration with other organizations is also a priority for us, so actively seeking out open source projects or organizations you know in the cloud native sustainability space and connecting them with the TAG would be highly valuable.
 By proactively driving topics that directly benefit the Environmental Sustainability TAG, you significantly contribute to its growth and overall impact and will help you mature as a contributor.
 
-* Proactively start discussions and take ownership of smaller initiatives
-* Establish yourself in the community
-* Get an overview of processes
+* Proactively start discussions.
+* Take ownership of small initiatives.
+* Provide help when help is needed or requested (for instance, taking notes or reviewing documents).
+* Provide actionable feedback to processes.
 
 ## Leading a project
 
@@ -48,13 +48,13 @@ If you have a project idea that aligns with the objectives of the TAG, consider 
 Present this proposal during a TAG meeting to initiate a discussion and gather feedback and support from fellow members.
 Taking on a [project leadership role](roles.md#role-of-project-leads) within the community project becomes your next significant step towards leadership recognition within the group.
 
-* Take ownership of a project within the TAG
-* Lead a community group within the TAG
+* Take ownership of a project within the TAG.
+* Lead a community group within the TAG.
 
 ## Helping out
 
-In open source, newcomers join the community seeking guidance and support as they embark on their journey, just as you once did.
-While it is essential to provide support to current members and leaders, it is also important to focus on assisting and orienting newcomers.
+In open source, newcomers join the community need guidance and support as they embark on their journey, just as you once did.
+While it is essential to provide support to current members and leaders, it is equally important to focus on assisting and orienting newcomers.
 Modeling empathy and offering support to the community as a whole should be at the forefront of your actions.
 It is crucial to role model the values of the community as outlined in the [code of conduct](http://cncf.io/conduct/).
 
@@ -73,16 +73,17 @@ By actively participating and contributing, you demonstrate your commitment to t
 
 ## Leading a Working Group
 
-Within the Environmental Sustainability TAG, various ongoing initiatives are carried out through dedicated working groups.
-As leadership roles naturally transition over time, it is worthwhile for you to consider taking up a leadership position within an established working group.
-However, if the current working groups does not include scope for the item you are interested in, you could form a new working group.
-To do so, create a GitHub issue where you outline the motivation, scope, goals, and deliverables of the proposed working group.
-Present this proposal during a TAG meeting to initiate a discussion, gather feedback, and garner support from fellow members.
+Since leadership roles naturally change over time, it is worth your while to take a leadership position in an established working group.
+Within the TAG for Environmental Sustainability, dedicated working groups carry out several ongoing initiatives.
+However, if the current working groups do not provide space for the topic you are interested in, you could start a new working group.
+A working group must have community support and requires that you find sufficient backing before a working group is formed.
+To start this process, create a GitHub issue describing the initial charter in which you outline the motivation, scope, goals, and deliverables of the proposed working group.
+This working group charter document should form the basis for discussions with the TAG before initiating an official vote by the TAG co-chairs, which also requires approval by the CNCF TOC.
+It is important to present the working group proposal during TAG meetings and be vocal about the discussions, actively solicit feedback and input, and gain support from other members.
 
 * Taking on more responsibility and ownership within TAG.
-* Leading a community group within TAG
-* Growing as a community leader
-* Conflict resolution
+* Leading a community group within TAG.
+* Conflict resolution.
 
 ## Nominated as Tech Lead
 
@@ -94,7 +95,7 @@ Additionally, you will play a crucial role in facilitating discussions and resol
 Your position as a technical lead allows you to contribute significantly to the overall success and cohesion of the Environmental Sustainability TAG.
 
 * Build partnerships between TAG and projects or other organizations.
-* Support and promote other community leaders
+* Support and promote other community leaders.
 
 ## Nominated as Co-Chair
 
@@ -104,8 +105,8 @@ Your will steer and evolve the community to achieve its goals and targets.
 You coordinate between the TAG and the CNCF Technical Oversight Committee (TOC) and the overall CNCF ecosystem, ensuring effective communication and alignment of efforts.
 You will support and uplift other community leaders and provide guidance, mentorship, and opportunities for growth, you help cultivate a vibrant and empowered leadership team within the TAG.
 
-* Driving the continuous evolving of the TAG
-* Steering the TAG
-* Coordinating between the TAG and the TOC
-* Support and uplift other community leaders
-* Having joy seeing others progressing as leaders in the TAG
+* Driving the continuous evolving of the TAG.
+* Steering the TAG.
+* Coordinating between the TAG and the TOC.
+* Support and uplift other community leaders.
+* Enjoying steering new members into leadership positions in TAG.
