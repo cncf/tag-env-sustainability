@@ -54,17 +54,17 @@ Taking on a [project leadership role](roles.md#role-of-project-leads) within the
 ## Helping out
 
 In open source, newcomers join the community seeking guidance and support as they embark on their journey, just as you once did.
-While it is essential to provide support to current members and leaders, it is equally important to focus on assisting and orienting newcomers.
+While it is essential to provide support to current members and leaders, it is also important to focus on assisting and orienting newcomers.
 Modeling empathy and offering support to the community as a whole should be at the forefront of your actions.
-It is crucial to embody the values of the community as outlined in the [code of conduct](http://cncf.io/conduct/).
+It is crucial to role model the values of the community as outlined in the [code of conduct](http://cncf.io/conduct/).
 
 There are various ways you can contribute to supporting and empowering new contributors.
-Firstly, you can actively participate by stepping in and offering mentorship and guidance when someone requires assistance. This could involve helping them navigate the community, providing technical guidance, or answering their questions.
+You can actively participate by offering mentorship and guidance when someone requests assistance. This could involve helping them navigate the community, providing technical guidance, or answering their questions.
 Additionally, if a member is unable to fulfill their responsibilities, you can offer to fill in their role temporarily or assist in any necessary tasks.
 Co-hosting meetups and events is another way to provide support. By sharing the responsibility, you help create an inclusive environment where everyone feels supported and encouraged.
 
-Lastly, building a habit of consistently helping out within the TAG is highly valuable.
-This can include engaging in discussions, providing feedback on proposals, reviewing code contributions, or offering assistance in any way that aligns with your skills and expertise.
+Building a brand of being someone who consistently helps is highly valuable.
+Actions to help this include engaging in discussions, providing feedback on proposals, reviewing code contributions, and offering assistance in any way that aligns with your skills and expertise.
 By actively participating and contributing, you demonstrate your commitment to the community and showcase the values that the Environmental Sustainability TAG holds dear.
 
 * Helping out and mentor new contributors in their open source journey.
@@ -75,7 +75,7 @@ By actively participating and contributing, you demonstrate your commitment to t
 
 Within the Environmental Sustainability TAG, various ongoing initiatives are carried out through dedicated working groups.
 As leadership roles naturally transition over time, it is worthwhile for you to consider taking up a leadership position within an established working group.
-Alternatively, you can contribute by proposing the formation of a new working group.
+However, if the current working groups does not include scope for the item you are interested in, you could form a new working group.
 To do so, create a GitHub issue where you outline the motivation, scope, goals, and deliverables of the proposed working group.
 Present this proposal during a TAG meeting to initiate a discussion, gather feedback, and garner support from fellow members.
 
