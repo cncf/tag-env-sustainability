@@ -6,7 +6,7 @@ exclude_search: true
 menu:
   main:
     weight: 30
-description: Cloud Native Sustainability Week is a global event where CNCF community organize local meetups around the topic of cloud native sustainability. Cloud Native Sustainability Week will take place during the second week of October 2023.
+description: Cloud Native Sustainability Week is a global event where the CNCF community organizes local meetings around the theme of Cloud Native Sustainability. The Cloud Native Sustainability Week will take place in the second week of October 2023.
 slug: cloud-native-sustainability-week
 ---
 
@@ -25,41 +25,42 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 
 *Note that this list is changing, we will publish a complete overview a few weeks for the event! Take a look at this [document](https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit#heading=h.19phjl5j6fdw) to check the latest status, and persons to contact.*
 
-| **Nr** | **Name** | **Location** | **Date** | **Event Link** |
+
+
+| **Nr** | **Location** | **Date** | **Event Link** | **Name** |
 |---|---|---|---|---|
-| 1 | Adam Gardner, Prateek Nayak | Australia, Sydney | *tbd* | *tbd* |
-| 2 | Alessandro Vozza | Netherlands, Amsterdam | *tbd* | *tbd* |
-| 3 | Angel Ramirez | Latin America | *tbd* | *tbd* |
-| 4 | Ayrat Khayrettdinov | Canada, Toronto | *tbd* | *tbd* |
-| 5 | Divya Mohan | India | *tbd* | *tbd* |
-| 6 | Johann Gyger | Switzerland, Bern | *tbd* | *tbd* |
-| 7 | Josh Gavant | USA, Chicago | *tbd* | *tbd* |
-| 8 | Kasper Nissen | Denmark, Aarhus | *tbd* | *tbd* |
-| 9 | Kunal Kushwaha | England, London | *tbd* | *tbd* |
-| 10 | Nancy Chauhan | India, Bangalore | *tbd* | *tbd* |
-| 11 | Rynn Mancuso | USA, Oakland | *tbd* | *tbd* |
-| 12 | Seokho Son, Hoon Jo | Korea, Seoul | *tbd* | *tbd* |
-| 13 | Sergio Mendez | Guatemala | *tbd* | *tbd* |
-| 14 | Yiming Peng | USA, Seattle | *tbd* | *tbd* |
-| 15 | Phil Huang | Taiwan, Taipei | *tbd* | *tbd* |
-| 16 | Carol Valencia | Brasil, São Paulo | *tbd* | *tbd* |
-| 17 | Niki Manoledaki | Spain, Barcelona | *tbd* | *tbd* |
-| 18 | Rodolfo Martínez Vega | Mexico, Guadalajara | *tbd* | *tbd* |
-| 19 | Kristina Devochko | Norway, Oslo | *tbd* | *tbd* |
-| 20 | Vinothini B, Manikandan, Vijayabharathi  | India, Chennai | *tbd* | *tbd* |
-| 21 | Stéphane Este-Gracias | Luxembourg, Luxembourg | *tbd* | *tbd* |
-| 22 | Adam Roe | Germany, Berlin | *tbd* | *tbd* |
-| 23 | Aydin Mir Mohammadi | Germany, Karlsruhe | *tbd* | *tbd* |
-| 24 | Leonard Pahlke | Germany, Hamburg | *tbd* | *tbd* |
-| 25 | Michel Murabito | Italy, Milan | *tbd* | *tbd* |
-| 26 | Antonio Di Turi, Max Körbächer | Germany, Munich | *tbd* | *tbd* |
+| 1 | Australia, Sydney | *tbd* |  *tbd* | Adam Gardner, Prateek Nayak |
+| 2 | Brasil, São Paulo | *tbd* |  *tbd* | Carol Valencia |
+| 3 | Canada, Toronto |  *tbd* |  *tbd* | Ayrat Khayrettdinov |
+| 4 | Denmark, Aarhus |  *tbd* |  *tbd* | Kasper Nissen |
+| 5 | England, London |  *tbd* |  *tbd* | Kunal Kushwaha |
+| 6 | Germany, Hamburg | *tbd* | *tbd* | Leonard Pahlke |
+| 7 | Germany, Karlsruhe | *tbd* | *tbd* | Aydin Mir Mohammadi |
+| 8 | Germany, Munich | *tbd* | *tbd* | Antonio Di Turi, Max Körbächer |
+| 9 | Germany, Berlin | *tbd* | *tbd* | Adam Roe |
+| 10 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
+| 11 | India, Bangalore | *tbd* | *tbd* | Nancy Chauhan, Divya Mohan |
+| 12 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
+| 13 | Italy, Milan | *tbd* | *tbd* | Michel Murabito |
+| 14 | Korea, Seoul | *tbd* | *tbd* | Seokho Son, Hoon Jo |
+| 15 | Latin America | *tbd* | *tbd* | Angel Ramirez |
+| 16 | Luxembourg, Luxembourg | *tbd* | *tbd* | Stéphane Este-Gracias |
+| 17 | Mexico, Guadalajara | *tbd* | *tbd* | Rodolfo Martínez Vega |
+| 18 | Netherlands, Amsterdam | *tbd* | *tbd* | Alessandro Vozza |
+| 19 | Norway, Oslo | *tbd* | *tbd* | Kristina Devochko |
+| 20 | Spain, Barcelona | *tbd* | *tbd* | Niki Manoledaki |
+| 21 | Switzerland, Bern | *tbd* | *tbd* | Johann Gyger |
+| 22 | Taiwan, Taipei | *tbd* | *tbd* | Phil Huang |
+| 23 | USA, Chicago | *tbd* | *tbd* | Josh Gavant |
+| 24 | USA, Oakland | *tbd* | *tbd* | Rynn Mancuso |
+| 25 | USA, Seattle | *tbd* | *tbd* | Yiming Peng|
 
 ## Event Goals
 
 1. **Gain better insights into the current [cloud native environmental sustainability landscape](https://tag-env-sustainability.cncf.io/about/landscape/)**: Engage with the community and IT industry as a whole to develop a deeper understanding of the [cloud native environmental sustainability landscape](https://tag-env-sustainability.cncf.io/about/landscape/).  
 2. **Identify knowledge gaps**: Recognize domain areas for cloud native environmental sustainability where further exploration and knowledge sharing is needed.
 3. **Foster project collaboration**: Encourage participants to actively collaborate on further development and improvement of existing projects and tools that pertain to the field of cloud native sustainability.
-4. **Raise awareness**: Increase awareness: Enhance awareness and knowledge sharing around the topic of cloud native environmental sustainability.
+4. **Raise awareness**: Enhance awareness and knowledge sharing around the topic of cloud native environmental sustainability.
 5. **Promote TAG ENV and CNCF**: Promoting the #tag-environmental-sustainability and raising awareness about the CNCF in general.
 6. **Survey**: distributing a survey to gather information on end user adoption of cloud native sustainability.
 7. **Badges**: providing badges from credly for organizers and potentially speakers.
