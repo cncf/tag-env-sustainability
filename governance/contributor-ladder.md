@@ -83,7 +83,7 @@ It is important to present the working group proposal during TAG meetings and be
 
 * Taking on more responsibility and ownership within TAG.
 * Leading a community group within TAG.
-* Conflict resolution.
+* Good at negotiating with differing opinions.
 
 ## Nominated as Tech Lead
 
@@ -94,7 +94,6 @@ As an elected Tech Lead and a member of the leadership team, you will have the c
 Additionally, you will play a crucial role in facilitating discussions and resolving any issues that may arise between contributors, ensuring a harmonious and productive community environment.
 Your position as a technical lead allows you to contribute significantly to the overall success and cohesion of the Environmental Sustainability TAG.
 
-* Build partnerships between TAG and projects or other organizations.
 * Support and promote other community leaders.
 
 ## Nominated as Co-Chair
