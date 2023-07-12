@@ -1,8 +1,15 @@
 ---
 title: Cloud Native Sustainability Landscape
+linkTitle: Landscape
 description: This captures the known and ongoing sustainability efforts within the cloud native landscape as well as identifies challenge areas.
+toc_hide: true
+exclude_search: true
+menu:
+  main:
+    weight: 30
 slug: landscape
 ---
+
 
 *This document was published on 23.06. We are aware that this document contains gaps that will be addressed in future releases. Contributions are very welcome!*
 

@@ -5,7 +5,7 @@ slug: landscape-ko
 toc_hide: true
 ---
 
-<i class="fas fa-globe-americas mb-3"></i>[Read the English translation of this document here](/about/landscape/).
+<i class="fas fa-globe-americas mb-3"></i>[Read the English translation of this document here](/landscape/).
 
 이 문서는 클라우드 네이티브 환경 내에서 알려진 지속 가능성 노력과 진행 중인 노력을 파악하고 도전 과제를 설명합니다. 이 문서는 0.1 버전이며 향후 버전에서 해결될 미진한 부분이 포함되어 있습니다. 여러분의 의견을 환영합니다!
 클라우드 컴퓨팅은 데이터를 저장하고 처리하는 방식을 혁신적으로 변화시켜 조직의 민첩성, 효율성, 확장성을 향상시켰습니다. 그러나 기업이 지속 가능성 요건을 충족하기 위해 비즈니스 모델을 혁신하면서 클라우드 컴퓨팅의 환경적 지속 가능성에 대한 우려도 커지고 있습니다. 클라우드 컴퓨팅은 에너지 소비로 인해 간접적으로 막대한 양의 탄소 배출을 유발하기 때문에 클라우드 컴퓨팅의 탄소 발자국이 논의의 주제가 되었습니다. 따라서 환경에 미치는 영향을 완화하기 위해 클라우드 컴퓨팅과 관련된 탄소 배출량을 정량화하고 줄이는 것이 필수적이 되었습니다.
