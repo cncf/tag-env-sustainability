@@ -6,5 +6,5 @@ list_pages: true
 menu:
   main:
     weight: 20
-description: Projects and initiatives maintained by TAG Environmental Sustainability
+description: Working Groups and Projects maintained by TAG Environmental Sustainability
 ---
