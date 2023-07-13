@@ -95,6 +95,8 @@ Additionally, you will play a crucial role in facilitating discussions and resol
 Your position as a technical lead allows you to contribute significantly to the overall success and cohesion of the Environmental Sustainability TAG.
 
 * Support and promote other community leaders.
+* Facilitating discussions
+* Chop wood/carry water (or whatever phrase that Max likes)
 
 ## Nominated as Co-Chair
 
@@ -104,6 +106,7 @@ Your will steer and evolve the community to achieve its goals and targets.
 You coordinate between the TAG and the CNCF Technical Oversight Committee (TOC) and the overall CNCF ecosystem, ensuring effective communication and alignment of efforts.
 You will support and uplift other community leaders and provide guidance, mentorship, and opportunities for growth, you help cultivate a vibrant and empowered leadership team within the TAG.
 
+Expectations of a Co-Chair:
 * Driving the continuous evolving of the TAG.
 * Steering the TAG.
 * Coordinating between the TAG and the TOC.
