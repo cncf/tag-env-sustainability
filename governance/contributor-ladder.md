@@ -108,4 +108,4 @@ You will support and uplift other community leaders and provide guidance, mentor
 * Steering the TAG.
 * Coordinating between the TAG and the TOC.
 * Support and uplift other community leaders.
-* Enjoying steering new members into leadership positions in TAG.
+* Welcome new members and help orient them.
