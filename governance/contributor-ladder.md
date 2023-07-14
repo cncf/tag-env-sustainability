@@ -96,7 +96,7 @@ Your position as a technical lead allows you to contribute significantly to the 
 
 * Support and promote other community leaders.
 * Facilitating discussions
-* Chop wood/carry water (or whatever phrase that Max likes)
+* Carry water/gather food
 
 ## Nominated as Co-Chair
 
