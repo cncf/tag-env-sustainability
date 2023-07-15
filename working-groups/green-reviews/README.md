@@ -25,7 +25,7 @@ Green Reviews Working Group empowers the CNCF Environmental Sustainability TAG t
 
 The Green Reviews Working Group utilizes TAG Environmental Sustainability channels for communication.
 
-- Meeting time and frequency: TBA.
+- Meeting time and frequency: Every 2nd & 4th Wednesday, 5pm GMT +2:00, 8AM Pacific, 11AM Eastern
 - Join meeting: [Zoom](https://zoom.us/my/cncftagenvsustainability)
 - Meeting agenda and notes: check [Agenda and Notes](https://docs.google.com/document/d/1TkmMyXJABC66NfYmivnh7z8Y_vpq9f9foaOuDVQS_Lo/edit#) for all past and upcoming meetings.
 - Meeting recordings: check [TAG Environmental Sustainability YouTube channel](https://www.youtube.com/@CNCFEnvTAG) for recordings of all previous meetings.
