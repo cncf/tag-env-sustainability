@@ -30,14 +30,15 @@ This document outlines the charter for the Green Reviews Working Group, a [CNCF 
 ## Deliverables
 
 - Clarify the concept of sustainability footprint and identify its constituent components across various categories of CNCF projects.
-- Document how to conduct the collaborative sustainability footprint review process of a CNCF projects with project maintainers.[^2]
+- Document how to conduct the collaborative sustainability footprint review process of a CNCF projects with project maintainers[^2].
 - Document methodologies for gathering sustainability-related metrics using existing tooling and provide guidance on how to automate generation of these metrics (for example, into the project's build pipeline) to enable efficient and consistent reviews of the sustainability footprint of CNCF projects.
 - Develop testing infrastructure to utilise existing tooling to measure the sustainability footprint of CNCF projects.
 - Provide visualisation to communicate the outcomes of the sustainability footprint CNCF project reviews, for example, through dashboards for carbon and energy monitoring.
 - Publish the deliverables above on the TAG’s GitHub repository and any other mediums such as the TAG’s website, blog, and others as necessary.
 
-[^1] See [Deliverables](#Deliverables) for how this will be achieved.
-[^2] Examples: 
+[^1]: See [Deliverables](#Deliverables) for how this will be achieved
+
+[^2]: Examples: 
 * [[UMBRELLA] Falco collaboration with CNCF tag-env-sustainability](https://github.com/falcosecurity/falco/issues/2435)
 * [TAG-Security Security Assessment (TSSA) Process](https://github.com/cncf/tag-security/tree/main/assessments)
 
