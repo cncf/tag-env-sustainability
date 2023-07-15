@@ -22,7 +22,7 @@ Following working groups operate under the TAG Environmental Sustainability:
 
 | Working Group | Scope and Goals            | Meeting Time                          |
 |---------------|-------------------|---------------------------------------|
-| [Green Reviews](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/green-reviews) | [green-reviews/charter.md](./working-groups/green-reviews/charter.md) | [green-reviews/README.md#meetings](./working-groups/green-reviews/README.md#meetings-and-contact) |
+| [Green Reviews](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/green-reviews) | [green-reviews/charter.md](./working-groups/green-reviews/charter.md) | [green-reviews/README.md#meetings-and-contact](./working-groups/green-reviews/README.md#meetings-and-contact) |
 
 
 ## Contact
