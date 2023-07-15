@@ -2,7 +2,7 @@
 
 This captures the known and ongoing sustainability efforts within the cloud native landscape as well as identifies challenge areas.
 
-All relevant wordings can be found explained here in the [glossary](https://tag-env-sustainability.cncf.io/glossary/).
+All relevant wordings can be found explained here in the [glossary](https://tag-env-sustainability.cncf.io/glossary/). If you are missing something, feel free to submit a PR to include it.
 
 ## Summary
 

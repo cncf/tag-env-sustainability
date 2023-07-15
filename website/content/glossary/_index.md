@@ -41,15 +41,15 @@ Goods and services that use fewer resources and create less waste and pollution.
 
 #### **Emissions**
 
-An umbrella term under which for example also greenhouse gasses are covered. But emissions include other factors like micro particles that cause pollution. Emissions are categorized into three scopes:
-Scope 1: direct emissions: the CO2 output of the vehicles owned by the company
-Scope 2: indirect emissions: the power consumption of a data center, that causes emissions by the production of electricity
-Scope 3: indirect emissions, that not directly can be changed: delivery chain caused CO2 pollution
+This is an umbrella term that usually is used to refer to gasses, but can also include other factors such as micro-particles. Emissions are categorized into three scopes:
+Scope 1: direct emissions: for example the CO2 output of the vehicles owned by the company
+Scope 2: indirect emissions: for example the power consumption of a data center, that causes emissions by the production of electricity
+Scope 3: indirect emissions, that not directly can be changed: for example delivery chain caused CO2 pollution
 
 
 #### **Embodied (Carbon) Emissions**
 
-Embodied, sometimes referred to as Embedded, Carbon Emissions are all emissions caused during a good's production. 
+Embodied (sometimes substituted with the word Embedded) Carbon Emissions are all emissions caused during a good's production. 
 That can include anything from transportation, storage, heating, the production of other goods to finish this good and so on.
 
 #### **Environmental Sustainability**
@@ -63,20 +63,19 @@ Environmental sustainability focuses on the ecological impact of our doings and 
 
 Any kind of gasses caused by nature or human activities that trap heat in the atmosphere. GHG includes carbon dioxide, methane, ozone and others. 
 These gasses are called greenhouse gas because they have the same effect as a greenhouse: the sunlight can enter the house and part is reflected back, but it can‘t leave the greenhouse fully because the roof prevents the heat from escaping. 
-This causes the inside of a greenhouse to get hotter and hotter, the same as what’s going on with the earth. See also: Emissions.
+This causes the inside of a greenhouse to get hotter and hotter, the same as what is going on with the earth. See also: Emissions.
 
 ## N
 
 #### **Net Zero**
 
-Stands for zero-carbon emission. This means that a company that causes carbon emissions needs to store or neutralize the same amount of carbon. 
-In the best case scenario, an organization doesn‘t cause carbon pollution at all.
+This phrase stands for zero-carbon emissions, in that anyone (including companies) using this term must store or neutralize the same amount of carbon as that consumed.
 
 ## O
 
 #### **Operational Carbon Emission**
 
-The amount of carbon emitted during the active in-use phase, typical examples are buildings like data centers, or (if measurable)these can be also smaller elements like servers. 
+This refers to the quantity of carbon emitted during the phase where something is in use. Typical examples are when buildings like data centers are in use, or (if measurable) this may also refer to smaller elements in that datacenter, such as when a server is powered on. 
 Per definition, operational carbon emissions include the usage, management and maintenance.
 
 ## P
