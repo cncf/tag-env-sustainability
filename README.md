@@ -18,10 +18,17 @@ In addition to what you can find in this repository, the TAG Environmental Susta
 
 ## Contact
 
-* The working group meets every 1st and 3rd Wednesday at 5pm CEST/GMT+2 (8am Pacific) on [Zoom](https://zoom.us/my/cncftagenvsustainability)
-* Meeting notes & agenda can be found [here](https://docs.google.com/document/d/1TkmMyXJABC66NfYmivnh7z8Y_vpq9f9foaOuDVQS_Lo/edit#)
-* Public discussion runs on our [mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/) via mailto:cncf-tag-env-sustainability@lists.cncf.io
-* Reach us at [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) slack channel on slack.cncf.io
+* Meetings are every 1st and 3rd Wed at 8am PST on [Zoom](https://zoom.us/my/cncftagenvsustainability).
+
+  Ways to add to your calendar:
+  - Import the TAG Environmental Sustainability CNCF calendar feed into your calendar from following URL: [https://icalfilter.com/j9732u68l2](https://icalfilter.com/j9732u68l2). [Subscribe to someone’s Google Calendar](https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DDesktop). In this case your calendar will be automatically updated once new events are published.
+  - Download the .ics file by navigating directly to the following URL in the web browser: [https://icalfilter.com/j9732u68l2](https://icalfilter.com/j9732u68l2). Note:  in this case automatic updates are NOT supported.
+    
+  Meeting notes & agenda [here](https://docs.google.com/document/d/1TkmMyXJABC66NfYmivnh7z8Y_vpq9f9foaOuDVQS_Lo/edit#)
+* [Mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/) via mailto:cncf-tag-env-sustainability@lists.cncf.io
+* Slack: [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) slack channel on slack.cncf.io
+* Social Media: 
+  * Twitter: [@CNCFEnvTAG](https://twitter.com/CNCFEnvTAG)
 
 ### TAG Environmental Sustainability Co-Chairs
 

@@ -1,5 +1,6 @@
 <div class="section-index mt-5">
     {{ $pages := (where .Site.Pages "Section" .Section).ByWeight }}
+    {{ $pages := (where $pages ".Params.toc_hide" "!=" true).ByWeight }}
     {{ $parent := .Page }}
     {{ if not $parent.Params.list_pages }}
     {{/* If list_pages is not true we don't show a list of subpages */}}

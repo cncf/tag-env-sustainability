@@ -1,15 +1,15 @@
 <!-- cSpell:ignore chairpersonship markdownlint -->
 # Environmental Sustainability TAG Technical Lead Proposal Process
 
-Environmental Sustainability Technical Leads operate as a team alongside the Co-Chairs.
-The Co-Chair team seeks enhance the leadership capabilities of the existing co-chairs across the key qualities of industry experience, hands-on cloud-native and ESG experience, as well as administrative experience needed to assist in the execution of the various projects and efforts that make the Environmental Sustainability TAG so successful.
+TAG Environmental Sustainability Technical Leads operate as a team alongside the TAG co-chairs.
+The Technical Lead Team enhances the leadership capabilities of the existing co-chairs across the key qualities of industry experience, hands-on cloud-native, ESG experience (Environmental, Social, and Governance) as well as administrative experience needed to assist in the execution of the various projects and efforts.
 
 ## Caveats of Technical Leads
 
 * The position of a technical lead does not guarantee future co-chair nomination
 * The position of a technical lead is not a paid position (co-chairs are also not paid positions)
 * Technical leads [have responsibilities](roles.md) to the Environmental Sustainability TAG, the leadership team, and the TOC
-* Nominations by the community (with co-chair endorsement) or co-chairs still [requires TOC approval](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md#elections)
+* Nominations by the community, with endorsements by 1 or more co-chairs, and [TOC approval]https://github.com/cncf/toc/blob/main/tags/cncf-tags.md#elections)
 
 ## Process of nominations
 
@@ -61,6 +61,7 @@ Co-chairs are responsible for documenting statistic information of all nominee t
 ## Technical Lead nomination requirements
 
 In order to verify nominees by the community or by co-chairs have experience with the group and are actively contributing in a meaningful way, the following requirements must be met in order for an individual to be nominated.
+At TAG Environmental Sustainability, we maintain a meritocracy in which we recognize and value the achievements of individuals who have proven themselves in this community.
 
 If a given nominee does not meet all the requirements, the co-chairs will still review the nomination and justification to determine if enough intent and commitment is present to move forward with an endorsement.
 

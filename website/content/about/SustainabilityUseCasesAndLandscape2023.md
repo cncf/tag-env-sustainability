@@ -1,10 +1,18 @@
-# Current Sustainability Efforts and Challenges Within the Cloud Native Landscape v0.1
+---
+title: Cloud Native Sustainability Landscape
+description: This captures the known and ongoing sustainability efforts within the cloud native landscape as well as identifies challenge areas.
+slug: landscape
+---
 
-This captures the known and ongoing sustainability efforts within the cloud native landscape as well as identifies challenge areas.
+*This document was published on 23.06. We are aware that this document contains gaps that will be addressed in future releases. Contributions are very welcome!*
 
+<<<<<<< HEAD:documentation/WhitePapers/SustainabilityUseCasesAndLandscape2023.md
 All relevant wordings can be found explained here in the [glossary](https://tag-env-sustainability.cncf.io/glossary/). If you are missing something, feel free to submit a PR to include it.
 
 ## Summary
+=======
+<i class="fas fa-globe-asia mb-3"></i>[Read the Korean translation of this document here](/about/landscape-ko/).
+>>>>>>> main:website/content/about/SustainabilityUseCasesAndLandscape2023.md
 
 Cloud computing has revolutionized the way we store and process data, enabling organizations to be more agile, efficient, and scalable.
 However, as companies transform their business models to meet sustainability requirements, concerns about environmental sustainability in cloud computing have also emerged.
@@ -20,50 +28,48 @@ Furthermore, the paper explores sector-specific challenges, such as the telecomm
 
 ## Table of Contents
 
-- [Current Sustainability Efforts and Challenges Within the Cloud Native Landscape v0.1](#current-sustainability-efforts-and-challenges-within-the-cloud-native-landscape-v01)
-  - [Summary](#summary)
-  - [Table of Contents](#table-of-contents)
-  - [Contributors](#contributors)
-  - [Foundations of Sustainable Cloud Systems](#foundations-of-sustainable-cloud-systems)
-    - [Carbon Emissions of the Cloud](#carbon-emissions-of-the-cloud)
-    - [Green Computing](#green-computing)
-    - [Carbon/Energy Accounting](#carbonenergy-accounting)
-  - [Challenges of Sustainable Cloud Systems](#challenges-of-sustainable-cloud-systems)
-  - [Challenges of Carbon/Energy Accounting](#challenges-of-carbonenergy-accounting)
-    - [Quantifying Operational Carbon Emission](#quantifying-operational-carbon-emission)
-    - [Clouds](#clouds)
-      - [Challenges in the Public Cloud](#challenges-in-the-public-cloud)
-        - [Users of Cloud Service Providers](#users-of-cloud-service-providers)
-      - [Challenges in the Private Clouds](#challenges-in-the-private-clouds)
-    - [Sector Specific Challenges](#sector-specific-challenges)
-      - [Telco](#telco)
-      - [Finance](#finance)
-    - [Workload Specific Challenges](#workload-specific-challenges)
-      - [AI/ML](#aiml)
-  - [Layers of the solutions](#layers-of-the-solutions)
-  - [Current Industry Research and Development](#current-industry-research-and-development)
-    - [Runtime System Power Measurement](#runtime-system-power-measurement)
-    - [Energy Conservation and Carbon Reduction](#energy-conservation-and-carbon-reduction)
-      - [Tuning, Scaling, and Configuration](#tuning-scaling-and-configuration)
-    - [Green System Architecture](#green-system-architecture)
-  - [Current Sustainable Cloud Computing Landscape](#current-sustainable-cloud-computing-landscape)
-    - [Data centers](#data-centers)
-      - [Smart Data Centers](#smart-data-centers)
-      - [Cooling / BMC](#cooling--bmc)
-    - [Methodologies](#methodologies)
-      - [Measurement Methodologies](#measurement-methodologies)
-      - [Observability Methodologies](#observability-methodologies)
-    - [Observability Tooling](#observability-tooling)
-    - [Infrastructure Tooling](#infrastructure-tooling)
-      - [Scheduling At The Cluster Level](#scheduling-at-the-cluster-level)
-      - [Scaling](#scaling)
-      - [On-Node Power Management Tuning](#on-node-power-management-tuning)
-  - [Sustainability Initiatives](#sustainability-initiatives)
-    - [Organizations](#organizations)
-    - [Conferences](#conferences)
-    - [Carbon Emissions Reports](#carbon-emissions-reports)
-    - [Net Zero / Carbon Neutrality](#net-zero--carbon-neutrality)
-    - [Programming Language Efficiency Analysis](#programming-language-efficiency-analysis)
+- [Table of Contents](#table-of-contents)
+- [Contributors](#contributors)
+- [Foundations of Sustainable Cloud Systems](#foundations-of-sustainable-cloud-systems)
+  - [Carbon Emissions of the Cloud](#carbon-emissions-of-the-cloud)
+  - [Green Computing](#green-computing)
+  - [Carbon/Energy Accounting](#carbonenergy-accounting)
+- [Challenges of Sustainable Cloud Systems](#challenges-of-sustainable-cloud-systems)
+- [Challenges of Carbon/Energy Accounting](#challenges-of-carbonenergy-accounting)
+  - [Quantifying Operational Carbon Emission](#quantifying-operational-carbon-emission)
+  - [Clouds](#clouds)
+    - [Challenges in the Public Cloud](#challenges-in-the-public-cloud)
+      - [Users of Cloud Service Providers](#users-of-cloud-service-providers)
+    - [Challenges in the Private Clouds](#challenges-in-the-private-clouds)
+  - [Sector Specific Challenges](#sector-specific-challenges)
+    - [Telco](#telco)
+    - [Finance](#finance)
+  - [Workload Specific Challenges](#workload-specific-challenges)
+    - [AI/ML](#aiml)
+- [Layers of the solutions](#layers-of-the-solutions)
+- [Current Industry Research and Development](#current-industry-research-and-development)
+  - [Runtime System Power Measurement](#runtime-system-power-measurement)
+  - [Energy Conservation and Carbon Reduction](#energy-conservation-and-carbon-reduction)
+    - [Tuning, Scaling, and Configuration](#tuning-scaling-and-configuration)
+  - [Green System Architecture](#green-system-architecture)
+- [Current Sustainable Cloud Computing Landscape](#current-sustainable-cloud-computing-landscape)
+  - [Data centers](#data-centers)
+    - [Smart Data Centers](#smart-data-centers)
+    - [Cooling / BMC](#cooling--bmc)
+  - [Methodologies](#methodologies)
+    - [Measurement Methodologies](#measurement-methodologies)
+    - [Observability Methodologies](#observability-methodologies)
+  - [Observability Tooling](#observability-tooling)
+  - [Infrastructure Tooling](#infrastructure-tooling)
+    - [Scheduling At The Cluster Level](#scheduling-at-the-cluster-level)
+    - [Scaling](#scaling)
+    - [On-Node Power Management Tuning](#on-node-power-management-tuning)
+- [Sustainability Initiatives](#sustainability-initiatives)
+  - [Organizations](#organizations)
+  - [Conferences](#conferences)
+  - [Carbon Emissions Reports](#carbon-emissions-reports)
+  - [Net Zero / Carbon Neutrality](#net-zero--carbon-neutrality)
+  - [Programming Language Efficiency Analysis](#programming-language-efficiency-analysis)
 
 ## Contributors
 A special thank you to our contributors of this document. If you are interested in improving and enhancing the content, please file a PR on the repo and ensure you add yourself as a contributor below!
@@ -209,9 +215,6 @@ For instance, Federated Learning spreads model training to devices that do not r
 The diagram below illustrates the dimensions of the sustainable cloud computing landscape, which are described in detail in the following sections.
 
 ```mermaid
----
-title: Overview of the Sustainable Cloud Computing Landscape
----
 %%{init: {'theme':'neutral'}}%%
 flowchart TB
     root{{Sustainable Cloud Computing Landscape}} -.- dc[Data centers] & methodologies[Methodologies]
@@ -260,9 +263,6 @@ OpenTelemetry integrates with popular libraries and frameworks such as Spring, A
 The diagram below illustrates the infrastructure dimension of the sustainable cloud computing landscape.
 
 ```mermaid
----
-title: The Observability Domain of the Sustainable Cloud Computing Landscape
----
 %%{init: {'theme':'neutral'}}%%
 flowchart TB
     root{{Observability - Sustainable Cloud Computing Landscape}} -.- obs[Observability Tooling]
@@ -271,7 +271,7 @@ flowchart TB
     obs --> g_profiler[gProfiler]
     obs --> power_api[PowerAPI\n a Python\n framework]
     obs --> kepler[Kepler\n Kubernetes based\n Efficient Power\n Level Exporter]
-    obs --> scaphandre[Scaphandre\n Energy consumption\n metrology agent]
+    obs --> scaphandre[Scaphandre\n Multi-platform energy consumption\n metrology agent]
     obs --> green_metrics_tool[Green Metrics\n Tool]
     obs --> cloud_carbon_footprint[Cloud Carbon\n Footprint]
     obs --> influx_telegraf[InfluxData\n Telegraf Collector]
@@ -308,10 +308,8 @@ The Kepler Model Server pre-trains its models with node energy statistics (label
 Once the models achieve an acceptable performance level, Kepler Model Server exports them via flask routes and Kepler can then access them to calculate per-pod energy consumption metrics given per-pod performance counters.
 Unlike other similar projects, the Kepler Model Server also continuously trains and tunes its pre-trained models using node data scraped by Kepler’s Power Estimate Agents from client clusters.
 This gives Kepler the ability to further adapt its pod energy consumption calculation capabilities to serve clients’ unique systems.
-* :eyes: Energy Consumption Metrology Agent [Energy consumption metrology agent](https://github.com/hubblo-org/scaphandre)<br>
-Scaphandre is a monitoring agent, dedicated to energy consumption metrics.
-Its purpose is to help measure and thus understand tech services' energy consumption patterns.
-This is key, in our opinion, to enable the tech industry to shift towards more sustainability.
+* :eyes: Scaphandre [Scaphandre](https://github.com/hubblo-org/scaphandre)<br>
+Scaphandre is a multi-platform monitoring agent, dedicated to power usage / energy consumption metrics and other useful data for reducing ICT software impacts.
 * :eyes: Green Metrics Tool [A holistic framework to measure the energy / co2 of your application.](https://docs.green-coding.berlin/)
 * :eyes: [InfluxData Telegraf Collector](https://github.com/influxdata/telegraf) - an open source, plugin-based agent for collecting, processing, aggregating, and writing metrics.
 Includes multiple input plugins that help determine energy consumption, e.g. [intel_powerstat](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/intel_powerstat) (exposes CPU & DRAM power consumption, CPU temperature, TDP, CPU and uncore frequencies, C-State residencies), [ipmi_sensor](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/ipmi_sensor) (exposes IPMI sensor data), [redfish](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/redfish) (exposes CPU temperature, fan speed, power supply and voltage data as exposed by [DMTF's Redfish](https://redfish.dmtf.org/) interfaces), and a high number of plugins that help determine the utilization of individual resources that in turn help identifying where the power is consumed.
@@ -329,9 +327,6 @@ We display these visualizations in a dashboard for developers, sustainability le
 The diagram below illustrates the infrastructure dimension of the sustainable cloud computing landscape.
 
 ```mermaid
----
-title: The Infrastructure Domain of the Sustainable Cloud Computing Landscape
----
 %%{init: {'theme':'neutral'}}%%
 flowchart TB
     root{{Infrastructure - Sustainable Cloud Computing Landscape}} -.- scheduling[Scheduling] & scaling[Scaling] & tuning[Resource Tuning]
@@ -438,6 +433,8 @@ There are a number of sustainability initiatives ongoing, if we've missed one pl
 * :honeybee: [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/)<br> 
   Get to know the carbon footprint of your cloud usage - and reduce it.<br>
 Cloud Carbon Footprint is an open source tool that provides visibility and tooling to measure, monitor and reduce your cloud carbon emissions. We use best practice methodologies to convert cloud utilization into estimated energy usage and carbon emissions, producing metrics and carbon savings estimates that can be shared with employees, investors, and other stakeholders.
+* 🐝 [Open Compute Project](https://www.opencompute.org/projects/heat-reuse)<br>
+  Almost 100% of the energy used in a processor turns into heat. Up until very recently this has been a liability and a challenge: an immense quantity of heat to be removed which requires a significant additional energy expenditure. With the proper design, data center cooling systems can be converted into a heat source and a heat management opportunity that in turn converts the heat from a liability to an asset. The OCP Heat Reuse subgroup explores these challenges and opportunities. Its goal is to suggest solutions to enable implementations of technologies designed to harness the heat to turn cost into profit.```
 
 ### Conferences
 * :honeybee: Linux Foundation's SustainabilityCon [The first sustainability-focused track by the Linux Foundation](https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/)

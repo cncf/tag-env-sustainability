@@ -39,6 +39,7 @@ The CNCF has excellent people who can help out on making your deliverable shine 
 * Social media outreach of your deliverable via Twitter, LinkedIn
 
 Additionally, publishing an artifact during or just before KubeCon allows us to share the publication announcement widely in different forums.
+The TAG Co-Chairs have access to the Service Desk.
 
 ## Define Stages of Publication
 
@@ -47,17 +48,7 @@ Treating this process like a project with milestones allows folks as well as the
 
 ## Write a Blog
 
-The blog post for a TAG Environmental Sustainability Deliverable is like a trailer for the movie, except both are published on the same day!
-
-There are several good examples of blogs about artifacts published by CNCF TAGs. Here's one about
-[Cloud Native Security Whitepaper v2](https://www.cncf.io/blog/2022/05/18/announcing-the-refreshed-cloud-native-security-whitepaper/)
-
-A typical blog should include:
-
-- A brief summary about the deliverable
-- Link to the deliverable
-- Quote from one or more main contributors or project lead
-- Why should the readers care about the deliverable
+The blog post process is defined in the [blogpost-process.md](blogpost-process.md) file.
 
 ## Common Mistakes to Avoid
 
