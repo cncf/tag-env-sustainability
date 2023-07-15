@@ -18,7 +18,7 @@ In addition to what you can find in this repository, the TAG Environmental Susta
 
 ## Working Groups
 
-Following working groups operate under the TAG Environmental Sustainability:
+Following [working groups](https://github.com/cncf/toc/tree/main/workinggroups) operate under the TAG Environmental Sustainability:
 
 | Working Group | Scope and Goals            | Meeting Time                          |
 |---------------|-------------------|---------------------------------------|
