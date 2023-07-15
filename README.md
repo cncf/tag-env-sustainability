@@ -16,6 +16,15 @@ In case you are missing something or is unclear, your contribution is more than 
 
 In addition to what you can find in this repository, the TAG Environmental Sustainability maintains the website [sustainability.cncf.io](https://sustainability.cncf.io/) to more easily present information about TAG.
 
+## Working Groups
+
+Following working groups operate under the TAG Environmental Sustainability:
+
+| Working Group | Scope and Goals            | Meeting Time                          |
+|---------------|-------------------|---------------------------------------|
+| [Green Reviews](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/green-reviews) | [green-reviews/charter.md](./working-groups/green-reviews/charter.md) | [green-reviews/README.md#meetings](./working-groups/green-reviews/README.md#meetings-and-contact) |
+
+
 ## Contact
 
 * Meetings are every 1st and 3rd Wed at 8am PST on [Zoom](https://zoom.us/my/cncftagenvsustainability).
@@ -29,6 +38,7 @@ In addition to what you can find in this repository, the TAG Environmental Susta
 * Slack: [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) slack channel on slack.cncf.io
 * Social Media:
   * Twitter: [@CNCFEnvTAG](https://twitter.com/CNCFEnvTAG)
+  * YouTube: [@CNCFEnvTAG](https://www.youtube.com/@CNCFEnvTAG)
 
 ### TAG Environmental Sustainability Co-Chairs
 
