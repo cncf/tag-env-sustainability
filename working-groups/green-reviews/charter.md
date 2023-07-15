@@ -36,10 +36,8 @@ This document outlines the charter for the Green Reviews Working Group, a [CNCF 
 - Provide visualisation to communicate the outcomes of the sustainability footprint CNCF project reviews, for example, through dashboards for carbon and energy monitoring.
 - Publish the deliverables above on the TAG’s GitHub repository and any other mediums such as the TAG’s website, blog, and others as necessary.
 
-[^1]: See [Deliverables](#Deliverables) for how this will be achieved
+[^1]: See [Deliverables](#Deliverables) for how this will be achieved.
 
-[^2]: Examples: 
-* [[UMBRELLA] Falco collaboration with CNCF tag-env-sustainability](https://github.com/falcosecurity/falco/issues/2435)
-* [TAG-Security Security Assessment (TSSA) Process](https://github.com/cncf/tag-security/tree/main/assessments)
+[^2]: Examples: [[UMBRELLA] Falco collaboration with CNCF tag-env-sustainability](https://github.com/falcosecurity/falco/issues/2435),  [TAG-Security Security Assessment (TSSA) Process](https://github.com/cncf/tag-security/tree/main/assessments).
 
 
