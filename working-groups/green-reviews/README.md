@@ -1,6 +1,6 @@
 # Green Reviews Working Group
 
-The Green Reviews Working Group operates under CNCF Environmental Sustainability TAG.
+The Green Reviews [Working Group](https://github.com/cncf/toc/tree/main/workinggroups) operates under CNCF Environmental Sustainability TAG.
 
 The Green Reviews Working Group helps CNCF projects assess and improve their cloud native sustainability footprint. By integrating environmental sustainability reviews into release cycles and empowering end users to evaluate project sustainability, the group promotes long-term viability and environmental responsibility within the CNCF ecosystem.
 
