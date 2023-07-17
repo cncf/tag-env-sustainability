@@ -178,6 +178,7 @@ Each of these stages are necessary for the development of software but incur an 
 Examples of this is that the testing of Telecoms software might not be as time critical as the production deployments and this gives different flexibility. While there can be some greater flexibility with the location of build servers there will still be speed constraints and developer efficiency is important. 
 The location and utilization of test systems which can be long running and large would seem to be an area of a lot of concern as they can sometimes be of the same order of magnitude as the active deployed systems.
 
+
 ## Layers of the solutions
 When considering solutions complimentary to the three foundations of sustainable cloud systems, we can divide solution considerations into three general areas:
 
