@@ -169,6 +169,15 @@ In either case, AI/Ml clusters often  have the added complexity of XPUs, or acce
 These accelerators take significant amounts of power to run, more by an order of magnitude required from regular computer chips.
 Additionally, some of the workloads on these clusters are not time-sensitive, for instance training sets of information, and some are time-sensitive, for instance inference jobs for recognition systems.
 
+#### Software Development and Testing
+While a concentration is made on the sustainability of active services used by consumers a major factor in the overall footprint of cloud
+sustainability is in the development and testing of the software that these services use. 
+The environmental footprint of the development of software has the same factors that effect it as actual services running but they may be weighted differently. 
+Examples of the types of loads during software development are the individual hardware costs of the developers, the build servers for the software and the various testing stages in the creation of services. 
+Each of these stages are necessary for the development of software but incur an environmental cost. The different loads can be addressed in different ways with flexibility that are different from the sector specific challenges that the software is being produced for. 
+Examples of this is that the testing of Telecoms software might not be as time critical as the production deployments and this gives different flexibility. While there can be some greater flexibility with the location of build servers there will still be speed constraints and developer efficiency is important. 
+The location and utilization of test systems which can be long running and large would seem to be an area of a lot of concern as they can sometimes be of the same order of magnitude as the active deployed systems.
+
 ## Layers of the solutions
 When considering solutions complimentary to the three foundations of sustainable cloud systems, we can divide solution considerations into three general areas:
 
