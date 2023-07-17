@@ -6,20 +6,10 @@ The Green Reviews Working Group helps CNCF projects assess and improve their clo
 
 See the working group charter here: <https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/green-reviews/charter.md>
 
-## Motivation
-
-CNCF projects are becoming increasingly concerned and aware of the challenges related to environmental sustainability. Their objective is to integrate an environmental sustainability project review in each release cycle. Furthermore, they strive to empower end users to assess the sustainability of the cloud native projects within their systems. 
-
-The purpose of the Green Reviews Working Group is to help CNCF projects to review their cloud native sustainability footprint.
-
-To support CNCF projects, project maintainers and contributors, there is a need for a systematic approach to assess every project's sustainability footprint. Implementing a structured review process for this purpose would greatly benefit the CNCF ecosystem, establishing it as a best practice. Such a process would enable stakeholders to comprehensively evaluate and enhance the sustainability of CNCF projects, promoting their long-term viability and environmental responsibility. 
-
-Green Reviews Working Group empowers the CNCF Environmental Sustainability TAG to pursue its goals of promoting environmentally sustainable practices in the CNCF ecosystem.
-
 ## Chairs
 
-- Niki Manoledaki, [@nikimanoledaki](http://github.com/nikimanoledaki)
-- Kristina Devochko, [@guidemetothemoon](http://github.com/guidemetothemoon)
+- Niki Manoledaki, [@nikimanoledaki](http://github.com/nikimanoledaki), start of term 17.07.2023
+- Kristina Devochko, [@guidemetothemoon](http://github.com/guidemetothemoon), start of term 17.07.2023
 
 ## Meetings and Contact
 
