@@ -35,7 +35,7 @@ Green Reviews Working Group empowers the CNCF Environmental Sustainability TAG t
 - Build tooling for measuring or monitoring sustainability-related metrics from scratch.
 - Contribute code to existing tooling and cloud native sustainability projects such as bug fixes or features.
 - Providing any consultancy or guidance that goes beyond facilitating the projects’ sustainability footprint reviews.
-
+- Work on the annual CNCF sandbox project reviews as they are managed separately from this working group.
 
 ## Deliverables
 
