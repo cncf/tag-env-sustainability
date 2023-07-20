@@ -8,8 +8,12 @@ See the working group charter here: <https://github.com/cncf/tag-env-sustainabil
 
 ## Chairs
 
-- Niki Manoledaki, [@nikimanoledaki](http://github.com/nikimanoledaki), start of term 17.07.2023
-- Kristina Devochko, [@guidemetothemoon](http://github.com/guidemetothemoon), start of term 17.07.2023
+The working group currently has 2 chairs serving a term of 6 months and as long as at least 1 of the chairs is able to maintain continuity. The working group inherits and follows the CNCF TAG Environmental Sustainability Working Group Chair [nomination process](https://github.com/cncf/tag-env-sustainability/blob/main/governance/working-group-chair-proposal-process.md#process-of-nominations).
+
+The following individuals are currently the working group chairs:
+
+- Niki Manoledaki, [@nikimanoledaki](http://github.com/nikimanoledaki), start of term 01.08.2023
+- Kristina Devochko, [@guidemetothemoon](http://github.com/guidemetothemoon), start of term 01.08.2023
 
 ## Meetings and Contact
 
