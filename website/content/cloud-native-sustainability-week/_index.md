@@ -54,7 +54,8 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 | 23 | USA, Chicago | *tbd* | *tbd* | Josh Gavant |
 | 24 | USA, Oakland | *tbd* | *tbd* | Rynn Mancuso |
 | 25 | USA, Seattle | *tbd* | *tbd* | Yiming Peng|
-| 26 | China, Beijing | tbd | tbd | @SamYuan1990, @jjzhang |
+| 26 | China, Beijing | Nov.4 | tbd | @SamYuan1990, @jjzhang |
+| 27 | China, Shanghai | Nov.4 | tbd | Shane Wang, Hongbo Wang |
 
 ## Event Goals
 
