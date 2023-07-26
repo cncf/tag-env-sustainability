@@ -12,15 +12,17 @@ Configuration is set in [config.toml](./config.toml).
 
 ## Setting up a local dev instance
 
-To set up a local dev environment make sure you have [Hugo Extended](https://gohugo.io/installation/linux/#editions) and [npm](https://www.npmjs.com/) installed, then run the following:
+To set up a local dev environment make sure you have [npm](https://www.npmjs.com/) installed, then run the following:
 
 ```
 git clone git@github.com:cncf/tag-env-sustainability.git
 cd tag-env-sustainability
-git submodule update --init --recursive
 cd website
 npm install
 ```
 
-You can then run the site using `hugo server`.
+You can then serve the site from the `website` directory using:
 
+```sh
+npm run serve
+```
