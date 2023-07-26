@@ -1,4 +1,7 @@
 [build]
-[build.environment]
-HUGO_VERSION = "0.104.3"
-GO_VERSION = "1.19.2"
+base = "website"
+publish = "public"
+command = "npm run build:preview"
+
+[context.production]
+command = "npm run build:production"
