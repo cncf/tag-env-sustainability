@@ -6,17 +6,17 @@ This document outlines the charter for the Green Reviews Working Group, a [CNCF 
 
 ## Motivation
 
-CNCF projects are becoming increasingly concerned and aware of the challenges related to environmental sustainability. Their objective is to integrate an environmental sustainability project review in each release cycle. Furthermore, they strive to empower end users to assess the sustainability of the cloud native projects within their systems. 
+CNCF projects are becoming increasingly concerned and aware of the challenges related to environmental sustainability. Their objective is to integrate an environmental sustainability project review in each release cycle. Furthermore, they strive to empower end users to assess the sustainability of the cloud native projects within their systems.
 
 The purpose of the Green Reviews Working Group is to help CNCF projects to review their cloud native sustainability footprint.
 
-To support CNCF projects, project maintainers and contributors, there is a need for a systematic approach to assess every project's sustainability footprint. Implementing a structured review process for this purpose would greatly benefit the CNCF ecosystem, establishing it as a best practice. Such a process would enable stakeholders to comprehensively evaluate and enhance the sustainability of CNCF projects, promoting their long-term viability and environmental responsibility. 
+To support CNCF projects, project maintainers and contributors, there is a need for a systematic approach to assess every project's sustainability footprint. Implementing a structured review process for this purpose would greatly benefit the CNCF ecosystem, establishing it as a best practice. Such a process would enable stakeholders to comprehensively evaluate and enhance the sustainability of CNCF projects, promoting their long-term viability and environmental responsibility.
 
 Green Reviews Working Group empowers the CNCF Environmental Sustainability TAG to pursue its goals of promoting environmentally sustainable practices in the CNCF ecosystem.
 
 ## Scope
 
-- Act within the CNCF Environmental Sustainability TAG Charter. 
+- Act within the CNCF Environmental Sustainability TAG Charter.
 - Provide metrics, guidelines, guidance, and processes for measuring and improving the sustainability footprint of CNCF projects.
 - Initiate a CNCF project review at the discretion of the Working Group.
 - Utilize existing tooling to conduct CNCF project sustainability footprint reviews.
@@ -25,10 +25,9 @@ Green Reviews Working Group empowers the CNCF Environmental Sustainability TAG t
 
 ## Goals
 
-- Provide resources through a review process and methodology to help CNCF projects to evaluate their sustainability footprint[^1] and integrate environmental sustainability practices. 
+- Provide resources through a review process and methodology to help CNCF projects to evaluate their sustainability footprint[^1] and integrate environmental sustainability practices.
 - Collaborate with CNCF project maintainers to produce meaningful sustainability footprint reviews.
 - Communicate the results of the projects’ cloud native sustainability reviews.
-
 
 ## Non-Goals
 
@@ -46,8 +45,10 @@ Green Reviews Working Group empowers the CNCF Environmental Sustainability TAG t
 - Provide visualisation to communicate the outcomes of the sustainability footprint CNCF project reviews, for example, through dashboards for carbon and energy monitoring.
 - Publish the deliverables above on the TAG’s GitHub repository and any other mediums such as the TAG’s website, blog, and others as necessary.
 
+## Working Group Archival
+
+Guidelines for the working group archival are outlined as part of the TAG's governance documentation: [Environmental Sustainability TAG Working Group Archival Process](https://github.com/cncf/tag-env-sustainability/blob/main/governance/working-group-archival-process.md#working-group-archival-process-guidelines).
+
 [^1]: See [Deliverables](#Deliverables) for how this will be achieved.
 
 [^2]: Examples: [[UMBRELLA] Falco collaboration with CNCF tag-env-sustainability](https://github.com/falcosecurity/falco/issues/2435),  [TAG-Security Security Assessment (TSSA) Process](https://github.com/cncf/tag-security/tree/main/assessments).
-
-
