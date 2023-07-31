@@ -8,7 +8,7 @@ Finally, they provide regular updates to the TAG, keeping the TAG leadership tea
 
 * The position of a working group chair is not a paid position (TAG co-chairs and tech leads are also not paid positions)
 * Working group Chairs [have responsibilities](roles.md) to the Environmental Sustainability TAG, the leadership team, and the TOC
-* Nominations by the community, with endorsements by 1 or more working group/TAG co-chairs
+* Nominations made by the community, need endorsements by 1 or more working group/TAG co-chairs, or tech leads
 
 ## Process of nominations
 
