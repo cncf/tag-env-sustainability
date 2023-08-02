@@ -19,8 +19,7 @@ Green Reviews Working Group empowers the CNCF Environmental Sustainability TAG t
 - Act within the CNCF Environmental Sustainability TAG Charter.
 - Provide metrics, guidelines, guidance, and processes for measuring and improving the sustainability footprint of CNCF projects.
 - Initiate a CNCF project review at the discretion of the Working Group.
-- Utilize existing tooling to conduct CNCF project sustainability footprint reviews.
-- Create minimal tooling to conduct CNCF project sustainability footprint reviews, for example, to automate certain processes, if existing tooling does not meet requirements, and if the CNCF Environmental Sustainability TAG formally approved this.
+- Leverage existing tools, libraries, and frameworks for conducting CNCF project sustainability footprint reviews (for example, to automate certain processes) whenever possible. However, in the absence of suitable tooling, minimal solutions, such as scripts or the thinnest viable tools, may be developed, provided that such creations are formally approved by the CNCF Environmental Sustainability TAG.
 - Be a point of contact for project maintainers to understand the outcome of the projects’ reviews.
 
 ## Goals
@@ -41,8 +40,8 @@ Green Reviews Working Group empowers the CNCF Environmental Sustainability TAG t
 - Clarify the concept of sustainability footprint and identify its constituent components across various categories of CNCF projects.
 - Document how to conduct the collaborative sustainability footprint review process of a CNCF projects with project maintainers[^2].
 - Document methodologies for gathering sustainability-related metrics using existing tooling and provide guidance on how to automate generation of these metrics (for example, into the project's build pipeline) to enable efficient and consistent reviews of the sustainability footprint of CNCF projects.
-- Develop testing infrastructure to utilise existing tooling to measure the sustainability footprint of CNCF projects.
-- Provide visualisation to communicate the outcomes of the sustainability footprint CNCF project reviews, for example, through dashboards for carbon and energy monitoring.
+- Develop the testing infrastructure to measure the sustainability footprint of CNCF projects, utilizing existing tools, libraries, and frameworks wherever possible. In cases where existing tooling falls short, the implementation may involve the creation of minimal solutions, such as scripts or the thinnest viable tools, to meet the comprehensive testing infrastructure requirements.
+- Provide visualisation to communicate the outcomes of the sustainability footprint CNCF project reviews, for example, through dashboards for carbon and energy monitoring. As it's also stated in the above point, existing tools, libraries, and frameworks will be utilized to provide visualisation whenever feasible. In scenarios where existing resources prove insufficient to achieve the defined objectives, minimal tools may be developed to ensure comprehensive and effective visual representation.
 - Publish the deliverables above on the TAG’s GitHub repository and any other mediums such as the TAG’s website, blog, and others as necessary.
 
 ## Working Group Archival
