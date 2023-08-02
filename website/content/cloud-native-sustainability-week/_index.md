@@ -48,7 +48,7 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 | 17 | Mexico, Guadalajara | *tbd* | *tbd* | Rodolfo Martínez Vega |
 | 18 | Netherlands, Amsterdam | *tbd* | *tbd* | Alessandro Vozza |
 | 19 | Norway, Oslo | *tbd* | *tbd* | Kristina Devochko |
-| 20 | Spain, Barcelona | *tbd* | *tbd* | Niki Manoledaki |
+| 20 | Spain, Barcelona | Oct.10 | *tbd* | Niki Manoledaki, Imma Valls |
 | 21 | Switzerland, Bern | *tbd* | *tbd* | Johann Gyger |
 | 22 | Taiwan, Taipei | *tbd* | *tbd* | Phil Huang |
 | 23 | USA, Chicago | *tbd* | *tbd* | Josh Gavant |
