@@ -170,7 +170,7 @@ These accelerators take significant amounts of power to run, more by an order of
 Additionally, some of the workloads on these clusters are not time-sensitive, for instance training sets of information, and some are time-sensitive, for instance inference jobs for recognition systems.
 
 #### Software Development and Testing
-While a concentration is made on the sustainability of active services used by consumers a major factor in the overall footprint of cloud
+Usually, the primary focus of environmental sustainability is restricted to active services.  However, there is also a substantial footprint that can be attributed to the development and testing of the software these services rely on.
 sustainability is in the development and testing of the software that these services use. 
 The environmental footprint of the development of software has the same factors that effect it as actual services running but they may be weighted differently. 
 Examples of the types of loads during software development are the individual hardware costs of the developers, the build servers for the software and the various testing stages in the creation of services. 
