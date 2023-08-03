@@ -171,7 +171,6 @@ Additionally, some of the workloads on these clusters are not time-sensitive, fo
 
 #### Software Development and Testing
 Usually, the primary focus of environmental sustainability is restricted to active services.  However, there is also a substantial footprint that can be attributed to the development and testing of the software these services rely on.
-sustainability is in the development and testing of the software that these services use. 
 The environmental footprint of the development of software has the same factors that effect it as actual services running but they may be weighted differently. 
 Examples of the types of loads during software development are the individual hardware costs of the developers, the build servers for the software and the various testing stages in the creation of services. 
 Each of these stages are necessary for the development of software but incur an environmental cost. The different loads can be addressed in different ways with flexibility that are different from the sector specific challenges that the software is being produced for. 
