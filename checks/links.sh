@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+set -e
+set -o pipefail
+
 npm install -g markdown-link-check
 git fetch origin main:main
 for file_name in $(git diff --name-only $HEAD main); do
