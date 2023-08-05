@@ -10,23 +10,19 @@ all: setup lint spelling links
 .PHONY: setup
 setup:
 	@echo "Running $@...\n\n"
-	@docker-compose run $@ checks/$@.sh
-	@docker-compose down
+	./checks/$@.sh
 
 .PHONY: lint
 lint:
 	@echo "Running $@...\n\n"
-	@docker-compose run $@ checks/$@.sh
-	@docker-compose down
+	./checks/$@.sh
 
 .PHONY: spelling
 spelling:
 	@echo "Running $@...\n\n"
-	@docker-compose run $@ checks/$@.sh
-	@docker-compose down
+	./checks/$@.sh
 
 .PHONY: links
 links:
 	@echo "Running $@...\n\n"
-	@docker-compose run $@ checks/$@.sh
-	@docker-compose down
+	./checks/$@.sh
