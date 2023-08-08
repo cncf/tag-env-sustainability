@@ -50,7 +50,7 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 | 19 | Norway, Oslo | *tbd* | *tbd* | Kristina Devochko |
 | 20 | Spain, Barcelona | Oct.10 | *tbd* | Niki Manoledaki, Imma Valls |
 | 21 | Switzerland, Bern | *tbd* | *tbd* | Johann Gyger |
-| 22 | Taiwan, Taipei | *tbd* | *tbd* | Phil Huang |
+| 22 | Taiwan, Taipei | Oct. 24 | *tbd* | Phil Huang (@pichuang), Sarah Hsu |
 | 23 | USA, Chicago | *tbd* | *tbd* | Josh Gavant |
 | 24 | USA, Oakland | *tbd* | *tbd* | Rynn Mancuso |
 | 25 | USA, Seattle | *tbd* | *tbd* | Yiming Peng|
