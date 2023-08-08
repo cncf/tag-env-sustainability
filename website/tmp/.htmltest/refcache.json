@@ -1,0 +1,702 @@
+{
+  "http://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:06:51.72661-04:00"
+  },
+  "http://cncf.io": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:08:20.979014-04:00"
+  },
+  "http://github.com/AntonioDiTuri": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:05:29.950264-04:00"
+  },
+  "http://github.com/cncf/tag-env-sustainability": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:02:58.713928-04:00"
+  },
+  "http://github.com/david-m-m": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:05:24.535885-04:00"
+  },
+  "http://github.com/eduardoriveror": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:05:07.725448-04:00"
+  },
+  "http://github.com/guidemetothemoon": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:05:13.405812-04:00"
+  },
+  "http://github.com/nikimanoledaki": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:05:19.053936-04:00"
+  },
+  "http://tag-env-sustainability.cncf.io": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:02:48.224542-04:00"
+  },
+  "https://app.electricitymap.org": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:08:05.138223-04:00"
+  },
+  "https://app.electricitymaps.com/map": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:01:38.545525-04:00"
+  },
+  "https://bit.ly/cncf-tag-env-meeting-notes": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:53:22.744922-04:00"
+  },
+  "https://cdn.jsdelivr.net/npm/mermaid@8.8.1/dist/mermaid.min.js": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:54:53.164032-04:00"
+  },
+  "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:54:42.99665-04:00"
+  },
+  "https://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:32:03.652847-04:00"
+  },
+  "https://cloud-native.slack.com/archives/C03F270PDU6": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:52:21.736816-04:00"
+  },
+  "https://cmp.osano.com/16A0DbT9yDNIaQkvZ/c3494b1e-ff3a-436f-978d-842e9a0bed27/osano.js": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:51:50.297364-04:00"
+  },
+  "https://code.jquery.com/jquery-3.5.1.min.js": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:51:55.38649-04:00"
+  },
+  "https://collectd.org/": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:58:56.909788-04:00"
+  },
+  "https://community.cncf.io/chapters/": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:08:26.45367-04:00"
+  },
+  "https://community.greensoftware.foundation/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:00:26.998499-04:00"
+  },
+  "https://datacenters.lbl.gov/resources": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:07:41.354301-04:00"
+  },
+  "https://dateful.com/convert/utc": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:52:48.450785-04:00"
+  },
+  "https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:08:47.224769-04:00"
+  },
+  "https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit#heading=h.19phjl5j6fdw": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:08:52.56059-04:00"
+  },
+  "https://docs.gprofiler.io/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:57:30.188214-04:00"
+  },
+  "https://docs.green-coding.berlin/": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:57:57.382838-04:00"
+  },
+  "https://docs.openshift.com/container-platform/4.10/scalability_and_performance/using-node-tuning-operator.html": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:07:02.019596-04:00"
+  },
+  "https://drive.google.com/drive/folders/1pdBQTxlpvDr0QFIuIpjfERau1IQNfdaX": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:09:27.080525-04:00"
+  },
+  "https://eco-qube.eu/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:56:30.258397-04:00"
+  },
+  "https://eehpcwg.llnl.gov/": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:00:56.195142-04:00"
+  },
+  "https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:05:51.517641-04:00"
+  },
+  "https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:01:12.388281-04:00"
+  },
+  "https://events.linuxfoundation.org/open-source-summit-north-america/program/schedule/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:40:19.761216-04:00"
+  },
+  "https://geopm.github.io": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:07:07.072459-04:00"
+  },
+  "https://geopm.github.io/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:59:50.251417-04:00"
+  },
+  "https://ghgprotocol.org/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:55:48.813275-04:00"
+  },
+  "https://github.com/Green-Software-Foundation/Carbon_CI_Pipeline_Tooling": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:07:23.716558-04:00"
+  },
+  "https://github.com/Green-Software-Foundation/carbon-aware-sdk": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:58:45.907106-04:00"
+  },
+  "https://github.com/Green-Software-Foundation/carbon-ci": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:00:37.571315-04:00"
+  },
+  "https://github.com/Green-Software-Foundation/carbon-ql": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:58:24.40469-04:00"
+  },
+  "https://github.com/Green-Software-Foundation/sci": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:56:59.110734-04:00"
+  },
+  "https://github.com/Green-Software-Foundation/sci-reporting": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:01:43.999696-04:00"
+  },
+  "https://github.com/Green-Software-Foundation/software_carbon_intensity": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:07:18.098697-04:00"
+  },
+  "https://github.com/Sealjay": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:55:10.113952-04:00"
+  },
+  "https://github.com/by-d-sign": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:55:37.928648-04:00"
+  },
+  "https://github.com/caradelia": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:53:55.311832-04:00"
+  },
+  "https://github.com/catblade": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:53:44.436766-04:00"
+  },
+  "https://github.com/cmcantalupo": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:55:26.7957-04:00"
+  },
+  "https://github.com/cncf": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:54:11.998882-04:00"
+  },
+  "https://github.com/cncf/tag-env-sustainability": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:52:06.107048-04:00"
+  },
+  "https://github.com/cncf/tag-env-sustainability/blob/main/charter.md": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:52:11.337086-04:00"
+  },
+  "https://github.com/cncf/tag-env-sustainability/commit/2201e6e5f3ab0c1ed71d75c8fa042536f03b041a": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:09:53.735048-04:00"
+  },
+  "https://github.com/cncf/tag-env-sustainability/commit/38cb8316e393d7f1ce3eb53d86e0bb642992a3f5": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:09:32.3954-04:00"
+  },
+  "https://github.com/cncf/tag-env-sustainability/commit/5d9eedce7285279057c2424c7ad730d6f75a4586": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:09:43.049563-04:00"
+  },
+  "https://github.com/cncf/tag-env-sustainability/commit/5f8b4d8ff783e94372ac985788b1c95eb8610241": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:10:16.816135-04:00"
+  },
+  "https://github.com/cncf/tag-env-sustainability/commit/b3a79ac74e7fbd8ae194c8e84fbf77884fb24f4c": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:02:22.181724-04:00"
+  },
+  "https://github.com/cncf/tag-env-sustainability/issues": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:05:35.80208-04:00"
+  },
+  "https://github.com/cncf/tag-env-sustainability/issues/134": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:09:08.4179-04:00"
+  },
+  "https://github.com/cncf/tag-env-sustainability/issues/95": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:09:16.528072-04:00"
+  },
+  "https://github.com/cncf/tag-env-sustainability/issues/new": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:52:00.634219-04:00"
+  },
+  "https://github.com/cncf/tag-env-sustainability/milestone/3": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:09:21.840684-04:00"
+  },
+  "https://github.com/cncf/tag-env-sustainability/tree/main/surveys": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:52:43.18819-04:00"
+  },
+  "https://github.com/fenrus75/powertop": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:58:34.993821-04:00"
+  },
+  "https://github.com/gebn/bmc_exporter": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:06:10.143371-04:00"
+  },
+  "https://github.com/geopm/geopm": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:59:45.129664-04:00"
+  },
+  "https://github.com/geopm/geopm/tree/cloud#experimental-branch": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:59:55.842649-04:00"
+  },
+  "https://github.com/geopm/geopm/tree/cloud/k8": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:00:06.580329-04:00"
+  },
+  "https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:00:01.306948-04:00"
+  },
+  "https://github.com/greensoftwarelab/Energy-Languages": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:02:16.629794-04:00"
+  },
+  "https://github.com/hubblo-org/scaphandre": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:57:51.98501-04:00"
+  },
+  "https://github.com/husky-parul": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:55:15.737185-04:00"
+  },
+  "https://github.com/influxdata/telegraf": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:58:02.84392-04:00"
+  },
+  "https://github.com/influxdata/telegraf/tree/master/plugins/inputs/intel_powerstat": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:06:25.372738-04:00"
+  },
+  "https://github.com/influxdata/telegraf/tree/master/plugins/inputs/ipmi_sensor": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:06:30.605452-04:00"
+  },
+  "https://github.com/influxdata/telegraf/tree/master/plugins/inputs/redfish": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:06:35.814922-04:00"
+  },
+  "https://github.com/intel/intent-driven-orchestration": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:59:02.279088-04:00"
+  },
+  "https://github.com/intel/kubernetes-power-manager": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:59:39.655722-04:00"
+  },
+  "https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:58:51.156741-04:00"
+  },
+  "https://github.com/leonardpahlke": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:53:38.898896-04:00"
+  },
+  "https://github.com/mkorbi": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:53:49.937662-04:00"
+  },
+  "https://github.com/nikimanoledaki": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:54:58.871944-04:00"
+  },
+  "https://github.com/openshift/predictive-vpa-recommenders": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:59:18.39048-04:00"
+  },
+  "https://github.com/patricia-cahill": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:55:32.384214-04:00"
+  },
+  "https://github.com/powerapi-ng/": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:57:35.645061-04:00"
+  },
+  "https://github.com/pperycz": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:55:21.180047-04:00"
+  },
+  "https://github.com/sustainable-computing-io/clever": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:59:23.88771-04:00"
+  },
+  "https://github.com/sustainable-computing-io/kepler": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:57:41.066256-04:00"
+  },
+  "https://github.com/sustainable-computing-io/kepler-model-server": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:57:46.527295-04:00"
+  },
+  "https://github.com/thefoxatwork": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:55:43.496381-04:00"
+  },
+  "https://github.com/wangchen615": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:55:04.430833-04:00"
+  },
+  "https://gosupercritical.com/": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:02:11.184083-04:00"
+  },
+  "https://greensoftware.foundation/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:00:11.707236-04:00"
+  },
+  "https://greensoftware.foundation/articles/theory-of-change": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:43:30.142844-04:00"
+  },
+  "https://hal.inria.fr/hal-03275286/document": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:06:04.726666-04:00"
+  },
+  "https://haslab.github.io/SAFER/scp21.pdf": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:56:09.167217-04:00"
+  },
+  "https://icalfilter.com/j9732u68l2": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:53:05.910625-04:00"
+  },
+  "https://inria.hal.science/hal-03275286/document": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:56:19.738012-04:00"
+  },
+  "https://keda.sh/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:59:29.027388-04:00"
+  },
+  "https://landscape.lfenergy.org/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:00:49.381038-04:00"
+  },
+  "https://learn.greensoftware.foundation/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:01:01.282156-04:00"
+  },
+  "https://learn.greensoftware.foundation/assets/images/06_energy_proportionality_updated-a6941b6c0d261511e74dc2217062373c.png": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:55:58.946335-04:00"
+  },
+  "https://learn.greensoftware.foundation/energy-efficiency#energy-proportionality": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:05:46.219213-04:00"
+  },
+  "https://learn.greensoftware.foundation/energy-efficiency/#energy-proportionality": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:55:53.887024-04:00"
+  },
+  "https://lfenergy.org/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:00:43.412765-04:00"
+  },
+  "https://lists.cncf.io/g/cncf-tag-env-sustainability/topics": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:52:37.99897-04:00"
+  },
+  "https://opensource.greensoftware.foundation/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:00:21.896496-04:00"
+  },
+  "https://opentelemetry.io/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:57:24.556546-04:00"
+  },
+  "https://openuk.uk/patchworkkilt/": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:56:36.199301-04:00"
+  },
+  "https://patterns.greensoftware.foundation/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:57:04.17991-04:00"
+  },
+  "https://policy.greensoftware.foundation/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:00:32.10112-04:00"
+  },
+  "https://redfish.dmtf.org/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:58:18.943555-04:00"
+  },
+  "https://sched.co/1HyPf": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:03:56.667983-04:00"
+  },
+  "https://sched.co/1HyPo": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:03:35.509613-04:00"
+  },
+  "https://sched.co/1HyW9": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:04:17.899061-04:00"
+  },
+  "https://sched.co/1HyWC": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:03:09.244873-04:00"
+  },
+  "https://sched.co/1HyXM": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:03:24.895881-04:00"
+  },
+  "https://sched.co/1HyYK": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:04:51.83547-04:00"
+  },
+  "https://sched.co/1HybW": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:04:28.509703-04:00"
+  },
+  "https://sched.co/1Hybr": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:04:41.162588-04:00"
+  },
+  "https://sched.co/1Hycj": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:03:46.062478-04:00"
+  },
+  "https://sched.co/1Hzd3": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:04:07.204332-04:00"
+  },
+  "https://sched.co/1JWOX": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:09:48.421396-04:00"
+  },
+  "https://slack.cncf.io/": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:52:32.530009-04:00"
+  },
+  "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:54:48.078322-04:00"
+  },
+  "https://standards.greensoftware.foundation/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:00:16.804118-04:00"
+  },
+  "https://support.google.com/calendar/answer/37100": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:53:11.114223-04:00"
+  },
+  "https://tag-env-sustainability.cncf.io/about/index.xml": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:02:27.578111-04:00"
+  },
+  "https://tag-env-sustainability.cncf.io/blog/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:02:32.74729-04:00"
+  },
+  "https://tag-env-sustainability.cncf.io/blog/index.xml": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:02:37.960602-04:00"
+  },
+  "https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/index.xml": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:08:10.60928-04:00"
+  },
+  "https://tag-env-sustainability.cncf.io/events/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:52:16.427483-04:00"
+  },
+  "https://tag-env-sustainability.cncf.io/events/index.xml": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:09:37.736997-04:00"
+  },
+  "https://tag-env-sustainability.cncf.io/index.xml": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:51:45.230549-04:00"
+  },
+  "https://tag-env-sustainability.cncf.io/landscape/index.xml": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:05:41.101591-04:00"
+  },
+  "https://tockify.com/cncf.public.events/detail/598/1683747900000": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:10:11.392175-04:00"
+  },
+  "https://tockify.com/cncf.public.events/monthly": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:52:58.878645-04:00"
+  },
+  "https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:07:48.225891-04:00"
+  },
+  "https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:02:00.418759-04:00"
+  },
+  "https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:02:05.946741-04:00"
+  },
+  "https://www.bevy.com": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:32:34.251027-04:00"
+  },
+  "https://www.cam.ac.uk/research/news/can-federated-learning-save-the-world": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:56:25.142409-04:00"
+  },
+  "https://www.cloudcarbonfootprint.org/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:01:06.420978-04:00"
+  },
+  "https://www.cloudcarbonfootprint.org/docs/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:58:29.625487-04:00"
+  },
+  "https://www.cncf.io/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:54:00.588816-04:00"
+  },
+  "https://www.cncf.io/all-cncf/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:54:05.643909-04:00"
+  },
+  "https://www.cncf.io/calendar/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T16:52:53.646367-04:00"
+  },
+  "https://www.eea.europa.eu/ims/greenhouse-gas-emission-intensity-of-1": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:01:33.339046-04:00"
+  },
+  "https://www.enviroinfo2023.eu/": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:01:21.20108-04:00"
+  },
+  "https://www.facebook.com/CloudNativeComputingFoundation/": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:54:32.86278-04:00"
+  },
+  "https://www.flickr.com/photos/143247548@N03/albums": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:54:27.713828-04:00"
+  },
+  "https://www.iea.org/reports/global-energy-co2-status-report-2019/emissions": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:01:27.342898-04:00"
+  },
+  "https://www.instagram.com/humans.of.cloudnative/": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:54:17.27155-04:00"
+  },
+  "https://www.lfenergy.org/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:07:34.158107-04:00"
+  },
+  "https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:56:48.613352-04:00"
+  },
+  "https://www.opencompute.org/projects/heat-reuse": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:07:54.782573-04:00"
+  },
+  "https://www.opencompute.org/projects/sustainability": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:56:42.638175-04:00"
+  },
+  "https://www.osti.gov/biblio/1140455": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:58:40.526744-04:00"
+  },
+  "https://www.osti.gov/servlets/purl/1140455": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:06:41.077635-04:00"
+  },
+  "https://www.theclimatepledge.com/": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:01:55.014698-04:00"
+  },
+  "https://www.twitch.tv/cloudnativefdn": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:54:37.932838-04:00"
+  },
+  "https://www.watttime.org/api-documentation/#introduction": {
+    "StatusCode": 206,
+    "LastSeen": "2023-08-08T17:01:49.574968-04:00"
+  },
+  "https://www.youtube.com/@CNCFEnvTAG/playlists": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:53:33.256763-04:00"
+  },
+  "https://www.youtube.com/c/cloudnativefdn": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:54:22.408482-04:00"
+  },
+  "https://youtu.be/6tmc-2BqV50": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:04:46.39762-04:00"
+  },
+  "https://youtu.be/E02sFT5wqEw": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:03:30.1213-04:00"
+  },
+  "https://youtu.be/QvSCbdOaUn0": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:04:57.17663-04:00"
+  },
+  "https://youtu.be/VCIdFHhp4No": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:04:12.414365-04:00"
+  },
+  "https://youtu.be/Wn0S6CTXGS4": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:03:19.516351-04:00"
+  },
+  "https://youtu.be/_SqebJmYteQ": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:03:51.262066-04:00"
+  },
+  "https://youtu.be/jsBSNCuSI74": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:04:35.714651-04:00"
+  },
+  "https://youtu.be/ppe0ptZEcvw": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:04:23.096488-04:00"
+  },
+  "https://youtu.be/qRnhAex9aZI": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:04:01.873234-04:00"
+  },
+  "https://youtu.be/s7K7QkhWnFU": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T17:03:40.702035-04:00"
+  },
+  "https://zoom.us/my/cncftagenvsustainability": {
+    "StatusCode": 200,
+    "LastSeen": "2023-08-08T16:53:28.113758-04:00"
+  }
+}

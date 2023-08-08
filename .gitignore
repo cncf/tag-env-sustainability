@@ -27,6 +27,9 @@ bin/
 # Generated files by hugo
 /website/public
 /website/resources
+!/website/tmp/
+!/website/tmp/.htmltest/
+!/website/tmp/.htmltest/refcache.json
 
 # Executable may be added to repository
 hugo.exe

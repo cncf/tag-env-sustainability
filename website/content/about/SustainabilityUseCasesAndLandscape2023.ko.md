@@ -12,7 +12,7 @@ toc_hide: true
 운영 탄소 배출량을 정량화하는 것은 가시성과 관리 책임을 위한 도구를 배포하는 것만큼 간단하지 않습니다. 특히 클라우드 컴퓨팅의 경우 서버에 포함된 여러 하드웨어 구성 요소, 클라우드 인프라의 다양한 하드웨어 세대/아키텍처/공급업체, 서비스의 종속성, 가상화/컨테이너화된 환경에서 실행되는 서비스, 서버의 별도 팬/냉각 컨트롤러, 누락된 데이터, 원격 측정 및 가시성, AI/ML 워크로드, 기밀 워크로드 등이 존재하기 때문에 더욱 그러합니다. 이러한 문제로 인해 클라우드 컴퓨팅과 관련된 탄소 배출량을 정확하게 측정하기가 어렵습니다.
 이 백서에서는 클라우드 컴퓨팅의 탄소 및 에너지 회계와 관련된 과제를 살펴보고 퍼블릭 및 프라이빗 클라우드에서 탄소 배출량을 정량화하는 데 따르는 복잡성에 대한 인사이트를 제공합니다. 또한 이 백서에서는 통신 산업과 같은 부문별 과제를 살펴봅니다.
 
-## 목차 
+## 목차
 - [기여자](#contributors)
 - [지속 가능한 클라우드 시스템의 기초](#foundations-of-sustainable-cloud-systems)
 - [지속 가능한 클라우드 시스템 구축의 과제](#challenges-of-sustainable-cloud-systems)
@@ -78,7 +78,7 @@ Huamin Chen, [Marlow Weston](https://github.com/catblade), [Niki Manoledaki](htt
 
 제조 세부 정보('내재된 배출량')가 제조 기술 소비자의 전체적 정량화를 위한 정보에 통합되지 않기 때문에 내재된 탄소 배출량을 정량화하는 것도 매우 어렵습니다. 이는 이 백서의 범위를 벗어나는 것이지만, 관심 있는 독자는 이 [TAG 저장소](https://github.com/cncf/tag-env-sustainability)에 이슈 또는 PR을 제출하여 이러한 배출량을 정량화하기 위한 지침, 모범 사례, 방법, 메커니즘을 제안해 주시기 바랍니다.
 
-<figure><img src="https://learn.greensoftware.foundation/assets/images/06_energy_proportionality_updated-a6941b6c0d261511e74dc2217062373c.png" alt=""><figcaption><p><a href="https://learn.greensoftware.foundation/energy-efficiency/#energy-proportionality">에너지 비례성(Energy Proportionality)</a></p></figcaption></figure>
+<figure><img src="https://learn.greensoftware.foundation/assets/images/06_energy_proportionality_updated-a6941b6c0d261511e74dc2217062373c.png" alt="에너지 비례성(Energy Proportionality)"><figcaption><p><a href="https://learn.greensoftware.foundation/energy-efficiency/#energy-proportionality">에너지 비례성(Energy Proportionality)</a></p></figcaption></figure>
 
 ### 클라우드&#x20;
 
@@ -136,7 +136,7 @@ AWS, Azure, GCP와 같은 퍼블릭 클라우드 제공업체는 사용자가 �
 
 ### 런타임 시스템 전력 측정&#x20;
 
-:green\_book: [2016년까지의 주제와 연구를 요약](https://en.wikipedia.org/wiki/Run-time\_estimation\_of\_system\_and\_sub-system\_level\_power\_consumption)
+:green_book: [2016년까지의 주제와 연구를 요약](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 
 ### 에너지 절약 및 탄소 저감&#x20;
 
@@ -182,11 +182,11 @@ flowchart TB
 
 #### 냉각 / BMC
 
-:newspaper: :ice\_cube: OCP 냉각 텔레메트리는 [플랫폼 파워 텔레메트리를 통해 데이터센터 냉각 시설 효율성 향상시킴 ](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf)
+:newspaper: :ice_cube: OCP 냉각 텔레메트리는 [플랫폼 파워 텔레메트리를 통해 데이터센터 냉각 시설 효율성 향상시킴 ](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf)
 
 데이터센터 운영자는 일반적으로 피크 수요를 충족할 수 있는 충분한 버퍼를 확보하기 위해 시설 용량을 과도하게 프로비저닝합니다. 과도한 프로비저닝은 데이터센터의 총소유비용(TCO)에 큰 부담을 줍니다. 오늘날 데이터센터 관리 스택은 데이터센터 런타임 상태 모니터링을 위해 널리 배포되어 전력, 온도, 리소스 사용률 전반에 걸쳐 수많은 데이터를 수집합니다. 이러한 데이터는 데이터 인텔리전스를 통해 데이터센터 효율성을 최적화할 수 있는 기회를 창출합니다. 이 백서에서는 클라우드 환경에서 전력 추세 예측을 사용하여 냉각 효율을 개선한 사례를 소개했습니다. 한편, 이 백서에서는 하이퍼스케일 데이터센터에서 IT 플랫폼 데이터 기반 시설 제어를 구현할 때 원격 측정 수집, 메시징 메커니즘, 관리 API 등 몇 가지 주요 과제와 설계 고려 사항에 대해 설명했습니다. 솔루션 배포를 위해서는 IT 장치, 시설 및 관리 시스템 간의 효과적인 상호 운용성이 매우 중요하며, 오픈 컴퓨트 프로젝트 설계와 Redfish API를 채택하면 시스템 수준 통합이 쉬워지고 다양한 시스템과 다양한 제조업체에 대한 배포 비용을 절감할 수 있습니다.
 
-:ice\_cube: BMC 텔레메트리는 [베이스보드 관리 컨트롤러(BMC, Baseboard Management Controller) 데이터를 Prometheus 형식으로 노출](https://github.com/gebn/bmc\_exporter)
+:ice_cube: BMC 텔레메트리는 [베이스보드 관리 컨트롤러(BMC, Baseboard Management Controller) 데이터를 Prometheus 형식으로 노출](https://github.com/gebn/bmc_exporter)
 
 ### 방법론
 
@@ -198,7 +198,7 @@ flowchart TB
 
 [SCI 지침 ](https://sci-data.greensoftware.foundation/)- SCI 지침 프로젝트는 SCI 계산의 핵심 구성 요소인 에너지, 탄소 집약도, 구체화된 배출량 및 기능 단위값을 계산하는 데 사용할 수 있는 다양한 방법론을 이해하는 방법에 대한 다양한 접근 방식을 자세히 설명합니다.
 
-런타임(Runtime) - 시스템 전력 소비량 추정 런타임을 통해 [시스템 및 하위 시스템 수준의 전력 소비량에 대한 런타임 예측](https://en.wikipedia.org/wiki/Run-time\_estimation\_of\_system\_and\_sub-system\_level\_power\_consumption)
+런타임(Runtime) - 시스템 전력 소비량 추정 런타임을 통해 [시스템 및 하위 시스템 수준의 전력 소비량에 대한 런타임 예측](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 
 #### 관측 가능성 방법론 &#x20;
 
@@ -253,7 +253,7 @@ flowchart TB
 
 :eyes: [그린 메트릭 도구](https://docs.green-coding.berlin/) - 애플리케이션의 에너지/탄소 배출량을 측정하기 위한 종합적인 프레임워크입니다.
 
-:eyes: [InfluxData 텔레그래프 수집기](https://github.com/influxdata/telegraf) - 메트릭 수집, 처리, 집계, 작성을 위한 오픈 소스 플러그인 기반 에이전트입니다. 에너지 소비량을 파악하는 데 도움이 되는 여러 입력 플러그인(예: [intel\_powerstat](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/intel\_powerstat)(CPU 및 DRAM 전력 소비량, CPU 온도, TDP, CPU 및 Uncore 주파수, C-State 레지던시 노출), [ipmi\_sensor](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/ipmi\_sensor)(IPMI 센서 데이터 노출), [redfish](https://redfish.dmtf.org/)(DMTF의 Redfish 인터페이스에서 노출되는 CPU 온도, 팬 속도, 전원 공급 및 전압 데이터 노출), 개별 자원의 활용도를 파악하여 전력 소비 위치를 파악하는 데 도움이 되는 많은 플러그인이 포함되어 있습니다. 사용 가능한 풍부한 출력 플러그인 세트를 통해 다양한 메트릭 대상과 쉽게 통합할 수 있습니다.
+:eyes: [InfluxData 텔레그래프 수집기](https://github.com/influxdata/telegraf) - 메트릭 수집, 처리, 집계, 작성을 위한 오픈 소스 플러그인 기반 에이전트입니다. 에너지 소비량을 파악하는 데 도움이 되는 여러 입력 플러그인(예: [intel_powerstat](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/intel_powerstat)(CPU 및 DRAM 전력 소비량, CPU 온도, TDP, CPU 및 Uncore 주파수, C-State 레지던시 노출), [ipmi_sensor](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/ipmi_sensor)(IPMI 센서 데이터 노출), [redfish](https://redfish.dmtf.org/)(DMTF의 Redfish 인터페이스에서 노출되는 CPU 온도, 팬 속도, 전원 공급 및 전압 데이터 노출), 개별 자원의 활용도를 파악하여 전력 소비 위치를 파악하는 데 도움이 되는 많은 플러그인이 포함되어 있습니다. 사용 가능한 풍부한 출력 플러그인 세트를 통해 다양한 메트릭 대상과 쉽게 통합할 수 있습니다.
 
 :eyes: [Carbon QL](https://github.com/Green-Software-Foundation/carbon-ql) - 이 프로젝트의 목적은 모든 런타임 환경에서 소프트웨어 배출량을 측정하는 데 사용할 수 있는 코드명 carbonQL이라는 단일 API를 구축하는 것입니다.
 
@@ -263,9 +263,9 @@ flowchart TB
 
 :eyes: [PowerTOP](https://github.com/fenrus75/powertop) - Linux 도구로, 무엇보다도 Linux 시스템에서 실행 중인 프로세스당 전력 소비를 모니터링할 수 있습니다.
 
-:green\_book: OSTI \[논문] [복원력 있는 HPC 시스템을 위한 에너지 절약 기법 평가를 위한 메트릭](https://www.osti.gov/biblio/1140455)
+:green_book: OSTI \[논문] [복원력 있는 HPC 시스템을 위한 에너지 절약 기법 평가를 위한 메트릭](https://www.osti.gov/biblio/1140455)
 
-:green\_book: [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) - 탄소 인식 소프트웨어 구축을 지원하는 웹에이피 및 명령줄 인터페이스(CLI)입니다.
+:green_book: [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) - 탄소 인식 소프트웨어 구축을 지원하는 웹에이피 및 명령줄 인터페이스(CLI)입니다.
 
 
 
@@ -315,9 +315,9 @@ flowchart TB
 * :train: [인텐트 중심 오케스트레이션](https://github.com/intel/intent-driven-orchestration) \
   이는 워크로드 배치를 선택하기 위해 명령형 모델에서 인텐트 중심 모델로 이동하여 오케스트레이션을 수행하는 새로운 방법을 제공합니다. 이 모델에서는 사용자가 목표(예: 필요한 지연 시간, 처리량 또는 안정성 목표)의 형태로 의도를 표현하고, 오케스트레이션 스택 자체가 목표를 달성하는 데 필요한 인프라의 리소스를 결정합니다. 이 새로운 접근 방식은 스케줄링(워크로드를 배치할 시기와 위치 결정)에 대한 커뮤니티의 투자를 계속 활용할 수 있으며, 시스템에서 무엇을 어떻게 구성할지 결정하는 지속적인 실행 계획 루프를 통해 보강될 것입니다. 전력 최적 사용 환경에서 이를 활용하기 위한 예비 작업이 이미 진행 중입니다.
 
-:green\_book: 탄소 감지 쿠버네티스 스케줄러 - [저탄소 쿠버네티스 스케줄러](https://ceur-ws.org/Vol-2382/ICT4S2019\_paper\_28.pdf)
+:green_book: 탄소 감지 쿠버네티스 스케줄러 - [저탄소 쿠버네티스 스케줄러](https://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
 
-:green\_book: 에너지 인지 스케줄링 \[백서] [Kubernetes의 전체적인 스케줄링을 통한 데이터센터 효율성 향상](https://www.researchgate.net/publication/333062266\_Improving\_Data\_Center\_Efficiency\_Through\_Holistic\_Scheduling\_In\_Kubernetes)
+:green_book: 에너지 인지 스케줄링 \[백서] [Kubernetes의 전체적인 스케줄링을 통한 데이터센터 효율성 향상](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
 
 ### 스케일링
 
@@ -331,11 +331,11 @@ flowchart TB
 
 지역과 노드가 선택되면 관리자와 사용자는 워크로드를 실행하는 데 필요한 전력량을 최소화하도록 노드를 추가로 조정할 수 있습니다. 이렇게 하면 노드당 전력을 30% 이상 줄일 수 있습니다.
 
-* :musical\_note: [OCP에서 TuneD를 통한 노드 튜닝](https://docs.openshift.com/container-platform/4.10/scalability\_and\_performance/using-node-tuning-operator.html) - 튜닝된 데몬을 오케스트레이션하여 노드 수준 튜닝을 관리\
+* :musical_note: [OCP에서 TuneD를 통한 노드 튜닝](https://docs.openshift.com/container-platform/4.10/scalability_and_performance/using-node-tuning-operator.html) - 튜닝된 데몬을 오케스트레이션하여 노드 수준 튜닝을 관리\
   노드 튜닝 오퍼레이터는 TuneD 데몬을 오케스트레이션하여 노드 수준 튜닝을 관리할 수 있도록 도와줍니다. 대부분의 고성능 애플리케이션에는 일정 수준의 커널 튜닝이 필요합니다. 노드 튜닝 오퍼레이터는 노드 수준 sysctl 사용자에게 통합 관리 인터페이스를 제공하고 사용자 요구에 따라 지정된 커스텀 튜닝을 추가할 수 있는 유연성을 제공합니다.
-* :musical\_note: [쿠버네티스 파워 매니저](https://github.com/intel/kubernetes-power-manager) - 쿠버네티스 오퍼레이터는 쿠버네티스 환경에서 인텔의 특정 전원 관리 기술을 노출하고 활용하도록 설계되어짐\
+* :musical_note: [쿠버네티스 파워 매니저](https://github.com/intel/kubernetes-power-manager) - 쿠버네티스 오퍼레이터는 쿠버네티스 환경에서 인텔의 특정 전원 관리 기술을 노출하고 활용하도록 설계되어짐\
   &#x20;Kubernetes(K8s)와 같은 컨테이너 오케스트레이션 엔진의 플랫폼 풀에서 CPU 리소스를 할당하는 것은 전적으로 가용성에 기반합니다. 쿠버네티스 컨텍스트에서 전원 관리 기술을 노출하고 사용하기 위해, 쿠버네티스 파워 매니저는 오퍼레이터 SDK를 사용하여 생성된 쿠버네티스 오퍼레이터이다. 쿠버네티스 파워 매니저는 강력한 전원 관리 기술 세트를 사용하여 사용자가 코어별로 CPU 성능과 전력 사용량을 보다 정밀하게 제어할 수 있도록 해준다. 그러나 쿠버네티스는 워크로드와 워크로드 오케스트레이터와 같은 하드웨어 기능 사이의 추상화 계층으로 작동하도록 의도적으로 구축되었습니다. 하드웨어 기능에 의존하는 특정 요구사항이 있는 성능 크리티컬 애플리케이션을 실행하는 Kubernetes 사용자는 이로 인해 장애물이 있습니다. 사용자가 주파수를 조정하고 쿠버네티스 네이티브 CPU 매니저가 선택한 코어의 우선순위 수준을 결정할 수 있게 함으로써, 쿠버네티스 파워 매니저는 하드웨어 기능 활성화와 컨테이너 오케스트레이션 레이어 사이의 간극을 메웁니다. 또한, 다양한 주파수 튜닝에 따라 노드의 전원을 제어하는 데 사용되는 TuneD 프로파일을 사용할 수 있도록 TuneD와 함께 작동하는 것으로 입증되었습니다.
-* :musical\_note: [GEOPM](https://github.com/geopm/geopm) - [확장형 전원 관리자](https://geopm.github.io/)\
+* :musical_note: [GEOPM](https://github.com/geopm/geopm) - [확장형 전원 관리자](https://geopm.github.io/)\
   처음에는 HPC 환경에 특화되어 있었지만 현재는 보다 일반화된 GEOPM(Global Extensible Open Power Manager)은 이기종 플랫폼에서 전력 및 에너지 최적화를 탐색하기 위한 프레임워크입니다. GEOPM 소프트웨어는 두 가지 패키지로 나뉩니다: GEOPM 서비스와 GEOPM 런타임입니다. GEOPM 서비스는 저수준 하드웨어 메트릭 및 구성 노브에 대한 사용자 공간 액세스를 제공합니다. GEOPM 런타임은 하드웨어 메트릭 및 애플리케이션 피드백에 반응하여 하드웨어 설정을 조정하기 위해 GEOPM 서비스를 활용합니다. 애플리케이션 피드백은 미들웨어 패키지에 콜백으로 삽입된 경량 비동기 프로파일링 후크를 통해 수집됩니다. GEOPM 런타임에는 최적화 알고리즘을 선택할 수 있는 플러그인 아키텍처가 있습니다. 기본 제공 알고리즘 중 일부는 에너지 효율성을 목표로 하고, 다른 알고리즘은 전력 제한 내에서 성능을 최적화합니다. GEOPM을 Kubernetes로 포팅하는 작업은 현재 진행 중입니다. 클라우드(cloud)라는 [실험 브랜치](https://github.com/geopm/geopm/tree/cloud#experimental-branch)에는 Kubernetes를 지원하는 새로운 기능이 구현되어 있습니다. 이러한 기능은 각각 프로덕션 준비가 되면 메인 개발 브랜치로 마이그레이션될 예정입니다. 추가 설명서는 서비스 [readme](https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support) 파일과 [런타임 k8 디렉터리](https://github.com/geopm/geopm/tree/cloud/k8)에서 찾을 수 있습니다.
 
 
@@ -366,27 +366,27 @@ flowchart TB
 
 ### 탄소 배출량 보고서
 
-:page\_facing\_up: IEA 배출량 - [2019년 글로벌 에너지 및 CO2 현황 보고서](https://www.iea.org/reports/global-energy-co2-status-report-2019/emissions)
+:page_facing_up: IEA 배출량 - [2019년 글로벌 에너지 및 CO2 현황 보고서](https://www.iea.org/reports/global-energy-co2-status-report-2019/emissions)
 
-:page\_facing\_up: 유럽 환경청 - [EU 온실가스 배출 강도](https://www.eea.europa.eu/ims/greenhouse-gas-emission-intensity-of-1)&#x20;
+:page_facing_up: 유럽 환경청 - [EU 온실가스 배출 강도](https://www.eea.europa.eu/ims/greenhouse-gas-emission-intensity-of-1)&#x20;
 
-:page\_facing\_up: [전력지도 ](https://app.electricitymaps.com/map)- 실시간 CO2 배출량 데이터&#x20;
+:page_facing_up: [전력지도 ](https://app.electricitymaps.com/map)- 실시간 CO2 배출량 데이터&#x20;
 
 [SCI 보고](https://github.com/Green-Software-Foundation/sci-reporting) - SCI 점수를 저장, 호스팅 및 공개적으로 보고하기 위한 인프라와 프로세스를 생성하고, SCI 사양 내에서 기타 관련 보고 요건을 충족합니다.&#x20;
 
-:page\_facing\_up: [WattTime API ](https://www.watttime.org/api-documentation/#introduction)- 전력망의 한계 배출률에 대한 인사이트 제공
+:page_facing_up: [WattTime API ](https://www.watttime.org/api-documentation/#introduction)- 전력망의 한계 배출률에 대한 인사이트 제공
 
 ### 넷 제로 / 탄소 중립
 
-:leafy\_green: [2040년까지 탄소중립](https://www.theclimatepledge.com/)을 달성하겠다는 기후 서약
+:leafy_green: [2040년까지 탄소중립](https://www.theclimatepledge.com/)을 달성하겠다는 기후 서약
 
-:leafy\_green: WeTransfer - [기후 중립을 실현하는 Wetransfer](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)&#x20;
+:leafy_green: WeTransfer - [기후 중립을 실현하는 Wetransfer](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)&#x20;
 
-:leafy\_green: Adrian Cockroft, 전 Amazon 지속 가능성 아키텍처 부사장 "[클라우드 컴퓨팅 선구자의 새로운 초점은 지속 가능성 혁신에 있습니다.](https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation)"&#x20;
+:leafy_green: Adrian Cockroft, 전 Amazon 지속 가능성 아키텍처 부사장 "[클라우드 컴퓨팅 선구자의 새로운 초점은 지속 가능성 혁신에 있습니다.](https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation)"&#x20;
 
-:leafy\_green: 슈퍼크리티컬 기업의 [탄소중립 달성 지원](https://gosupercritical.com/)
+:leafy_green: 슈퍼크리티컬 기업의 [탄소중립 달성 지원](https://gosupercritical.com/)
 
 ### 프로그래밍 언어 효율성 분석
 
-:electric\_plug:: 프로그래밍 언어의 에너지 효율 - [컴퓨터 언어 벤치마크 게임을 통해 프로그래밍 언어의 에너지 소비를 분석하는 도구](https://github.com/greensoftwarelab/Energy-Languages)
+:electric_plug:: 프로그래밍 언어의 에너지 효율 - [컴퓨터 언어 벤치마크 게임을 통해 프로그래밍 언어의 에너지 소비를 분석하는 도구](https://github.com/greensoftwarelab/Energy-Languages)
 
