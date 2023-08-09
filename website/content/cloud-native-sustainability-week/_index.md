@@ -12,7 +12,7 @@ slug: cloud-native-sustainability-week
 
 The CNCF Global Week of Cloud Native Sustainability is an event organized by the [Cloud Native Computing Foundation (CNCF)](http://cncf.io) community to address the emerging topic of environmental sustainability in the cloud native industry and open source space. The event aims to engage with the community and IT industry as a whole, get a better understanding of the current environmental sustainability landscape, and promote collaboration and knowledge sharing on the topic.
 
-During the **second week of October 2023 (W41)**, the [CNCF community groups around the globe](https://community.cncf.io/chapters/) will organize meetups in their cities with a focus on cloud native sustainability. These meetups can be organized by anyone interested in supporting the effort. Additionally, the [CNCF Environmental Sustainability Technical Advisory Group (TAG ENV)](http://github.com/cncf/tag-env-sustainability), will host a virtual meetup using the [bevy](http://bevy.com) platform.
+During the **second week of October 2023 (W41)**, the [CNCF community groups around the globe](https://community.cncf.io/chapters/) will organize meetups in their cities with a focus on cloud native sustainability. These meetups can be organized by anyone interested in supporting the effort. Additionally, the [CNCF Environmental Sustainability Technical Advisory Group (TAG ENV)](http://github.com/cncf/tag-env-sustainability), will host a virtual meetup using the [bevy](https://www.bevy.com) platform.
 These meetups can be organized by anyone interested in supporting the effort. If you would like to contribute, check out the [Contact and Resources](#contact-and-resources) section below.
 
 There will be two types of events organized during the Cloud Native Sustainability Week:
@@ -59,7 +59,7 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 
 ## Event Goals
 
-1. **Gain better insights into the current [cloud native environmental sustainability landscape](https://tag-env-sustainability.cncf.io/about/landscape/)**: Engage with the community and IT industry as a whole to develop a deeper understanding of the [cloud native environmental sustainability landscape](https://tag-env-sustainability.cncf.io/about/landscape/).  
+1. **Gain better insights into the current [Cloud Native Sustainability Landscape](/landscape/)**: Engage with the community and IT industry as a whole to develop a deeper understanding of the [Cloud Native Sustainability Landscape](/landscape/).
 2. **Identify knowledge gaps**: Recognize domain areas for cloud native environmental sustainability where further exploration and knowledge sharing is needed.
 3. **Foster project collaboration**: Encourage participants to actively collaborate on further development and improvement of existing projects and tools that pertain to the field of cloud native sustainability.
 4. **Raise awareness**: Enhance awareness and knowledge sharing around the topic of cloud native environmental sustainability.
@@ -75,9 +75,9 @@ Please reach out to us via the [CNCF Slack workspace](https://slack.cncf.io/) in
 If you are a meetup organizer, we have a [tracking issue](https://github.com/cncf/tag-env-sustainability/issues/134) to collect input and questions.
 
 * **General Tracking Issue**: https://github.com/cncf/tag-env-sustainability/issues/95
-* **General Meetup Organizer Guide**: https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit?usp=sharing 
+* **General Meetup Organizer Guide**: https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit?usp=sharing
 * **Milestone to track the event organization tasks**: https://github.com/cncf/tag-env-sustainability/milestone/3
-* **Google Drive folder**: https://drive.google.com/drive/folders/1pdBQTxlpvDr0QFIuIpjfERau1IQNfdaX?ths=true 
+* **Google Drive folder**: https://drive.google.com/drive/folders/1pdBQTxlpvDr0QFIuIpjfERau1IQNfdaX?ths=true
 
 ## Acknowledgements ✨
 
