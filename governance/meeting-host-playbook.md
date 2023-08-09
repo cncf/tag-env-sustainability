@@ -9,19 +9,21 @@ Meetings are held to coordinate and discuss TAG ENV activities. The TAG ENV lead
 * Get access to the [CNCF TAG YouTube Channel](https://www.youtube.com/@CNCFEnvTAG) to set the meeting recordings public.
 
 ## Pre-Meeting
+
 * Add a new blank agenda entry to the meeting notes by copying the template and editing the details accordingly.
 * Announce a day in advance in Slack to add agenda items to meeting notes.
 * Announce the meeting about an hour before in the `#tag-env-sustainability` Slack channel.
 * Announce the meeting over [social media](https://github.com/cncf/tag-env-sustainability#contact) a day before. If there is a special presentation / occasion, you may want to announce it a total of two times a week in advance.
 
-```
-Hi folks! The CNCF TAG ENV bi-weekly meeting takes place 1 hour from now
-Links:
-* Agenda & Minutes: https://bit.ly/cncf-tag-env-meeting-notes
-* Zoom Link: https://zoom.us/my/cncftagenvsustainability, passcode `77777`
+  ```markdown
+  Hi folks! The CNCF TAG ENV bi-weekly meeting takes place 1 hour from now.
+  Links:
 
-If anyone has anything they’d like to discuss, please add to it to the agenda, thanks!
-```
+  * Agenda & Minutes: https://bit.ly/cncf-tag-env-meeting-notes
+  * Zoom Link: https://zoom.us/my/cncftagenvsustainability, passcode `77777`
+
+  If anyone has anything they’d like to discuss, please add to it to the agenda, thanks!
+  ```
 
 ## During the Meeting
 
@@ -30,7 +32,7 @@ If anyone has anything they’d like to discuss, please add to it to the agenda,
 * Slack reminder (thread) *"The meeting start now!"*
 * [Join](https://zoom.us/my/cncftagenvsustainability) the meeting with the CNCF TAG ENV Zoom account or claim host by entering the `hostkey`
 * Turn on your camera
-* Say hello to everyone 
+* Say hello to everyone
   * *"Hello all, let's wait a few minutes for everyone to join"*
 * Ask for a note taker
 * Post the meeting notes to the meeting chat
@@ -46,10 +48,10 @@ If anyone has anything they’d like to discuss, please add to it to the agenda,
 * Welcome everyone
   * *"Hello everyone, my name is 'Alice' and I will be the host for this CNCF TAG Environmental Sustainability meeting"*
 * Call out the date for the record
-  *  *"Today is 'Monday' 'May' the '4th'"*
-* Mention the CoC 
+  * *"Today is 'Monday' 'May' the '4th'"*
+* Mention the CoC
   * *"Please be aware that this is a CNCF community meeting which falls under the CNCF code of conduct, which can be summarized to be excellent to each other, thank you all!"*
-* Recording warning 
+* Recording warning
   * *"This meeting is recorded and will be publicly posted to YouTube so please be mindful what you say is being recorded."*
 
 ### Agenda
@@ -58,13 +60,14 @@ If anyone has anything they’d like to discuss, please add to it to the agenda,
   * "I am pleased that you are all here. Before we continue with the recurring topics of the meeting, I would like to open the floor to anyone who would like to introduce themselves to the group and perhaps describe why they are interested in the TAG."
 * WG updates
   * *"Lets start with the working group updates"*
-  * Call the person giving the update and wait for the update. Ask if there are any comments or questions for the team. 
+  * Call the person giving the update and wait for the update. Ask if there are any comments or questions for the team.
   * If no one from the WG gives the update, then you can review the last update given in a previous meeting, read it aloud, and then move to the next WG.
-* Open discussion items: 
+* Open discussion items:
   * If something is on the list, you can read it out loud and wait for the person to respond.
   * If there is nothing on the open discussion list, you can say something like: *"There is nothing in the open discussion section in the meeting notes. Is there anything to discuss before we get into the team updates?"* wait a few seconds - *"Okay, let's move on"*
 
 ### End of the Meeting
+
 * *"Is there anything else you like to discuss?"*
 * End the Recording
 * Off record discussions *"I stopped the recording, is there anything you like to discuss off record?"* wait a few seconds
@@ -76,15 +79,15 @@ If anyone has anything they’d like to discuss, please add to it to the agenda,
   * Link the YT recording
   * Summarize any outstanding items or items you would like to highlight in the session
 
-```
-Thanks all for attending the meeting!
+  ```markdown
+  Thanks all for attending the meeting!
 
-* Recording:
+  * Recording:
 
-<list of outstanding discussion items>
+  <list of outstanding discussion items>
 
-Talk to you all latest at the next TAG ENV meeting on the [<data>](https://tockify.com/cncf.public.events/monthly?search=TAG%20Environmental%20Sustainability).
-```
+  Talk to you all latest at the next TAG ENV meeting on the [<data>](https://tockify.com/cncf.public.events/monthly?search=TAG%20Environmental%20Sustainability).
+  ```
 
 Go to the [CNCF TAG YouTube Channel Studio Page](https://studio.youtube.com/channel/UCMOopJuyyIWB8vXGct1ffNw/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D) and look up your recent meeting. This may take up to 1h to show up.
 

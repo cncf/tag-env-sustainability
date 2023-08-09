@@ -11,9 +11,9 @@ The following is the current listing of member roles:
 * [Chairs](#role-of-chairs)
 * [Technical Leads](#role-of-technical-leads)
 * [Project Leads](#role-of-project-leads)
-* [TAG Representatives](#role-of-tag-representatives)
-* [Team leads](#role-of-team-leads)
-* [Group Members](#role-of-members)
+* [TAG Representatives](#role-of-environmental-sustainability-tag-representatives)
+* Team leads
+* Group Members
 * [TOC Liaison](#toc-liaison)
 * [Facilitation Roles](#facilitation-roles)
 
@@ -73,9 +73,9 @@ Project Leads are nominated and approved by the following process:
   1. A Chair or TL nominates a candidate, or requests the community to nominate in a slack thread
   1. The issue is updated with the assignment of the project lead as "assignee" alongside the TAG Leadership member.
   1. Project Leads will be given the OWNER role of the directory or sub-directory for their team's activities in order to empower merge/approve.
-  
+
 ### On-going projects
-  
+
 On the occasion where a project becomes long term, Project Leads are also given the OWNER role of the directory or sub-directory along with 1 other nominated individual to ensure continuity in review and ongoing support of the project.
 
 Depending on the expected length of the project, Project Leads may be assigned as OWNERS of the project directory in this repository to help facilitate and moderate new content to the project.
@@ -123,9 +123,10 @@ Environmental Sustainability TAG representatives are responsible for the followi
 - Provide privilege facilities that a project lead does not have access to.
 
 Examples are:
-  - Creating a ServiceNow ticket with the CNCF for design help
-  - Uploading of meeting recordings to youtube
-  - Approval of messages to TAG mailing list
+
+- Creating a ServiceNow ticket with the CNCF for design help
+- Uploading of meeting recordings to youtube
+- Approval of messages to TAG mailing list
 
 ## TOC liaison
 

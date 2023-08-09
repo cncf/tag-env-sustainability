@@ -1,6 +1,6 @@
 # Process for creating blog post
 
-This document describes the process writing blogs for the CNCF TAG Environmental Sustainability (TAG ENV) blog. 
+This document describes the process writing blogs for the CNCF TAG Environmental Sustainability (TAG ENV) blog.
 The blog is found under [tag-env-sustainability.cncf.io/blog](https://tag-env-sustainability.cncf.io/blog/).
 The website is part of the TAG ENV repository, blog post are located in this folder [`website/content/blog`](https://github.com/cncf/tag-env-sustainability/tree/main/website/content/blog).
 
@@ -30,7 +30,7 @@ stateDiagram-v2
     tagleadreview : 9. TAG Lead reviews\n and approves the blog post
     signoff : 10. TAG Lead reaches out\n to a ToC Liaison for their final sign-off
     merge : 11. TAG Lead merges the blog
-    
+
     [*] --> issue
     issue --> abstract
     state Outline {
@@ -70,7 +70,7 @@ Before writing the blog post, it is important that you discuss your blog post id
 
 * Firstly, start with an **"Abstract"** section that provides a concise overview of the blog post's main topic and key points. This helps readers grasp the essence of the content at a glance.
 * Next, include a **"Scope"** section that outlines the boundaries and limitations of the blog post. Clearly define what aspects will be covered and what won't, ensuring a focused and cohesive narrative.
-* The **"Goals and Non Goals"** section should articulate the specific objectives the blog post aims to achieve and what it does not intend to address. This clarifies the purpose and helps manage reader expectations. 
+* The **"Goals and Non Goals"** section should articulate the specific objectives the blog post aims to achieve and what it does not intend to address. This clarifies the purpose and helps manage reader expectations.
 * Finally, the **"Expected Audience"** section should outline the target readership, specifying their knowledge level, background, or any other relevant characteristics. Understanding the intended audience ensures the content is tailored appropriately and effectively resonates with the readers.
 
 By including these sections, you have more guidance for a well-structured and targeted post that clearly adds value and engagement to the blog writing. The outline also gives reviewers the opportunity to give advice before much work has been done.
@@ -85,11 +85,11 @@ In the event of insufficient reviews, notify the assigned TAG Lead, seeking thei
 
 ### Incorporating Reviews
 
-It is of utmost importance that each review of the blog post be treated with care and thoughtfulness. 
+It is of utmost importance that each review of the blog post be treated with care and thoughtfulness.
 If there are open reviews that are not addressed, then the blog will not be published.
 Reviews are meant to provide valuable insight and suggestions for improving the quality of your content. By taking this perspective, you can view reviews as constructive opportunities for growth rather than personal criticism. By keeping an open mind and taking feedback into account, you can refine your blog post, amplify its impact, and provide a more engaging experience for your readers. Emphasizing the collaborative nature of reviews fosters a positive environment where continuous improvement is the driving force behind your writing efforts.
 
-If the review does not meet our [review guidelines](#reviewguidelines), please make this transparent in GitHub and give the reviewer the opportunity to self-improve in the way they conduct reviews. Focus on resolving a conflict before they occur.
+If the review does not meet our [review guidelines](#review-guidelines), please make this transparent in GitHub and give the reviewer the opportunity to self-improve in the way they conduct reviews. Focus on resolving a conflict before they occur.
 If a conflict cannot be resolved, ask your TAG ENV Blog Post Sponsor for assistance.
 
 ## Sponsorship

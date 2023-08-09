@@ -1,21 +1,26 @@
 {
-    "aliveStatusCodes": [200,206,402],
-    "fallbackRetryDelay": "5s",
-    "replacementPatterns": [
-      {
-        "pattern": "^/",
-        "replacement": "{{BASEURL}}/"
+  "aliveStatusCodes": [200, 206, 402],
+  "fallbackRetryDelay": "5s",
+  "ignorePatterns": [
+    {
+      "pattern": "^https://twitter"
+    }
+  ],
+  "replacementPatterns": [
+    {
+      "pattern": "^/",
+      "replacement": "{{BASEURL}}/"
+    }
+  ],
+  "httpHeaders": [
+    {
+      "urls": ["https://docs.github.com/"],
+      "headers": {
+        "Accept-Encoding": "zstd, br, gzip, deflate"
       }
-    ],
-    "httpHeaders": [
-      {
-        "urls": ["https://docs.github.com/"],
-        "headers": {
-          "Accept-Encoding": "zstd, br, gzip, deflate"
-        }
-      }
-    ],
-    "retryCount": 3,
-    "retryOn429": true,
-    "timeout": "20s"
+    }
+  ],
+  "retryCount": 3,
+  "retryOn429": true,
+  "timeout": "20s"
 }

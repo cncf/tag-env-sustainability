@@ -14,4 +14,3 @@ Then we would love to meet you at our [**TAG Environmental Sustainability Projec
 
 We are looking forward to hearing your perspectives and welcome everyone who wants to contribute to our effort.
 Let’s reduce the environmental of the cloud, data centers and our projects.
-
