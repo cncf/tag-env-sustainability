@@ -1,5 +1,8 @@
 {
   "scripts": {
+    "__check:links": "npx --no -p htmltest-bin htmltest",
+    "_check:links": "npm run __check:links -- --log-level 1",
+    "_check:links:internal": "npm run __check:links -- --skip-external",
     "_get:no": "echo SKIPPING get operation",
     "_get:submodule": "set -x && git submodule update --init --recursive ${DEPTH:- --depth 1}",
     "_hugo:dev": "hugo --cleanDestinationDir -e dev -DFE",
@@ -9,23 +12,28 @@
     "build:preview": "set -x && npm run _hugo:dev -- --minify --baseURL \"${DEPLOY_PRIME_URL:-/}\"",
     "build:production": "hugo --cleanDestinationDir --minify",
     "build": "npm run _hugo:dev",
+    "check:links": "npm run _check:links",
     "get:submodule": "npm run _get:${GET:-submodule}",
+    "post__check:links": "npx prettier --write tmp/.htmltest/refcache.json",
     "postget:submodule": "git submodule",
     "prebuild:preview": "npm run _prebuild",
     "prebuild:production": "npm run _prebuild",
     "prebuild": "npm run _prebuild",
+    "precheck:links": "npm run build",
     "prepare": "npm run get:submodule",
     "preserve:dev": "npm run _prebuild",
     "preserve": "npm run _prebuild",
     "serve:dev": "npm run _serve:dev",
     "serve": "npm run _serve:hugo",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run check:links"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
+    "htmltest-bin": "github:chalin/htmltest-bin#semver:0.17.0",
     "hugo-extended": "0.104.3",
     "postcss": "^8.3.7",
-    "postcss-cli": "^9.0.2"
+    "postcss-cli": "^9.0.2",
+    "prettier": "^3.0.1"
   },
   "enginesComment": "Ensure that engines.node stays consistent with .nvmrc",
   "engines": {
