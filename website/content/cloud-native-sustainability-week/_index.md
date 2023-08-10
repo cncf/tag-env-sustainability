@@ -39,7 +39,7 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 | 8 | Germany, Munich | *tbd* | *tbd* | Antonio Di Turi, Max Körbächer |
 | 9 | Germany, Berlin | *tbd* | *tbd* | Adam Roe |
 | 10 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
-| 11 | India, Bangalore | *tbd* | *tbd* | Nancy Chauhan, Divya Mohan |
+| 11 | India, Bangalore | *tbd* | *tbd* | Nancy Chauhan, Divya Mohan, Saiyam Pathak |
 | 12 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
 | 13 | Italy, Milan | *tbd* | *tbd* | Michel Murabito |
 | 14 | Korea, Seoul | *tbd* | *tbd* | Seokho Son, Hoon Jo |
