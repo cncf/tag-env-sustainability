@@ -29,14 +29,13 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
-    "htmltest-bin": "github:chalin/htmltest-bin#semver:0.17.0",
     "hugo-extended": "0.104.3",
     "postcss": "^8.3.7",
-    "postcss-cli": "^9.0.2",
-    "prettier": "^3.0.1"
+    "postcss-cli": "^9.0.2"
   },
   "enginesComment": "Ensure that engines.node stays consistent with .nvmrc",
   "engines": {
     "node": "18.x"
-  }
+  },
+  "words": "cSpell:ignore htmltest precheck refcache postget -"
 }
