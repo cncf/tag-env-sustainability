@@ -9,7 +9,7 @@ The Technical Lead Team enhances the leadership capabilities of the existing co-
 * The position of a technical lead does not guarantee future co-chair nomination
 * The position of a technical lead is not a paid position (co-chairs are also not paid positions)
 * Technical leads [have responsibilities](roles.md) to the Environmental Sustainability TAG, the leadership team, and the TOC
-* Nominations by the community, with endorsements by 1 or more co-chairs, and [TOC approval]https://github.com/cncf/toc/blob/main/tags/cncf-tags.md#elections)
+* Nominations by the community, with endorsements by 1 or more co-chairs, and [TOC approval](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md#elections)
 
 ## Process of nominations
 
@@ -66,12 +66,13 @@ At TAG Environmental Sustainability, we maintain a meritocracy in which we recog
 If a given nominee does not meet all the requirements, the co-chairs will still review the nomination and justification to determine if enough intent and commitment is present to move forward with an endorsement.
 
 Nominees must:
+
 * have been project or review lead on at least one project or assessment/review
 * be the author of at least one pull request against the Environmental Sustainability TAG repository
 * be active in the community within the last 6 months prior to their nomination.
-   * active - Attending at least 1 Environmental Sustainability TAG Regular Meeting a month
-   * engaging in community chat via slack or lists
-   * commenting on PRs and issues to drive suggestions to proposals, define scope, resolve clarity issues, etc.
+  * active - Attending at least 1 Environmental Sustainability TAG Regular Meeting a month
+  * engaging in community chat via slack or lists
+  * commenting on PRs and issues to drive suggestions to proposals, define scope, resolve clarity issues, etc.
 * agree to the nomination
 
 Nominations must:

@@ -16,6 +16,7 @@ During the **second week of October 2023 (W41)**, the [CNCF community groups aro
 These meetups can be organized by anyone interested in supporting the effort. If you would like to contribute, check out the [Contact and Resources](#contact-and-resources) section below.
 
 There will be two types of events organized during the Cloud Native Sustainability Week:
+
 1. **Local in-person events**: Meetups organized worldwide during the second week of October 2023 by [CNCF community groups](https://community.cncf.io/chapters/) about cloud native sustainability.
 2. **Virtual Event**: A virtual meetup organized by the CNCF TAG ENV.
 
@@ -24,8 +25,6 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 ## Meetup Locations
 
 *Note that this list is changing, we will publish a complete overview a few weeks for the event! Take a look at this [document](https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit#heading=h.19phjl5j6fdw) to check the latest status, and persons to contact.*
-
-
 
 | **Nr** | **Location** | **Date** | **Event Link** | **Name** |
 |---|---|---|---|---|
@@ -74,10 +73,10 @@ This [document](https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc
 Please reach out to us via the [CNCF Slack workspace](https://slack.cncf.io/) in the channel [tag-env-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6), if you have any comments or questions. All resources are publicly accessible.
 If you are a meetup organizer, we have a [tracking issue](https://github.com/cncf/tag-env-sustainability/issues/134) to collect input and questions.
 
-* **General Tracking Issue**: https://github.com/cncf/tag-env-sustainability/issues/95
-* **General Meetup Organizer Guide**: https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit?usp=sharing
-* **Milestone to track the event organization tasks**: https://github.com/cncf/tag-env-sustainability/milestone/3
-* **Google Drive folder**: https://drive.google.com/drive/folders/1pdBQTxlpvDr0QFIuIpjfERau1IQNfdaX?ths=true
+* **General Tracking Issue**: <https://github.com/cncf/tag-env-sustainability/issues/95>
+* **General Meetup Organizer Guide**: <https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit?usp=sharing>
+* **Milestone to track the event organization tasks**: <https://github.com/cncf/tag-env-sustainability/milestone/3>
+* **Google Drive folder**: <https://drive.google.com/drive/folders/1pdBQTxlpvDr0QFIuIpjfERau1IQNfdaX?ths=true>
 
 ## Acknowledgements ✨
 

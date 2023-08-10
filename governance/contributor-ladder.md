@@ -1,7 +1,7 @@
 # Contributor Path
 
 The CNCF Environmental Sustainability TAG aims to support individuals who are passionate about cloud native sustainability and provide a space for personal growth as contributors.
-This document outlines a path for advancing as a contributor in the TAG. 
+This document outlines a path for advancing as a contributor in the TAG.
 It's important to note that your journey may not precisely align with this path, as the document serves as a general guide.
 If you have already made significant contributions to another TAG or a project within the CNCF landscape and are familiar with the community, your path will naturally differ from that of someone who is just starting out.
 
@@ -90,7 +90,7 @@ It is important to present the working group proposal during TAG meetings and be
 To serve in the role as Tech Lead, you have to go through the [tech lead proposal process](https://github.com/cncf/tag-env-sustainability/blob/main/governance/tech-lead-proposal-process.md).
 Assuming the role of a technical lead within the Environmental Sustainability TAG places greater responsibilities on your shoulders as part of the leadership team.
 This roles provides you with the opportunity to actively support the leadership team by taking charge of a specific topic within the TAG.
-As an elected Tech Lead and a member of the leadership team, you will have the chance to delve into the broader aspects of leading the community group, gaining insights into the organizational structures within the CNCF. 
+As an elected Tech Lead and a member of the leadership team, you will have the chance to delve into the broader aspects of leading the community group, gaining insights into the organizational structures within the CNCF.
 Additionally, you will play a crucial role in facilitating discussions and resolving any issues that may arise between contributors, ensuring a harmonious and productive community environment.
 Your position as a technical lead allows you to contribute significantly to the overall success and cohesion of the Environmental Sustainability TAG.
 
@@ -102,11 +102,12 @@ Your position as a technical lead allows you to contribute significantly to the 
 
 To serve in the role of Co-Chair, you have to go through the [chair proposal process](https://github.com/cncf/tag-env-sustainability/blob/main/governance/chair-proposal-process.md).
 With your appointment as Co-Chair of TAG for Environmental Sustainability, you assume a key leadership position within the Group.
-Your will steer and evolve the community to achieve its goals and targets. 
+Your will steer and evolve the community to achieve its goals and targets.
 You coordinate between the TAG and the CNCF Technical Oversight Committee (TOC) and the overall CNCF ecosystem, ensuring effective communication and alignment of efforts.
 You will support and uplift other community leaders and provide guidance, mentorship, and opportunities for growth, you help cultivate a vibrant and empowered leadership team within the TAG.
 
 Expectations of a Co-Chair:
+
 * Driving the continuous evolving of the TAG.
 * Steering the TAG.
 * Coordinating between the TAG and the TOC.

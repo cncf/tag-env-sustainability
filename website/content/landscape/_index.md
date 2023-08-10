@@ -73,17 +73,21 @@ Furthermore, the paper explores sector-specific challenges, such as the telecomm
   - [Programming Language Efficiency Analysis](#programming-language-efficiency-analysis)
 
 ## Contributors
+
 A special thank you to our contributors of this document. If you are interested in improving and enhancing the content, please file a PR on the repo and ensure you add yourself as a contributor below!
 
 Huamin Chen, [Marlow Weston](https://github.com/catblade), [Niki Manoledaki](https://github.com/nikimanoledaki), Eun Kyung Lee, [Chen Wang](https://github.com/wangchen615), [Chris Lloyd-Jones](https://github.com/Sealjay),
 [Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz), [Christopher Cantalupo](https://github.com/cmcantalupo), [Patricia Cahill](https://github.com/patricia-cahill), [Jochen Joswig](https://github.com/by-d-sign), [Emily Fox](https://github.com/thefoxatwork), [Leonard Pahlke](https://github.com/leonardpahlke)
 
 ## Foundations of Sustainable Cloud Systems
+
 Sustainable cloud and cloud native systems may only be constructed when three foundations exist.
 These foundations form the basis of informed design, decision-making, and accountability in cloud and cloud native architectures.
 
 ### Carbon Emissions of the Cloud
+
 The carbon emissions of Information and Communication Technology (short: ICT) systems are categorized as and composed of:
+
 - **operational emissions**: the amount of carbon emitted during the operational or in-use phase of an ICT system.
 These emissions are mostly due to burning of fossil fuels to generate the electricity required by these systems.
 - **embodied emissions**: the amount of carbon emitted during the creation and disposal the hardware (short: HW) and physical components of an ICT system (e.g.: devices, servers, cables, buildings, etc.).
@@ -92,18 +96,23 @@ Embodied emissions are also referred to as embedded emissions.
 Cloud and cloud native systems are no exception to the foundation of carbon emissions to ensure environmentally sustainable computing as they are firmly under the umbrella of ICT systems.
 
 ### Green Computing
+
 Green computing refers to the architecture and design of software and systems that monitor and optimize resource consumption, reduce environmental impact, and improve sustainability, while providing useful services to its users and stakeholders.
 
 ### Carbon/Energy Accounting
+
 Carbon and energy accounting refers to systems, services, and methodologies to track and account for carbon and energy consumption.
 
 ## Challenges of Sustainable Cloud Systems
+
 The challenges associated with building and maintaining sustainable cloud systems are still being uncovered with green computing and carbon and energy accounting as two rapidly developing fields with interest from a variety of industry sectors.
-We anticipate more challenges _and_ solutions to be uncovered as more adoption and maturity of these technologies increases. However, the below section attempts to capture current challenges across the foundations.
+We anticipate more challenges *and* solutions to be uncovered as more adoption and maturity of these technologies increases. However, the below section attempts to capture current challenges across the foundations.
 A popular standard for Carbon Accounting is the [Greenhouse Gas Protocol](https://ghgprotocol.org/) (short: GHG protocol, GHGP).
 
 ## Challenges of Carbon/Energy Accounting
+
 ### Quantifying Operational Carbon Emission
+
 Observability in the performance of cloud native workloads has grown in popularity as organizations learn the value in various telemetry data points for increased visibility and understanding of how their architectures are operating.
 As more organizations begin to consider how to reach similar value in the resource utilization and energy consumption, they're learning that quantifying the operational carbon emission is not as simple as deploying tooling for visibility and accountability.
 Quantifying the operational carbon emission is not trivial for a number of reasons, not limited to the following:
@@ -130,6 +139,7 @@ This is out of the scope of this white paper, however this TAG encourages intere
 ### Clouds
 
 #### Challenges in the Public Cloud
+
 Public cloud providers, such as AWS, Azure, and GCP are often quite restrictive with consumption and emission data, as the providers limit decisions users can make with regard to accessing sustainability-related metrics.
 Sustainability-related metrics include data points such as the energy consumption, hardware, electricity source, data center PUE, etc.
 
@@ -143,24 +153,29 @@ In addition, the methodologies used to calculate carbon emissions can vary betwe
 How this information is measured or estimated is often obtuse, inconsistent, and without industry consensus.
 As with most emerging technology areas, the variance in underlying implementations will continue until industry centers around a collective schema or framework for both measuring and expressing those measurements.
 
-#####  Users of Cloud Service Providers
+##### Users of Cloud Service Providers
+
 Users are often unaware and inexperienced in how their workloads effect their organization's carbon footprint.
 Those that do care about their environmental impact have a hard time connecting their individual workloads to their carbon costs.
 
 #### Challenges in the Private Clouds
+
 These are clouds run by particular companies or universities for use of the members of those companies or universities.
 These clouds are often more trusting environments, as the users are accountable to the administrators or management of the cloud they are running their workloads on.
 Due to the special-purposes of private clouds, environmental sustainability, green computing, and accountability of emissions are not in the forefront of design, operation, or even expense, thus contributing to further challenges unique to private cloud.
 These are still yet unknown.
 
 ### Sector Specific Challenges
+
 #### Telco
+
 Telecommunications (Telco) customers are often demanding due to their unique needs in providing high reliability and high velocity service to their customers.
 Telco needs their systems to be extremely stable, and the traffic to be fast and reliable.
 Some systems are left entirely at full-power because power modulation can affect traffic and the tolerance for this is low.
 Building systems that reduce power that Telco is confident will not affect their traffic is challenging.
 
 #### Finance
+
 Finance may have simulations being run, in the off-hours, and those will look like an AI/ML workload.
 However, for transactions and fast-traffic, finance has predictable times of day of use-when the markets are up.
 For this reason, time-of-day adjustments on the majority of the clusters run by finance can be limited.
@@ -171,12 +186,14 @@ Additional, high-security and regulatory requirements can increase the utilizati
 ### Workload Specific Challenges
 
 #### AI/ML
+
 In addition to the challenges identified above, Artificial Intelligence (AI) and Machine Learning (ML) workloads exist either as schedulable compute at a cloud service provider or within a bare metal environment.
 In either case, AI/Ml clusters often  have the added complexity of XPUs, or accelerators.
 These accelerators take significant amounts of power to run, more by an order of magnitude required from regular computer chips.
 Additionally, some of the workloads on these clusters are not time-sensitive, for instance training sets of information, and some are time-sensitive, for instance inference jobs for recognition systems.
 
 ## Layers of the solutions
+
 When considering solutions complimentary to the three foundations of sustainable cloud systems, we can divide solution considerations into three general areas:
 
 1. Which data center to use, if there are multiple options available.
@@ -192,18 +209,22 @@ All of these elements can be investigated further individually.
 | Within a node      | Optimizing resources to handle workload specifications (which may include performance parameters) while minimizing resource consumption                                                                                                  | Node Tuning, Pod Scaling               |
 
 ## Current Industry Research and Development
+
 There are a number of developments and ongoing research in the field of sustainable computing.
 If you know of some that aren't captured here, we would love for you to contribute them!
 
 ### Runtime System Power Measurement
+
 :green_book: [A summarization of topics and research up to 2016](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 
 ### Energy Conservation and Carbon Reduction
 
 #### Tuning, Scaling, and Configuration
+
 At runtime, energy consumed by workloads can be reduced at HW level through DVFS-based scaling, at SW level through runtime parameter tuning and re-configuration, or at the orchestration level through scale-to-zero automation.
 
 ### Green System Architecture
+
 Green HW/SW systems either improve sub-system efficiency or change the way that computation is conducted.
 
 For instance, programs written in [energy efficient langugages](https://haslab.github.io/SAFER/scp21.pdf) or running on more [optimized runtimes](https://hal.inria.fr/hal-03275286/document) are generally "greener".
@@ -231,11 +252,13 @@ flowchart TB
 ### Data centers
 
 #### Smart Data Centers
+
 * ECO-Qube is a holistic management system that aims to enhance energy efficiency and cooling performance by orchestrating both hardware and software components in edge computing applications [ECO-Qube](https://eco-qube.eu/)
 * [Patchwork Kilt](https://openuk.uk/patchworkkilt/) - A blueprint for sustainable data centers.
 * [Open Compute Sustainability Project](https://www.opencompute.org/projects/sustainability) - Leveraging the expertise of the OCP community, we offer an open framework and resources for OCP members and data center industry – vendors, suppliers, and end users - to deploy industry best practices that promotes reusability and circularity.
 
 #### Cooling / BMC
+
 * :newspaper: :ice_cube: OCP Cooling Telemetry [Improve data center cooling facility efficiency through platform power telemetry](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf) <br>
 Data center operators usually over provision facility capacity to ensure enough buffer to fulfill peak demand.
 Over provisioning brings great pressure to data centers' total cost of ownership (TCO).
@@ -247,7 +270,9 @@ Effective interoperability among IT devices, facility and management systems is 
 * :ice_cube: BMC Telemetry [Exposes Baseboard Management Controller data in Prometheus format.](https://github.com/gebn/bmc_exporter)
 
 ### Methodologies
+
 #### Measurement Methodologies
+
 * [Software Carbon Intensity (SCI) Standard](https://github.com/Green-Software-Foundation/sci) - A specification that describes how to calculate the carbon intensity of software applications.
 * [Green Software Patterns](https://patterns.greensoftware.foundation/) - An online open-source database of software patterns reviewed and curated by the Green Software Foundation across a wide range of categories.
 * [SCI Guidance](https://sci-data.greensoftware.foundation/) - The SCI Guidance project details various approaches on how to understand the different methodologies that are available for calculating energy, carbon intensity, embodied emissions, and functional unit values which are the core components of the SCI calculation.
@@ -301,7 +326,7 @@ PowerAPI is a middleware toolkit for building software-defined power meters.
 Software-defined power meters are configurable software libraries that can estimate the power consumption of software in real time.
 PowerAPI supports the acquisition of raw metrics from a wide diversity of sensors (eg., physical meters, processor interfaces, hardware counters, OS counters) and the delivery of power consumptions via different channels (including file system, network, web, graphical).
 As a middleware toolkit, PowerAPI offers the capability of assembling power meters «à la carte» to accommodate user requirements.
-* :eyes: [Kubernetes-based Efficient Power Level Exporter: ](https://github.com/sustainable-computing-io/kepler)<br>
+* :eyes: [Kubernetes-based Efficient Power Level Exporter:](https://github.com/sustainable-computing-io/kepler)<br>
 Kepler leverages eBPF programs to probe per-container energy consumption related to system counters and exports them as Prometheus metrics.
 These metrics help end users monitor their containers’ energy consumption and help cluster administrators make intelligent decisions toward achieving their energy conservation goals.
 The [Kepler Model Server](https://github.com/sustainable-computing-io/kepler-model-server) is an internal program that provides Kepler with ML models for estimating power consumption on Kubernetes workloads.
@@ -362,6 +387,7 @@ flowchart TB
 ```
 
 #### Scheduling At The Cluster Level
+
 At the cluster-level scheduling phase, energy to be consumed by the workload can be reduced by intelligent schedulers that are aware of carbon footprint in a data center, thermal temperature and cooling, caching aware, or server power efficiency.
 Batch scheduling according to power costs (carbon, money, et cetera).
 
@@ -392,6 +418,7 @@ That’s how CLEVER guarantees a similar QoS for a workload by lowering the freq
 * :speedboat: [Keda](https://keda.sh/): Kubernetes Event-driven Autoscaling enables scale-to-zero platforms.
 
 #### On-Node Power Management Tuning
+
 Once the region and node are chosen, administrators and users can further tune the node to minimize the amount of power necessary to run workloads.
 This can reduce power 30% or more per node.
 
@@ -416,9 +443,11 @@ Additional documentation may be found in the [service readme file](https://githu
 <!--- ### HPC Specific Models --->
 
 ## Sustainability Initiatives
+
 There are a number of sustainability initiatives ongoing, if we've missed one please contribute to this list by filing a pull request!
 
 ### Organizations
+
 * :honeybee: Green Software Foundation [Building a trusted ecosystem of people, standards, tooling and best practices for green software](https://greensoftware.foundation/) <br>
   The Green Software Foundation (GSF) exists to change how we build software, [so there are zero harmful environmental effects](https://greensoftware.foundation/articles/theory-of-change), a foundation with over 42 member organizations.
   Key pillars are Knowledge, Tech Culture, and Tooling; which are delivered through a [standards working group](https://standards.greensoftware.foundation/), an [open source working group](https://opensource.greensoftware.foundation/), a [community working group](https://community.greensoftware.foundation/), and a [policy working group](https://policy.greensoftware.foundation/). <br>
@@ -438,6 +467,7 @@ Cloud Carbon Footprint is an open source tool that provides visibility and tooli
   Almost 100% of the energy used in a processor turns into heat. Up until very recently this has been a liability and a challenge: an immense quantity of heat to be removed which requires a significant additional energy expenditure. With the proper design, data center cooling systems can be converted into a heat source and a heat management opportunity that in turn converts the heat from a liability to an asset. The OCP Heat Reuse subgroup explores these challenges and opportunities. Its goal is to suggest solutions to enable implementations of technologies designed to harness the heat to turn cost into profit.```
 
 ### Conferences
+
 * :honeybee: Linux Foundation's SustainabilityCon [The first sustainability-focused track by the Linux Foundation](https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/)
 * :honeybee: [EnviroInfo](https://www.enviroinfo2023.eu/): EnviroInfo 2023 is the 37th edition of the long-standing and well-established international and interdisciplinary conference series on leading environmental information and communication technologies.
 
@@ -450,10 +480,12 @@ Cloud Carbon Footprint is an open source tool that provides visibility and tooli
 * :page_facing_up: WattTime API [Provides insight into a electricity grid’s marginal emissions rate](https://www.watttime.org/api-documentation/#introduction)
 
 ### Net Zero / Carbon Neutrality
+
 * :leafy_green: The Climate Pledge [Net-Zero Carbon by 2040](https://www.theclimatepledge.com/)
 * :leafy_green: WeTransfer [WeTransfer becomes Climate Neutral](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)
 * :leafy_green: Adrian Cockroft, ex-Amazon VP of Sustainability Architecture ["Cloud computing pioneer's new focus is on sustainability transformation"](https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation)
 * :leafy_green: Supercritical [Helping businesses achieve net zero](https://gosupercritical.com/)
 
 ### Programming Language Efficiency Analysis
+
 * :electric_plug: Energy Efficiency of Languages [The complete set of tools for energy consumption analysis of programming languages, using Computer Language Benchmark Game](https://github.com/greensoftwarelab/Energy-Languages)
