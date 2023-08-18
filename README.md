@@ -24,7 +24,6 @@ Following [working groups](https://github.com/cncf/toc/tree/main/workinggroups) 
 |---------------|-------------------|---------------------------------------|
 | [Green Reviews](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/green-reviews) | [green-reviews/charter.md](./working-groups/green-reviews/charter.md) | [green-reviews/README.md#meetings-and-contact](./working-groups/green-reviews/README.md#meetings-and-contact) |
 
-
 ## Contact
 
 * Meetings are every 1st and 3rd Wed at 8am PST on [Zoom](https://zoom.us/my/cncftagenvsustainability).
