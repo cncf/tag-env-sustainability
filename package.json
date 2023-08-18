@@ -13,7 +13,8 @@
     "fix:markdown": "npm run check:markdown -- --fix",
     "get:submodule": "set -x && git submodule update --init ${DEPTH:- --depth 1}",
     "precheck:markdown": "npm list markdownlint-cli || npm install markdownlint-cli",
-    "prepare": "npm run _cd:site -- npm install",
+    "prepare": "npm run site-install",
+    "serve:dev": "npm run cd:site serve:dev",
     "serve": "npm run cd:site serve",
     "site-install": "npm run _cd:site -- npm install",
     "test": "npm run cd:site test"
