@@ -275,7 +275,7 @@ Effective interoperability among IT devices, facility and management systems is 
 
 * [Software Carbon Intensity (SCI) Standard](https://github.com/Green-Software-Foundation/sci) - A specification that describes how to calculate the carbon intensity of software applications.
 * [Green Software Patterns](https://patterns.greensoftware.foundation/) - An online open-source database of software patterns reviewed and curated by the Green Software Foundation across a wide range of categories.
-* [SCI Guidance](https://sci-data.greensoftware.foundation/) - The SCI Guidance project details various approaches on how to understand the different methodologies that are available for calculating energy, carbon intensity, embodied emissions, and functional unit values which are the core components of the SCI calculation.
+* [SCI Guidance](https://sci-guide.greensoftware.foundation) - The SCI Guidance project details various approaches on how to understand the different methodologies that are available for calculating energy, carbon intensity, embodied emissions, and functional unit values which are the core components of the SCI calculation.
 * Runtime system power consumption estimate [Run-time estimation of system and sub-system level power consumption](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 
 #### Observability Methodologies
