@@ -185,7 +185,7 @@ flowchart TB
 
 [그린 소프트웨어 패턴](https://patterns.greensoftware.foundation/) - 그린 소프트웨어 재단에서 다양한 범주에 걸쳐 검토하고 선별한 소프트웨어 패턴의 온라인 오픈 소스 데이터베이스입니다.
 
-[SCI 지침](https://sci-data.greensoftware.foundation/)- SCI 지침 프로젝트는 SCI 계산의 핵심 구성 요소인 에너지, 탄소 집약도, 구체화된 배출량 및 기능 단위값을 계산하는 데 사용할 수 있는 다양한 방법론을 이해하는 방법에 대한 다양한 접근 방식을 자세히 설명합니다.
+[SCI 지침](https://sci-guide.greensoftware.foundation)- SCI 지침 프로젝트는 SCI 계산의 핵심 구성 요소인 에너지, 탄소 집약도, 구체화된 배출량 및 기능 단위값을 계산하는 데 사용할 수 있는 다양한 방법론을 이해하는 방법에 대한 다양한 접근 방식을 자세히 설명합니다.
 
 런타임(Runtime) - 시스템 전력 소비량 추정 런타임을 통해 [시스템 및 하위 시스템 수준의 전력 소비량에 대한 런타임 예측](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 

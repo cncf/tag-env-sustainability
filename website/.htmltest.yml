@@ -11,7 +11,3 @@ IgnoreURLs: # list of regexs of paths or URLs to be ignored
   # Ignore Docsy-generated GitHub links:
   - ^https?://github\.com/.*?/.*?/(new|edit)/ # view-page, edit-source etc
   - ^https://github.com/cncf/tag-env-sustainability/commit/ # last mod
-
-  # TODO: fix me! Links that no longer exist
-  - ^https://sci-data.greensoftware.foundation/
-    # Should this link to https://greensoftware.foundation/articles/software-carbon-intensity-sci-specification-project?
