@@ -1,6 +1,0 @@
-[build]
-publish = "public"
-command = "npm run build:preview"
-
-[context.production]
-command = "npm run build:production"

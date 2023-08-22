@@ -1,0 +1,32 @@
+{
+    "version": "0.2",
+    "language": "en",
+    "ignorePaths": [],
+    "words": [
+        "CNCF",
+        "K8s",
+        "Kubernetes",
+        "kubecon",
+        "Roadmap",
+        "CODEOWNERS",
+        "explainability",
+        "APAC",
+        "EMEA",
+        "markdownlint",
+        "Microservices",
+        "microservices",
+        "lifecycles",
+        "toolset",
+        "cgroups",
+        "runtimes",
+        "hyperconverged",
+        "intercompatible",
+        "usecase",
+        "SBOM",
+        "operationalize",
+        "codecov",
+        "cloudcustodian",
+        "coefficiency",
+        "SIEC"
+    ]
+}
