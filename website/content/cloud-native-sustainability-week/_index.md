@@ -40,7 +40,7 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 | 10 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
 | 11 | India, Bangalore | *tbd* | *tbd* | Nancy Chauhan, Divya Mohan, Saiyam Pathak |
 | 12 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
-| 13 | Italy, Milan | *tbd* | *tbd* | Michel Murabito |
+| 13 | Italy, Milan | Oct.9 | *tbd* | Michel Murabito, Federica Leonino |
 | 14 | Korea, Seoul | *tbd* | *tbd* | Seokho Son, Hoon Jo |
 | 15 | Latin America | *tbd* | *tbd* | Angel Ramirez |
 | 16 | Luxembourg, Luxembourg | *tbd* | *tbd* | Stéphane Este-Gracias |
