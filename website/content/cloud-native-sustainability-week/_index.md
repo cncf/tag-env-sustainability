@@ -38,7 +38,7 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 | 8 | Germany, Hamburg | Oct.10 | *tbd* | Leonard Pahlke |
 | 9 | Germany, Karlsruhe | *tbd* | *tbd* | Aydin Mir Mohammadi |
 | 10 | Germany, Munich | *tbd* | *tbd* | Antonio Di Turi, Max Körbächer |
-| 11 | Germany, Berlin | *tbd* | *tbd* | Adam Roe |
+| 11 | Germany, Berlin | *tbd* | *tbd* | *tbd* |
 | 12 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
 | 13 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Divya Mohan, Saiyam Pathak |
 | 14 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
