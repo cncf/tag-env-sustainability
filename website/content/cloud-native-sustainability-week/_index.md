@@ -28,33 +28,32 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 
 | **Nr** | **Location** | **Date** | **Event Link** | **Name** |
 |---|---|---|---|---|
-| 1 | Australia, Sydney | *tbd* |  *tbd* | Adam Gardner, Prateek Nayak |
-| 2 | Brasil, São Paulo | *tbd* |  *tbd* | Carol Valencia |
-| 3 | Canada, Toronto |  *tbd* |  *tbd* | Ayrat Khayrettdinov |
-| 4 | Denmark, Aarhus |  *tbd* |  *tbd* | Kasper Nissen |
-| 5 | England, London |  *tbd* |  *tbd* | Kunal Kushwaha |
-| 6 | Germany, Hamburg | *tbd* | *tbd* | Leonard Pahlke |
-| 7 | Germany, Karlsruhe | *tbd* | *tbd* | Aydin Mir Mohammadi |
-| 8 | Germany, Munich | *tbd* | *tbd* | Antonio Di Turi, Max Körbächer |
-| 9 | Germany, Berlin | *tbd* | *tbd* | Adam Roe |
-| 10 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
-| 11 | India, Bangalore | *tbd* | *tbd* | Nancy Chauhan, Divya Mohan, Saiyam Pathak |
-| 12 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
-| 13 | Italy, Milan | Oct.9 | *tbd* | Michel Murabito, Federica Leonino |
-| 14 | Korea, Seoul | *tbd* | *tbd* | Seokho Son, Hoon Jo |
-| 15 | Latin America | *tbd* | *tbd* | Angel Ramirez |
-| 16 | Luxembourg, Luxembourg | *tbd* | *tbd* | Stéphane Este-Gracias |
-| 17 | Mexico, Guadalajara | *tbd* | *tbd* | Rodolfo Martínez Vega |
-| 18 | Netherlands, Amsterdam | *tbd* | *tbd* | Alessandro Vozza |
-| 19 | Norway, Oslo | *tbd* | *tbd* | Kristina Devochko |
-| 20 | Spain, Barcelona | Oct.10 | *tbd* | Niki Manoledaki, Imma Valls |
-| 21 | Switzerland, Bern | *tbd* | *tbd* | Johann Gyger |
-| 22 | Taiwan, Taipei | Oct. 24 | *tbd* | Phil Huang (@pichuang), Sarah Hsu |
-| 23 | USA, Chicago | *tbd* | *tbd* | Josh Gavant |
-| 24 | USA, Oakland | *tbd* | *tbd* | Rynn Mancuso |
-| 25 | USA, Seattle | *tbd* | *tbd* | Yiming Peng|
-| 26 | China, Beijing | Nov.4 | tbd | @SamYuan1990, @jjzhang |
-| 27 | China, Shanghai | Nov.4 | tbd | Shane Wang, Hongbo Wang |
+| 1 | Australia, Sydney | *tbd* |  *tbd* | Adam Gardner, Prateek Nayak, Brad McCoy |
+| 2 | China, Beijing | Nov.4 | tbd | @SamYuan1990, @jjzhang |
+| 3 | China, Shanghai | Nov.4 | tbd | Shane Wang, Hongbo Wang |
+| 4 | Brasil, São Paulo | *tbd* |  *tbd* | Carol Valencia |
+| 5 | Canada, Toronto |  *tbd* |  *tbd* | Ayrat Khayrettdinov |
+| 6 | Denmark, Aarhus |  *tbd* |  *tbd* | Kasper Nissen |
+| 7 | England, London |  *tbd* |  *tbd* | Kunal Kushwaha |
+| 8 | Germany, Hamburg | Oct.10 | *tbd* | Leonard Pahlke |
+| 9 | Germany, Karlsruhe | *tbd* | *tbd* | Aydin Mir Mohammadi |
+| 10 | Germany, Munich | *tbd* | *tbd* | Antonio Di Turi, Max Körbächer |
+| 11 | Germany, Berlin | *tbd* | *tbd* | Adam Roe |
+| 12 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
+| 13 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Divya Mohan, Saiyam Pathak |
+| 14 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
+| 15 | Italy, Milan | Oct.9 | *tbd* | Michel Murabito, Federica Leonino |
+| 16 | Korea, Seoul | Oct.13 | *tbd* | Seokho Son, Hoon Jo |
+| 17 | Luxembourg, Luxembourg | *tbd* | *tbd* | Stéphane Este-Gracias |
+| 18 | Mexico, Guadalajara | *tbd* | *tbd* | Rodolfo Martínez Vega |
+| 19 | Netherlands, Amsterdam | *tbd* | *tbd* | Alessandro Vozza |
+| 20 | Norway, Oslo | Oct.9 | *tbd* | Kristina Devochko |
+| 21 | Spain, Barcelona | Oct.10 | *tbd* | Niki Manoledaki, Imma Valls |
+| 22 | Switzerland, Bern | *tbd* | *tbd* | Johann Gyger |
+| 23 | Taiwan, Taipei | Oct.24 | *tbd* | Phil Huang (@pichuang), Sarah Hsu |
+| 24 | USA, Chicago | *tbd* | *tbd* | Josh Gavant |
+| 25 | USA, Oakland | *tbd* | *tbd* | Rynn Mancuso |
+| 26 | USA, Seattle | *tbd* | *tbd* | Yiming Peng|
 
 ## Event Goals
 
