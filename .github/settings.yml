@@ -37,3 +37,10 @@ collaborators:
   # Alphabetically
   - username: caradelia
     permission: maintain
+
+  # CNCF TAG Environmental Sustainability - WG Green Reviews Chairs
+  # Alphabetically
+  - username: guidemetothemoon
+    permission: maintain
+  - username: nikimanoledaki
+    permission: maintain
