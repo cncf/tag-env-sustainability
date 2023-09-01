@@ -50,7 +50,7 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 | 20 | Norway, Oslo | Oct.9 | *tbd* | Kristina Devochko |
 | 21 | Spain, Barcelona | Oct.10 | *tbd* | Niki Manoledaki, Imma Valls |
 | 22 | Switzerland, Bern | *tbd* | *tbd* | Johann Gyger |
-| 23 | Taiwan, Taipei | Oct.24 | *tbd* | Phil Huang (@pichuang), Sarah Hsu |
+| 23 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
 | 24 | USA, Chicago | *tbd* | *tbd* | Josh Gavant |
 | 25 | USA, Oakland | *tbd* | *tbd* | Rynn Mancuso |
 | 26 | USA, Seattle | *tbd* | *tbd* | Yiming Peng|
