@@ -9,38 +9,3 @@ repository:
 
   # A URL with more information about the repository
   homepage: https://sustainability.cncf.io/
-  
-  # Collaborators: give specific users access to this repository.
-  # Note: changing this file will update the users visible in Github UI 
-  # see /governance/roles.md for details on write access policy
-  # note that the permissions below may provide wider access than needed for
-  # a specific role, and we trust these individuals to act according to their
-  # role. If there are questions, please contact one of the chairs.
-collaborators:
-  # admin: CNCF staff
-  # Alphabetically
-  - username: amye
-    permission: admin
-  - username: caniszczyk
-    permission: admin
-  
-  # CNCF TAG Environmental Sustainability co-chairs
-  # Alphabetically
-  - username: catblade
-    permission: admin
-  - username: leonardpahlke
-    permission: admin
-  - username: mkorbi
-    permission: admin
-
-  # CNCF TAG Environmental Sustainability Tech Leads
-  # Alphabetically
-  - username: caradelia
-    permission: maintain
-
-  # CNCF TAG Environmental Sustainability - WG Green Reviews Chairs
-  # Alphabetically
-  - username: guidemetothemoon
-    permission: maintain
-  - username: nikimanoledaki
-    permission: maintain
