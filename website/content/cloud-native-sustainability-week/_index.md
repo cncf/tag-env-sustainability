@@ -44,7 +44,7 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 | 14 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
 | 15 | Italy, Milan | Oct.9 | *tbd* | Michel Murabito, Federica Leonino |
 | 16 | Korea, Seoul | Oct.13 | *tbd* | Seokho Son, Hoon Jo |
-| 17 | Luxembourg, Luxembourg | *tbd* | *tbd* | Stéphane Este-Gracias |
+| 17 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
 | 18 | Mexico, Guadalajara | *tbd* | *tbd* | Rodolfo Martínez Vega |
 | 19 | Netherlands, Amsterdam | *tbd* | *tbd* | Alessandro Vozza |
 | 20 | Norway, Oslo | Oct.9 | *tbd* | Kristina Devochko |
