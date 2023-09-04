@@ -47,7 +47,7 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 | 17 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
 | 18 | Mexico, Guadalajara | *tbd* | *tbd* | Rodolfo Martínez Vega |
 | 19 | Netherlands, Amsterdam | *tbd* | *tbd* | Alessandro Vozza |
-| 20 | Norway, Oslo | Oct.9 | *tbd* | Kristina Devochko |
+| 20 | Norway, Oslo | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/295698438) | Kristina Devochko |
 | 21 | Spain, Barcelona | Oct.10 | *tbd* | Niki Manoledaki, Imma Valls |
 | 22 | Switzerland, Bern | *tbd* | *tbd* | Johann Gyger |
 | 23 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
