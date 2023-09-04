@@ -24,6 +24,12 @@ Please take a look at this [document](https://docs.google.com/document/d/1s28lqq
 
 ## Meetup Locations
 
+In addition to the global virtual event organized by the CNCF TAG ENV, there will be 26 local meetups happening across 19 countries and 5 continents. Below, you may see a visual representation of all the local meetups that are being planned as we speak.
+
+<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.google.com/maps/d/u/0/embed?mid=1cYKhhpzyOaLNEs-TIxqQTxYV98NBFJ8&ehbc=2E312F&noprof=1"></iframe>
+</div>
+
 *Note that this list is changing, we will publish a complete overview a few weeks for the event! Take a look at this [document](https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit#heading=h.19phjl5j6fdw) to check the latest status, and persons to contact.*
 
 | **Nr** | **Location** | **Date** | **Event Link** | **Name** |
