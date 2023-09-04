@@ -16,9 +16,8 @@ Cloud Native Sustainability Week is a global event organized by the CNCF communi
 You can find an overview of all the local meetups, including event links and organizer information here (please note that not all details are yet finalized, and the table is being updated continuously): https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/#meetup-locations   
 
 <p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/map.png" alt="Picture 1: A visual representation of all the Cloud Native Sustainability Week local meetups displayed on a map"></p>
-*Picture 1: A visual representation of all the Cloud Native Sustainability Week local meetups displayed on a map*
 
-A lot of collaborative community effort is being put into making Cloud Native Sustainability Week a truly global event!
+The picture above is a visual representation of all the Cloud Native Sustainability Week local meetups. A lot of collaborative community effort is being put into making Cloud Native Sustainability Week a truly global event!
 
 ## Cloud Native Sustainability Week Mission
 
