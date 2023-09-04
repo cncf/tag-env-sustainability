@@ -9,11 +9,11 @@ author: Leonard Pahlke, Kristina Devochko
 
 <p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/banner.png"></p>
 
-The CNCF Technical Advisory Group for Environmental Sustainability (TAG ENV) is excited to announce the Cloud Native Sustainability Week 2023 and YOU are invited! 
+The CNCF Technical Advisory Group for Environmental Sustainability (TAG ENV) is excited to announce the Cloud Native Sustainability Week 2023 and YOU are invited!
 
-Cloud Native Sustainability Week is a global event organized by the CNCF community that will take place during the second week of October (week 41). During the week, the community will come together to engage and discuss the emerging topic of environmental sustainability in the cloud native industry and open source space. In addition to the global virtual event organized by the CNCF TAG ENV, there will be 26 local meetups happening across 19 countries and 5 continents. Below, you may see a visual representation of all the local meetups that are being planned as we speak. If you would like to speak at any of the meetups, please submit your talk proposal here: https://forms.gle/rEJfLG3a98EWJdmg7.
+Cloud Native Sustainability Week is a global event organized by the CNCF community that will take place during the second week of October (week 41). During the week, the community will come together to engage and discuss the emerging topic of environmental sustainability in the cloud native industry and open source space. In addition to the global virtual event organized by the CNCF TAG ENV, there will be 26 local meetups happening across 19 countries and 5 continents. Below, you may see a visual representation of all the local meetups that are being planned as we speak. If you would like to speak at any of the meetups, please submit your talk proposal here: <https://forms.gle/rEJfLG3a98EWJdmg7>.
 
-You can find an overview of all the local meetups, including event links and organizer information here (please note that not all details are yet finalized, and the table is being updated continuously): https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/#meetup-locations   
+You can find an overview of all the local meetups, including event links and organizer information here (please note that not all details are yet finalized, and the table is being updated continuously): <https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/#meetup-locations>
 
 <p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/map.png" alt="Picture 1: A visual representation of all the Cloud Native Sustainability Week local meetups displayed on a map"></p>
 
@@ -29,7 +29,7 @@ TAG ENV is looking forward to sparking meaningful discussions and inspiring each
 
 ## Why should YOU join Cloud Native Sustainability Week?
 
-As the world faces increasing environmental challenges, it's crucial for the technology industry to address its impact. The event brings together a diverse community of like-minded individuals who are passionate about cloud native technologies and sustainability. 
+As the world faces increasing environmental challenges, it's crucial for the technology industry to address its impact. The event brings together a diverse community of like-minded individuals who are passionate about cloud native technologies and sustainability.
 
 By joining the CNCF Global Week of Cloud Native Sustainability, you have the opportunity to contribute to a global effort that promotes environmental sustainability in the cloud native industry. You will have the chance to network, share knowledge, inspire and be inspired together with other passionate and motivated professionals. By supporting this initiative, you get to be a part of the global movement that is making a positive impact on the planet and strives for making long-lasting changes in the space of cloud native sustainability.
 
@@ -43,12 +43,12 @@ TAG ENV aims to identify approaches for service providers to minimize their reso
 
 TAG ENV strives to increase awareness of environmental sustainability within open source development and actively supports projects that foster an understanding of energy and resource efficiency. The TAG’s aim is to positively impact the community by fostering a sustainability-focused mindset, improving resource efficiency, and placing environmental sustainability at the forefront of everyone's agenda.
 
-You can learn more about the CNCF TAG Environmental Sustainability on their website: https://tag-env-sustainability.cncf.io 
+You can learn more about the CNCF TAG Environmental Sustainability on their website: <https://tag-env-sustainability.cncf.io>
 
 ## Want to know more?
 
-If you're interested in learning more about Cloud Native Sustainability Week, exploring both global and local meetups that are being planned, and discovering how you can participate in this event, please visit the dedicated page on the CNCF Technical Advisory Group for Environmental Sustainability (TAG ENV) website: https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week
+If you're interested in learning more about Cloud Native Sustainability Week, exploring both global and local meetups that are being planned, and discovering how you can participate in this event, please visit the dedicated page on the CNCF Technical Advisory Group for Environmental Sustainability (TAG ENV) website: <https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week>
 
-**Interested in speaking at one of the Cloud Native Sustainability Week meetups?** Call for Papers is still open! Please submit your session by following this link: https://forms.gle/rEJfLG3a98EWJdmg7
+**Interested in speaking at one of the Cloud Native Sustainability Week meetups?** Call for Papers is still open! Please submit your session by following this link: <https://forms.gle/rEJfLG3a98EWJdmg7>
 
 The CNCF Technical Advisory Group for Environmental Sustainability is excited to see you at Cloud Native Sustainability Week!
