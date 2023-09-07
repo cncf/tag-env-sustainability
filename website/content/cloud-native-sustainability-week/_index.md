@@ -38,28 +38,31 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 2 | China, Beijing | Nov.4 | tbd | @SamYuan1990, @jjzhang |
 | 3 | China, Shanghai | Nov.4 | tbd | Shane Wang, Hongbo Wang |
 | 4 | Brasil, São Paulo | *tbd* |  *tbd* | Carol Valencia |
-| 5 | Canada, Toronto |  *tbd* |  *tbd* | Ayrat Khayrettdinov |
-| 6 | Denmark, Aarhus |  *tbd* |  *tbd* | Kasper Nissen |
-| 7 | England, London |  *tbd* |  *tbd* | Kunal Kushwaha |
-| 8 | Germany, Hamburg | Oct.10 | *tbd* | Leonard Pahlke |
-| 9 | Germany, Karlsruhe | *tbd* | *tbd* | Aydin Mir Mohammadi |
-| 10 | Germany, Munich | *tbd* | *tbd* | Antonio Di Turi, Max Körbächer |
-| 11 | Germany, Berlin | *tbd* | *tbd* | *tbd* |
-| 12 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
-| 13 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Divya Mohan, Saiyam Pathak |
-| 14 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
-| 15 | Italy, Milan | Oct.9 | *tbd* | Michel Murabito, Federica Leonino |
-| 16 | Korea, Seoul | Oct.13 | *tbd* | Seokho Son, Hoon Jo |
-| 17 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
-| 18 | Mexico, Guadalajara | *tbd* | *tbd* | Rodolfo Martínez Vega |
-| 19 | Netherlands, Amsterdam | *tbd* | *tbd* | Alessandro Vozza |
-| 20 | Norway, Oslo | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/295698438) | Kristina Devochko |
-| 21 | Spain, Barcelona | Oct.10 | *tbd* | Niki Manoledaki, Imma Valls |
-| 22 | Switzerland, Bern | *tbd* | *tbd* | Johann Gyger |
-| 23 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
-| 24 | USA, Chicago | *tbd* | *tbd* | Josh Gavant |
-| 25 | USA, Oakland | *tbd* | *tbd* | Rynn Mancuso |
-| 26 | USA, Seattle | *tbd* | *tbd* | Yiming Peng|
+| 5 | Bogota, Colombia | Oct.*tbd* | *tbd* | Ivan Camargo, Angel Ramirez, Cristher Castro |
+| 6 | Canada, Toronto |  *tbd* |  *tbd* | Ayrat Khayrettdinov |
+| 7 | Denmark, Aarhus |  *tbd* |  *tbd* | Kasper Nissen |
+| 8 | England, London |  *tbd* |  *tbd* | Kunal Kushwaha |
+| 9 | Germany, Hamburg | Oct.10 | *tbd* | Leonard Pahlke |
+| 10 | Germany, Karlsruhe | *tbd* | *tbd* | Aydin Mir Mohammadi |
+| 11 | Germany, Munich | *tbd* | *tbd* | Antonio Di Turi, Max Körbächer |
+| 12 | Germany, Berlin | *tbd* | *tbd* | *tbd* |
+| 13 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
+| 14 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Divya Mohan, Saiyam Pathak |
+| 15 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
+| 16 | Italy, Milan | Oct.9 | *tbd* | Michel Murabito, Federica Leonino |
+| 17 | Korea, Seoul | Oct.13 | *tbd* | Seokho Son, Hoon Jo |
+| 18 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
+| 19 | Medellin, Colombia | Oct.27 | *Hybrid* | Elias Quintero, Samantha Upegui |
+| 20 | Mexico, Guadalajara | *tbd* | *tbd* | Rodolfo Martínez Vega |
+| 21 | Netherlands, Amsterdam | *tbd* | *tbd* | Alessandro Vozza |
+| 22 | Norway, Oslo | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/295698438) | Kristina Devochko |
+| 23 | Spain, Barcelona | Oct.10 | *tbd* | Niki Manoledaki, Imma Valls |
+| 24 | South Florida | Oct.19 | *Hybrid* | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
+| 25 | Switzerland, Bern | *tbd* | *tbd* | Johann Gyger |
+| 26 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
+| 27 | USA, Chicago | *tbd* | *tbd* | Josh Gavant |
+| 28 | USA, Oakland | *tbd* | *tbd* | Rynn Mancuso |
+| 29 | USA, Seattle | *tbd* | *tbd* | Yiming Peng|
 
 ## Event Goals
 
