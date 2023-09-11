@@ -42,27 +42,28 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 6 | Canada, Toronto |  *tbd* |  *tbd* | Ayrat Khayrettdinov |
 | 7 | Denmark, Aarhus |  *tbd* |  *tbd* | Kasper Nissen |
 | 8 | England, London |  *tbd* |  *tbd* | Kunal Kushwaha |
-| 9 | Germany, Hamburg | Oct.10 | *tbd* | Leonard Pahlke |
-| 10 | Germany, Karlsruhe | *tbd* | *tbd* | Aydin Mir Mohammadi |
-| 11 | Germany, Munich | *tbd* | *tbd* | Antonio Di Turi, Max Körbächer |
-| 12 | Germany, Berlin | *tbd* | *tbd* | *tbd* |
-| 13 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
-| 14 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Divya Mohan, Saiyam Pathak |
-| 15 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
-| 16 | Italy, Milan | Oct.9 | *tbd* | Michel Murabito, Federica Leonino |
-| 17 | Korea, Seoul | Oct.13 | *tbd* | Seokho Son, Hoon Jo |
-| 18 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
-| 19 | Medellin, Colombia | Oct.27 | *Hybrid* | Elias Quintero, Samantha Upegui |
-| 20 | Mexico, Guadalajara | *tbd* | *tbd* | Rodolfo Martínez Vega |
-| 21 | Netherlands, Amsterdam | *tbd* | *tbd* | Alessandro Vozza |
-| 22 | Norway, Oslo | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/295698438) | Kristina Devochko |
-| 23 | Spain, Barcelona | Oct.10 | *tbd* | Niki Manoledaki, Imma Valls |
-| 24 | South Florida | Oct.19 | *Hybrid* | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
-| 25 | Switzerland, Bern | *tbd* | *tbd* | Johann Gyger |
-| 26 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
-| 27 | USA, Chicago | *tbd* | *tbd* | Josh Gavant |
-| 28 | USA, Oakland | *tbd* | *tbd* | Rynn Mancuso |
-| 29 | USA, Seattle | *tbd* | *tbd* | Yiming Peng|
+| 9 | France, Paris | Oct.10 | *tbd* | Andrea Giardini |
+| 10 | Germany, Hamburg | Oct.10 | *tbd* | Leonard Pahlke |
+| 11 | Germany, Karlsruhe | *tbd* | *tbd* | Aydin Mir Mohammadi |
+| 12 | Germany, Munich | *tbd* | *tbd* | Antonio Di Turi, Max Körbächer |
+| 13 | Germany, Berlin | *tbd* | *tbd* | *tbd* |
+| 14 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
+| 15 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Divya Mohan, Saiyam Pathak |
+| 16 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
+| 17 | Italy, Milan | Oct.9 | *tbd* | Michel Murabito, Federica Leonino |
+| 18 | Korea, Seoul | Oct.13 | *tbd* | Seokho Son, Hoon Jo |
+| 19 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
+| 20 | Medellin, Colombia | Oct.27 | *Hybrid* | Elias Quintero, Samantha Upegui |
+| 21 | Mexico, Guadalajara | *tbd* | *tbd* | Rodolfo Martínez Vega |
+| 22 | Netherlands, Amsterdam | *tbd* | *tbd* | Alessandro Vozza |
+| 23 | Norway, Oslo | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/295698438) | Kristina Devochko |
+| 24 | Spain, Barcelona | Oct.10 | *tbd* | Niki Manoledaki, Imma Valls |
+| 25 | South Florida | Oct.19 | *Hybrid* | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
+| 26 | Switzerland, Bern | *tbd* | *tbd* | Johann Gyger |
+| 27 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
+| 28 | USA, Chicago | *tbd* | *tbd* | Josh Gavant |
+| 29 | USA, Oakland | *tbd* | *tbd* | Rynn Mancuso |
+| 30 | USA, Seattle | *tbd* | *tbd* | Yiming Peng|
 
 ## Event Goals
 
