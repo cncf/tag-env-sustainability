@@ -45,7 +45,7 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 9 | France, Paris | Oct.10 | *tbd* | Andrea Giardini |
 | 10 | Germany, Hamburg | Oct.10 | *tbd* | Leonard Pahlke |
 | 11 | Germany, Karlsruhe | *tbd* | *tbd* | Aydin Mir Mohammadi |
-| 12 | Germany, Munich | *tbd* | *tbd* | Antonio Di Turi, Max Körbächer |
+| 12 | Germany, Munich | Oct.9 | *tbd* | Antonio Di Turi, Max Körbächer |
 | 13 | Germany, Berlin | *tbd* | *tbd* | *tbd* |
 | 14 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
 | 15 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Divya Mohan, Saiyam Pathak |
