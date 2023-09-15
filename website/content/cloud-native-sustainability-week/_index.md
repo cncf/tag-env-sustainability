@@ -50,7 +50,7 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 14 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
 | 15 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Divya Mohan, Saiyam Pathak |
 | 16 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
-| 17 | Italy, Milan | Oct.9 | *tbd* | Michel Murabito, Federica Leonino |
+| 17 | Italy, Milan | Oct.9 | [Link](https://www.meetup.com/mia-platform-cultura-innovazione-team/events/296124350/) | Michel Murabito, Federica Leonino |
 | 18 | Korea, Seoul | Oct.13 | *tbd* | Seokho Son, Hoon Jo |
 | 19 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
 | 20 | Medellin, Colombia | Oct.27 | *Hybrid* | Elias Quintero, Samantha Upegui |
