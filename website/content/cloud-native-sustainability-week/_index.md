@@ -57,7 +57,7 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 21 | Mexico, Guadalajara | *tbd* | *tbd* | Rodolfo Martínez Vega |
 | 22 | Netherlands, Amsterdam | *tbd* | *tbd* | Alessandro Vozza |
 | 23 | Norway, Oslo | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/295698438) | Kristina Devochko |
-| 24 | Spain, Barcelona | Oct.10 | *tbd* | Niki Manoledaki, Imma Valls |
+| 24 | Spain, Barcelona | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-barcelona-presents-cloud-native-sustainability-week/)) | Niki Manoledaki, Imma Valls |
 | 25 | South Florida | Oct.19 | *Hybrid* | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
 | 26 | Switzerland, Bern | Oct.10 | [Link](https://www.meetup.com/cloudnativebern/events/295861662/) | Johann Gyger |
 | 27 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
