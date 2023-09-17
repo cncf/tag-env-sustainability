@@ -44,7 +44,7 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 8 | England, London |  *tbd* |  *tbd* | Kunal Kushwaha |
 | 9 | France, Paris | Oct.10 | *tbd* | Andrea Giardini |
 | 10 | Germany, Hamburg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-hamburg-presents-cloud-native-sustainability-week-meetup-in-hamburg/) | Leonard Pahlke |
-| 11 | Germany, Karlsruhe | *tbd* | *tbd* | Aydin Mir Mohammadi |
+| 11 | Germany, Karlsruhe | Oct.10 | [Link](https://www.meetup.com/de-DE/green-software-development-karlsruhe/events/296165492/) | Aydin Mir Mohammadi |
 | 12 | Germany, Munich | Oct.9 | *tbd* | Antonio Di Turi, Max Körbächer |
 | 13 | Germany, Berlin | *tbd* | *tbd* | *tbd* |
 | 14 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
