@@ -48,7 +48,7 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 12 | Germany, Munich | Oct.9 | *tbd* | Antonio Di Turi, Max Körbächer |
 | 13 | Germany, Berlin | *tbd* | *tbd* | *tbd* |
 | 14 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
-| 15 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Divya Mohan, Saiyam Pathak |
+| 15 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Prakash Mishra, Humble Devassy Chirammal |
 | 16 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
 | 17 | Italy, Milan | Oct.9 | [Link](https://www.meetup.com/mia-platform-cultura-innovazione-team/events/296124350/) | Michel Murabito, Federica Leonino |
 | 18 | Korea, Seoul | Oct.13 | *tbd* | Seokho Son, Hoon Jo |
