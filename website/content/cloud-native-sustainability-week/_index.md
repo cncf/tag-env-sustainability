@@ -46,24 +46,22 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 10 | Germany, Hamburg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-hamburg-presents-cloud-native-sustainability-week-meetup-in-hamburg/) | Leonard Pahlke |
 | 11 | Germany, Karlsruhe | Oct.10 | [Link](https://www.meetup.com/de-DE/green-software-development-karlsruhe/events/296165492/) | Aydin Mir Mohammadi |
 | 12 | Germany, Munich | Oct.9 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-munich-presents-cncf-cloud-native-sustainability-week-munich/) | Antonio Di Turi, Max Körbächer |
-| 13 | Germany, Berlin | *tbd* | *tbd* | *tbd* |
-| 14 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
-| 15 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Prakash Mishra, Humble Devassy Chirammal |
-| 16 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
-| 17 | Italy, Milan | Oct.9 | [Link](https://www.meetup.com/mia-platform-cultura-innovazione-team/events/296124350/) | Michel Murabito, Federica Leonino |
-| 18 | Korea, Seoul | Oct.13 | *tbd* | Seokho Son, Hoon Jo |
-| 19 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
-| 20 | Medellin, Colombia | Oct.27 | *Hybrid* | Elias Quintero, Samantha Upegui |
-| 21 | Mexico, Guadalajara | *tbd* | *tbd* | Rodolfo Martínez Vega |
-| 22 | Netherlands, Amsterdam | *tbd* | *tbd* | Alessandro Vozza |
-| 23 | Norway, Oslo | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/295698438) | Kristina Devochko |
-| 24 | Spain, Barcelona | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-barcelona-presents-cloud-native-sustainability-week/)) | Niki Manoledaki, Imma Valls |
-| 25 | South Florida | Oct.19 | *Hybrid* | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
-| 26 | Switzerland, Bern | Oct.10 | [Link](https://www.meetup.com/cloudnativebern/events/295861662/) | Johann Gyger |
-| 27 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
-| 28 | USA, Chicago | *tbd* | *tbd* | Josh Gavant |
-| 29 | USA, Oakland | *tbd* | *tbd* | Rynn Mancuso |
-| 30 | USA, Seattle | *tbd* | *tbd* | Yiming Peng|
+| 13 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
+| 14 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Prakash Mishra, Humble Devassy Chirammal |
+| 15 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
+| 16 | Italy, Milan | Oct.9 | [Link](https://www.meetup.com/mia-platform-cultura-innovazione-team/events/296124350/) | Michel Murabito, Federica Leonino |
+| 17 | Korea, Seoul | Oct.13 | *tbd* | Seokho Son, Hoon Jo |
+| 18 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
+| 19 | Medellin, Colombia | Oct.27 | *Hybrid* | Elias Quintero, Samantha Upegui |
+| 20 | Mexico, Guadalajara | *tbd* | *tbd* | Rodolfo Martínez Vega |
+| 21 | Netherlands, Amsterdam | Oct.9 | *tbd* | Alessandro Vozza |
+| 22 | Norway, Oslo | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/295698438) | Kristina Devochko |
+| 23 | Spain, Barcelona | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-barcelona-presents-cloud-native-sustainability-week/) | Niki Manoledaki, Imma Valls |
+| 24 | Switzerland, Bern | Oct.10 | [Link](https://www.meetup.com/cloudnativebern/events/295861662/) | Johann Gyger |
+| 25 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
+| 26 | USA, San Francisco | *tbd* | *tbd* | Christopher Hanson |
+| 27 | USA, Seattle | *tbd* | *tbd* | Yiming Peng, Kate Goldenring |
+| 28 | USA, South Florida | Oct.19 | *Hybrid* | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
 
 ## Event Goals
 
