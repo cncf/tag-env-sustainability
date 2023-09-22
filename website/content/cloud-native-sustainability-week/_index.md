@@ -45,7 +45,7 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 9 | France, Paris | Oct.10 | [Link](https://www.meetup.com/cloud-native-computing-paris/events/296073417/) | Andrea Giardini, Tim Carry |
 | 10 | Germany, Hamburg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-hamburg-presents-cloud-native-sustainability-week-meetup-in-hamburg/) | Leonard Pahlke |
 | 11 | Germany, Karlsruhe | Oct.10 | [Link](https://www.meetup.com/de-DE/green-software-development-karlsruhe/events/296165492/) | Aydin Mir Mohammadi |
-| 12 | Germany, Munich | Oct.9 | *tbd* | Antonio Di Turi, Max Körbächer |
+| 12 | Germany, Munich | Oct.9 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-munich-presents-cncf-cloud-native-sustainability-week-munich/) | Antonio Di Turi, Max Körbächer |
 | 13 | Germany, Berlin | *tbd* | *tbd* | *tbd* |
 | 14 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
 | 15 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Prakash Mishra, Humble Devassy Chirammal |
