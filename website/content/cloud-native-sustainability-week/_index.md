@@ -39,7 +39,7 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 3 | China, Shanghai | Nov.4 | tbd | Shane Wang, Hongbo Wang |
 | 4 | Brasil, São Paulo | *tbd* |  *tbd* | Carol Valencia |
 | 5 | Canada, Toronto |  *tbd* |  *tbd* | Ayrat Khayrettdinov |
-| 6 | Colombia, Bogota | Oct.26 | *tbd | Ivan Camargo |
+| 6 | Colombia, Bogota | Oct.26 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-bogota-presents-1-cloud-native-bogota/) | Ivan Camargo |
 | 7 | Colombia, Medellin | Oct.21 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-medellin-presents-bienvenidos-a-cloud-native-medellin-cncf-cloud-native-sustainability-week/) | Elias Quintero, Samantha Upegui |
 | 8 | Denmark, Aarhus |  *tbd* |  *tbd* | Kasper Nissen |
 | 9 | England, London |  *tbd* |  *tbd* | Kunal Kushwaha |
