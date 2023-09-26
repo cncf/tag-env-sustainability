@@ -38,29 +38,26 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 2 | China, Beijing | Nov.4 | tbd | @SamYuan1990, @jjzhang |
 | 3 | China, Shanghai | Nov.4 | tbd | Shane Wang, Hongbo Wang |
 | 4 | Brasil, São Paulo | *tbd* |  *tbd* | Carol Valencia |
-| 5 | Canada, Toronto |  *tbd* |  *tbd* | Ayrat Khayrettdinov |
-| 6 | Colombia, Bogota | Oct.26 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-bogota-presents-1-cloud-native-bogota/) | Ivan Camargo |
-| 7 | Colombia, Medellin | Oct.21 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-medellin-presents-bienvenidos-a-cloud-native-medellin-cncf-cloud-native-sustainability-week/) | Elias Quintero, Samantha Upegui |
-| 8 | Denmark, Aarhus |  *tbd* |  *tbd* | Kasper Nissen |
-| 9 | England, London |  *tbd* |  *tbd* | Kunal Kushwaha |
-| 10 | France, Paris | Oct.10 | [Link](https://www.meetup.com/cloud-native-computing-paris/events/296073417/) | Andrea Giardini, Tim Carry |
-| 11 | Germany, Hamburg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-hamburg-presents-cloud-native-sustainability-week-meetup-in-hamburg/) | Leonard Pahlke |
-| 12 | Germany, Karlsruhe | Oct.10 | [Link](https://www.meetup.com/de-DE/green-software-development-karlsruhe/events/296165492/) | Aydin Mir Mohammadi |
-| 13 | Germany, Munich | Oct.9 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-munich-presents-cncf-cloud-native-sustainability-week-munich/) | Antonio Di Turi, Max Körbächer |
-| 14 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
-| 15 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Prakash Mishra, Humble Devassy Chirammal |
-| 16 | India, Chennai | *tbd* | *tbd* | Vinothini B, Manikandan, Vijayabharathi |
-| 17 | Italy, Milan | Oct.9 | [Link](https://www.meetup.com/mia-platform-cultura-innovazione-team/events/296124350/) | Michel Murabito, Federica Leonino |
-| 18 | Korea, Seoul | Oct.13 | [Link](https://festa.io/events/3916) | Seokho Son, Hoon Jo |
-| 19 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
-| 20 | Mexico, Guadalajara | *tbd* | *tbd* | Rodolfo Martínez Vega |
-| 21 | Netherlands, Amsterdam | Oct.9 | *tbd* | Alessandro Vozza |
-| 22 | Norway, Oslo | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/295698438) | Kristina Devochko |
-| 23 | Spain, Barcelona | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-barcelona-presents-cloud-native-sustainability-week/) | Niki Manoledaki, Imma Valls |
-| 24 | Switzerland, Bern | Oct.10 | [Link](https://www.meetup.com/cloudnativebern/events/295861662/) | Johann Gyger |
-| 25 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
-| 26 | USA, Seattle | *tbd* | *tbd* | Yiming Peng, Kate Goldenring |
-| 27 | USA, South Florida | Oct.19 | [Link](https://community.cncf.io/events/details/cncf-south-florida-presents-south-florida-meetup-cncf-cloud-native-sustainability-week/) | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
+| 5 | Colombia, Bogota | Oct.26 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-bogota-presents-1-cloud-native-bogota/) | Ivan Camargo |
+| 6 | Colombia, Medellin | Oct.21 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-medellin-presents-bienvenidos-a-cloud-native-medellin-cncf-cloud-native-sustainability-week/) | Elias Quintero, Samantha Upegui |
+| 7 | Finland, Helsinki | *tbd* | *tbd* | P J Łaszkowicz |
+| 8 | France, Paris | Oct.10 | [Link](https://www.meetup.com/cloud-native-computing-paris/events/296073417/) | Andrea Giardini, Tim Carry |
+| 9 | Germany, Hamburg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-hamburg-presents-cloud-native-sustainability-week-meetup-in-hamburg/) | Leonard Pahlke |
+| 10 | Germany, Karlsruhe | Oct.10 | [Link](https://www.meetup.com/de-DE/green-software-development-karlsruhe/events/296165492/) | Aydin Mir Mohammadi |
+| 11 | Germany, Munich | Oct.9 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-munich-presents-cncf-cloud-native-sustainability-week-munich/) | Antonio Di Turi, Max Körbächer |
+| 12 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
+| 13 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Prakash Mishra, Humble Devassy Chirammal |
+| 14 | Italy, Milan | Oct.9 | [Link](https://www.meetup.com/mia-platform-cultura-innovazione-team/events/296124350/) | Michel Murabito, Federica Leonino |
+| 15 | Korea, Seoul | Oct.13 | [Link](https://festa.io/events/3916) | Seokho Son, Hoon Jo |
+| 16 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
+| 17 | Netherlands, Amsterdam | Oct.9 | *tbd* | Alessandro Vozza |
+| 18 | Norway, Oslo | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/295698438) | Kristina Devochko |
+| 19 | Spain, Barcelona | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-barcelona-presents-cloud-native-sustainability-week/) | Niki Manoledaki, Imma Valls |
+| 20 | Sweden, Stockholm | *tbd* | *tbd* | P J Łaszkowicz |
+| 21 | Switzerland, Bern | Oct.10 | [Link](https://www.meetup.com/cloudnativebern/events/295861662/) | Johann Gyger |
+| 22 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
+| 23 | USA, Seattle | *tbd* | *tbd* | Yiming Peng, Kate Goldenring |
+| 24 | USA, South Florida | Oct.19 | [Link](https://community.cncf.io/events/details/cncf-south-florida-presents-south-florida-meetup-cncf-cloud-native-sustainability-week/) | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
 
 ## Event Goals
 
@@ -88,10 +85,5 @@ If you are a meetup organizer, we have a [tracking issue](https://github.com/cnc
 
 The event is organized solely by volunteers who dedicate their spare time, making it a true community effort. Without the collective contributions of everyone involved, this event would not have been possible. Thank you to each and every community member for your support and contributions!
 
-Special thanks to Adriana Villela, Kristina Devochko, Leonard Pahlke, Nancy Chauhan, Niki Manoledaki, Mercy Bamiduro, Mehmet and Rodolfo Martínez Vega to help organise the event.
-
-Special thanks to all the local meetup organizers.
-
-Special thanks to Abdel Sghiouar, Alena Prokharchyk, Emily Fox, Huamin Chen, Katie Gamanji, Nate W., Nikhita Raghunath, Ricardo Rocha, Tom Kerkhove and Wojtek Cichoń for facilitating, sharing their thoughts and reaching out to people that might be interested organizing a meetup.
-
-Special thanks to Katie Greenly and the entire CNCF team for their support.
+Special thanks to Kristina Devochko, Leonard Pahlke, Nancy Chauhan, Mercy Bamiduro and the wider TAG ENV community to help organise the event.
+Many thanks to all the local meetup organizers and the entire CNCF team for their support.
