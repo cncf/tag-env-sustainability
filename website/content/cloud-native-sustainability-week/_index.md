@@ -48,11 +48,11 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 10 | Germany, Karlsruhe | Oct.10 | [Link](https://www.meetup.com/de-DE/green-software-development-karlsruhe/events/296165492/) | Aydin Mir Mohammadi |
 | 11 | Germany, Munich | Oct.9 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-munich-presents-cncf-cloud-native-sustainability-week-munich/) | Antonio Di Turi, Max Körbächer |
 | 12 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
-| 13 | India, Bangalore | Oct.14 | *tbd* | Nancy Chauhan, Prakash Mishra, Humble Devassy Chirammal |
+| 13 | India, Bangalore | Oct.14 | [Link](https://www.meetup.com/kubernetes-india-meetup/events/296353271/) | Nancy Chauhan, Prakash Mishra, Humble Devassy Chirammal |
 | 14 | Italy, Milan | Oct.9 | [Link](https://www.meetup.com/mia-platform-cultura-innovazione-team/events/296124350/) | Michel Murabito, Federica Leonino |
 | 15 | Korea, Seoul | Oct.13 | [Link](https://festa.io/events/3916) | Seokho Son, Hoon Jo |
 | 16 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
-| 17 | Netherlands, Amsterdam | Oct.9 | *tbd* | Alessandro Vozza |
+| 17 | Netherlands, Amsterdam | Oct.9 | [Link](https://www.meetup.com/Dutch-Kubernetes-Meetup/events/296272552) | Alessandro Vozza |
 | 18 | Norway, Oslo | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/295698438) | Kristina Devochko |
 | 19 | Spain, Barcelona | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-barcelona-presents-cloud-native-sustainability-week/) | Niki Manoledaki, Imma Valls |
 | 20 | Sweden, Stockholm | *tbd* | *tbd* | P J Łaszkowicz |
