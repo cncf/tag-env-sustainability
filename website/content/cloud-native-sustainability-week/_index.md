@@ -22,9 +22,11 @@ There will be two types of events organized during the Cloud Native Sustainabili
 
 Please take a look at this [document](https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit?usp=sharing) for a more detailed overview.
 
-## Meetup Locations
+## Events
 
 In addition to the global virtual event organized by the CNCF TAG ENV, there will be 26 local meetups happening across 19 countries and 5 continents. Below, you may see a visual representation of all the local meetups that are being planned as we speak.
+
+### Local Meetups
 
 <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://www.google.com/maps/d/u/0/embed?mid=1cYKhhpzyOaLNEs-TIxqQTxYV98NBFJ8&ehbc=2E312F&noprof=1"></iframe>
@@ -59,9 +61,19 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 23 | USA, Seattle | *tbd* | *tbd* | Yiming Peng, Kate Goldenring |
 | 24 | USA, South Florida | Oct.19 | [Link](https://community.cncf.io/events/details/cncf-south-florida-presents-south-florida-meetup-cncf-cloud-native-sustainability-week/) | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
 
-## Livestreams on YouTube by [kubesimplify](https://www.youtube.com/@kubesimplify) with Host Saiyam (Civo)
+### Virtual Mini Conference on Oct.12
+
+more details soon!
+
+
+### Blog Posts
+
+more details soon!
+
+### Livestreams on YouTube by [kubesimplify](https://www.youtube.com/@kubesimplify) with Host Saiyam (Civo)
 
 | **Day** | **Guest** | **Link** |
+|---|---|---|
 | Monday Oct.9 | Henrik Rexed (Dynatrace) |[Link](https://www.youtube.com/live/qthk0dbzFMk?si=ZwtBj6NyXkrJnL1S) |
 | Tuesday Oct.10 | Mark Bjornsgaard (Deep green) |[Link](https://www.youtube.com/live/hY_0BI9h2o4?si=YVp12SRRBHZBC-e2) |
 | Wednesday Oct.11 | Dheeraj Ravula (Avesha) |[Link](https://www.youtube.com/live/6i3wN9EiJUE?si=HJkRtHYF3jVp6BvP) |
