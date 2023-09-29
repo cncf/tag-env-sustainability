@@ -30,7 +30,7 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
     <iframe class="embed-responsive-item" src="https://www.google.com/maps/d/u/0/embed?mid=1cYKhhpzyOaLNEs-TIxqQTxYV98NBFJ8&ehbc=2E312F&noprof=1"></iframe>
 </div>
 
-*Note that this list is changing, we will publish a complete overview a few weeks for the event! Take a look at this [document](https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit#heading=h.19phjl5j6fdw) to check the latest status, and persons to contact.*
+*Note that this list is changing, we will publish a complete overview shortly! Take a look at this [document](https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit#heading=h.19phjl5j6fdw) to check the latest status, and persons to contact.*
 
 | **Nr** | **Location** | **Date** | **Event Link** | **Name** |
 |---|---|---|---|---|
@@ -58,6 +58,15 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 22 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
 | 23 | USA, Seattle | *tbd* | *tbd* | Yiming Peng, Kate Goldenring |
 | 24 | USA, South Florida | Oct.19 | [Link](https://community.cncf.io/events/details/cncf-south-florida-presents-south-florida-meetup-cncf-cloud-native-sustainability-week/) | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
+
+## Livestreams on YouTube by [kubesimplify](https://www.youtube.com/@kubesimplify) with Host Saiyam (Civo)
+
+| **Day** | **Guest** | **Link** |
+| Monday Oct.9 | Henrik Rexed (Dynatrace) |[Link](https://www.youtube.com/live/qthk0dbzFMk?si=ZwtBj6NyXkrJnL1S) |
+| Tuesday Oct.10 | Mark Bjornsgaard (Deep green) |[Link](https://www.youtube.com/live/hY_0BI9h2o4?si=YVp12SRRBHZBC-e2) |
+| Wednesday Oct.11 | Dheeraj Ravula (Avesha) |[Link](https://www.youtube.com/live/6i3wN9EiJUE?si=HJkRtHYF3jVp6BvP) |
+| Thursday Oct.12 | David Aronchick (Expanso) |[Link](https://www.youtube.com/live/j-lToQG7gwg?si=2k0d_t3q-s4xG6n1) |
+| Friday Oct.13 | Divya (SUSE) |[Link](https://www.youtube.com/live/qXtgoRIQpos?si=ea4h1MZoKLKgHAJe) |
 
 ## Event Goals
 
