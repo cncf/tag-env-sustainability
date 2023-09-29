@@ -10,6 +10,8 @@ description: Cloud Native Sustainability Week is a global event where the CNCF c
 slug: cloud-native-sustainability-week
 ---
 
+<p class="mt-5 mb-5"><img src="/images/cloud-native-sustainability-week-banner.png" alt="CNCF Cloud Native Sustainability Week Banner"></p>
+
 The CNCF Global Week of Cloud Native Sustainability is an event organized by the [Cloud Native Computing Foundation (CNCF)](http://cncf.io) community to address the emerging topic of environmental sustainability in the cloud native industry and open source space. The event aims to engage with the community and IT industry as a whole, get a better understanding of the current environmental sustainability landscape, and promote collaboration and knowledge sharing on the topic.
 
 During the **second week of October 2023 (W41)**, the [CNCF community groups around the globe](https://community.cncf.io/chapters/) will organize meetups in their cities with a focus on cloud native sustainability. These meetups can be organized by anyone interested in supporting the effort. Additionally, the [CNCF Environmental Sustainability Technical Advisory Group (TAG ENV)](http://github.com/cncf/tag-env-sustainability), will host a virtual meetup using the [bevy](https://www.bevy.com) platform.
