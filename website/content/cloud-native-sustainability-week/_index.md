@@ -72,7 +72,7 @@ more details soon!
 
 more details soon!
 
-### Livestreams on YouTube by [kubesimplify](https://www.youtube.com/@kubesimplify) with Host Saiyam (Civo)
+### Livestreams on YouTube by [kubesimplify](https://www.youtube.com/@kubesimplify) with Host Saiyam (Civo) and Divya (Suse)
 
 | **Day** | **Guest** | **Link** |
 |---|---|---|
