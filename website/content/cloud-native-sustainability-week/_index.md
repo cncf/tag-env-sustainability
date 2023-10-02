@@ -65,8 +65,20 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 
 ### Virtual Mini Conference on Oct.12
 
-more details soon!
+Virtual Mini Conference is a virtual meetup organized by the  CNCF Environmental Sustainability Technical Advisory Group (TAG ENV). It is a 2-hour event with presentations both from the community speakers and TAG ENV maintainers. You can find the event on the CNCF community page [here](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/).
 
+Event summary:
+1. 5:00 PM CEST: Welcome and Introduction
+2. 5:05 PM CEST: TAG ENV Overview
+3. 5:15 PM CEST: A carbon-aware workload dispatcher in multi-cluster Kubernetes environments by Asser
+4. 5:45 PM CEST: Container sustainability with kube-green by Eduardo Spotti
+5. 5:55 PM CEST: Cloud Provider Sustainability, Current Status and Future Directions by Adrian Cockcroft
+6. 6:30 PM CEST: Working Group Updates - Comms
+7. 6:40 PM CEST: Working Group Updates - Green Reviews
+8. 6:50 PM CEST: TAG ENV Landscape Document walkthrough
+9. 7:00 PM CEST: Closing Remarks
+
+The times are approximate and might shift a bit.
 
 ### Blog Posts
 
