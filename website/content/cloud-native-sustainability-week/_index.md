@@ -63,6 +63,12 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
 | 23 | USA, Seattle | *tbd* | *tbd* | Yiming Peng, Kate Goldenring |
 | 24 | USA, South Florida | Oct.19 | [Link](https://community.cncf.io/events/details/cncf-south-florida-presents-south-florida-meetup-cncf-cloud-native-sustainability-week/) | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
 
+#### To-do list for local MeetUp organizer
+
+Here you can find an helpful todo-list for everything you need to do to and know before-while-and-after the meetup:
+
+[To do list](https://github.com/cncf/tag-env-sustainability/issues/224)
+
 ### Virtual Mini Conference on Oct.12
 
 Virtual Mini Conference is a virtual meetup organized by the  CNCF Environmental Sustainability Technical Advisory Group (TAG ENV). It is a 2-hour event with presentations both from the community speakers and TAG ENV maintainers. You can find the event on the CNCF community page [here](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/).
