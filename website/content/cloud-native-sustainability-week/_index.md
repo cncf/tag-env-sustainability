@@ -88,7 +88,7 @@ The blog posts will be published on the [CNCF blog](https://www.cncf.io/blog/) a
 | **Day** | **Blog Post** | **Link** |
 |---|---|---|
 | Monday Oct.9 | Welcome to the CNCF Cloud Native Sustainability Week | Link |
-| Tuesday Oct.10 | Reducing your environmental impact by 10x with the Linkerd service mesh | Link |
+| Tuesday Oct.10 | Reducing your environmental impact with the Linkerd service mesh | Link |
 | Wednesday Oct.11 | Project Spotlight: Kepler | Link |
 | Monday Oct.12 | Project Spotlight: Kube-Green | Link |
 | Friday Oct.13 | Project Spotlight: Scaphandre | Link |
