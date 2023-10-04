@@ -19,7 +19,7 @@ Each additional piece of software translates into consuming more system resource
 
 The environmental impact of adding features such as zero-config and in-transit encryption (mTLS), as provided by Linkerd, is not zero — no software is. Whether you think that environmental (and financial) cost is viable or reasonable is a different discussion. But you might be surprised to hear that Linkerd can minimize your impact even when compared to no service mesh. That's thanks to Linkerd's intelligent load balancing. But let's take a step back and examine how Kubernetes works first.
 
-##  Distributing work in Kubernetes vs. Linkerd 
+##  Distributing work improves with Linkerd over Native Kubernetes
 
 Kubernetes allows us to more densely pack processes on computers. Servers have a certain capacity to do work, but there is always a gap between how much work they _can_ do and how much the system asks them to do. Kubernetes schedules work more efficiently on existing servers (bin packing), allowing us to run more stuff on the same hardware — a big win! 
 
