@@ -12,21 +12,16 @@ slug: cloud-native-sustainability-week
 
 <p class="mt-5 mb-5"><img src="/images/cloud-native-sustainability-week-banner.png" alt="CNCF Cloud Native Sustainability Week Banner"></p>
 
-The CNCF Global Week of Cloud Native Sustainability is an event organized by the [Cloud Native Computing Foundation (CNCF)](http://cncf.io) community to address the emerging topic of environmental sustainability in the cloud native industry and open source space. The event aims to engage with the community and IT industry as a whole, get a better understanding of the current environmental sustainability landscape, and promote collaboration and knowledge sharing on the topic.
+The CNCF Global Week of Cloud Native Sustainability is an event organized by the [CNCF TAG Environmental Sustainability](http://github.com/cncf/tag-env-sustainability) and the wider [Cloud Native Computing Foundation (CNCF) community](http://cncf.io) to address the emerging topic of environmental sustainability in the cloud native industry and open source space. The event aims to engage with the community and IT industry as a whole, get a better understanding of the current environmental sustainability landscape, and promote collaboration and knowledge sharing on the topic.
 
 During the **second week of October 2023 (W41)**, the [CNCF community groups around the globe](https://community.cncf.io/chapters/) will organize meetups in their cities with a focus on cloud native sustainability. These meetups can be organized by anyone interested in supporting the effort. Additionally, the [CNCF Environmental Sustainability Technical Advisory Group (TAG ENV)](http://github.com/cncf/tag-env-sustainability), will host a virtual meetup using the [bevy](https://www.bevy.com) platform.
-These meetups can be organized by anyone interested in supporting the effort. If you would like to contribute, check out the [Contact and Resources](#contact-and-resources) section below.
 
-There will be two types of events organized during the Cloud Native Sustainability Week:
-
-1. **Local in-person events**: Meetups organized worldwide during the second week of October 2023 by [CNCF community groups](https://community.cncf.io/chapters/) about cloud native sustainability.
-2. **Virtual Event**: A virtual meetup organized by the CNCF TAG ENV.
-
-Please take a look at this [document](https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit?usp=sharing) for a more detailed overview.
+| **Meetups around the globe** | **[Daily Blog posts](https://tag-env-sustainability.cncf.io/blog/)** | **[Virtual Mini Conference](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/)** | **[Daily Livestreams on YouTube](https://www.youtube.com/@kubesimplify)**
+|---|---|---|---|
 
 ## Events
 
-In addition to the global virtual event organized by the CNCF TAG ENV, there will be 26 local meetups happening across 19 countries and 5 continents. Below, you may see a visual representation of all the local meetups that are being planned as we speak.
+We will host 21 local meetups happening across 16 countries and 4 continents. Below, you see a visual representation of all the local meetups.
 
 ### Local Meetups
 
@@ -34,52 +29,33 @@ In addition to the global virtual event organized by the CNCF TAG ENV, there wil
     <iframe class="embed-responsive-item" src="https://www.google.com/maps/d/u/0/embed?mid=1cYKhhpzyOaLNEs-TIxqQTxYV98NBFJ8&ehbc=2E312F&noprof=1"></iframe>
 </div>
 
-*Note that this list is changing, we will publish a complete overview shortly! Take a look at this [document](https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit#heading=h.19phjl5j6fdw) to check the latest status, and persons to contact.*
-
 | **Nr** | **Location** | **Date** | **Event Link** | **Name** |
 |---|---|---|---|---|
-| 1 | Australia, Sydney | *tbd* |  *tbd* | Adam Gardner, Prateek Nayak, Brad McCoy |
-| 2 | China, Beijing | Nov.4 | tbd | @SamYuan1990, @jjzhang |
-| 3 | China, Shanghai | Nov.4 | tbd | Shane Wang, Hongbo Wang |
-| 4 | Brasil, São Paulo | *tbd* |  *tbd* | Carol Valencia |
-| 5 | Colombia, Bogota | Oct.26 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-bogota-presents-1-cloud-native-bogota/) | Ivan Camargo |
-| 6 | Colombia, Medellin | Oct.21 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-medellin-presents-bienvenidos-a-cloud-native-medellin-cncf-cloud-native-sustainability-week/) | Elias Quintero, Samantha Upegui |
-| 7 | Finland, Helsinki | *tbd* | *tbd* | P J Łaszkowicz |
-| 8 | France, Paris | Oct.10 | [Link](https://www.meetup.com/cloud-native-computing-paris/events/296073417/) | Andrea Giardini, Tim Carry |
-| 9 | Germany, Hamburg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-hamburg-presents-cloud-native-sustainability-week-meetup-in-hamburg/) | Leonard Pahlke |
-| 10 | Germany, Karlsruhe | Oct.10 | [Link](https://www.meetup.com/de-DE/green-software-development-karlsruhe/events/296165492/) | Aydin Mir Mohammadi |
-| 11 | Germany, Munich | Oct.9 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-munich-presents-cncf-cloud-native-sustainability-week-munich/) | Antonio Di Turi, Max Körbächer |
-| 12 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
-| 13 | India, Bangalore | Oct.14 | [Link](https://www.meetup.com/kubernetes-india-meetup/events/296353271/) | Nancy Chauhan, Prakash Mishra, Humble Devassy Chirammal |
-| 14 | Italy, Milan | Oct.9 | [Link](https://www.meetup.com/mia-platform-cultura-innovazione-team/events/296124350/) | Michel Murabito, Federica Leonino |
-| 15 | Korea, Seoul | Oct.13 | [Link](https://festa.io/events/3916) | Seokho Son, Hoon Jo |
-| 16 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
-| 17 | Netherlands, Amsterdam | Oct.9 | [Link](https://www.meetup.com/Dutch-Kubernetes-Meetup/events/296272552) | Alessandro Vozza |
-| 18 | Norway, Oslo | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/295698438) | Kristina Devochko |
-| 19 | Spain, Barcelona | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-barcelona-presents-cloud-native-sustainability-week/) | Niki Manoledaki, Imma Valls |
-| 20 | Sweden, Stockholm | *tbd* | *tbd* | P J Łaszkowicz |
-| 21 | Switzerland, Bern | Oct.10 | [Link](https://www.meetup.com/cloudnativebern/events/295861662/) | Johann Gyger |
-| 22 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
-| 23 | USA, Seattle | *tbd* | *tbd* | Yiming Peng, Kate Goldenring |
-| 24 | USA, South Florida | Oct.19 | [Link](https://community.cncf.io/events/details/cncf-south-florida-presents-south-florida-meetup-cncf-cloud-native-sustainability-week/) | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
+| 1 | China, Beijing | Nov.4 | tbd | @SamYuan1990, @jjzhang |
+| 2 | China, Shanghai | Nov.4 | tbd | Shane Wang, Hongbo Wang |
+| 3 | Brasil, São Paulo | *tbd* |  *tbd* | Carol Valencia |
+| 4 | Colombia, Bogota | Oct.26 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-bogota-presents-1-cloud-native-bogota/) | Ivan Camargo |
+| 5 | Colombia, Medellin | Oct.21 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-medellin-presents-bienvenidos-a-cloud-native-medellin-cncf-cloud-native-sustainability-week/) | Elias Quintero, Samantha Upegui |
+| 6 | France, Paris | Oct.10 | [Link](https://www.meetup.com/cloud-native-computing-paris/events/296073417/) | Andrea Giardini, Tim Carry |
+| 7 | Germany, Hamburg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-hamburg-presents-cloud-native-sustainability-week-meetup-in-hamburg/) | Leonard Pahlke |
+| 8 | Germany, Karlsruhe | Oct.10 | [Link](https://www.meetup.com/de-DE/green-software-development-karlsruhe/events/296165492/) | Aydin Mir Mohammadi |
+| 9 | Germany, Munich | Oct.9 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-munich-presents-cncf-cloud-native-sustainability-week-munich/) | Antonio Di Turi, Max Körbächer |
+| 10 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
+| 11 | India, Bangalore | Oct.14 | [Link](https://www.meetup.com/kubernetes-india-meetup/events/296353271/) | Nancy Chauhan, Prakash Mishra, Humble Devassy Chirammal |
+| 12 | India, Chennai | *tbd* | *tbd* | Manikandan |
+| 13 | Italy, Milan | Oct.9 | [Link](https://www.meetup.com/mia-platform-cultura-innovazione-team/events/296124350/) | Michel Murabito, Federica Leonino |
+| 14 | Korea, Seoul | Oct.13 | [Link](https://festa.io/events/3916) | Seokho Son, Hoon Jo |
+| 15 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
+| 16 | Netherlands, Amsterdam | Oct.9 | [Link](https://www.meetup.com/Dutch-Kubernetes-Meetup/events/296272552) | Alessandro Vozza |
+| 17 | Norway, Oslo | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/295698438) | Kristina Devochko |
+| 18 | Spain, Barcelona | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-barcelona-presents-cloud-native-sustainability-week/) | Niki Manoledaki, Imma Valls |
+| 19 | Switzerland, Bern | Oct.10 | [Link](https://www.meetup.com/cloudnativebern/events/295861662/) | Johann Gyger |
+| 20 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
+| 21 | USA, South Florida | Oct.19 | [Link](https://community.cncf.io/events/details/cncf-south-florida-presents-south-florida-meetup-cncf-cloud-native-sustainability-week/) | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
 
 ### Virtual Mini Conference on Oct.12
 
-Virtual Mini Conference is a virtual meetup organized by the  CNCF Environmental Sustainability Technical Advisory Group (TAG ENV). It is a 2-hour event with presentations both from the community speakers and TAG ENV maintainers. You can find the event on the CNCF community page [here](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/).
-
-Event summary:
-
-- 5:00 PM CEST: Welcome and Introduction
-- 5:05 PM CEST: TAG ENV Overview
-- 5:15 PM CEST: A carbon-aware workload dispatcher in multi-cluster Kubernetes environments by Asser
-- 5:45 PM CEST: Container sustainability with kube-green by Eduardo Spotti
-- 5:55 PM CEST: Cloud Provider Sustainability, Current Status and Future Directions by Adrian Cockcroft
-- 6:30 PM CEST: Working Group Updates - Comms
-- 6:40 PM CEST: Working Group Updates - Green Reviews
-- 6:50 PM CEST: TAG ENV Landscape Document walkthrough
-- 7:00 PM CEST: Closing Remarks
-
-The times are approximate and might shift a bit.
+[Virtual Mini Conference](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/) is a meetup organized by the CNCF Environmental Sustainability Technical Advisory Group (TAG ENV). It is a 2-hour event with presentations both from the community speakers and TAG ENV maintainers. You can find the event on the CNCF community page [here](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/).
 
 ### Blog Posts
 
