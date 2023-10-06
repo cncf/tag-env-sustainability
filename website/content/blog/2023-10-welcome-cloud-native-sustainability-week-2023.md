@@ -3,7 +3,7 @@ title: Welcome to the Cloud Native Sustainability Week 2023
 description: Welcome to the Cloud Native Sustainability Week 2023
 slug: 2023-welcome-cloud-native-sustainability-week
 weight: 1
-date:   2023-10-06 10:00:00 +0000
+date:   2023-10-09 10:00:00 +0000
 author: Michel Murabito, Nancy Chauhan
 ---
 
