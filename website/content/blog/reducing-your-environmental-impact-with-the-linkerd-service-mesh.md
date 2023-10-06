@@ -1,4 +1,11 @@
-#  Reducing your environmental impact with the Linkerd service mesh
+---
+title: Reducing your environmental impact with the Linkerd service mesh
+description: Linkerd is the most efficient and sustainable service mesh on the market, capable of reducing the overall resource footprint of your system.
+slug: 2023-reducing-env-impact-with-linkerd
+weight: 1
+date:   2023-10-10 10:00:00 +0000
+author: Catherine Paganini
+---
 
 In the complex world of service meshes, Linkerd is known for its simplicity. But Linkerd has also focused on having the smallest possible resource footprint since its inception. That makes it not only the most efficient and cost-effective service mesh on the market but also the most sustainable one. In fact, due to its intelligent load balancing, adding Linkerd to your stack can actually reduce the overall resource footprint of your system as a whole. Too good to be true? It sounds like it, but it actually pans out. 
 
