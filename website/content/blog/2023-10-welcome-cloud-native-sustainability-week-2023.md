@@ -43,20 +43,18 @@ For any specific queries or if you need additional information, the fastest way 
 
 In a dynamic and rapidly evolving ecosystem like cloud native, every voice and action matter. Your participation, feedback, and involvement can make a difference in shaping a sustainable future for the IT industry. That's why your contribution is so vital.  
 
-1. **Active Participation**:  
-* **Connect and Collaborate**: Attending both in-person and virtual events provides an opportunity to connect with industry experts and fellow professionals who share your passion. These interactions can inspire new ideas, kick-start collaborations, and lead to innovative solutions.
-* **Share Your Experience**: Every attendee brings a unique perspective. By sharing your experiences, challenges, and successes, you enrich the discussion and help the community grow and learn.
-* **Become an Advocate**: Active participation isn't limited to just events. You can become an ambassador for sustainability in your work environment, your local community, and online, helping to spread the significance of the subject.
-
-2. **Feedback and Contributions**:  
-* **Voice to the Community**: CNCF TAG Environmental Sustainability values feedback. Sharing your insights can assist in enhancing the quality of sustainability-related events and initiatives.
-* **Direct Insights**: Providing feedback based on your hands-on experience offers a viewpoint that can contribute to incremental improvements.
-* **Together for Growth**: Positive and constructive contributions help the community advance and emphasize the importance of sustainability.
-
-3. **Ongoing Involvement**:  
-* **Beyond Sustainability Week**: Your passion for sustainability shouldn't be confined to just one week. The industry needs driven individuals to champion sustainability all year round.
-* **Initiatives and Projects**: Consider starting or joining sustainability-related projects. These can range from simple local initiatives to major global-scale projects.
-* **Support Network**: By continuing to engage with the CNCF and the TAG ENV community and other professionals, you build a support network. This network can back your initiatives and ensure your commitment makes a lasting impact.
+* **Active Participation**: 
+  * **Connect and Collaborate**: Attending both in-person and virtual events provides an opportunity to connect with industry experts and fellow professionals who share your passion. These interactions can inspire new ideas, kick-start collaborations, and lead to innovative solutions.
+  * **Share Your Experience**: Every attendee brings a unique perspective. By sharing your experiences, challenges, and successes, you enrich the discussion and help the community grow and learn.
+  * **Become an Advocate**: Active participation isn't limited to just events. You can become an ambassador for sustainability in your work environment, your local community, and online, helping to spread the significance of the subject.
+* **Feedback and Contributions**:
+  * **Voice to the Community**: CNCF TAG Environmental Sustainability values feedback. Sharing your insights can assist in enhancing the quality of sustainability-related events and initiatives.
+  * **Direct Insights**: Providing feedback based on your hands-on experience offers a viewpoint that can contribute to incremental improvements.
+  * **Together for Growth**: Positive and constructive contributions help the community advance and emphasize the importance of sustainability.
+* **Ongoing Involvement**:
+  * **Beyond Sustainability Week**: Your passion for sustainability shouldn't be confined to just one week. The industry needs driven individuals to champion sustainability all year round.
+  * **Initiatives and Projects**: Consider starting or joining sustainability-related projects. These can range from simple local initiatives to major global-scale projects.
+  * **Support Network**: By continuing to engage with the CNCF and the TAG ENV community and other professionals, you build a support network. This network can back your initiatives and ensure your commitment makes a lasting impact.
 
 Your contribution can light the way to a more sustainable future. Never underestimate the power you hold in creating a positive impact.  
   
@@ -66,8 +64,4 @@ The CNCF Sustainability Week is our shared call to action. While it’s a signif
 
 As we gear up for the CNCF Sustainability Week, always know: your actions and thoughts have weight. This week is a milestone, but the journey, the real work, stretches beyond. Dive into the events during the week, but let's keep that green spirit alive every day after.
 
-Dive deeper into our mission. [**Explore the events**](https://tag-env-sustainability.cncf.io/) and [**join the community**](https://communityinviter.com/apps/cloud-native/cncf). Let’s craft a brighter, greener future for cloud native technologies. We're in this together, and we can't wait to see where you take us.
-
-
-
-
+Dive deeper into our mission. [**Explore the events**](https://tag-env-sustainability.cncf.io/) and [**join the community**](https://communityinviter.com/apps/cloud-native/cncf). Let’s craft a brighter, greener future for cloud native technologies. We're in this together, and we can't wait to see where you take us.  
