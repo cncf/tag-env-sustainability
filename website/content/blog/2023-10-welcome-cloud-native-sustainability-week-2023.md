@@ -9,7 +9,7 @@ author: Michel Murabito, Nancy Chauhan
 
 Today, **on the 9th of October, the CNCF Cloud Native Sustainability Week kicks off with a series of global events organized by the cloud native community**, dedicated to highlighting the importance of environmental sustainability. It's a week of sharing reflections, participating in engaging discussions, and being part of impactful initiatives, featuring a diverse array of local and virtual meetups, daily live streams and blog posts. This is **your chance to learn more about cloud native environmental sustainability** and take meaningful actions towards a more sustainable future!  
 
-[Find the closest in-person event to you](https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/#local-meetups) here, dive into our virtual events here [1][2], or check out the other blog posts here. Your participation makes a difference. Let's commit together to a more sustainable IT future! 🌍🌱💻  
+[Find the closest in-person event to you](https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/#local-meetups) here, dive into our virtual events here [1](https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/#virtual-mini-conference-on-oct12)[2](https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/#livestreams-on-youtube-by-kubesimplifyhttpswwwyoutubecomkubesimplify-with-host-saiyam-civo-and-divya-suse), or check out the other blog posts here. Your participation makes a difference. Let's commit together to a more sustainable IT future! 🌍🌱💻  
 
 ## Tech meets green: sustainable IT solutions for the future
 
@@ -31,7 +31,8 @@ Regardless of the chosen format, whether it's an in-person event or a virtual se
 
 ## Navigating the Sustainability Week: Events & Updates
 
-To ensure that participants have easy access to all event information, we've compiled a list of the key activities below. Additionally, you can find a detailed schedule and more events on [the Events Page](https://community.cncf.io/cloud-native-sustainability/)
+To ensure that participants have easy access to all event information, we've compiled a list of the key activities below. Additionally, you can find a detailed schedule and more events on [the Events Page](https://community.cncf.io/cloud-native-sustainability/)  
+  
 * **In-Person Events Page**: This page provides a comprehensive list of all the in-person meetups organized by CNCF community groups globally. You can find details about the event location, date, time, and session topics to be presented. Those interested can register directly through this page to secure their spot.
 * **Virtual Events Page**: If you're looking to participate from the comfort of your home or office, the Virtual Events Page is your one-stop destination. Here, you'll find the schedule of webinars and online sessions, complete with details on speakers, topics, and how to join the live stream.
 * **Stay Updated on LinkedIn**: For real-time updates, behind-the-scenes content, and a chance to interact with the community and organizers, don't forget to follow the official **CNCF TAG Environmental Sustainability page on LinkedIn**. By engaging with our posts and sharing them within your network, you help amplify the message of sustainability in the cloud-native environment. [Follow CNCF TAG Environmental Sustainability on LinkedIn](https://www.linkedin.com/company/cncf-tag-environmental-sustainability/)
@@ -42,17 +43,17 @@ For any specific queries or if you need additional information, the fastest way 
 
 In a dynamic and rapidly evolving ecosystem like cloud native, every voice and action matter. Your participation, feedback, and involvement can make a difference in shaping a sustainable future for the IT industry. That's why your contribution is so vital.  
 
-1. **Active Participation**:
+1. **Active Participation**:  
 * **Connect and Collaborate**: Attending both in-person and virtual events provides an opportunity to connect with industry experts and fellow professionals who share your passion. These interactions can inspire new ideas, kick-start collaborations, and lead to innovative solutions.
 * **Share Your Experience**: Every attendee brings a unique perspective. By sharing your experiences, challenges, and successes, you enrich the discussion and help the community grow and learn.
 * **Become an Advocate**: Active participation isn't limited to just events. You can become an ambassador for sustainability in your work environment, your local community, and online, helping to spread the significance of the subject.
 
-2. **Feedback and Contributions**:
+2. **Feedback and Contributions**:  
 * **Voice to the Community**: CNCF TAG Environmental Sustainability values feedback. Sharing your insights can assist in enhancing the quality of sustainability-related events and initiatives.
 * **Direct Insights**: Providing feedback based on your hands-on experience offers a viewpoint that can contribute to incremental improvements.
 * **Together for Growth**: Positive and constructive contributions help the community advance and emphasize the importance of sustainability.
 
-3. **Ongoing Involvement**:
+3. **Ongoing Involvement**:  
 * **Beyond Sustainability Week**: Your passion for sustainability shouldn't be confined to just one week. The industry needs driven individuals to champion sustainability all year round.
 * **Initiatives and Projects**: Consider starting or joining sustainability-related projects. These can range from simple local initiatives to major global-scale projects.
 * **Support Network**: By continuing to engage with the CNCF and the TAG ENV community and other professionals, you build a support network. This network can back your initiatives and ensure your commitment makes a lasting impact.
