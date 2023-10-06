@@ -25,7 +25,7 @@ Linkerd took a different approach. It is the only service mesh with a [purpose-b
 
 Each additional piece of software translates into consuming more system resources, right? In theory, yes, but if it helps you run your system more efficiently, you may actually decrease your footprint. 
 
-The environmental impact of adding features such as zero-config and in-transit encryption (mTLS), as provided by Linkerd, is not zero — no software is. Whether you think that environmental (and financial) cost is viable or reasonable is a different discussion. But you might be surprised to hear that Linkerd can minimize your impact even when compared to no service mesh. That's thanks to Linkerd's intelligent load balancing. But let's take a step back and examine how Kubernetes works first.
+The environmental impact of adding features such as zero-config and in-transit encryption (mTLS), as provided by Linkerd, is not zero — no software is. Whether you think that environmental (and financial) cost is viable or reasonable is a different discussion. You might be surprised to hear that Linkerd can minimize your impact even when compared to no service mesh. This efficiency gain is thanks to Linkerd's intelligent load balancing. Let's take a step back and examine how Kubernetes works first.
 
 ##  Distributing work improves with Linkerd over Native Kubernetes
 
