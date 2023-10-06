@@ -43,7 +43,7 @@ For any specific queries or if you need additional information, the fastest way 
 
 In a dynamic and rapidly evolving ecosystem like cloud native, every voice and action matter. Your participation, feedback, and involvement can make a difference in shaping a sustainable future for the IT industry. That's why your contribution is so vital.  
 
-* **Active Participation**: 
+* **Active Participation**:
   * **Connect and Collaborate**: Attending both in-person and virtual events provides an opportunity to connect with industry experts and fellow professionals who share your passion. These interactions can inspire new ideas, kick-start collaborations, and lead to innovative solutions.
   * **Share Your Experience**: Every attendee brings a unique perspective. By sharing your experiences, challenges, and successes, you enrich the discussion and help the community grow and learn.
   * **Become an Advocate**: Active participation isn't limited to just events. You can become an ambassador for sustainability in your work environment, your local community, and online, helping to spread the significance of the subject.
@@ -58,7 +58,7 @@ In a dynamic and rapidly evolving ecosystem like cloud native, every voice and a
 
 Your contribution can light the way to a more sustainable future. Never underestimate the power you hold in creating a positive impact.  
   
-## Green tomorrow: act today!
+## Green tomorrow: act today
 
 The CNCF Sustainability Week is our shared call to action. While it’s a significant moment to connect and reflect, real change requires year-round dedication. Remember, sustainability isn’t a one-time action; it's a lifestyle that pushes us toward a brighter, greener IT horizon.
 
