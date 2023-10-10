@@ -50,4 +50,4 @@ This approach is not only more resource-efficient and environmentally friendly, 
 
 As we've seen, Linkerd can help you minimize your resource footprint in various ways. First, its small Rust micro-proxy makes it ten times more resource-efficient than Envoy-based alternatives (basically every other service mesh). Thanks to its intelligent load balancing, you can improve overall resource usage compared to using no service mesh. While the Linkerd team didn't set out to build the most sustainable service mesh on the market, our[focus on simplicity and resource efficiency](https://linkerd.io/design-principles/) made it so. Sustainability is certainly an important area that is finally getting more attention. We are proud that our design principles align well with the TAG for Environmental Sustainability's mission — even if it was more accidental than planned.
 
-_Thanks to Jason Morgan and Flynn for walking me through everything. I learned a lot and hope readers will, too.
+_Thanks to Jason Morgan and Flynn for walking me through everything. I learned a lot and hope readers will, too._
