@@ -3,7 +3,7 @@ title: Reducing your environmental impact with the Linkerd service mesh
 description: Linkerd has always focused on having the smallest possible resource footprint. That makes it not only the most efficient and cost-effective service mesh on the market but also the most sustainable one. That's because Linkerd helps minimize emissions on various levels.
 slug: 2023-reducing-env-impact-with-linkerd
 weight: 1
-date:   2023-10-10 10:00:00 +0000
+date:   2023-10-10 00:00:00 +0000
 author: Catherine Paganini
 ---
 *Guest post as part of the [cloud native sustainability week](https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/)*
