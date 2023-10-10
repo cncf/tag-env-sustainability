@@ -33,9 +33,6 @@ Those 2 ways share a common issue, we only get the global consumption of a machi
 
 Let’s start with a visual overview of the different ways to evaluate a machine’s components energy consumption and the realm they cover.
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
 ![A map of ways to evaluate energy consumption of a server and its components](images/blogs/2023-10-the-road-to-scaphandre-v1.0-challenges-and-improvements-to-come-on-IT-energy-consumption-evaluation/map_it_energy_evaluation.webp "image_tooltip")
 
 *A map of ways to evaluate energy consumption of a server and its components*
