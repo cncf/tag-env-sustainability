@@ -3,9 +3,11 @@ title: Embracing Edge Computing with Kepler - A Dive into Remote Monitoring, Cen
 description: Kepler enables remote monitoring, centralized dashboarding, and visualization of energy consumption, revolutionizing energy observability at edge.
 slug: 2023-embracing-edge-computing-with-kepler
 weight: 1
-date:   2023-10-09 10:00:00 +0000
+date:   2023-10-11 00:00:00 +0000
 author: Parul Singh
 ---
+
+*Community guest post as part of the [cloud native sustainability week](https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/)*
 
 In the ever-evolving landscape of technology, edge computing has emerged as a game-changer, enabling real-time data processing closer to the data source. Kepler, with its integration with OpenTelemetry (OTEL), has paved the way for exploring remote monitoring and centralized dashboarding options at the edge. This revolutionary approach offers invaluable insights into equipment and workload power consumption, making it a pivotal shift in the realm of energy observability.
 
@@ -21,7 +23,7 @@ Centralized dashboarding is a cornerstone of this paradigm shift. With edge devi
 
 Embracing OpenTelemetry isn't just a trend; it's a necessity. This open standard for observability ensures vendor-neutral instrumentation, collection, and export of telemetry data. OpenTelemetry's flexibility, consistency, and growing ecosystem, coupled with support from major observability vendors, position it as the go-to choice for modern applications.
 
-![Energy Observability at Edge with Kepler & OTEL](../../static/images/blogs/2023-09-cloud-native-sustainability-week/KEPLER-OTEL.png)
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/KEPLER-OTEL.png"></p>
 
 ## Kepler’s Architectural Brilliance
 
