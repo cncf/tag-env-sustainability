@@ -52,6 +52,7 @@ We will host 21 local meetups happening across 16 countries and 4 continents. Be
 | 19 | Switzerland, Bern | Oct.10 | [Link](https://www.meetup.com/cloudnativebern/events/295861662/) | Johann Gyger |
 | 20 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
 | 21 | USA, South Florida | Oct.19 | [Link](https://community.cncf.io/events/details/cncf-south-florida-presents-south-florida-meetup-cncf-cloud-native-sustainability-week/) | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
+| 22 | USA, Colorado | Oct.16 | [Link](https://www.meetup.com/colorado-kubernetes-cloud-native/events/296665831/) | Karen Chu, Kris Woyna |
 
 ### Virtual Mini Conference on Oct.12
 
