@@ -32,7 +32,7 @@ Those 2 ways share a common issue, we only get the global consumption of a machi
 
 Let’s start with a visual overview of the different ways to evaluate a machine’s components energy consumption and the realm they cover.
 
-![A map of ways to evaluate energy consumption of a server and its components](images/blogs/2023-10-the-road-to-scaphandre-v1.0-challenges-and-improvements-to-come-on-IT-energy-consumption-evaluation/map_it_energy_evaluation.webp "image_tooltip")
+<p class="mt-5 mb-5"><img src="images/blogs/2023-10-the-road-to-scaphandre-v1.0-challenges-and-improvements-to-come-on-IT-energy-consumption-evaluation/map_it_energy_evaluation.webp" alt="A map of ways to evaluate energy consumption of a server and its components"></p>
 
 *A map of ways to evaluate energy consumption of a server and its components*
 
