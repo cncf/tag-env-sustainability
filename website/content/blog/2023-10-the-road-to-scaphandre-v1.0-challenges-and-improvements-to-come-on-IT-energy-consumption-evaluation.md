@@ -3,7 +3,7 @@ title: The road to Scaphandre v1.0 : Challenges and improvements to come on IT e
 description: This blog post is about sharing what thoughts and insights we got during developing Scaphandre with our contributors, discussing with researchers and IT practitioners, regarding ways currently available to evaluate an IT server energy consumption and the limits of each. From this we try to picture some of the challenges ahead and leads we identify to work with them.
 slug: 2023-the-road-to-scaphandre-v1-0-challenges-and-improvements-to-come-on-IT-energy-consumption-evaluation
 weight: 1
-date:   2023-10-12 00:00:00 +0000
+date: 2023-10-13 00:00:00 +0000
 author: Benoit Petit
 ---
 
