@@ -34,9 +34,10 @@ Following [working groups](https://github.com/cncf/toc/tree/main/workinggroups) 
 
   Meeting notes & agenda [here](https://docs.google.com/document/d/1TkmMyXJABC66NfYmivnh7z8Y_vpq9f9foaOuDVQS_Lo/edit#)
 * [Mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/) via [cncf-tag-env-sustainability@lists.cncf.io](mailto:cncf-tag-env-sustainability@lists.cncf.io)
-* Slack: [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) slack channel on slack.cncf.io
+* Slack: [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) and [#wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431) slack channels on slack.cncf.io
 * Social Media:
-  * Twitter: [@CNCFEnvTAG](https://twitter.com/CNCFEnvTAG)
+  * LinkedIn: [CNCF TAG Environmental Sustainability](https://www.linkedin.com/company/cncf-tag-environmental-sustainability)
+  * Twitter/X: [@CNCFEnvTAG](https://twitter.com/CNCFEnvTAG)
   * YouTube: [@CNCFEnvTAG](https://www.youtube.com/@CNCFEnvTAG)
 
 ### TAG Environmental Sustainability Co-Chairs
