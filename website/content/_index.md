@@ -25,6 +25,9 @@ This TAG's goal is to advocate for, develop, support, and help evaluate environm
 - [Events](https://tag-env-sustainability.cncf.io/events/)
 - Slack channels: [#tag-env-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) and [#wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431)
   - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
+- Social media accounts:
+  - [LinkedIn](https://www.linkedin.com/company/cncf-tag-environmental-sustainability)
+  - [Twitter/X](https://twitter.com/CNCFEnvTAG)
 - [Mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/topics)
 - [Surveys](https://github.com/cncf/tag-env-sustainability/tree/main/surveys)
 
