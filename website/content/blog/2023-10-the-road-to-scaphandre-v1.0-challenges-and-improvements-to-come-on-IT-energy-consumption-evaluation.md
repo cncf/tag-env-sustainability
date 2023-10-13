@@ -7,7 +7,6 @@ date: 2023-10-13 00:00:00 +0000
 author: Benoit Petit
 ---
 
-# The road to Scaphandre v1.0 : Challenges and improvements to come on IT energy consumption evaluation
 
 _Community guest post as part of the cloud native sustainability week_
 
