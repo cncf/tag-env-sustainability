@@ -60,7 +60,7 @@ In the Windows world, each solution we have found that reads RAPL metrics (Intel
 
 Once you get metrics from the driver, you also need to ensure you query those metrics for the right CPU-socket, cpu core-pinning is required if you want to address bi-socket or quad-socket machines.
 
-![Comparison between GNU/Linux and Windows implementations of Scaphandre](images/blogs/2023-10-the-road-to-scaphandre-v1.0-challenges-and-improvements-to-come-on-IT-energy-consumption-evaluation/linux_vs_windows.webp)
+<p class="mt-5 mb-5"><img src="images/blogs/2023-10-the-road-to-scaphandre-v1.0-challenges-and-improvements-to-come-on-IT-energy-consumption-evaluation/linux_vs_windows.webp" alt="Comparison between GNU/Linux and Windows implementations of Scaphandre"></p>
 
 *Comparison between GNU/Linux and Windows implementations of [Scaphandre](https://github.com/hubblo-org/scaphandre/)*
 
