@@ -48,6 +48,6 @@ Green Reviews Working Group empowers the CNCF Environmental Sustainability TAG t
 
 Guidelines for the working group archival are outlined as part of the TAG's governance documentation: [Environmental Sustainability TAG Working Group Archival Process](https://github.com/cncf/tag-env-sustainability/blob/main/governance/working-group-archival-process.md#working-group-archival-process-guidelines).
 
-[^1]: See [Deliverables](#Deliverables) for how this will be achieved.
+[^1]: See [Deliverables](#deliverables) for how this will be achieved.
 
 [^2]: Examples: [[UMBRELLA] Falco collaboration with CNCF tag-env-sustainability](https://github.com/falcosecurity/falco/issues/2435),  [TAG-Security Security Assessment (TSSA) Process](https://github.com/cncf/tag-security/tree/main/assessments).

@@ -7,3 +7,4 @@ Environmental Sustainability Working Group is a CNCF Working Group and reports t
 * [Process](process.md) - how projects are proposed and work is tracked
 * Writing [paper process](paper-process.md) - how to proceed if the proposed project include paper
 * [Presentations](presentations.md)
+* [Communication](communication-channels.md) - how to create new TAG ENV communication channels
