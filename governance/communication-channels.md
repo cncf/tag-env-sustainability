@@ -8,7 +8,7 @@ All Slack channels must be created in the [CNCF](https://slack.cncf.io) workspac
 
 If a new Slack channel must be created, please ensure that following steps are followed as part of the process:
 
-* New channel is created under [CNCF](https://slack.cncf.io) Slack
+* The channel gets created in the [CNCF Slack](https://slack.cncf.io) workspace
 * At least one of the [TAG ENV Leads](https://github.com/cncf/tag-env-sustainability#tag-environmental-sustainability-co-chairs) has approved creation of the new channel
 * TAG ENV meeting notes are updated with the link to the new Slack channel. If the channel is related to the working group, meeting notes for the respective WG are also updated
 * Contact information on GitHub and TAG ENV website is updated with the link to the new channel
