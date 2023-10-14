@@ -44,7 +44,6 @@ Going deeper to get per-components power will feel a bit trickier. CPUs of x86 (
 
 ARM CPU’s don’t provide a feature like RAPL, until recently. I’ve read documentation that seem to indicate very recent ARM boards to have something similar, but couldn't test this theory yet. Nvidia GPUs power can be measured with [nvidia SMI](https://developer.nvidia.com/nvidia-system-management-interface). At the time of writing, I’m not aware of the equivalent feature for AMD GPUs (but if you do, please contact me !).
 
-
 ## Software evaluation biases and improvements to come
 
 While software evaluation tools are a great addition to the conscious IT practitioner toolbox, none of them is a perfect solution that covers all use cases. A combined approach is certainly necessary to have both a complete and a precise view of an infrastructure power usage.
