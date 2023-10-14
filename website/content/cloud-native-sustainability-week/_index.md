@@ -64,11 +64,11 @@ The blog posts will be published on the [CNCF blog](https://www.cncf.io/blog/) a
 
 | **Day** | **Blog Post** | **Link** |
 |---|---|---|
-| Monday Oct.9 | Welcome to the CNCF Cloud Native Sustainability Week | Link |
-| Tuesday Oct.10 | Reducing your environmental impact with the Linkerd service mesh | Link |
-| Wednesday Oct.11 | Project Spotlight: Kepler | Link |
-| Monday Oct.12 | Project Spotlight: Kube-Green | Link |
-| Friday Oct.13 | Project Spotlight: Scaphandre | Link |
+| Monday Oct.9 | Welcome to the Cloud Native Sustainability Week 2023 | [Link](https://tag-env-sustainability.cncf.io/blog/2023-welcome-cloud-native-sustainability-week/) |
+| Tuesday Oct.10 | Reducing your environmental impact with the Linkerd service mesh | [Link](https://tag-env-sustainability.cncf.io/blog/2023-reducing-env-impact-with-linkerd/) |
+| Wednesday Oct.11 | Embracing Edge Computing with Kepler - A Dive into Remote Monitoring, Centralized Dashboarding, and Visualization | [Link](https://tag-env-sustainability.cncf.io/blog/2023-embracing-edge-computing-with-kepler/) |
+| Monday Oct.12 | Towards Optimized Microservices Performance & Sustainability via Istio, Kepler and Smart Scheduling | [Link](https://tag-env-sustainability.cncf.io/blog/2023-sustainability-istio-kepler-smart-scheduling/) |
+| Friday Oct.13 | The road to Scaphandre v1.0 : Challenges and improvements to come on IT energy consumption evaluation | [Link](https://www.cncf.io/blog/2023/10/11/the-road-to-scaphandre-v1-0-challenges-and-improvements-to-come-on-it-energy-consumption-evaluation/) |
 
 ### Livestreams on YouTube by [kubesimplify](https://www.youtube.com/@kubesimplify) with Host Saiyam (Civo) and Divya (Suse)
 
