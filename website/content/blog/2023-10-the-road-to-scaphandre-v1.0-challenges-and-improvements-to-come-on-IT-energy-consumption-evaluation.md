@@ -51,7 +51,6 @@ ARM CPU’s don’t provide a feature like RAPL, until recently. I’ve read doc
 
 While software evaluation tools are a great addition to the conscious IT practitioner toolbox, none of them is a perfect solution that covers all use cases. A combined approach is certainly necessary to have both a complete and a precise view of an infrastructure power usage.
 
-
 ### Powercap is nice, no equivalent on windows ?
 
 Having access to the right sensor is necessary, but not enough. We have experienced that, building Windows support in Scaphandre. On GNU/Linux, having access to RAPL metrics from userland is easy, thanks to the Powercap framework and kernel module. Interesting metrics are available in the /sys/class/powercap folder, one folder per CPU socket (physical CPU package) containing the energy consumed by PKG, another per RAPL Domain (Core, Uncore, or Dram) for each socket. In the case of PSYS and MMIO domains, they have a dedicated folder. Everything is a file, the Unix way, so everything is simple.
