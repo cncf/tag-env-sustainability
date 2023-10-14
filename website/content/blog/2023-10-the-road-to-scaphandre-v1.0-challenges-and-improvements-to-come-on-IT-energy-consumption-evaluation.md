@@ -93,7 +93,6 @@ To get those metrics, we need you. We need to get more data, from more diverse m
 
 In addition to helping us with the Energizta project, do not hesitate to contact us about any imprecisions or suggestions you might find relevant, regarding this post. This is open and collaborative knowledge building. We know we might understand things wrong, that this is a biased presentation of the topic, that there is a lot more to do, and we want to do it with every person who wants to help.
 
-
 ## Bio
 
 Benoit Petit, co-founder of [Hubblo](https://hubblo.org), a consultancy and open-source editor company for ICT environmental impacts evaluation and reduction. In this regard, I’m also a maintainer of [Scaphandre](https://github.com/hubblo-org/scaphandre/), the open-source energy monitoring agent described in this post. I’m also a contributor to [Boavizta](https://boavizta.org/en), a non-profit organization encouraging collaboration of private and public organizations through digital commons, for making ICT compatible with planetary boundaries.
