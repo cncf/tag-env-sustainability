@@ -80,7 +80,6 @@ In addition, you might also discover that depending on the userland tool you rel
 
 Last but not least, while using RAPL metrics could feel empowering as you have a pretty precise view on your machine’s components energy consumption, there is a catch. It should be said that this consumption profile will likely to be very specific to your hardware **and** configuration. The runtime context of a given software or service is also essential if you want to assess its energy consumption. Depending on its runtime, whether it's running natively, in a virtual machine (hypervisor configuration will also be important then), or in a container and depending on the other services running on the physical host and their behavior, the evaluation may be more or less impacted. Moreover, from one machine to another, even if the hardware is the same, you may have a closer look to (at least): hyper threading, turbo boost, energy efficiency mode, …
 
-
 ## Conclusion
 
 As you may have understood, we are far from having everything we need to get both a precise and complete understanding of a server’s energy consumption, thus to optimize everything we could to reduce it. So what could we do? How could we match the gap between accurate, global energy consumption metrics coming from SmartPDUs and smaller-grain, incomplete, evaluations of per-component or per-process power usage?
