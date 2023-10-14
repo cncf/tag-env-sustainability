@@ -31,7 +31,7 @@ Those 2 ways share a common issue, we only get the global consumption of a machi
 
 Let’s start with a visual overview of the different ways to evaluate a machine’s components energy consumption and the realm they cover.
 
-<p class="mt-5 mb-5"><img src="images/blogs/2023-10-the-road-to-scaphandre-v1.0-challenges-and-improvements-to-come-on-IT-energy-consumption-evaluation/map_it_energy_evaluation.webp" alt="A map of ways to evaluate energy consumption of a server and its components"><em>A map of ways to evaluate energy consumption of a server and its components</em></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-10-the-road-to-scaphandre-v1.0-challenges-and-improvements-to-come-on-IT-energy-consumption-evaluation/map_it_energy_evaluation.webp" alt="A map of ways to evaluate energy consumption of a server and its components"><em>A map of ways to evaluate energy consumption of a server and its components</em></p>
 
 It’s important to distinguish the metrics coming from low-level sensors provided by hardware manufacturers, or coming from a measurement dedicated device like a wattmeter/smartPDU. We will call those metrics “bottom-up” or “primary”. The metrics that are actually generated through a model. To be clear, a model means a formula or an algorithm that will speculate on the actual metrics based on some primary information it has access to. We will call those metrics “estimations” or “models”. Some high-level/userland tools provide both “primary” and “estimation” metrics.
 
@@ -55,7 +55,7 @@ In the Windows world, each solution we have found that reads RAPL metrics (Intel
 
 Once you get metrics from the driver, you also need to ensure you query those metrics for the right CPU-socket, cpu core-pinning is required if you want to address bi-socket or quad-socket machines.
 
-<p class="mt-5 mb-5"><img src="images/blogs/2023-10-the-road-to-scaphandre-v1.0-challenges-and-improvements-to-come-on-IT-energy-consumption-evaluation/linux_vs_windows.webp" alt="Comparison between GNU/Linux and Windows implementations of Scaphandre"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-10-the-road-to-scaphandre-v1.0-challenges-and-improvements-to-come-on-IT-energy-consumption-evaluation/linux_vs_windows.webp" alt="Comparison between GNU/Linux and Windows implementations of Scaphandre"></p>
 
 *Comparison between GNU/Linux and Windows implementations of [Scaphandre](https://github.com/hubblo-org/scaphandre/)*
 
