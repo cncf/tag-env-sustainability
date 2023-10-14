@@ -98,7 +98,6 @@ In addition to helping us with the Energizta project, do not hesitate to contact
 
 Benoit Petit, co-founder of [Hubblo](https://hubblo.org), a consultancy and open-source editor company for ICT environmental impacts evaluation and reduction. In this regard, I’m also a maintainer of [Scaphandre](https://github.com/hubblo-org/scaphandre/), the open-source energy monitoring agent described in this post. I’m also a contributor to [Boavizta](https://boavizta.org/en), a non-profit organization encouraging collaboration of private and public organizations through digital commons, for making ICT compatible with planetary boundaries.
 
-
 ## Thanks
 
 I’d like to thank Victorien Molle for his great contribution to the Windows driver Scaphandre relies on, Guillaume Subiron for his amazing work on Energizta, the great Scaphandre contributors community, David Ekchajzer, Leonard Pahlke and Guillaume Subiron again for their reviews of this blog post.
