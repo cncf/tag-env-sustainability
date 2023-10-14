@@ -7,8 +7,7 @@ date: 2023-10-13 00:00:00 +0000
 author: Benoit Petit
 ---
 
-
-_Community guest post as part of the cloud native sustainability week_
+*Community guest post as part of the [cloud native sustainability week](https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week)*
 
 This blog post is about sharing what thoughts and insights we got during developing [Scaphandre](https://github.com/hubblo-org/scaphandre/) with our contributors, discussing with researchers and IT practitioners, regarding ways currently available to evaluate an IT server energy consumption and the limits of each. From this we try to picture some of the challenges ahead and leads we identify to work with them.
 
