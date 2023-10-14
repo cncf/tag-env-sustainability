@@ -4,7 +4,7 @@ This document describes the process for creating new communication channels for 
 
 ## Process for creating new Slack channels
 
-All channels must be created under [CNCF](https://slack.cncf.io) Slack. Currently TAG ENV has two Slack channels: main [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) channel and Green Reviews Working Group [#wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431) channel.
+All Slack channels must be created in the [CNCF](https://slack.cncf.io) workspace. TAG ENV has a main channel [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) with complementary sub-channels for some working groups or projects. The goal is to always provide the main channel with meaningful information, even if a sub-channel exists. This should be done by posting the message in the main channel and posting a link to the message in the sub-channel. 
 
 If a new Slack channel must be created, please ensure that following steps are followed as part of the process:
 
