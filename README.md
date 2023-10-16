@@ -5,16 +5,9 @@ Welcome to the Environmental Sustainability Technical Advisory Group. This TAG w
 We want to raise awareness of environmental sustainability as a key element of open source development and support projects which foster an understanding of energy drivers.
 All activities should positively impact the community by changing mindset, increasing efficiency, and putting sustainability on everyone's agenda.
 
-The [TAG Environmental Sustainability Charter](charter.md) further outlines the scope of our group activities as well as the goals and intended deliverables.
-
-## Glossary
-
-Within our [glossary](./glossary/glossary.md) you can find common wording, abbreviations and definitions we might use frequently.
-In case you are missing something or is unclear, your contribution is more than welcome!
-
-## Website
-
-In addition to what you can find in this repository, the TAG Environmental Sustainability maintains the website [sustainability.cncf.io](https://sustainability.cncf.io/) to more easily present information about TAG.
+- **Charter**: The [TAG Environmental Sustainability Charter](charter.md) further outlines the scope of our group activities as well as the goals and intended deliverables.
+- **Website**: In addition to what you can find in this repository, the TAG Environmental Sustainability maintains the website [tag-env-sustainability.cncf.io](http://tag-env-sustainability.cncf.io) to more easily present information about TAG.
+- **Technical Projects Repository**: Technical projects are managed in the [`cncf-tags/tag-env-tooling`](https://github.com/cncf-tags/tag-env-tooling) repository.
 
 ## Working Groups
 
@@ -23,6 +16,10 @@ Following [working groups](https://github.com/cncf/toc/tree/main/workinggroups) 
 | Working Group | Scope and Goals            | Meeting Time                          |
 |---------------|-------------------|---------------------------------------|
 | [Green Reviews](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/green-reviews) | [green-reviews/charter.md](./working-groups/green-reviews/charter.md) | [green-reviews/README.md#meetings-and-contact](./working-groups/green-reviews/README.md#meetings-and-contact) |
+
+## Projects
+
+Please take a look at the [Project folder](projects/README.md) to discover all smaller scoped projects of the TAG.
 
 ## Contact
 
