@@ -14,7 +14,7 @@ slug: cloud-native-sustainability-week
 
 The CNCF Global Week of Cloud Native Sustainability is an event organized by the [CNCF TAG Environmental Sustainability](http://github.com/cncf/tag-env-sustainability) and the wider [Cloud Native Computing Foundation (CNCF) community](http://cncf.io) to address the emerging topic of environmental sustainability in the cloud native industry and open source space. The event aims to engage with the community and IT industry as a whole, get a better understanding of the current environmental sustainability landscape, and promote collaboration and knowledge sharing on the topic.
 
-During the **second week of October 2023 (W41)**, the [CNCF community groups around the globe](https://community.cncf.io/chapters/) will organize meetups in their cities with a focus on cloud native sustainability. These meetups can be organized by anyone interested in supporting the effort. Additionally, the [CNCF Environmental Sustainability Technical Advisory Group (TAG ENV)](http://github.com/cncf/tag-env-sustainability), will host a virtual meetup using the [bevy](https://www.bevy.com) platform.
+During the **second week of October 2023 (W41)**, the [CNCF community groups around the globe](https://community.cncf.io/chapters/) will organize meetups in their cities with a focus on cloud native sustainability. These meetups can be organized by anyone interested in supporting the effort. Additionally, the [CNCF Environmental Sustainability Technical Advisory Group (TAG ENV)](http://github.com/cncf/tag-env-sustainability), will host a virtual meetup. The recordings of the virtual and recorded in person event will be uploaded to this [playlist on YouTube](https://youtube.com/playlist?list=PL_3_oSSuNpD4cdUFtW68Ejl5FpD7fEFdg&si=iBEY_qa1-DccqWz_).
 
 | **Meetups around the globe** | **[Daily Blog posts](https://tag-env-sustainability.cncf.io/blog/)** | **[Virtual Mini Conference](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/)** | **[Daily Livestreams on YouTube](https://www.youtube.com/@kubesimplify)**
 |---|---|---|---|
@@ -56,7 +56,7 @@ We will host 21 local meetups happening across 16 countries and 4 continents. Be
 
 ### Virtual Mini Conference on Oct.12
 
-[Virtual Mini Conference](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/) is a meetup organized by the CNCF Environmental Sustainability Technical Advisory Group (TAG ENV). It is a 2-hour event with presentations both from the community speakers and TAG ENV maintainers. You can find the event on the CNCF community page [here](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/).
+[Virtual Mini Conference](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/) is a meetup organized by the CNCF Environmental Sustainability Technical Advisory Group (TAG ENV). It is a 2-hour event with presentations both from the community speakers and TAG ENV maintainers. You can find the event on the CNCF community page [here](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/). The recording can be found [here](https://youtube.com/playlist?list=PL_3_oSSuNpD4cdUFtW68Ejl5FpD7fEFdg&si=iBEY_qa1-DccqWz_).
 
 ### Blog Posts
 
@@ -78,7 +78,7 @@ The blog posts will be published on the [CNCF blog](https://www.cncf.io/blog/) a
 | Tuesday Oct.10 | Mark Bjornsgaard (Deep green) |[Link](https://www.youtube.com/live/hY_0BI9h2o4?si=YVp12SRRBHZBC-e2) |
 | Wednesday Oct.11 | Dheeraj Ravula (Avesha) |[Link](https://www.youtube.com/live/6i3wN9EiJUE?si=HJkRtHYF3jVp6BvP) |
 | Thursday Oct.12 | David Aronchick (Expanso) |[Link](https://www.youtube.com/live/j-lToQG7gwg?si=2k0d_t3q-s4xG6n1) |
-| Friday Oct.13 | Divya (SUSE) |[Link](https://www.youtube.com/live/qXtgoRIQpos?si=ea4h1MZoKLKgHAJe) |
+| Friday Oct.13 | Saiyam (Civo) Divya (SUSE) |[Link](https://www.youtube.com/live/qXtgoRIQpos?si=ea4h1MZoKLKgHAJe) |
 
 <p class="mt-5 mb-5"><img src="/images/cloud-native-sustainability-week-engine-1.png" alt="CNCF Cloud Native Sustainability Week Generic Engine"></p>
 
