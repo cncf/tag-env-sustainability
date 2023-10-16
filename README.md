@@ -6,7 +6,7 @@ We want to raise awareness of environmental sustainability as a key element of o
 All activities should positively impact the community by changing mindset, increasing efficiency, and putting sustainability on everyone's agenda.
 
 - **Charter**: The [TAG Environmental Sustainability Charter](charter.md) further outlines the scope of our group activities as well as the goals and intended deliverables.
-- **Website**: In addition to what you can find in this repository, the TAG Environmental Sustainability maintains the website [tag-env-sustainability.cncf.io](http://tag-env-sustainability.cncf.io) to more easily present information about TAG.
+- **Website**: In addition to what you can find in this repository, the TAG Environmental Sustainability maintains the website [tag-env-sustainability.cncf.io](https://tag-env-sustainability.cncf.io) to more easily present information about TAG.
 - **Technical Projects Repository**: Technical projects are managed in the [`cncf-tags/tag-env-tooling`](https://github.com/cncf-tags/tag-env-tooling) repository.
 
 ## Working Groups
