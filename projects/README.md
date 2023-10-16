@@ -3,6 +3,7 @@
 The TAG has a couple of smaller scoped initiatives which do not require the formation of a working group and usually see sporadic contributions.
 
 **Projects**:
+
 - [Landscape](landscape/README.md)
 - [Glossary](glossary/README.md)
 
