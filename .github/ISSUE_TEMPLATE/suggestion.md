@@ -28,12 +28,12 @@ assignees: ''
 ...
 
 #### Additional info and comments
+
 - Reference to supporting material: `NONE`
 - Links to related site: `NONE`
 - Feel free to delete this section if you don't have more info: `NONE`
 
 <!--  If this is a Proposal please uncomment the following section
-
 
 ### TODO
 

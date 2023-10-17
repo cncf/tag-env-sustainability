@@ -39,6 +39,7 @@ enough time for discussion and other agenda items. (estimate) -->
 ...
 
 ### Steps
+
 1. [ ] First, contact one of [TAG ENV
    Co-Chairs](https://github.com/cncf/tag-env-sustainability#tag-environmental-sustainability-co-chairs) or [TLs](https://github.com/cncf/tag-env-sustainability#tag-environmental-sustainability-tech-leads) to confirm your presentation. You can tag them in this GitHub issue or contact them through the [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) channel [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6).
 2. [ ] Then, add the topic to the Agenda of the upcoming regular meeting in the
