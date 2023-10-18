@@ -33,11 +33,18 @@ The Marketing Communications Working Group has its main focus on the marketing c
 - Plan in-person events at selected conferences
 
 ## Governance
-The Contributor Comms subproject welcomes and encourages its members to take on leadership roles in their contributions. The group defines the areas of its work such as social media, blogging, etc. and creates associated leadership roles accordingly. Members are encouraged to pursue any interest in specific areas as contributing team members, leads, or shadows. Leadership roles are defined in the Kubernetes [subproject’s role handbooks](https://github.com/kubernetes/community/tree/master/communication/contributor-comms/role-handbooks).
-- Recommend two co-chairs
-- Recommend sub chairs for events, content, website and social media
+The working group comms extends the [TAG ENV governance](https://github.com/cncf/tag-env-sustainability/tree/main/governance) by community roles to better deligate tasks across the community. The roles are inspired by the [Kubernetes communications team](https://github.com/kubernetes/community/tree/master/communication/contributor-comms/role-handbooks). The group defines the areas of its work, such as social media, blogging, etc. and creates associated subproject Tech Lead (TL) leadership roles accordingly. Any contributors are encouraged to pursue interest in subteams as contributing team members or as elected TL. General subproject leadership tasks and reporting to the WG Comms is handled by the subproject TL. The rotation of a subproject lead is to be coordinated with the WG Comms Leadership. Roles can rotate across contributors weekly, monthly, or every few months. Subproject TL are approved by the WG Comms Leads and one or more other TAG ENV Lead(s) publicly.
 
-## Roles and Subproject Management
+- Recommended one Tech Lead (TL) for each subteam
+
+Subteams:
+- Social Media - Social Media Coordinator to manage TAG ENVs social media presence and posts
+- Blog - Blog Coordinator to manage TAG ENVs blog posts submissions and schedule
+- Website - Website Coordinator to manage TAG ENVs website content and in coming changes
+- Event - Event Coordinator to manage TAG ENVs in person or virtual meetups
+- Contributor Experience - Contributor experience coordinator to manage how the TAG best engages with new contributors
+
+Detailed information about the subteams' operations is described in handbooks.
 General subproject leadership is handled by the Contributor Comms Subproject Lead(s). Specific subproject responsibilities are also broken down into areas with their own lead roles, as defined here:
 - [Contributor Comms Subproject Lead](https://github.com/kubernetes/community/blob/master/communication/contributor-comms/role-handbooks/Subproject-Lead.md)
 - [Social Media Coordinator](https://github.com/kubernetes/community/blob/master/communication/contributor-comms/role-handbooks/Social-Media.md)
