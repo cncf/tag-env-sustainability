@@ -45,15 +45,4 @@ Subteams:
 - Contributor Experience - Contributor experience coordinator to manage how the TAG best engages with new contributors
 
 Detailed information about the subteams' operations is described in handbooks.
-General subproject leadership is handled by the Contributor Comms Subproject Lead(s). Specific subproject responsibilities are also broken down into areas with their own lead roles, as defined here:
-- [Contributor Comms Subproject Lead](https://github.com/kubernetes/community/blob/master/communication/contributor-comms/role-handbooks/Subproject-Lead.md)
-- [Social Media Coordinator](https://github.com/kubernetes/community/blob/master/communication/contributor-comms/role-handbooks/Social-Media.md)
-- [Comms Tech Lead](https://github.com/kubernetes/community/blob/master/communication/contributor-comms/role-handbooks/Comms-Tech-Lead.md)
-- [Comms Blog Coordinator](https://github.com/kubernetes/community/blob/master/communication/contributor-comms/role-handbooks/blog-coordinator.md)
-- Emeritus (previous team members that we had the privilege of working with 
-
-All roles can have multiple shadows and should have at least one shadow. All leads should actively recruit members and shadows for the entire team.
-
-Roles are flexible and subject to change.
-
 
