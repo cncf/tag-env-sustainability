@@ -4,7 +4,7 @@ Marketing is as crucial as code to any open source project’s success. Particip
 
 This is a proposal to create a Working Group under the CNCF Environmental Sustainability Technical Advisory Group (TAG ENV) to help organize communication and marketing efforts.
 
-The Marketing Communications Work Group is the marketing communications, public and member relations arm of the TAG. It provides member-neutral contribution, ecosystem development and marketing services, collaborative management, branding and compatibility.
+The Marketing Communications Working Group has its main focus on the marketing communications, public and member relations of the TAG. It provides member-neutral contribution, ecosystem development and marketing services, collaborative management, branding and compatibility.
 
 ## Goals
 - Establish the marketing strategy for TAG ENV, and then execute that strategy in areas such as Events, Digital Media, Public Relations, Web Content, and Branding. 
