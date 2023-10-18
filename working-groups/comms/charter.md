@@ -57,12 +57,3 @@ All roles can have multiple shadows and should have at least one shadow. All lea
 Roles are flexible and subject to change.
 
 
-## Operation
-- The WG will meet weekly for a half hour.
-- Recommend two co-chairs
-- Recommend sub chair for events, content, website and social media
-- We will include meeting on TAG ENV calendar
-- We will use tools such as the #tag-environmental-sustainability Slack channel for asynchronous communication
-
-
-
