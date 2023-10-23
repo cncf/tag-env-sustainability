@@ -40,7 +40,7 @@ We will host 21 local meetups happening across 16 countries and 4 continents. Be
 | 7 | Germany, Hamburg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-hamburg-presents-cloud-native-sustainability-week-meetup-in-hamburg/) | Leonard Pahlke |
 | 8 | Germany, Karlsruhe | Oct.10 | [Link](https://www.meetup.com/de-DE/green-software-development-karlsruhe/events/296165492/) | Aydin Mir Mohammadi |
 | 9 | Germany, Munich | Oct.9 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-munich-presents-cncf-cloud-native-sustainability-week-munich/) | Antonio Di Turi, Max Körbächer |
-| 10 | Guatemala | *tbd* | *tbd* | Sergio Mendez |
+| 10 | Guatemala | Nov.23 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-guatemala-presents-sustainability-week-cloud-native-guatemala/) | Sergio Méndez, Jefferson Molina |
 | 11 | India, Bangalore | Oct.14 | [Link](https://www.meetup.com/kubernetes-india-meetup/events/296353271/) | Nancy Chauhan, Prakash Mishra, Humble Devassy Chirammal |
 | 12 | India, Chennai | *tbd* | *tbd* | Manikandan |
 | 13 | Italy, Milan | Oct.9 | [Link](https://www.meetup.com/mia-platform-cultura-innovazione-team/events/296124350/) | Michel Murabito, Federica Leonino |
