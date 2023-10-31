@@ -2,6 +2,9 @@
 
 This document describes the process for creating new communication channels for the CNCF TAG Environmental Sustainability (TAG ENV). Examples of such communication channels may be: Slack channels, accounts on social media platforms, etc.
 
+- [Process for creating communication channels for TAG Environmental Sustainability](#process-for-creating-communication-channels-for-tag-environmental-sustainability)
+  - [Process for creating new Slack channels](#process-for-creating-new-slack-channels)
+
 ## Process for creating new Slack channels
 
 All Slack channels must be created in the [CNCF](https://slack.cncf.io) workspace. TAG ENV has a main channel [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) with complementary sub-channels for some working groups or projects. The goal is to always provide the main channel with meaningful information, even if a sub-channel exists. This should be done by posting the message in the main channel and posting a link to the message in the sub-channel.
