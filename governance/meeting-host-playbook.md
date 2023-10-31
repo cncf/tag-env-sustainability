@@ -2,6 +2,16 @@
 
 Meetings are held to coordinate and discuss TAG ENV activities. The TAG ENV leads host these meetings. The following playbook can be used for reference to structure the meeting, you don't need to stick step by step (word by word), it should give guidance how a meeting usually is structured.
 
+- [TAG Environmental Sustainability Meeting Host Playbook](#tag-environmental-sustainability-meeting-host-playbook)
+  - [Requirements to host the meeting](#requirements-to-host-the-meeting)
+  - [Pre-Meeting](#pre-meeting)
+  - [During the Meeting](#during-the-meeting)
+    - [Preparation](#preparation)
+    - [Intro](#intro)
+    - [Agenda](#agenda)
+    - [End of the Meeting](#end-of-the-meeting)
+  - [Post-Meeting](#post-meeting)
+
 ## Requirements to host the meeting
 
 * Install Zoom and check your settings (especially audio and video).
@@ -10,10 +20,10 @@ Meetings are held to coordinate and discuss TAG ENV activities. The TAG ENV lead
 
 ## Pre-Meeting
 
-* Add a new blank agenda entry to the meeting notes by copying the template and editing the details accordingly.
-* Announce a day in advance in Slack to add agenda items to meeting notes.
+* Add a new blank agenda entry to the [meeting notes](https://bit.ly/cncf-tag-env-meeting-notes) by copying the template and editing the details accordingly.
+* Announce a day in advance in Slack to add agenda items to [meeting notes](https://bit.ly/cncf-tag-env-meeting-notes).
 * Announce the meeting about an hour before in the `#tag-env-sustainability` Slack channel.
-* Announce the meeting over [social media](https://github.com/cncf/tag-env-sustainability#contact) a day before. If there is a special presentation / occasion, you may want to announce it a total of two times a week in advance.
+* Announce the meeting over [social media](https://github.com/cncf/tag-env-sustainability#contact) a day before. If there is a special presentation / occasion. You may want to announce it a total of two times a week in advance.
 
   ```markdown
   Hi folks! The CNCF TAG ENV bi-weekly meeting takes place 1 hour from now.

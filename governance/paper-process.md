@@ -3,6 +3,27 @@
 This document is intended to provide a consistent mechanism for cloud native environmental sustainability to produce community papers, ensure they are reviewed, and subsequently published.
 Content of this document does not supersede existing processes and is intended to be used in conjunction with [existing proposal to project instructions](process.md).
 
+- [Process for creating papers](#process-for-creating-papers)
+  - [Proposal](#proposal)
+  - [Project](#project)
+    - [Tentative schedule milestones](#tentative-schedule-milestones)
+  - [Milestones](#milestones)
+    - [Audience, Goals, and refining scope](#audience-goals-and-refining-scope)
+    - [Tasking assignment](#tasking-assignment)
+    - [Content rough-in](#content-rough-in)
+      - [Opinions](#opinions)
+      - [References](#references)
+    - [Collaborative](#collaborative)
+    - [Executive summary and content wrap-up](#executive-summary-and-content-wrap-up)
+    - [Narrative voice](#narrative-voice)
+    - [Final group review](#final-group-review)
+    - [Community Review](#community-review)
+    - [Public comment adjudication](#public-comment-adjudication)
+    - [CNCF publishing engagement](#cncf-publishing-engagement)
+    - [Addition to the repo](#addition-to-the-repo)
+    - [Blog publishing and coordination](#blog-publishing-and-coordination)
+      - [Authorship, attribution and acknowledgements](#authorship-attribution-and-acknowledgements)
+
 ## Proposal
 
 If a proposal is made that includes a paper as a deliverable, the proposal needs to ensure that there is a clearly identified lead and a well defined paper scope.

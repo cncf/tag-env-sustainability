@@ -5,6 +5,9 @@ We welcome any topic related to our mission and charter.
 Typical topics include projects, real-world use-cases, challenges or success stories.
 However, presentations must follow the following guidelines.
 
+- [Environmetal Sustainability TAG presentations](#environmetal-sustainability-tag-presentations)
+  - [Guidelines](#guidelines)
+
 ## Guidelines
 
 - Presentations are encouraged to expose the TAG to cloud native open source projects, cloud native sustainability concepts, and environmental conservation oriented groups.

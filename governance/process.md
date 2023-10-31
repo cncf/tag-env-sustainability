@@ -11,6 +11,13 @@ projects with a defined set of deliverables
 or a team to focus on a larger stream of work that may involve one or more
 projects and activities.
 
+- [Proposals, projects, and team](#proposals-projects-and-team)
+  - [Creating, discussing and accepting proposals](#creating-discussing-and-accepting-proposals)
+    - [1. **Raise an Issue**](#1-raise-an-issue)
+    - [2. **Ask the group for collaboration**](#2-ask-the-group-for-collaboration)
+    - [3. **Accept or close the proposal.**](#3-accept-or-close-the-proposal)
+    - [Active projects](#active-projects)
+
 ## Creating, discussing and accepting proposals
 
 Each proposal is unique and might deviate slightly from the process below.
