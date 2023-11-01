@@ -42,7 +42,7 @@ We will host 21 local meetups happening across 16 countries and 4 continents. Be
 | 9 | Germany, Munich | Oct.9 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-munich-presents-cncf-cloud-native-sustainability-week-munich/) | Antonio Di Turi, Max Körbächer |
 | 10 | Guatemala | Nov.23 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-guatemala-presents-sustainability-week-cloud-native-guatemala/) | Sergio Méndez, Jefferson Molina |
 | 11 | India, Bangalore | Oct.14 | [Link](https://www.meetup.com/kubernetes-india-meetup/events/296353271/) | Nancy Chauhan, Prakash Mishra, Humble Devassy Chirammal |
-| 12 | India, Chennai | *tbd* | *tbd* | Manikandan |
+| 12 | India, Chennai | Nov.5 | [Link](https://community.cncf.io/events/details/cncf-chennai-presents-cloud-native-sustainability-week/) | Manikandan, Vinothini, Vijayabharathi |
 | 13 | Italy, Milan | Oct.9 | [Link](https://www.meetup.com/mia-platform-cultura-innovazione-team/events/296124350/) | Michel Murabito, Federica Leonino |
 | 14 | Korea, Seoul | Oct.13 | [Link](https://festa.io/events/3916) | Seokho Son, Hoon Jo |
 | 15 | Luxembourg, Luxembourg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-luxembourg-presents-cncf-cloud-native-sustainability-week/) | Stéphane Este-Gracias (@sestegra) |
