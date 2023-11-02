@@ -42,12 +42,14 @@ Any individual who is a member of the TAG ENV, it's working group's, or otherwis
 
 The process of endorsing and selecting individuals will consider the following factors to ensure both the need for proper community representation and the necessary technical expertise:
 
-* Gender diversity
-* Company diversity
-* Geo diversity
-* Number of nominations from different companies, people, regions for a single individual
+* Active engagement in the community
+* Length of engagement in the community
 * Existing body of work
 * Justification provided during nomination
+* Geo diversity
+* Gender diversity
+* Company diversity
+* Number of nominations from different companies, people, regions for a single individual
 
 In case there are no individuals expressing interest in taking up leadership positions, an evaluation process for the TAG / working group or project archival may be initiated, as [outlined by the TOC](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md#retirement).
 
@@ -86,7 +88,6 @@ If a given nominee does not meet all the requirements, the TAG leadership will s
 
 * Be the author of at least one pull request against the TAG ENV repository
 * Be active in the community within the last 3 months before their nomination
-  * Active - Attending at least 1 TAG ENV Regular Meeting a month
   * Engaging in community chat via Slack or lists
   * Commenting on PRs and issues to drive suggestions to proposals, define scope, resolve clarity issues, etc.
 * Agree to the nomination
