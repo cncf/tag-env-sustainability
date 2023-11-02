@@ -11,24 +11,24 @@ The election process for Working Group and Project leadership is more lightweigh
 
 - [TAG Leadership election process](#tag-leadership-election-process)
   - [TAG Chair and TL election process](#tag-chair-and-tl-election-process)
-    - [Process of nominations](#process-of-nominations)
-      - [Community timeline](#community-timeline)
-      - [Submitting a nomination](#submitting-a-nomination)
+    - [Process of nominations for TAG Chair and TL](#process-of-nominations-for-tag-chair-and-tl)
+      - [Community timeline for electing TAG Chair and TL](#community-timeline-for-electing-tag-chair-and-tl)
+      - [Submitting a nomination for TAG Chair and TL](#submitting-a-nomination-for-tag-chair-and-tl)
       - [Additional note about the TAG Chair proposal process](#additional-note-about-the-tag-chair-proposal-process)
     - [General nomination requirements](#general-nomination-requirements)
       - [Justification for nominees](#justification-for-nominees)
     - [Announcing nomination results](#announcing-nomination-results)
     - [Next Steps](#next-steps)
   - [Working Group and Project Leadership](#working-group-and-project-leadership)
-    - [Process of nominations](#process-of-nominations-1)
-      - [Community timeline](#community-timeline-1)
-      - [Submitting a nomination](#submitting-a-nomination-1)
+    - [Process of nominations for Working Group and Project Leads](#process-of-nominations-for-working-group-and-project-leads)
+      - [Community timeline for electing Working Group and Project Leads](#community-timeline-for-electing-working-group-and-project-leads)
+      - [Submitting a nomination for Working Group and Project Leads](#submitting-a-nomination-for-working-group-and-project-leads)
 
 ## TAG Chair and TL election process
 
-### Process of nominations
+### Process of nominations for TAG Chair and TL
 
-TAG Lead roles are open to all interested participants within the community. 
+TAG Lead roles are open to all interested participants within the community.
 Depending on the needs of the community, as determined by the current TAG leadership team (Chairs and TLs), nominations may come from working group co-chairs, TAG co-chairs and/or tech leads and/or other community members. Each TAG is expected to define this for themselves.
 
 The TAG ENV leadership team is conducted of:
@@ -51,7 +51,7 @@ The process of endorsing and selecting individuals will consider the following f
 
 In case there are no individuals expressing interest in taking up leadership positions, an evaluation process for the TAG / working group or project archival may be initiated, as [outlined by the TOC](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md#retirement).
 
-#### Community timeline
+#### Community timeline for electing TAG Chair and TL
 
 Community nominations will run for at least 1 month, with a maximum up to 2 months.
 
@@ -61,9 +61,9 @@ Community nominations will run for at least 1 month, with a maximum up to 2 mont
 
 Upon close of nominations, a decision should be made within the next month.
 
-#### Submitting a nomination
+#### Submitting a nomination for TAG Chair and TL
 
-Nominations are to be submitted to [TAG Co-Chair's email alias](mailto:cncf-tag-env-sus-chairs@lists.cncf.io) with the details: 
+Nominations are to be submitted to [TAG Co-Chair's email alias](mailto:cncf-tag-env-sus-chairs@lists.cncf.io) with the details:
 
 * Subject `"NOMINATION $(TAG Chair, TAG TL, WG XYZ Chair): $NAME-OF-NOMINEE"`
 * CC the nominee
@@ -118,10 +118,10 @@ If the role under nomination requires TOC approval or vote, the TAG Co-chairs ar
 
 Working group and project leads are appointed by the TAG Chairs through the following process.
 
-### Process of nominations
+### Process of nominations for Working Group and Project Leads
 
-TAG Lead roles are open to all interested participants within the community. 
-There are currently no limits of leadership roles for working groups or projects if not specifed otherwise in the WG / project charter document. 
+TAG Lead roles are open to all interested participants within the community.
+There are currently no limits of leadership roles for working groups or projects if not specifed otherwise in the WG / project charter document.
 
 The process of endorsing and selecting individuals will consider the following factors to ensure both the need for proper community representation and the necessary technical expertise:
 
@@ -134,13 +134,13 @@ The process of endorsing and selecting individuals will consider the following f
 
 In case there are no individuals expressing interest in taking up leadership positions, an evaluation process for the working group or project archival may be initiated, as [working group archival process](project-formation.md).
 
-#### Community timeline
+#### Community timeline for electing Working Group and Project Leads
 
 Community nominations will run for at least 2 weeks, with a maximum up to 1 months.
 The TAG Chairs will take a vote.
 Upon close of nominations, a decision should be made within the next month.
 
-#### Submitting a nomination
+#### Submitting a nomination for Working Group and Project Leads
 
 One of the TAG Leads will open an issue to initiate the nomination process.
 Anyone interested can add a comment to the issue to clearly show interest.
