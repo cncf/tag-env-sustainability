@@ -23,6 +23,6 @@ Environmentally Sustainable AI via Power-Aware Batch Scheduling - Atanas Atanaso
 
 [Sponsored Keynote: Reduce, Reuse, Recycle - Nathan Taber, Head of Product, Kubernetes, Amazon Web Services](https://sched.co/1R4fu)
 
-[Kube-Costbusters: Optimizing Kubernetes Clusters for Efficiency and Epic Savings! - Rachel Leekin & Antoinette Mills, AWS](https://sched.co/1R2r2)
+* [Kube-Costbusters: Optimizing Kubernetes Clusters for Efficiency and Epic Savings! - Rachel Leekin & Antoinette Mills, AWS](https://sched.co/1R2r2)
 
 [Where's Your Money Going? the Beginners Guide to Measuring Kubernetes Costs - Mark Poko & JuanJo Ciarlante, Grafana Labs](https://sched.co/1R2vE)
