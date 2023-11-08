@@ -1,6 +1,8 @@
 # Kubecon NA 2023
 
-## We are looking forward to hearing your perspectives and welcome everyone who wants to contribute to our effort.
+The Cloud Native Computing Foundation’s flagship conference gathers adopters and technologists from leading open source and cloud native communities for the second time in 2023. This time KubeCon+CloudNativeCon event takes place in the windy city of Chicago, USA from 6-9 November, 2023. Both us from the TAG will be delivering a few sessions on-site, and there will be multiple sustainability-related sessions from other community members that we would like to highlight here!
+
+We are looking forward to hearing your perspectives and welcome everyone who wants to contribute to our efforts in the cloud native sustainability space.
 ## Let’s reduce the environmental of the cloud, data centers and our projects.
 
 # Overview of TAG Environmental Sustainability Talks
