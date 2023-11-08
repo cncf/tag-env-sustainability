@@ -17,7 +17,7 @@ Let’s reduce the environmental sustainability footprint of the cloud, data cen
 
 * [Building Carbon Awareness with KEDA: Taking the First Step Towards Sustainability - Paul Yu, Microsoft](https://kccncna2023.sched.com/event/1TeMO/building-carbon-awareness-with-keda-taking-th[…]lity-paul-yu-microsoft)
 
-Environmentally Sustainable AI via Power-Aware Batch Scheduling - Atanas Atanasov, Intel & Daniel Wilson, Boston University - [Environmentally Sustainable AI via Power-Aware Batch Scheduling](https://kccncna2023.sched.com/event/1R2tJ/environmentally-sustainable-ai-via-power-awar[…]lson-boston-university)
+* [Environmentally Sustainable AI via Power-Aware Batch Scheduling - Atanas Atanasov, Intel & Daniel Wilson, Boston University](https://kccncna2023.sched.com/event/1R2tJ/environmentally-sustainable-ai-via-power-awar[…]lson-boston-university)
 
 
 * [Cutting Climate Costs with Kubernetes and CAPI - Shiva Rezaie & Steve Francis, Sidero Labs](https://sched.co/1R2p6)
