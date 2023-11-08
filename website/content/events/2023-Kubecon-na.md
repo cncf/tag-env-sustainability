@@ -10,7 +10,7 @@ Let’s reduce the environmental sustainability footprint of the cloud, data cen
 
 * [CNCF Environmental Sustainability TAG Updates and Information - Marlow Weston, Intel & Niki Manoledaki, Grafana Labs](https://kccncna2023.sched.com/event/1R2mQ/cncf-environmental-sustainability-tag-updates[…]anoledaki-grafana-labs)
 
-Kepler: Project Update and Deep Dive - Marcelo Amaral & Tatsuhiro Chiba, IBM - [CNCF Environmental Sustainability TAG Updates and Information](https://kccncna2023.sched.com/event/1R2rh/kepler-project-update-and-deep-dive-marcelo-amaral-tatsuhiro-chiba-ibm)
+* [Kepler: Project Update and Deep Dive - Marcelo Amaral & Tatsuhiro Chiba, IBM](https://kccncna2023.sched.com/event/1R2rh/kepler-project-update-and-deep-dive-marcelo-amaral-tatsuhiro-chiba-ibm)
 
 Sustainability and Efficiency: Environmentally-Friendly Software Development with Kube-Green - Davide Bianchi, Mia-Platform - https://kccncna2023.sched.com/event/1R2u2/sustainability-and-efficiency-environmentally[…]e-bianchi-mia-platform
 Building Carbon Awareness with KEDA: Taking the First Step Towards Sustainability - Paul Yu, Microsoft - [Sustainability and Efficiency: Environmentally-Friendly Software Development with Kube-Green](https://kccncna2023.sched.com/event/1TeMO/building-carbon-awareness-with-keda-taking-th[…]lity-paul-yu-microsoft)
