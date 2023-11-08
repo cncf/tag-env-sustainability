@@ -17,7 +17,6 @@ Building Carbon Awareness with KEDA: Taking the First Step Towards Sustainabilit
 
 Environmentally Sustainable AI via Power-Aware Batch Scheduling - Atanas Atanasov, Intel & Daniel Wilson, Boston University - [Environmentally Sustainable AI via Power-Aware Batch Scheduling](https://kccncna2023.sched.com/event/1R2tJ/environmentally-sustainable-ai-via-power-awar[…]lson-boston-university)
 
-## Other Environmental talk 
 
 * [Cutting Climate Costs with Kubernetes and CAPI - Shiva Rezaie & Steve Francis, Sidero Labs](https://sched.co/1R2p6)
 
