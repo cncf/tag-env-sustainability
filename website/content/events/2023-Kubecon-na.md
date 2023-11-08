@@ -20,7 +20,7 @@ Environmentally Sustainable AI via Power-Aware Batch Scheduling - Atanas Atanaso
 
 * [Cutting Climate Costs with Kubernetes and CAPI - Shiva Rezaie & Steve Francis, Sidero Labs](https://sched.co/1R2p6)
 
-[Sponsored Keynote: Reduce, Reuse, Recycle - Nathan Taber, Head of Product, Kubernetes, Amazon Web Services](https://sched.co/1R4fu)
+* [Sponsored Keynote: Reduce, Reuse, Recycle - Nathan Taber, Head of Product, Kubernetes, Amazon Web Services](https://sched.co/1R4fu)
 
 * [Kube-Costbusters: Optimizing Kubernetes Clusters for Efficiency and Epic Savings! - Rachel Leekin & Antoinette Mills, AWS](https://sched.co/1R2r2)
 
