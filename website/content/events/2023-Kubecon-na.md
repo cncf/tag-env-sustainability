@@ -6,7 +6,7 @@ We are looking forward to hearing your perspectives and welcome everyone who wan
 Let’s reduce the environmental sustainability footprint of the cloud, data centers and CNCF projects together.
 
 # Overview of TAG Environmental Sustainability Talks
-Keynote: Environmental Sustainability in the Cloud Is Not a Mythical Creature - Frederick Kautz, TestifySec; Rimma Iontel, Red Hat; Tammy McClellan, Microsoft; Marlow Weston, Intel; Niki Manoledaki, Grafana Labs - [Environmental Sustainability in the Cloud Is Not a Mythical Creature](https://kccncna2023.sched.com/event/1R4Tl/keynote-environmental-sustainability-in-the-c[…]anoledaki-grafana-labs)
+* [Keynote: Environmental Sustainability in the Cloud Is Not a Mythical Creature - Frederick Kautz, TestifySec; Rimma Iontel, Red Hat; Tammy McClellan, Microsoft; Marlow Weston, Intel; Niki Manoledaki, Grafana Labs](https://kccncna2023.sched.com/event/1R4Tl/keynote-environmental-sustainability-in-the-c[…]anoledaki-grafana-labs)
 
 CNCF Environmental Sustainability TAG Updates and Information - Marlow Weston, Intel & Niki Manoledaki, Grafana Labs - https://kccncna2023.sched.com/event/1R2mQ/cncf-environmental-sustainability-tag-updates[…]anoledaki-grafana-labs
 Kepler: Project Update and Deep Dive - Marcelo Amaral & Tatsuhiro Chiba, IBM - [CNCF Environmental Sustainability TAG Updates and Information](https://kccncna2023.sched.com/event/1R2rh/kepler-project-update-and-deep-dive-marcelo-amaral-tatsuhiro-chiba-ibm)
