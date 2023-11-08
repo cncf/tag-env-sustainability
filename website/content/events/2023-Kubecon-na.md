@@ -14,7 +14,7 @@ Let’s reduce the environmental sustainability footprint of the cloud, data cen
 
 * [Sustainability and Efficiency: Environmentally-Friendly Software Development with Kube-Green - Davide Bianchi, Mia-Platform](https://kccncna2023.sched.com/event/1R2u2/sustainability-and-efficiency-environmentally[…]e-bianchi-mia-platform)
 
-Building Carbon Awareness with KEDA: Taking the First Step Towards Sustainability - Paul Yu, Microsoft - [Sustainability and Efficiency: Environmentally-Friendly Software Development with Kube-Green](https://kccncna2023.sched.com/event/1TeMO/building-carbon-awareness-with-keda-taking-th[…]lity-paul-yu-microsoft)
+* [Building Carbon Awareness with KEDA: Taking the First Step Towards Sustainability - Paul Yu, Microsoft](https://kccncna2023.sched.com/event/1TeMO/building-carbon-awareness-with-keda-taking-th[…]lity-paul-yu-microsoft)
 
 Environmentally Sustainable AI via Power-Aware Batch Scheduling - Atanas Atanasov, Intel & Daniel Wilson, Boston University - [Environmentally Sustainable AI via Power-Aware Batch Scheduling](https://kccncna2023.sched.com/event/1R2tJ/environmentally-sustainable-ai-via-power-awar[…]lson-boston-university)
 
