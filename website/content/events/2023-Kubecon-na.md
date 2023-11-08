@@ -25,4 +25,4 @@ Environmentally Sustainable AI via Power-Aware Batch Scheduling - Atanas Atanaso
 
 * [Kube-Costbusters: Optimizing Kubernetes Clusters for Efficiency and Epic Savings! - Rachel Leekin & Antoinette Mills, AWS](https://sched.co/1R2r2)
 
-[Where's Your Money Going? the Beginners Guide to Measuring Kubernetes Costs - Mark Poko & JuanJo Ciarlante, Grafana Labs](https://sched.co/1R2vE)
+* [Where's Your Money Going? the Beginners Guide to Measuring Kubernetes Costs - Mark Poko & JuanJo Ciarlante, Grafana Labs](https://sched.co/1R2vE)
