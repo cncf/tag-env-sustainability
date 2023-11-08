@@ -24,7 +24,6 @@ Let’s reduce the environmental sustainability footprint of the cloud, data cen
 
 * [Environmentally Sustainable AI via Power-Aware Batch Scheduling - Atanas Atanasov, Intel & Daniel Wilson, Boston University](https://kccncna2023.sched.com/event/1R2tJ/environmentally-sustainable-ai-via-power-awar[…]lson-boston-university)
 
-
 * [Cutting Climate Costs with Kubernetes and CAPI - Shiva Rezaie & Steve Francis, Sidero Labs](https://sched.co/1R2p6)
 
 * [Sponsored Keynote: Reduce, Reuse, Recycle - Nathan Taber, Head of Product, Kubernetes, Amazon Web Services](https://sched.co/1R4fu)
