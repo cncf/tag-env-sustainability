@@ -1,35 +1,54 @@
 ---
-name: Check
+name: Quality Checks
 
 on:
   pull_request:
+  workflow_dispatch:
 
 jobs:
-  Setup:
+  check-modified-files:
     runs-on: ubuntu-latest
+    outputs:
+      any_changed: ${{ steps.changed-files.outputs.any_changed }}
+      all_changed_files: ${{ steps.changed-files.outputs.all_changed_files }}
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup
-        run: make setup
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
-  Markdown:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - run: npm run check:markdown
+    - uses: tj-actions/changed-files@v39
+      id: changed-files
+      with:
+        files: '**/*.md'
+        separator: ','
 
-  Spelling:
+  run-quality-checks:
     runs-on: ubuntu-latest
-    needs: Setup
+    needs: check-modified-files
+    if: needs.check-modified-files.outputs.any_changed == 'true'
     steps:
-      - uses: actions/checkout@v3
-      - name: Spelling
-        run: make spelling
+    - name: Lint Markdown files
+      uses: DavidAnson/markdownlint-cli2-action@v13.0.0
+      with:
+        globs: ${{ needs.check-modified-files.outputs.all_changed_files }}
+        separator: ','
+        config: '.markdownlint.jsonc'
+        fix: true
+      continue-on-error: false
 
-  Links:
-    runs-on: ubuntu-latest
-    needs: Setup
-    steps:
-      - uses: actions/checkout@v3
-      - name: Links
-        run: make links
+    - name: Validate spelling
+      uses: streetsidesoftware/cspell-action@v4.0.1
+      with:
+        config: '.'
+        files: '**/*.md'
+        inline: 'error'
+        strict: true        
+        incremental_files_only: true # Limit the files checked to the ones in the pull request or push.
+    
+    - name: Validate links in Markdown files
+      uses: gaurav-nelson/github-action-markdown-link-check@1.0.15
+      with:
+        check-modified-files-only: true
+        config-file: 'link-config.json'
+        base-branch: 'main'
+        file-extension: '.md'
