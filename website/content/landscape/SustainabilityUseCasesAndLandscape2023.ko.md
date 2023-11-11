@@ -366,7 +366,7 @@ flowchart TB
 
 :leafy_green: [2040년까지 탄소중립](https://www.theclimatepledge.com/)을 달성하겠다는 기후 서약
 
-:leafy_green: WeTransfer - [기후 중립을 실현하는 Wetransfer](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)&#x20;
+:leafy_green: WeTransfer - [기후 중립을 실현하는 WeTransfer](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)&#x20;
 
 :leafy_green: Adrian Cockroft, 전 Amazon 지속 가능성 아키텍처 부사장 "[클라우드 컴퓨팅 선구자의 새로운 초점은 지속 가능성 혁신에 있습니다.](https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation)"&#x20;
 
