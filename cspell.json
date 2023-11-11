@@ -37,7 +37,7 @@
     "ignoreWords": [],
     "ignoreRegExpList": [
         "code",
-        "markdown-links"
+        "links"
     ],
     "patterns": [
         {
@@ -55,6 +55,14 @@
         {
             "name": "markdown-links",
             "pattern": "/!?\\[([^\\]]*)\\]\\(([^\\)]+)\\)/g"
+        },
+        {
+            "name": "html-links",
+            "pattern": "/<a\\s+(?:[^>]*?\\s+)?href=\"[^\"]*\".*<\/a>/g"
+        },
+        {
+            "name": "links",
+            "pattern": ["markdown-links", "html-links"]
         }
     ]
 }
