@@ -2,7 +2,7 @@
     "version": "0.2",
     "language": "en",
     "caseSensitive": false,
-    "dictionaries": ["en_US", "en-gb", "companies", "softwareTerms", "misc", "filetypes", "tag"],
+    "dictionaries": ["en_US", "en-gb", "companies", "softwareTerms", "misc", "filetypes", "tag", "html"],
     "ignorePaths": [],
     "dictionaryDefinitions": [
         { "name": "tag", "path": "./tag-custom-dictionary-cspell.txt"}
