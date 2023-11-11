@@ -87,7 +87,7 @@ It is important to present the working group proposal during TAG meetings and be
 
 ## Nominated as Tech Lead
 
-To serve in the role as Tech Lead, you have to go through the [tech lead proposal process](https://github.com/cncf/tag-env-sustainability/blob/main/governance/tech-lead-proposal-process.md).
+To serve in the role as Tech Lead, you have to go through the [tech lead proposal process](https://github.com/cncf/tag-env-sustainability/blob/main/governance/lead-proposal-process.md#tag-leadership-election-process).
 Assuming the role of a technical lead within the Environmental Sustainability TAG places greater responsibilities on your shoulders as part of the leadership team.
 This roles provides you with the opportunity to actively support the leadership team by taking charge of a specific topic within the TAG.
 As an elected Tech Lead and a member of the leadership team, you will have the chance to delve into the broader aspects of leading the community group, gaining insights into the organizational structures within the CNCF.
@@ -100,7 +100,7 @@ Your position as a technical lead allows you to contribute significantly to the 
 
 ## Nominated as Co-Chair
 
-To serve in the role of Co-Chair, you have to go through the [chair proposal process](https://github.com/cncf/tag-env-sustainability/blob/main/governance/chair-proposal-process.md).
+To serve in the role of Co-Chair, you have to go through the [chair proposal process](lead-proposal-process.md).
 With your appointment as Co-Chair of TAG for Environmental Sustainability, you assume a key leadership position within the Group.
 Your will steer and evolve the community to achieve its goals and targets.
 You coordinate between the TAG and the CNCF Technical Oversight Committee (TOC) and the overall CNCF ecosystem, ensuring effective communication and alignment of efforts.

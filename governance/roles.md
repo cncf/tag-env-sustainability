@@ -63,7 +63,7 @@ The general list of activities for TL are:
 * Resolve cross-sub-project technical issues and decisions
 * Propose agenda items for meetings to ensure that open issues are discussed with the group when needed
 
-[Environmental Sustainability TAG TL nomination process](tech-lead-proposal-process.md)
+[Environmental Sustainability TAG TL nomination process](lead-proposal-process.md)
 
 ## Working Group Leads
 

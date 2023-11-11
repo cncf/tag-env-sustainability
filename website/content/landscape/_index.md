@@ -256,7 +256,7 @@ flowchart TB
 
 #### Smart Data Centers
 
-* ECO-Qube is a holistic management system that aims to enhance energy efficiency and cooling performance by orchestrating both hardware and software components in edge computing applications [ECO-Qube](https://eco-qube.eu/)
+* ECO-Qube is a holistic management system that aims to enhance energy efficiency and cooling performance by orchestrating both hardware and software components in edge computing applications [ECO-Qube](https://www.ecoqube.org)
 * [Patchwork Kilt](https://openuk.uk/patchworkkilt/) - A blueprint for sustainable data centers.
 * [Open Compute Sustainability Project](https://www.opencompute.org/projects/sustainability) - Leveraging the expertise of the OCP community, we offer an open framework and resources for OCP members and data center industry – vendors, suppliers, and end users - to deploy industry best practices that promotes reusability and circularity.
 

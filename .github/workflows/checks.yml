@@ -43,7 +43,7 @@ jobs:
     - name: Validate spelling
       uses: streetsidesoftware/cspell-action@v4.0.1
       with:
-        config: '.'
+        config: 'cspell.json'
         files: '**/*.md'
         inline: 'error'
         strict: true        
@@ -52,7 +52,7 @@ jobs:
     - name: Validate links in Markdown files
       uses: gaurav-nelson/github-action-markdown-link-check@1.0.15
       with:
-        check-modified-files-only: true
+        check-modified-files-only: 'yes'
         config-file: 'link-config.json'
         base-branch: 'main'
         file-extension: '.md'

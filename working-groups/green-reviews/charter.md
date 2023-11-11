@@ -46,7 +46,7 @@ Green Reviews Working Group empowers the CNCF Environmental Sustainability TAG t
 
 ## Working Group Archival
 
-Guidelines for the working group archival are outlined as part of the TAG's governance documentation: [Environmental Sustainability TAG Working Group Archival Process](https://github.com/cncf/tag-env-sustainability/blob/main/governance/working-group-archival-process.md#working-group-archival-process-guidelines).
+Guidelines for the working group archival are outlined as part of the TAG's governance documentation: [Environmental Sustainability TAG Working Group or Project Archival Process](https://github.com/cncf/tag-env-sustainability/blob/main/governance/project-formation.md#working-group-or-project-archival).
 
 [^1]: See [Deliverables](#deliverables) for how this will be achieved.
 

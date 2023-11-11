@@ -8,7 +8,7 @@ See the working group charter here: <https://github.com/cncf/tag-env-sustainabil
 
 ## Chairs
 
-The working group currently has 2 chairs serving a term of 6 months and as long as at least 1 of the chairs is able to maintain continuity. The working group inherits and follows the CNCF TAG Environmental Sustainability Working Group Chair [nomination process](https://github.com/cncf/tag-env-sustainability/blob/main/governance/working-group-chair-proposal-process.md#process-of-nominations).
+The working group currently has 2 chairs serving a term of 6 months and as long as at least 1 of the chairs is able to maintain continuity. The working group inherits and follows the CNCF TAG Environmental Sustainability Working Group Chair [nomination process](https://github.com/cncf/tag-env-sustainability/blob/main/governance/lead-proposal-process.md#process-of-nominations-for-working-group-and-project-leads).
 
 The following individuals are currently the working group chairs:
 
