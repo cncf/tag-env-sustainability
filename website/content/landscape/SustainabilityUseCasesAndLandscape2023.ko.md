@@ -27,9 +27,9 @@ toc_hide: true
 - [현재 지속 가능한 클라우드 컴퓨팅 환경](#current-sustainable-cloud-computing-landscape)
 - [지속 가능성 관련 활동](#sustainability-initiatives)
 
-<!-- markdown-link-check-enable -->
-
 ## 기여자   <a href="#contributors" id="contributors"></a>
+
+<!-- markdown-link-check-enable -->
 
 이 문서에 기여해주신 분들께 특별히 감사드립니다. 콘텐츠를 개선하고 강화하는 데 관심이 있으신 분은 저장소에 PR을 제출하고 아래에서 자신을 기여자로 추가해 주세요!
 
@@ -56,10 +56,12 @@ Huamin Chen, [Marlow Weston](https://github.com/catblade), [Niki Manoledaki](htt
 
 탄소 및 에너지 회계는 탄소 및 에너지 소비를 추적하고 설명하기 위한 시스템, 서비스 및 방법론을 말합니다.
 
+<!-- markdown-link-check-disable-next-line -->
 ## 지속 가능한 클라우드 시스템 구축의 과제  <a href="#challenges-of-sustainable-cloud-systems" id="challenges-of-sustainable-cloud-systems"></a>
 
 그린 컴퓨팅과 탄소 및 에너지 회계는 다양한 산업 분야에서 관심을 갖고 빠르게 발전하는 분야로, 지속 가능한 클라우드 시스템의 구축 및 유지 관리와 관련된 과제는 여전히 밝혀지고 있습니다. 이러한 기술의 도입과 성숙도가 높아짐에 따라 더 많은 과제와 해결책이 발견될 것으로 예상됩니다. 그러나 아래 섹션에서는 두 기반 전반에 걸쳐 현재 직면한 과제를 파악하려고 합니다. 탄소 회계에 널리 사용되는 표준은 [온실가스 프로토콜(](https://ghgprotocol.org/)약칭: 온실가스 프로토콜, GHGP)입니다.
 
+<!-- markdown-link-check-disable-next-line -->
 ## 탄소/에너지 회계의 어려움 <a href="#challenges-of-carbonenergy-accounting" id="challenges-of-carbonenergy-accounting"></a>
 
 ### 운영 탄소 배출량 정량화
@@ -115,6 +117,7 @@ AWS, Azure, GCP와 같은 퍼블릭 클라우드 제공업체는 사용자가 �
 
 위에서 파악한 과제 외에도 인공 지능(AI) 및 머신 러닝(ML) 워크로드는 클라우드 서비스 제공업체에서 스케줄링 가능한 컴퓨팅으로 존재하거나 베어메탈 환경 내에 존재합니다. 두 경우 모두 AI/Ml 클러스터에는 XPU 또는 가속기의 복잡성이 추가되는 경우가 많습니다. 이러한 가속기는 실행하는 데 상당한 양의 전력이 필요하며, 일반 컴퓨터 칩보다 훨씬 더 많은 전력을 필요로 합니다. 또한 이러한 클러스터의 일부 워크로드(예: 정보 집합 학습, training sets of information)는 시간에 민감하지 않은 반면, 인식 시스템의 추론 작업(inference jobs for recognition systems)과 같이 시간에 민감한 워크로드도 있습니다.
 
+<!-- markdown-link-check-disable-next-line -->
 ## 솔루션 계층  <a href="#layers-of-the-solutions" id="layers-of-the-solutions"></a>
 
 지속 가능한 클라우드 시스템의 세 가지 토대를 보완하는 솔루션을 고려할 때 고려해야 할 사항을 세 가지 일반적인 영역으로 나눌 수 있습니다:
@@ -127,6 +130,7 @@ AWS, Azure, GCP와 같은 퍼블릭 클라우드 제공업체는 사용자가 �
 
 <table><thead><tr><th width="166">범위</th><th width="417.3333333333333">목표</th><th>필요 요건</th></tr></thead><tbody><tr><td>멀티 데이터 센터</td><td>해당 지역의 재생 에너지 사용 여부, 해당 지역의 한계 배출량, 전력 사용 효율성(PUE, Power Usage Effectiveness), 시간대 등과 같은 환경적 요인에 따라 예약할 데이터 센터를 지능적으로 선택</td><td>클러스터 관리</td></tr><tr><td>데이터 센터</td><td>워크로드의 가용성,긴급성에 따라 효율적으로 스케줄링</td><td>전원 관리, K8S 스케줄러 플러그인</td></tr><tr><td>노드</td><td>리소스 소비를 최소화하면서 워크로드 사양(성능 매개변수 포함)을 처리할 수 있도록 리소스 최적화</td><td>노드 튜닝, 파드 스케일링</td></tr></tbody></table>
 
+<!-- markdown-link-check-disable-next-line -->
 ## 현재 업계 연구 및 개발  <a href="#current-industry-research-and-development" id="current-industry-research-and-development"></a>
 
 지속 가능한 컴퓨팅 분야에는 수많은 개발과 연구가 진행 중입니다. 여기에 소개되지 않은 것을 알고 계신다면 기고해 주시면 감사하겠습니다!
@@ -149,6 +153,7 @@ AWS, Azure, GCP와 같은 퍼블릭 클라우드 제공업체는 사용자가 �
 
 반면, 유휴 전력 및 데이터센터 냉각 등은 환경 친화적인 아키택처로 에너지 낭비의 근본 원인을 해결하는 것으로 평가됩니다. 예를 들어, 페더레이션 학습은 값비싼 냉각이 필요하지 않은 기기에 모델 학습을 확산하여 탄소 발자국을 총체적으로 줄이는 것으로 [평가](https://www.cam.ac.uk/research/news/can-federated-learning-save-the-world)됩니다.
 
+<!-- markdown-link-check-disable-next-line -->
 ## 현재 지속 가능한 클라우드 컴퓨팅 환경  <a href="#current-sustainable-cloud-computing-landscape" id="current-sustainable-cloud-computing-landscape"></a>
 
 아래 다이어그램은 지속 가능한 클라우드 컴퓨팅 환경의 차원을 보여주며, 다음 섹션에서 자세히 설명합니다.
@@ -329,6 +334,7 @@ flowchart TB
 * :musical_note: [GEOPM](https://github.com/geopm/geopm) - [확장형 전원 관리자](https://geopm.github.io/)\
   처음에는 HPC 환경에 특화되어 있었지만 현재는 보다 일반화된 GEOPM(Global Extensible Open Power Manager)은 이기종 플랫폼에서 전력 및 에너지 최적화를 탐색하기 위한 프레임워크입니다. GEOPM 소프트웨어는 두 가지 패키지로 나뉩니다: GEOPM 서비스와 GEOPM 런타임입니다. GEOPM 서비스는 저수준 하드웨어 메트릭 및 구성 노브에 대한 사용자 공간 액세스를 제공합니다. GEOPM 런타임은 하드웨어 메트릭 및 애플리케이션 피드백에 반응하여 하드웨어 설정을 조정하기 위해 GEOPM 서비스를 활용합니다. 애플리케이션 피드백은 미들웨어 패키지에 콜백으로 삽입된 경량 비동기 프로파일링 후크를 통해 수집됩니다. GEOPM 런타임에는 최적화 알고리즘을 선택할 수 있는 플러그인 아키텍처가 있습니다. 기본 제공 알고리즘 중 일부는 에너지 효율성을 목표로 하고, 다른 알고리즘은 전력 제한 내에서 성능을 최적화합니다. GEOPM을 Kubernetes로 포팅하는 작업은 현재 진행 중입니다. 클라우드(cloud)라는 [실험 브랜치](https://github.com/geopm/geopm/tree/cloud#experimental-branch)에는 Kubernetes를 지원하는 새로운 기능이 구현되어 있습니다. 이러한 기능은 각각 프로덕션 준비가 되면 메인 개발 브랜치로 마이그레이션될 예정입니다. 추가 설명서는 서비스 [readme](https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support) 파일과 [런타임 k8 디렉터리](https://github.com/geopm/geopm/tree/cloud/k8)에서 찾을 수 있습니다.
 
+<!-- markdown-link-check-disable-next-line -->
 ## 지속 가능성 관련 활동  <a href="#sustainability-initiatives" id="sustainability-initiatives"></a>
 
 여러 가지 지속 가능성 활동이 진행 중이며, 누락된 항목이 있다면 PR을 제출하여 이 목록이 업데이트 될 수 있도록 도와주세요.

@@ -12,8 +12,16 @@
       "replacement": "{{BASEURL}}/"
     },
     {
-      "pattern": "^file:\/\/\/github\/workspace/",
-      "replacement": "{{BASEURL}}/"
+      "pattern": "^/images/",
+      "replacement": "{{BASEURL}}/images/"
+    },
+    {
+      "pattern": "^/landscape/",
+      "replacement": "{{BASEURL}}/landscape/"
+    },
+    {
+      "pattern": "^/landscape-ko/",
+      "replacement": "{{BASEURL}}/landscape-ko/"
     }
   ],
   "httpHeaders": [
