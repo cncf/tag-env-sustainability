@@ -3,10 +3,10 @@
   "fallbackRetryDelay": "5s",
   "ignorePatterns": [
     {
-      "pattern": "^https://(twitter|linkedin)"
+      "pattern": "^(http|https):\/\/(www\\.)?(linkedin|twitter)"
     },
     {
-      "pattern": "^file:///github/workspace/(images|landscape|landscape-ko)/"
+      "pattern": "^file:\/\/\/github\/workspace\/(images|landscape|landscape-ko)\/"
     }
   ],
   "replacementPatterns": [
