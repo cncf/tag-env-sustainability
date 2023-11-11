@@ -1,8 +1,11 @@
 {
     "version": "0.2",
     "language": "en",
-    "dictionaries": ["en_US", "companies", "softwareTerms", "misc", "filetypes"],
+    "dictionaries": ["en_US", "en-gb", "companies", "softwareTerms", "misc", "filetypes", "tag"],
     "ignorePaths": [],
+    "dictionaryDefinitions": [
+        { "name": "tag", "path": "./tag-custom-dictionary-cspell.txt"}
+    ],
     "words": [
         "CNCF",
         "K8s",
