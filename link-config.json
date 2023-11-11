@@ -6,7 +6,7 @@
       "pattern": "^(http|https):\/\/(www\\.)?(linkedin|twitter)"
     },
     {
-      "pattern": "^file:\/\/\/github\/workspace\/(images|landscape|landscape-ko)\/"
+      "pattern": "^file:\/\/\/github\/workspace\/(images|landscape|landscape-ko)\/.*"
     }
   ],
   "replacementPatterns": [

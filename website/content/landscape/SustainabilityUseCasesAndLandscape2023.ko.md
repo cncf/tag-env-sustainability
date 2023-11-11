@@ -17,7 +17,7 @@ toc_hide: true
 
 ## 목차
 
-<!-- markdown-link-check-enable-->
+<!-- markdown-link-check-disable-->
 - [기여자](#contributors)
 - [지속 가능한 클라우드 시스템의 기초](#foundations-of-sustainable-cloud-systems)
 - [지속 가능한 클라우드 시스템 구축의 과제](#challenges-of-sustainable-cloud-systems)
@@ -26,7 +26,7 @@ toc_hide: true
 - [현재 업계 연구 및 개발](#current-industry-research-and-development)
 - [현재 지속 가능한 클라우드 컴퓨팅 환경](#current-sustainable-cloud-computing-landscape)
 - [지속 가능성 관련 활동](#sustainability-initiatives)
-<!-- markdown-link-check-disable-->
+<!-- markdown-link-check-enable-->
 
 ## 기여자   <a href="#contributors" id="contributors"></a>
 
@@ -305,9 +305,9 @@ flowchart TB
 * :train: [인텐트 중심 오케스트레이션](https://github.com/intel/intent-driven-orchestration) \
   이는 워크로드 배치를 선택하기 위해 명령형 모델에서 인텐트 중심 모델로 이동하여 오케스트레이션을 수행하는 새로운 방법을 제공합니다. 이 모델에서는 사용자가 목표(예: 필요한 지연 시간, 처리량 또는 안정성 목표)의 형태로 의도를 표현하고, 오케스트레이션 스택 자체가 목표를 달성하는 데 필요한 인프라의 리소스를 결정합니다. 이 새로운 접근 방식은 스케줄링(워크로드를 배치할 시기와 위치 결정)에 대한 커뮤니티의 투자를 계속 활용할 수 있으며, 시스템에서 무엇을 어떻게 구성할지 결정하는 지속적인 실행 계획 루프를 통해 보강될 것입니다. 전력 최적 사용 환경에서 이를 활용하기 위한 예비 작업이 이미 진행 중입니다.
 
-:green_book: 탄소 감지 쿠버네티스 스케줄러 - [저탄소 쿠버네티스 스케줄러](https://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
-
-:green_book: 에너지 인지 스케줄링 \[백서] [Kubernetes의 전체적인 스케줄링을 통한 데이터센터 효율성 향상](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
+* :green_book: 탄소 감지 쿠버네티스 스케줄러 - [저탄소 쿠버네티스 스케줄러](https://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
+<!-- markdown-link-check-disable-next-line -->
+* :green_book: 에너지 인지 스케줄링 \[백서] [Kubernetes의 전체적인 스케줄링을 통한 데이터센터 효율성 향상](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
 
 ### 스케일링
 
