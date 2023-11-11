@@ -36,7 +36,8 @@
     ],
     "ignoreWords": [],
     "ignoreRegExpList": [
-        "code"
+        "code",
+        "markdown-links"
     ],
     "patterns": [
         {
@@ -50,6 +51,10 @@
         {
             "name": "code",
             "pattern": ["code-block-single-line", "code-block-multi-line"]
+        },
+        {
+            "name": "markdown-links",
+            "pattern": "/!?\\[([^\\]]*)\\]\\(([^\\)]+)\\)/g"
         }
     ]
 }
