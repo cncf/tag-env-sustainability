@@ -1,6 +1,7 @@
 {
     "version": "0.2",
     "language": "en",
+    "caseSensitive": false,
     "dictionaries": ["en_US", "en-gb", "companies", "softwareTerms", "misc", "filetypes", "tag"],
     "ignorePaths": [],
     "dictionaryDefinitions": [
@@ -33,5 +34,6 @@
         "coefficiency",
         "SIEC"
     ],
-    "ignoreWords": []
+    "ignoreWords": [],
+    "ignoreRegExpList": ["Email", "Urls"]
 }
