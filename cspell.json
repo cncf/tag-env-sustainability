@@ -35,5 +35,21 @@
         "SIEC"
     ],
     "ignoreWords": [],
-    "ignoreRegExpList": ["Email", "Urls"]
+    "ignoreRegExpList": [
+        "code"
+    ],
+    "patterns": [
+        {
+            "name": "code-block-multi-line",
+            "pattern": "/^```(.*)\n([\\s\\S]*?)```$/g"
+        },
+        {
+            "name": "code-block-single-line",
+            "pattern": "/```(.*)([\\s\\S]*?)```/g"
+        },
+        {
+            "name": "code",
+            "pattern": ["code-block-single-line", "code-block-multi-line"]
+        }
+    ]
 }

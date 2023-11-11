@@ -135,7 +135,7 @@ The SW/HW interaction should be well-understood for power modeling.
 and the usage of bounce buffer/SWIOTLB might cost more energy. However, the confidential workload is hard to be observed due to
 security concerns.
 
-Quantifying embedded carbon emissions is also very challenging as manufactural details (embodied emissions) are not being incorporated into information for holistic quantification by consumers of manufactured technology.
+Quantifying embedded carbon emissions is also very challenging as manufacturing details (embodied emissions) are not being incorporated into information for holistic quantification by consumers of manufactured technology.
 This is out of the scope of this white paper, however this TAG encourages interested readers to suggest guidance, best practices, methods, and mechanisms to quantify these emissions by filing an issue or pull request on our [repository](https://github.com/cncf/tag-env-sustainability).
 <!-- We may want to put some directions though // +1, would this be guidance/best practice on methods to quantify these emissions or guidance on methods to mitigate these emissions? -->
 
@@ -151,7 +151,7 @@ This is likely due in part to the shared responsibility model upon which cloud c
 <!--- this statement needs reference: They do not trust their users, as users vary from amateur to experienced. --->
 Additionally, the quantification challenges previously identified also contribute heavily to further difficulties in accounting for carbon costs by specific users, as the carbon accounting can take much longer than users have to connect to individual types of jobs.
 The hyperscalers mentioned above offer insight into the carbon emissions of cloud resources through carbon dashboards or APIs.
-Yet, these can be quite limited and/or have a considerable time lag for the carbon emission data to become available within an acceptable timewindow for users to take action on.
+Yet, these can be quite limited and/or have a considerable time lag for the carbon emission data to become available within an acceptable time window for users to take action on.
 In addition, the methodologies used to calculate carbon emissions can vary between cloud providers, reducing a user's ability to compare between providers.
 How this information is measured or estimated is often obtuse, inconsistent, and without industry consensus.
 As with most emerging technology areas, the variance in underlying implementations will continue until industry centers around a collective schema or framework for both measuring and expressing those measurements.
@@ -230,7 +230,7 @@ At runtime, energy consumed by workloads can be reduced at HW level through DVFS
 
 Green HW/SW systems either improve sub-system efficiency or change the way that computation is conducted.
 
-For instance, programs written in [energy efficient langugages](https://haslab.github.io/SAFER/scp21.pdf) or running on more [optimized runtimes](https://hal.inria.fr/hal-03275286/document) are generally "greener".
+For instance, programs written in [energy efficient languages](https://haslab.github.io/SAFER/scp21.pdf) or running on more [optimized runtimes](https://hal.inria.fr/hal-03275286/document) are generally "greener".
 
 On the other hand, architectures that address the root cause of energy waste, including idle power and data center cooling, are evaluated to be more environmentally friendly.
 For instance, Federated Learning spreads model training to devices that do not require expensive cooling is [evaluated](https://www.cam.ac.uk/research/news/can-federated-learning-save-the-world) to reduce carbon footprint in aggregate.
