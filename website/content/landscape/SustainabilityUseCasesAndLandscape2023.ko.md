@@ -17,6 +17,7 @@ toc_hide: true
 
 ## 목차
 
+<!-- markdown-link-check-enable-->
 - [기여자](#contributors)
 - [지속 가능한 클라우드 시스템의 기초](#foundations-of-sustainable-cloud-systems)
 - [지속 가능한 클라우드 시스템 구축의 과제](#challenges-of-sustainable-cloud-systems)
@@ -25,6 +26,7 @@ toc_hide: true
 - [현재 업계 연구 및 개발](#current-industry-research-and-development)
 - [현재 지속 가능한 클라우드 컴퓨팅 환경](#current-sustainable-cloud-computing-landscape)
 - [지속 가능성 관련 활동](#sustainability-initiatives)
+<!-- markdown-link-check-disable-->
 
 ## 기여자   <a href="#contributors" id="contributors"></a>
 
