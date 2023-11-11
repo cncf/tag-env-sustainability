@@ -27,12 +27,16 @@ jobs:
     needs: check-modified-files
     if: needs.check-modified-files.outputs.any_changed == 'true'
     steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
     - name: Lint Markdown files
       uses: DavidAnson/markdownlint-cli2-action@v13.0.0
       with:
         globs: ${{ needs.check-modified-files.outputs.all_changed_files }}
         separator: ','
-        config: './.markdownlint.json' 
+        config: '.markdownlint.json' 
         fix: true
       continue-on-error: false
 
@@ -49,6 +53,6 @@ jobs:
       uses: gaurav-nelson/github-action-markdown-link-check@1.0.15
       with:
         check-modified-files-only: true
-        config-file: './link-config.json'
+        config-file: 'link-config.json'
         base-branch: 'main'
         file-extension: '.md'
