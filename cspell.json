@@ -1,6 +1,7 @@
 {
     "version": "0.2",
     "language": "en",
+    "dictionaries": ["en_US", "companies", "softwareTerms", "misc", "filetypes"],
     "ignorePaths": [],
     "words": [
         "CNCF",
@@ -28,5 +29,6 @@
         "cloudcustodian",
         "coefficiency",
         "SIEC"
-    ]
+    ],
+    "ignoreWords": []
 }
