@@ -3,38 +3,26 @@ name: Quality Checks
 
 on:
   pull_request:
-  workflow_dispatch:
 
 jobs:
-  check-modified-files:
+  run-quality-checks:
     runs-on: ubuntu-latest
-    outputs:
-      any_changed: ${{ steps.changed-files.outputs.any_changed }}
-      all_changed_files: ${{ steps.changed-files.outputs.all_changed_files }}
     steps:
     - uses: actions/checkout@v4
       with:
         fetch-depth: 0
-
+    
     - uses: tj-actions/changed-files@v39
       id: changed-files
       with:
         files: '**/*.md'
         separator: ','
 
-  run-quality-checks:
-    runs-on: ubuntu-latest
-    needs: check-modified-files
-    if: needs.check-modified-files.outputs.any_changed == 'true'
-    steps:
-    - uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-
     - name: Lint Markdown files
       uses: DavidAnson/markdownlint-cli2-action@v13.0.0
+      if: steps.changed-files.outputs.any_changed == 'true'
       with:
-        globs: ${{ needs.check-modified-files.outputs.all_changed_files }}
+        globs: ${{ steps.changed-files.outputs.all_changed_files }}
         separator: ','
         config: '.markdownlint.json' 
         fix: true
@@ -47,7 +35,7 @@ jobs:
         files: '**/*.md'
         inline: 'error'
         strict: true        
-        incremental_files_only: true # Limit the files checked to the ones in the pull request or push.
+        incremental_files_only: true
     
     - name: Validate links in Markdown files
       uses: gaurav-nelson/github-action-markdown-link-check@1.0.15
