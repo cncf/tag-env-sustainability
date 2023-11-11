@@ -12,15 +12,15 @@
       "replacement": "{{BASEURL}}/"
     },
     {
-      "pattern": "^file:///github/workspace/images/",
+      "pattern": "^file://images/",
       "replacement": "{{BASEURL}}/images/"
     },
     {
-      "pattern": "^file:///github/workspace/landscape/",
+      "pattern": "^file://landscape/",
       "replacement": "{{BASEURL}}/landscape/"
     },
     {
-      "pattern": "^file:///github/workspace/landscape-ko/",
+      "pattern": "^file://landscape-ko/",
       "replacement": "{{BASEURL}}/landscape-ko/"
     }
   ],
