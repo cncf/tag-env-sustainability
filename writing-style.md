@@ -9,11 +9,8 @@ good sources for content guidelines at the bottom of this guide.
 <!-- cSpell:ignore usecase --->
 ## Common terms
 
-* When referring to users and use cases, ensure consistency with
-  [use cases](/usecase-personas/)
-* See [CNCF Style Guide][cncf-style] for common terms. Note that the following
-  terms are not hyphenated and all lower case, except for capitalizing the
-  first letter when at the beginning of a sentence:
+* When referring to users and use cases, ensure consistency with use cases
+* See [CNCF Style Guide][cncf-style] for common terms. Note that the following terms are not hyphenated and all lower case, except for capitalizing the first letter when at the beginning of a sentence:
   * open source
   * cloud native
 
@@ -39,4 +36,4 @@ good sources for content guidelines at the bottom of this guide.
 * [18F Content Guide](https://content-guide.18f.gov/)
 
 [cncf-style]: https://github.com/cncf/foundation/blob/master/style-guide.md
-[openopps-style]: https://github.com/openopps/openopps-platform/blob/master/CONTRIBUTING.md
+[openopps-style]: https://github.com/openopps/openopps.github.io/blob/master/CONTRIBUTING.md

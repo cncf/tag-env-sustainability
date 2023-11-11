@@ -166,7 +166,7 @@ flowchart TB
 
 #### 스마트 데이터 센터
 
-[ECO-Qube](https://eco-qube.eu/)- 엣지 컴퓨팅 애플리케이션의 하드웨어 및 소프트웨어 구성 요소를 모두 조율하여 에너지 효율성과 냉각 성능을 향상시키는 것을 목표로 하는 종합적인 관리 시스템
+[ECO-Qube](https://www.ecoqube.org)- 엣지 컴퓨팅 애플리케이션의 하드웨어 및 소프트웨어 구성 요소를 모두 조율하여 에너지 효율성과 냉각 성능을 향상시키는 것을 목표로 하는 종합적인 관리 시스템
 
 [Patchwork Kilt](https://openuk.uk/patchworkkilt/) - 지속 가능한 데이터 센터를 위한 청사진
 
