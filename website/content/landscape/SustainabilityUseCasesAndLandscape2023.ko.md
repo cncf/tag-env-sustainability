@@ -15,9 +15,9 @@ toc_hide: true
 운영 탄소 배출량을 정량화하는 것은 가시성과 관리 책임을 위한 도구를 배포하는 것만큼 간단하지 않습니다. 특히 클라우드 컴퓨팅의 경우 서버에 포함된 여러 하드웨어 구성 요소, 클라우드 인프라의 다양한 하드웨어 세대/아키텍처/공급업체, 서비스의 종속성, 가상화/컨테이너화된 환경에서 실행되는 서비스, 서버의 별도 팬/냉각 컨트롤러, 누락된 데이터, 원격 측정 및 가시성, AI/ML 워크로드, 기밀 워크로드 등이 존재하기 때문에 더욱 그러합니다. 이러한 문제로 인해 클라우드 컴퓨팅과 관련된 탄소 배출량을 정확하게 측정하기가 어렵습니다.
 이 백서에서는 클라우드 컴퓨팅의 탄소 및 에너지 회계와 관련된 과제를 살펴보고 퍼블릭 및 프라이빗 클라우드에서 탄소 배출량을 정량화하는 데 따르는 복잡성에 대한 인사이트를 제공합니다. 또한 이 백서에서는 통신 산업과 같은 부문별 과제를 살펴봅니다.
 
+<!-- markdown-link-check-disable -->
 ## 목차
 
-<!-- markdown-link-check-disable-->
 - [기여자](#contributors)
 - [지속 가능한 클라우드 시스템의 기초](#foundations-of-sustainable-cloud-systems)
 - [지속 가능한 클라우드 시스템 구축의 과제](#challenges-of-sustainable-cloud-systems)
@@ -26,7 +26,8 @@ toc_hide: true
 - [현재 업계 연구 및 개발](#current-industry-research-and-development)
 - [현재 지속 가능한 클라우드 컴퓨팅 환경](#current-sustainable-cloud-computing-landscape)
 - [지속 가능성 관련 활동](#sustainability-initiatives)
-<!-- markdown-link-check-enable-->
+
+<!-- markdown-link-check-enable -->
 
 ## 기여자   <a href="#contributors" id="contributors"></a>
 

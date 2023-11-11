@@ -4,14 +4,15 @@
   "ignorePatterns": [
     {
       "pattern": "^(http|https):\/\/(www\\.)?(linkedin|twitter)"
-    },
-    {
-      "pattern": "^file:\/\/\/github\/workspace\/(images|landscape|landscape-ko)\/.*"
     }
   ],
   "replacementPatterns": [
     {
       "pattern": "^/",
+      "replacement": "{{BASEURL}}/"
+    },
+    {
+      "pattern": "^file:\/\/\/github\/workspace/",
       "replacement": "{{BASEURL}}/"
     }
   ],
