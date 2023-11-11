@@ -35,6 +35,7 @@ toc_hide: true
 
 Huamin Chen, [Marlow Weston](https://github.com/catblade), [Niki Manoledaki](https://github.com/nikimanoledaki), Eun Kyung Lee, [Chen Wang](https://github.com/wangchen615), [Chris Lloyd-Jones](https://github.com/Sealjay), [Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz), [Christopher Cantalupo](https://github.com/cmcantalupo), [Patricia Cahill](https://github.com/patricia-cahill), [Jochen Joswig](https://github.com/by-d-sign), [Emily Fox](https://github.com/thefoxatwork), [Leonard Pahlke](https://github.com/leonardpahlke)\
 
+<!-- markdown-link-check-disable-next-line -->
 ## 지속 가능한 클라우드 시스템의 기초  <a href="#foundations-of-sustainable-cloud-systems" id="foundations-of-sustainable-cloud-systems"></a>
 
 지속 가능한 클라우드 및 클라우드 네이티브 시스템은 세 가지 기반이 존재할 때만 구축할 수 있습니다. 이러한 기반은 클라우드 및 클라우드 네이티브 아키텍처에서 정보에 입각한 설계, 의사 결정, 책임의 기초를 형성합니다.
