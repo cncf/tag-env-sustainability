@@ -32,7 +32,7 @@ jobs:
       with:
         globs: ${{ needs.check-modified-files.outputs.all_changed_files }}
         separator: ','
-        config: '.markdownlint.jsonc'
+        config: '.markdownlint.json'
         fix: true
       continue-on-error: false
 
