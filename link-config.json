@@ -12,12 +12,8 @@
       "replacement": "/website/static/images/"
     },
     {
-      "pattern": "^/landscape/",
-      "replacement": "/website/content/landscape/_index.md"
-    },
-    {
-      "pattern": "^/landscape-ko/",
-      "replacement": "/website/content/landscape/SustainabilityUseCasesAndLandscape2023.ko.md"
+      "pattern": "^/landscape(.+)?/",
+      "replacement": "/website/content/landscape/"
     },
     {
       "pattern": "^/",
