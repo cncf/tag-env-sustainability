@@ -1,7 +1,7 @@
 ---
 title: Getting started as a TAG Environmental Sustainability Contributor
 description: Getting started as a TAG Environmental Sustainability Contributor
-slug: tbd
+slug: 2023-getting-started-as-tag-env-contributor
 weight: 1
 date:   2023-11-07 00:00:00 +0000
 author: Antonio Di Turi, Atreay Kukanur, Mfon Nta
@@ -10,15 +10,13 @@ reviewers: Kristina Devochko, Leonard Pahlke, Marlow Weston
 
 ## Getting started as a TAG Environmental Sustainability Contributor
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-environmental-sustainability-contributor/tag-env-logo.png" alt="TAG Environmental Sustainability Logo"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/tag-env-logo.png" alt="TAG Environmental Sustainability Logo"></p>
 
-If you are reading this blog it might be that you are looking forward to starting contributing to sustainability in the cloud native world.  This document will help you, and you can start by becoming a member of the TAG or one of its associated working groups.
+If you are reading this blog it might be that you are interested in contributing to the cloud native sustainability domain. This blog will help you and guide you through the different possibilities that are available for you, like joining the **The Technical Advisory Group** Environmental Sustainability, or one of its associated working groups.
 
-Starting to contribute to open source and cloud native communities may often seem challenging and scary for beginners, but there are many ways you can embark on this journey. One way to join the community is to become a member of one of the Cloud Native Computing Foundation Technical Advisory Groups (CNCF TAG).
+Starting to contribute to open source and cloud native communities may often seem challenging and scary for beginners, but there are many ways you can embark on this journey. One way to engage with the community is to contribute to one of the Cloud Native Computing Foundation Technical Advisory Groups (CNCF TAG).
 
-The Technical Advisory Group consists of members that focus on a specific area of the CNCF landscape by providing guidance, addressing challenges from the community and establishing domain-specific standards and best practices.
-
-CNCF Technical Advisory Group Environmental Sustainability is always open for new members and we hope that this article can help you clarify any concerns and questions you may have around joining the TAG, as well as make it easier for you to take those first steps in joining the community.
+The **TAG ENV**, consists of individuals that focus on a specific area of the CNCF landscape by providing guidance, addressing challenges from the community and establishing domain-specific standards and best practices.
 
 With this blog post we would like to cover a few topics that you may be wondering about when it comes to getting started as a TAG ENV Contributor:
 
@@ -29,11 +27,10 @@ With this blog post we would like to cover a few topics that you may be wonderin
 
 ## Introducing Technical Advisory Group Environmental Sustainability (TAG ENV)
 
-The Technical Advisory Group Environmental Sustainability, commonly referred to as TAG ENV, operates as part of the Cloud Native Computing Foundation (CNCF) alongside several other [TAGs](https://github.com/cncf/toc/tree/main/tags#current-tags).
+The **TAG ENV** operates as part of the Cloud Native Computing Foundation (CNCF) alongside several other [TAGs](https://github.com/cncf/toc/tree/main/tags#current-tags).
 
-Drawing inspiration from international frameworks such as the Paris Climate Accords, the TAG ENV sets out with a clear agenda: contribute to tackling global environmental challenges by identifying ways to reduce the environmental footprint of steadily growing data centers and expanding cloud native technologies landscape.
+Drawing inspiration from international frameworks such as the Paris Climate Accords, the TAG ENV sets out with a clear agenda: work with the cloud native community to tackle global environmental challenges by identifying ways to reduce the environmental footprint of steadily growing data centers and expanding the cloud native technologies landscape.
 
-TAG ENV's mission centers around advocating for, developing, and supporting environmental sustainability initiatives specific to cloud native technologies.
 You can find more information about the TAG ENV’s mission in the [charter document](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md).
 
 The group focuses on identifying ways to reduce the environmental footprint of the cloud native technologies as well as providing actionable strategies and guidance on the same.
@@ -72,7 +69,7 @@ We aim to raise awareness of environmental sustainability in open source and sup
 
 [Join us](https://github.com/cncf/tag-env-sustainability#contact) and let's make a difference together!
 
-## Making a meaningful impact in the cloud native and open source community as part of the TAG Environmental Sustainability
+## Making a meaningful impact as part of the CNCF TAG Environmental Sustainability
 
 <p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-environmental-sustainability-contributor/7-simple-ways-to-contribute.png" alt="Visualization of different ways how one can contribute to the TAG Environmental Sustainability"></p>
 
@@ -89,11 +86,12 @@ Here you can find some of the suggested actions that will help you get started:
 4. [Engage on Slack](https://communityinviter.com/apps/cloud-native/cncf): For a more informal setting, join the [#tag-env-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) and[#wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431) channels on [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf). Say hello to the community, engage in discussions, and comment on posts that pique your interest. This platform allows you to foster connections with other members and stay updated on day-to-day happenings.
 
 5. [Contribute to the TAG ENV Working Groups](https://tag-env-sustainability.cncf.io/about/working-groups/): If you can't wait to make a hands-on difference, this is your avenue.
+
 6. All the details about the Working Groups goals, non-goals and ongoing activities can be found here: <https://github.com/cncf/tag-env-sustainability/tree/main/working-groups>. Right now we have two working groups:
 
-   - Green Reviews. This group aims to design a strategic approach to aid CNCF projects in tracing and improving their environmental sustainability footprint. Intrigued? Dive into the specifics by checking out [the charter](https://github.com/cncf/tag-env-sustainability/blob/main/working-groups/green-reviews/charter.md).
+   - **Green Reviews**. This group aims to design a strategic approach to aid CNCF projects in tracing and improving their environmental sustainability footprint. Intrigued? Dive into the specifics by checking out [the charter](https://github.com/cncf/tag-env-sustainability/blob/main/working-groups/green-reviews/charter.md).
 
-   - Communications. Effective communication is as crucial as the technical work itself, as it ensures that the impactful actions of our working group are understood and appreciated by a wider audience. The working group charter will be published soon, but for now you can find additional details in following PR: <https://github.com/cncf/tag-env-sustainability/pull/247>
+   - **Communications**. Effective communication is as crucial as the technical work itself, as it ensures that the impactful actions of our working group are understood and appreciated by a wider audience. The working group charter will be published soon, but for now you can find additional details in following PR: <https://github.com/cncf/tag-env-sustainability/pull/247>
 
 7. [Tackle GitHub Issues:](https://github.com/cncf/tag-env-sustainability/issues) If you have a knack for addressing specific challenges or if you're seeking a shorter commitment, GitHub issues might be your calling. Browse through them and identify where you can contribute. If you feel lost and you don't know where to start, a good starting point is always an issue with the ["Help wanted" label](https://github.com/cncf/tag-env-sustainability/labels/help%20wanted).
 
