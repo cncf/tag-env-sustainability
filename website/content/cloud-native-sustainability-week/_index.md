@@ -31,9 +31,9 @@ We will host 21 local meetups happening across 16 countries and 4 continents. Be
 
 | **Nr** | **Location** | **Date** | **Event Link** | **Name** |
 |---|---|---|---|---|
-| 1 | China, Beijing | Nov.4 | tbd | @SamYuan1990, @jjzhang |
-| 2 | China, Shanghai | Nov.4 | tbd | Shane Wang, Hongbo Wang |
-| 3 | Brasil, São Paulo | *tbd* |  *tbd* | Carol Valencia |
+| 1 | China, Beijing | Nov.4 | [Link](https://mp.weixin.qq.com/s/0hALcFLFxqB3Mec0fYYO5g) | Sam Yuan, Jiaju Zhang |
+| 2 | China, Shanghai | Nov.4 | [Link](https://mp.weixin.qq.com/s/0hALcFLFxqB3Mec0fYYO5g) | Shane Wang, Hongbo Wang |
+| 3 | Brasil, São Paulo | Nov.27 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-sao-paulo-presents-cloud-native-sao-paulo-meetup-23-em-bradesco/) | Carol Valencia |
 | 4 | Colombia, Bogota | Oct.26 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-bogota-presents-1-cloud-native-bogota/) | Ivan Camargo |
 | 5 | Colombia, Medellin | Oct.21 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-medellin-presents-bienvenidos-a-cloud-native-medellin-cncf-cloud-native-sustainability-week/) | Elias Quintero, Samantha Upegui |
 | 6 | France, Paris | Oct.10 | [Link](https://www.meetup.com/cloud-native-computing-paris/events/296073417/) | Andrea Giardini, Tim Carry |
