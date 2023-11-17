@@ -18,7 +18,7 @@ Starting to contribute to open source and cloud native communities may often see
 
 The **TAG ENV**, consists of individuals that focus on a specific area of the CNCF landscape by providing guidance, addressing challenges from the community and establishing domain-specific standards and best practices.
 
-With this blog post we would like to cover a few topics that you may be wondering about when it comes to getting started as a TAG ENV Contributor:
+If you are curious about the TAG and play with the ideas to contribute you likely ask yourself the following questions.
 
 - What are the goals of the TAG ENV and how do they work with each other?
 - How does my contribution help with sustainability efforts?
