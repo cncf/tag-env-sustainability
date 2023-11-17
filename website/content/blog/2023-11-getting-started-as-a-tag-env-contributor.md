@@ -20,10 +20,10 @@ The **TAG ENV**, consists of individuals that focus on a specific area of the CN
 
 With this blog post we would like to cover a few topics that you may be wondering about when it comes to getting started as a TAG ENV Contributor:
 
-- What TAG Environmental Sustainability (TAG ENV) is all about, what its mission, goals and non-goals are, as well as what kind of activities and subgroups exist in the TAG.
-- Why YOU joining the TAG Environmental Sustainability makes an important and positive impact in the cloud native sustainability space and what YOU can gain from joining us.
-- Step-by-step walkthrough of different ways for you to join the TAG and get involved in our ongoing initiatives.
-- How YOU can share ideas, discussion topics, improvements and any other suggestions to the TAG ENV. It’s never enough to say that all feedback is highly appreciated and welcomed in the group!
+- What are the goals of the TAG ENV and how do they work with each other?
+- How does my contribution help with sustainability efforts?
+- Which projects does the TAG ENV has and how can I contribute to them?
+- How can I share ideas, improvements and any other suggestions to the TAG ENV?
 
 ## Introducing Technical Advisory Group Environmental Sustainability (TAG ENV)
 
