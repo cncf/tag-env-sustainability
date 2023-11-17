@@ -1,6 +1,5 @@
-just test CI
-
 # TAG Environmental Sustainability 🌳🌍♻️
+just test CI
 
 Welcome to the Environmental Sustainability Technical Advisory Group. This TAG works with the open source community to define environmental sustainability factors for the cloud native landscape, incubate and advocate open source projects to observe and measure Cloud Native infrastructure carbon footprint, optimize and eventually reduce carbon footprint and promote Cloud Native infrastructure to combat environmental challenges.
 
