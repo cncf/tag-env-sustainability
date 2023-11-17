@@ -25,7 +25,7 @@ If you are curious about the TAG and play with the ideas to contribute you likel
 - Which projects does the TAG ENV has and how can I contribute to them?
 - How can I share ideas, improvements and any other suggestions to the TAG ENV?
 
-## Introducing Technical Advisory Group Environmental Sustainability (TAG ENV)
+## Introducing the CNCF TAG Environmental Sustainability
 
 The **TAG ENV** operates as part of the Cloud Native Computing Foundation (CNCF) alongside several other [TAGs](https://github.com/cncf/toc/tree/main/tags#current-tags).
 
