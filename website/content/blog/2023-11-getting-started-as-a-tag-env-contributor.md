@@ -111,7 +111,7 @@ By joining one of the working groups, you can collaborate with like-minded indiv
 
 To ensure that your contributions are in line with TAG's standards and expectations, TAG has a "Contribute" section on the website, which provides detailed information on how to get involved and contribute to different areas of the organization. It also includes a technical guide that outlines TAG's technical specifications and guidelines for creating documentation and code.
 
-The TAG ENV community encourages and welcomes contributions from all members. If you have an idea that you believe can make a positive impact on the industry, don't hesitate to share it with the TAG ENV community. Together, we can shape the idea into something actionable for the benefit of the TAG and the cloud native community as a whole.
+The TAG ENV community encourages and welcomes contributions from anyone. If you have an idea that you believe can make a positive impact on the industry, don't hesitate to share it with the TAG ENV community. Together, we can shape the idea into something actionable for the benefit of the TAG and the cloud native community as a whole.
 
 ## Join us and spread the word
 
