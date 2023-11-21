@@ -102,7 +102,7 @@ Yes! The TAG ENV is a community-driven group, and everyones input is highly valu
 
 Scope your idea and refer to the first-time contributors quickstart from our [contributor guide](https://github.com/cncf/tag-env-sustainability/blob/main/CONTRIBUTING.md#first-time-contributors). It is advisable to refer to the [governance folder](https://github.com/cncf/tag-env-sustainability/tree/main/governance) to get a better understanding of different processes in the TAG.
 
-Your idea can be phrased in the form of a detailed proposal, a blog post, or even a presentation. It may be a message in Slack or a GitHub issue. You can write a full-fledged proposal from the beginning and once your idea is documented, you can  share it with the group in [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) channel on [CNCF Slack](https://cloud-native.slack.com/archives/C03F270PDU6), where the group members actively discuss and provide feedback on new ideas.
+Your idea can be phrased in the form of a detailed proposal, a blog post, or even a presentation. It may be a message in Slack or a GitHub issue. You can write a full-fledged proposal from the beginning and once your idea is documented, you can  share it with the group in [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) channel on [CNCF Slack](https://cloud-native.slack.com/archives/C03F270PDU6), where the TAG actively discusses new ideas.
 
 Another way to bring your proposals to the TAG ENV community is by participating in TAG's working groups. These are groups of experts and enthusiasts who focus on specific topics, such as performing sustainability footprint reviews of CNCF projects or driving marketing and communication.
 
