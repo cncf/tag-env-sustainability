@@ -72,7 +72,6 @@ We aim to raise awareness of environmental sustainability in open source and sup
 <p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-environmental-sustainability-contributor/7-simple-ways-to-contribute.png" alt="Visualization of different ways how one can contribute to the TAG Environmental Sustainability"></p>
 
 With the mounting challenges our planet faces, efforts from all corners are essential.
-
 Here you can find some of the suggested actions that will help you get started:
 
 1. [Detailed Contributor Guide:](https://github.com/cncf/tag-env-sustainability/blob/main/CONTRIBUTING.md) Still curious about how you can contribute more meaningfully? Explore our contributor guide and the [contributor-ladder](https://github.com/cncf/tag-env-sustainability/blob/main/governance/contributor-ladder.md) for in-depth details.
