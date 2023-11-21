@@ -33,8 +33,6 @@ Drawing inspiration from international frameworks such as the Paris Climate Acco
 
 You can find more information about the TAG ENV’s mission in the [charter document](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md).
 
-The group focuses on identifying ways to reduce the environmental footprint of the cloud native technologies as well as providing actionable strategies and guidance on the same.
-Our ambition is to steer the industry towards a greener future, where cloud native tooling can help reduce their energy consumption and carbon footprints.
 
 The primary goals of the TAG ENV are:
 
