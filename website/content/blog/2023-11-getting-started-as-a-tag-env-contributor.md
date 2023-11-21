@@ -99,9 +99,7 @@ Every individual, irrespective of their expertise or background, has something v
 
 ## Can YOU help shape the future of the TAG Environmental Sustainability?
 
-Yes, you can!
-
-TAG ENV is a community-driven organization, and every member's input is highly valued and appreciated. If you have an idea that you would like to propose to the TAG ENV community, the first step is to check if this idea already exists as a project or otherwise. You can check the [issues](https://github.com/cncf/tag-env-sustainability/issues) page for closed and open issues where you discuss your idea or reopen an old discussion.
+Yes! The TAG ENV is a community-driven group, and everyones input is highly valued and appreciated. If you have an idea that you would like to propose to the TAG ENV, the first step is to check if this idea already exists as a project or otherwise. You can check the [issues](https://github.com/cncf/tag-env-sustainability/issues) page for closed and open issues where you discuss your idea or reopen an old discussion.
 
 Scope your idea and refer to the first-time contributors quickstart from our [contributor guide](https://github.com/cncf/tag-env-sustainability/blob/main/CONTRIBUTING.md#first-time-contributors). It is advisable to refer to the [governance folder](https://github.com/cncf/tag-env-sustainability/tree/main/governance) to get a better understanding of different processes in the TAG.
 
