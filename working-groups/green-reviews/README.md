@@ -12,8 +12,10 @@ The working group currently has 2 chairs serving a term of 6 months and as long 
 
 The following individuals are currently the working group chairs:
 
+<!-- cSpell:disable -->
 - Niki Manoledaki, [@nikimanoledaki](http://github.com/nikimanoledaki), start of term 01.08.2023
 - Kristina Devochko, [@guidemetothemoon](http://github.com/guidemetothemoon), start of term 01.08.2023
+<!-- cSpell:enable -->
 
 ## Meetings and Contact
 

@@ -14,7 +14,7 @@ See [`cncf-tags`](https://github.com/cncf/toc/blob/main/tags/cncf-tags-github-or
 ## Adding a commit to a TAG ENV repository
 
 Each contributor, including TAG leadership and CNCF personnel, does not commit directly to the `main` TAG ENV branch.
-To commit to the repository, create a branch off to the `main` branch, if you have maintain or admin priviledges, or a [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) to the repository.
+To commit to the repository, create a branch off to the `main` branch, if you have maintain or admin privileges, or a [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) to the repository.
 After changes are made to the branch or fork, the change can be proposed via a [pull request (PR)](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request).
 
 After being merged the branch will be deleted.
