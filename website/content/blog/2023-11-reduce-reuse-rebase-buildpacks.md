@@ -40,7 +40,7 @@ You can [learn more about rebase in the Buildpacks documentation](https://buildp
 
 ## Be As Green As Your Unit Tests
 
-Container builds are in no way the biggest offender when it comes to the environmental impact of software. Electricity needed to mine bitcoin is [more than used by entire countries](https://www.theguardian.com/technology/2021/feb/27/bitcoin-mining-electricity-use-environmental-impact). But the growth of software that uses cryptographic techniques has brought new awareness to how our code affects the world around us. That's a good thing.
+Container builds are not the biggest offender when it comes to the environmental impact of software. Electricity needed to mine bitcoin is [more than used by entire countries](https://www.theguardian.com/technology/2021/feb/27/bitcoin-mining-electricity-use-environmental-impact), but the growth of software that uses cryptographic techniques has brought new awareness to how our code affects the world around us. That's a good thing.
 
 We have a responsibility to think about the waste and sustainability of the software we produce. The code we write has an impact on the world, and our choices matter.
 
