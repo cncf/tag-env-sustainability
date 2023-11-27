@@ -20,7 +20,7 @@ Prior to the emergence of the cloud native ecosystem and widespread use of conta
 Today, many applications are coupled to the operating system and its packages because they use a Dockerfile to define their container images. As a result, those images frequently need rebuilds to apply patches to OS-level components, or simply to update tools that aren't even used by the application. Even worse, the layer caching mechanism imposed by Dockerfile forces us to frequently rebuild layers that don't even need to be rebuilt.
 
 The cloud-native ecosystem has brought great productivity and operational improvements to software development. But we've lost sight of how wasteful some of those technologies can be.
-Buildpacks, on the other hand, have been designed to work at a scale (i.e. tens millions of images) where being wasteful has real costs. That's why the Buildpacks rebase mechanism requires almost no resources.
+Buildpacks, on the other hand, have been designed to work at a scale (i.e. tens millions of images) where being wasteful has real costs. That's why the Buildpacks rebase mechanism requires minimal resources.
 
 ## Reduce, Reuse, Rebase
 
