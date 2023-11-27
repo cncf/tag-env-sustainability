@@ -34,7 +34,7 @@ Updating the operating system of a container image requires a rebuild if you're 
 
 Rebase allows app developers or operators to rapidly update an app image when its run image has changed. By using image layer rebasing, this command avoids the need to fully rebuild the app.
 
-Buildpacks rebase constructs a new container image using existing layers, without the need for build.At its core, image rebasing is a simple process. By inspecting an app image, rebase can determine whether or not a newer version of the app's base image exists (either locally or in a registry). If so, rebase updates the app image's layer metadata to reference the newer base image version. This is essentially a an operation that edits a JSON file. It takes milliseconds and uses very little compute resources. 
+Buildpacks rebase constructs a new container image using existing layers, without the need for build. At its core, image rebasing is a simple process. By inspecting an app image, rebase can determine whether or not a newer version of the app's base image exists (either locally or in a registry). If a newer version exists, rebase updates the app image's layer metadata to reference the newer base image version. This is essentially a an operation that edits a JSON file. It takes milliseconds and uses very little compute resources. 
 
 You can [learn more about rebase in the Buildpacks documentation](https://buildpacks.io/docs/concepts/operations/rebase/). But rebase isn't the only Buildpacks mechanism that's more sustainable that Dockerfile builds. Buildpacks can cache build artifacts to enable incremental compiliation, and other resource saving techniques. These cache layers won't always be discarded when you do require a re-build, like they would with Dockerfile builds.
 
