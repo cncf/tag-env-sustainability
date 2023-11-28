@@ -63,7 +63,7 @@ We provide resources and support, ensuring you don't have to start from scratch.
 Our mission includes incubating open source projects to measure and reduce carbon footprints in cloud native infrastructure.
 We aim to raise awareness of environmental sustainability in open source and support projects that promote energy-efficient solutions, positively impacting the community.
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-environmental-sustainability-contributor/tag-working-groups.png" alt="Overview of TAG Environmental Sustainability structure and Working Groups"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/tag-working-groups.png" alt="Overview of TAG Environmental Sustainability structure and Working Groups"></p>
 
 [Join us](https://github.com/cncf/tag-env-sustainability#contact) and let's make a difference together!
 
