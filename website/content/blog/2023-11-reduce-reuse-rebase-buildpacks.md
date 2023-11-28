@@ -24,7 +24,7 @@ Buildpacks, on the other hand, have been designed to work at a scale (i.e. tens 
 
 ## Reduce, Reuse, Rebase
 
-Container images built from a Dockerfile require a full build when a new operating system update is available, even if your app doesn't required a re-compile or re-install to work with the update (i.e. the update is [ABI compatible](https://en.wikipedia.org/wiki/Application_binary_interface)). 
+Container images built from a Dockerfile require a full build when a new operating system update is available, even if your app doesn't need a re-compile or re-install to work with the update (i.e. the update is [ABI compatible](https://en.wikipedia.org/wiki/Application_binary_interface)). 
 
 <p class="mt-5 mb-5"><img src="/images/blogs/2023-11-reduce-reuse-rebase-buildpacks/cnb-new-base.png" alt="Updating the operating system of a container image requires a rebuild if you're using Dockerfile"></p>
 
@@ -44,4 +44,4 @@ Container builds are not the biggest offender when it comes to the environmental
 
 We have a responsibility to think about minimizing the required resources of the software we produce. The code we write has an impact on the world, and our choices matter.
 
-To learn more about the relationship between open source software development any the environment, visit the [Environmental Sustainability Technical Advisory Group (TAG)](https://tag-env-sustainability.cncf.io/)
+To learn more about the relationship between open source software development and the environment, visit the [Environmental Sustainability Technical Advisory Group (TAG)](https://tag-env-sustainability.cncf.io/)
