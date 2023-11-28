@@ -32,7 +32,11 @@
         "codecov",
         "cloudcustodian",
         "coefficiency",
-        "SIEC"
+        "SIEC",
+        "Turi",
+        "Atreay",
+        "Kukanur",
+        "Mfon"
     ],
     "ignoreWords": [],
     "ignoreRegExpList": [
