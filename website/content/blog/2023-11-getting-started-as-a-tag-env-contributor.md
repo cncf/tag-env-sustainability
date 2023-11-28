@@ -98,9 +98,9 @@ Every individual, irrespective of their expertise or background, has something v
 
 ## Can YOU help shape the future of the TAG Environmental Sustainability?
 
-Yes! The TAG ENV is a community-driven group, and everyones input is highly valued and appreciated. If you have an idea that you would like to propose to the TAG ENV, the first step is to check if this idea already exists as a project or otherwise. You can check the [issues](https://github.com/cncf/tag-env-sustainability/issues) page for closed and open issues where you discuss your idea or reopen an old discussion.
+Yes! The TAG ENV is a community-driven group, and everyone's input is highly valued and appreciated. If you have an idea that you would like to propose to the TAG ENV, the first step is to check if this idea already exists as a project or otherwise. You can check the [issues](https://github.com/cncf/tag-env-sustainability/issues) page for closed and open issues where you discuss your idea or reopen an old discussion.
 
-Scope your idea and refer to the first-time contributors quickstart from our [contributor guide](https://github.com/cncf/tag-env-sustainability/blob/main/CONTRIBUTING.md#first-time-contributors). It is advisable to refer to the [governance folder](https://github.com/cncf/tag-env-sustainability/tree/main/governance) to get a better understanding of different processes in the TAG.
+Scope your idea and refer to the first-time contributors quick start from our [contributor guide](https://github.com/cncf/tag-env-sustainability/blob/main/CONTRIBUTING.md#first-time-contributors). It is advisable to refer to the [governance folder](https://github.com/cncf/tag-env-sustainability/tree/main/governance) to get a better understanding of different processes in the TAG.
 
 Your idea can be phrased in the form of a detailed proposal, a blog post, or even a presentation. It may be a message in Slack or a GitHub issue. You can write a full-fledged proposal from the beginning and once your idea is documented, you can  share it with the group in [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) channel on [CNCF Slack](https://cloud-native.slack.com/archives/C03F270PDU6), where the TAG actively discusses new ideas.
 
