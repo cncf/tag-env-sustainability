@@ -2,7 +2,7 @@
 ## Motivation
 Marketing is as crucial as code to any open source project’s success. Participation in open source projects play a vital role in developing a sustainable ecosystem around a project by marketing the project through their networks. The key is to promote the project first and always remain authentic and true to the open source ethos of openness and transparency.
 
-This is a proposal to create a Working Group under the CNCF Environmental Sustainability Technical Advisory Group (TAG ENV) to help organize communication and marketing efforts.
+The Working Group Communications is part of the CNCF Environmental Sustainability Technical Advisory Group (TAG ENV) to help organize communication and marketing efforts.
 
 The Marketing Communications Working Group has its main focus on the marketing communications, public and member relations of the TAG. It provides member-neutral contribution, ecosystem development and marketing services, collaborative management, branding and compatibility.
 
