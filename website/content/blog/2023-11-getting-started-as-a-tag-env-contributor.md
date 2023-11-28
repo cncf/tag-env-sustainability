@@ -69,7 +69,7 @@ We aim to raise awareness of environmental sustainability in open source and sup
 
 ## Making a meaningful impact as part of the CNCF TAG Environmental Sustainability
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-environmental-sustainability-contributor/7-simple-ways-to-contribute.png" alt="Visualization of different ways how one can contribute to the TAG Environmental Sustainability"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/7-simple-ways-to-contribute.png" alt="Visualization of different ways how one can contribute to the TAG Environmental Sustainability"></p>
 
 With the mounting challenges our planet faces, efforts from all corners are essential.
 Here you can find some of the suggested actions that will help you get started:
