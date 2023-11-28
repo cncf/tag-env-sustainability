@@ -1,13 +1,11 @@
 ---
 title: CNCF Cloud Native Sustainability Week
 linkTitle: Cloud Native Sustainability Week
-toc_hide: true
 exclude_search: true
-menu:
-  main:
-    weight: 30
 description: Cloud Native Sustainability Week is a global event where the CNCF community organizes local meetings around the theme of Cloud Native Sustainability. The Cloud Native Sustainability Week will take place in the second week of October 2023.
 slug: cloud-native-sustainability-week
+aliases: 
+  - /cloud-native-sustainability-week
 ---
 
 <p class="mt-5 mb-5"><img src="/images/cloud-native-sustainability-week-banner.png" alt="CNCF Cloud Native Sustainability Week Banner"></p>
@@ -31,9 +29,9 @@ We will host 21 local meetups happening across 16 countries and 4 continents. Be
 
 | **Nr** | **Location** | **Date** | **Event Link** | **Name** |
 |---|---|---|---|---|
-| 1 | China, Beijing | Nov.4 | tbd | @SamYuan1990, @jjzhang |
-| 2 | China, Shanghai | Nov.4 | tbd | Shane Wang, Hongbo Wang |
-| 3 | Brasil, São Paulo | *tbd* |  *tbd* | Carol Valencia |
+| 1 | China, Beijing | Nov.4 | [Link](https://mp.weixin.qq.com/s/0hALcFLFxqB3Mec0fYYO5g) | Sam Yuan, Jiaju Zhang |
+| 2 | China, Shanghai | Nov.4 | [Link](https://mp.weixin.qq.com/s/0hALcFLFxqB3Mec0fYYO5g) | Shane Wang, Hongbo Wang |
+| 3 | Brasil, São Paulo | Nov.27 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-sao-paulo-presents-cloud-native-sao-paulo-meetup-23-em-bradesco/) | Carol Valencia |
 | 4 | Colombia, Bogota | Oct.26 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-bogota-presents-1-cloud-native-bogota/) | Ivan Camargo |
 | 5 | Colombia, Medellin | Oct.21 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-medellin-presents-bienvenidos-a-cloud-native-medellin-cncf-cloud-native-sustainability-week/) | Elias Quintero, Samantha Upegui |
 | 6 | France, Paris | Oct.10 | [Link](https://www.meetup.com/cloud-native-computing-paris/events/296073417/) | Andrea Giardini, Tim Carry |

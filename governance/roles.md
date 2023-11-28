@@ -63,7 +63,7 @@ The general list of activities for TL are:
 * Resolve cross-sub-project technical issues and decisions
 * Propose agenda items for meetings to ensure that open issues are discussed with the group when needed
 
-[Environmental Sustainability TAG TL nomination process](tech-lead-proposal-process.md)
+[Environmental Sustainability TAG TL nomination process](lead-proposal-process.md)
 
 ## Working Group Leads
 
@@ -117,7 +117,7 @@ Examples are:
 
 ## Project Lead
 
-A project can be formed if corss contributor collaboration is needed.
+A project can be formed if cross-contributor collaboration is needed.
 The process document gives information how to form a [project](process.md).
 
 Depending on the expected length of the project, Project Leads may be assigned as OWNERS of the project directory in this repository to help facilitate and moderate new content to the project.

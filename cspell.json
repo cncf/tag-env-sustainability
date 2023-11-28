@@ -1,7 +1,12 @@
 {
     "version": "0.2",
     "language": "en",
+    "caseSensitive": false,
+    "dictionaries": ["en_US", "en-gb", "companies", "softwareTerms", "misc", "filetypes", "tag", "html"],
     "ignorePaths": [],
+    "dictionaryDefinitions": [
+        { "name": "tag", "path": "./tag-custom-dictionary-cspell.txt"}
+    ],
     "words": [
         "CNCF",
         "K8s",
@@ -32,5 +37,36 @@
         "Atreay",
         "Kukanur",
         "Mfon"
+    ],
+    "ignoreWords": [],
+    "ignoreRegExpList": [
+        "code",
+        "links"
+    ],
+    "patterns": [
+        {
+            "name": "code-block-multi-line",
+            "pattern": "/^```(.*)\n([\\s\\S]*?)```$/g"
+        },
+        {
+            "name": "code-block-single-line",
+            "pattern": "/```(.*)([\\s\\S]*?)```/g"
+        },
+        {
+            "name": "code",
+            "pattern": ["code-block-single-line", "code-block-multi-line"]
+        },
+        {
+            "name": "markdown-links",
+            "pattern": "/!?\\[([^\\]]*)\\]\\(([^\\)]+)\\)/g"
+        },
+        {
+            "name": "html-links",
+            "pattern": "/<a\\s+(?:[^>]*?\\s+)?href=\"[^\"]*\".*<\/a>/g"
+        },
+        {
+            "name": "links",
+            "pattern": ["markdown-links", "html-links"]
+        }
     ]
 }

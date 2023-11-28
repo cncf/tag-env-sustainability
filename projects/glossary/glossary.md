@@ -66,7 +66,7 @@ This causes the inside of a greenhouse to get hotter and hotter, the same as wha
 #### **Net Zero**
 
 Stands for zero-carbon emission. This means that a company that causes carbon emissions needs to store or neutralize the same amount of carbon.
-In the best case scenario, an organization doesn‘t cause carbon pollution at all.
+In the best case scenario, an organization doesn't cause carbon pollution at all.
 
 ### O
 
@@ -105,4 +105,4 @@ SIEC - Server Idle Energy Coefficiency
 ## Additional Resources
 
 * [1] Glossary of Climate Change - <https://www.wikiwand.com/en/Glossary_of_climate_change>
-* [2] Climate Change Vocabulary - <https://www.health.state.mn.us/communities/environment/climate/docs/film/vocab_list.pdf>
+* [2] Climate Change Vocabulary - <https://winapps.umt.edu/winapps/media2/wilderness/toolboxes/documents/climate/Climate%20Change%20Glossary.pdf>

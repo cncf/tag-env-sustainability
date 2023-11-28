@@ -29,7 +29,7 @@ This TAG's goal is to advocate for, develop, support, and help evaluate environm
   - [LinkedIn](https://www.linkedin.com/company/cncf-tag-environmental-sustainability)
   - [Twitter/X](https://twitter.com/CNCFEnvTAG)
 - [Mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/topics)
-- [Surveys](https://github.com/cncf/tag-env-sustainability/tree/main/surveys)
+- [Surveys](https://github.com/cncf/tag-env-sustainability/tree/main/artifacts/surveys)
 
 ## Meetings
 

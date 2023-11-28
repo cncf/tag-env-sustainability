@@ -15,6 +15,7 @@ toc_hide: true
 운영 탄소 배출량을 정량화하는 것은 가시성과 관리 책임을 위한 도구를 배포하는 것만큼 간단하지 않습니다. 특히 클라우드 컴퓨팅의 경우 서버에 포함된 여러 하드웨어 구성 요소, 클라우드 인프라의 다양한 하드웨어 세대/아키텍처/공급업체, 서비스의 종속성, 가상화/컨테이너화된 환경에서 실행되는 서비스, 서버의 별도 팬/냉각 컨트롤러, 누락된 데이터, 원격 측정 및 가시성, AI/ML 워크로드, 기밀 워크로드 등이 존재하기 때문에 더욱 그러합니다. 이러한 문제로 인해 클라우드 컴퓨팅과 관련된 탄소 배출량을 정확하게 측정하기가 어렵습니다.
 이 백서에서는 클라우드 컴퓨팅의 탄소 및 에너지 회계와 관련된 과제를 살펴보고 퍼블릭 및 프라이빗 클라우드에서 탄소 배출량을 정량화하는 데 따르는 복잡성에 대한 인사이트를 제공합니다. 또한 이 백서에서는 통신 산업과 같은 부문별 과제를 살펴봅니다.
 
+<!-- markdown-link-check-disable -->
 ## 목차
 
 - [기여자](#contributors)
@@ -28,10 +29,13 @@ toc_hide: true
 
 ## 기여자   <a href="#contributors" id="contributors"></a>
 
+<!-- markdown-link-check-enable -->
+
 이 문서에 기여해주신 분들께 특별히 감사드립니다. 콘텐츠를 개선하고 강화하는 데 관심이 있으신 분은 저장소에 PR을 제출하고 아래에서 자신을 기여자로 추가해 주세요!
 
 Huamin Chen, [Marlow Weston](https://github.com/catblade), [Niki Manoledaki](https://github.com/nikimanoledaki), Eun Kyung Lee, [Chen Wang](https://github.com/wangchen615), [Chris Lloyd-Jones](https://github.com/Sealjay), [Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz), [Christopher Cantalupo](https://github.com/cmcantalupo), [Patricia Cahill](https://github.com/patricia-cahill), [Jochen Joswig](https://github.com/by-d-sign), [Emily Fox](https://github.com/thefoxatwork), [Leonard Pahlke](https://github.com/leonardpahlke)\
 
+<!-- markdown-link-check-disable-next-line -->
 ## 지속 가능한 클라우드 시스템의 기초  <a href="#foundations-of-sustainable-cloud-systems" id="foundations-of-sustainable-cloud-systems"></a>
 
 지속 가능한 클라우드 및 클라우드 네이티브 시스템은 세 가지 기반이 존재할 때만 구축할 수 있습니다. 이러한 기반은 클라우드 및 클라우드 네이티브 아키텍처에서 정보에 입각한 설계, 의사 결정, 책임의 기초를 형성합니다.
@@ -53,10 +57,12 @@ Huamin Chen, [Marlow Weston](https://github.com/catblade), [Niki Manoledaki](htt
 
 탄소 및 에너지 회계는 탄소 및 에너지 소비를 추적하고 설명하기 위한 시스템, 서비스 및 방법론을 말합니다.
 
+<!-- markdown-link-check-disable-next-line -->
 ## 지속 가능한 클라우드 시스템 구축의 과제  <a href="#challenges-of-sustainable-cloud-systems" id="challenges-of-sustainable-cloud-systems"></a>
 
 그린 컴퓨팅과 탄소 및 에너지 회계는 다양한 산업 분야에서 관심을 갖고 빠르게 발전하는 분야로, 지속 가능한 클라우드 시스템의 구축 및 유지 관리와 관련된 과제는 여전히 밝혀지고 있습니다. 이러한 기술의 도입과 성숙도가 높아짐에 따라 더 많은 과제와 해결책이 발견될 것으로 예상됩니다. 그러나 아래 섹션에서는 두 기반 전반에 걸쳐 현재 직면한 과제를 파악하려고 합니다. 탄소 회계에 널리 사용되는 표준은 [온실가스 프로토콜(](https://ghgprotocol.org/)약칭: 온실가스 프로토콜, GHGP)입니다.
 
+<!-- markdown-link-check-disable-next-line -->
 ## 탄소/에너지 회계의 어려움 <a href="#challenges-of-carbonenergy-accounting" id="challenges-of-carbonenergy-accounting"></a>
 
 ### 운영 탄소 배출량 정량화
@@ -112,6 +118,7 @@ AWS, Azure, GCP와 같은 퍼블릭 클라우드 제공업체는 사용자가 �
 
 위에서 파악한 과제 외에도 인공 지능(AI) 및 머신 러닝(ML) 워크로드는 클라우드 서비스 제공업체에서 스케줄링 가능한 컴퓨팅으로 존재하거나 베어메탈 환경 내에 존재합니다. 두 경우 모두 AI/Ml 클러스터에는 XPU 또는 가속기의 복잡성이 추가되는 경우가 많습니다. 이러한 가속기는 실행하는 데 상당한 양의 전력이 필요하며, 일반 컴퓨터 칩보다 훨씬 더 많은 전력을 필요로 합니다. 또한 이러한 클러스터의 일부 워크로드(예: 정보 집합 학습, training sets of information)는 시간에 민감하지 않은 반면, 인식 시스템의 추론 작업(inference jobs for recognition systems)과 같이 시간에 민감한 워크로드도 있습니다.
 
+<!-- markdown-link-check-disable-next-line -->
 ## 솔루션 계층  <a href="#layers-of-the-solutions" id="layers-of-the-solutions"></a>
 
 지속 가능한 클라우드 시스템의 세 가지 토대를 보완하는 솔루션을 고려할 때 고려해야 할 사항을 세 가지 일반적인 영역으로 나눌 수 있습니다:
@@ -124,6 +131,7 @@ AWS, Azure, GCP와 같은 퍼블릭 클라우드 제공업체는 사용자가 �
 
 <table><thead><tr><th width="166">범위</th><th width="417.3333333333333">목표</th><th>필요 요건</th></tr></thead><tbody><tr><td>멀티 데이터 센터</td><td>해당 지역의 재생 에너지 사용 여부, 해당 지역의 한계 배출량, 전력 사용 효율성(PUE, Power Usage Effectiveness), 시간대 등과 같은 환경적 요인에 따라 예약할 데이터 센터를 지능적으로 선택</td><td>클러스터 관리</td></tr><tr><td>데이터 센터</td><td>워크로드의 가용성,긴급성에 따라 효율적으로 스케줄링</td><td>전원 관리, K8S 스케줄러 플러그인</td></tr><tr><td>노드</td><td>리소스 소비를 최소화하면서 워크로드 사양(성능 매개변수 포함)을 처리할 수 있도록 리소스 최적화</td><td>노드 튜닝, 파드 스케일링</td></tr></tbody></table>
 
+<!-- markdown-link-check-disable-next-line -->
 ## 현재 업계 연구 및 개발  <a href="#current-industry-research-and-development" id="current-industry-research-and-development"></a>
 
 지속 가능한 컴퓨팅 분야에는 수많은 개발과 연구가 진행 중입니다. 여기에 소개되지 않은 것을 알고 계신다면 기고해 주시면 감사하겠습니다!
@@ -146,6 +154,7 @@ AWS, Azure, GCP와 같은 퍼블릭 클라우드 제공업체는 사용자가 �
 
 반면, 유휴 전력 및 데이터센터 냉각 등은 환경 친화적인 아키택처로 에너지 낭비의 근본 원인을 해결하는 것으로 평가됩니다. 예를 들어, 페더레이션 학습은 값비싼 냉각이 필요하지 않은 기기에 모델 학습을 확산하여 탄소 발자국을 총체적으로 줄이는 것으로 [평가](https://www.cam.ac.uk/research/news/can-federated-learning-save-the-world)됩니다.
 
+<!-- markdown-link-check-disable-next-line -->
 ## 현재 지속 가능한 클라우드 컴퓨팅 환경  <a href="#current-sustainable-cloud-computing-landscape" id="current-sustainable-cloud-computing-landscape"></a>
 
 아래 다이어그램은 지속 가능한 클라우드 컴퓨팅 환경의 차원을 보여주며, 다음 섹션에서 자세히 설명합니다.
@@ -166,7 +175,7 @@ flowchart TB
 
 #### 스마트 데이터 센터
 
-[ECO-Qube](https://eco-qube.eu/)- 엣지 컴퓨팅 애플리케이션의 하드웨어 및 소프트웨어 구성 요소를 모두 조율하여 에너지 효율성과 냉각 성능을 향상시키는 것을 목표로 하는 종합적인 관리 시스템
+[ECO-Qube](https://www.ecoqube.org)- 엣지 컴퓨팅 애플리케이션의 하드웨어 및 소프트웨어 구성 요소를 모두 조율하여 에너지 효율성과 냉각 성능을 향상시키는 것을 목표로 하는 종합적인 관리 시스템
 
 [Patchwork Kilt](https://openuk.uk/patchworkkilt/) - 지속 가능한 데이터 센터를 위한 청사진
 
@@ -303,9 +312,9 @@ flowchart TB
 * :train: [인텐트 중심 오케스트레이션](https://github.com/intel/intent-driven-orchestration) \
   이는 워크로드 배치를 선택하기 위해 명령형 모델에서 인텐트 중심 모델로 이동하여 오케스트레이션을 수행하는 새로운 방법을 제공합니다. 이 모델에서는 사용자가 목표(예: 필요한 지연 시간, 처리량 또는 안정성 목표)의 형태로 의도를 표현하고, 오케스트레이션 스택 자체가 목표를 달성하는 데 필요한 인프라의 리소스를 결정합니다. 이 새로운 접근 방식은 스케줄링(워크로드를 배치할 시기와 위치 결정)에 대한 커뮤니티의 투자를 계속 활용할 수 있으며, 시스템에서 무엇을 어떻게 구성할지 결정하는 지속적인 실행 계획 루프를 통해 보강될 것입니다. 전력 최적 사용 환경에서 이를 활용하기 위한 예비 작업이 이미 진행 중입니다.
 
-:green_book: 탄소 감지 쿠버네티스 스케줄러 - [저탄소 쿠버네티스 스케줄러](https://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
-
-:green_book: 에너지 인지 스케줄링 \[백서] [Kubernetes의 전체적인 스케줄링을 통한 데이터센터 효율성 향상](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
+* :green_book: 탄소 감지 쿠버네티스 스케줄러 - [저탄소 쿠버네티스 스케줄러](https://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
+<!-- markdown-link-check-disable-next-line -->
+* :green_book: 에너지 인지 스케줄링 \[백서] [Kubernetes의 전체적인 스케줄링을 통한 데이터센터 효율성 향상](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
 
 ### 스케일링
 
@@ -326,6 +335,7 @@ flowchart TB
 * :musical_note: [GEOPM](https://github.com/geopm/geopm) - [확장형 전원 관리자](https://geopm.github.io/)\
   처음에는 HPC 환경에 특화되어 있었지만 현재는 보다 일반화된 GEOPM(Global Extensible Open Power Manager)은 이기종 플랫폼에서 전력 및 에너지 최적화를 탐색하기 위한 프레임워크입니다. GEOPM 소프트웨어는 두 가지 패키지로 나뉩니다: GEOPM 서비스와 GEOPM 런타임입니다. GEOPM 서비스는 저수준 하드웨어 메트릭 및 구성 노브에 대한 사용자 공간 액세스를 제공합니다. GEOPM 런타임은 하드웨어 메트릭 및 애플리케이션 피드백에 반응하여 하드웨어 설정을 조정하기 위해 GEOPM 서비스를 활용합니다. 애플리케이션 피드백은 미들웨어 패키지에 콜백으로 삽입된 경량 비동기 프로파일링 후크를 통해 수집됩니다. GEOPM 런타임에는 최적화 알고리즘을 선택할 수 있는 플러그인 아키텍처가 있습니다. 기본 제공 알고리즘 중 일부는 에너지 효율성을 목표로 하고, 다른 알고리즘은 전력 제한 내에서 성능을 최적화합니다. GEOPM을 Kubernetes로 포팅하는 작업은 현재 진행 중입니다. 클라우드(cloud)라는 [실험 브랜치](https://github.com/geopm/geopm/tree/cloud#experimental-branch)에는 Kubernetes를 지원하는 새로운 기능이 구현되어 있습니다. 이러한 기능은 각각 프로덕션 준비가 되면 메인 개발 브랜치로 마이그레이션될 예정입니다. 추가 설명서는 서비스 [readme](https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support) 파일과 [런타임 k8 디렉터리](https://github.com/geopm/geopm/tree/cloud/k8)에서 찾을 수 있습니다.
 
+<!-- markdown-link-check-disable-next-line -->
 ## 지속 가능성 관련 활동  <a href="#sustainability-initiatives" id="sustainability-initiatives"></a>
 
 여러 가지 지속 가능성 활동이 진행 중이며, 누락된 항목이 있다면 PR을 제출하여 이 목록이 업데이트 될 수 있도록 도와주세요.
@@ -334,7 +344,7 @@ flowchart TB
 
 * :bee: [그린 소프트웨어 재단](https://greensoftware.foundation/) \
   그린 소프트웨어를 위한 사람, 표준, 도구 및 모범 사례로 구성된 신뢰할 수 있는 에코시스템 구축 \
-  그린 소프트웨어 재단(GSF)은 환경에 유해한 영향을 미치지 않도록 소프트웨어를 구축하는 방식을 바꾸기 위해 존재하는 재단으로, 42개 이상의 회원 조직을 보유하고 있습니다. 주요 축은 지식, 기술 문화 및 도구이며, [표준 워킹 그룹](https://standards.greensoftware.foundation/), [오픈 소스 워킹 그룹](https://opensource.greensoftware.foundation/), [커뮤니티 워킹 그룹](https://community.greensoftware.foundation/) 및 [정책 워킹 그룹](https://policy.greensoftware.foundation/)을 통해 제공됩니다. GSF는 일관성 있는 탄소 측정을 위해 [소프트웨어 탄소 집약도](https://github.com/Green-Software-Foundation/sci)(SCI, Software Carbon Intensity) 표준을 만들어 국제표준화기구(ISO, International Standards Organisatio)에 비준을 요청했습니다. 이 표준은 에너지 그리드가 친환경적일 때 더 많은 일을 하고 더러울 때는 더 적게 하는 도구인 [탄소 인식 SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk), CICD 프로세스에서 탄소를 측정하는 [탄소 파이프라인](https://github.com/Green-Software-Foundation/carbon-ci), SCI 표준에 따라 탄소를 측정하는 표준화된 API인 [CarbonQL](https://github.com/Green-Software-Foundation/carbon-ql)을 통해 코드에서 구현되고 있습니다.
+  그린 소프트웨어 재단(GSF)은 환경에 유해한 영향을 미치지 않도록 소프트웨어를 구축하는 방식을 바꾸기 위해 존재하는 재단으로, 42개 이상의 회원 조직을 보유하고 있습니다. 주요 축은 지식, 기술 문화 및 도구이며, [표준 워킹 그룹](https://standards.greensoftware.foundation/), [오픈 소스 워킹 그룹](https://opensource.greensoftware.foundation/), [커뮤니티 워킹 그룹](https://community.greensoftware.foundation/) 및 [정책 워킹 그룹](https://policy.greensoftware.foundation/)을 통해 제공됩니다. GSF는 일관성 있는 탄소 측정을 위해 [소프트웨어 탄소 집약도](https://github.com/Green-Software-Foundation/sci)(SCI, Software Carbon Intensity) 표준을 만들어 국제표준화기구(ISO, International Standards Organisation)에 비준을 요청했습니다. 이 표준은 에너지 그리드가 친환경적일 때 더 많은 일을 하고 더러울 때는 더 적게 하는 도구인 [탄소 인식 SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk), CI/CD 프로세스에서 탄소를 측정하는 [탄소 파이프라인](https://github.com/Green-Software-Foundation/carbon-ci), SCI 표준에 따라 탄소를 측정하는 표준화된 API인 [CarbonQL](https://github.com/Green-Software-Foundation/carbon-ql)을 통해 코드에서 구현되고 있습니다.
 * :bee: [LF 에너지](https://lfenergy.org/) \
   LF Energy는 리눅스 재단에서 호스팅하는 전력 시스템 부문에 중점을 둔 오픈 소스 재단입니다. LF Energy는 에너지에 대한 세계의 관계를 변화시킬 공유 디지털 투자를 구축하기 위한 중립적이고 협력적인 커뮤니티를 제공합니다. 이 조직에는 핵심 LF 에너지 재단과 호스팅되는 많은 프로젝트 및 워킹 그룹의 저장소가 포함되어 있습니다. 자세한 내용은 [여기](https://landscape.lfenergy.org/)(랜드스케이프)에서 확인할 수 있습니다.
 * :bee: [에너지 효율적인 고성능 컴퓨팅 워킹 그룹](https://eehpcwg.llnl.gov/) \
@@ -366,7 +376,7 @@ flowchart TB
 
 :leafy_green: [2040년까지 탄소중립](https://www.theclimatepledge.com/)을 달성하겠다는 기후 서약
 
-:leafy_green: WeTransfer - [기후 중립을 실현하는 Wetransfer](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)&#x20;
+:leafy_green: WeTransfer - [기후 중립을 실현하는 WeTransfer](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)&#x20;
 
 :leafy_green: Adrian Cockroft, 전 Amazon 지속 가능성 아키텍처 부사장 "[클라우드 컴퓨팅 선구자의 새로운 초점은 지속 가능성 혁신에 있습니다.](https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation)"&#x20;
 
