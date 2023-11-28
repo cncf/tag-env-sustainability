@@ -8,8 +8,6 @@ author: Antonio Di Turi, Atreay Kukanur, Mfon Nta
 reviewers: Kristina Devochko, Leonard Pahlke, Marlow Weston
 ---
 
-## Getting started as a TAG Environmental Sustainability Contributor
-
 <p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/tag-env-logo.png" alt="TAG Environmental Sustainability Logo"></p>
 
 If you are reading this blog it might be that you are interested in contributing to the cloud native sustainability domain. This blog will help you and guide you through the different possibilities that are available for you, like joining the **The Technical Advisory Group** Environmental Sustainability, or one of its associated working groups.
