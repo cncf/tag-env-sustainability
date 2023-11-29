@@ -23,7 +23,7 @@ Centralizing dashboards is a cornerstone of this paradigm shift. With edge devic
 
 Embracing OpenTelemetry isn't just a trend; it's a necessity. This open standard for observability ensures vendor-neutral instrumentation, collection, and export of telemetry data. OpenTelemetry's flexibility, consistency, and growing ecosystem, coupled with support from major observability vendors, position it as the go-to choice for modern applications.
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/KEPLER-OTEL.png"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/KEPLER-OTEL.png" alt="Illustration of how Kepler integrates with OpenTelemetry components"></p>
 
 ## Kepler’s Architectural Brilliance
 
