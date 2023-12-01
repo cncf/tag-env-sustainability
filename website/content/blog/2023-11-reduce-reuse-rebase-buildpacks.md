@@ -1,6 +1,6 @@
 ---
 title: "Reduce, Reuse, Rebase: Sustainable Containers with Buildpacks"
-description: Buildpacks are the greenest choice for container builds
+description: Buildpacks are an environmentally friendly choice for container builds
 slug: 2023-11-reduce-reuse-rebase-buildpacks
 weight: 1
 date:   2023-11-17 00:00:00 +0000
