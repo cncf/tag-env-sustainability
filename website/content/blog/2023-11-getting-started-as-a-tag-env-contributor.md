@@ -31,7 +31,6 @@ Drawing inspiration from international frameworks such as the Paris Climate Acco
 
 You can find more information about the TAG ENV’s mission in the [charter document](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md).
 
-
 The primary goals of the TAG ENV are:
 
 - Identify, define, and support existing (or develop minimal) tooling to assess and refine environmental sustainability approaches.

@@ -4,16 +4,15 @@
   "ignorePatterns": [
     {
       "pattern": "^(http|https):\/\/(www\\.)?(linkedin|twitter)"
+    },
+    {
+      "pattern": "^/landscape(.+)?/"
     }
   ],
   "replacementPatterns": [
     {
       "pattern": "^/images/",
       "replacement": "/website/static/images/"
-    },
-    {
-      "pattern": "^/landscape(.+)?/",
-      "replacement": "/website/content/landscape/"
     },
     {
       "pattern": "^/",

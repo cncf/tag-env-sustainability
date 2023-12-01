@@ -2,55 +2,25 @@
     "version": "0.2",
     "language": "en",
     "caseSensitive": false,
-    "dictionaries": ["en_US", "en-gb", "companies", "softwareTerms", "misc", "filetypes", "tag", "html"],
+    "dictionaries": ["en_US", "en-gb", "companies", "softwareTerms", "misc", "filetypes", "tag", "html", "cpp", "k8s"],
     "ignorePaths": [],
     "dictionaryDefinitions": [
         { "name": "tag", "path": "./tag-custom-dictionary-cspell.txt"}
     ],
-    "words": [
-        "CNCF",
-        "K8s",
-        "Kubernetes",
-        "kubecon",
-        "Roadmap",
-        "CODEOWNERS",
-        "explainability",
-        "APAC",
-        "EMEA",
-        "markdownlint",
-        "Microservices",
-        "microservices",
-        "lifecycles",
-        "toolset",
-        "cgroups",
-        "runtimes",
-        "hyperconverged",
-        "intercompatible",
-        "usecase",
-        "SBOM",
-        "operationalize",
-        "codecov",
-        "cloudcustodian",
-        "coefficiency",
-        "SIEC",
-        "Turi",
-        "Atreay",
-        "Kukanur",
-        "Mfon"
-    ],
     "ignoreWords": [],
     "ignoreRegExpList": [
         "code",
-        "links"
+        "links",
+        "markdown-metadata"
     ],
     "patterns": [
         {
             "name": "code-block-multi-line",
-            "pattern": "/^```(.*)\n([\\s\\S]*?)```$/g"
+            "pattern": "/```(.*)\n([\\s\\S]*?)```($|\n)/g"
         },
         {
             "name": "code-block-single-line",
-            "pattern": "/```(.*)([\\s\\S]*?)```/g"
+            "pattern": "/`{1,3}([^`].*?)`{1,3}/g"
         },
         {
             "name": "code",
@@ -67,6 +37,10 @@
         {
             "name": "links",
             "pattern": ["markdown-links", "html-links"]
+        },
+        {
+            "name": "markdown-metadata",
+            "pattern": "/-{3}(.*)\n([\\s\\S]*?)-{3}/g"
         }
     ]
 }

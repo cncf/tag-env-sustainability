@@ -7,7 +7,7 @@ date:   2023-09-06 10:00:00 +0000
 author: Leonard Pahlke, Kristina Devochko
 ---
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/banner.png"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/banner.png" alt="Banner image for CNCF Cloud Native Sustainability Week 2023"></p>
 
 The CNCF Technical Advisory Group for Environmental Sustainability (TAG ENV) is excited to announce the Cloud Native Sustainability Week 2023 and YOU are invited!
 

@@ -35,13 +35,14 @@ Linkerd improves those efficiency gains even further by taking a different appro
 In the old world, applications would make one connection, send a request, get an answer, and close that connection — not very efficient when you have hundreds or thousands of requests per minute. Today, HTTP/2 and gRPC make a connection once and send multiple requests to avoid this inefficiency.
 
 Kubernetes doesn't handle that out-of-the-box, though. Natively, Kubernetes simply directs the entire connection to a Pod and doesn't worry about how many requests are coming down the connection. This can be problematic: if you're running 10 Pods for a particular workload, and 50 requests come down a single connection, Kubernetes will send all 50 to the same single Pod. In the best case, the other nine Pods just sit idle; in the worst case, the one Pod doing all the work wasn't sized for this peak load and crashes.
-
+<!-- cSpell:ignore Hightower -->
 This inefficiency happens because Kubernetes wasn't designed to look inside the connection and decipher each request – doing so requires a lot of knowledge of what exact protocol is being spoken, and is far out of scope for Kubernetes itself. As Kelsey Hightower famously said, "[Kubernetes is a platform for building platforms](https://twitter.com/kelseyhightower/status/935252923721793536)" – Kubernetes never intended to solve that particular problem since other projects could.
 
 ## Minimizing unusable resources
 
 Imagine you want to fill up a box with rocks. The smaller the rocks, the less wasted space (air gaps between rocks). The same applies to Pods: sizing by peak demand tends to leave much larger amounts of unused capacity, requiring more Pods and costing you money. Allowing sizing of Pods by average demand instead of peak demand leverages more of your existing resources by not forcing you to reserve unused capacity, improving your horizontal scalability by allowing you to run more smaller Pods during peak loads.
 
+<!-- cSpell:ignore Entain -->
 This means that under load, Linkerd can distribute traffic across Pods much more effectively since it *does* the work to understand the protocol and load-balances individual requests. This allows you to assign fewer compute resources to each Pod because you know the load will be equally distributed, and you, therefore, don't have to dedicate huge amounts of resources to the possibility of huge spikes. For example, Entain Australia, a sports betting company, wrote a great [CNCF case study on how Linkerd helped them significantly reduce latency and cost](https://www.cncf.io/case-studies/entain/) thanks to intelligent load balancing.
 
 This approach is not only more resource-efficient and environmentally friendly, requests are also processed faster because they aren't stuck in an overloaded pod queue. And since Linkerd is deliberately trying to choose low-latency Pods, the overall user experience can be better since overall latency is reduced.

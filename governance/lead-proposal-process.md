@@ -122,7 +122,7 @@ Working group and project leads are appointed by the TAG Chairs through the foll
 ### Process of nominations for Working Group and Project Leads
 
 TAG Lead roles are open to all interested participants within the community.
-There are currently no limits of leadership roles for working groups or projects if not specifed otherwise in the WG / project charter document.
+There are currently no limits of leadership roles for working groups or projects if not specified otherwise in the WG / project charter document.
 
 The process of endorsing and selecting individuals will consider the following factors to ensure both the need for proper community representation and the necessary technical expertise:
 
@@ -145,7 +145,7 @@ Upon close of nominations, a decision should be made within the next month.
 
 One of the TAG Leads will open an issue to initiate the nomination process.
 Anyone interested can add a comment to the issue to clearly show interest.
-The comment should adress the points specified below.
+The comment should address the points specified below.
 
 * Justification
   * TAG Community involvement

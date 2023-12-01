@@ -27,6 +27,7 @@ We will host 21 local meetups happening across 16 countries and 4 continents. Be
     <iframe class="embed-responsive-item" src="https://www.google.com/maps/d/u/0/embed?mid=1cYKhhpzyOaLNEs-TIxqQTxYV98NBFJ8&ehbc=2E312F&noprof=1"></iframe>
 </div>
 
+<!-- cSpell:disable -->
 | **Nr** | **Location** | **Date** | **Event Link** | **Name** |
 |---|---|---|---|---|
 | 1 | China, Beijing | Nov.4 | [Link](https://mp.weixin.qq.com/s/0hALcFLFxqB3Mec0fYYO5g) | Sam Yuan, Jiaju Zhang |
@@ -51,6 +52,7 @@ We will host 21 local meetups happening across 16 countries and 4 continents. Be
 | 20 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
 | 21 | USA, South Florida | Oct.19 | [Link](https://community.cncf.io/events/details/cncf-south-florida-presents-south-florida-meetup-cncf-cloud-native-sustainability-week/) | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
 | 22 | USA, Colorado | Oct.16 | [Link](https://www.meetup.com/colorado-kubernetes-cloud-native/events/296665831/) | Karen Chu, Kris Woyna |
+<!-- cSpell:enable -->
 
 ### Virtual Mini Conference on Oct.12
 
@@ -60,6 +62,7 @@ We will host 21 local meetups happening across 16 countries and 4 continents. Be
 
 The blog posts will be published on the [CNCF blog](https://www.cncf.io/blog/) and on the [TAG ENV blog](https://tag-env-sustainability.cncf.io/blog/).
 
+<!-- cSpell:disable -->
 | **Day** | **Blog Post** | **Link** |
 |---|---|---|
 | Monday Oct.9 | Welcome to the Cloud Native Sustainability Week 2023 | [Link](https://tag-env-sustainability.cncf.io/blog/2023-welcome-cloud-native-sustainability-week/) |
@@ -67,9 +70,11 @@ The blog posts will be published on the [CNCF blog](https://www.cncf.io/blog/) a
 | Wednesday Oct.11 | Embracing Edge Computing with Kepler - A Dive into Remote Monitoring, Centralized Dashboarding, and Visualization | [Link](https://tag-env-sustainability.cncf.io/blog/2023-embracing-edge-computing-with-kepler/) |
 | Monday Oct.12 | Towards Optimized Microservices Performance & Sustainability via Istio, Kepler and Smart Scheduling | [Link](https://tag-env-sustainability.cncf.io/blog/2023-sustainability-istio-kepler-smart-scheduling/) |
 | Friday Oct.13 | The road to Scaphandre v1.0 : Challenges and improvements to come on IT energy consumption evaluation | [Link](https://www.cncf.io/blog/2023/10/11/the-road-to-scaphandre-v1-0-challenges-and-improvements-to-come-on-it-energy-consumption-evaluation/) |
+<!-- cSpell:enable -->
 
 ### Livestreams on YouTube by [kubesimplify](https://www.youtube.com/@kubesimplify) with Host Saiyam (Civo) and Divya (Suse)
 
+<!-- cSpell:disable -->
 | **Day** | **Guest** | **Link** |
 |---|---|---|
 | Monday Oct.9 | Henrik Rexed (Dynatrace) |[Link](https://www.youtube.com/live/qthk0dbzFMk?si=ZwtBj6NyXkrJnL1S) |
@@ -77,6 +82,7 @@ The blog posts will be published on the [CNCF blog](https://www.cncf.io/blog/) a
 | Wednesday Oct.11 | Dheeraj Ravula (Avesha) |[Link](https://www.youtube.com/live/6i3wN9EiJUE?si=HJkRtHYF3jVp6BvP) |
 | Thursday Oct.12 | David Aronchick (Expanso) |[Link](https://www.youtube.com/live/j-lToQG7gwg?si=2k0d_t3q-s4xG6n1) |
 | Friday Oct.13 | Saiyam (Civo) Divya (SUSE) |[Link](https://www.youtube.com/live/qXtgoRIQpos?si=ea4h1MZoKLKgHAJe) |
+<!-- cSpell:enable -->
 
 <p class="mt-5 mb-5"><img src="/images/cloud-native-sustainability-week-engine-1.png" alt="CNCF Cloud Native Sustainability Week Generic Engine"></p>
 
@@ -106,5 +112,6 @@ If you are a meetup organizer, we have a [tracking issue](https://github.com/cnc
 
 The event is organized solely by volunteers who dedicate their spare time, making it a true community effort. Without the collective contributions of everyone involved, this event would not have been possible. Thank you to each and every community member for your support and contributions!
 
+<!-- cspell:disable-next-line -->
 Special thanks to Kristina Devochko, Leonard Pahlke, Nancy Chauhan, Mercy Bamiduro and the wider TAG ENV community to help organise the event.
 Many thanks to all the local meetup organizers and the entire CNCF team for their support.
