@@ -7,9 +7,9 @@ date:   2023-11-17 00:00:00 +0000
 author: Joe Kutner
 ---
 
-Container builds can be very wasteful. Every operating system update, new dependency version, and toolchain upgrade results in copious amounts of energy used to build and rebuild our container images; often unnecessarily. It can be costly at scale, which is why Cloud Native Buildpacks were designed to perform builds as efficiently as possible.
+Container builds can be very wasteful. Every operating system update, new dependency version, and toolchain upgrade results in copious amounts of energy used to build and rebuild our container images; often unnecessarily. It can be costly at scale, which is why Cloud Native Buildpacks were designed to perform full builds only when a rebuild is actually required.
 
-Buildpacks are the greenest choice for container builds because the rebaseable layers and advanced caching mechanisms they provide can prevent many images from being rebuilt at all. That's a big shift from many cloud native technologies that assume unlimited resources are available in the cloud.
+Buildpacks transform application source code into container images. They can be used with or without Docker to encapsulate common patterns across builds, which makes containerization easier and more consistent for app developers. Buildpacks also provide advanced caching and patching mechanisms that make them an environmentally friendly choice for container builds. In certain cases, Buildpacks prevent many images from being rebuilt at all. That's a big shift from other cloud native technologies that may assume unlimited cloud resources are available.
 
 <p class="mt-5 mb-5"><img src="/images/blogs/2023-11-reduce-reuse-rebase-buildpacks/cnb-green-logo.png" alt="CNB logo with recycling"></p>
 
