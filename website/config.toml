@@ -52,6 +52,7 @@ description = "TAG Environmental Sustainability focuses on enabling projects and
 languageName ="English"
 # Weight used for sorting.
 weight = 1
+contentDir = "content/en"
 
 [markup]
   [markup.goldmark]
