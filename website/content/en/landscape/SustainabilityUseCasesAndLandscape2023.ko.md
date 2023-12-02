@@ -371,7 +371,7 @@ flowchart TB
 
 [SCI 보고](https://github.com/Green-Software-Foundation/sci-reporting) - SCI 점수를 저장, 호스팅 및 공개적으로 보고하기 위한 인프라와 프로세스를 생성하고, SCI 사양 내에서 기타 관련 보고 요건을 충족합니다.&#x20;
 
-:page_facing_up: [WattTime API](https://www.watttime.org/api-documentation/#introduction)- 전력망의 한계 배출률에 대한 인사이트 제공
+:page_facing_up: [WattTime API](https://docs.watttime.org/#tag/Introduction)- 전력망의 한계 배출률에 대한 인사이트 제공
 
 ### 넷 제로 / 탄소 중립
 

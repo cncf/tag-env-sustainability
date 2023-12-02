@@ -2,7 +2,7 @@
 
 This document describes the process writing blogs for the CNCF TAG Environmental Sustainability (TAG ENV) blog.
 The blog is found under [tag-env-sustainability.cncf.io/blog](https://tag-env-sustainability.cncf.io/blog/).
-The website is part of the TAG ENV repository, blog post are located in this folder [`website/content/blog`](https://github.com/cncf/tag-env-sustainability/tree/main/website/content/blog).
+The website is part of the TAG ENV repository, blog post are located in this folder [`website/content/en/blog`](https://github.com/cncf/tag-env-sustainability/tree/main/website/content/en/blog) for English content.
 
 - [Process for creating blog post](#process-for-creating-blog-post)
   - [Process](#process)

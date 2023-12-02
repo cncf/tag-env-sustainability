@@ -73,7 +73,7 @@ A more complete summary of tasks are described on XYZ.
   - [ ] [**TAG ENV Lead**] Blog post outline and theme has been discussed
 - [ ] [**Author**] Blog post written and ready for review
 - [ ] Review
-  - [ ] [**Author**] blog post PR opened (blog posts are added to the [`website/content/blog`](https://github.com/cncf/tag-env-sustainability/tree/main/website/content/blog) folder, images to [`website/static/images/blog/<YEAR>-<MONTH>-<title>/*.jpg`](https://github.com/cncf/tag-env-sustainability/tree/main/website/static/images))
+  - [ ] [**Author**] blog post PR opened (blog posts are added to the [`website/content/en/blog`](https://github.com/cncf/tag-env-sustainability/tree/main/website/content/en/blog) folder for English content, images to [`website/static/images/blog/<YEAR>-<MONTH>-<title>/*.jpg`](https://github.com/cncf/tag-env-sustainability/tree/main/website/static/images))
   - [ ] [**Author**] notified TAG ENV community for review via Slack on the `tag-env-sustainability` channel.
   - [ ] [**Author**] gave a minimum of a week to collect public feedback, depending on reviews this will get extended. If there is a major event (conference, etc.) or holidays coming up, please extend accordingly.
   - [ ] [**Author**] Feedback and comments have been resolved.

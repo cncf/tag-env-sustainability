@@ -482,7 +482,7 @@ Cloud Carbon Footprint is an open source tool that provides visibility and tooli
 * :page_facing_up: European Environment Agency [EU Greenhouse Emission Intensity](https://www.eea.europa.eu/ims/greenhouse-gas-emission-intensity-of-1)
 * :page_facing_up: electricityMap's [real-time CO2 emission data](https://app.electricitymap.org)
 * [SCI Reporting](https://github.com/Green-Software-Foundation/sci-reporting) - Creating the infrastructure, and processes to store, host, and publicly report SCI scores, and other related reporting requirements within the SCI specification.
-* :page_facing_up: WattTime API [Provides insight into a electricity grid’s marginal emissions rate](https://www.watttime.org/api-documentation/#introduction)
+* :page_facing_up: WattTime API [Provides insight into a electricity grid’s marginal emissions rate](https://docs.watttime.org/#tag/Introduction)
 
 ### Net Zero / Carbon Neutrality
 

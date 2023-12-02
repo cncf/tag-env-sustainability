@@ -39,7 +39,7 @@ The Marketing Communications Working Group has its main focus on the marketing c
 - Plan in-person events at selected conferences
 
 ## Governance
-<!-- cSpell:ignore subteam -->
+<!-- cSpell:ignore subteam, subteams -->
 The working group comms extends the [TAG ENV governance](https://github.com/cncf/tag-env-sustainability/tree/main/governance) by community roles to better delegate tasks across the community. The roles are inspired by the [Kubernetes communications team](https://github.com/kubernetes/community/tree/master/communication/contributor-comms/role-handbooks). The group defines the areas of its work, such as social media, blogging, etc. and creates associated subproject Tech Lead (TL) leadership roles accordingly. Any contributors are encouraged to pursue interest in subteams as contributing team members or as elected TL. General subproject leadership tasks and reporting to the WG Comms is handled by the subproject TL. The rotation of a subproject lead is to be coordinated with the WG Comms Leadership. Roles can rotate across contributors weekly, monthly, or every few months. Subproject TL are approved by the WG Comms Leads and one or more other TAG ENV Lead(s) publicly.
 
 - Recommended one Tech Lead (TL) for each subteam
