@@ -219,7 +219,7 @@ If you know of some that aren't captured here, we would love for you to contribu
 
 ### Runtime System Power Measurement
 
-:green_book: [A summarization of topics and research up to 2016](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
+📗 [A summarization of topics and research up to 2016](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 
 ### Energy Conservation and Carbon Reduction
 
@@ -263,7 +263,7 @@ flowchart TB
 
 #### Cooling / BMC
 
-* :newspaper: :ice_cube: OCP Cooling Telemetry [Improve data center cooling facility efficiency through platform power telemetry](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf) <br>
+* 📰 🧊 OCP Cooling Telemetry [Improve data center cooling facility efficiency through platform power telemetry](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf) <br>
 Data center operators usually over provision facility capacity to ensure enough buffer to fulfill peak demand.
 Over provisioning brings great pressure to data centers' total cost of ownership (TCO).
 Today, the data center management stack has been widely deployed to monitor data center runtime health status and it gathered tons of data across power, temperature, and resource utilization.
@@ -271,7 +271,7 @@ These data create opportunities to optimize data center efficiency through data 
 In this paper, we introduced our practices in cloud environments for using power trend prediction to improve cooling efficiency.
 Meanwhile, this paper discussed some key challenges and design considerations while enabling IT platform data-driven facility control at hyperscale data center, e.g. telemetry collection, messaging mechanism, and management API.
 Effective interoperability among IT devices, facility and management systems is very critical for solution deployment, and the adoption of Open Compute Project design and Redfish API easier system-level integration and reduce deployment costs over different systems and different manufacturers.
-* :ice_cube: BMC Telemetry [Exposes Baseboard Management Controller data in Prometheus format.](https://github.com/gebn/bmc_exporter)
+* 🧊 BMC Telemetry [Exposes Baseboard Management Controller data in Prometheus format.](https://github.com/gebn/bmc_exporter)
 
 ### Methodologies
 
@@ -284,7 +284,7 @@ Effective interoperability among IT devices, facility and management systems is 
 
 #### Observability Methodologies
 
-* :eyes: Open Telemetry [High-quality, ubiquitous, and portable telemetry to enable effective observability](https://opentelemetry.io/)<br>
+* 👀 Open Telemetry [High-quality, ubiquitous, and portable telemetry to enable effective observability](https://opentelemetry.io/)<br>
 A CNCF incubating project designed to create and collect telemetry data from services and software and then forward these to a variety of analysis tools.
 OpenTelemetry integrates with popular libraries and frameworks such as Spring, ASP.NET Core, Express, Quarkus, and others.
 
@@ -322,15 +322,15 @@ flowchart TB
     class obs sections;
 ```
 
-* :eyes: gProfiler [OS code profiling tool to visualize applications' execution sequences and resource usage down to the line of code level](https://docs.gprofiler.io/)<br>
+* 👀 gProfiler [OS code profiling tool to visualize applications' execution sequences and resource usage down to the line of code level](https://docs.gprofiler.io/)<br>
 gProfiler, is a free, self-service, and open source, enabling businesses to improve application performance through continuous profiling, thereby reducing costs and minimizing carbon footprint.
 Granulate users can monitor their carbon emission reduction on the gCenter dashboard, alongside cost and resource reductions, with the CO2 Savings Meter.
-* :eyes: PowerAPI [Python framework for building software-defined power meters](https://github.com/powerapi-ng/)<br>
+* 👀 PowerAPI [Python framework for building software-defined power meters](https://github.com/powerapi-ng/)<br>
 PowerAPI is a middleware toolkit for building software-defined power meters.
 Software-defined power meters are configurable software libraries that can estimate the power consumption of software in real time.
 PowerAPI supports the acquisition of raw metrics from a wide diversity of sensors (eg., physical meters, processor interfaces, hardware counters, OS counters) and the delivery of power consumptions via different channels (including file system, network, web, graphical).
 As a middleware toolkit, PowerAPI offers the capability of assembling power meters «à la carte» to accommodate user requirements.
-* :eyes: [Kubernetes-based Efficient Power Level Exporter:](https://github.com/sustainable-computing-io/kepler)<br>
+* 👀 [Kubernetes-based Efficient Power Level Exporter:](https://github.com/sustainable-computing-io/kepler)<br>
 Kepler leverages eBPF programs to probe per-container energy consumption related to system counters and exports them as Prometheus metrics.
 These metrics help end users monitor their containers’ energy consumption and help cluster administrators make intelligent decisions toward achieving their energy conservation goals.
 The [Kepler Model Server](https://github.com/sustainable-computing-io/kepler-model-server) is an internal program that provides Kepler with ML models for estimating power consumption on Kubernetes workloads.
@@ -338,19 +338,19 @@ The Kepler Model Server pre-trains its models with node energy statistics (label
 Once the models achieve an acceptable performance level, Kepler Model Server exports them via flask routes and Kepler can then access them to calculate per-pod energy consumption metrics given per-pod performance counters.
 Unlike other similar projects, the Kepler Model Server also continuously trains and tunes its pre-trained models using node data scraped by Kepler’s Power Estimate Agents from client clusters.
 This gives Kepler the ability to further adapt its pod energy consumption calculation capabilities to serve clients’ unique systems.
-* :eyes: Scaphandre [Scaphandre](https://github.com/hubblo-org/scaphandre)<br>
+* 👀 Scaphandre [Scaphandre](https://github.com/hubblo-org/scaphandre)<br>
 Scaphandre is a multi-platform monitoring agent, dedicated to power usage / energy consumption metrics and other useful data for reducing ICT software impacts.
-* :eyes: Green Metrics Tool [A holistic framework to measure the energy / co2 of your application.](https://docs.green-coding.berlin/)
-* :eyes: [InfluxData Telegraf Collector](https://github.com/influxdata/telegraf) - an open source, plugin-based agent for collecting, processing, aggregating, and writing metrics.
+* 👀 Green Metrics Tool [A holistic framework to measure the energy / co2 of your application.](https://docs.green-coding.berlin/)
+* 👀 [InfluxData Telegraf Collector](https://github.com/influxdata/telegraf) - an open source, plugin-based agent for collecting, processing, aggregating, and writing metrics.
 Includes multiple input plugins that help determine energy consumption, e.g. [intel_powerstat](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/intel_powerstat) (exposes CPU & DRAM power consumption, CPU temperature, TDP, CPU and uncore frequencies, C-State residencies), [ipmi_sensor](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/ipmi_sensor) (exposes IPMI sensor data), [redfish](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/redfish) (exposes CPU temperature, fan speed, power supply and voltage data as exposed by [DMTF Redfish](https://redfish.dmtf.org/) interfaces), and a high number of plugins that help determine the utilization of individual resources that in turn help identifying where the power is consumed.
 A rich set of available output plugins makes it easy to integrate with various metrics destinations.
-* :eyes: [Carbon QL](https://github.com/Green-Software-Foundation/carbon-ql) - The intent of this project is to build a single API codenamed carbonQL that you can use to measure your software emissions for every runtime environment.
-* :eyes: [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/docs/) <br>
+* 👀 [Carbon QL](https://github.com/Green-Software-Foundation/carbon-ql) - The intent of this project is to build a single API codenamed carbonQL that you can use to measure your software emissions for every runtime environment.
+* 👀 [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/docs/) <br>
 This application pulls usage data (compute, storage, networking, etc.) from major cloud providers and calculates estimated energy (Watt-Hours) and greenhouse gas emissions expressed as carbon dioxide equivalents (metric tons CO2e).
 We display these visualizations in a dashboard for developers, sustainability leaders and other stakeholders in an organization to view and take action. It currently supports AWS, Google Cloud and Microsoft Azure.
-* :eyes: [PowerTOP](https://github.com/fenrus75/powertop) - a Linux tool, which among other things allows you to monitor the power consumption per process running on the Linux machine.
-* :green_book: OSTI [Paper] [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
-* :green_book: [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): The Carbon Aware SDK is a WebApi and Command Line Interface (CLI) to assist in building carbon aware software.
+* 👀 [PowerTOP](https://github.com/fenrus75/powertop) - a Linux tool, which among other things allows you to monitor the power consumption per process running on the Linux machine.
+* 📗 OSTI [Paper] [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
+* 📗 [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): The Carbon Aware SDK is a WebApi and Command Line Interface (CLI) to assist in building carbon aware software.
 
 ### Infrastructure Tooling
 
@@ -395,22 +395,22 @@ flowchart TB
 At the cluster-level scheduling phase, energy to be consumed by the workload can be reduced by intelligent schedulers that are aware of carbon footprint in a data center, thermal temperature and cooling, caching aware, or server power efficiency.
 Batch scheduling according to power costs (carbon, money, et cetera).
 
-* :train: Power Driven Scheduling and Scaling with CPU telemetry in K8s [Power Driven Scheduling and Scaling with CPU telemetry in Kubernetes](https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power) <br>
+* 🚆 Power Driven Scheduling and Scaling with CPU telemetry in K8s [Power Driven Scheduling and Scaling with CPU telemetry in Kubernetes](https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power) <br>
 Telemetry Aware Scheduling, a scheduling extension, and the Kubernetes native Horizontal Pod Autoscaler (HPA) are used to enable cluster automation based on real-time information about the current state of power usage on the node.
 The power metrics used to drive placement and scaling decisions derive from Intel's Running Average Power Limit (RAPL). [collectd](https://collectd.org/) is used to gather the metrics and expose them to Prometheus which makes them available inside the cluster using the Prometheus Adapter.
-* :train: [Intent Driven Orchestration](https://github.com/intel/intent-driven-orchestration) <br>
+* 🚆 [Intent Driven Orchestration](https://github.com/intel/intent-driven-orchestration) <br>
 This grants a new way to do orchestration by moving from an imperative model to an intent driven model for choosing workload placement.
 In this model, the user expresses their intents in the form of objectives (e.g. as required latency, throughput, or reliability targets) and the orchestration stack itself determines what resources in the infrastructure are required to fulfill the objectives.
 This new approach will continue to benefit from community investments in scheduling (determining when & where to place workloads) and be augmented with a continuous running planning loop determining what/how to configure in the system.
 There is already preliminary work being done to leverage this in a power-optimal usage environment.
-* :green_book: Carbon-aware Kubernetes scheduler [A Low Carbon Kubernetes Scheduler](http://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
+* 📗 Carbon-aware Kubernetes scheduler [A Low Carbon Kubernetes Scheduler](http://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
 <!-- markdown-link-check-disable-next-line -->
-* :green_book: Energy aware scheduling [Paper] [Improving Data Center Efficiency Through Holistic Scheduling In Kubernetes](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
+* 📗 Energy aware scheduling [Paper] [Improving Data Center Efficiency Through Holistic Scheduling In Kubernetes](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
 
 #### Scaling
 
-* :speedboat: Predictive VPA [Predictive Vertical Pod Autoscaler (VPA) recommenders pluggable with the default VPA on OpenShift](https://github.com/openshift/predictive-vpa-recommenders)
-* :speedboat: CLEVER [Container Level Energy-efficient VPA Recommender for Kubernetes](https://github.com/sustainable-computing-io/clever):<br>
+* 🚤 Predictive VPA [Predictive Vertical Pod Autoscaler (VPA) recommenders pluggable with the default VPA on OpenShift](https://github.com/openshift/predictive-vpa-recommenders)
+* 🚤 CLEVER [Container Level Energy-efficient VPA Recommender for Kubernetes](https://github.com/sustainable-computing-io/clever):<br>
 Vertical Pod Autoscalers in Kubernetes allow for automatic CPU and memory request and limit adjustment based on historical resource usage measurements.
 A VPA deployment has three main components: VPA Recommender, VPA Updater, and VPA Admission Controller.
 It is possible to replace the default VPA Recommender with a custom Recommender.
@@ -420,17 +420,17 @@ Intuitively, when you lower down the frequencies, you do save energy but the per
 To counter this you can obtain information like ClusterState and CPU frequencies for the nodes after the frequencies were changed.
 CLEVER recomputes the new recommendation for CPU requests for pods managed by the VPA based on the updated CPU frequencies.
 That’s how CLEVER guarantees a similar QoS for a workload by lowering the frequencies to reduce energy but at the same time increasing CPU allocation.
-* :speedboat: [KEDA](https://keda.sh/): Kubernetes Event-driven Autoscaling enables scale-to-zero platforms.
+* 🚤 [KEDA](https://keda.sh/): Kubernetes Event-driven Autoscaling enables scale-to-zero platforms.
 
 #### On-Node Power Management Tuning
 
 Once the region and node are chosen, administrators and users can further tune the node to minimize the amount of power necessary to run workloads.
 This can reduce power 30% or more per node.
 
-* :musical_note: Node tuning via TuneD on OCP [Manage node-level tuning by orchestrating the tuned daemon](https://docs.openshift.com/container-platform/4.10/scalability_and_performance/using-node-tuning-operator.html) <br>
+* 🎵 Node tuning via TuneD on OCP [Manage node-level tuning by orchestrating the tuned daemon](https://docs.openshift.com/container-platform/4.10/scalability_and_performance/using-node-tuning-operator.html) <br>
 The Node Tuning Operator helps you manage node-level tuning by orchestrating the TuneD daemon.
 The majority of high-performance applications require some level of kernel tuning. The Node Tuning Operator provides a unified management interface to users of node-level sysctl's and more flexibility to add custom tuning specified by user needs.
-* :musical_note: Kubernetes Power Manager [Kubernetes Operator designed to expose and utilize Intel specific power management technologies in a Kubernetes Environment](https://github.com/intel/kubernetes-power-manager) <br>
+* 🎵 Kubernetes Power Manager [Kubernetes Operator designed to expose and utilize Intel specific power management technologies in a Kubernetes Environment](https://github.com/intel/kubernetes-power-manager) <br>
 The allocation of CPU resources from a pool of platforms in a container orchestration engine like Kubernetes (K8s) is exclusively based on availability.
 In order to expose and use power management technologies in a Kubernetes context, the Kubernetes Power Manager is a Kubernetes operator created using the Operator SDK.
 The Kubernetes Power Manager makes use of a powerful set of power management technologies that give users more precise control over CPU performance and power usage on a per-core basis.
@@ -438,7 +438,7 @@ Yet, Kubernetes is purposefully built to operate as an abstraction layer between
 Users of Kubernetes who are running performance-critical applications with particular requirements that depend on hardware capabilities have a hurdle as a result of this.
 By enabling the user to adjust the frequencies and determine the priority level of the cores selected by the Kubernetes Native CPU Manager, the Kubernetes Power Manager fills the gap between the hardware feature enablement and the container orchestration layer.
 It has been proven to work with TuneD as well to allow TuneD profiles to bem used to control the power on the nodes according to various frequency tunings.
-* :musical_note: GEOPM [Extensible Power Manager](https://geopm.github.io):<br>
+* 🎵 GEOPM [Extensible Power Manager](https://geopm.github.io):<br>
 Initially specific to HPC environments, but now more generalized, the Global Extensible Open Power Manager (GEOPM) is a framework for exploring power and energy optimizations on heterogeneous platforms. <br>
 The GEOPM software is split into two packages: The GEOPM Service and the GEOPM Runtime. The GEOPM Service provides user-space access to low-level hardware metrics and configuration knobs. The GEOPM Runtime leverages the GEOPM Service to tune hardware settings in reaction to hardware metrics and application feedback. The application feedback is collected through lightweight asynchronous profiling hooks injected with callbacks into middle-ware packages. <br>
 The GEOPM Runtime has a plugin architecture for selecting between optimization algorithms. Some of the built-in algorithms target energy efficiency, and others optimize performance within a power bound.
@@ -453,19 +453,19 @@ There are a number of sustainability initiatives ongoing, if we've missed one pl
 
 ### Organizations
 
-* :honeybee: Green Software Foundation [Building a trusted ecosystem of people, standards, tooling and best practices for green software](https://greensoftware.foundation/) <br>
+* 🐝 Green Software Foundation [Building a trusted ecosystem of people, standards, tooling and best practices for green software](https://greensoftware.foundation/) <br>
   The Green Software Foundation (GSF) exists to change how we build software, [so there are zero harmful environmental effects](https://greensoftware.foundation/articles/theory-of-change), a foundation with over 42 member organizations.
   Key pillars are Knowledge, Tech Culture, and Tooling; which are delivered through a [standards working group](https://standards.greensoftware.foundation/), an [open source working group](https://opensource.greensoftware.foundation/), a [community working group](https://community.greensoftware.foundation/), and a [policy working group](https://policy.greensoftware.foundation/). <br>
   The GSF has created a [software carbon intensity (SCI)](https://github.com/Green-Software-Foundation/software_carbon_intensity) standard, which has been submitted to ISO (International Standards Organisation) for ratification, to ensure we measure carbon consistently. This standard is being implemented in code through the [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) (a tool to do more when the energy grid is green, and less when it is dirty), the [Carbon Pipeline](https://github.com/Green-Software-Foundation/Carbon_CI_Pipeline_Tooling) (measuring carbon in the CI/CD process, and [CarbonQL](https://github.com/Green-Software-Foundation/carbon-ql) - a standardized API for measuring carbon according to the SCI standard.
-* :honeybee: [LF Energy](https://www.lfenergy.org/)<br>
+* 🐝 [LF Energy](https://www.lfenergy.org/)<br>
   LF Energy is an open source foundation focused on the power systems sector, hosted within The Linux Foundation. LF Energy provides a neutral, collaborative community to build the shared digital investments that will transform the world’s relationship to energy.  This organization contains the repositories for the core LF Energy Foundation and many of the hosted projects and working groups. Their landscape can be found [here](https://landscape.lfenergy.org/).
-* :honeybee: Energy Efficient High Performance Computing Working Group [Encourages implementation of energy conservation measures, energy efficient design in high performance computing (HPC)](https://eehpcwg.llnl.gov/)<br>
+* 🐝 Energy Efficient High Performance Computing Working Group [Encourages implementation of energy conservation measures, energy efficient design in high performance computing (HPC)](https://eehpcwg.llnl.gov/)<br>
   Mission is to encourage the implementation of energy conservation measures, energy efficient design in high performance computing (HPC), and
   share ideas.  Can find an extensive collection of papers [here](https://datacenters.lbl.gov/resources?field_focus_areas_tid) that can be
   extrapolated from in terms of patterns to be lifted into the cloud native landscape.
-* :honeybee: [Green Software Training](https://learn.greensoftware.foundation/) <br>
+* 🐝 [Green Software Training](https://learn.greensoftware.foundation/) <br>
   This initiative will teach you how to build, maintain and run greener applications irrespective of the application domain, industry, organization size or type, programming language, or framework; leading to a [Green Software Certification](https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/) backed by the Linux Foundation.
-* :honeybee: [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/)<br>
+* 🐝 [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/)<br>
   Get to know the carbon footprint of your cloud usage - and reduce it.<br>
 Cloud Carbon Footprint is an open source tool that provides visibility and tooling to measure, monitor and reduce your cloud carbon emissions. We use best practice methodologies to convert cloud utilization into estimated energy usage and carbon emissions, producing metrics and carbon savings estimates that can be shared with employees, investors, and other stakeholders.
 * 🐝 [Open Compute Project](https://www.opencompute.org/projects/heat-reuse)<br>
@@ -473,25 +473,25 @@ Cloud Carbon Footprint is an open source tool that provides visibility and tooli
 
 ### Conferences
 
-* :honeybee: Linux Foundation's SustainabilityCon [The first sustainability-focused track by the Linux Foundation](https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/)
-* :honeybee: [EnviroInfo](https://www.enviroinfo2023.eu/): EnviroInfo 2023 is the 37th edition of the long-standing and well-established international and interdisciplinary conference series on leading environmental information and communication technologies.
+* 🐝 Linux Foundation's SustainabilityCon [The first sustainability-focused track by the Linux Foundation](https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/)
+* 🐝 [EnviroInfo](https://www.enviroinfo2023.eu/): EnviroInfo 2023 is the 37th edition of the long-standing and well-established international and interdisciplinary conference series on leading environmental information and communication technologies.
 
 ### Carbon Emissions Reports
 
-* :page_facing_up: IEA [Emissions - Global Energy and CO2 Status Report 2019](https://www.iea.org/reports/global-energy-co2-status-report-2019/emissions)
-* :page_facing_up: European Environment Agency [EU Greenhouse Emission Intensity](https://www.eea.europa.eu/ims/greenhouse-gas-emission-intensity-of-1)
-* :page_facing_up: electricityMap's [real-time CO2 emission data](https://app.electricitymap.org)
+* 📄 IEA [Emissions - Global Energy and CO2 Status Report 2019](https://www.iea.org/reports/global-energy-co2-status-report-2019/emissions)
+* 📄 European Environment Agency [EU Greenhouse Emission Intensity](https://www.eea.europa.eu/ims/greenhouse-gas-emission-intensity-of-1)
+* 📄 electricityMap's [real-time CO2 emission data](https://app.electricitymap.org)
 * [SCI Reporting](https://github.com/Green-Software-Foundation/sci-reporting) - Creating the infrastructure, and processes to store, host, and publicly report SCI scores, and other related reporting requirements within the SCI specification.
-* :page_facing_up: WattTime API [Provides insight into a electricity grid’s marginal emissions rate](https://docs.watttime.org/#tag/Introduction)
+* 📄 WattTime API [Provides insight into a electricity grid’s marginal emissions rate](https://docs.watttime.org/#tag/Introduction)
 
 ### Net Zero / Carbon Neutrality
 
-* :leafy_green: The Climate Pledge [Net-Zero Carbon by 2040](https://www.theclimatepledge.com/)
-* :leafy_green: WeTransfer [WeTransfer becomes Climate Neutral](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)
+* 🥬 The Climate Pledge [Net-Zero Carbon by 2040](https://www.theclimatepledge.com/)
+* 🥬 WeTransfer [WeTransfer becomes Climate Neutral](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)
 <!-- cspell:disable-next-line -->
-* :leafy_green: Adrian Cockroft, ex-Amazon VP of Sustainability Architecture ["Cloud computing pioneer's new focus is on sustainability transformation"](https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation)
-* :leafy_green: Supercritical [Helping businesses achieve net zero](https://gosupercritical.com/)
+* 🥬 Adrian Cockroft, ex-Amazon VP of Sustainability Architecture ["Cloud computing pioneer's new focus is on sustainability transformation"](https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation)
+* 🥬 Supercritical [Helping businesses achieve net zero](https://gosupercritical.com/)
 
 ### Programming Language Efficiency Analysis
 
-* :electric_plug: Energy Efficiency of Languages [The complete set of tools for energy consumption analysis of programming languages, using Computer Language Benchmark Game](https://github.com/greensoftwarelab/Energy-Languages)
+* 🔌 Energy Efficiency of Languages [The complete set of tools for energy consumption analysis of programming languages, using Computer Language Benchmark Game](https://github.com/greensoftwarelab/Energy-Languages)
