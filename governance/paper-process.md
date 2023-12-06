@@ -3,6 +3,27 @@
 This document is intended to provide a consistent mechanism for cloud native environmental sustainability to produce community papers, ensure they are reviewed, and subsequently published.
 Content of this document does not supersede existing processes and is intended to be used in conjunction with [existing proposal to project instructions](process.md).
 
+- [Process for creating papers](#process-for-creating-papers)
+  - [Proposal](#proposal)
+  - [Project](#project)
+    - [Tentative schedule milestones](#tentative-schedule-milestones)
+  - [Milestones](#milestones)
+    - [Audience, Goals, and refining scope](#audience-goals-and-refining-scope)
+    - [Tasking assignment](#tasking-assignment)
+    - [Content rough-in](#content-rough-in)
+      - [Opinions](#opinions)
+      - [References](#references)
+    - [Collaborative](#collaborative)
+    - [Executive summary and content wrap-up](#executive-summary-and-content-wrap-up)
+    - [Narrative voice](#narrative-voice)
+    - [Final group review](#final-group-review)
+    - [Community Review](#community-review)
+    - [Public comment adjudication](#public-comment-adjudication)
+    - [CNCF publishing engagement](#cncf-publishing-engagement)
+    - [Addition to the repo](#addition-to-the-repo)
+    - [Blog publishing and coordination](#blog-publishing-and-coordination)
+      - [Authorship, attribution and acknowledgements](#authorship-attribution-and-acknowledgements)
+
 ## Proposal
 
 If a proposal is made that includes a paper as a deliverable, the proposal needs to ensure that there is a clearly identified lead and a well defined paper scope.
@@ -55,25 +76,25 @@ This milestone is intend to define the following items to assist in generating c
 
 Contributors should highlight and assign themselves to various areas of the outline.
 This allows contributors to focus on a few areas and identify others where more contributors is needed.
-If using a google doc for the paper, assignments may be done through the "assign to me" feature after highlight the area or by using the "+foo@bar.com" comment feature for the assignee's email.
+If using a google doc for the paper, assignments may be done through the "assign to me" feature after highlight the area or by using the `+foo@bar.com` comment feature for the assignee's email.
 Once task assignment is complete, contributors can begin content rough-in.
 
 ### Content rough-in
 
 Assignees can provide content rough-in in a variety of ways.
 They may provide raw content in the form of phrases, disjointed paragraphs, bullets on the topic, or draft content in the form of completed paragraphs.
-If leveraging draft content, placing this content in quotes helps other reviewers know it is 'near-complete' and it should be reviewed as a holistic section.  
+If leveraging draft content, placing this content in quotes helps other reviewers know it is 'near-complete' and it should be reviewed as a holistic section.
 
 #### Opinions
 
-There may be situations where multiple differing views on the subject matter or controls implementation are expressed.  
+There may be situations where multiple differing views on the subject matter or controls implementation are expressed.
 Authors should make every effort to discover the industry standard or practice and document it.
 If none exists and the suggested content cannot be collaboratively resolved, it is the duty of the authors to capture the different views with references, benefits, and drawbacks or contingencies in order to provide the reader with enough information to reach their own conclusion.
 
 #### References
 
 It is important that any references used to generate paper content be cited appropriately through footnotes and within the references section.
-This permits the reader to not only dig deep into a specific reference area but also provides source content and is a matter of good practice.  
+This permits the reader to not only dig deep into a specific reference area but also provides source content and is a matter of good practice.
 
 ### Collaborative
 
@@ -107,12 +128,12 @@ This is the opportunity for the group to collectively review the polished paper 
 
 At this point the paper needs to be locked from editing with the exception of the Adjudicators (see below).
 It should be made public with the permission settings such that suggestions and comments are permitted.
-The lead will then provide a brief write up of a call to action with a link to the document and the due by date for comments. 
+The lead will then provide a brief write up of a call to action with a link to the document and the due by date for comments.
 This write up and corresponding links and details will be emailed to the Environmental Sustainability TAG mailing list, at which point we actively solicit public comment.
 
 ### Public comment adjudication
 
-Prior to opening the paper for community review, the group should select no more than 3 Adjudicators from different organizations/companies and geolocations. These individuals are tasked with accepting/rejecting suggestions, and resolving comments from the community.
+Prior to opening the paper for community review, the group should select no more than 3 Adjudicators from different organizations/companies and geolocation. These individuals are tasked with accepting/rejecting suggestions, and resolving comments from the community.
 Any comments or suggestions that require larger discussion should be brought up in a group meeting and decisively resolved. These should be clearly documented with justification in the notes.
 
 Decisive resolution is the practice by which the group attempts to immediately resolve the comment either as a won't do, out of initial scope, document options, or accept as is. The intent to expediently discuss (no more than two minutes), identify the remedy, and apply it.
@@ -149,7 +170,7 @@ To guide this process follow the steps outlines in the blog post [issue template
 Papers and other resources created from the TAG Environmental Sustainability efforts are under the authorship of the TAG Environmental Sustainability, and all members who have made contributions to the document (through writing, editing, creating illustrations, etc.) are considered "Contributors".
 Members of the public or Environmental Sustainability TAG who have commented and given feedback during the Request for Comment (RFC) period of during the creation of the document are considered "Reviewers" of the project.
 
-Individuals/groups who have made huge contributions/impact on the work can be acknowledged in an "Acknowledgements" section. 
+Individuals/groups who have made huge contributions/impact on the work can be acknowledged in an "Acknowledgements" section.
 This is to highlight stellar contributions and commitments by individuals that have went above and beyond to contribute to the project.
 
 Each document should contain a "Contributors", "Reviewers" and "Acknowledgements" section where appropriate.

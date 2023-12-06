@@ -1,37 +1,46 @@
 ---
-name: Linter
+name: Quality Checks
 
-# Run this workflow on every PR to main
 on:
   pull_request:
-    branches:
-      - main
 
 jobs:
-  Setup:
+  run-quality-checks:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup
-        run: make setup
-  Lint:
-    runs-on: ubuntu-latest
-    needs: Setup
-    steps:
-      - uses: actions/checkout@v3
-      - name: Lint
-        run: make lint
-  Spelling:
-    runs-on: ubuntu-latest
-    needs: Setup
-    steps:
-      - uses: actions/checkout@v3
-      - name: Spelling
-        run: make spelling
-  Links:
-    runs-on: ubuntu-latest
-    needs: Setup
-    steps:
-      - uses: actions/checkout@v3
-      - name: Links
-        run: make links
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+    
+    - uses: tj-actions/changed-files@v39
+      id: changed-files
+      with:
+        files: '**/*.md'
+        separator: ','
+
+    - name: Lint Markdown files
+      uses: DavidAnson/markdownlint-cli2-action@v13.0.0
+      if: steps.changed-files.outputs.any_changed == 'true'
+      with:
+        globs: ${{ steps.changed-files.outputs.all_changed_files }}
+        separator: ','
+        config: '.markdownlint.json' 
+        fix: true
+      continue-on-error: false
+
+    - name: Validate spelling
+      uses: streetsidesoftware/cspell-action@v4.0.1
+      with:
+        config: 'cspell.json'
+        files: '**/*.md'
+        inline: 'error'
+        strict: true        
+        incremental_files_only: true
+    
+    - name: Validate links in Markdown files
+      uses: gaurav-nelson/github-action-markdown-link-check@1.0.15
+      with:
+        check-modified-files-only: 'yes'
+        config-file: 'link-config.json'
+        base-branch: 'main'
+        file-extension: '.md'

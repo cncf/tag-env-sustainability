@@ -52,6 +52,15 @@ description = "TAG Environmental Sustainability focuses on enabling projects and
 languageName ="English"
 # Weight used for sorting.
 weight = 1
+contentDir = "content/en"
+[languages.zh]
+title = "CNCF TAG Environmental Sustainability"
+description = "TAG环境可持续性专注于与交付云原生应用程序相关的扶持项目和举措，包括构建、部署、管理和运营这些应用程序。"
+languageName ="中文"
+# Weight used for sorting.
+weight = 2
+contentDir = "content/zh"
+
 
 [markup]
   [markup.goldmark]
@@ -137,8 +146,8 @@ sidebar_search_disable = false
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/cncf/cartografos/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/cncf/cartografos/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/cncf/tag-env-sustainability/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/cncf/tag-env-sustainability/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page, 

@@ -1,0 +1,33 @@
+{
+  "aliveStatusCodes": [200, 206, 402],
+  "fallbackRetryDelay": "5s",
+  "ignorePatterns": [
+    {
+      "pattern": "^(http|https):\/\/(www\\.)?(linkedin|twitter)"
+    },
+    {
+      "pattern": "^/landscape(.+)?/"
+    }
+  ],
+  "replacementPatterns": [
+    {
+      "pattern": "^/images/",
+      "replacement": "/website/static/images/"
+    },
+    {
+      "pattern": "^/",
+      "replacement": "{{BASEURL}}/"
+    }
+  ],
+  "httpHeaders": [
+    {
+      "urls": ["https://docs.github.com/"],
+      "headers": {
+        "Accept-Encoding": "zstd, br, gzip, deflate"
+      }
+    }
+  ],
+  "retryCount": 3,
+  "retryOn429": true,
+  "timeout": "20s"
+}

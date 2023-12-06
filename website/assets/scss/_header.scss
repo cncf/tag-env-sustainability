@@ -3,15 +3,11 @@
 	background: hsla(0, 0%, 99%, 0.98);
 	padding-left: 0;
 	padding-right: 0;
-	@media (min-width: 768px) {
+	padding-bottom: 0;
+	@include media-breakpoint-up(lg) {
 		padding-top: 15px;
 		padding-bottom: 15px;
 		min-height: 5rem;
-		padding: 0 2rem 0 0;
-	}
-
-	@media (max-width: 500px) {
-		padding-bottom: 0;
 	}
 	&:after {
 		background: linear-gradient(180deg, rgba(0, 0, 0, 0.1), transparent);
@@ -24,7 +20,7 @@
 	}
 	// Logo area.
 	.navbar-brand {
-		@media (min-width: 768px) {
+		@include media-breakpoint-up(lg) {
 			padding-top: 0;
 			padding-bottom: 0rem;
 			margin-left: 2rem;
@@ -40,29 +36,17 @@
 	// Main nav bar.
 	.td-navbar-nav-scroll {
 		margin-top: 0;
-		@media (min-width: 500px) {
-			overflow: visible;
-		}
 		.navbar-nav {
 			padding-bottom: 0;
 			display: flex;
 			align-items: center;
 			align-content: center;
-			@media (max-width: 500px) {
+			@include media-breakpoint-down(md) {
 				padding-bottom: 0;
 				line-height: 3;
-				background-image: linear-gradient(to right, hsla(0, 0%, 99%, 0.98), hsla(0, 0%, 99%, 0.98)),
-					linear-gradient(to right, hsla(0, 0%, 99%, 0.98), hsla(0, 0%, 99%, 0.98)),
-					linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0)),
-					linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
-				background-position: left center, right center, left center, right center;
-				background-repeat: no-repeat;
-				background-color: hsla(0, 0%, 99%, 0.98);
-				background-size: 20px 100%, 20px 100%, 10px 100%, 10px 100%;
-				background-attachment: local, local, scroll, scroll;
 			}
 
-			@media (min-width: 500px) {
+			@include media-breakpoint-up(md) {
 				overflow: visible;
 			}
 
@@ -71,15 +55,19 @@
 					font-weight: 600;
 					padding-right: 0.3rem;
 					padding-left: 0.3rem;
-					@media (max-width: 500px) {
+					@include media-breakpoint-down(md) {
 						padding: 0 !important;
 					}
-					@media (min-width: 768px) {
+					@include media-breakpoint-up(md) {
 						letter-spacing: 0.02em;
 					}
 					span {
 						position: relative;
-						@media (min-width: 501px) {
+						@include media-breakpoint-up(md) {
+							padding-left: 2px;
+							padding-right: 2px;
+						}
+						@media (min-width: 1050px) {
 							padding-left: 6px;
 							padding-right: 6px;
 						}
@@ -89,13 +77,10 @@
 							left: 0;
 							right: 0;
 							bottom: -32px;
-							@media (max-width: 991px) {
+							@include media-breakpoint-down(lg) {
 								bottom: -35px;
 							}
-							@media (max-width: 767px) {
-								bottom: -23px;
-							}
-							@media (max-width: 500px) {
+							@include media-breakpoint-down(md) {
 								bottom: -12px;
 							}
 							height: 4px;
@@ -105,7 +90,7 @@
 						}
 					}
 					&.active span:after {
-						background-color: #ffb800cc;
+						background-color: #4bc400b3;
 					}
 				}
 				// Topnav dropdown.

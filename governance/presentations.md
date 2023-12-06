@@ -1,9 +1,12 @@
-# Environmetal Sustainability TAG presentations
+# Environmental Sustainability TAG presentations
 
 Part of the TAG activities include having guest presentations by members of the community.
 We welcome any topic related to our mission and charter.
 Typical topics include projects, real-world use-cases, challenges or success stories.
 However, presentations must follow the following guidelines.
+
+- [Environmetal Sustainability TAG presentations](#environmental-sustainability-tag-presentations)
+  - [Guidelines](#guidelines)
 
 ## Guidelines
 
@@ -13,11 +16,13 @@ However, presentations must follow the following guidelines.
 - Presentations should abide by the CNCF code of conduct
 
 Examples of topics that are within scope:
+
 - Open source project presentations
 - Environmental Sustainability use-cases and case studies
 - Open source community efforts - whitepapers, communities, standards, etc.
 
 Examples of topics that do NOT meet the guidelines:
+
 - Vendor pitches and marketing heavy presentations
-- Topics unrelated to environmental sustainability, conservation or in broughter context ESG et al.
+- Topics unrelated to environmental sustainability, conservation or in broader context ESG et al.
 - Topics that are help desk questions, that have a definitive, known searchable answer

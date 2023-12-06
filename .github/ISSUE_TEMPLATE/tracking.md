@@ -32,8 +32,7 @@ assignees: ''
 
 ...
 
-#### Todos
-<!-- What plannable actions do you need to do to implement it successfully? -->
+#### To-Do
+<!-- What specific actions do you need to do to implement it successfully? -->
 
 ...
-

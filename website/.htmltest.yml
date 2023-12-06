@@ -1,0 +1,13 @@
+CacheExpires: 4400h # ~ 6 months
+DirectoryPath: public
+IgnoreInternalURLs: # list of paths
+IgnoreURLs: # list of regexs of paths or URLs to be ignored
+
+  # Sites that deny access, always yielding 403 Forbidden (unless mentioned otherwise)
+  - ^https://(www\.)?linkedin\.com # 999 Request Denied
+  - ^https://www\.researchgate\.net
+  - ^https://twitter\.com
+
+  # Ignore Docsy-generated GitHub links:
+  - ^https?://github\.com/.*?/.*?/(new|edit)/ # view-page, edit-source etc
+  - ^https://github.com/cncf/tag-env-sustainability/commit/ # last mod
