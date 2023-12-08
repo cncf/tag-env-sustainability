@@ -39,18 +39,17 @@ However, it is important to understand that this is only a compensation and does
 
 Goods and services that use fewer resources and create less waste and pollution.
 
+#### **Embodied (Carbon) Emissions**
+
+Embodied (sometimes substituted with the word Embedded) Carbon Emissions are all emissions caused during a good's production. 
+That can include anything from transportation, storage, heating, the production of other goods to finish this good and so on.
+
 #### **Emissions**
 
 This is an umbrella term that usually is used to refer to gasses, but can also include other factors such as micro-particles. Emissions are categorized into three scopes:
 Scope 1: direct emissions: for example the CO2 output of the vehicles owned by the company
 Scope 2: indirect emissions: for example the power consumption of a data center, that causes emissions by the production of electricity
 Scope 3: indirect emissions, that not directly can be changed: for example delivery chain caused CO2 pollution
-
-
-#### **Embodied (Carbon) Emissions**
-
-Embodied (sometimes substituted with the word Embedded) Carbon Emissions are all emissions caused during a good's production. 
-That can include anything from transportation, storage, heating, the production of other goods to finish this good and so on.
 
 #### **Environmental Sustainability**
 
