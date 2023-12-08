@@ -81,7 +81,7 @@ copyright = "CNCF"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
-image = "https://tag-env-sustainability.cncf.io/images/cncf-sustainability-share.jpg"
+image = "https://tag-env-sustainability.cncf.io/images/cncf-sustainability-share.webp"
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.

@@ -8,7 +8,7 @@ aliases:
   - /cloud-native-sustainability-week
 ---
 
-<p class="mt-5 mb-5"><img src="/images/cloud-native-sustainability-week-banner.png" alt="CNCF Cloud Native Sustainability Week Banner"></p>
+<p class="mt-5 mb-5"><img src="/images/cloud-native-sustainability-week-banner.webp" alt="CNCF Cloud Native Sustainability Week Banner"></p>
 
 The CNCF Global Week of Cloud Native Sustainability is an event organized by the [CNCF TAG Environmental Sustainability](http://github.com/cncf/tag-env-sustainability) and the wider [Cloud Native Computing Foundation (CNCF) community](http://cncf.io) to address the emerging topic of environmental sustainability in the cloud native industry and open source space. The event aims to engage with the community and IT industry as a whole, get a better understanding of the current environmental sustainability landscape, and promote collaboration and knowledge sharing on the topic.
 
@@ -84,7 +84,7 @@ The blog posts will be published on the [CNCF blog](https://www.cncf.io/blog/) a
 | Friday Oct.13 | Saiyam (Civo) Divya (SUSE) |[Link](https://www.youtube.com/live/qXtgoRIQpos?si=ea4h1MZoKLKgHAJe) |
 <!-- cSpell:enable -->
 
-<p class="mt-5 mb-5"><img src="/images/cloud-native-sustainability-week-engine-1.png" alt="CNCF Cloud Native Sustainability Week Generic Engine"></p>
+<p class="mt-5 mb-5"><img src="/images/cloud-native-sustainability-week-engine-1.webp" alt="CNCF Cloud Native Sustainability Week Generic Engine"></p>
 
 ## Event Goals
 

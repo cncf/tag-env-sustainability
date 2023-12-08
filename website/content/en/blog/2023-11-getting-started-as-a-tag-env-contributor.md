@@ -8,7 +8,7 @@ author: Antonio Di Turi, Atreay Kukanur, Mfon Nta
 reviewers: Kristina Devochko, Leonard Pahlke, Marlow Weston
 ---
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/tag-env-logo.png" alt="TAG Environmental Sustainability Logo"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/tag-env-logo.webp" alt="TAG Environmental Sustainability Logo"></p>
 
 If you are reading this blog it might be that you are interested in contributing to the cloud native sustainability domain. This blog will help you and guide you through the different possibilities that are available for you, like joining the **The Technical Advisory Group** Environmental Sustainability, or one of its associated working groups.
 
@@ -60,13 +60,13 @@ We provide resources and support, ensuring you don't have to start from scratch.
 Our mission includes incubating open source projects to measure and reduce carbon footprints in cloud native infrastructure.
 We aim to raise awareness of environmental sustainability in open source and support projects that promote energy-efficient solutions, positively impacting the community.
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/tag-working-groups.png" alt="Overview of TAG Environmental Sustainability structure and Working Groups"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/tag-working-groups.webp" alt="Overview of TAG Environmental Sustainability structure and Working Groups"></p>
 
 [Join us](https://github.com/cncf/tag-env-sustainability#contact) and let's make a difference together!
 
 ## Making a meaningful impact as part of the CNCF TAG Environmental Sustainability
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/7-simple-ways-to-contribute.png" alt="Visualization of different ways how one can contribute to the TAG Environmental Sustainability"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/7-simple-ways-to-contribute.webp" alt="Visualization of different ways how one can contribute to the TAG Environmental Sustainability"></p>
 
 With the mounting challenges our planet faces, efforts from all corners are essential.
 Here you can find some of the suggested actions that will help you get started:

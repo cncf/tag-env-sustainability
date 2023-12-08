@@ -7,7 +7,7 @@ date:   2023-09-06 10:00:00 +0000
 author: Leonard Pahlke, Kristina Devochko
 ---
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/banner.png" alt="Banner image for CNCF Cloud Native Sustainability Week 2023"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/banner.webp" alt="Banner image for CNCF Cloud Native Sustainability Week 2023"></p>
 
 The CNCF Technical Advisory Group for Environmental Sustainability (TAG ENV) is excited to announce the Cloud Native Sustainability Week 2023 and YOU are invited!
 
@@ -15,7 +15,7 @@ Cloud Native Sustainability Week is a global event organized by the CNCF communi
 
 You can find an overview of all the local meetups, including event links and organizer information here (please note that not all details are yet finalized, and the table is being updated continuously): <https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/#meetup-locations>
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/map.png" alt="Picture 1: A visual representation of all the Cloud Native Sustainability Week local meetups displayed on a map"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/map.webp" alt="Picture 1: A visual representation of all the Cloud Native Sustainability Week local meetups displayed on a map"></p>
 
 The picture above is a visual representation of all the Cloud Native Sustainability Week local meetups. A lot of collaborative community effort is being put into making Cloud Native Sustainability Week a truly global event!
 
