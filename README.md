@@ -22,6 +22,7 @@ Following [working groups](https://github.com/cncf/toc/tree/main/workinggroups) 
 
 Please take a look at the [Project folder](projects/README.md) to discover all smaller scoped projects of the TAG.
 
+<!-- cSpell:ignore Linktree -->
 ## Contact
 
 All the most important links for TAG Environmental Sustainability are also available from a single Linktree page: [cncfenvtag](https://linktr.ee/cncfenvtag).

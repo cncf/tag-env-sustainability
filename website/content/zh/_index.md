@@ -41,7 +41,7 @@ time](https://dateful.com/convert/utc?t=16)).
 您可以通过两种方式将工作组会议系列添加到行日程中。
 
 第一种方式是通过一下链接[https://icalfilter.com/j9732u68l2](https://icalfilter.com/j9732u68l2)导入TAG Environmental Sustainability CNCF日程到您自己的日程。
-使用这个日历的指南: [Subscribe to someone’s Google Calendar](https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DDesktop). 
+使用这个日历的指南: [Subscribe to someone’s Google Calendar](https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DDesktop).
 
 第二个方式是通过这个链接[https://icalfilter.com/j9732u68l2](https://icalfilter.com/j9732u68l2)下载对应的 .ics 文件。在这个情况下，您的日历不是自动更新的。
 

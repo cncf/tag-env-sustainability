@@ -17,7 +17,7 @@ The following individuals are currently the working group chairs:
 - Tricia Cahill, [@patricia-cahill](https://github.com/patricia-cahill), start of term 01.10.2023
 <!-- cSpell:enable -->
 
-In addition to working group chairs there are currently two subleads that focus on specific activity areas of the Communications working group:
+In addition to working group chairs there are currently two subarea leads that focus on specific activity areas of the Communications working group:
 
 <!-- cSpell:disable -->
 - Blog lead: Savitha Raghunathan, [@savitharaghunathan](https://github.com/savitharaghunathan)
