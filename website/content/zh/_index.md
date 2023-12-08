@@ -22,7 +22,7 @@ toc_hide: true
 - [GitHub Repository](https://github.com/cncf/tag-env-sustainability)
 - [TAG Charter](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md)
 - [Events](https://tag-env-sustainability.cncf.io/events/)
-- Slack channels: [#tag-env-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) and [#wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431)
+- Slack channels: [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6), [#tag-env-wg-comms](https://cloud-native.slack.com/archives/C068XUD9AEA) and [#tag-env-wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431)
   - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
 - Social media accounts:
   - [LinkedIn](https://www.linkedin.com/company/cncf-tag-environmental-sustainability)

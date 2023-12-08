@@ -22,7 +22,7 @@ Meetings are held to coordinate and discuss TAG ENV activities. The TAG ENV lead
 
 * Add a new blank agenda entry to the [meeting notes](https://bit.ly/cncf-tag-env-meeting-notes) by copying the template and editing the details accordingly.
 * Announce a day in advance in Slack to add agenda items to [meeting notes](https://bit.ly/cncf-tag-env-meeting-notes).
-* Announce the meeting about an hour before in the `#tag-env-sustainability` Slack channel.
+* Announce the meeting about an hour before in the `#tag-environmental-sustainability` Slack channel.
 * Announce the meeting over [social media](https://github.com/cncf/tag-env-sustainability#contact) a day before. If there is a special presentation / occasion. You may want to announce it a total of two times a week in advance.
 
   ```markdown

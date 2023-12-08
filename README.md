@@ -16,12 +16,15 @@ Following [working groups](https://github.com/cncf/toc/tree/main/workinggroups) 
 | Working Group | Scope and Goals            | Meeting Time                          |
 |---------------|-------------------|---------------------------------------|
 | [Green Reviews](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/green-reviews) | [green-reviews/charter.md](./working-groups/green-reviews/charter.md) | [green-reviews/README.md#meetings-and-contact](./working-groups/green-reviews/README.md#meetings-and-contact) |
+| [Communications](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/communications) | [communications/charter.md](./working-groups/communications/charter.md) | [communications/README.md#meetings-and-contact](./working-groups/communications/README.md#meetings-and-contact) |
 
 ## Projects
 
 Please take a look at the [Project folder](projects/README.md) to discover all smaller scoped projects of the TAG.
 
 ## Contact
+
+All the most important links for TAG Environmental Sustainability are also available from a single Linktree page: [cncfenvtag](https://linktr.ee/cncfenvtag).
 
 * Meetings are every 1st and 3rd Wed at 8am PST on [Zoom](https://zoom.us/my/cncftagenvsustainability).
 
@@ -31,7 +34,10 @@ Please take a look at the [Project folder](projects/README.md) to discover all s
 
   Meeting notes & agenda [here](https://docs.google.com/document/d/1TkmMyXJABC66NfYmivnh7z8Y_vpq9f9foaOuDVQS_Lo/edit#)
 * [Mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/) via [cncf-tag-env-sustainability@lists.cncf.io](mailto:cncf-tag-env-sustainability@lists.cncf.io)
-* Slack: [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) and [#wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431) slack channels on slack.cncf.io
+* Slack channels on ```slack.cncf.io```:
+  * [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6)
+  * [#tag-env-wg-comms](https://cloud-native.slack.com/archives/C068XUD9AEA)
+  * [#tag-env-wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431)
 * Social Media:
   * LinkedIn: [CNCF TAG Environmental Sustainability](https://www.linkedin.com/company/cncf-tag-environmental-sustainability)
   * Twitter/X: [@CNCFEnvTAG](https://twitter.com/CNCFEnvTAG)
