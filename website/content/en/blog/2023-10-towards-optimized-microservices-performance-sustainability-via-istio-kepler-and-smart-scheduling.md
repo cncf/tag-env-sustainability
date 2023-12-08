@@ -33,7 +33,7 @@ Our main focus is on the hotelReservation end-to-end service, an essential part 
 
 Kepler, known as the "Kubernetes-based Efficient Power Level Exporter," operates by utilizing eBPF technology to examine CPU performance counters and Linux kernel tracepoints. These gathered data, including information from BPF context switch events and sysfs, are inputted into machine learning models. This process enables us to estimate the power consumption of Kubernetes Pods accurately. From its inception, Kepler adheres to three fundamental principles: it is designed to be ubiquitous, capable of running on various platforms like bare-metal or virtual machines, supporting different architectures such as x86, ARM, or S390. Additionally, it is lightweight, ensuring a small footprint and low overhead, and it is grounded in scientific research, relying on well-studied principles.
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/241-kepler.png" alt="Kepler Architecture"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/241-kepler.webp" alt="Kepler Architecture"></p>
 
 For bare-metal environments, Kepler employs CPU performance counters, monitoring aspects like CPU cycles, instructions, and cache misses. It also utilizes RAPL to provide energy readings. Furthermore, it employs a usage-based ratio method, attributing energy consumption to processes based on the percentage of total CPU instructions consumed.
 
@@ -53,7 +53,7 @@ Scenario 2: Customized Service Allocation
 
 In contrast, the second scenario adopts a more targeted approach. Here, the "Data Store" Service is strategically placed on Worker01, while the "Business Logic" Service finds its home on Worker02. This customization allows for meticulous resource allocation, aligning services with nodes that best suit their computational and memory needs.
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/241-scheduling.png" alt="Typical Scheduling Policy"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/241-scheduling.webp" alt="Typical Scheduling Policy"></p>
 
 In terms of performance, there were notable differences between the scenarios. In the default Kubernetes scenario, the P99 latency and transactions per second (TPS) were superior compared to the second scenario. However, when considering energy consumption, the graph displayed the energy consumption trends of all pods within the hotel-res namespace over time. Notably, the energy consumption between the two scenarios remained relatively similar.
 
@@ -63,7 +63,7 @@ In the Kubernetes cluster environment, Smart Scheduling executes by scheduling p
 
 Temporal Difference, a specific formula, calculates the Q-Value, gauging the effectiveness of an action (A) taken at a given state (S). This value, denoted as `Q(A, S)`, is iteratively updated using the Bellman equation and temporal differences. The objective is to minimize state transfer costs, optimizing Smart Scheduling’s decisions within the Kubernetes cluster.
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/241-test-result.png" alt="Scheduling Policy Result"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/241-test-result.webp" alt="Scheduling Policy Result"></p>
 
 Through our analysis, we have identified an optimized scheduling approach. In Scenario 3, the strategy involves scheduling the database service on a single node while relying on Kubernetes' default scheduling for the Business Logic service. This configuration outperformed both Scenario 1 and Scenario 2. This means that by dedicating one node specifically for the database service and utilizing Kubernetes' default settings for Business Logic, the overall system performance ans sustainability were significantly improved.
 

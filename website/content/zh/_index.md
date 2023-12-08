@@ -14,7 +14,7 @@ toc_hide: true
     </div>
 </div>
 
-<p class="mt-5 mb-5"><img src="/images/tag-env-sustainability-header.png" alt="TAG Environmental Sustainability"></p>
+<p class="mt-5 mb-5"><img src="/images/tag-env-sustainability-header.webp" alt="TAG Environmental Sustainability"></p>
 
 本TAG的目标是倡导、开发、支持和帮助评估云原生技术中的环境可持续性举措。
 本TAG将会通过云原生工具来定义价值和可能性从而为服务供应者减少能源消耗和碳足迹。
