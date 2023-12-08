@@ -13,11 +13,12 @@
 {{ $gh_subdir := index $github "subdir" }}
 {{ $gh_project_repo := index $github "project_repo" }}
 {{ $gh_branch := (default "main" (index $github "branch")) }}
+{{ $lang := $.Site.Language.Lang }}
 {{ if $gh_repo }}
 <div class="td-page-meta ml-2 pb-1 pt-2 mb-0">
 {{ $gh_repo_path := printf "%s/content/%s" $gh_branch $pathFormatted }}
 {{ if $gh_subdir }}
-{{ $gh_repo_path = printf "%s/%s/content/%s" $gh_branch $gh_subdir $pathFormatted }}
+{{ $gh_repo_path = printf "%s/%s/content/%s/%s" $gh_branch $gh_subdir $lang $pathFormatted }}
 {{ end }}
 {{ $editURL := printf "%s/edit/%s" $gh_repo $gh_repo_path }}
 {{ $createURL := printf "%s/edit/%s" $gh_repo $gh_repo_path }}
