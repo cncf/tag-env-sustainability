@@ -20,10 +20,16 @@ toc_hide: true
 
 This TAG's goal is to advocate for, develop, support, and help evaluate environmental sustainability initiatives in cloud native technologies. This TAG will identify values and possible incentives for service providers to reduce their consumption and carbon footprint through cloud native tooling.
 
+<!-- cSpell:ignore Linktree -->
+All the most important links for TAG Environmental Sustainability are also available from a single Linktree page: [cncfenvtag](https://linktr.ee/cncfenvtag).
+
 - [GitHub Repository](https://github.com/cncf/tag-env-sustainability)
 - [TAG Charter](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md)
 - [Events](https://tag-env-sustainability.cncf.io/events/)
-- Slack channels: [#tag-env-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) and [#wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431)
+- Slack channels:
+  - [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6)
+  - [#tag-env-wg-comms](https://cloud-native.slack.com/archives/C068XUD9AEA)
+  - [#tag-env-wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431)
   - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
 - Social media accounts:
   - [LinkedIn](https://www.linkedin.com/company/cncf-tag-environmental-sustainability)
@@ -37,7 +43,7 @@ This TAG's goal is to advocate for, develop, support, and help evaluate environm
 time](https://dateful.com/convert/utc?t=16)).
 
 Meetings are listed on the [main CNCF calendar](https://www.cncf.io/calendar/)
-as well as the [TAG ENV Calendar](https://tockify.com/cncf.public.events/monthly?search=TAG%20Environmental%20Sustainability).
+as well as the [TAG ENV Calendar](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com&ctz=America%2FChicago).
 
 You can add working group meeting series to your calendar in two ways.
 

@@ -78,7 +78,7 @@ By including these sections, you have more guidance for a well-structured and ta
 ### Asking for reviews
 
 When seeking blog post reviews, it is essential to adopt a public and transparent approach to encourage participation and diverse perspectives.
-Begin by posting a Slack message in `#tag-env-sustainability`, asking for reviews and providing a link to the blog post.
+Begin by posting a Slack message in `#tag-environmental-sustainability`, asking for reviews and providing a link to the blog post.
 Post under their GitHub issue once you've taken someone's feedback so they can take another look at it.
 Additionally, consider mentioning the blog post during one of the TAG meetings to raise awareness.
 In the event of insufficient reviews, notify the assigned TAG Lead, seeking their support in facilitating the review process.

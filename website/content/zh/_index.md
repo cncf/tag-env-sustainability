@@ -22,7 +22,7 @@ toc_hide: true
 - [GitHub Repository](https://github.com/cncf/tag-env-sustainability)
 - [TAG Charter](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md)
 - [Events](https://tag-env-sustainability.cncf.io/events/)
-- Slack channels: [#tag-env-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) and [#wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431)
+- Slack channels: [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6), [#tag-env-wg-comms](https://cloud-native.slack.com/archives/C068XUD9AEA) and [#tag-env-wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431)
   - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
 - Social media accounts:
   - [LinkedIn](https://www.linkedin.com/company/cncf-tag-environmental-sustainability)
@@ -36,12 +36,12 @@ toc_hide: true
 time](https://dateful.com/convert/utc?t=16)).
 
 获取会议日程表 [main CNCF calendar](https://www.cncf.io/calendar/)
-或者 [TAG ENV Calendar](https://tockify.com/cncf.public.events/monthly?search=TAG%20Environmental%20Sustainability).
+或者 [TAG ENV Calendar](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com&ctz=America%2FChicago).
 
 您可以通过两种方式将工作组会议系列添加到行日程中。
 
 第一种方式是通过一下链接[https://icalfilter.com/j9732u68l2](https://icalfilter.com/j9732u68l2)导入TAG Environmental Sustainability CNCF日程到您自己的日程。
-使用这个日历的指南: [Subscribe to someone’s Google Calendar](https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DDesktop). 
+使用这个日历的指南: [Subscribe to someone’s Google Calendar](https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DDesktop).
 
 第二个方式是通过这个链接[https://icalfilter.com/j9732u68l2](https://icalfilter.com/j9732u68l2)下载对应的 .ics 文件。在这个情况下，您的日历不是自动更新的。
 
