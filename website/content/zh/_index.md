@@ -36,7 +36,7 @@ toc_hide: true
 time](https://dateful.com/convert/utc?t=16)).
 
 获取会议日程表 [main CNCF calendar](https://www.cncf.io/calendar/)
-或者 [TAG ENV Calendar](https://tockify.com/cncf.public.events/monthly?search=TAG%20Environmental%20Sustainability).
+或者 [TAG ENV Calendar](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com&ctz=America%2FChicago).
 
 您可以通过两种方式将工作组会议系列添加到行日程中。
 

@@ -96,7 +96,7 @@ Meetings are held to coordinate and discuss TAG ENV activities. The TAG ENV lead
 
   <list of outstanding discussion items>
 
-  Talk to you all latest at the next TAG ENV meeting on the [<data>](https://tockify.com/cncf.public.events/monthly?search=TAG%20Environmental%20Sustainability).
+  Talk to you all latest at the next TAG ENV meeting on the [<data>](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com&ctz=America%2FChicago).
   ```
 
 Go to the [CNCF TAG YouTube Channel Studio Page](https://studio.youtube.com/channel/UCMOopJuyyIWB8vXGct1ffNw/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D) and look up your recent meeting. This may take up to 1h to show up.

@@ -43,7 +43,7 @@ All the most important links for TAG Environmental Sustainability are also avail
 time](https://dateful.com/convert/utc?t=16)).
 
 Meetings are listed on the [main CNCF calendar](https://www.cncf.io/calendar/)
-as well as the [TAG ENV Calendar](https://tockify.com/cncf.public.events/monthly?search=TAG%20Environmental%20Sustainability).
+as well as the [TAG ENV Calendar](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com&ctz=America%2FChicago).
 
 You can add working group meeting series to your calendar in two ways.
 
