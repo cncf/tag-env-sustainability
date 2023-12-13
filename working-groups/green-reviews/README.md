@@ -6,15 +6,21 @@ The Green Reviews Working Group helps CNCF projects assess and improve their clo
 
 See the working group charter here: <https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/green-reviews/charter.md>
 
-## Chairs
+## Leads
 
 The working group currently has 2 chairs serving a term of 6 months and as long as at least 1 of the chairs is able to maintain continuity. The working group inherits and follows the CNCF TAG Environmental Sustainability Working Group Chair [nomination process](https://github.com/cncf/tag-env-sustainability/blob/main/governance/lead-proposal-process.md#process-of-nominations-for-working-group-and-project-leads).
 
-The following individuals are currently the working group chairs:
+### Chairs
 
 <!-- cSpell:disable -->
 - Niki Manoledaki, [@nikimanoledaki](http://github.com/nikimanoledaki), start of term 01.08.2023
-- Kristina Devochko, [@guidemetothemoon](http://github.com/guidemetothemoon), start of term 01.08.2023
+- Antonio Di Turi, [@AntonioDiTuri](https://github.com/AntonioDiTuri), start of term 14.12.2023
+<!-- cSpell:enable -->
+
+### Tech Leads
+
+<!-- cSpell:disable -->
+- Ross Fairbanks, [@rossf7](https://github.com/rossf7), serving as TL since 14.12.2023
 <!-- cSpell:enable -->
 
 ## Meetings and Contact
