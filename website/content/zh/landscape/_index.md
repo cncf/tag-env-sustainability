@@ -218,7 +218,7 @@ Huamin Chen, [Marlow Weston](https://github.com/catblade), [Niki Manoledaki](htt
 
 ### 运行时系统功率测量
 
-:green_book: [A summarization of topics and research up to 2016](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
+📗 [A summarization of topics and research up to 2016](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 
 ### 能源保护和减少碳排
 
@@ -262,7 +262,7 @@ flowchart TB
 
 #### 制冷
 
-* :newspaper: :ice_cube: OCP冷却遥测[Improve data center cooling facility efficiency through platform power telemetry](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf) <br>
+* 📰 🧊 OCP冷却遥测[Improve data center cooling facility efficiency through platform power telemetry](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf) <br>
 数据中心运营商通常会过度提供设施容量，以确保有足够的缓冲区来满足峰值需求。
 过度资源调配给数据中心的总体拥有成本（TCO）带来了巨大压力。
 如今，数据中心管理堆栈已被广泛部署用于监测数据中心运行时的健康状况，它收集了大量有关功率、温度和资源利用率的数据。
@@ -270,7 +270,7 @@ flowchart TB
 在本文中，我们介绍了我们在云环境中使用功率趋势预测来提高冷却效率的实践。
 同时，本文讨论了在超大规模数据中心实现IT平台数据驱动设施控制时的一些关键挑战和设计注意事项，如遥测采集、消息传递机制和管理API。
 IT设备、设施和管理系统之间的有效互操作性对于解决方案部署至关重要，采用开放计算项目设计和Redfish API更容易实现系统级集成，并降低不同系统和不同制造商的部署成本。
-* :ice_cube: BMC Telemetry [Exposes Baseboard Management Controller data in Prometheus format.](https://github.com/gebn/bmc_exporter)
+* 🧊 BMC Telemetry [Exposes Baseboard Management Controller data in Prometheus format.](https://github.com/gebn/bmc_exporter)
 
 ### 方法论
 
@@ -283,7 +283,7 @@ IT设备、设施和管理系统之间的有效互操作性对于解决方案部
 
 #### 观测方法论
 
-* :eyes: Open Telemetry [High-quality, ubiquitous, and portable telemetry to enable effective observability](https://opentelemetry.io/)<br>
+* 👀 Open Telemetry [High-quality, ubiquitous, and portable telemetry to enable effective observability](https://opentelemetry.io/)<br>
 CNCF孵化项目旨在创建和收集来自服务和软件的遥测数据，然后将这些数据转发到各种分析工具。
 OpenTelemetry集成了流行的库和框架，如Spring、ASP。NET Core、Express、Quarkus和其他。
 
@@ -321,15 +321,15 @@ flowchart TB
     class obs sections;
 ```
 
-* :eyes: gProfiler [OS code profiling tool to visualize applications' execution sequences and resource usage down to the line of code level](https://docs.gprofiler.io/)<br>
+* 👀 gProfiler [OS code profiling tool to visualize applications' execution sequences and resource usage down to the line of code level](https://docs.gprofiler.io/)<br>
 gProfiler是一款免费的、自助服务的开源软件，使企业能够通过持续的分析来提高应用程序性能，从而降低成本并最大限度地减少碳足迹。
 Granulate用户可以在gCenter仪表板上使用CO2节能计监测其碳排放减少情况，以及成本和资源减少情况。
-* :eyes: PowerAPI [Python framework for building software-defined power meters](https://github.com/powerapi-ng/)<br>
+* 👀 PowerAPI [Python framework for building software-defined power meters](https://github.com/powerapi-ng/)<br>
 PowerAPI是一个中间件工具包，用于构建软件定义的功率表。
 软件定义的功率表是可配置的软件库，可以实时估计软件的功耗。
 PowerAPI支持从各种传感器（例如，物理仪表、处理器接口、硬件计数器、操作系统计数器）获取原始指标，并通过不同渠道（包括文件系统、网络、web、图形）提供功耗。
 作为一个中间件工具包，PowerAPI提供了组装功率表的能力，以满足用户的需求。
-* :eyes: [Kubernetes-based Efficient Power Level Exporter:](https://github.com/sustainable-computing-io/kepler)<br>
+* 👀 [Kubernetes-based Efficient Power Level Exporter:](https://github.com/sustainable-computing-io/kepler)<br>
 Kepler利用eBPF程序来探测与系统计数器相关的每个容器的能耗，并将其导出为Prometheus指标。
 这些指标有助于最终用户监控其容器的能耗，并帮助集群管理员为实现其节能目标做出明智的决策。
 The [Kepler Model Server](https://github.com/sustainable-computing-io/kepler-model-server) 是一个内部程序，为Kepler提供ML模型，用于估计Kubernetes工作负载的功耗。
@@ -337,18 +337,18 @@ Kepler Model Server在各种不同的Kubernetes集群和工作负载上使用节
 一旦模型达到可接受的性能水平，Kepler Model Server就会通过flask导出它们，然后Kepler可以访问它们来计算每个Pod的能耗指标，给出每个Pod的性能计数器。
 与其他类似项目不同，Kepler Model Server还使用Kepler功率估计代理从客户端集群中收集的节点数据来连续训练和调整其预训练模型。
 这使Kepler能够进一步调整其Pod能耗计算能力，为客户的独特系统提供服务。
-* :eyes: Scaphandre [Scaphandre](https://github.com/hubblo-org/scaphandre)<br>
+* 👀 Scaphandre [Scaphandre](https://github.com/hubblo-org/scaphandre)<br>
 Scaphandre是一个多平台监测代理，致力于电力使用/能源消耗指标和其他有用数据，以减少ICT软件的影响。
-* :eyes: Green Metrics Tool [A holistic framework to measure the energy / co2 of your application.](https://docs.green-coding.berlin/)
-* :eyes: [InfluxData Telegraf Collector](https://github.com/influxdata/telegraf) - 一个开源的、基于插件的代理，用于收集、处理、聚合和编写度量。包括多个输入插件，有助于确定能耗, e.g. [intel_powerstat](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/intel_powerstat) (暴露CPU和DRAM功耗、CPU温度、TDP、CPU和非核心频率、C状态驻留), [ipmi_sensor](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/ipmi_sensor) (暴露IPMI传感器数据), [redfish](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/redfish) (暴露CPU温度、风扇速度、电源和电压数据遵循[DMTF Redfish](https://redfish.dmtf.org/)接口), 以及大量插件，这些插件有助于确定单个资源的利用率，进而有助于识别电力消耗的位置。
+* 👀 Green Metrics Tool [A holistic framework to measure the energy / co2 of your application.](https://docs.green-coding.berlin/)
+* 👀 [InfluxData Telegraf Collector](https://github.com/influxdata/telegraf) - 一个开源的、基于插件的代理，用于收集、处理、聚合和编写度量。包括多个输入插件，有助于确定能耗, e.g. [intel_powerstat](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/intel_powerstat) (暴露CPU和DRAM功耗、CPU温度、TDP、CPU和非核心频率、C状态驻留), [ipmi_sensor](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/ipmi_sensor) (暴露IPMI传感器数据), [redfish](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/redfish) (暴露CPU温度、风扇速度、电源和电压数据遵循[DMTF Redfish](https://redfish.dmtf.org/)接口), 以及大量插件，这些插件有助于确定单个资源的利用率，进而有助于识别电力消耗的位置。
 一组丰富的可用输出插件使其易于与各种指标集成。
-* :eyes: [Carbon QL](https://github.com/Green-Software-Foundation/carbon-ql) - 这个项目的目的是建立一个carbonQL的API，您可以使用它来测量每个运行时环境的软件排放量。
-* :eyes: [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/docs/) <br>
+* 👀 [Carbon QL](https://github.com/Green-Software-Foundation/carbon-ql) - 这个项目的目的是建立一个carbonQL的API，您可以使用它来测量每个运行时环境的软件排放量。
+* 👀 [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/docs/) <br>
 该应用程序从主要云提供商获取使用数据（计算、存储、网络等），并计算估计的能源（瓦时）和温室气体排放量，以二氧化碳当量（公吨二氧化碳当量）表示。
 我们将这些可视化显示在仪表板中，供开发人员、可持续发展领导者和组织中的其他利益相关者查看并采取行动。它目前支持AWS、谷歌云和微软Azure。
-* :eyes: [PowerTOP](https://github.com/fenrus75/powertop) - 一个Linux工具，它允许您监视Linux机器上运行的每个进程的功耗。
-* :green_book: OSTI [Paper] [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
-* :green_book: [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): Carbon Aware SDK是一个WebApi和命令行界面（CLI），用于帮助构建碳感知软件。
+* 👀 [PowerTOP](https://github.com/fenrus75/powertop) - 一个Linux工具，它允许您监视Linux机器上运行的每个进程的功耗。
+* 📗 OSTI [Paper] [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
+* 📗 [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): Carbon Aware SDK是一个WebApi和命令行界面（CLI），用于帮助构建碳感知软件。
 
 ### 基础设施工具
 
@@ -393,22 +393,22 @@ flowchart TB
 在集群级调度阶段，可以通过智能调度器来减少工作负载消耗的能量，这些智能调度器了解数据中心的碳足迹、热温度和冷却、缓存感知或服务器功率效率。
 根据电力成本（碳、金钱等）进行批量调度。
 
-* :train: Power Driven Scheduling and Scaling with CPU telemetry in K8s [Power Driven Scheduling and Scaling with CPU telemetry in Kubernetes](https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power) <br>
+* 🚆 Power Driven Scheduling and Scaling with CPU telemetry in K8s [Power Driven Scheduling and Scaling with CPU telemetry in Kubernetes](https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power) <br>
 遥测感知调度（一种调度扩展）和Kubernetes本地Horizontal Pod Autoscaler（HPA）用于基于节点当前用电状态的实时信息实现集群自动化。
 用于驱动布局和缩放决策的功率指标源自英特尔的运行平均功率限制（RAPL）。[collectd](https://collectd.org/)用于收集度量并将其暴露给Prometheus，从而使它们在集群内使用Prometheus-Adapter可用。
-* :train: [Intent Driven Orchestration](https://github.com/intel/intent-driven-orchestration) <br>
+* 🚆 [Intent Driven Orchestration](https://github.com/intel/intent-driven-orchestration) <br>
 这提供了一种新的编排方式，从命令式模型转变为意图驱动的模型来选择工作负载的位置。
 在这个模型中，用户以目标的形式表达他们的意图（例如，所需的延迟、吞吐量或可靠性目标），而编排堆栈本身决定了实现这些目标需要基础设施中的哪些资源。
 这种新方法将继续受益于社区在调度方面的投资（确定何时何地放置工作负载），并通过连续运行的计划循环来扩展，以确定在系统中配置什么/如何配置。
 已经有初步的工作正在做，以在电力优化使用环境中利用这一点。
-* :green_book: Carbon-aware Kubernetes scheduler [A Low Carbon Kubernetes Scheduler](http://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
+* 📗 Carbon-aware Kubernetes scheduler [A Low Carbon Kubernetes Scheduler](http://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
 <!-- markdown-link-check-disable-next-line -->
-* :green_book: Energy aware scheduling [Paper] [Improving Data Center Efficiency Through Holistic Scheduling In Kubernetes](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
+* 📗 Energy aware scheduling [Paper] [Improving Data Center Efficiency Through Holistic Scheduling In Kubernetes](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
 
 #### 缩放扩容
 
-* :speedboat: Predictive VPA [Predictive Vertical Pod Autoscaler (VPA) recommenders pluggable with the default VPA on OpenShift](https://github.com/openshift/predictive-vpa-recommenders)
-* :speedboat: CLEVER [Container Level Energy-efficient VPA Recommender for Kubernetes](https://github.com/sustainable-computing-io/clever):<br>
+* 🚤 Predictive VPA [Predictive Vertical Pod Autoscaler (VPA) recommenders pluggable with the default VPA on OpenShift](https://github.com/openshift/predictive-vpa-recommenders)
+* 🚤 CLEVER [Container Level Energy-efficient VPA Recommender for Kubernetes](https://github.com/sustainable-computing-io/clever):<br>
 Kubernetes中的Vertical Pod Autoscaler允许根据历史资源使用测量值自动请求CPU和内存，并进行限制调整。
 VPA部署有三个主要组件：VPA推荐程序、VPA更新程序和VPA准入控制器。
 可以将默认的VPA推荐程序替换为自定义推荐程序。
@@ -419,17 +419,17 @@ CLEVER是一款智能推荐器，它使用此功能来确保在您尝试调整�
 CLEVER根据更新的CPU频率重新计算由VPA管理的pod的CPU请求的新建议。
 这就是CLEVER如何通过降低频率以减少能量，同时增加CPU分配，来保证工作负载的类似QoS。
 
-* :speedboat: [KEDA](https://keda.sh/): Kubernetes Event-driven Autoscaling enables scale-to-zero platforms.
+* 🚤 [KEDA](https://keda.sh/): Kubernetes Event-driven Autoscaling enables scale-to-zero platforms.
 
 #### 节点上电源管理调整
 
 一旦选择了区域和节点，管理员和用户就可以进一步调整节点，以最大限度地减少运行工作负载所需的电量。
 这可以将每个节点的功率降低30%或更多。
 
-* :musical_note: Node tuning via TuneD on OCP [Manage node-level tuning by orchestrating the tuned daemon](https://docs.openshift.com/container-platform/4.10/scalability_and_performance/using-node-tuning-operator.html) <br>
+* 🎵 Node tuning via TuneD on OCP [Manage node-level tuning by orchestrating the tuned daemon](https://docs.openshift.com/container-platform/4.10/scalability_and_performance/using-node-tuning-operator.html) <br>
 Node Tuning Operator通过协调TuneD守护进程来帮助您管理节点级调整。
 大多数高性能应用程序都需要一定程度的内核调优。Node Tuning Operator为节点级sysctl的用户提供了统一的管理界面，并更灵活地添加用户需求指定的自定义调优。
-* :musical_note: Kubernetes Power Manager [Kubernetes Operator designed to expose and utilize Intel specific power management technologies in a Kubernetes Environment](https://github.com/intel/kubernetes-power-manager) <br>
+* 🎵 Kubernetes Power Manager [Kubernetes Operator designed to expose and utilize Intel specific power management technologies in a Kubernetes Environment](https://github.com/intel/kubernetes-power-manager) <br>
 在像Kubernetes（K8s）这样的容器编排引擎中，从平台池中分配CPU资源完全基于可用性。
 为了在Kubernetes上下文中公开和使用电源管理技术，KubernetesPowerManager是使用OperatorSDK创建的Kubernete操作员。
 Kubernetes Power Manager利用了一组强大的电源管理技术，使用户可以更精确地控制CPU性能和每核的功耗。
@@ -437,7 +437,7 @@ Kubernetes Power Manager利用了一组强大的电源管理技术，使用户�
 Kubernetes的用户正在运行性能关键型应用程序，这些应用程序具有依赖于硬件功能的特定要求，因此会遇到障碍。
 通过使用户能够调整频率并确定Kubernetes Native CPU Manager选择的内核的优先级，Kubernete Power Manager填补了硬件功能启用和容器编排层之间的空白。
 事实证明，它也可以与TuneD一起工作，以允许TuneD配置文件用于根据各种频率调谐控制节点上的功率。
-* :musical_note: GEOPM [Extensible Power Manager](https://geopm.github.io):<br>
+* 🎵 GEOPM [Extensible Power Manager](https://geopm.github.io):<br>
 全球可扩展开放电源管理器（GEOPM）最初专门针对HPC环境，但现在更为普遍，它是一个用于探索异构平台上的电源和能源优化的框架。
 <br>
 GEOPM软件分为两个包：GEOPM服务和GEOPM运行时。GEOPM服务为用户空间提供对低级硬件度量和配置旋钮的访问。GEOPM运行时利用GEOPM服务来调整硬件设置，以响应硬件指标和应用程序反馈。应用程序反馈是通过将回调注入中间件包的轻量级异步评测挂钩来收集的。<br>
@@ -453,18 +453,18 @@ GEOPM到Kubernetes的端口正在进行中。如[实验代码分支](https://git
 
 ### 相关组织
 
-* :honeybee: Green Software Foundation [Building a trusted ecosystem of people, standards, tooling and best practices for green software](https://greensoftware.foundation/) <br>
+* 🐝 Green Software Foundation [Building a trusted ecosystem of people, standards, tooling and best practices for green software](https://greensoftware.foundation/) <br>
   绿色软件基金会（GSF）旨在改变我们构建软件的方式, [从而实现没有任何有害的环境影响](https://greensoftware.foundation/articles/theory-of-change), 一个拥有42多个成员组织的基金会。
   关键支柱是知识、技术文化和工具；包含[标准化工作组](https://standards.greensoftware.foundation/),[开源工作组](https://opensource.greensoftware.foundation/), [社区工作组](https://community.greensoftware.foundation/), [原则工作组](https://policy.greensoftware.foundation/). <br>
   GSF创建了一个软件碳强度[（SCI）](https://github.com/Green-Software-Foundation/software_carbon_intensity)标准，该标准已提交给ISO（国际标准组织）批准，以确保我们一致地测量碳。
   该标准通过[Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk)（一种在能源网是绿色的时候做得更多，在脏的时候做的更少的工具）以代码形式实现，[碳甬道](https://github.com/Green-Software-Foundation/Carbon_CI_Pipeline_Tooling)（测量CI/CD过程中的碳，以及[CarbonQL](https://github.com/Green-Software-Foundation/carbon-ql)-根据SCI标准测量碳的标准化API。
-* :honeybee: [LF Energy](https://www.lfenergy.org/)<br>
+* 🐝 [LF Energy](https://www.lfenergy.org/)<br>
   LF Energy是一个专注于电力系统行业的开源基金会，由Linux基金会托管。LF Energy提供了一个中立的合作社区，以建立共享的数字投资，从而改变世界与能源的关系。该组织包含核心LF能源基金会以及许多托管项目和工作组的存储库。LF Energy的[全景视图](https://landscape.lfenergy.org/).
-* :honeybee: Energy Efficient High Performance Computing Working Group [Encourages implementation of energy conservation measures, energy efficient design in high performance computing (HPC)](https://eehpcwg.llnl.gov/)<br>
+* 🐝 Energy Efficient High Performance Computing Working Group [Encourages implementation of energy conservation measures, energy efficient design in high performance computing (HPC)](https://eehpcwg.llnl.gov/)<br>
   任务是鼓励在高性能计算（HPC）中实施节能措施和节能设计，以及分享想法。您可以在这里找到大量的[论文](https://datacenters.lbl.gov/resources?field_focus_areas_tid)可以根据要提升到云原生景观中的模式来推断。
-* :honeybee: [Green Software Training](https://learn.greensoftware.foundation/) <br>
+* 🐝 [Green Software Training](https://learn.greensoftware.foundation/) <br>
   该计划将教您如何构建、维护和运行更环保的应用程序，而不考虑应用程序领域、行业、组织规模或类型、编程语言或框架；并进一步获得Linux Foundation颁发的[Green Software Certification](https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/)证书。
-* :honeybee: [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/)<br>
+* 🐝 [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/)<br>
   了解云使用的碳足迹，并减少碳足迹。<br>
 云碳足迹是一个开源工具，提供可见性和工具来测量、监测和减少云碳排放。我们使用最佳实践方法将云利用率转换为估计的能源使用量和碳排放量，生成可与员工、投资者和其他利益相关者共享的指标和碳节约估计。
 * 🐝 [Open Compute Project](https://www.opencompute.org/projects/heat-reuse)<br>
@@ -472,25 +472,25 @@ GEOPM到Kubernetes的端口正在进行中。如[实验代码分支](https://git
 
 ### 峰会学会
 
-* :honeybee: Linux Foundation's SustainabilityCon [The first sustainability-focused track by the Linux Foundation](https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/)
-* :honeybee: [EnviroInfo](https://www.enviroinfo2023.eu/): EnviroInfo 2023是关于领先环境信息和通信技术的长期且成熟的国际和跨学科系列会议的第37届。
+* 🐝 Linux Foundation's SustainabilityCon [The first sustainability-focused track by the Linux Foundation](https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/)
+* 🐝 [EnviroInfo](https://www.enviroinfo2023.eu/): EnviroInfo 2023是关于领先环境信息和通信技术的长期且成熟的国际和跨学科系列会议的第37届。
 
 ### 碳排放报告
 
-* :page_facing_up: IEA [Emissions - Global Energy and CO2 Status Report 2019](https://www.iea.org/reports/global-energy-co2-status-report-2019/emissions)
-* :page_facing_up: European Environment Agency [EU Greenhouse Emission Intensity](https://www.eea.europa.eu/ims/greenhouse-gas-emission-intensity-of-1)
-* :page_facing_up: electricityMap's [real-time CO2 emission data](https://app.electricitymap.org)
+* 📄 IEA [Emissions - Global Energy and CO2 Status Report 2019](https://www.iea.org/reports/global-energy-co2-status-report-2019/emissions)
+* 📄 European Environment Agency [EU Greenhouse Emission Intensity](https://www.eea.europa.eu/ims/greenhouse-gas-emission-intensity-of-1)
+* 📄 electricityMap's [real-time CO2 emission data](https://app.electricitymap.org)
 * [SCI Reporting](https://github.com/Green-Software-Foundation/sci-reporting) - Creating the infrastructure, and processes to store, host, and publicly report SCI scores, and other related reporting requirements within the SCI specification.
-* :page_facing_up: WattTime API [Provides insight into a electricity grid’s marginal emissions rate](https://docs.watttime.org/#tag/Introduction)
+* 📄 WattTime API [Provides insight into a electricity grid’s marginal emissions rate](https://docs.watttime.org/#tag/Introduction)
 
 ### 碳中和
 
-* :leafy_green: The Climate Pledge [Net-Zero Carbon by 2040](https://www.theclimatepledge.com/)
-* :leafy_green: WeTransfer [WeTransfer becomes Climate Neutral](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)
+* 🥬 The Climate Pledge [Net-Zero Carbon by 2040](https://www.theclimatepledge.com/)
+* 🥬 WeTransfer [WeTransfer becomes Climate Neutral](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)
 <!-- cspell:disable-next-line -->
-* :leafy_green: Adrian Cockroft, ex-Amazon VP of Sustainability Architecture ["Cloud computing pioneer's new focus is on sustainability transformation"](https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation)
-* :leafy_green: Supercritical [Helping businesses achieve net zero](https://gosupercritical.com/)
+* 🥬 Adrian Cockroft, ex-Amazon VP of Sustainability Architecture ["Cloud computing pioneer's new focus is on sustainability transformation"](https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation)
+* 🥬 Supercritical [Helping businesses achieve net zero](https://gosupercritical.com/)
 
 ### 程序设计语言效率分析
 
-* :electric_plug: Energy Efficiency of Languages [全套程序语言能耗分析工具，使用计算机语言基准游戏](https://github.com/greensoftwarelab/Energy-Languages)
+* 🔌 Energy Efficiency of Languages [全套程序语言能耗分析工具，使用计算机语言基准游戏](https://github.com/greensoftwarelab/Energy-Languages)
