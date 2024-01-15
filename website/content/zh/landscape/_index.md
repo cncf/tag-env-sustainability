@@ -124,8 +124,8 @@ Huamin Chen, [Marlow Weston](https://github.com/catblade), [Niki Manoledaki](htt
 量化运营碳排放并非易事，原因有很多，但不限于以下几点：
 
 * 服务器中包含的多个硬件（HW）组件 - 需要对各种硬件组件（如CPU、内存、GPU、存储、I/O）进行功率建模，以进行准确的量化/估计。
-*  硬件由多个用户/帐户同时使用——每个不同用户（例如，多个软件线程）的功率建模是一个完全不同的建模问题。
-这里需要理解的一个重要问题是[能源比例](https://learn.greensoftware.foundation/energy-efficiency#energy-比例）。对于功率建模，应充分理解软件/硬件交互。
+* 硬件由多个用户/帐户同时使用——每个不同用户（例如，多个软件线程）的功率建模是一个完全不同的建模问题。
+这里需要理解的一个重要问题是[能源比例](<https://learn.greensoftware.foundation/energy-efficiency#energy-比例>）。对于功率建模，应充分理解软件/硬件交互。
 * 云基础设施中硬件的不同代/架构/供应商 - 不同代/体系结构/供应商需要功率建模，例如，Intel,AMD或ARM、Skylake或Sapphire Rapids,以及ConnectX-5或ConnectX-6。
 * 服务的依赖性 - 一个服务可能使用不同的服务。（例如，Kubernetes使用COS服务），应用程序可以分布在数据中心和云之间。
 * 在虚拟化/容器化环境中运行的服务 - 虚拟化/集装箱化环境需要功率建模，这增加了建模的复杂性。
@@ -440,6 +440,7 @@ Kubernetes的用户正在运行性能关键型应用程序，这些应用程序�
 * 🎵 GEOPM [Extensible Power Manager](https://geopm.github.io):<br>
 全球可扩展开放电源管理器（GEOPM）最初专门针对HPC环境，但现在更为普遍，它是一个用于探索异构平台上的电源和能源优化的框架。
 <br>
+
 GEOPM软件分为两个包：GEOPM服务和GEOPM运行时。GEOPM服务为用户空间提供对低级硬件度量和配置旋钮的访问。GEOPM运行时利用GEOPM服务来调整硬件设置，以响应硬件指标和应用程序反馈。应用程序反馈是通过将回调注入中间件包的轻量级异步评测挂钩来收集的。<br>
 GEOPM Runtime具有用于在优化算法之间进行选择的插件架构。一些内置算法以能效为目标，另一些则在功率范围内优化性能。
 GEOPM到Kubernetes的端口正在进行中。如[实验代码分支](https://github.com/geopm/geopm/tree/cloud#experimental-branch)称为“云”，并实现了支持Kubernetes的新功能。这些功能将迁移到主“dev”分支中，因为它们都已准备好投入生产。<br>

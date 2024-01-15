@@ -38,12 +38,10 @@ time](https://dateful.com/convert/utc?t=16)).
 获取会议日程表 [main CNCF calendar](https://www.cncf.io/calendar/)
 或者 [TAG ENV Calendar](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com&ctz=America%2FChicago).
 
-您可以通过两种方式将工作组会议系列添加到行日程中。
+您可以将团队会议系列添加到您的日程中。
 
-第一种方式是通过一下链接[https://icalfilter.com/j9732u68l2](https://icalfilter.com/j9732u68l2)导入TAG Environmental Sustainability CNCF日程到您自己的日程。
+第一种方式是通过一下链接[TAG ENV Calendar](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com)导入TAG Environmental Sustainability CNCF日程到您自己的日程。
 使用这个日历的指南: [Subscribe to someone’s Google Calendar](https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DDesktop).
-
-第二个方式是通过这个链接[https://icalfilter.com/j9732u68l2](https://icalfilter.com/j9732u68l2)下载对应的 .ics 文件。在这个情况下，您的日历不是自动更新的。
 
 * [会议日程和笔记](https://bit.ly/cncf-tag-env-meeting-notes)
 * [Zoom Meeting](https://zoom.us/my/cncftagenvsustainability) (Passcode: `77777`)

@@ -5,7 +5,7 @@ The main GitHub repository for the TAG is `tag-env-sustainability`. TAG Leads ha
 The TAG also has technical repositories.
 The [`tag-env-tooling`](https://github.com/cncf-tags/tag-env-tooling) contains smaller projects. Larger projects get sourced in separate repositories.
 All technical repositories are maintained in the [`cncf-tags`](https://github.com/cncf-tags) GitHub organization.
-See [`cncf-tags`](https://github.com/cncf/toc/blob/main/tags/cncf-tags-github-org.md) to find out more about the intention behind the organization.
+See [`cncf-tags`](https://github.com/cncf/toc/blob/main/tags/resources/cncf-tags-github-org.md) to find out more about the intention behind the organization.
 
 - [Github access permissions and administration](#github-access-permissions-and-administration)
   - [Adding a commit to a TAG ENV repository](#adding-a-commit-to-a-tag-env-repository)
