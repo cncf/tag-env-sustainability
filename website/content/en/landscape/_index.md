@@ -19,6 +19,7 @@ aliases:
 All relevant wordings can be found explained here in the [glossary](https://tag-env-sustainability.cncf.io/glossary/). If you are missing something, feel free to submit a PR to include it.
 
 ## Summary
+
 <i class="fas fa-globe-asia mb-3"></i>[Read the Korean translation of this document here](/landscape-ko/).
 
 Cloud computing has revolutionized the way we store and process data, enabling organizations to be more agile, efficient, and scalable.
