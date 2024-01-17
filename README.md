@@ -52,6 +52,7 @@ All the most important links for TAG Environmental Sustainability are also avail
 ### TAG Environmental Sustainability Tech Leads
 
 * [Cara Delia](https://github.com/caradelia)
+* [Kristina Devochko](https://github.com/guidemetothemoon)
 
 ## New contributors
 
