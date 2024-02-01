@@ -94,7 +94,7 @@ If a conflict cannot be resolved, ask your TAG ENV Blog Post Sponsor for assista
 
 ## Sponsorship
 
-Co-Chairs of the TAG are responsible for the content that the TAG produces, as such a Co-chair or Technical lead should be the primary "sponsor" of a blog post that allows a contributor or member of the TAG to lead the content creation, timelines, communication, and tracking approvals.
+Co-Chairs of the TAG are responsible for the content that the TAG produces, as such a Co-chair or Technical lead should be the primary "sponsor" of a blog post that allows a TAG ENV contributor to lead the content creation, timelines, communication, and tracking approvals.
 Once the "sponsor" is satisfied with the content, they notify the TOC liaison to review and provide final sign-off.
 
 As described in the previous chapter, one of the co-chairs or technical leads will assign your blogpost proposal themselves after an issue has been opened with an outline.

@@ -1,6 +1,6 @@
 # Environmental Sustainability TAG presentations
 
-Part of the TAG activities include having guest presentations by members of the community.
+Part of the TAG activities include having guest presentations by TAG contributors or members of the broader community.
 We welcome any topic related to our mission and charter.
 Typical topics include projects, real-world use-cases, challenges or success stories.
 However, presentations must follow the following guidelines.

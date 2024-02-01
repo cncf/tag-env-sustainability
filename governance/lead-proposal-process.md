@@ -29,7 +29,7 @@ The election process for Working Group and Project leadership is more lightweigh
 ### Process of nominations for TAG Chair and TL
 
 TAG Lead roles are open to all interested participants within the community.
-Depending on the needs of the community, as determined by the current TAG leadership team (Chairs and TLs), nominations may come from working group co-chairs, TAG co-chairs and/or tech leads and/or other community members. Each TAG is expected to define this for themselves.
+Depending on the needs of the community, as determined by the current TAG leadership team (Chairs and TLs), nominations may come from working group co-chairs, TAG co-chairs and/or tech leads and/or other community contributors. Each TAG is expected to define this for themselves.
 
 The TAG ENV leadership team is conducted of:
 
@@ -38,7 +38,7 @@ The TAG ENV leadership team is conducted of:
 
 Final nominations will adhere to the [CNCF's TOC described process](https://github.com/cncf/toc/blob/main/tags/cncf-tags.md#elections) as well as to the leadership nomination requirements described below.
 
-Any individual who is a member of the TAG ENV, it's working group's, or otherwise considered an active participant of the group may nominate another individual.
+Any individual who is a TAG ENV contributor, it's working group's, or otherwise considered an active participant of the group may nominate another individual.
 
 The process of endorsing and selecting individuals will consider the following factors to ensure both the need for proper community representation and the necessary technical expertise:
 
