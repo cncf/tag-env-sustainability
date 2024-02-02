@@ -21,8 +21,6 @@ The election process for Working Group and Project leadership is more lightweigh
     - [Next Steps](#next-steps)
   - [Working Group and Project Leadership](#working-group-and-project-leadership)
     - [Process of nominations for Working Group and Project Leads](#process-of-nominations-for-working-group-and-project-leads)
-      - [Community timeline for electing Working Group and Project Leads](#community-timeline-for-electing-working-group-and-project-leads)
-      - [Submitting a nomination for Working Group and Project Leads](#submitting-a-nomination-for-working-group-and-project-leads)
 
 ## TAG Chair and TL election process
 
