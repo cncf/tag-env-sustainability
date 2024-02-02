@@ -137,7 +137,7 @@ Following process should be followed when nominating an individual for Working G
 
 1. One of the TAG Chairs or active Working Group Chairs for the working group lead nomination must open an issue in the [tag-env-sustainability](https://github.com/cncf/tag-env-sustainability/issues) repository that will be used throughout the election process, including community voting. The issue must include information about the background for the nomination, the role that the individual is being nominated to and clarification on why the respective individual is being nominated into the role. Please refer an earlier [issue](https://github.com/cncf/tag-env-sustainability/issues/293) as an example.
 
-2. GitHub issue created in step #1 must be linked in [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) channel, which is the main TAG channel, and all active sub-channels on Slack. Currently [#tag-env-wg-comms](https://cloud-native.slack.com/archives/C068XUD9AEA) and [#tag-env-wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431) are active sub-channels.
+2. GitHub issue created in step #1 must be linked in [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) channel, which is the main TAG channel, and all relevant sub-channels of the TAG on Slack.
 
 3. Voting period starts. Everyone can vote on the GitHub issue by commenting ```+1``` for support, ```-1``` for block and ```0``` for neutral. Binding flag should be included as part of the comment: ```NB``` for non-binding which applies to all community members and TAG contributors; ```B``` for binding which applies to the TAG Chairs and Tech Leads.
 
