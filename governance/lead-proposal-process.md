@@ -117,9 +117,7 @@ If the role under nomination requires TOC approval or vote, the TAG Co-chairs ar
 
 ## Working Group and Project Leadership
 
-Working group and project leads are appointed by the TAG Chairs through the following process.
-
-### Process of nominations for Working Group and Project Leads
+Working group and project leads are appointed by the TAG Chairs according to the defined process that's outlined below.
 
 TAG Lead roles are open to all interested participants within the community.
 There are currently no limits of leadership roles for working groups or projects if not specified otherwise in the WG / project charter document.
@@ -135,20 +133,14 @@ The process of endorsing and selecting individuals will consider the following f
 
 In case there are no individuals expressing interest in taking up leadership positions, an evaluation process for the working group or project archival may be initiated, as [working group archival process](project-formation.md).
 
-#### Community timeline for electing Working Group and Project Leads
+### Process of nominations for Working Group and Project Leads
 
-Community nominations will run for at least 2 weeks, with a maximum up to 1 months.
-The TAG Chairs will take a vote.
-Upon close of nominations, a decision should be made within the next month.
+Following process should be followed when nominating an individual for Working Group and Project Lead role:
 
-#### Submitting a nomination for Working Group and Project Leads
+1. One of the TAG Chairs or active Working Group Chairs for the working group lead nomination must open an issue in the [tag-env-sustainability](https://github.com/cncf/tag-env-sustainability/issues) repository that will be used throughout the election process, including community voting. The issue must include information about the background for the nomination, the role that the individual is being nominated to and clarification on why the respective individual is being nominated into the role. Please refer an earlier [issue](https://github.com/cncf/tag-env-sustainability/issues/293) as an example.
 
-One of the TAG Leads will open an issue to initiate the nomination process.
-Anyone interested can add a comment to the issue to clearly show interest.
-The comment should address the points specified below.
+2. GitHub issue created in step #1 must be linked in [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) channel, which is the main TAG channel, and all active subchannels on Slack. Currently [#tag-env-wg-comms](https://cloud-native.slack.com/archives/C068XUD9AEA) and [#tag-env-wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431) are active subchannels.
 
-* Justification
-  * TAG Community involvement
-  * Leadership and collaboration skills
-  * Willingness to learn and expand existing technical knowledge
-* Nominee Biography
+3. Voting period starts. Everyone can vote on the GitHub issue by commenting ```+1``` for support, ```-1``` for block and ```0``` for neutral. Binding flag should be included as part of the comment: ```NB``` for non-binding which applies to all community members and TAG contributors; ```B``` for binding which applies to the TAG Chairs and Tech Leads.
+
+4. Community nominations will run for at least 2 weeks, with a maximum up to 1 month. As soon as all TAG leads vote and at least 2 weeks have passed the TAG Chairs and Tech Leads will take a vote. Upon close of nominations, a decision should be made within the next month.
