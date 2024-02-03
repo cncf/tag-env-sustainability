@@ -2,7 +2,7 @@
 title: Environmental Sustainability at KubeCon / CloudNativeCon EU 2023
 description: KubeCon + CloudNativeCon Europe 2023 was the largest open source conference in Europe with 10k+ attendees and had a strong focus on cloud native sustainability.
 weight: 1
-date:   2023-05-21 10:00:00 +0000
+date:   2023-03-21 10:00:00 +0000
 author: Leonard Pahlke, Kristina Devochko, Niki Manoledaki
 ---
 
