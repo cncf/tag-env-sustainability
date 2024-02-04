@@ -38,10 +38,10 @@ El proceso _rebase_ permite a desarrolladores de aplicaciones u operadores la ac
 
 Puedes [aprender más del proceso rebase en la documentación de Buildpacks](https://buildpacks.io/docs/concepts/operations/rebase/). Pero _rebase_ no es el único mecanismo que es más sostenible que la construcción a través de un `Dockerfile`. Buildpacks pueden poner en caché artefactos para la construcción lo cuál habilita una compilación incremental y otras técnicas de ahorro. Estas capas puestas en caché no siempre se descartarán cuando sea necesario reconstruirlas, com lo harían las compilaciones hechas usando un `Dockerfile`
 
-## Be As Green As Your Unit Tests
+## Se tan verde como tus tests unitarios
 
-Container builds are not the biggest offender when it comes to the environmental impact of software. Electricity needed to mine bitcoin is [more than used by entire countries](https://www.theguardian.com/technology/2021/feb/27/bitcoin-mining-electricity-use-environmental-impact), but the growth of software that uses cryptographic techniques has brought new awareness to how our code affects the world around us. That's a good thing.
+La construcción de contenedores no son los mayores infractores cuando se trata del impacto ambiental del software. La electricidad requerida para minar bitcoin [es más que la usada por paises enteros](https://www.theguardian.com/technology/2021/feb/27/bitcoin-mining-electricity-use-environmental-impact), pero el crecimiento del software que usa técnias de criptografía ha traído nueva conciencia de como nuesro código afecta el mundo alrededor de nosotros. Eso es algo bueno.
 
-We have a responsibility to think about minimizing the required resources of the software we produce. The code we write has an impact on the world, and our choices matter.
+Nosotros tenemos la responsabilidad de pensar en como minimizar los recursos producidos para el software que producimos. El código qque escribimos tiene un impacto en el mundo, y nuestras decisiones importan.
 
-To learn more about the relationship between open source software development and the environment, visit the [Environmental Sustainability Technical Advisory Group (TAG)](https://tag-env-sustainability.cncf.io/)
+Para aprender más sobre la relación entre el desarrollo de software _open source_ y el ambiente, visita el [Grupo Asesor Técnico de Sostenibilidad Ambiental (TAG)](https://tag-env-sustainability.cncf.io/).
