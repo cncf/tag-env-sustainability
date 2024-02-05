@@ -21,12 +21,10 @@ assignees: ''
 ...
 
 ### Scope
-<!-- How much effort will this take? ok to provide a range of options if or "not yet determined"  -->
 
 ...
 
 ### Goals and Non Goals
-<!-- How much effort will this take? ok to provide a range of options if or "not yet determined"  -->
 
 ...
 
@@ -44,11 +42,9 @@ assignees: ''
 
 ## TODO
 
-Please complete these steps in order.
-
 - [ ] Project proposal / suggestion details added to this issue (all section above filled out)
 - [ ] Project Leads found (one or more)
-  - Project Leads: *tag yourself here*
+  - Project Leads: *link project leads here*
 - [ ] Project proposal discussed in the TAG
   - Discussed in the TAG ENV meeting on `XX-XX`
 - [ ] Project proposal accepted / rejected by the TAG leads

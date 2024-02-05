@@ -25,14 +25,18 @@ assignees: ''
 ...
 
 #### Scope
-<!-- How much effort will this take? ok to provide a range of options if or "not yet determined"  -->
 
 ...
 
 #### Goals and Non Goals
-<!-- How much effort will this take? ok to provide a range of options if or "not yet determined"  -->
 
 ...
+
+### Deliverables
+<!-- What artifacts are created to complete this project? Blogs, whitepaper, documentation, video, in person meeting, etc.
+
+Also define a Definition of Done!
+-->
 
 #### Additional info and comments
 
@@ -43,8 +47,8 @@ assignees: ''
 ### Project Details
 
 - **Project leads**:
-  - *tag yourself here*
-- **TAG ENV Lead representative**: *tag lead here* <!-- Either a TAG Chair or TAG Tech Lead -->
+  - *link project leads here*
+- **TAG ENV Lead representative**: *link tag lead here* <!-- Either a TAG Chair or TAG Tech Lead -->
 - **Project started**: *XX-XX-XX*
 - **Project completed at**: *XX-XX-XX*
 - **Project drive folder**: link <!-- ask the TAG Lead represantative to create a folder if it does not exist yet -->
