@@ -45,4 +45,4 @@ enough time for discussion and other agenda items. (estimate) -->
 2. [ ] Then, add the topic to the Agenda of the upcoming regular meeting in the
    [meeting notes](https://docs.google.com/document/d/1TkmMyXJABC66NfYmivnh7z8Y_vpq9f9foaOuDVQS_Lo/edit).
    Format: `[NAME] Presentation: "<title of your presentation>" <link to this issue>`
-3. [ ] Post a message in the [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) channel [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) to inform other TAG ENV members so that they can join!
+3. [ ] Post a message in the [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) channel [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) to inform other TAG ENV contributors so that they can join!
