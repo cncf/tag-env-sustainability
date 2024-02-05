@@ -45,7 +45,7 @@ By proactively driving topics that directly benefit the Environmental Sustainabi
 Once you have established connections within the TAG and actively participated in discussions and projects, you may encounter a topic that captures your interest and warrants further attention.
 This particular project might require more time and dedication from your side as well as the support of other individuals within the community.
 If you have a project idea that aligns with the objectives of the TAG, consider writing a proposal, in a GitHub issue, outlining its motivation, scope, goals, and deliverables.
-Present this proposal during a TAG meeting to initiate a discussion and gather feedback and support from fellow members.
+Present this proposal during a TAG meeting to initiate a discussion and gather feedback and support from fellow contributors.
 Taking on a [project leadership role](roles.md#role-of-project-leads) within the community project becomes your next significant step towards leadership recognition within the group.
 
 * Take ownership of a project within the TAG.
@@ -54,13 +54,13 @@ Taking on a [project leadership role](roles.md#role-of-project-leads) within the
 ## Helping out
 
 In open source, newcomers join the community need guidance and support as they embark on their journey, just as you once did.
-While it is essential to provide support to current members and leaders, it is equally important to focus on assisting and orienting newcomers.
+While it is essential to provide support to current contributors and leaders, it is equally important to focus on assisting and orienting newcomers.
 Modeling empathy and offering support to the community as a whole should be at the forefront of your actions.
 It is crucial to role model the values of the community as outlined in the [code of conduct](http://cncf.io/conduct/).
 
 There are various ways you can contribute to supporting and empowering new contributors.
 You can actively participate by offering mentorship and guidance when someone requests assistance. This could involve helping them navigate the community, providing technical guidance, or answering their questions.
-Additionally, if a member is unable to fulfill their responsibilities, you can offer to fill in their role temporarily or assist in any necessary tasks.
+Additionally, if a contributor is unable to fulfill their responsibilities, you can offer to fill in their role temporarily or assist in any necessary tasks.
 Co-hosting meetups and events is another way to provide support. By sharing the responsibility, you help create an inclusive environment where everyone feels supported and encouraged.
 
 Building a brand of being someone who consistently helps is highly valuable.
@@ -68,7 +68,7 @@ Actions to help this include engaging in discussions, providing feedback on prop
 By actively participating and contributing, you demonstrate your commitment to the community and showcase the values that the Environmental Sustainability TAG holds dear.
 
 * Helping out and mentor new contributors in their open source journey.
-* Helping out community members and leaders if they need support.
+* Helping out contributors and leaders if they need support.
 * Demonstrating empathy and embody the community values.
 
 ## Leading a Working Group
@@ -79,7 +79,7 @@ However, if the current working groups do not provide space for the topic you ar
 A working group must have community support and requires that you find sufficient backing before a working group is formed.
 To start this process, create a GitHub issue describing the initial charter in which you outline the motivation, scope, goals, and deliverables of the proposed working group.
 This working group charter document should form the basis for discussions with the TAG before initiating an official vote by the TAG co-chairs, which also requires approval by the CNCF TOC.
-It is important to present the working group proposal during TAG meetings and be vocal about the discussions, actively solicit feedback and input, and gain support from other members.
+It is important to present the working group proposal during TAG meetings and be vocal about the discussions, actively solicit feedback and input, and gain support from other contributors.
 
 * Taking on more responsibility and ownership within TAG.
 * Leading a community group within TAG.
@@ -112,4 +112,4 @@ Expectations of a Co-Chair:
 * Steering the TAG.
 * Coordinating between the TAG and the TOC.
 * Support and uplift other community leaders.
-* Welcome new members and help orient them.
+* Welcome new contributors and help orient them.

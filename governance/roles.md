@@ -1,12 +1,15 @@
 # Roles within the TAG Environmental Sustainability
 
 The TAG includes several community roles which are defined in this document.
+The TAG doesn't have a member role. Everyone who joins the TAG starts out as a contributor, from where one can progress into one of the existing, more scoped roles within the TAG.
 The [contributor path document](contributor-ladder.md) gives some idea how to progress as a contributor in the TAG throughout the roles.
+
+> Whenever "member" is mentioned in this document it means the member of the specific role group.
 
 - [Roles within the TAG Environmental Sustainability](#roles-within-the-tag-environmental-sustainability)
   - [General information serving in any role](#general-information-serving-in-any-role)
-    - [Maintaining active members](#maintaining-active-members)
-    - [Managing membership](#managing-membership)
+    - [Maintaining active role group members](#maintaining-active-role-group-members)
+    - [Managing role group membership](#managing-role-group-membership)
   - [TAG Chairs](#tag-chairs)
   - [TAG Technical Leads (TLs)](#tag-technical-leads-tls)
   - [Working Group Leads](#working-group-leads)
@@ -23,11 +26,11 @@ The [contributor path document](contributor-ladder.md) gives some idea how to pr
 
 ## General information serving in any role
 
-Members fulfilling any roles in the TAG are responsible for understanding and abiding by the governance defined in this group.
+Contributors fulfilling any roles in the TAG are responsible for understanding and abiding by the governance defined in this group.
 Each role has a scope and responsibility to it, please refer to the role specific sections below for more information in terms of process, requirements and expectations.
-If you serve in any of the roles described in this document please add yourself as a member with a Pull Request (PR) to `tag-env-sustainability` in the [`cncf/people/config.yaml` file](https://github.com/cncf/people/blob/main/config.yaml).
+If you serve in any of the roles described in this document please add yourself as a role group member with a Pull Request (PR) to `tag-env-sustainability` in the [`cncf/people/config.yaml` file](https://github.com/cncf/people/blob/main/config.yaml).
 
-### Maintaining active members
+### Maintaining active role group members
 
 * Members *SHOULD* remain active and responsive in their Roles.
 * Members taking an extended leave of 1 or more months *SHOULD* coordinate with other members to ensure the role is adequately staffed during the leave.
@@ -35,7 +38,7 @@ If you serve in any of the roles described in this document please add yourself 
 * Members of a role *SHOULD* remove any other members that have not communicated a leave of absence and either cannot be reached for more than 1 month or are not fulfilling their documented responsibilities for more than 1 month. This may be done through a super-majority vote of members, or if there are not enough *active* members to get a super-majority of votes cast, then removal may occur through a super-majority vote of the Chairs.
 * Members contribute to projects, according to the [process](process.md).
 
-### Managing membership
+### Managing role group membership
 
 * Membership disagreements may be escalated to the Chairs. Disagreements among the Chairs may be escalated to a Environmental Sustainability TAG TOC Liaison.
 * Members *MAY* decide to step down at anytime and optionally propose a replacement.
@@ -45,9 +48,9 @@ If you serve in any of the roles described in this document please add yourself 
 The Chairs serve in administrative roles, guiding the TAG and support the decision taking. However, due to the pure complexity of the TAG topic, the role of the chairs include also the activities of technical leads.
 
 * Primary role of Chairs is to run operations and the governance of the group.
-* The Chairs are responsible for ensuring that group meetings are planned and facilitated effectively, while also engaging group members in leadership roles. Effective facilitation includes (but is not limited to) the following activities:
+* The Chairs are responsible for ensuring that group meetings are planned and facilitated effectively, while also engaging group contributors in leadership roles. Effective facilitation includes (but is not limited to) the following activities:
   * setting the agenda for meetings
-  * extending discussion via asynchronous communication to be inclusive of members who cannot attend a specific meeting time.
+  * extending discussion via asynchronous communication to be inclusive of contributors who cannot attend a specific meeting time.
   * scheduling discussion of proposals that have been submitted
   * asking for new proposals to be made to address an identified need
   * partnering with Technical Leads to establish a roadmap and manage ongoing projects
@@ -104,7 +107,7 @@ Environmental Sustainability TAG representatives are responsible for the followi
 - Reporting back to the leadership on the status of the project, indicating when the project requires external governance help. For example, these include:
   - Project is understaffed or suffers from rampant scope creep.
   - Project is inactive and needs to be discontinued.
-  - Inter-personal issues within leads and/or members causing disruption.
+  - Inter-personal issues within leads and/or contributors causing disruption.
 - Provide feedback to project lead to whether the current scope and operation of a project is in line with the vision and governance of the TAG.
 - Mentorship of project leads on matters of leadership and governance process.
 - Provide privilege facilities that a project lead does not have access to.
@@ -143,11 +146,11 @@ The TOC Liaison will occasionally prioritize TAG activities, as needed by the TO
 
 ## Facilitation roles
 
-Members often contribute by working in small groups that research and discuss options and then share their findings with the rest of the group in a presentation and typically contribute to the body of work in this repository (via Pull Request).
+Contributors often contribute by working in small groups that research and discuss options and then share their findings with the rest of the group in a presentation and typically contribute to the body of work in this repository (via Pull Request).
 Some tasks can be effectively executed by simply chiming in on a github issue and independently contributing a PR without any particular role or authorization.
 
-This section describes roles where more coordination is helpful and the work benefits from identifying one or more members who will take on specific responsibilities.
-Our goal is to empower members to move forward independently, while defining an approval process designed to support communication and alignment across the wider group.
+This section describes roles where more coordination is helpful and the work benefits from identifying one or more contributors who will take on specific responsibilities.
+Our goal is to empower contributors to move forward independently, while defining an approval process designed to support communication and alignment across the wider group.
 
 New roles in this section are typically defined after someone has acted in that role for some time informally, then proposed as an on-going role by Pull Request which must be approved by a majority of Chairs.
 Process clarifications are welcome and PRs can be approved by any single Chair.
@@ -165,7 +168,7 @@ In keeping with these goals, the meeting facilitator has the following responsib
 
 Prerequisites:
 
-* active member
+* active contributor
 * history of regular attendance
 
 One or more of the following:
@@ -175,7 +178,7 @@ One or more of the following:
 * tech lead
 * co-chair
 
-Any member who meets the above qualifications is encouraged to add themselves to the [list of people in this role](/.github/settings.yml).
+Any contributor who meets the above qualifications is encouraged to add themselves to the [list of people in this role](/.github/settings.yml).
 
 ### Meeting Scribe(s)
 

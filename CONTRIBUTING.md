@@ -26,7 +26,7 @@ By submitting a pull request (PR), you are agreeing to release the PR contents u
 
 Anyone interested in contributing should join the mailing list and other [communication channels](https://github.com/cncf/tag-env-sustainability#contact)
 
-We strongly encourage and support all our members to participate in anyway they can.
+We strongly encourage and support all our contributors to participate in any way they can.
 Not everyone can participate in the regularly scheduled live meetings, so we strive to make our processes friendly for people to be active contributors through asynchronous communication and contributions to our documentation in this repository.
 
 ## Github pull requests and issues
@@ -53,7 +53,7 @@ Open source is about collaboration and we are always there to support each other
 
 The purpose of this plan is to ensure that you become familiar with the team and know how you will contribute. The first step is to get yourself familiar with our mission at [Environmental Sustainability TAG charter](charter.md).
 
-New members are advised to:
+New contributors are advised to:
 
 * Join the [CNCF Slack team](https://slack.cncf.io/), particularly
   [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) channel and
