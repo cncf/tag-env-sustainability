@@ -17,22 +17,16 @@ assignees: ''
 
 ...
 
-### Milestones
-<!-- If the activity is complex, what are the relevant milestones to implement it successfully?  -->
-
-...
-
-### Input
-<!-- Which input do you require?  -->
-
-...
-
 ### Outcome
 <!-- What do you want to achieve and share with the community?  -->
 
 ...
 
 #### To-Do
-<!-- What specific actions do you need to do to implement it successfully? -->
+<!-- What specific actions do you need to do to implement it? -->
 
-...
+- [ ] ...
+
+#### Comments
+
+<!-- Anything you like to refer to, people you like to link, additional deatils  -->
