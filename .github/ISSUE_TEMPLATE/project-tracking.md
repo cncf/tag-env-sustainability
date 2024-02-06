@@ -1,8 +1,8 @@
 ---
-name: Project Proposal / Suggestion
-about: Idea for a new project that will improve or enhance the TAG Environmental Sustainability (If you want to implement the idea personally, name it "Proposal" if NOT call it "Suggestion").
-title: "[Project Proposal / Suggestion] some descriptive title"
-labels: "triage-required"
+name: Project Tracking
+about: Please use this template only if your project proposal / suggestion was accepted. This template is used to track the ongoing project progress.
+title: "[PROJECT TRACKING] some descriptive title"
+labels: "tracking"
 assignees: ''
 
 ---
