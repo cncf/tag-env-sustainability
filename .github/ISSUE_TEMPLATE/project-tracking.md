@@ -26,7 +26,9 @@ assignees: ''
 
 #### Scope
 
-...
+**In Scope**: ...
+
+**Out of Scope**: ...
 
 #### Goals and Non Goals
 
