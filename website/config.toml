@@ -60,6 +60,13 @@ languageName ="中文"
 # Weight used for sorting.
 weight = 2
 contentDir = "content/zh"
+[languages.es]
+title = "CNCF TAG Environmental Sustainability"
+description = "TAG Sostenibilidad Ambiental se enfoca en habilitar proyectos e iniciativas para entregar aplicaciones cloud-native, incluyendo la construcción, despliegue, administración y las operaciones de las mismas."
+languageName ="Español"
+# Weight used for sorting.
+weight = 3
+contentDir = "content/es"
 
 
 [markup]

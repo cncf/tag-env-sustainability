@@ -6,7 +6,6 @@ weight: 1
 date:   2023-10-12 00:00:00 +0000
 author: Peng Hui Jiang
 ---
-
 Publicación invitada como parte de [cloud native sustainability week](https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/)*
 
 KubeCon + CloudNativeCon + Open Source Summit China 2023 fue llevada a cabo en Shanghai del 26 al 28 de septiembre, llamando la atención de los asistentes, temas relacionados con la sostenibilidad. Una [charla](https://kccncosschn2023.sched.com/event/1PTGz) notable durante el evento dió a conocer este tema importante. Abajo, recapitulamos esta charla sobre sostenibilidad ambiental en la conferencia.
