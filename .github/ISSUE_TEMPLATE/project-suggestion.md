@@ -1,7 +1,7 @@
 ---
 name: Project Proposal / Suggestion
 about: Idea for a new project that will improve or enhance the TAG Environmental Sustainability (If you want to implement the idea personally, name it "Proposal" if NOT call it "Suggestion").
-title: "[PROEJCT PROPOSAL / SUGGESTION] some descriptive title"
+title: "[PROJECT PROPOSAL / SUGGESTION] some descriptive title"
 labels: "triage-required"
 assignees: ''
 ---
