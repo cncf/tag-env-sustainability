@@ -55,8 +55,8 @@ En este documento técnico, exploramos los desafíos asociados con la cuenta de 
   - [Medición del Consumo de Energía del Sistema en Tiempo de Ejecución](#medición-del-consumo-de-energía-del-sistema-en-tiempo-de-ejecución)
   - [Conservación de Energía y Reducción de Carbono](#conservación-de-energía-y-reducción-de-carbono)
     - [Ajuste, Escalado y Configuración](#ajuste-escalado-y-configuración)
-  - [Arquitectura de Sistemas Ecológicos](#arquitectura-de-sistemas-ecológicos)
-- [Paisaje actual de la Informática en la Nube Sostenible](#paisaje-actual-de-la-informática-en-la-nube-sostenible)
+  - [Arquitectura de Sistemas Verdes](#arquitectura-de-sistemas-verdes)
+- [Panorama Actual de la Informática en la Nube Sostenible](#panorama-actual-de-la-informática-en-la-nube-ostenible)
   - [Centros de Datos](#centros-de-datos)
     - [Centros de Datos Inteligentes](#centros-de-datos-inteligentes)
     - [Refrigeración / BMC.](#refrigeración--bmc)
@@ -65,14 +65,14 @@ En este documento técnico, exploramos los desafíos asociados con la cuenta de 
     - [Metodologías de Observabilidad](#metodologías-de-observabilidad)
   - [Herramientas de Observabilidad](#herramientas-de-observabilidad)
   - [Herramientas de Infraestructura](#herramientas-de-infraestructura)
-    - [Programación a Nivel de Clúster](#programación-a-nivel-de-cluster)
+    - [Programación a Nivel de Clúster](#programación-a-nivel-de-clúster)
     - [Escalado](#escalado)
     - [Ajuste de la Gestión de Energía en el Nodo](#ajuste-de-la-gestión-de-energía-en-el-nodo)
 - [Iniciativas de Sostenibilidad](#iniciativas-de-sostenibilidad)
   - [Organizaciones](#organizaciones)
   - [Conferencias](#conferencias)
   - [Informes de Emisiones de Carbono](#informes-de-emisiones-de-carbono)
-  - [Neutralidad de Carbono / Cero Neto](#neutralidad.de-carbono--cero-neto)
+  - [Neutralidad de Carbono / Cero Neto](#neutralidad-de-carbono--cero-neto)
   - [Análisis de Eficiencia de Lenguajes de Programación](#análisis-de-eficiencia-de-lenguajes-de-programación)
 
 ## Colaboradores
@@ -379,7 +379,7 @@ flowchart TB
     class scheduling,scaling,tuning sections;
 ```
 
-#### Programación a nivel de clúster
+#### Programación a Nivel de Clúster
 
 En la fase de programación a nivel de clúster, la energía que consumirá la carga de trabajo puede reducirse mediante planificadores inteligentes que sean conscientes de la huella de carbono en un centro de datos, la temperatura térmica y la refrigeración, la conciencia de almacenamiento en caché o la eficiencia energética del servidor. La programación por lotes según los costos de energía (carbono, dinero, etc.) es una opción.
 
