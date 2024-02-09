@@ -1,5 +1,5 @@
 ---
-title: Search Results
+title: Resultado de Busqueda
 layout: search
 toc_hide: true
 ---

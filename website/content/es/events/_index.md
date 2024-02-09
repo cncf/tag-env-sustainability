@@ -1,9 +1,9 @@
 ---
-title: Events
-linkTitle: Events
+title: Eventos
+linkTitle: Eventos
 list_pages: true
 menu:
   main:
     weight: 30
-description: Events at which TAG Environmental Sustainability is present
+description: Eventos en los que está presente TAG Environmental Sustainability
 ---
