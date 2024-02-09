@@ -1,34 +1,34 @@
 ---
-title: Embracing Edge Computing with Kepler - A Dive into Remote Monitoring, Centralized Dashboarding, and Visualization
-description: Kepler enables remote monitoring, centralized dashboarding, and visualization of energy consumption, revolutionizing energy observability at edge.
+title: Adopción de Edge Computing con Kepler - una inmersión en la supervisión remota, el cuadro de mandos centralizado y la visualización
+description: Kepler permite la supervisión remota, el control centralizado y la visualización del consumo energético, revolucionando la capacidad de observación de la energía en el perímetro.
 slug: 2023-embracing-edge-computing-with-kepler
 weight: 1
 date:   2023-10-11 00:00:00 +0000
 author: Parul Singh
 ---
 
-*Community guest post as part of the [cloud native sustainability week](https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/)*
+*Publicación comunitaria invitada en el marco de [cloud native sustainability week](https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/)*
 
-In the ever-evolving landscape of technology, edge computing has emerged as a game-changer, enabling real-time data processing closer to the data source. Kepler, with its integration with OpenTelemetry (OTEL), has paved the way for exploring remote monitoring and centralized dashboard options at the edge. This revolutionary approach offers invaluable insights into equipment and workload power consumption, making it a pivotal shift in the realm of energy observability.
+En el panorama tecnológico en constante evolución, la edge-computing ha cambiado las reglas del juego, permitiendo el procesamiento de datos en tiempo real más cerca de la fuente de datos. Kepler, con su integración con OpenTelemetry (OTEL), ha allanado el camino para explorar las opciones de supervisión remota y panel de control centralizado en el perímetro. Este revolucionario enfoque ofrece información muy valiosa sobre el consumo energético de los equipos y las cargas de trabajo, lo que supone un cambio fundamental en el ámbito de la observabilidad de la energía.
 
-## Remote Monitoring Revolutionized
+## Monitoreo Remoto Revolucionado
 
-Kepler metrics provide comprehensive insights into power consumption, empowering users with detailed analytics. The migration from Prometheus to OTLP exporter streamlines the process by eliminating the heavy Prometheus-based monitoring stack. Kepler’s OTLP exporters which are operational on edge devices, facilitate centralized metric collection and usher in a new era of efficient power and energy monitoring.
+Las métricas de Kepler proporcionan información exhaustiva sobre el consumo de energía, lo que permite a los usuarios realizar análisis detallados. La migración de Prometheus al exportador OTLP agiliza el proceso al eliminar la pesada pila de monitorización basada en Prometheus. Los exportadores OTLP de Kepler, que funcionan en dispositivos periféricos, facilitan la recopilación centralizada de métricas y marcan el comienzo de una nueva era de supervisión eficiente de la potencia y la energía.
 
-## The Power of Centralizing Dashboards
+## El Poder de Centralizar Dashboards
 
-Centralizing dashboards is a cornerstone of this paradigm shift. With edge devices operational in various locations, having a centralized dashboard becomes indispensable. It offers a unified view of all the monitored parameters, ensuring seamless monitoring and identifying major power consuming workloads and/or devices. Centralizing dashboards ensures that insights into equipment and workload power consumption are readily accessible, enabling timely decision-making and proactive issue resolution.
+La centralización de los cuadros de mando es la piedra angular de este cambio de paradigma. Con dispositivos edge operativos en varias ubicaciones, disponer de un cuadro de mandos centralizado resulta indispensable. Ofrece una visión unificada de todos los parámetros supervisados, garantizando una supervisión sin fisuras e identificando las cargas de trabajo y/o dispositivos que más energía consumen. La centralización de los cuadros de mando garantiza el fácil acceso a la información sobre el consumo energético de los equipos y las cargas de trabajo, lo que permite tomar decisiones a tiempo y resolver problemas de forma proactiva.
 
-## The Power of OpenTelemetry
+## El Poder de  OpenTelemetry
 
-Embracing OpenTelemetry isn't just a trend; it's a necessity. This open standard for observability ensures vendor-neutral instrumentation, collection, and export of telemetry data. OpenTelemetry's flexibility, consistency, and growing ecosystem, coupled with support from major observability vendors, position it as the go-to choice for modern applications.
+Adoptar OpenTelemetry no es sólo una tendencia; es una necesidad. Este estándar abierto para la observabilidad garantiza una instrumentación, recopilación y exportación de datos telemétricos independiente del proveedor. La flexibilidad, la coherencia y el creciente ecosistema de OpenTelemetry, junto con el apoyo de los principales proveedores de observabilidad, lo posicionan como la mejor opción para las aplicaciones modernas.
 
 <p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/KEPLER-OTEL.webp" alt="Illustration of how Kepler integrates with OpenTelemetry components"></p>
 
-## Kepler’s Architectural Brilliance
+## La Genialidad de la Arquitectura de Kepler
 
-Kepler’s architecture captures pod/container/processes level metrics efficiently. The OTEL collector acts as the intermediary, processing and routing data to destinations. Leveraging Prometheus as a backend, coupled with Grafana's prowess, transforms raw data into meaningful visualizations. This synergy offers a seamless experience, enabling users to comprehend complex data effortlessly.
+La arquitectura de Kepler captura métricas a nivel de pod/contenedor/procesos de forma eficiente. El recopilador OTEL actúa como intermediario, procesando y enrutando los datos a los destinos. Aprovechar Prometheus como backend, junto con la destreza de Grafana, transforma los datos sin procesar en visualizaciones significativas. Esta sinergia ofrece una experiencia fluida, que permite a los usuarios comprender datos complejos sin esfuerzo.
 
-In conclusion, Kepler together with OpenTelemetry and its focus on edge computing mark a significant leap in the power monitoring landscape. Follow [link](https://github.com/husky-parul/otel-observability) for the deployment steps. Stay tuned for more updates on [Kepler OTEL SDK instrumentation](https://github.com/sustainable-computing-io/kepler/issues/659).
+En conclusión, Kepler junto con OpenTelemetry y su enfoque en edge computing marcan un salto significativo en el panorama de la monitorización de energía. Siga [link](https://github.com/husky-parul/otel-observability) para los pasos de despliegue. Esté atento a más actualizaciones sobre [Kepler OTEL SDK instrumentation](https://github.com/sustainable-computing-io/kepler/issues/659).
 
-Reference: [Hybrid Cloud Patterns](https://hybrid-cloud-patterns.io/learn/about/)
+Referencia: [Hybrid Cloud Patterns](https://hybrid-cloud-patterns.io/learn/about/)

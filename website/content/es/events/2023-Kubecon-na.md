@@ -1,31 +1,31 @@
 ---
 title: KubeCon + CloudNativeCon NA 2023
-description: TAG Environmental Sustainability presence at Cloud Native Computing Foundation’s flagship conference in Chicago, USA from 6-9 November, 2023.
+description: Presencia de TAG Environmental Sustainability en Cloud Native Computing Foundation’s conferencia emblematica en Chicago, USA del 6-9 de Noviembre, 2023.
 ---
 
-The Cloud Native Computing Foundation’s flagship conference gathers adopters and technologists from leading open source and cloud native communities for the second time in 2023. This time KubeCon+CloudNativeCon event takes place in the windy city of Chicago, USA from 6-9 November, 2023. Both us from the TAG will be delivering a few sessions on-site, and there will be multiple sustainability-related sessions from other community members that we would like to highlight here!
+La conferencia insignia de la Cloud Native Computing Foundation reúne a adoptantes y tecnólogos de las principales comunidades open-source y cloud native por segunda vez en 2023. Esta vez el evento KubeCon+CloudNativeCon tendrá lugar en la ciudad del viento de Chicago, EE.UU., del 6 al 9 de noviembre de 2023. Tanto nosotros como el TAG impartiremos algunas sesiones in situ, y habrá múltiples sesiones relacionadas con la sostenibilidad de otros miembros de la comunidad que nos gustaría destacar aquí.
 
-We are looking forward to hearing your perspectives and welcome everyone who wants to contribute to our efforts in the cloud native sustainability space.
-Let’s reduce the environmental sustainability footprint of the cloud, data centers and CNCF projects together.
+Estamos deseando escuchar sus puntos de vista y damos la bienvenida a todo aquel que quiera contribuir a nuestros esfuerzos en el espacio de la sostenibilidad nativa de la nube.
+Reduzcamos juntos la huella de sostenibilidad medioambiental de la nube, los centros de datos y los proyectos CNCF.
 
-## Overview of TAG Environmental Sustainability and Related Talks
+## Panorama de la sostenibilidad medioambiental de TAG y charlas relacionadas
 
-* [Keynote: Environmental Sustainability in the Cloud Is Not a Mythical Creature - Frederick Kautz, TestifySec; Rimma Iontel, Red Hat; Tammy McClellan, Microsoft; Marlow Weston, Intel; Niki Manoledaki, Grafana Labs](https://kccncna2023.sched.com/event/1R4Tl/keynote-environmental-sustainability-in-the-c[…]anoledaki-grafana-labs)
+* [Keynote: La sostenibilidad medioambiental en la nube no es una criatura mítica - Frederick Kautz, TestifySec; Rimma Iontel, Red Hat; Tammy McClellan, Microsoft; Marlow Weston, Intel; Niki Manoledaki, Grafana Labs](https://kccncna2023.sched.com/event/1R4Tl/keynote-environmental-sustainability-in-the-c[…]anoledaki-grafana-labs)
 
-* [CNCF Environmental Sustainability TAG Updates and Information - Marlow Weston, Intel & Niki Manoledaki, Grafana Labs](https://kccncna2023.sched.com/event/1R2mQ/cncf-environmental-sustainability-tag-updates[…]anoledaki-grafana-labs)
+* [Información y actualizaciones del TAG sobre sostenibilidad medioambiental de la CNCF - Marlow Weston, Intel & Niki Manoledaki, Grafana Labs](https://kccncna2023.sched.com/event/1R2mQ/cncf-environmental-sustainability-tag-updates[…]anoledaki-grafana-labs)
 
-* [Kepler: Project Update and Deep Dive - Marcelo Amaral & Tatsuhiro Chiba, IBM](https://kccncna2023.sched.com/event/1R2rh/kepler-project-update-and-deep-dive-marcelo-amaral-tatsuhiro-chiba-ibm)
+* [Kepler: Actualización y profundización del proyecto - Marcelo Amaral & Tatsuhiro Chiba, IBM](https://kccncna2023.sched.com/event/1R2rh/kepler-project-update-and-deep-dive-marcelo-amaral-tatsuhiro-chiba-ibm)
 
-* [Sustainability and Efficiency: Environmentally-Friendly Software Development with Kube-Green - Davide Bianchi, Mia-Platform](https://kccncna2023.sched.com/event/1R2u2/sustainability-and-efficiency-environmentally[…]e-bianchi-mia-platform)
+* [Sostenibilidad y eficiencia: Desarrollo de software respetuoso con el medio ambiente con Kube-Green - Davide Bianchi, Mia-Platform](https://kccncna2023.sched.com/event/1R2u2/sustainability-and-efficiency-environmentally[…]e-bianchi-mia-platform)
 
-* [Building Carbon Awareness with KEDA: Taking the First Step Towards Sustainability - Paul Yu, Microsoft](https://kccncna2023.sched.com/event/1TeMO/building-carbon-awareness-with-keda-taking-th[…]lity-paul-yu-microsoft)
+* [Concienciación sobre el carbono con KEDA: el primer paso hacia la sostenibilidad - Paul Yu, Microsoft](https://kccncna2023.sched.com/event/1TeMO/building-carbon-awareness-with-keda-taking-th[…]lity-paul-yu-microsoft)
 
-* [Environmentally Sustainable AI via Power-Aware Batch Scheduling - Atanas Atanasov, Intel & Daniel Wilson, Boston University](https://kccncna2023.sched.com/event/1R2tJ/environmentally-sustainable-ai-via-power-awar[…]lson-boston-university)
+* [Inteligencia artificial ambientalmente sostenible mediante la programación por lotes consciente de la energía - Atanas Atanasov, Intel & Daniel Wilson, Boston University](https://kccncna2023.sched.com/event/1R2tJ/environmentally-sustainable-ai-via-power-awar[…]lson-boston-university)
 
-* [Cutting Climate Costs with Kubernetes and CAPI - Shiva Rezaie & Steve Francis, Sidero Labs](https://sched.co/1R2p6)
+* [Reducción de los costes climáticos con Kubernetes y CAPI - Shiva Rezaie & Steve Francis, Sidero Labs](https://sched.co/1R2p6)
 
-* [Sponsored Keynote: Reduce, Reuse, Recycle - Nathan Taber, Head of Product, Kubernetes, Amazon Web Services](https://sched.co/1R4fu)
+* [Conferencia patrocinada: Reducir, reutilizar, reciclar - Nathan Taber, Head of Product, Kubernetes, Amazon Web Services](https://sched.co/1R4fu)
 
-* [Kube-Costbusters: Optimizing Kubernetes Clusters for Efficiency and Epic Savings! - Rachel Leekin & Antoinette Mills, AWS](https://sched.co/1R2r2)
+* [Kube-Costbusters: ¡Optimización de clústeres Kubernetes para la eficiencia y el ahorro épico! - Rachel Leekin & Antoinette Mills, AWS](https://sched.co/1R2r2)
 
-* [Where's Your Money Going? the Beginners Guide to Measuring Kubernetes Costs - Mark Poko & JuanJo Ciarlante, Grafana Labs](https://sched.co/1R2vE)
+* [Guía para principiantes para medir los costes de Kubernetes - Mark Poko & JuanJo Ciarlante, Grafana Labs](https://sched.co/1R2vE)

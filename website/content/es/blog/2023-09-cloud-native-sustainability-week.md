@@ -1,6 +1,6 @@
 ---
-title: CNCF Cloud Native Sustainability Week 2023
-description: Cloud Native Sustainability Week, organized by the CNCF community, is a global event in the second week of October focused on environmental sustainability in the cloud native space, featuring a global virtual event and 26 local meetups across 19 countries and 5 continents.
+title: Semana de Sostenibilidad de CNCF Cloud Native 2023
+description: La semana de la sostenibilidad de Cloud Native, organizada por la comunidad CNCF, es un evento mundial que se celebra en la segunda semana de octubre y se centra en la sostenibilidad medioambiental en el espacio de cloud native, con un evento virtual mundial y 26 reuniones locales en 19 países de los 5 continentes.
 slug: 2023-cloud-native-sustainability-week
 weight: 1
 date:   2023-09-06 10:00:00 +0000
@@ -9,46 +9,46 @@ author: Leonard Pahlke, Kristina Devochko
 
 <p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/banner.webp" alt="Banner image for CNCF Cloud Native Sustainability Week 2023"></p>
 
-The CNCF Technical Advisory Group for Environmental Sustainability (TAG ENV) is excited to announce the Cloud Native Sustainability Week 2023 and YOU are invited!
+El Grupo de Asesoramiento Técnico para la Sostenibilidad Medioambiental (TAG ENV) de CNCF se complace en anunciar la Semana de la Sostenibilidad de la Nube Nativa 2023 y ¡tú estás invitado!
 
-Cloud Native Sustainability Week is a global event organized by the CNCF community that will take place during the second week of October (week 41). During the week, the community will come together to engage and discuss the emerging topic of environmental sustainability in the cloud native industry and open source space. In addition to the global virtual event organized by the CNCF TAG ENV, there will be 26 local meetups happening across 19 countries and 5 continents. Below is a visual representation of all local meetups scheduled at the time of this writing. If you would like to speak at any of the meetups, please submit your talk proposal here: <https://forms.gle/rEJfLG3a98EWJdmg7>.
+La Semana de la Sostenibilidad de la Nube Nativa es un evento global organizado por la comunidad CNCF que tendrá lugar durante la segunda semana de octubre (semana 41). Durante la semana, la comunidad se reunirá para comprometerse y debatir sobre el tema emergente de la sostenibilidad medioambiental en la industria cloud native y el espacio open-source. Además del evento virtual global organizado por el CNCF TAG ENV, se celebrarán 26 reuniones locales en 19 países de los 5 continentes. A continuación se muestra una representación visual de todas las reuniones locales programadas en el momento de escribir este artículo. Si desea intervenir en alguno de los encuentros, envíe su propuesta de ponencia aquí: <https://forms.gle/rEJfLG3a98EWJdmg7>.
 
-You can find an overview of all the local meetups, including event links and organizer information here (please note that not all details are yet finalized, and the table is being updated continuously): <https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/#meetup-locations>
+Aquí encontrará un resumen de todas las reuniones locales, con enlaces a los eventos e información sobre los organizadores (tenga en cuenta que aún no se han ultimado todos los detalles y que la tabla se actualiza continuamente): <https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/#meetup-locations>
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/map.webp" alt="Picture 1: A visual representation of all the Cloud Native Sustainability Week local meetups displayed on a map"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-09-cloud-native-sustainability-week/map.webp" alt="Imagen 1: Representación visual en un mapa de todos los encuentros locales de la Semana de la Sostenibilidad de Cloud Native."></p>
 
-The picture above is a visual representation of all the Cloud Native Sustainability Week local meetups. A lot of collaborative community effort is being put into making Cloud Native Sustainability Week a truly global event!
+La imagen de arriba es una representación visual de todos los encuentros locales de la Semana de la Sostenibilidad de Cloud Native. Se está realizando un gran esfuerzo de colaboración con la comunidad para hacer de la Semana de la Sostenibilidad de Cloud Native un evento verdaderamente global.
 
-## Cloud Native Sustainability Week Mission
+## Misión de la Semana de la Sostenibilidad Cloud Native
 
-The primary goal of Cloud Native Sustainability Week is to engage with the community and the wider IT industry to enhance awareness and knowledge sharing around the dynamically evolving and critical topic of cloud native sustainability. The event will place emphasis on the significance of the TAG ENV and provide guidance on how participants can actively engage with its ongoing projects and initiatives. TAG ENV believes that this collaborative approach will help enable attendees to contribute to the future development of cloud native sustainability domain and the TAG ENV itself.
+El objetivo principal de la Semana de la Sostenibilidad de Cloud Native es comprometer a la comunidad y al sector informático en general para aumentar la concienciación y el intercambio de conocimientos en torno al tema de la sostenibilidad en la nube, que evoluciona dinámicamente y es crítico. El evento hará hincapié en la importancia de TAG ENV y proporcionará orientación sobre cómo los participantes pueden comprometerse activamente con sus proyectos e iniciativas en curso. TAG ENV cree que este enfoque colaborativo permitirá a los asistentes contribuir al desarrollo futuro del ámbito de la sostenibilidad nativa de la nube y del propio TAG ENV.
 
-Apart from that, the Cloud Native Sustainability Week aims to identify knowledge gaps within the domain of cloud native environmental sustainability where further exploration and knowledge sharing is needed. By bringing together cloud native and open source enthusiasts and professionals, TAG ENV aims to encourage them to actively engage in the development and enhancement of existing projects and tools related to the cloud native sustainability. Together, the cloud native community can drive innovation and future progress in this field.
+Aparte de eso, la Semana de la Sostenibilidad de Cloud Native tiene como objetivo identificar las lagunas de conocimiento dentro del dominio de la sostenibilidad ambiental en la nube nativa, donde se necesita una mayor exploración y el intercambio de conocimientos. Al reunir a entusiastas y profesionales de Cloud Native y open-source, TAG ENV pretende animarles a participar activamente en el desarrollo y la mejora de los proyectos y herramientas existentes relacionados con la sostenibilidad de Cloud Native. Juntos, la comunidad Cloud Native puede impulsar la innovación y el progreso futuro en este campo.
 
-TAG ENV is looking forward to sparking meaningful discussions and inspiring each other with the actions that can be taken towards a more sustainable future of the cloud native ecosystem!
+TAG ENV espera suscitar debates significativos e inspirarse mutuamente con las acciones que pueden emprenderse hacia un futuro más sostenible del ecosistema Cloud Native.
 
-## Why should YOU join Cloud Native Sustainability Week?
+## ¿Por qué debería participar USTED en la Semana de la Sostenibilidad de Cloud Native?
 
-As the world faces increasing environmental challenges, it's crucial for the technology industry to address its impact. The event brings together a diverse community of like-minded individuals who are passionate about cloud native technologies and sustainability.
+A medida que el mundo se enfrenta a retos medioambientales cada vez mayores, es crucial que la industria tecnológica aborde su impacto. El evento reúne a una comunidad diversa de personas con ideas afines que sienten pasión por Cloud Native y la sostenibilidad.
 
-By joining the CNCF Global Week of Cloud Native Sustainability, you have the opportunity to contribute to a global effort that promotes environmental sustainability in the cloud native industry. You will have the chance to network, share knowledge, inspire and be inspired together with other passionate and motivated professionals. By supporting this initiative, you get to be a part of the global movement that is making a positive impact on the planet and strives for making long-lasting changes in the space of cloud native sustainability.
+Al unirse a la Semana de Sostenibilidad de CNCF Cloud Native , tendrá la oportunidad de contribuir a un esfuerzo global que promueve la sostenibilidad medioambiental en la industria Cloud Native. Tendrá la oportunidad de establecer contactos, compartir conocimientos, inspirar y ser inspirado junto con otros profesionales apasionados y motivados. Al apoyar esta iniciativa, podrá formar parte del movimiento mundial que está teniendo un impacto positivo en el planeta y se esfuerza por lograr cambios duraderos en el espacio de la sostenibilidad cloud native.
 
-We are stronger together!
+!Juntos somos más fuertes!
 
-## About CNCF Technical Advisory Group for Environmental Sustainability
+## Acerca del Grupo de Asesoramiento Técnico para la Sostenibilidad Medioambiental del CNCF
 
-The CNCF Technical Advisory Group Environmental Sustainability (TAG ENV) is a community group which focuses on the cloud native sustainability domain, specifically when it comes to establishing respective best practices and standards as well as promoting sustainability awareness via other related initiatives. TAG ENV's primary objective is to advocate for, develop, support, and evaluate environmental sustainability initiatives within cloud native technologies.
+El Grupo de Asesoramiento Técnico sobre Sostenibilidad Medioambiental (TAG ENV) del CNCF es un grupo de la comunidad que se centra en el ámbito de la sostenibilidad de las tecnologías nativas de la nube, especialmente en lo que se refiere al establecimiento de las mejores prácticas y normas respectivas, así como a la promoción de la concienciación sobre la sostenibilidad a través de otras iniciativas relacionadas. El objetivo principal de TAG ENV es defender, desarrollar, apoyar y evaluar iniciativas de sostenibilidad medioambiental dentro de las tecnologías Cloud Native.
 
-TAG ENV aims to identify approaches for service providers to minimize their resource consumption and carbon footprint using cloud native tools. TAG ENV collaborates with the open source community to establish sustainability criteria for the cloud native landscape, support and endorse open source projects for tracking and reducing their carbon emissions, and promote optimized cloud native infrastructure as one of the means to address environmental challenges in the IT industry.
+TAG ENV pretende identificar enfoques para que los proveedores de servicios minimicen su consumo de recursos y su huella de carbono utilizando herramientas cloud native. TAG ENV colabora con la comunidad open-source para establecer criterios de sostenibilidad para el panorama de cloud native, apoyar y respaldar proyectos de código abierto para el seguimiento y la reducción de sus emisiones de carbono, y promover la optimización de la infraestructura cloud native como uno de los medios para hacer frente a los desafíos ambientales en la industria de IT.
 
-TAG ENV strives to increase awareness of environmental sustainability within open source development and actively supports projects that foster an understanding of energy and resource efficiency. The TAG’s aim is to positively impact the community by fostering a sustainability-focused mindset, improving resource efficiency, and placing environmental sustainability at the forefront of everyone's agenda.
+TAG ENV se esfuerza por aumentar la concienciación sobre la sostenibilidad medioambiental dentro del desarrollo open-source y apoya activamente proyectos que fomenten la comprensión de la eficiencia energética y de los recursos. El objetivo del TAG es influir positivamente en la comunidad fomentando una mentalidad centrada en la sostenibilidad, mejorando la eficiencia de los recursos y situando la sostenibilidad medioambiental en el primer plano de la agenda de todos.
 
-You can learn more about the CNCF TAG Environmental Sustainability on their website: <https://tag-env-sustainability.cncf.io>
+Puede obtener más información sobre el TAG de Sostenibilidad Medioambiental de la CNCF en su sitio web: <https://tag-env-sustainability.cncf.io>
 
-## Want to know more?
+## ¿Quiere saber más?
 
-If you're interested in learning more about Cloud Native Sustainability Week, exploring both global and local meetups that are being planned, and discovering how you can participate in this event, please visit the dedicated page on the CNCF Technical Advisory Group for Environmental Sustainability (TAG ENV) website: <https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week>
+Si está interesado en obtener más información sobre la Semana de la Sostenibilidad de Cloud Native, explorar los encuentros globales y locales previstos y descubrir cómo puede participar en este evento, visite la página dedicada en el sitio web del Grupo de Asesoramiento Técnico para la Sostenibilidad Medioambiental (TAG ENV) de la CNCF: <https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week>
 
-**Interested in speaking at one of the Cloud Native Sustainability Week meetups?** Call for Papers is still open! Please submit your session by following this link: <https://forms.gle/rEJfLG3a98EWJdmg7>
+**¿Está interesado en hablar en uno de los encuentros de la Semana de la Sostenibilidad Cloud Native?** La convocatoria de ponencias sigue abierta. Por favor, envíe su sesión siguiendo este enlace: <https://forms.gle/rEJfLG3a98EWJdmg7>
 
-The CNCF Technical Advisory Group for Environmental Sustainability is excited to see you at Cloud Native Sustainability Week!
+El Grupo de Asesoramiento Técnico para la Sostenibilidad Medioambiental del CNCF está encantado de verle en la Semana de la Sostenibilidad Cloud Native.
