@@ -1,7 +1,7 @@
 ---
-title: Cloud Native Sustainability Landscape
-linkTitle: Landscape
-description: This captures the known and ongoing sustainability efforts within the cloud native landscape as well as identifies challenge areas.
+title: Ecosistema de Sostenibilidad Nativa en la Nube
+linkTitle: Ecosistema
+description: Aqui se capturan los esfuerzos conocidos y en materia de sostenibilidad dentro del ecosistema nativo en la nube, así como identifica áreas de desafío
 toc_hide: true
 exclude_search: true
 menu:
@@ -14,235 +14,226 @@ aliases:
 ---
 
 
-*This document was published on 23.06. We are aware that this document contains gaps that will be addressed in future releases. Contributions are very welcome!*
+*Este documento fue publicado el 23.06. Somos conscientes de que este documento contiene vacios que se abordarán en futuras versiones. ¡Las contribuciones son muy bienvenidas!*
 
-All relevant wordings can be found explained here in the [glossary](https://tag-env-sustainability.cncf.io/glossary/). If you are missing something, feel free to submit a PR to include it.
+Todos los textos relevantes pueden encontrarse explicados aquí en el  [glossary](https://tag-env-sustainability.cncf.io/glossary/). Si falta algo, siéntase libre de enviar un PR para incluirlo.
 
-## Summary
+## Resumen
 
-<i class="fas fa-globe-asia mb-3"></i>[Read the Korean translation of this document here](/landscape-ko/).
+<i class="fas fa-globe-asia mb-3"></i>[Lea la traducción Coreana de este documento aqui](/landscape-ko/).
 
-Cloud computing has revolutionized the way we store and process data, enabling organizations to be more agile, efficient, and scalable.
-However, as companies transform their business models to meet sustainability requirements, concerns about environmental sustainability in cloud computing have also emerged.
-The carbon footprint of cloud computing has become a topic of discussion, as it indirectly causes enormous amounts of emissions due to its energy consumption.
-As a result, it has become imperative to quantify and reduce carbon emissions associated with cloud computing to mitigate the impact on the environment.
+La computación en la nube ha revolucionado la forma en que almacenamos y procesamos datos, permitiendo que las organizaciones sean más ágiles, eficientes y escalables. Sin embargo, a medida que las empresas transforman sus modelos de negocio para cumplir con los requisitos de sostenibilidad, también han surgido preocupaciones sobre la sostenibilidad ambiental en la computación en la nube. La huella de carbono de los servicios en la nube se han convertido en un tema de discusión, ya que indirectamente provoca enormes cantidades de emisiones debido a su consumo de energía. Como resultado, se ha vuelto imperativo cuantificar y reducir las emisiones de carbono asociadas con la computación en la nube para mitigar el impacto en el medio ambiente.
 
-Quantifying operational carbon emissions is not as simple as deploying tooling for visibility and accountability.
-This is particularly true for cloud computing, as there are multiple hardware components enclosed in a server, different generations/architecture/vendors of hardware in cloud Infrastructure, dependencies of the services, services running in virtualized/containerized environments, separate fan/cooling controller in the server, missing data, telemetry & observability, AI/ML workloads, and confidential workloads.
-These challenges make it difficult to accurately measure carbon emissions associated with cloud computing.
+Cuantificar las emisiones de carbono operativas no es tan simple como implementar herramientas que otorguen visibilidad y rendición de cuentas.
+Esto es especialmente cierto para la computación en la nube, ya que hay múltiples componentes de hardware encapsulados en un servidor, diferentes generaciones/arquitecturas/proveedores de hardware en la infraestructura de la nube, dependencias de los servicios, servicios que se ejecutan en entornos virtualizados/containerizados, controlador de ventilador/enfriamiento separado en el servidor, datos faltantes, telemetría y observabilidad, cargas de trabajo de IA/ML y cargas de trabajo confidenciales.
+Estos desafíos hacen que sea difícil medir con precisión las emisiones de carbono asociadas con la computación en la nube.
 
-In this white paper, we explore the challenges associated with carbon and energy accounting in cloud computing and provide insights into the complexities of quantifying carbon emissions in public and private clouds.
-Furthermore, the paper explores sector-specific challenges, such as the telecommunications industry.
+En este documento técnico, exploramos los desafíos asociados con la cuenta de carbono y energía en la computación en la nube y brindamos información sobre las complejidades de cuantificar las emisiones de carbono en nubes públicas y privadas. Además, el documento explora los desafíos específicos del sector, como la industria de las telecomunicaciones.
 
-## Table of Contents
+## Tabla de Contenidos
 
-- [Table of Contents](#table-of-contents)
-- [Contributors](#contributors)
-- [Foundations of Sustainable Cloud Systems](#foundations-of-sustainable-cloud-systems)
-  - [Carbon Emissions of the Cloud](#carbon-emissions-of-the-cloud)
-  - [Green Computing](#green-computing)
-  - [Carbon/Energy Accounting](#carbonenergy-accounting)
-- [Challenges of Sustainable Cloud Systems](#challenges-of-sustainable-cloud-systems)
-- [Challenges of Carbon/Energy Accounting](#challenges-of-carbonenergy-accounting)
-  - [Quantifying Operational Carbon Emission](#quantifying-operational-carbon-emission)
-  - [Clouds](#clouds)
-    - [Challenges in the Public Cloud](#challenges-in-the-public-cloud)
-      - [Users of Cloud Service Providers](#users-of-cloud-service-providers)
-    - [Challenges in the Private Clouds](#challenges-in-the-private-clouds)
-  - [Sector Specific Challenges](#sector-specific-challenges)
-    - [Telco](#telco)
-    - [Finance](#finance)
-  - [Workload Specific Challenges](#workload-specific-challenges)
+- [Tabla de Contenidos](#tabla-de-contenidos)
+- [Colaboradores](#colaboradores)
+- [Fundamentos de Sistemas de la Nube Sostenible](#fundamentos-de-sistemas-de-la-nube-sostenible)
+  - [Emisiones de Carbono de la Nube](#emisiones-de-carbono-de-la-nube)
+  - [Computación Ecológica](#computacion-ecologica)
+  - [Cuantificación de Carbono/Energía](#cuantificacion-de-carbono--energia)
+- [Desafíos de los Sistemas de Nube Sostenible](#desafios-de-los-sistemas-de-nube-sostenible)
+- [Desafíos de la Contabilidad de Carbono/Energía](#desafios-de-la-contabilidad-de-carbono--energia)
+  - [Cuantificación de Emisiones de Carbono Operativas](#cuantificacion-de-emisiones-de-carbono-operativas)
+  - [Nubes](#nubes)
+    - [Desafíos en las Nubes Públicas](#desafios-en-las-nubes-publicas)
+      - [Usuarios de Proveedores de Servicios en la Nube](#usuarios-de-proveedores-de-servicios-en-la-nube)
+    - [Desafíos en las Nubes Privadas](#desafios-en-las-nubes-privadas)
+  - [Desafíos Específicos del Sector](#desafios-específicos-del-sector)
+    - [Telecomunicaciones](#telecomunicaciones)
+    - [Finanzas](#finanzas)
+  - [Desafíos Específicos de las Cargas de Trabajo](#desafios-especificos-de-las-cargas-de-trabajo)
     - [AI/ML](#aiml)
-- [Layers of the solutions](#layers-of-the-solutions)
-- [Current Industry Research and Development](#current-industry-research-and-development)
-  - [Runtime System Power Measurement](#runtime-system-power-measurement)
-  - [Energy Conservation and Carbon Reduction](#energy-conservation-and-carbon-reduction)
-    - [Tuning, Scaling, and Configuration](#tuning-scaling-and-configuration)
-  - [Green System Architecture](#green-system-architecture)
-- [Current Sustainable Cloud Computing Landscape](#current-sustainable-cloud-computing-landscape)
-  - [Data centers](#data-centers)
-    - [Smart Data Centers](#smart-data-centers)
-    - [Cooling / BMC](#cooling--bmc)
-  - [Methodologies](#methodologies)
-    - [Measurement Methodologies](#measurement-methodologies)
-    - [Observability Methodologies](#observability-methodologies)
-  - [Observability Tooling](#observability-tooling)
-  - [Infrastructure Tooling](#infrastructure-tooling)
-    - [Scheduling At The Cluster Level](#scheduling-at-the-cluster-level)
-    - [Scaling](#scaling)
-    - [On-Node Power Management Tuning](#on-node-power-management-tuning)
-- [Sustainability Initiatives](#sustainability-initiatives)
-  - [Organizations](#organizations)
-  - [Conferences](#conferences)
-  - [Carbon Emissions Reports](#carbon-emissions-reports)
-  - [Net Zero / Carbon Neutrality](#net-zero--carbon-neutrality)
-  - [Programming Language Efficiency Analysis](#programming-language-efficiency-analysis)
+- [Capas de las soluciones](#capas-de-las-soluciones)
+- [Investigación y Desarrollo de la Industria Actual](#investigacion-y-desarrollo-de-la-industria-actual)
+  - [Medición del Consumo de Energía del Sistema en Tiempo de Ejecución](#medicion-del-consumo-de-energia-del-sistema-en-tiempo-de-ejecucion)
+  - [Conservación de Energía y Reducción de Carbono](#conservacion-de-energia-y-reduccion-de-carbono)
+    - [Ajuste, Escalado y Configuración](#ajuste-escalado-y-configuración)
+  - [Arquitectura de Sistemas Ecológicos](#arquitectura-de-sistemas-ecologicos)
+- [Paisaje actual de la Informática en la Nube Sostenible](#paisaje-actual-de-la-informatica-en-la-nube-sostenible)
+  - [Centros de Datos](#centros-de-datos)
+    - [Centros de Datos Inteligentes](#centros-de-datos-inteligentes)
+    - [Refrigeración / BMC.](#refrigeracion--bmc)
+  - [Metodologías](#metodologias)
+    - [Metodologías de Medición](#metodologias-de-medicion)
+    - [Metodologías de Observabilidad](#metodologias-de-observabilidad)
+  - [Herramientas de Observabilidad](#herramientas-de-observabilidad)
+  - [Herramientas de Infraestructura](#herramientas-de-infraestructura)
+    - [Programación a Nivel de Clúster](#programacion-a-nivel-de-cluster)
+    - [Escalado](#escalado)
+    - [Ajuste de la Gestión de Energía en el Nodo](#ajuste-de-la-gestion-de-energia-en-el-nodo)
+- [Iniciativas de Sostenibilidad](#iniciativas-de-sostenibilidad)
+  - [Organizaciones](#organizaciones)
+  - [Conferencias](#conferencias)
+  - [Informes de Emisiones de Carbono](#informes-de-emisiones-de-carbono)
+  - [Neutralidad de Carbono / Cero Neto](#neutralidad.de-carbono--cero-neto)
+  - [Análisis de Eficiencia de Lenguajes de Programación](#analisis-de-eficiencia-de-lenguajes-de-programacion)
 
-## Contributors
+## Colaboradores
 
-A special thank you to our contributors of this document. If you are interested in improving and enhancing the content, please file a PR on the repo and ensure you add yourself as a contributor below!
+Un agradecimiento especial a nuestros colaboradores de este documento. Si estás interesado en mejorar y enriquecer el contenido, por favor presenta un PR en el repositorio y asegúrate de agregarte como colaborador a continuación.
 
 <!-- cspell:disable-next-line -->
 Huamin Chen, [Marlow Weston](https://github.com/catblade), [Niki Manoledaki](https://github.com/nikimanoledaki), Eun Kyung Lee, [Chen Wang](https://github.com/wangchen615), [Chris Lloyd-Jones](https://github.com/Sealjay),
 [Parul Singh](https://github.com/husky-parul), [Przemysław Perycz](https://github.com/pperycz), [Christopher Cantalupo](https://github.com/cmcantalupo), [Patricia Cahill](https://github.com/patricia-cahill), [Jochen Joswig](https://github.com/by-d-sign), [Emily Fox](https://github.com/thefoxatwork), [Leonard Pahlke](https://github.com/leonardpahlke)
 
-## Foundations of Sustainable Cloud Systems
+## Fundamentos de Sistemas de la Nube Sostenible
 
-Sustainable cloud and cloud native systems may only be constructed when three foundations exist.
-These foundations form the basis of informed design, decision-making, and accountability in cloud and cloud native architectures.
+Los sistemas nativos de la nube sostenibles solo pueden construirse cuando existen tres fundamentos.
+Estos fundamentos constituyen la base del diseño informado, la toma de decisiones y la rendición de cuentas en arquitecturas de nube y nativas en la nube.
 
-### Carbon Emissions of the Cloud
+### Emisiones de Carbono de la Nube
 
-The carbon emissions of Information and Communication Technology (short: ICT) systems are categorized as and composed of:
+Las emisiones de carbono de los sistemas de Tecnología de la Información y Comunicación (abreviado: TIC) se categorizan y componen de la siguiente manera:
 
-- **operational emissions**: the amount of carbon emitted during the operational or in-use phase of an ICT system.
-These emissions are mostly due to burning of fossil fuels to generate the electricity required by these systems.
-- **embodied emissions**: the amount of carbon emitted during the creation and disposal the hardware (short: HW) and physical components of an ICT system (e.g.: devices, servers, cables, buildings, etc.).
-Embodied emissions are also referred to as embedded emissions.
+- **emisiones operativas**: la cantidad de carbono emitido durante la fase operativa o de uso de un sistema de TIC. Estas emisiones se deben principalmente a la quema de combustibles fósiles para generar la electricidad requerida por los mismos.
+- **emisiones incorporadas**: la cantidad de carbono emitido durante la creación y disposición del hardware (abreviado: HW) y componentes físicos de un sistema de TIC (por ejemplo: dispositivos, servidores, cables, edificios, etc.). Las emisiones incorporadas también se conocen como emisiones integradas.
 
-Cloud and cloud native systems are no exception to the foundation of carbon emissions to ensure environmentally sustainable computing as they are firmly under the umbrella of ICT systems.
+La nube y los istemas nativos en la nube no son una excepción a las emisiones de carbono para garantizar una computación ambientalmente sostenible, ya que están firmemente bajo el paraguas de los sistemas de TIC.
 
-### Green Computing
+### Computación Ecológica
 
-Green computing refers to the architecture and design of software and systems that monitor and optimize resource consumption, reduce environmental impact, and improve sustainability, while providing useful services to its users and stakeholders.
+La computación ecológica se refiere a la arquitectura y diseño de software y sistemas que supervisan y optimizan el consumo de recursos, reducen el impacto ambiental y mejoran la sostenibilidad, al tiempo que proporcionan servicios útiles a sus usuarios y partes interesadas.
 
-### Carbon/Energy Accounting
+### Cuantificación de Carbono/Energía
 
-Carbon and energy accounting refers to systems, services, and methodologies to track and account for carbon and energy consumption.
+La cuantificación de carbono y energía se refiere a sistemas, servicios y metodologías para rastrear y contabilizar el consumo de carbono y energía.
 
-## Challenges of Sustainable Cloud Systems
+## Desafíos de los Sistemas de Nube Sostenible
 
-The challenges associated with building and maintaining sustainable cloud systems are still being uncovered with green computing and carbon and energy accounting as two rapidly developing fields with interest from a variety of industry sectors.
-We anticipate more challenges *and* solutions to be uncovered as more adoption and maturity of these technologies increases. However, the below section attempts to capture current challenges across the foundations.
-A popular standard for Carbon Accounting is the [Greenhouse Gas Protocol](https://ghgprotocol.org/) (short: GHG protocol, GHGP).
+Los desafíos asociados con la construcción y mantenimiento de sistemas de nube sostenible aún se están descubriendo con la computación ecológica y la ccuantificación de carbono y energía como dos campos en desarrollo rápido con interés de una variedad de sectores industriales.
+Anticipamos que se descubrirán más desafíos y soluciones a medida que aumente la adopción y madurez de estas tecnologías. Sin embargo, la siguiente sección intenta capturar los desafíos actuales en los fundamentos.
+Un estándar popular para la Contabilidad de Carbono es el [Greenhouse Gas Protocol](https://ghgprotocol.org/) (abreviado: GHG protocol, GHGP).
 
-## Challenges of Carbon/Energy Accounting
+## Desafíos de la cuantificación de Carbono/Energía
 
-### Quantifying Operational Carbon Emission
+### Cuantificación de Emisiones de Carbono Operativas
 
-Observability in the performance of cloud native workloads has grown in popularity as organizations learn the value in various telemetry data points for increased visibility and understanding of how their architectures are operating.
-As more organizations begin to consider how to reach similar value in the resource utilization and energy consumption, they're learning that quantifying the operational carbon emission is not as simple as deploying tooling for visibility and accountability.
-Quantifying the operational carbon emission is not trivial for a number of reasons, not limited to the following:
+La observabilidad en el rendimiento de las cargas de trabajo nativas en la nube ha ganado popularidad a medida que las organizaciones comprenden el valor de diversos puntos de datos de telemetría para aumentar la visibilidad y comprensión de cómo operan sus arquitecturas.
+A medida que más organizaciones comienzan a considerar cómo alcanzar un valor similar en la utilización de recursos y el consumo de energía, están aprendiendo que cuantificar las emisiones de carbono operativas no es tan simple como implementar herramientas para visibilidad y rendición de cuentas.
+Cuantificar las emisiones de carbono operativas no es trivial por varias razones, que no se limitan a las siguientes:
 
-* Multiple Hardware (HW) components enclosed in a server - power modeling is required for various HW components (e.g., CPU, Memory, GPU, Storage, I/O) for accurate quantification/estimation.
-* HW is used by multiple users/accounts simultaneously – power modeling per different user (e.g., multiple software thread(s)) is a totally different problem for modeling.
-A important issue to understand here is [Energy Proportionality](https://learn.greensoftware.foundation/energy-efficiency#energy-proportionality).
-The SW/HW interaction should be well-understood for power modeling.
-* Different generations/architecture/vendors of HW in cloud Infrastructure - power modeling is required for different generations/architecture/vendors for example, Intel vs. AMD vs. ARM, Skylake vs. Sapphire Rapids, and ConnectX-5 vs. ConnectX-6.
-* Dependencies of the services - a service may use different services. (e.g., Kubernetes uses COS service), applications may be distributed across data centers and clouds.
-* Services running in virtualized/containerized environments - power modeling is required for virtualized/containerized environments, which increases the complexity of modeling
-* Separate fan/cooling controller in the server – The fan and other cooling components are often controlled by a separate controller, which requires additional modeling.
-* Missing data – due to the limitation of exposing internal data in the cloud, accessing the key data to calculate the operation emission is prohibited. On-premise (On-prem) data centers are sometimes lacking power measurement technology.
-* Telemetry & observability – a user often uses multiple HW at the same time, reliable and high-granularity telemetry becomes more important. However, telemetry/observability overhead should be low relative to the services being executed on the server/cloud.
-* AI/ML workloads – dramatic increase in using Artificial Intelligence (AI)/ Machine Learning (ML) workload leads to the strong need of dedicated GPU-based clusters. The characteristics of such workloads are different than traditional workloads and their power consumptions are significantly higher.
-* Confidential workloads - evolve from VM use case to confidential container (SGX/SEV/TDX), the TEE (Trusted Execution Environment)
-and the usage of bounce buffer/SWIOTLB might cost more energy. However, the confidential workload is hard to be observed due to
-security concerns.
+* Múltiples componentes de hardware (HW) encapsulados en un servidor : se requiere modelado de potencia para varios componentes de hardware (por ejemplo, CPU, memoria, GPU, almacenamiento, E/S) para una cuantificación/estimación precisa.
+* El hardware (HW) es utilizado por múltiples usuarios/cuentas simultáneamente: el modelado de potencia por usuario diferente (por ejemplo, múltiples hilo(s) de software) es un problema totalmente diferente para el modelado. Un tema importante para entender aquí es [Proporcionalidad Energética](https://learn.greensoftware.foundation/energy-efficiency#energy-proportionality).
+La interacción entre el software y el hardware debe entenderse bien para el un modelador poderoso.
+* Diferentes generaciones/arquitecturas/proveedores de hardware en la infraestructura de la nube: se requiere modelado de potencia para diferentes generaciones/arquitecturas/proveedores, por ejemplo, Intel vs. AMD vs. ARM, Skylake vs. Sapphire Rapids, y ConnectX-5 vs. ConnectX-6.
+* Dependencias de los servicios: un servicio puede utilizar diferentes servicios (por ejemplo, Kubernetes utiliza el servicio COS), las aplicaciones pueden estar distribuidas en varios centros de datos y nubes.
+* Servicios que se ejecutan en entornos virtualizados/containerizados: se requiere modelado de potencia para entornos virtualizados/containerizados, lo que aumenta la complejidad del modelado.
+* Controlador separado de ventiladores/refrigeración en el servidor: Los ventiladores y otros componentes de refrigeración suelen ser manejados por un controlador separado, lo que requiere modelado adicional.
+* Datos faltantes: debido a la limitación de exponer datos internos en la nube, se prohíbe el acceso a los datos clave para calcular las emisiones operativas. A veces, los centros de datos locales (On-premise) carecen de tecnología de medición de energía.
+* Telemetría y observabilidad: a menudo, un usuario utiliza múltiples componentes de hardware al mismo tiempo, por lo que la telemetría confiable y de alta granularidad se vuelve más importante. Sin embargo, el sobrecosto de la telemetría/observabilidad debe ser bajo en relación con los servicios que se ejecutan en el servidor/nube.
+* Cargas de trabajo de IA/ML: el aumento dramático en el uso de cargas de trabajo de Inteligencia Artificial (IA)/Aprendizaje Automático (ML) conduce a una fuerte necesidad de clústeres dedicados basados en GPU. Las características de estas cargas de trabajo son diferentes a las de las cargas de trabajo tradicionales y su consumo de energía es significativamente más alto.
+* Cargas de trabajo confidenciales: evolucionan desde casos de uso de máquinas virtuales a contenedores confidenciales (SGX/SEV/TDX), el TEE (Entorno de Ejecución Confiable).
+También el uso de búferes de rebote/SWIOTLB podría costar más energía. Sin embargo, la carga de trabajo confidencial es difícil de observar debido a preocupaciones de seguridad.
 
-Quantifying embedded carbon emissions is also very challenging as manufacturing details (embodied emissions) are not being incorporated into information for holistic quantification by consumers of manufactured technology.
-This is out of the scope of this white paper, however this TAG encourages interested readers to suggest guidance, best practices, methods, and mechanisms to quantify these emissions by filing an issue or pull request on our [repository](https://github.com/cncf/tag-env-sustainability).
-<!-- We may want to put some directions though // +1, would this be guidance/best practice on methods to quantify these emissions or guidance on methods to mitigate these emissions? -->
+Cuantificar las emisiones de carbono incorporadas también es muy desafiante ya que los detalles de fabricación (emisiones integradas) no se están incorporando en la información para una cuantificación holística por parte de los consumidores de tecnología fabricada.
+Esto está fuera del alcance de este documento técnico, sin embargo, este Grupo de Trabajo alienta a los lectores interesados a sugerir orientaciones, mejores prácticas, métodos y mecanismos para cuantificar estas emisiones presentando un problema o solicitud de extracción en nuestro. [repositorio](https://github.com/cncf/tag-env-sustainability).
+<!-- Quisieramos proporcionar algunas indicaciones sin embargo // +1, ¿se trata de orientación/mejores prácticas sobre métodos para cuantificar estas emisiones o guía sobre métodos para mitigar estas emisiones? -->
 
-### Clouds
+### Nubes
 
-#### Challenges in the Public Cloud
+#### Desafíos en las Nubes Públicas
 
-Public cloud providers, such as AWS, Azure, and GCP are often quite restrictive with consumption and emission data, as the providers limit decisions users can make with regard to accessing sustainability-related metrics.
-Sustainability-related metrics include data points such as the energy consumption, hardware, electricity source, data center PUE, etc.
+Los proveedores de nube pública, como AWS, Azure y GCP, a menudo son bastante restrictivos con los datos de consumo y emisión, ya que limitan las decisiones que los usuarios pueden tomar con respecto al acceso a métricas relacionadas con la sostenibilidad.
+Las métricas relacionadas con la sostenibilidad incluyen puntos de datos como el consumo de energía, hardware, fuente de electricidad, PUE del centro de datos, etc.
 
-Providers do try to keep their day-to-day costs, energy usage, and emissions down, but the functionality exposed to users to can be quite limited.
-This is likely due in part to the shared responsibility model upon which cloud computing is designed - abstracting the operational complexity organizations would otherwise be responsible for in running their own data centers.
-<!--- this statement needs reference: They do not trust their users, as users vary from amateur to experienced. --->
-Additionally, the quantification challenges previously identified also contribute heavily to further difficulties in accounting for carbon costs by specific users, as the carbon accounting can take much longer than users have to connect to individual types of jobs.
-The hyperscalers mentioned above offer insight into the carbon emissions of cloud resources through carbon dashboards or APIs.
-Yet, these can be quite limited and/or have a considerable time lag for the carbon emission data to become available within an acceptable time window for users to take action on.
-In addition, the methodologies used to calculate carbon emissions can vary between cloud providers, reducing a user's ability to compare between providers.
-How this information is measured or estimated is often obtuse, inconsistent, and without industry consensus.
-As with most emerging technology areas, the variance in underlying implementations will continue until industry centers around a collective schema or framework for both measuring and expressing those measurements.
+Los proveedores intentan mantener sus costos, uso de energía y emisiones diarias bajos, pero la funcionalidad expuesta a los usuarios puede ser bastante limitada.
+Esto probablemente se deba en parte al modelo de responsabilidad compartida en el que se basa la informática en la nube, que abstrae la complejidad operativa de las organizaciones que de otra manera serían responsables de ejecutar sus propios centros de datos.
+<!--- Este enunciado necesita referencia: No confían en sus usuarios, ya que estos varían desde aficionados hasta experimentados. --->
+Además, los desafíos de cuantificación previamente identificados también contribuyen en gran medida a dificultades adicionales para contabilizar los costos de carbono por parte de usuarios específicos, ya que la cuantificación de carbono puede llevar mucho más tiempo del que tienen los usuarios para conectar a tipos individuales de trabajos.
+Los hiperescaladores mencionados anteriormente ofrecen información sobre las emisiones de carbono de los recursos en la nube a través de paneles de control de carbono o APIs.
+Sin embargo, estos pueden ser bastante limitados y/o tener un considerable retraso temporal para que los datos de emisiones de carbono estén disponibles dentro de una ventana de tiempo aceptable para que los usuarios tomen medidas.
+Además, las metodologías utilizadas para calcular las emisiones de carbono pueden variar entre proveedores de nube, lo que reduce la capacidad de un usuario para comparar entre proveedores.
+Cómo se mide o estima esta información a menudo es opaco, inconsistente y sin consenso en la industria.
+Como ocurre con la mayoría de las áreas de tecnología emergentes, la variación en las implementaciones subyacentes continuará hasta que la industria se centre en un esquema o marco colectivo tanto para medir como para expresar esas mediciones.
 
-##### Users of Cloud Service Providers
+##### Usuarios de Proveedores de Servicios en la Nube
 
-Users are often unaware and inexperienced in how their workloads effect their organization's carbon footprint.
-Those that do care about their environmental impact have a hard time connecting their individual workloads to their carbon costs.
+Los usuarios a menudo no son conscientes e inexpertos en cómo sus cargas de trabajo afectan la huella de carbono de su organización.
+Aquellos que se preocupan por su impacto ambiental tienen dificultades para conectar sus cargas de trabajo individuales con sus costos de carbono.
 
-#### Challenges in the Private Clouds
+#### Desafíos en las Nubes Privadas
 
-These are clouds run by particular companies or universities for use of the members of those companies or universities.
-These clouds are often more trusting environments, as the users are accountable to the administrators or management of the cloud they are running their workloads on.
-Due to the special-purposes of private clouds, environmental sustainability, green computing, and accountability of emissions are not in the forefront of design, operation, or even expense, thus contributing to further challenges unique to private cloud.
-These are still yet unknown.
+Estas son nubes administradas por empresas o universidades para uso de los miembros de estos lugares.
+Estas nubes suelen ser entornos más confiables, ya que los usuarios son responsables ante los administradores o la dirección de la nube en la que ejecutan sus cargas de trabajo.
+Debido a los propósitos especiales de las nubes privadas, la sostenibilidad ambiental, la informática ecológica y la responsabilidad de las emisiones no están en primer plano en el diseño, operación o incluso en el gasto, lo que contribuye a desafíos adicionales únicos de las nubes privadas.
+Estos todavía son desconocidos.
 
-### Sector Specific Challenges
+### Desafíos Específicos del Sector
 
-#### Telco
+#### Telecomunicaciones
 
-Telecommunications (Telco) customers are often demanding due to their unique needs in providing high reliability and high velocity service to their customers.
-Telco needs their systems to be extremely stable, and the traffic to be fast and reliable.
-Some systems are left entirely at full-power because power modulation can affect traffic and the tolerance for this is low.
-Building systems that reduce power that Telco is confident will not affect their traffic is challenging.
+Los clientes de las Telecomunicaciones (Telco) suelen ser exigentes debido a sus necesidades únicas para proporcionar servicios de alta confiabilidad y alta velocidad a sus clientes.
+Las Telecomunicaciones necesitan que sus sistemas sean extremadamente estables y que el tráfico sea rápido y confiable.
+Algunos sistemas se dejan completamente a plena potencia porque la modulación de energía puede afectar el tráfico y la tolerancia para esto es baja.
+Construir sistemas que reduzcan la potencia sin que Telco tenga la seguridad de que no afectará su tráfico es un desafío.
 
-#### Finance
+#### Finanzas
 
-Finance may have simulations being run, in the off-hours, and those will look like an AI/ML workload.
-However, for transactions and fast-traffic, finance has predictable times of day of use-when the markets are up.
-For this reason, time-of-day adjustments on the majority of the clusters run by finance can be limited.
-However, transaction times do affect real dollars, so being fast will be prioritized in these environments over power use.
-In order to get this set of customers to use sustainable options, care must be taken to limit the impact to their bottom line.
-Additional, high-security and regulatory requirements can increase the utilization and emissions from finance workloads as a result of increased logging, monitoring, and other factors.
+Las finanzas pueden tener simulaciones en funcionamiento, fuera del horario laboral, y estas se parecerán a una carga de trabajo de IA/ML.
+Sin embargo, para las transacciones y el tráfico rápido, las finanzas tienen momentos predecibles del día en los que se utilizan, cuando los mercados están activos.
+Por esta razón, los ajustes de hora del día en la mayoría de los clústeres utilizados por las finanzas pueden ser limitados.
+Sin embargo, los tiempos de transacción afectan dólares reales, por lo que la velocidad se priorizará en estos entornos sobre el uso de energía.
+Para que este conjunto de clientes utilice opciones sostenibles, es necesario tener cuidado de limitar el impacto en su balance final.
+Además, los requisitos de alta seguridad y regulación pueden aumentar la utilización y las emisiones de las cargas de trabajo financieras como resultado del aumento de registro, monitoreo y otros factores.
 
-### Workload Specific Challenges
+### Desafíos Específicos de las Cargas de Trabajo
 
 #### AI/ML
 
-In addition to the challenges identified above, Artificial Intelligence (AI) and Machine Learning (ML) workloads exist either as schedulable compute at a cloud service provider or within a bare metal environment.
-In either case, AI/Ml clusters often  have the added complexity of XPUs, or accelerators.
-These accelerators take significant amounts of power to run, more by an order of magnitude required from regular computer chips.
-Additionally, some of the workloads on these clusters are not time-sensitive, for instance training sets of information, and some are time-sensitive, for instance inference jobs for recognition systems.
+Además de los desafíos identificados anteriormente, las cargas de trabajo de Inteligencia Artificial (IA) y Aprendizaje Automático (ML) existen ya sea como cómputo programable en un proveedor de servicios en la nube o dentro de un entorno de hardware dedicado.
+En ambos casos, los clústeres de IA/ML a menudo tienen la complejidad adicional de las XPUs, o aceleradores.
+Estos aceleradores requieren cantidades significativas de energía para funcionar, siendo requeridas por un orden de magnitud mayor que los chips de computadora regulares.
+Además, algunas de las cargas de trabajo en estos clústeres no son sensibles al tiempo, por ejemplo, conjuntos de entrenamiento de información, y otras al tiempo, por ejemplo, trabajos de inferencia para sistemas de reconocimiento.
 
-## Layers of the solutions
+## Capas de las soluciones
 
-When considering solutions complimentary to the three foundations of sustainable cloud systems, we can divide solution considerations into three general areas:
+Al considerar soluciones complementarias a los tres fundamentos de los sistemas de nube sostenible, podemos dividir las consideraciones de solución en tres áreas generales:
 
-1. Which data center to use, if there are multiple options available.
-2. Where to place the workload once a data center is chosen.
-3. How to manage the resources on the node allocated for a workload to run on.
+1. Qué centro de datos utilizar, si hay varias opciones disponibles.
+2. Dónde colocar la carga de trabajo una vez que se elige un centro de datos.
+3. Cómo gestionar los recursos en el nodo asignado para que una carga de trabajo se ejecute.
 
-All of these elements can be investigated further individually.
+Todos estos elementos pueden ser investigados más a fondo de manera individual.
 
-| Area               | Goal                                                                                                                                                                                                                                     | Efforts                                |
+| Area               | Objetivo                                                                                                                                                                                                                                     | Esfuerzos                                |
 | ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
-| Multi Data Centers | Intelligently choosing which data center to schedule on according to environmental factors such as whether the region is powered by renewables, the region's Marginal Emissions Rate, Power Usage Effectiveness (PUE), time of day, etc. | Cluster Management                     |
-| Within Data Center | Scheduling effectively according to workload, availability, and urgency of workload                                                                                                                                                      | Power Management, K8S Scheduler Plugin |
-| Within a node      | Optimizing resources to handle workload specifications (which may include performance parameters) while minimizing resource consumption                                                                                                  | Node Tuning, Pod Scaling               |
+| Múltiples Centros de Datos | Elegir de manera inteligente en qué centro de datos programar según factores ambientales como si la región es alimentada por energías renovables, la Tasa de Emisiones Marginales de la región, la Eficiencia del Uso de Energía (PUE), la hora del día, etc. | Gestión de Clústeres                   |
+| Dentro del Centro de Datos | Programación eficaz según la carga de trabajo, disponibilidad y urgencia de la carga de trabajo.                                                                                                                                                      | Gestión de energía, complemento del planificador de K8S |
+| Dentro de un nodo      | Optimización de recursos para manejar las especificaciones de la carga de trabajo (que pueden incluir parámetros de rendimiento) al tiempo que se minimiza el consumo de recursos.                                                                                                  | Ajuste del nodo, Escalado de pods               |
 
-## Current Industry Research and Development
+## Investigación y Desarrollo de la Industria Actual
 
-There are a number of developments and ongoing research in the field of sustainable computing.
-If you know of some that aren't captured here, we would love for you to contribute them!
+Hay varios desarrollos e investigación en curso en el campo de la informática sostenible.
+Si conoces algunos que no están mencionados aquí, ¡nos encantaría que los contribuyeras!
 
-### Runtime System Power Measurement
+### Medición del Consumo de Energía del Sistema en Tiempo de Ejecución
 
-📗 [A summarization of topics and research up to 2016](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
+📗 [Una síntesis de temas e investigaciones hasta 2016](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 
-### Energy Conservation and Carbon Reduction
+### Conservación de Energía y Reducción de Carbono
 
-#### Tuning, Scaling, and Configuration
+#### Ajuste, Escalado y Configuración
 
-At runtime, energy consumed by workloads can be reduced at HW level through DVFS-based scaling, at SW level through runtime parameter tuning and re-configuration, or at the orchestration level through scale-to-zero automation.
+En tiempo de ejecución, la energía consumida por las cargas de trabajo puede reducirse a nivel de hardware mediante el escalado basado en DVFS, a nivel de software mediante la sintonización de parámetros en tiempo de ejecución y reconfiguración, o a nivel de orquestación mediante la automatización de escalamiento a cero.
 
-### Green System Architecture
+### Arquitectura de Sistemas Verdes
 
-Green HW/SW systems either improve sub-system efficiency or change the way that computation is conducted.
+Los sistemas de hardware/software verdes mejoran la eficiencia de los subsistemas o cambian la forma en que se lleva a cabo la computación.
 
-For instance, programs written in [energy efficient languages](https://haslab.github.io/SAFER/scp21.pdf) or running on more [optimized runtimes](https://hal.inria.fr/hal-03275286/document) are generally "greener".
+Por ejemplo, programas escritos en [lenguajes eficientes en energía.](https://haslab.github.io/SAFER/scp21.pdf) o que se ejecutan en [entornos de ejecución mas optimizados](https://hal.inria.fr/hal-03275286/document) are generally "greener".
 
-On the other hand, architectures that address the root cause of energy waste, including idle power and data center cooling, are evaluated to be more environmentally friendly.
-For instance, Federated Learning spreads model training to devices that do not require expensive cooling is [evaluated](https://www.cam.ac.uk/research/news/can-federated-learning-save-the-world) to reduce carbon footprint in aggregate.
+Por otro lado, las arquitecturas que abordan la causa principal del desperdicio de energía, incluyendo el consumo en estado de reposo y la refrigeración de centros de datos, se consideran más amigables con el medio ambiente. Por ejemplo, el Aprendizaje Federado distribuye el entrenamiento de modelos a dispositivos que no requieren refrigeración costosa [evaluadas](https://www.cam.ac.uk/research/news/can-federated-learning-save-the-world) to reduce carbon footprint in aggregate.
 
-## Current Sustainable Cloud Computing Landscape
+## Panorama Actual de la Informática en la Nube Sostenible
 
-The diagram below illustrates the dimensions of the sustainable cloud computing landscape, which are described in detail in the following sections.
+El diagrama a continuación ilustra las dimensiones del panorama de la informática en la nube sostenible, que se describen en detalle en las secciones siguientes.
 
 ```mermaid
 %%{init: {'theme':'neutral'}}%%
@@ -257,44 +248,40 @@ flowchart TB
     class dc,methodologies,infra,obs dimensions;
 ```
 
-### Data centers
+### Centros de Datos
 
-#### Smart Data Centers
+#### Centros de Datos Inteligentes
 
-* ECO-Qube is a holistic management system that aims to enhance energy efficiency and cooling performance by orchestrating both hardware and software components in edge computing applications [ECO-Qube](https://www.ecoqube.org)
-* [Patchwork Kilt](https://openuk.uk/patchworkkilt/) - A blueprint for sustainable data centers.
-* [Open Compute Sustainability Project](https://www.opencompute.org/projects/sustainability) - Leveraging the expertise of the OCP community, we offer an open framework and resources for OCP members and data center industry – vendors, suppliers, and end users - to deploy industry best practices that promotes reusability and circularity.
+* ECO-Qube es un sistema de gestión integral que tiene como objetivo mejorar la eficiencia energética y el rendimiento de enfriamiento al coordinar tanto los componentes de hardware como de software en aplicaciones de computación en el borde. [ECO-Qube](https://www.ecoqube.org)
+* [Patchwork Kilt](https://openuk.uk/patchworkkilt/) - Un modelo para centros de datos sostenibles.
+* [Open Compute Sustainability Project](https://www.opencompute.org/projects/sustainability) - Aprovechando la experiencia de la comunidad de OCP, ofrecemos un marco abierto y recursos para los miembros de OCP y la industria de centros de datos: proveedores, suministradores y usuarios finales, para implementar las mejores prácticas de la industria que promueven la reutilización y la circularidad.
 
-#### Cooling / BMC
+#### Refrigeración / BMC
 
-* 📰 🧊 OCP Cooling Telemetry [Improve data center cooling facility efficiency through platform power telemetry](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf) <br>
-Data center operators usually over provision facility capacity to ensure enough buffer to fulfill peak demand.
-Over provisioning brings great pressure to data centers' total cost of ownership (TCO).
-Today, the data center management stack has been widely deployed to monitor data center runtime health status and it gathered tons of data across power, temperature, and resource utilization.
-These data create opportunities to optimize data center efficiency through data intelligences.
-In this paper, we introduced our practices in cloud environments for using power trend prediction to improve cooling efficiency.
-Meanwhile, this paper discussed some key challenges and design considerations while enabling IT platform data-driven facility control at hyperscale data center, e.g. telemetry collection, messaging mechanism, and management API.
-Effective interoperability among IT devices, facility and management systems is very critical for solution deployment, and the adoption of Open Compute Project design and Redfish API easier system-level integration and reduce deployment costs over different systems and different manufacturers.
-* 🧊 BMC Telemetry [Exposes Baseboard Management Controller data in Prometheus format.](https://github.com/gebn/bmc_exporter)
+* 📰 🧊 Telemetría de refrigeración OCP [Mejorar la eficiencia de las instalaciones de refrigeración del centro de datos mediante telemetría de energía de la plataforma](https://www.opencompute.org/documents/ocp-wp-dcf-improve-data-center-cooling-facility-efficiency-through-platform-power-telemetryr1-0-final-update-pdf) <br>
+Los operadores de centros de datos suelen sobredimensionar la capacidad de las instalaciones para asegurar un margen suficiente para satisfacer la demanda máxima. La sobreprovisión genera una gran presión sobre el costo total de propiedad (TCO) de los centros de datos.
+Hoy en día, la pila de gestión de centros de datos se ha desplegado ampliamente para monitorear el estado de salud en tiempo de ejecución del centro de datos y ha recopilado toneladas de datos sobre energía, temperatura y utilización de recursos. Estos datos crean oportunidades para optimizar la eficiencia del centro de datos a través de la inteligencia de datos.
+En este documento, presentamos nuestras prácticas en entornos de nube para utilizar la predicción de tendencias de energía para mejorar la eficiencia de refrigeración. Al mismo tiempo, este documento discute algunos desafíos clave y consideraciones de diseño mientras se habilita el control de instalaciones basado en datos de plataforma de TI en centros de datos a escala hipersónica, por ejemplo, la colección de telemetría, el mecanismo de mensajería y la API de gestión.
+La interoperabilidad efectiva entre dispositivos de TI, instalaciones y sistemas de gestión es muy crítica para la implementación de la solución, y la adopción del diseño del Proyecto de Cómputo Abierto (OCP) y la API Redfish facilitan la integración a nivel de sistema y reducen los costos de implementación en diferentes sistemas y fabricantes.
+* 🧊 Telemetría BMC [Exposición de datos del Controlador de Gestión de la Placa Base (BMC) en formato Prometheus.](https://github.com/gebn/bmc_exporter)
 
-### Methodologies
+### Metodologías
 
-#### Measurement Methodologies
+#### Metodologías de Medición
 
-* [Software Carbon Intensity (SCI) Standard](https://github.com/Green-Software-Foundation/sci) - A specification that describes how to calculate the carbon intensity of software applications.
-* [Green Software Patterns](https://patterns.greensoftware.foundation/) - An online open-source database of software patterns reviewed and curated by the Green Software Foundation across a wide range of categories.
-* [SCI Guidance](https://sci-guide.greensoftware.foundation) - The SCI Guidance project details various approaches on how to understand the different methodologies that are available for calculating energy, carbon intensity, embodied emissions, and functional unit values which are the core components of the SCI calculation.
-* Runtime system power consumption estimate [Run-time estimation of system and sub-system level power consumption](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
+* [Estándar de Intensidad de Carbono del Software (SCI)](https://github.com/Green-Software-Foundation/sci) - Una especificación que describe cómo calcular la intensidad de carbono de las aplicaciones de software.
+* [Patrones de Software Verde](https://patterns.greensoftware.foundation/) - Una base de datos en línea de patrones de software de código abierto revisados y curados por la Fundación de Software Verde en una amplia gama de categorías.
+* [Orientación SCI](https://sci-guide.greensoftware.foundation) - El proyecto de Orientación SCI detalla varios enfoques sobre cómo entender las diferentes metodologías disponibles para calcular la energía, la intensidad de carbono, las emisiones incorporadas y los valores de unidades funcionales, que son los componentes principales del cálculo de SCI.
+* Estimación del consumo de energía del sistema en tiempo de ejecución [Estimación en tiempo de ejecución del consumo de energía a nivel de sistema y sub-sistema.](https://en.wikipedia.org/wiki/Run-time_estimation_of_system_and_sub-system_level_power_consumption)
 
-#### Observability Methodologies
+#### Metodologías de Observabilidad
 
-* 👀 Open Telemetry [High-quality, ubiquitous, and portable telemetry to enable effective observability](https://opentelemetry.io/)<br>
-A CNCF incubating project designed to create and collect telemetry data from services and software and then forward these to a variety of analysis tools.
-OpenTelemetry integrates with popular libraries and frameworks such as Spring, ASP.NET Core, Express, Quarkus, and others.
+* 👀 Telemetría Abierta [Telemetría de alta calidad, ubicua y portátil para permitir una observabilidad efectiva.](https://opentelemetry.io/)<br>
+Un proyecto en incubación de la CNCF diseñado para crear y recopilar datos de telemetría de servicios y software, y luego enviarlos a una variedad de herramientas de análisis. OpenTelemetry se integra con bibliotecas y marcos populares como Spring, ASP.NET Core, Express, Quarkus y otros.
 
-### Observability Tooling
+### Herramientas de Observabilidad
 
-The diagram below illustrates the infrastructure dimension of the sustainable cloud computing landscape.
+El diagrama a continuación ilustra la dimensión de la infraestructura del panorama de la informática en la nube sostenible.
 
 ```mermaid
 %%{init: {'theme':'neutral'}}%%
@@ -326,39 +313,37 @@ flowchart TB
     class obs sections;
 ```
 
-* 👀 gProfiler [OS code profiling tool to visualize applications' execution sequences and resource usage down to the line of code level](https://docs.gprofiler.io/)<br>
-gProfiler, is a free, self-service, and open source, enabling businesses to improve application performance through continuous profiling, thereby reducing costs and minimizing carbon footprint.
-Granulate users can monitor their carbon emission reduction on the gCenter dashboard, alongside cost and resource reductions, with the CO2 Savings Meter.
-* 👀 PowerAPI [Python framework for building software-defined power meters](https://github.com/powerapi-ng/)<br>
-PowerAPI is a middleware toolkit for building software-defined power meters.
-Software-defined power meters are configurable software libraries that can estimate the power consumption of software in real time.
-PowerAPI supports the acquisition of raw metrics from a wide diversity of sensors (eg., physical meters, processor interfaces, hardware counters, OS counters) and the delivery of power consumptions via different channels (including file system, network, web, graphical).
-As a middleware toolkit, PowerAPI offers the capability of assembling power meters «à la carte» to accommodate user requirements.
-* 👀 [Kubernetes-based Efficient Power Level Exporter:](https://github.com/sustainable-computing-io/kepler)<br>
-Kepler leverages eBPF programs to probe per-container energy consumption related to system counters and exports them as Prometheus metrics.
-These metrics help end users monitor their containers’ energy consumption and help cluster administrators make intelligent decisions toward achieving their energy conservation goals.
-The [Kepler Model Server](https://github.com/sustainable-computing-io/kepler-model-server) is an internal program that provides Kepler with ML models for estimating power consumption on Kubernetes workloads.
-The Kepler Model Server pre-trains its models with node energy statistics (labels) and node performance counters (features) as Prometheus metrics on a variety of different Kubernetes clusters and workloads.
-Once the models achieve an acceptable performance level, Kepler Model Server exports them via flask routes and Kepler can then access them to calculate per-pod energy consumption metrics given per-pod performance counters.
-Unlike other similar projects, the Kepler Model Server also continuously trains and tunes its pre-trained models using node data scraped by Kepler’s Power Estimate Agents from client clusters.
-This gives Kepler the ability to further adapt its pod energy consumption calculation capabilities to serve clients’ unique systems.
+* 👀 gProfiler [Herramienta de perfilado de código del sistema operativo (OS) para visualizar secuencias de ejecución de aplicaciones y el uso de recursos hasta el nivel de línea de código.](https://docs.gprofiler.io/)<br>
+gProfiler, es una plataforma gratuita, de autoservicio y de código abierto que permite a las empresas mejorar el rendimiento de las aplicaciones mediante el perfilado continuo, lo que a su vez reduce costos y minimiza la huella de carbono.
+Los usuarios de Granulate pueden monitorear la reducción de emisiones de carbono en el tablero de gCenter, junto con las reducciones de costos y recursos, utilizando el Medidor de Ahorro de CO2.
+* 👀 PowerAPI [Marco de trabajo en Python para construir medidores de energía definidos por software.](https://github.com/powerapi-ng/)<br>
+PowerAPI es un conjunto de herramientas de middleware para construir medidores de energía definidos por software.
+Los medidores de energía definidos por software son bibliotecas de software configurables que pueden estimar el consumo de energía del software en tiempo real.
+PowerAPI admite la adquisición de métricas crudas de una amplia variedad de sensores (por ejemplo, medidores físicos, interfaces de procesador, contadores de hardware, contadores de sistema operativo) y la entrega de consumos de energía a través de diferentes canales (incluyendo sistema de archivos, red, web, gráfico).
+Como conjunto de herramientas de middleware, PowerAPI ofrece la capacidad de ensamblar medidores de energía «à la carte» para adaptarse a los requisitos del usuario.
+* 👀 [Exportador de Niveles de Energía Eficiente basado en Kubernetes:](https://github.com/sustainable-computing-io/kepler)<br>
+Kepler aprovecha los programas eBPF para sondear el consumo de energía por contenedor relacionado con los contadores del sistema y exportarlos como métricas de Prometheus. Estas métricas ayudan a los usuarios finales a monitorear el consumo de energía de sus contenedores y ayudan a los administradores de clúster a tomar decisiones inteligentes para alcanzar sus objetivos de conservación de energía.
+El [Servidor de Modelo Kepler](https://github.com/sustainable-computing-io/kepler-model-server) El Servidor de Modelo Kepler es un programa interno que proporciona a Kepler modelos de aprendizaje automático para estimar el consumo de energía en cargas de trabajo de Kubernetes.
+El Servidor de Modelo Kepler preentrena sus modelos con estadísticas de energía de nodo (etiquetas) y contadores de rendimiento de nodo (características) como métricas de Prometheus en una variedad de clústeres y diferentes cargas de trabajo de Kubernetes.
+Una vez que los modelos alcanzan un nivel de rendimiento aceptable, el Servidor de Modelo Kepler los exporta a través de rutas de flask y Kepler puede acceder a ellos para calcular métricas de consumo de energía por pod dados los contadores de rendimiento.
+A diferencia de otros proyectos similares, el Servidor de Modelo Kepler también entrena y ajusta continuamente sus modelos preentrenados utilizando datos de nodo recopilados por los Agentes de Estimación de Energía de Kepler de los clústeres de clientes.
+Esto le da a Kepler la capacidad de adaptar aún más sus capacidades de cálculo de consumo de energía de pod para servir a los sistemas únicos de los clientes.
 * 👀 Scaphandre [Scaphandre](https://github.com/hubblo-org/scaphandre)<br>
-Scaphandre is a multi-platform monitoring agent, dedicated to power usage / energy consumption metrics and other useful data for reducing ICT software impacts.
-* 👀 Green Metrics Tool [A holistic framework to measure the energy / co2 of your application.](https://docs.green-coding.berlin/)
-* 👀 [InfluxData Telegraf Collector](https://github.com/influxdata/telegraf) - an open source, plugin-based agent for collecting, processing, aggregating, and writing metrics.
-Includes multiple input plugins that help determine energy consumption, e.g. [intel_powerstat](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/intel_powerstat) (exposes CPU & DRAM power consumption, CPU temperature, TDP, CPU and uncore frequencies, C-State residencies), [ipmi_sensor](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/ipmi_sensor) (exposes IPMI sensor data), [redfish](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/redfish) (exposes CPU temperature, fan speed, power supply and voltage data as exposed by [DMTF Redfish](https://redfish.dmtf.org/) interfaces), and a high number of plugins that help determine the utilization of individual resources that in turn help identifying where the power is consumed.
-A rich set of available output plugins makes it easy to integrate with various metrics destinations.
-* 👀 [Carbon QL](https://github.com/Green-Software-Foundation/carbon-ql) - The intent of this project is to build a single API codenamed carbonQL that you can use to measure your software emissions for every runtime environment.
-* 👀 [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/docs/) <br>
-This application pulls usage data (compute, storage, networking, etc.) from major cloud providers and calculates estimated energy (Watt-Hours) and greenhouse gas emissions expressed as carbon dioxide equivalents (metric tons CO2e).
-We display these visualizations in a dashboard for developers, sustainability leaders and other stakeholders in an organization to view and take action. It currently supports AWS, Google Cloud and Microsoft Azure.
-* 👀 [PowerTOP](https://github.com/fenrus75/powertop) - a Linux tool, which among other things allows you to monitor the power consumption per process running on the Linux machine.
-* 📗 OSTI [Paper] [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
-* 📗 [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): The Carbon Aware SDK is a WebApi and Command Line Interface (CLI) to assist in building carbon aware software.
+Scaphandre es un agente de monitoreo multiplataforma dedicado a métricas de uso de energía y consumo de energía, junto con otros datos útiles para reducir los impactos del software de tecnologías de la información y comunicación (TIC).
+* 👀 Herramienta de Métricas Verdes [Un marco integral para medir la energía / CO2 de su aplicación.](https://docs.green-coding.berlin/)
+* 👀 [Colector InfluxData Telegraf](https://github.com/influxdata/telegraf) - un agente de código abierto basado en complementos para recopilar, procesar, agregar y escribir métricas. Incluye varios complementos de entrada que ayudan a determinar el consumo de energía, por ejemplo. [intel_powerstat](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/intel_powerstat)
+(expone el consumo de energía de la CPU y la DRAM, la temperatura de la CPU, TDP, las frecuencias de la CPU y del uncore, las residencias de C-State), [ipmi_sensor](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/ipmi_sensor) (expone datos de sensores IPMI), [redfish](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/redfish) (expone la temperatura de la CPU, la velocidad del ventilador, los datos de suministro de energía y voltaje tal como son expuestos por las [DMTF Redfish](https://redfish.dmtf.org/) interfaces), y un alto número de complementos que ayudan a determinar la utilización de recursos individuales que, a su vez, ayudan a identificar dónde se consume la energía. Un conjunto amplio de complementos de salida disponibles facilita la integración con diversos destinos de métricas.
+* 👀 [Carbon QL](https://github.com/Green-Software-Foundation/carbon-ql) - El objetivo de este proyecto es construir una sola API, codificada como carbonQL, que se pueda utilizar para medir las emisiones de su software para cada entorno de ejecución.
+* 👀 [Huella de Carbono en la Nube](https://www.cloudcarbonfootprint.org/docs/) <br>
+Esta aplicación recopila datos de uso (cómputo, almacenamiento, redes, etc.) de importantes proveedores de servicios en la nube y calcula la energía estimada (en vatios-hora) y las emisiones de gases de efecto invernadero expresadas como equivalentes de dióxido de carbono (toneladas métricas de CO2e).
+Mostramos estas visualizaciones en un panel de control para desarrolladores, líderes de sostenibilidad y otros interesados en una organización para ver y tomar medidas. Actualmente, admite AWS, Google Cloud y Microsoft Azure.
+* 👀 [PowerTOP](https://github.com/fenrus75/powertop) - Una herramienta de Linux, que entre otras cosas te permite monitorizar el consumo de energía por proceso en ejecución en la máquina Linux.
+* 📗 OSTI [Paper] [Métricas para evaluar técnicas de ahorro de energía para sistemas de HPC resilientes.](https://www.osti.gov/servlets/purl/1140455)
+* 📗 [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): El SDK Consciente del Carbono es una API web y una interfaz de línea de comandos (CLI) para ayudar en la construcción de software consciente del carbono.
 
-### Infrastructure Tooling
+### Herramientas de Infraestructura
 
-The diagram below illustrates the infrastructure dimension of the sustainable cloud computing landscape.
+El diagrama a continuación ilustra la dimensión de infraestructura del panorama de la informática en la nube sostenible.
 
 ```mermaid
 %%{init: {'theme':'neutral'}}%%
@@ -394,108 +379,104 @@ flowchart TB
     class scheduling,scaling,tuning sections;
 ```
 
-#### Scheduling At The Cluster Level
+#### Programación a nivel de clúster
 
-At the cluster-level scheduling phase, energy to be consumed by the workload can be reduced by intelligent schedulers that are aware of carbon footprint in a data center, thermal temperature and cooling, caching aware, or server power efficiency.
-Batch scheduling according to power costs (carbon, money, et cetera).
+En la fase de programación a nivel de clúster, la energía que consumirá la carga de trabajo puede reducirse mediante planificadores inteligentes que sean conscientes de la huella de carbono en un centro de datos, la temperatura térmica y la refrigeración, la conciencia de almacenamiento en caché o la eficiencia energética del servidor. La programación por lotes según los costos de energía (carbono, dinero, etc.) es una opción.
 
-* 🚆 Power Driven Scheduling and Scaling with CPU telemetry in K8s [Power Driven Scheduling and Scaling with CPU telemetry in Kubernetes](https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power) <br>
-Telemetry Aware Scheduling, a scheduling extension, and the Kubernetes native Horizontal Pod Autoscaler (HPA) are used to enable cluster automation based on real-time information about the current state of power usage on the node.
-The power metrics used to drive placement and scaling decisions derive from Intel's Running Average Power Limit (RAPL). [collectd](https://collectd.org/) is used to gather the metrics and expose them to Prometheus which makes them available inside the cluster using the Prometheus Adapter.
-* 🚆 [Intent Driven Orchestration](https://github.com/intel/intent-driven-orchestration) <br>
-This grants a new way to do orchestration by moving from an imperative model to an intent driven model for choosing workload placement.
-In this model, the user expresses their intents in the form of objectives (e.g. as required latency, throughput, or reliability targets) and the orchestration stack itself determines what resources in the infrastructure are required to fulfill the objectives.
-This new approach will continue to benefit from community investments in scheduling (determining when & where to place workloads) and be augmented with a continuous running planning loop determining what/how to configure in the system.
-There is already preliminary work being done to leverage this in a power-optimal usage environment.
-* 📗 Carbon-aware Kubernetes scheduler [A Low Carbon Kubernetes Scheduler](http://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
+* 🚆 Programación y escalado impulsados por la energía con telemetría de CPU en Kubernetes. [Planificación y escalado impulsados por la energía con telemetría de CPU en Kubernetes.](https://github.com/intel/platform-aware-scheduling/tree/master/telemetry-aware-scheduling/docs/power) <br>
+La programación consciente de la telemetría, una extensión de programación, y el Autoscaler de Pod Horizontal (HPA) nativo de Kubernetes se utilizan para habilitar la automatización del clúster basada en información en tiempo real sobre el estado actual del uso de energía en el nodo. Las métricas de energía utilizadas para impulsar decisiones de ubicación y escalado derivan del Límite de Potencia Promedio en Ejecución (RAPL) de Intel. [collectd](https://collectd.org/) se utiliza para recopilar las métricas y exponerlas a Prometheus, lo que las hace disponibles dentro del clúster utilizando el Adaptador de Prometheus.
+* 🚆 [Orquestación Intencionalmente Impulsada](https://github.com/intel/intent-driven-orchestration) <br>
+Otorga una nueva forma de orquestación al pasar de un modelo imperativo a un modelo impulsado por intenciones para elegir la ubicación de la carga de trabajo.
+En este modelo, el usuario expresa sus intenciones en forma de objetivos (por ejemplo, objetivos de latencia requerida, rendimiento o confiabilidad) y la pila de orquestación misma determina qué recursos en la infraestructura son necesarios para cumplir los objetivos.
+Este nuevo enfoque seguirá beneficiándose de las inversiones de la comunidad en programación (determinando cuándo y dónde colocar las cargas de trabajo) y se complementará con un bucle de planificación continua determinando qué y cómo configurar en el sistema.
+Ya se está realizando un trabajo preliminar para aprovechar esto en un entorno de uso óptimo de energía.
+* 📗 Planificador de Kubernetes consciente del carbono. [Un Planificador de Kubernetes de Bajo Carbono.](http://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
 <!-- markdown-link-check-disable-next-line -->
-* 📗 Energy aware scheduling [Paper] [Improving Data Center Efficiency Through Holistic Scheduling In Kubernetes](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
+* 📗 Planificación consciente de la energía. [Paper] [Mejorando la Eficiencia del Centro de Datos a través de una Programación Holística en Kubernetes.](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
 
-#### Scaling
+#### Escalado
 
-* 🚤 Predictive VPA [Predictive Vertical Pod Autoscaler (VPA) recommenders pluggable with the default VPA on OpenShift](https://github.com/openshift/predictive-vpa-recommenders)
-* 🚤 CLEVER [Container Level Energy-efficient VPA Recommender for Kubernetes](https://github.com/sustainable-computing-io/clever):<br>
-Vertical Pod Autoscalers in Kubernetes allow for automatic CPU and memory request and limit adjustment based on historical resource usage measurements.
-A VPA deployment has three main components: VPA Recommender, VPA Updater, and VPA Admission Controller.
-It is possible to replace the default VPA Recommender with a custom Recommender.
-CLEVER, an intelligent recommender, uses this feature to ensure the QoS or performance of the workloads are not compromised when you try to adjust the CPU frequencies of your cluster.
-Here’s how it works: assume you have a frequency tuner deployed in your cluster to update the frequency of the CPUs frequencies as per a target metrics or energy consumption budget.
-Intuitively, when you lower down the frequencies, you do save energy but the performance of workloads also decreases.
-To counter this you can obtain information like ClusterState and CPU frequencies for the nodes after the frequencies were changed.
-CLEVER recomputes the new recommendation for CPU requests for pods managed by the VPA based on the updated CPU frequencies.
-That’s how CLEVER guarantees a similar QoS for a workload by lowering the frequencies to reduce energy but at the same time increasing CPU allocation.
-* 🚤 [KEDA](https://keda.sh/): Kubernetes Event-driven Autoscaling enables scale-to-zero platforms.
+* 🚤 VPA Predictivo [Los recomendadores predictivos de Vertical Pod Autoscaler (VPA) pueden conectarse con el VPA predeterminado en OpenShift.](https://github.com/openshift/predictive-vpa-recommenders)
+* 🚤 CLEVER [Recomendador de VPA Eficiente en Energía a Nivel de Contenedor para Kubernetes](https://github.com/sustainable-computing-io/clever):<br>
+Los Autoscaladores de Pod Verticales en Kubernetes permiten el ajuste automático de las solicitudes y límites de CPU y memoria basado en mediciones históricas del uso de recursos.
+Una implementación de VPA tiene tres componentes principales: el Recomendador de VPA, el Actualizador de VPA y el Controlador de Admisión de VPA.
+Es posible reemplazar el Recomendador de VPA predeterminado con un Recomendador personalizado.
+CLEVER, un recomendador inteligente, utiliza esta característica para garantizar que la calidad de servicio o el rendimiento de las cargas de trabajo no se vean comprometidos al intentar ajustar las frecuencias de CPU de su clúster.
+Así es como funciona: suponga que tiene un ajustador de frecuencia implementado en su clúster para actualizar la frecuencia de las CPU según una métrica objetivo o un presupuesto de consumo de energía.
+De manera intuitiva, cuando se reducen las frecuencias, se ahorra energía pero también disminuye el rendimiento de las cargas de trabajo.
+Para contrarrestar esto, puede obtener información como el Estado del Clúster y las frecuencias de CPU de los nodos después de que se cambian las frecuencias.
+CLEVER recalcula la nueva recomendación para las solicitudes de CPU de los pods gestionados por el VPA en función de las frecuencias de CPU actualizadas.
+Así es como CLEVER garantiza una calidad de servicio similar para una carga de trabajo al reducir las frecuencias para reducir la energía, pero al mismo tiempo aumentar la asignación de CPU.
+* 🚤 [KEDA](https://keda.sh/): El escalado automático basado en eventos de Kubernetes permite plataformas de escala a cero.
 
-#### On-Node Power Management Tuning
+#### Ajuste de la Gestión de Energía en el Nodo
 
-Once the region and node are chosen, administrators and users can further tune the node to minimize the amount of power necessary to run workloads.
-This can reduce power 30% or more per node.
+Una vez que se elige la región y el nodo, los administradores y usuarios pueden ajustar aún más el nodo para minimizar la cantidad de energía necesaria para ejecutar las cargas de trabajo. Esto puede reducir el consumo de energía en un 30% o más por nodo.
 
-* 🎵 Node tuning via TuneD on OCP [Manage node-level tuning by orchestrating the tuned daemon](https://docs.openshift.com/container-platform/4.10/scalability_and_performance/using-node-tuning-operator.html) <br>
-The Node Tuning Operator helps you manage node-level tuning by orchestrating the TuneD daemon.
-The majority of high-performance applications require some level of kernel tuning. The Node Tuning Operator provides a unified management interface to users of node-level sysctl's and more flexibility to add custom tuning specified by user needs.
-* 🎵 Kubernetes Power Manager [Kubernetes Operator designed to expose and utilize Intel specific power management technologies in a Kubernetes Environment](https://github.com/intel/kubernetes-power-manager) <br>
-The allocation of CPU resources from a pool of platforms in a container orchestration engine like Kubernetes (K8s) is exclusively based on availability.
-In order to expose and use power management technologies in a Kubernetes context, the Kubernetes Power Manager is a Kubernetes operator created using the Operator SDK.
-The Kubernetes Power Manager makes use of a powerful set of power management technologies that give users more precise control over CPU performance and power usage on a per-core basis.
-Yet, Kubernetes is purposefully built to operate as an abstraction layer between the workload and such hardware capabilities as a workload orchestrator.
-Users of Kubernetes who are running performance-critical applications with particular requirements that depend on hardware capabilities have a hurdle as a result of this.
-By enabling the user to adjust the frequencies and determine the priority level of the cores selected by the Kubernetes Native CPU Manager, the Kubernetes Power Manager fills the gap between the hardware feature enablement and the container orchestration layer.
-It has been proven to work with TuneD as well to allow TuneD profiles to bem used to control the power on the nodes according to various frequency tunings.
-* 🎵 GEOPM [Extensible Power Manager](https://geopm.github.io):<br>
-Initially specific to HPC environments, but now more generalized, the Global Extensible Open Power Manager (GEOPM) is a framework for exploring power and energy optimizations on heterogeneous platforms. <br>
-The GEOPM software is split into two packages: The GEOPM Service and the GEOPM Runtime. The GEOPM Service provides user-space access to low-level hardware metrics and configuration knobs. The GEOPM Runtime leverages the GEOPM Service to tune hardware settings in reaction to hardware metrics and application feedback. The application feedback is collected through lightweight asynchronous profiling hooks injected with callbacks into middle-ware packages. <br>
-The GEOPM Runtime has a plugin architecture for selecting between optimization algorithms. Some of the built-in algorithms target energy efficiency, and others optimize performance within a power bound.
-The port of GEOPM to Kubernetes is ongoing. There is an [experimental branch](https://github.com/geopm/geopm/tree/cloud#experimental-branch) called ``cloud`` with implementations of new features that support Kubernetes. These features will be migrated into the main ``dev`` branch as they each become production ready.<br>
-Additional documentation may be found in the [service readme file](https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support) and in the [runtime k8 directory](https://github.com/geopm/geopm/tree/cloud/k8).
+* 🎵 Ajuste de nodos a través de TuneD en OCP [Administrar el ajuste a nivel de nodo mediante la orquestación del demonio TuneD](https://docs.openshift.com/container-platform/4.10/scalability_and_performance/using-node-tuning-operator.html) <br>
+El Operador de Ajuste de Nodo te ayuda a gestionar el ajuste a nivel de nodo al orquestar el demonio TuneD.
+La mayoría de las aplicaciones de alto rendimiento requieren algún nivel de ajuste del kernel. El Operador de Ajuste de Nodo proporciona una interfaz de gestión unificada a los usuarios de sysctl a nivel de nodo y ofrece más flexibilidad para añadir ajustes personalizados especificados por las necesidades del usuario.
+* 🎵 Administrador de Energía para Kubernetes [Operador de Kubernetes diseñado para exponer y utilizar tecnologías de gestión de energía específicas de Intel en un entorno de Kubernetes.](https://github.com/intel/kubernetes-power-manager) <br>
+La asignación de recursos de CPU de un conjunto de plataformas en un motor de orquestación de contenedores como Kubernetes (K8s) se basa exclusivamente en la disponibilidad.
+Para exponer y utilizar tecnologías de gestión de energía en un contexto de Kubernetes, el Kubernetes Power Manager es un operador de Kubernetes creado utilizando el SDK de Operador.
+El Kubernetes Power Manager hace uso de un conjunto poderoso de tecnologías de gestión de energía que brindan a los usuarios un control más preciso sobre el rendimiento de la CPU y el uso de energía a nivel de núcleo.
+Sin embargo, Kubernetes está diseñado específicamente para operar como una capa de abstracción entre la carga de trabajo y las capacidades de hardware como un orquestador de cargas de trabajo.
+Los usuarios de Kubernetes que ejecutan aplicaciones críticas en rendimiento con requisitos particulares que dependen de las capacidades de hardware tienen un obstáculo como resultado de esto.
+Al permitir al usuario ajustar las frecuencias y determinar el nivel de prioridad de los núcleos seleccionados por el Administrador de CPU Nativo de Kubernetes, el Kubernetes Power Manager llena la brecha entre la habilitación de características de hardware y la capa de orquestación de contenedores.
+Se ha demostrado que funciona con TuneD también para permitir que se utilicen perfiles de TuneD para controlar la energía en los nodos según varios ajustes de frecuencia.
+* 🎵 GEOPM [Administrador de energía extensible](https://geopm.github.io):<br>
+Inicialmente específico para entornos de HPC, pero ahora más generalizado, el Global Extensible Open Power Manager (GEOPM) es un marco para explorar optimizaciones de energía y potencia en plataformas heterogéneas. <br>
+El software GEOPM se divide en dos paquetes: el Servicio GEOPM y el Tiempo de Ejecución GEOPM. El Servicio GEOPM proporciona acceso de espacio de usuario a métricas de hardware de bajo nivel y perillas de configuración. El Tiempo de Ejecución GEOPM aprovecha el Servicio GEOPM para ajustar la configuración de hardware en reacción a métricas de hardware y comentarios de la aplicación. Los comentarios de la aplicación se recopilan a través de ganchos de perfilado asíncronos ligeros inyectados con devoluciones de llamada en paquetes de middleware. <br>
+El Tiempo de Ejecución GEOPM tiene una arquitectura de complementos para seleccionar entre algoritmos de optimización. Algunos de los algoritmos integrados apuntan a la eficiencia energética, y otros optimizan el rendimiento dentro de un límite de energía.
+La portabilidad de GEOPM a Kubernetes está en curso. Hay una [rama experimental](https://github.com/geopm/geopm/tree/cloud#experimental-branch) llamada ``cloud`` con implementaciones de nuevas características que admiten Kubernetes. Estas características se migrarán al la rama principal ``dev`` a medida que estén listas para producción.<br>
+Se puede encontrar documentación adicional en el [archivo README del servicio](https://github.com/geopm/geopm/tree/cloud/service#kubernetes-support) y en el [directorio k8 de tiempo de ejecución](https://github.com/geopm/geopm/tree/cloud/k8).
 
 <!--- ### HPC Specific Models --->
 
-## Sustainability Initiatives
+## Iniciativas de Sostenibilidad
 
-There are a number of sustainability initiatives ongoing, if we've missed one please contribute to this list by filing a pull request!
+Hay varias iniciativas de sostenibilidad en curso, si hemos omitido alguna, ¡contribuya a esta lista presentando un pull request!
 
-### Organizations
+### Organizaciones
 
-* 🐝 Green Software Foundation [Building a trusted ecosystem of people, standards, tooling and best practices for green software](https://greensoftware.foundation/) <br>
-  The Green Software Foundation (GSF) exists to change how we build software, [so there are zero harmful environmental effects](https://greensoftware.foundation/articles/theory-of-change), a foundation with over 42 member organizations.
-  Key pillars are Knowledge, Tech Culture, and Tooling; which are delivered through a [standards working group](https://standards.greensoftware.foundation/), an [open source working group](https://opensource.greensoftware.foundation/), a [community working group](https://community.greensoftware.foundation/), and a [policy working group](https://policy.greensoftware.foundation/). <br>
-  The GSF has created a [software carbon intensity (SCI)](https://github.com/Green-Software-Foundation/software_carbon_intensity) standard, which has been submitted to ISO (International Standards Organisation) for ratification, to ensure we measure carbon consistently. This standard is being implemented in code through the [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) (a tool to do more when the energy grid is green, and less when it is dirty), the [Carbon Pipeline](https://github.com/Green-Software-Foundation/Carbon_CI_Pipeline_Tooling) (measuring carbon in the CI/CD process, and [CarbonQL](https://github.com/Green-Software-Foundation/carbon-ql) - a standardized API for measuring carbon according to the SCI standard.
+* 🐝 Green Software Foundation [Construyendo un ecosistema de confianza de personas, estándares, herramientas y mejores prácticas para el software verde.](https://greensoftware.foundation/) <br>
+  The Green Software Foundation (GSF) existe para cambiar la forma en que construimos software [para que no haya efectos ambientales dañinos](https://greensoftware.foundation/articles/theory-of-change), una fundación con más de 42 organizaciones miembro.
+  Los pilares clave son Conocimiento, Cultura Tecnológica y Herramientas; los cuales se entregan a través de [estándares de grupo de trabajo](https://standards.greensoftware.foundation/), un [grupo de trabajo de código abierto](https://opensource.greensoftware.foundation/), un [grupo de trabajo de la comunidad](https://community.greensoftware.foundation/), y un [grupo de trabajo de políticas](https://policy.greensoftware.foundation/). <br>
+  La GSF ha creado una [intensidad de carbono del software (SCI)](https://github.com/Green-Software-Foundation/software_carbon_intensity) norma, que ha sido presentada a la ISO (Organización Internacional de Normalización) para su ratificación, para asegurar que midamos el carbono de manera consistente. Esta norma se está implementando en código a través de [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk) (herramienta para hacer más cuando la red eléctrica es verde y menos cuando es contaminante), [Carbon Pipeline](https://github.com/Green-Software-Foundation/Carbon_CI_Pipeline_Tooling) (medir el carbono en el proceso de integración continua y entrega continua (CI/CD), y [CarbonQL](https://github.com/Green-Software-Foundation/carbon-ql) - una API estandarizada para medir el carbono de acuerdo con el estándar SCI.
 * 🐝 [LF Energy](https://www.lfenergy.org/)<br>
-  LF Energy is an open source foundation focused on the power systems sector, hosted within The Linux Foundation. LF Energy provides a neutral, collaborative community to build the shared digital investments that will transform the world’s relationship to energy.  This organization contains the repositories for the core LF Energy Foundation and many of the hosted projects and working groups. Their landscape can be found [here](https://landscape.lfenergy.org/).
-* 🐝 Energy Efficient High Performance Computing Working Group [Encourages implementation of energy conservation measures, energy efficient design in high performance computing (HPC)](https://eehpcwg.llnl.gov/)<br>
-  Mission is to encourage the implementation of energy conservation measures, energy efficient design in high performance computing (HPC), and
-  share ideas.  Can find an extensive collection of papers [here](https://datacenters.lbl.gov/resources?field_focus_areas_tid) that can be
-  extrapolated from in terms of patterns to be lifted into the cloud native landscape.
-* 🐝 [Green Software Training](https://learn.greensoftware.foundation/) <br>
-  This initiative will teach you how to build, maintain and run greener applications irrespective of the application domain, industry, organization size or type, programming language, or framework; leading to a [Green Software Certification](https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/) backed by the Linux Foundation.
-* 🐝 [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/)<br>
-  Get to know the carbon footprint of your cloud usage - and reduce it.<br>
-Cloud Carbon Footprint is an open source tool that provides visibility and tooling to measure, monitor and reduce your cloud carbon emissions. We use best practice methodologies to convert cloud utilization into estimated energy usage and carbon emissions, producing metrics and carbon savings estimates that can be shared with employees, investors, and other stakeholders.
-* 🐝 [Open Compute Project](https://www.opencompute.org/projects/heat-reuse)<br>
-  Almost 100% of the energy used in a processor turns into heat. Up until very recently this has been a liability and a challenge: an immense quantity of heat to be removed which requires a significant additional energy expenditure. With the proper design, data center cooling systems can be converted into a heat source and a heat management opportunity that in turn converts the heat from a liability to an asset. The OCP Heat Reuse subgroup explores these challenges and opportunities. Its goal is to suggest solutions to enable implementations of technologies designed to harness the heat to turn cost into profit.```
+  LF Energy es una fundación de código abierto centrada en el sector de los sistemas de energía, alojada dentro de The Linux Foundation. LF Energy proporciona una comunidad neutral y colaborativa para construir las inversiones digitales compartidas que transformarán la relación del mundo con la energía. Esta organización contiene los repositorios de la Fundación principal de LF Energy y muchos de los proyectos y grupos de trabajo alojados. Su panorama se puede encontrar [aqui](https://landscape.lfenergy.org/).
+* 🐝 Grupo de Trabajo de Computación de Alto Rendimiento Eficiente en Energía [Grupo de Trabajo de Computación de Alto Rendimiento Eficiente en Energía](https://eehpcwg.llnl.gov/)<br>
+  La misión es fomentar la implementación de medidas de conservación de energía, diseño eficiente en energía en la computación de alto rendimiento (HPC) y compartir ideas. Puede encontrar una amplia colección de documentos [aqui](https://datacenters.lbl.gov/resources?field_focus_areas_tid) que pueden ser
+  extrapolados en términos de patrones para ser incorporados al panorama nativo de la nube.
+* 🐝 [Entrenamiento en Software Verde](https://learn.greensoftware.foundation/) <br>
+  Esta iniciativa te enseñará cómo construir, mantener y ejecutar aplicaciones más ecológicas independientemente del dominio de la aplicación, la industria, el tamaño o tipo de organización, lenguaje de programación o marco; llevando a una [Certificación de Software Verde](https://training.linuxfoundation.org/training/green-software-for-practitioners-lfc131/) respaldado por la Fundación Linux.
+* 🐝 [Huella de Carbono en la Nube](https://www.cloudcarbonfootprint.org/)<br>
+  Conoce la huella de carbono de tu uso de la nube y reduce la misma.<br>
+  Cloud Carbon Footprint es una herramienta de código abierto que proporciona visibilidad y herramientas para medir, monitorear y reducir tus emisiones de carbono en la nube. Utilizamos metodologías de mejores prácticas para convertir la utilización de la nube en un uso de energía estimado y emisiones de carbono, produciendo métricas y estimaciones de ahorro de carbono que pueden ser compartidas con empleados, inversionistas y otros interesados.
+* 🐝 [Proyecto de Cómputo Abierto](https://www.opencompute.org/projects/heat-reuse)<br>
+  Casi el 100% de la energía utilizada en un procesador se convierte en calor. Hasta hace muy poco, esto ha sido un problema y un desafío: una inmensa cantidad de calor que debe ser eliminada y que requiere un gasto adicional significativo de energía. Con el diseño adecuado, los sistemas de enfriamiento de los centros de datos pueden convertirse en una fuente de calor y una oportunidad de gestión de calor que, a su vez, convierte el calor de un pasivo en un activo. El subgrupo de Reutilización de Calor de OCP explora estos desafíos y oportunidades. Su objetivo es sugerir soluciones para habilitar la implementación de tecnologías diseñadas para aprovechar el calor y convertir el costo en beneficio.```
 
-### Conferences
+### Conferencias
 
-* 🐝 Linux Foundation's SustainabilityCon [The first sustainability-focused track by the Linux Foundation](https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/)
-* 🐝 [EnviroInfo](https://www.enviroinfo2023.eu/): EnviroInfo 2023 is the 37th edition of the long-standing and well-established international and interdisciplinary conference series on leading environmental information and communication technologies.
+* 🐝 Linux Foundation's SustainabilityCon [La primera pista centrada en la sostenibilidad por parte de la Linux Foundation](https://events.linuxfoundation.org/open-source-summit-north-america/about/sustainabilitycon/)
+* 🐝 [EnviroInfo](https://www.enviroinfo2023.eu/): EnviroInfo 2023 es la 37ª edición de la serie de conferencias internacionales e interdisciplinarias establecida y reconocida sobre tecnologías líderes en información y comunicación ambiental.
 
-### Carbon Emissions Reports
+### Informes de Emisiones de Carbono
 
-* 📄 IEA [Emissions - Global Energy and CO2 Status Report 2019](https://www.iea.org/reports/global-energy-co2-status-report-2019/emissions)
-* 📄 European Environment Agency [EU Greenhouse Emission Intensity](https://www.eea.europa.eu/ims/greenhouse-gas-emission-intensity-of-1)
-* 📄 electricityMap's [real-time CO2 emission data](https://app.electricitymap.org)
-* [SCI Reporting](https://github.com/Green-Software-Foundation/sci-reporting) - Creating the infrastructure, and processes to store, host, and publicly report SCI scores, and other related reporting requirements within the SCI specification.
-* 📄 WattTime API [Provides insight into a electricity grid’s marginal emissions rate](https://docs.watttime.org/#tag/Introduction)
+* 📄 IEA [Emisiones - Informe Global de Estado Energético y de CO2 2019](https://www.iea.org/reports/global-energy-co2-status-report-2019/emissions)
+* 📄 European Environment Agency [Intensidad de Emisiones de Gases de Efecto Invernadero de la UE](https://www.eea.europa.eu/ims/greenhouse-gas-emission-intensity-of-1)
+* 📄 electricityMap's [Datos de emisiones de CO2 en tiempo real](https://app.electricitymap.org)
+* [SCI Reporting](https://github.com/Green-Software-Foundation/sci-reporting) - Creación de la infraestructura y procesos para almacenar, alojar y reportar públicamente puntajes de SCI y otros requisitos de informes relacionados dentro de la especificación de SCI.
+* 📄 WattTime API [Proporciona información sobre la tasa de emisiones marginales de una red eléctrica](https://docs.watttime.org/#tag/Introduction)
 
-### Net Zero / Carbon Neutrality
+### Neutralidad de Carbono / Cero Neto
 
-* 🥬 The Climate Pledge [Net-Zero Carbon by 2040](https://www.theclimatepledge.com/)
-* 🥬 WeTransfer [WeTransfer becomes Climate Neutral](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)
+* 🥬 The Climate Pledge [Carbono Neto Cero para el 2040](https://www.theclimatepledge.com/)
+* 🥬 WeTransfer [WeTransfer se convierte en neutro en carbono](https://wetransfer.com/blog/story/breaking-the-climate-neutral-barrier/)
 <!-- cspell:disable-next-line -->
-* 🥬 Adrian Cockroft, ex-Amazon VP of Sustainability Architecture ["Cloud computing pioneer's new focus is on sustainability transformation"](https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation)
-* 🥬 Supercritical [Helping businesses achieve net zero](https://gosupercritical.com/)
+* 🥬 Adrian Cockroft, ex-Amazon VP of Sustainability Architecture ["El nuevo enfoque del pionero en la informática en la nube está en la transformación hacia la sostenibilidad"](https://www.aboutamazon.com/news/sustainability/cloud-computing-pioneers-new-focus-is-on-sustainability-transformation)
+* 🥬 Supercritical [Ayudando a las empresas a lograr el cero neto](https://gosupercritical.com/)
 
-### Programming Language Efficiency Analysis
+### Análisis de Eficiencia de Lenguajes de Programación
 
-* 🔌 Energy Efficiency of Languages [The complete set of tools for energy consumption analysis of programming languages, using Computer Language Benchmark Game](https://github.com/greensoftwarelab/Energy-Languages)
+* 🔌 Energy Efficiency of Languages [El conjunto completo de herramientas para el análisis del consumo de energía de los lenguajes de programación, utilizando Computer Language Benchmark Game](https://github.com/greensoftwarelab/Energy-Languages)
