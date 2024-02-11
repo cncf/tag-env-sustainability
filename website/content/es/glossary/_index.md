@@ -1,109 +1,111 @@
 ---
-title: Environmental Sustainability Glossary
-linkTitle: Glossary
+
+title: Glosario de Sostenibilidad Ambiental
+linkTitle: Glosario
+
 list_pages: true
 menu:
   main:
     weight: 30
-description: This glossary aims to define the wording used within our Technical Advisory Group (TAG) for environmental sustainability. It doesn't claim to be holistically complete and therefore provides additional resources where needed.
+
+description: El objetivo de este glosario es definir la redacción utilizada dentro de nuestro Grupo de Asesoria Tecnica (GAT) para la sostenibilidad ambiental. No pretende ser holísticamente completo y, por lo tanto, proporciona recursos adicionales cuando sea necesario.
 ---
 
-> This glossary is also a living artifact that changes and is edited over time.
+> Este glosario tambien es un artefacto viviente que cambia y se edita con el tiempo.
 
 ## C
 
-### **Carbon or Carbon Dioxide (CO2)**
+### **Carbon or Carbon Dioxide (CO2) (Carbono o Dióxido de Carbono)**
 
-Carbon Dioxide commonly just named carbon is a colorless, odorless gas, that is released from burning fossil fuels, such as coal, oil, and natural gas.
-CO2 emissions are fundamentally a natural process, but one that has been exacerbated by the burning of natural resources for energy production or logistics to such an extent that it is now a major factor in climate change. Depending on how the supply chain of hardware (e.g. computer chips, cables etc.) and software (e.g. digital services like cloud computing, file sharing etc.) production/services is structured, CO2 gets emitted.
+El dióxido de carbono, comúnmente llamado simplemente carbono, es un gas incoloco e inodoro que se libera al quemar combustibles fósiles, como carbón, petróleo y gas natural. Las emisiones de CO2 son fundamentalmente un proceso natural, pero se han visto exacerbadas oir ka qyena de recursos naturales para la producción de energía o la logística hasta tal punto que ahora son un factor importante en el cambio climático. Dependiendo de cómo esté estructurada la cadena de suministro de producción/servicios de hardware (por ejemplo, chips de computadora, cables, etc.) y software (por ejemplo, servicios digitales como computación en la nube, intercambio de archivos, etc.), se emite CO2.
 
-### **Carbon Diet**
+### **Carbon Diet (Dieta de Carbono)**
 
-Actions to reduce the output of CO2 to reduce the impact on the environment.
+Acciones de reducción de la emisión de CO2 para reducir el impacto sobre el medio ambiente.
 
-### **Carbon Footprint**
+### **Carbon Footprint (Huella de Carbono)**
 
-Is the total amount of greenhouse gasses, often carbon dioxide, that a person, family, company, organization, or building (like a data center) releases to the environment.
-This includes the release of GHG through direct use (e.g. the energy consumption of a data center) and indirect use (e.g. the energy required to produce servers).
+Es la cantidad total de gases de efecto invernadero, a menudo dióxido de carbono, que una persona, familia, empresa, organización o edificio (como centro de datos) libera al medio ambiente. 
+Esto incluye la liberacion de GHG mediante el uso directo (por ejemplo, el consumo de energía de un centro de datos) y el uso indirecto (por ejemplo, la energía necesaria para producir servidores).
 
-### **Climate or Carbon Neutrality**
+### **Climate or Carbon Neutrality (Neutralidad Climatica o de Carbono)**
 
-Often used by organizations and companies to express that they equalize the cause of carbon pollution they generate.
-This typically happens by buying negative carbon emissions from organizations that really saved carbon or are net-zero or even reduce more carbon than they produce.
-However, it is important to understand that this is only a compensation and does not have to imply a new product development leading to more sustainability. Please also read about the term "Net Zero" as both terms are often mixed or misleadingly used.
+Suele utilizarse por organizaciones y empresas para expresar que igualan la causa de la contaminación de carbono que generan.
+Esto generalmente sucede comprando emisiones de carbono negativas de organizaciones que realmente ahorraron carbono o son netas cero o incluso reducen más carbono del que producen.
+Sin embargo, es importante entender que esto es sólo una compensación y no tiene por qué implicar el desarrollo de un nuevo producto que conduzca a una mayor sostenibilidad. Lea también sobre el término "Net Zero", ya que ambos términos a menudo se mezclan o se utilizan de manera engañosa.
 
 ## E
 
-### **Eco-Efficiency**
+### **Eco-Efficiency (Eco-Eficiencia)**
 
-Goods and services that use fewer resources and create less waste and pollution.
+Bienes y servicios que utilizan menos recursos y generan menos residuos y contaminación.
 
-### **Embodied (Carbon) Emissions**
+### **Embodied (Carbon) Emissions (Emisiones Incorporadas (de Carbono))**
 
-Embodied (sometimes substituted with the word Embedded) Carbon Emissions are all emissions caused during a good's production.
-That can include anything from transportation, storage, heating, the production of other goods to finish this good and so on.
+Las emisiones de carbono incorporadas (a veces sustituidas por la palabra integradas) son todas las emisiones causadas durante la producción de un bien.
+Eso puede incluir cualquier cosa, desde el transporte, el almacenamiento, la calefacción, la producción de otros bienes para terminar este bien, etc.
 
-### **Emissions**
+### **Emissions (Emisiones)**
 
-This is an umbrella term that usually is used to refer to gasses, but can also include other factors such as micro-particles. Emissions are categorized into three scopes:
-Scope 1: direct emissions: for example the CO2 output of the vehicles owned by the company
-Scope 2: indirect emissions: for example the power consumption of a data center, that causes emissions by the production of electricity
-Scope 3: indirect emissions, that not directly can be changed: for example delivery chain caused CO2 pollution
+Este es un término general que generalmente se usa para referirse a gases, pero también puede incluir otros factores como micropartículas. Las emisiones se clasifican en tres alcances:
+Alcance 1: emisiones directas: por ejemplo, la producción de CO2 de los vehículos propiedad de la empresa.
+Alcance 2: emisiones indirectas: por ejemplo, el consumo de energía de un centro de datos, que provoca emisiones por la producción de electricidad.
+Alcance 3: emisiones indirectas, que no se pueden cambiar directamente: por ejemplo, la cadena de entrega causó contaminación por CO2.
 
-### **Environmental Sustainability**
+### **Environmental Sustainability (Sostenibilidad Ambiental)**
 
-Sustainability is the concept of a social, economical and environmental activity that, in simple terms, leaves the ecosystem as it found it.
-Environmental sustainability focuses on the ecological impact of our doings and how we can improve our actions to reduce or eliminate our negative impact on nature, earth, and finally humanity.
+La sostenibilidad es el concepto de una actividad social, económica y ambiental que, en términos simples, deja el ecosistema tal como lo encontró.
+La sostenibilidad ambiental (Environmental sustainability) se centra en el impacto ecológico de nuestras acciones y en cómo podemos mejorar nuestras acciones para reducir o eliminar nuestro impacto negativo en la naturaleza, la tierra y, finalmente, la humanidad.
 
 ## G
 
-### **Green House Gas (GHG)**
+### **Green House Gas (GHG) (Gas de Efecto Invernadero)**
 
-Any kind of gasses caused by nature or human activities that trap heat in the atmosphere. GHG includes carbon dioxide, methane, ozone and others.
-These gasses are called greenhouse gas because they have the same effect as a greenhouse: the sunlight can enter the house and part is reflected back, but it can‘t leave the greenhouse fully because the roof prevents the heat from escaping.
-This causes the inside of a greenhouse to get hotter and hotter, the same as what is going on with the earth. See also: Emissions.
+Cualquier tipo de gas causado por la naturaleza o actividades humanas que atrapan calor en la atmósfera. Los GHG incluyen dióxido de carbono, metano, ozono y otros.
+Estos gases se llaman gases de efecto invernadero porque tienen el mismo efecto que un invernadero: la luz del sol puede entrar en la casa y una parte se refleja, pero no puede salir completamente del invernadero porque el techo impide que el calor se escape.
+Esto hace que el interior de un invernadero se caliente cada vez más, al igual que lo que ocurre con la tierra. Ver también: Emisiones.
 
 ## N
 
-### **Net Zero**
+### **Net Zero (Cero Neto)**
 
-This phrase stands for zero-carbon emissions, in that anyone (including companies) using this term must store or neutralize the same amount of carbon as that consumed.
+Esta frase significa cero emisiones de carbono, en el sentido de que cualquier persona (incluidas las empresas) que utilice este término debe almacenar o neutralizar la misma cantidad de carbono que el consumido.
 
 ## O
 
-### **Operational Carbon Emission**
+### **Operational Carbon Emission (Emisión Operativa de Carbono)**
 
-This refers to the quantity of carbon emitted during the phase where something is in use. Typical examples are when buildings like data centers are in use, or (if measurable) this may also refer to smaller elements in that datacenter, such as when a server is powered on.
-Per definition, operational carbon emissions include the usage, management and maintenance.
+Esto se refiere a la cantidad de carbono emitido durante la fase en la que algo está en uso. Los ejemplos típicos son cuando se utilizan edificios como centros de datos o (si se puede medir) esto también puede referirse a elementos más pequeños en ese centro de datos, como cuando un servidor está encendido.
+Por definición, las emisiones operativas de carbono incluyen el uso, la gestión y el mantenimiento.
 
 ## P
 
-### **Power Usage Effectiveness (PUE)**
+### **Power Usage Effectiveness (PUE) (Eficacia del Uso de Energía)**
 
-The PUE describes how efficiently a data center uses energy. It defines how much energy is used by the computing equipment vs the overall power consumption of the data center.
-An ideal PUE is 1.0. It is also a global standard under the ISO/IEC 30134-2:2016.
+El PUE describe la eficiencia con la que un centro de datos utiliza la energía. Define cuánta energía utiliza el equipo informático frente al consumo de energía general del centro de datos.
+Un PUE ideal es 1.0. También es un estándar global según la norma ISO/IEC 30134-2:2016.
 
-PUE is calculated either through:
-Total Facility Energy / IT Equipment Energy
-1 + Non-IT Facility Energy / IT Equipment Energy
+El PUE se calcula mediante:
+Energía total de las instalaciones / Energía de los equipos de TI
+1 + Energía de instalaciones no TI / Energía de equipos TI
 
 ## S
 
-### **Server Idle Energy Coefficiency (SIEC)**
+### **Server Idle Energy Coefficiency (SIEC) (Coeficiencia de Energía Inactiva del Servidor)**
 
-Developed by the research project LEAP and is done by measuring the server energy consumption. What is relevant here is the continuous energy consumption of the server VS. the actually required energy by the chip.
-This mainly depends on the configuration or modus of the server power management. Very simplified, it's the SIEC calculated by the energy wasted during idle time decided by the energy consumption in total.
-The higher the number (given as %) the worse it is.
+Desarrollado por el proyecto de investigación LEAP y se realiza midiendo el consumo energético del servidor. Lo relevante aquí es el consumo continuo de energía del servidor VS. la energía realmente requerida por el chip.
+Esto depende principalmente de la configuración o modo de administración de energía del servidor. Muy simplificado, es el SIEC calculado por la energía desperdiciada durante el tiempo de inactividad decidido por el consumo energético total.
+Cuanto mayor sea el número (expresado como %), peor es.
 
-## Abbreviations
+## Abreviaturas
 
-GHG - Green House Gas
+GHG - Green House Gas, por sus siglas en ingles.
 
-PUE - Power Usage Effectiveness
+PUE - Power Usage Effectiveness, por sus siglas en ingles.
 
-SIEC - Server Idle Energy Coefficiency
+SIEC - Server Idle Energy Coefficiency, por sus siglas en ingles.
 
-## Additional Resources
+## Recursos adicionales
 
-* [1] Glossary of Climate Change - <https://www.wikiwand.com/en/Glossary_of_climate_change>
-* [2] Climate Change Vocabulary - <https://winapps.umt.edu/winapps/media2/wilderness/toolboxes/documents/climate/Climate%20Change%20Glossary.pdf>
+* [1] Glosario de Cambio Climático - <https://www.wikiwand.com/en/Glossary_of_climate_change>
+* [2] Vocabulario sobre el cambio climático - <https://winapps.umt.edu/winapps/media2/wilderness/toolboxes/documents/climate/Climate%20Change%20Glossary.pdf>
