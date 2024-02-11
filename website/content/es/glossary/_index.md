@@ -1,10 +1,13 @@
 ---
+
 title: Glosario de Sostenibilidad Ambiental
 linkTitle: Glosario
+
 list_pages: true
 menu:
   main:
     weight: 30
+
 description: El objetivo de este glosario es definir la redacción utilizada dentro de nuestro Grupo de Asesoria Tecnica (GAT) para la sostenibilidad ambiental. No pretende ser holísticamente completo y, por lo tanto, proporciona recursos adicionales cuando sea necesario.
 ---
 

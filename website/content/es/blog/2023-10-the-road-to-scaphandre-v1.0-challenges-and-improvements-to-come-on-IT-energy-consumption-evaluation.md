@@ -1,11 +1,13 @@
 ---
 title: El camino hacia Scaphandre v1.0 - Desafíos y mejoras por venir en la evaluación del consumo de energía de TI
 description: Esta publicación de blog trata de compartir los pensamientos y conocimientos que obtuvimos durante el desarrollo de Scaphandre con nuestros colaboradores, discutir con investigadores y profesionales de TI las formas disponibles actualmente para evaluar el consumo de energía de un servidor de TI y los límites de cada uno. A partir de esto tratamos de imaginar algunos de los desafíos que tenemos por delante y las pistas que identificamos para trabajar con ellos.
+
 slug: 2023-the-road-to-scaphandre-v1-0-challenges-and-improvements-to-come-on-IT-energy-consumption-evaluation
 weight: 1
 date: 2023-10-13 00:00:00 +0000
 author: Benoit Petit
 ---
+
 
 *Publicación de invitado de la comunidad como parte de la [semana de sostenibilidad Cloud Native](https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week)*
 
@@ -94,3 +96,4 @@ Benoit Petit, cofundador de [Hubblo](https://hubblo.org), una empresa de consult
 ## Gracias
 <!-- cspell:deshabilitar-siguiente-línea -->
 Me gustaría agradecer a Victorien Molle por su gran contribución al controlador de Windows en el que confía Scaphandre, a Guillaume Subiron por su increíble trabajo en Energizta, a la gran comunidad de contribuyentes de Scaphandre, a David Ekchajzer, Leonard Pahlke y Guillaume Subiron nuevamente por sus reseñas de este blog. correo.
+
