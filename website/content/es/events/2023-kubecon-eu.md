@@ -1,44 +1,41 @@
 ---
 title: Kubecon CloudNativeCon EU 2023
-description: TAG Environmental Sustainability presence at Cloud Native Computing Foundation’s flagship conference in Amsterdam, The Netherlands from 18-21 April, 2023.
+description: Presencia de TAG Environmental Sustainability en la conferencia principal de la Cloud Native Computing Foundation en Ámsterdam, Países Bajos, del 18 al 21 de abril de 2023.
 ---
 
-The Cloud Native Computing Foundation’s flagship conference gathers adopters and technologists from leading open source and cloud native communities in Amsterdam, The Netherlands from 18-21 April, 2023.
-And we as a TAG have a few sessions planned on site!
+La conferencia principal de la Cloud Native Computing Foundation reúne a adoptantes y tecnólogos de las principales comunidades de código abierto y nativas de la nube en Ámsterdam, Países Bajos, del 18 al 21 de abril de 2023. ¡Y nosotros, como TAG, tenemos algunas sesiones planeadas en el lugar!
 
-## TAG [Meetup](https://sched.co/1JWOX)
+## TAG [Reunión](https://sched.co/1JWOX)
 
-Are you interested in the impact your cloud projects and cloud-related work has on the environment?
-Then we would love to meet you at our [**TAG Environmental Sustainability Project Meeting**](https://sched.co/1JWOX) at KubeCon + CloudNativeCon Europe 2023.
-We have some exiting presentations and discussions planned.
-We are looking forward to hearing your perspectives and welcome everyone who wants to contribute to our effort.
-Let’s reduce the environmental of the cloud, data centers and our projects.
+¿Estás interesado en el impacto que tus proyectos en la nube y tu trabajo relacionado con la nube tienen en el medio ambiente? Entonces nos encantaría conocerte en nuestra [**Reunión del Proyecto TAG de Sostenibilidad Ambiental.**](https://sched.co/1JWOX) en KubeCon + CloudNativeCon Europe 2023.
+Tenemos algunas presentaciones y discusiones emocionantes planeadas.
+Esperamos escuchar sus perspectivas y damos la bienvenida a todos los que quieran contribuir a nuestro esfuerzo. Vamos a reducir el impacto ambiental de la nube, los centros de datos y nuestros proyectos.
 
-## TAG [Talk](https://sched.co/1Hzd3)
+## TAG [Charla](https://sched.co/1Hzd3)
 
-In the talk we will talk about the latest from the CNCF Environmental Sustainability TAG. We’ll focus on the findings exploring the Cloud Native Sustainability landscape, the landscape of organizations that we collaborate with! We highlight current bottlenecks and challenges and provide guidance and opportunities to contribute to sustainability yourself. We will introduce you to cloud native projects that you can use today to build your tech stack a little more sustainable.
+Durante la charla hablaremos sobre las últimas novedades del Grupo de Trabajo de Sostenibilidad Ambiental de CNCF. Nos centraremos en los hallazgos que exploran el panorama de Sostenibilidad Nativa en la Nube, el panorama de las organizaciones con las que colaboramos. Destacaremos los cuellos de botella y desafíos actuales, y proporcionaremos orientación y oportunidades para contribuir a la sostenibilidad por tu cuenta. Te presentaremos proyectos nativos de la nube que puedes utilizar hoy mismo para hacer que tu conjunto de tecnologías sea un poco más sostenible.
 
-## Sustainability related talks at a glance
+## Charlas relacionadas con la sostenibilidad de un vistazo.
 
-### Tuesday 18th of April
+### Martes 18 de abril
 
-* [Power-Aware Scheduling](https://sched.co/1HyWC)
+* [Programación consciente del consumo energético](https://sched.co/1HyWC)
 * [GreenCourier](https://sched.co/1HyXM)
-* [TAG Project Meeting](https://sched.co/1JWOX) ⬅️ brought to you by the TAG ENV
+* [Reunión del Proyecto TAG](https://sched.co/1JWOX) ⬅️ presentada por el TAG ENV
 
-### Wednesday 19th of April
+### Miércoles 19 de abril
 
-* [Accelerate Sustainable Computing with Community Collaboration](https://sched.co/1HyPf)
-* [Be the Change Our Planet Seeks: How YOU Can Contribute to Running Environment-Friendly Workloads on Kubernetes](https://sched.co/1HyW9)
-* [Building a Sustainable, Carbon-Aware Cloud: Scale Workloads and Reduce Emissions](https://sched.co/1HyPo)
+* [Acelerar la informática sostenible a través de colaboración comunitaria](https://sched.co/1HyPf)
+* [Sé el cambio que nuestro planeta busca: Cómo TÚ puedes contribuir a ejecutar cargas de trabajo respetuosas con el medio ambiente en Kubernetes](https://sched.co/1HyW9)
+* [Construyendo una nube sostenible y consciente del carbono: Escalando cargas de trabajo y reduciendo emisiones](https://sched.co/1HyPo)
 
-### Thursday 20th of April
+### Jueves 20 de abril
 
-* [The state of green software + cloud native](https://sched.co/1Hzd3) ⬅️ brought to you by the TAG ENV
-* [Minimizing Energy Consumption in Bare Metal K8s Clusters](https://sched.co/1HybW)
-* [Evolution of on-Node Adaptive Power Tuning](https://sched.co/1Hycj)
+* [El estado del software verde + nativo de la nube.](https://sched.co/1Hzd3) ⬅️ presentada por el TAG ENV
+* [Minimizando el consumo de energía en clústeres de K8s de metal desnudo](https://sched.co/1HybW)
+* [Evolución de la ajuste de potencia adaptativo en el nodo](https://sched.co/1Hycj)
 
-### Friday 21st of April
+### Viernes 21 de abril
 
-* [Scale Down Your Environmental Impact](https://sched.co/1Hybr)
-* [Sustainability Through Accountability in a CNCF Ecosystem](https://sched.co/1HyYK)
+* [Reduce el impacto ambiental de tu escala](https://sched.co/1Hybr)
+* [Sostenibilidad a través de la responsabilidad en un ecosistema de CNCF](https://sched.co/1HyYK)
