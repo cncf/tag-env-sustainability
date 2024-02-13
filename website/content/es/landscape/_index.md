@@ -95,7 +95,7 @@ Las emisiones de carbono de los sistemas de Tecnología de la Información y Com
 - **emisiones operativas**: la cantidad de carbono emitido durante la fase operativa o de uso de un sistema de TIC. Estas emisiones se deben principalmente a la quema de combustibles fósiles para generar la electricidad requerida por los mismos.
 - **emisiones incorporadas**: la cantidad de carbono emitido durante la creación y disposición del hardware (abreviado: HW) y componentes físicos de un sistema de TIC (por ejemplo: dispositivos, servidores, cables, edificios, etc.). Las emisiones incorporadas también se conocen como emisiones integradas.
 
-La nube y los istemas nativos en la nube no son una excepción a las emisiones de carbono para garantizar una computación ambientalmente sostenible, ya que están firmemente bajo el paraguas de los sistemas de TIC.
+La nube y los sistemas nativos en la nube no son una excepción a las emisiones de carbono para garantizar una computación ambientalmente sostenible, ya que están firmemente bajo el paraguas de los sistemas de TIC.
 
 ### Computación Ecológica
 
