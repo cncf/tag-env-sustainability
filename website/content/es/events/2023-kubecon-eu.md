@@ -21,7 +21,7 @@ Durante la charla hablaremos sobre las últimas novedades del Grupo de Trabajo d
 
 * [Programación consciente del consumo energético](https://sched.co/1HyWC)
 * [GreenCourier](https://sched.co/1HyXM)
-* [Reunión del Proyecto TAG](https://sched.co/1JWOX) ⬅️ presentada por el TAG ENV
+* [Reunión del TAG](https://sched.co/1JWOX) ⬅️ presentada por el TAG ENV
 
 ### Miércoles 19 de abril
 
