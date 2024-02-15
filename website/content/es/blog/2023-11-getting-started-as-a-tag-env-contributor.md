@@ -1,6 +1,6 @@
 ---
-title: Getting started as a TAG Environmental Sustainability Contributor
-description: Getting started as a TAG Environmental Sustainability Contributor
+title: Comienza como contribuidor de TAG Environmental Sustainability
+description: Comienza como contribuidor de TAG Environmental Sustainability
 slug: 2023-getting-started-as-tag-env-contributor
 weight: 1
 date:   2023-11-07 00:00:00 +0000
@@ -10,107 +10,108 @@ reviewers: Kristina Devochko, Leonard Pahlke, Marlow Weston
 
 <p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/tag-env-logo.webp" alt="TAG Environmental Sustainability Logo"></p>
 
-If you are reading this blog it might be that you are interested in contributing to the cloud native sustainability domain. This blog will help you and guide you through the different possibilities that are available for you, like joining the **The Technical Advisory Group** Environmental Sustainability, or one of its associated working groups.
+Si estás leyendo este blog, es posible que estés interesado en contribuir en sostenibilidad en Cloud Native. Este blog te ayudará y te guiará a través de las diferentes posibilidades que están disponibles para ti, como unirte a **"The Technical Advisory Group"** de sostenibilidad ambiental o alguno de sus grupos de trabajo asociados.
 
-Starting to contribute to open source and cloud native communities may often seem challenging and scary for beginners, but there are many ways you can embark on this journey. One way to engage with the community is to contribute to one of the Cloud Native Computing Foundation Technical Advisory Groups (CNCF TAG).
+Comenzar a contribuir en comunidades de código abierto y comunidades cloud native puede parecer desafiante y aterrador para los principiantes, pero existen diversas formas de emprender este viaje. Una manera de participar activamente en la comunidad es contribuir a uno de los CNCF TAG (Cloud Native Computing Foundation Technical Advisory Groups).
 
-The **TAG ENV**, consists of individuals that focus on a specific area of the CNCF landscape by providing guidance, addressing challenges from the community and establishing domain-specific standards and best practices.
+El **TAG ENV**, está compuesto por individuos que se centran en una área específica del panorama de la CNCF, ofreciendo orientación, abordando desafíos de la comunidad y estableciendo estándares y mejores prácticas particulares de ese campo.
 
-If you are curious about the TAG and play with the ideas to contribute you likely ask yourself the following questions.
+Si sientes curiosidad acerca del TAG y estás considerando la posibilidad de contribuir, es probable que te hagas las siguientes preguntas:
 
-- What are the goals of the TAG ENV and how do they work with each other?
-- How does my contribution help with sustainability efforts?
-- Which projects does the TAG ENV has and how can I contribute to them?
-- How can I share ideas, improvements and any other suggestions to the TAG ENV?
+- ¿Cuáles son los objetivos del TAG ENV y cómo colaboran entre sí?
+- ¿Cómo contribuye mi participación a los esfuerzos de sostenibilidad?
+- ¿Qué proyectos tiene el TAG ENV y cómo puedo contribuir a ellos?
+- ¿Cómo puedo compartir ideas, mejoras y cualquier otra sugerencia con el TAG ENV?
 
-## Introducing the CNCF TAG Environmental Sustainability
+## TAG de Sostenibilidad Ambiental de CNCF
 
-The **TAG ENV** operates as part of the Cloud Native Computing Foundation (CNCF) alongside several other [TAGs](https://github.com/cncf/toc/tree/main/tags#current-tags).
+El **TAG ENV** opera como parte de la Cloud Native Computing Foundation (CNCF), junto con varios otros [TAGs](https://github.com/cncf/toc/tree/main/tags#current-tags).
 
-Drawing inspiration from international frameworks such as the Paris Climate Accords, the TAG ENV sets out with a clear agenda: work with the cloud native community to tackle global environmental challenges by identifying ways to reduce the environmental footprint of steadily growing data centers and expanding the cloud native technologies landscape.
+Tomando inspiración de marcos internacionales como los Acuerdos de París sobre el Clima, el TAG ENV se propone con una agenda clara: trabajar con la comunidad de cloud native para abordar los desafíos ambientales globales mediante la identificación de formas de reducir la huella ambiental de los centros de datos en constante crecimiento y ampliar el panorama de las tecnologías cloud native.
 
-You can find more information about the TAG ENV’s mission in the [charter document](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md).
+Puedes encontrar más información sobre la misión del TAG ENV en el [Documento de estatutos](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md).
 
-The primary goals of the TAG ENV are:
+Los objetivos principales del TAG ENV son:
 
-- Identify, define, and support existing (or develop minimal) tooling to assess and refine environmental sustainability approaches.
-- Quantify the energy consumption of individual cloud native applications and their typical integration patterns.
-- Recommend energy-efficient strategies for the entire lifecycle of cloud native applications, from development to deployment and operation.
-- Collaborate with other environmental or sustainability entities, even those outside of CNCF's purview.
+- Identificar, definir y respaldar herramientas existentes (o desarrollar herramientas mínimas) para evaluar y refinar enfoques de sostenibilidad ambiental.
+- Cuantificar el consumo de energía de aplicaciones individuales cloud native y sus patrones de integración típicos.
+- Recomendar estrategias eficientes en energía para todo el ciclo de vida de aplicaciones cloud native, desde el desarrollo hasta la implementación y operación.
+- Colaborar con otras entidades ambientales o de sostenibilidad, incluso aquellas fuera del alcance de CNCF.
 
-If the TAG’s goals resonate with your own,keep on reading to learn more about why YOU should  join the TAG and how to get involved.
+Si los objetivos del TAG se alinean con los tuyos, sigue leyendo para aprender más sobre por qué DEBERÍAS unirte al TAG y cómo participar.
 
-## TAG Environmental Sustainability needs YOU - but WHY?
+## El TAG de Sostenibilidad Ambiental de CNCF te necesita, pero ¿POR QUÉ?
 
-Open source transcends mere lines of code; it epitomizes a global collaboration uniting individuals worldwide to craft free and accessible software.
-By integrating technical and environmental considerations, the TAG ENV engages in a diverse array of cloud native projects.
-Our commitment lies in transforming concepts into tangible initiatives that positively impact both the environment and the tech industry.
+El código abierto trasciende simples líneas de código; representa una colaboración global que une a individuos de todo el mundo para crear software libre y accesible.
+Al integrar consideraciones técnicas y ambientales, el TAG ENV participa en una diversa gama de proyectos cloud native.
+Nuestro compromiso radica en transformar conceptos en iniciativas tangibles que impacten positivamente tanto en el medio ambiente como en la industria tecnológica.
 
-**1. Why should you contribute to open source?**
+**1. ¿Por qué deberías contribuir al código abierto?**
 
-Getting involved in open source is an incredible way to collaborate with diverse individuals worldwide to develop free and accessible software.
-It's an opportunity to contribute to innovative projects, share valuable insights, and nurture successful initiatives while learning from a vibrant community of developers and enthusiasts.
+Involucrarte en el código abierto es una forma increíble de colaborar con personas diversas de todo el mundo para desarrollar software libre y accesible.
+Es una oportunidad para contribuir a proyectos innovadores, compartir ideas valiosas y fomentar iniciativas exitosas mientras aprendes de una comunidad vibrante de desarrolladores y entusiastas.
 
-**2. Why should you contribute to the cloud native sustainability domain?**
+**2. ¿Por qué deberías contribuir al ámbito de la sostenibilidad en el campo cloud native?**
 
-At TAG Environmental Sustainability, we thrive on collaboration by connecting you with CNCF projects, including [working groups](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups) and [projects](https://github.com/cncf/tag-env-sustainability/blob/main/projects/README.md), to create innovative solutions for a greener tech future.
-We serve as a knowledge hub for sharing insights and fostering eco-friendly innovations. Your contributions help nurture successful open source projects focused on sustainability.
-We provide resources and support, ensuring you don't have to start from scratch.
-[TAG ENV](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md), as a [Technical Advisory Group](https://github.com/cncf/toc/tree/main/tags), collaborates with the open source community, working towards defining environmental sustainability factors for the cloud native landscape.
-Our mission includes incubating open source projects to measure and reduce carbon footprints in cloud native infrastructure.
-We aim to raise awareness of environmental sustainability in open source and support projects that promote energy-efficient solutions, positively impacting the community.
+En TAG de Sostenibilidad Ambiental, prosperamos mediante la colaboración al conectarte con proyectos de CNCF, que incluyen [grupos de trabajo](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups) y [proyectos](https://github.com/cncf/tag-env-sustainability/blob/main/projects/README.md), para crear soluciones innovadoras hacia un futuro tecnológico más verde.
+Servimos como un centro de conocimiento para compartir ideas y fomentar innovaciones respetuosas con el medio ambiente. Tus contribuciones ayudan a nutrir proyectos exitosos de código abierto centrados en la sostenibilidad.
+Proporcionamos recursos y apoyo, asegurando que no tengas que comenzar desde cero.
+[TAG ENV](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md), como [Technical Advisory Group](https://github.com/cncf/toc/tree/main/tags), colabora con la comunidad de código abierto, trabajando en la definición de factores de sostenibilidad ambiental para el panorama de cloud native.
+Nuestra misión incluye incubar proyectos de código abierto para medir y reducir las huellas de carbono en la infraestructura cloud native.
+Buscamos aumentar la conciencia sobre la sostenibilidad ambiental en el código abierto y respaldar proyectos que promuevan soluciones energéticamente eficientes, impactando positivamente a la comunidad.
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/tag-working-groups.webp" alt="Overview of TAG Environmental Sustainability structure and Working Groups"></p>
 
-[Join us](https://github.com/cncf/tag-env-sustainability#contact) and let's make a difference together!
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/tag-working-groups.webp" alt="
+Descripción general de la estructura y Grupos de Trabajo del TAG de Sostenibilidad Ambiental"></p>
 
-## Making a meaningful impact as part of the CNCF TAG Environmental Sustainability
+[Unete](https://github.com/cncf/tag-env-sustainability#contact) y hagamos la diferencia juntos.
 
-<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/7-simple-ways-to-contribute.webp" alt="Visualization of different ways how one can contribute to the TAG Environmental Sustainability"></p>
+## Generar un impacto significativo como parte del TAG de Sostenibilidad Ambiental de CNCF.
 
-With the mounting challenges our planet faces, efforts from all corners are essential.
-Here you can find some of the suggested actions that will help you get started:
+<p class="mt-5 mb-5"><img src="/images/blogs/2023-11-getting-started-as-a-tag-env-contributor/7-simple-ways-to-contribute.webp" alt="Visualización de las diferentes formas en que se puede contribuir al TAG de Sostenibilidad Ambiental"></p>
 
-1. [Detailed Contributor Guide:](https://github.com/cncf/tag-env-sustainability/blob/main/CONTRIBUTING.md) Still curious about how you can contribute more meaningfully? Explore our contributor guide and the [contributor-ladder](https://github.com/cncf/tag-env-sustainability/blob/main/governance/contributor-ladder.md) for in-depth details.
+Con los crecientes desafíos que enfrenta nuestro planeta, los esfuerzos desde todos los rincones son esenciales. Aquí encontrarás algunas de las acciones sugeridas que te ayudarán a comenzar:
 
-2. [Explore TAG ENV GitHub repo:](https://github.com/cncf/tag-env-sustainability) Your journey with the TAG Environmental Sustainability can begin at its GitHub repository. Familiarize yourself with the ongoing projects, issues, and the larger objectives of the group. If what you see sparks interest, dive deeper!  Please look through the available information and feel free to add to it.  We always are looking for help, suggestions, and more knowledge.
+1. [Guía detallada para contribuyentes: ](https://github.com/cncf/tag-env-sustainability/blob/main/CONTRIBUTING.md) ¿Todavía te preguntas cómo puedes contribuir de manera más significativa? Explora nuestra guía para contribuyentes y la  [guía de niveles de contribución](https://github.com/cncf/tag-env-sustainability/blob/main/governance/contributor-ladder.md) para obtener detalles a fondo.
 
-3. [Attend TAG ENV Regular Meetings](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com&ctz=America%2FChicago): These meetings offer a 360° view of what's happening within the TAG: latest news, latest projects, newcomers. You can introduce yourself and let us know what brought you here! Can't wait to hear your story!
+2. [Explora el repositorio GitHub de TAG ENV:](https://github.com/cncf/tag-env-sustainability) Tu trayecto con TAG de Sostenibilidad Ambiental puede comenzar en su repositorio de GitHub. Familiarízate con los proyectos en curso, los problemas y los objetivos más amplios del grupo. Si lo que ves y te interesa, ¡adéntrate más! Por favor, revisa la información disponible y siéntete libre de añadir a ella. Siempre estamos en busca de ayuda, sugerencias y más conocimientos.
 
-4. [Engage on Slack](https://communityinviter.com/apps/cloud-native/cncf): For a more informal setting, join the [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6), [#tag-env-wg-comms](https://cloud-native.slack.com/archives/C068XUD9AEA) and[#tag-env-wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431) channels on [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf). Say hello to the community, engage in discussions, and comment on posts that pique your interest. This platform allows you to foster connections with other contributors and stay updated on day-to-day happenings.
+3. [Asiste a las reuniones regulares de TAG ENV:](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com&ctz=America%2FChicago):  Estas reuniones ofrecen una visión completa de lo que está sucediendo dentro del TAG: últimas noticias, proyectos más recientes, recién llegados. ¡Puedes presentarte y contarnos qué te trajo aquí! ¡Estamos ansiosos por conocer tu historia!
 
-5. [Contribute to the TAG ENV Working Groups](https://tag-env-sustainability.cncf.io/about/working-groups/): If you can't wait to make a hands-on difference, this is your avenue.
+4. [Participa en Slack:](https://communityinviter.com/apps/cloud-native/cncf): Para un entorno más informal, únete a [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6), [#tag-env-wg-comms](https://cloud-native.slack.com/archives/C068XUD9AEA) y [#tag-env-wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431) canales de [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf). Saluda a la comunidad, participa en discusiones y comenta en publicaciones que despierten tu interés. Esta plataforma te permite establecer conexiones con otros contribuyentes y estar al tanto de los acontecimientos cotidianos.
 
-6. All the details about the Working Groups goals, non-goals and ongoing activities can be found here: <https://github.com/cncf/tag-env-sustainability/tree/main/working-groups>. Right now we have two working groups:
+5. [Contribuye a los Grupos de Trabajo de TAG ENV:](https://tag-env-sustainability.cncf.io/about/working-groups/): Si no puedes esperar para marcar la diferencia de manera práctica, esta es tu vía.
 
-   - **Green Reviews**. This group aims to design a strategic approach to aid CNCF projects in tracing and improving their environmental sustainability footprint. Intrigued? Dive into the specifics by checking out [the charter](https://github.com/cncf/tag-env-sustainability/blob/main/working-groups/green-reviews/charter.md).
+6. Todos los detalles sobre los objetivos de los Grupos de Trabajo, no objetivos y actividades en curso se pueden encontrar aquí: <https://github.com/cncf/tag-env-sustainability/tree/main/working-groups>. Actualmente tenemos dos grupos de trabajo:
 
-   - **Communications**. Effective communication is as crucial as the technical work itself, as it ensures that the impactful actions of our working group are understood and appreciated by a wider audience. The working group charter will be published soon, but for now you can find additional details in following PR: <https://github.com/cncf/tag-env-sustainability/pull/247>
+   - **Revisiones Verdes**. Este grupo tiene como objetivo diseñar un enfoque estratégico para ayudar a los proyectos de CNCF a rastrear y mejorar su huella de sostenibilidad ambiental. ¿Intrigado? Sumérgete en los detalles consultando [El estatuto](https://github.com/cncf/tag-env-sustainability/blob/main/working-groups/green-reviews/charter.md).
 
-7. [Tackle GitHub Issues:](https://github.com/cncf/tag-env-sustainability/issues) If you have a knack for addressing specific challenges or if you're seeking a shorter commitment, GitHub issues might be your calling. Browse through them and identify where you can contribute. If you feel lost and you don't know where to start, a good starting point is always an issue with the ["Help wanted" label](https://github.com/cncf/tag-env-sustainability/labels/help%20wanted).
+   - **Comunicaciones**. La comunicación efectiva es tan crucial como el trabajo técnico en sí, ya que asegura que las acciones impactantes de nuestro grupo de trabajo sean comprendidas y apreciadas por una audiencia más amplia. El estatuto del grupo de trabajo se publicará pronto, pero por ahora puedes encontrar detalles adicionales en el siguiente PR: <https://github.com/cncf/tag-env-sustainability/pull/247>
 
-8. [Events & Meetups:](https://tag-env-sustainability.cncf.io/events/) If you lean more towards communications and networking, you're in for a treat! The TAG ENV meets in-person at major conferences like KubeCon+CloudNativeCon and Open Source Summit. In addition TAG ENV organizes global events like the [Cloud Native Sustainability Week](https://github.com/orgs/cncf/projects/10/views/11) where both a virtual mini conference and local [cloud native meetups](https://community.cncf.io) were organized by a larger, international community. If you have ideas or want to organize an event dedicated to the cloud native sustainability where you live, the TAG ENV community would be thrilled to help you out and support you in making it happen!
+7. [Aborda los problemas en GitHub:](https://github.com/cncf/tag-env-sustainability/issues) Si tienes habilidades para abordar desafíos específicos o si buscas un compromiso más breve, los problemas en GitHub pueden ser tu llamado. Examínalos e identifica dónde puedes contribuir. Si te sientes perdido y no sabes por dónde empezar, un buen punto de partida siempre es un problema con la etiqueta ["Help wanted" label](https://github.com/cncf/tag-env-sustainability/labels/help%20wanted).
 
-Every individual, irrespective of their expertise or background, has something valuable to offer. If the topic of environmental sustainability resonates with you, the TAG ENV awaits your unique touch. Dive in, and together, let's make a difference!
+8. [Eventos y Meetups:](https://tag-env-sustainability.cncf.io/events/) Si te inclinas más hacia la comunicación y el networking, ¡estás de suerte! TAG ENV se reúne en persona en conferencias importantes como KubeCon+CloudNativeCon y Open Source Summit. Además, TAG ENV organiza eventos globales como la [Semana de Sostenibilidad Cloud Native](https://github.com/orgs/cncf/projects/10/views/11) donde se organiza tanto una mini conferencia virtual como  [meetups cloud native locales ](https://community.cncf.io) organizados por una comunidad más grande e internacional. Si tienes ideas o deseas organizar un evento dedicado a la sostenibilidad cloud native en tu localidad, la comunidad de TAG ENV estaría encantada de ayudarte y apoyarte para que suceda.
 
-## Can YOU help shape the future of the TAG Environmental Sustainability?
+Cada individuo, independientemente de su experiencia o antecedentes, tiene algo valioso que ofrecer. Si el tema de la sostenibilidad ambiental es de tu interes, el TAG ENV espera tu toque único. Sumérgete y, ¡juntos, hagamos la diferencia!
 
-Yes! The TAG ENV is a community-driven group, and everyone's input is highly valued and appreciated. If you have an idea that you would like to propose to the TAG ENV, the first step is to check if this idea already exists as a project or otherwise. You can check the [issues](https://github.com/cncf/tag-env-sustainability/issues) page for closed and open issues where you discuss your idea or reopen an old discussion.
+## ¿Puedes ayudar a dar forma al futuro de TAG de Sostenibilidad Ambiental?
 
-Scope your idea and refer to the first-time contributors quick start from our [contributor guide](https://github.com/cncf/tag-env-sustainability/blob/main/CONTRIBUTING.md#first-time-contributors). It is advisable to refer to the [governance folder](https://github.com/cncf/tag-env-sustainability/tree/main/governance) to get a better understanding of different processes in the TAG.
+¡Sí! El TAG ENV es un grupo impulsado por la comunidad, y la contribución de cada persona es muy valorada y apreciada. Si tienes una idea que te gustaría proponer al TAG ENV, el primer paso es verificar si esta idea ya existe como proyecto o de alguna otra manera. Puedes revisar la página de  [issues](https://github.com/cncf/tag-env-sustainability/issues) para problemas cerrados y abiertos donde puedes discutir tu idea o reabrir una antigua discusión.
 
-Your idea can be phrased in the form of a detailed proposal, a blog post, or even a presentation. It may be a message in Slack or a GitHub issue. You can write a full-fledged proposal from the beginning and once your idea is documented, you can  share it with the group in [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) channel on [CNCF Slack](https://cloud-native.slack.com/archives/C03F270PDU6), where the TAG actively discusses new ideas.
+Define tu idea y consulta la [guía de contribuyentes](https://github.com/cncf/tag-env-sustainability/blob/main/CONTRIBUTING.md#first-time-contributors). Es recomendable tambien consultar la [carpeta de gobernanza](https://github.com/cncf/tag-env-sustainability/tree/main/governance) para comprender mejor los diferentes procesos en el TAG.
 
-Another way to bring your proposals to the TAG ENV community is by participating in TAG's working groups. These are groups of experts and enthusiasts who focus on specific topics, such as performing sustainability footprint reviews of CNCF projects or driving marketing and communication.
+Tu idea puede expresarse en forma de una propuesta detallada, una publicación de blog o incluso una presentación. Puede ser un mensaje en Slack o un problema en GitHub. Puedes redactar una propuesta completa desde el principio y, una vez que tu idea esté documentada, puedes compartirla en [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) del canal de [CNCF Slack](https://cloud-native.slack.com/archives/C03F270PDU6), donde el TAG discute activamente nuevas ideas.
 
-By joining one of the working groups, you can collaborate with like-minded individuals and contribute to ongoing discussions and projects. Working groups are an excellent opportunity to receive feedback on your proposals and work collaboratively to bring them to fruition.
+Otra forma de presentar tus propuestas a la comunidad de TAG ENV es participando en los grupos de trabajo del TAG. Estos son grupos de expertos y entusiastas que se centran en temas específicos, como realizar revisiones de la huella de sostenibilidad de proyectos de CNCF o impulsar el marketing y la comunicación.
 
-To ensure that your contributions are in line with TAG's standards and expectations, TAG has a "Contribute" section on the website, which provides detailed information on how to get involved and contribute to different areas of the organization. It also includes a technical guide that outlines TAG's technical specifications and guidelines for creating documentation and code.
+Al unirte a uno de los grupos de trabajo, puedes colaborar con personas afines y contribuir a discusiones y proyectos en curso. Los grupos de trabajo son una excelente oportunidad para recibir comentarios sobre tus propuestas y trabajar colaborativamente para llevarlas a cabo.
 
-The TAG ENV community encourages and welcomes contributions from anyone. If you have an idea that you believe can make a positive impact on the industry, don't hesitate to share it with the TAG ENV community. Together, we can shape the idea into something actionable for the benefit of the TAG and the cloud native community as a whole.
+Para asegurarte de que tus contribuciones estén en línea con los estándares y expectativas del TAG, el TAG tiene una sección "Contribuir" en el sitio web, que proporciona información detallada sobre cómo involucrarte y contribuir a diferentes áreas de la organización. También incluye una guía técnica que describe las especificaciones técnicas y pautas del TAG para crear documentación y código.
 
-## Join us and spread the word
+La comunidad de TAG ENV fomenta y da la bienvenida a las contribuciones de cualquier persona. Si tienes una idea que crees que puede tener un impacto positivo en la industria, no dudes en compartirla con la comunidad de TAG ENV. Juntos, podemos dar forma a la idea para beneficio del TAG y de la comunidad cloud native en conjunto.
 
-Thank you for your interest and enthusiasm, those are invaluable. We hope that this article is a good resource that enables you to clarify some of the recurring doubts when joining an open source project. Feel free to reach out directly in one of the many channels highlighted in this guide, we will be happy to hear from you and welcome you on board.
+## Únete y difunde el mensaje
 
-We appreciate any  amplification of our message by sharing this article and participating in our meetups and projects. While we've provided some starting points, your unique journey and insights are what truly enriches our collective effort. We eagerly await your contribution and look forward to collaborating with you!
+Gracias por tu interés y entusiasmo, son invaluables. Esperamos que este artículo sea un buen recurso que te permita aclarar algunas de las dudas recurrentes al unirte a un proyecto de código abierto. No dudes en ponerte en contacto directamente en uno de los muchos canales destacados en esta guía, estaremos encantados de escucharte y darte la bienvenida.
+
+Agradecemos cualquier amplificación de nuestro mensaje al compartir este artículo y participar en nuestros encuentros y proyectos. Aunque hemos proporcionado algunos puntos de partida, tu viaje y perspectivas únicas son lo que realmente enriquece nuestro esfuerzo colectivo. ¡Esperamos con ansias tu contribución y estamos emocionados por colaborar contigo!

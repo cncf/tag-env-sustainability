@@ -1,16 +1,15 @@
 ---
 title: Open Source Summit NA 2023
-description: TAG Environmental Sustainability presence at the Linux Foundation’s flagship conference in Vancouver, British Columbia from 10-12 May, 2023.
+description: TAG de Sostenibilidad Ambiental en la conferencia principal de la Linux Foundation en Vancouver, Columbia Británica a partir del 10 Mayo del 2023.
 weight: 2
 ---
 
-Level up your open source knowledge with access to 15 micro-conferences, including SustainabilityCOn, and 300+ sessions. Join the ultimate gathering of open source innovators to learn, network and collaborate in Vancouver, British Columbia from 10-12 May, 2023.
-And we as a TAG have a few sessions planned on site!
+Mejora tu conocimiento de código abierto con acceso a 15 microconferencias, incluida SustainabilityCon, y más de 300 sesiones. Únete a la reunión definitiva de innovadores de código abierto para aprender, establecer contactos y colaborar en Vancouver, Columbia Británica, del 10 al 12 de mayo de 2023.
+¡Y nosotros, como TAG, tenemos algunas sesiones planeadas en el lugar!
+### Sesiones de SustainabilityCon - [link](https://events.linuxfoundation.org/open-source-summit-north-america/program/schedule/)
 
-### SustainabilityCon Sessions - [link](https://events.linuxfoundation.org/open-source-summit-north-america/program/schedule/)
+¿Estás interesado en el impacto que tienen tus proyectos en la nube y tu trabajo relacionado con la nube en el medio ambiente?
+Entonces nos encantaría conocerte en nuestra [**Reunión del Proyecto TAG de Sostenibilidad Ambiental**](https://tockify.com/cncf.public.events/detail/598/1683747900000) en OSS NA.
 
-Are you interested in the impact your cloud projects and cloud-related work has on the environment?
-Then we would love to meet you at our [**TAG Environmental Sustainability Project Meeting**](https://tockify.com/cncf.public.events/detail/598/1683747900000) at OSS NA.
-
-We are looking forward to hearing your perspectives and welcome everyone who wants to contribute to our effort.
-Let’s reduce the environmental of the cloud, data centers and our projects.
+Esperamos con interés escuchar tus perspectivas y dar la bienvenida a todos aquellos que deseen contribuir a nuestro esfuerzo.
+Reduzcamos el impacto ambiental de la nube, los centros de datos y nuestros proyectos.
