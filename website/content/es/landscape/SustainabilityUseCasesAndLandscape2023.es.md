@@ -211,7 +211,7 @@ El proyecto de incubación OpenTelemetry CNCF está diseñado para generar y rec
 
 El siguiente diagrama muestra los segmentos de infraestructura de un entorno de computación en la nube sostenible.
 
-``sirena
+```sirena
 diagrama de flujo de tuberculosis
      root{{Observabilidad: panorama sostenible de la computación en la nube}} -.- obs[Herramientas de observabilidad]
 
