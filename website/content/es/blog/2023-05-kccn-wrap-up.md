@@ -1,7 +1,6 @@
 ---
 title: Environmental Sustainability at KubeCon / CloudNativeCon EU 2023
-description:
-KubeCon + CloudNativeCon Europe 2023 fue la conferencia de código abierto más grande de Europa con más de 10.000 asistentes y tuvo un fuerte enfoque en la sostenibilidad nativa de la nube.
+description: KubeCon + CloudNativeCon Europe 2023 fue la conferencia de código abierto más grande de Europa con más de 10.000 asistentes y tuvo un fuerte enfoque en la sostenibilidad nativa de la nube.
 slug: 2023-wrap-up-kccn-eu
 weight: 1
 date:   2023-05-21 10:00:00 +0000
