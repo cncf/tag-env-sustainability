@@ -1,15 +1,10 @@
 # Proposals, projects, and team
 
-In addition to the activities driven by the
-[CNCF Technical Oversight Committee][TOC], the work of the group often
-originates from group members with ideas on how to reduce risk in cloud native
-applications in alignment with the charter of the group and of interest and
-importance to the community.
+In addition to the activities driven by the [CNCF Technical Oversight Committee][TOC], the work of the group often
+originates from group contributors with ideas on how to reduce risk in cloud native applications in alignment with the charter of the group and of interest and importance to the community.
 
-This document explains how we transform ideas from our community into
-projects with a defined set of deliverables
-or a team to focus on a larger stream of work that may involve one or more
-projects and activities.
+This document explains how we transform ideas from our community into projects with a defined set of deliverables
+or a team to focus on a larger stream of work that may involve one or more projects and activities.
 
 - [Proposals, projects, and team](#proposals-projects-and-team)
   - [Creating, discussing and accepting proposals](#creating-discussing-and-accepting-proposals)
@@ -42,7 +37,7 @@ We also encourage outreach outside of the group, when there are experts who migh
 
 * A) On slack, share the issue link and ask whether others are interested in the problem and have feedback on your proposed solution or activity.
 
-* B) Choose an upcoming meeting where you or another group member who is interested in working on the project is able to attend, then add the issue to the meeting agenda: include a link and the name of the person who will present the proposal in the "Planned Meeting" area of the [meeting notes](https://github.com/cncf/tag-env-sustainability#contact).
+* B) Choose an upcoming meeting where you or another group contributor who is interested in working on the project is able to attend, then add the issue to the meeting agenda: include a link and the name of the person who will present the proposal in the "Planned Meeting" area of the [meeting notes](https://github.com/cncf/tag-env-sustainability#contact).
 Then at the meeting:
   * The presenter should screen share the github issue (or ask the meeting facilitator ahead of time to do so) and explain the motivation, expected outcome, ideas that they have for how it might happen, and ask if others have ideas or questions.
   * After a short discussion, people should be invited to chime in on the github issue and also mention of they are interested in collaborating. This ensures that solutions are created with multiple perspectives as well as verifies there is community interest and energy to work on the proposal.
@@ -59,14 +54,14 @@ The outcome of this conversation will be:
 
 ### 3. **Accept or close the proposal.**
 
-* A) **Accept**: assign to the Sponsor and the Project Lead(s) working on the effort, with members interested in contributing noted in the issue descriptions, along with information about expected duration, milestones, scope, and anticipated deliverables. An accepted proposal becomes an active project (see below) and the "proposal" label is removed, the "project" label is added and it is added to the backlog.
+* A) **Accept**: assign to the Sponsor and the Project Lead(s) working on the effort, with interested contributors noted in the issue descriptions, along with information about expected duration, milestones, scope, and anticipated deliverables. An accepted proposal becomes an active project (see below) and the "proposal" label is removed, the "project" label is added and it is added to the backlog.
 * B) **Close**: a github comment on the issue should note the reason and link to discussion minutes (when decision is reached at a group meeting) or at least two members of the leadership team should be noted in agreement (which may include the person who closes the issue).
 * C) **Roadmap**: the issue will remain a proposal and be placed on a roadmap project board. The roadmap is reviewed quarterly.
 
 ### Active projects
 
 1. **Track progress.** As long as work is ongoing, progress should be tracked both in the Issue and reported on periodically in meetings.
-   * Someone working on the project will attend weekly meetings to answer questions. In case of absence, ensure that github issues is updated and another member of the group who can attend the meeting is familiar with progress in case questions arise.
+   * Someone working on the project will attend weekly meetings to answer questions. In case of absence, ensure that github issues is updated and another group contributor who can attend the meeting is familiar with progress in case questions arise.
    * It's strongly encouraged to include a checklist in the Issue that shows what has been done and what work remains and should include a retrospective.
 
 2. **Pull Requests.** Completed work should result in a Pull Request (PR).
@@ -79,7 +74,7 @@ a comment of the PR or during a meeting, the person making the objection and
 the person making the proposal will be given time to present their view at the
 next meeting. If there are not objections, or if all concerns have been
 addressed, and the Pull Request has been stable for 24 hours, a Chair will add
-it to the agenda for an upcoming meeting. Ideally, members who contributed to
+it to the agenda for an upcoming meeting. Ideally, contributors who made changes to
 the project will attend that meeting to present their work or answer questions.
 
 4. **Vote, if required.** In some cases, there's consensus to accept a
