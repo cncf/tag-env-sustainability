@@ -37,7 +37,7 @@ En este documento técnico, exploramos los desafíos asociados con la cuenta de 
 - [Fundamentos de Sistemas de la Nube Sostenible](#fundamentos-de-sistemas-de-la-nube-sostenible)
   - [Emisiones de Carbono de la Nube](#emisiones-de-carbono-de-la-nube)
   - [Computación Ecológica](#computación-ecológica)
-  - [Cuantificación de Carbono/Energía](#cuantificación-de-carbono--energía)
+  - [Cuantificación de Carbono/Energía](#cuantificación-de-carbonoenergía)
 - [Desafíos de los Sistemas de Nube Sostenible](#desafíos-de-los-sistemas-de-nube-sostenible)
 - [Desafíos de la Contabilidad de Carbono/Energía](#desafíos-de-la-contabilidad-de-carbono--energía)
   - [Cuantificación de Emisiones de Carbono Operativas](#cuantificación-de-emisiones-de-carbono-operativas)
