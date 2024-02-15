@@ -2,7 +2,7 @@
 title: CNCF Cloud Native Sustainability Week
 linkTitle: Cloud Native Sustainability Week
 exclude_search: true
-description: Cloud Native Sustainability Week es un evento global donde la comunidad CNCF organiza reuniones locales en torno al tema Cloud Native Sustainability. La Cloud Native Sustainability Week se llevará a cabo en la segunda semana de octubre de 2023.
+description: Cloud Native Sustainability Week es un evento global donde la comunidad CNCF organiza eventos locales en torno al tema Cloud Native Sustainability. La Cloud Native Sustainability Week se llevará a cabo en la segunda semana de octubre de 2023.
 slug: cloud-native-sustainability-week
 aliases: 
   - /cloud-native-sustainability-week
@@ -12,16 +12,16 @@ aliases:
 
 La CNCF Global Week of Cloud Native Sustainability es un evento organizado por la [CNCF TAG Environmental Sustainability](http://github.com/cncf/tag-env-sustainability) y la  amplia [comunidad de la Cloud Native Computing Foundation (CNCF)] (http://cncf.io) para abordar el tema emergente de la sostenibilidad ambiental en la industria cloud native y el espacio de código abierto. El evento tiene como objetivo involucrar a la comunidad y la industria de TI en conjunto, obtener una mejor comprensión del panorama actual de sostenibilidad ambiental y promover la colaboración y el intercambio de conocimientos sobre el tema.
 
-Durante la **segunda semana de octubre de 2023 (W41)**, los [CNCF community groups alrededor del globo](https://community.cncf.io/chapters/) organizarán reuniones en sus ciudades con un enfoque en la nube nativa. sostenibilidad. Estas reuniones pueden ser organizadas por cualquier persona interesada en apoyar el esfuerzo. Además, el [CNCF Environmental Sustainability Technical Advisory Group (TAG ENV)](http://github.com/cncf/tag-env-sustainability), organizará una reunión virtual. Las grabaciones del evento virtual y grabado presencial se subirán a esta [playlist en YouTube](https://youtube.com/playlist?list=PL_3_oSSuNpD4cdUFtW68Ejl5FpD7fEFdg&si=iBEY_qa1-DccqWz_).
+Durante la **segunda semana de octubre de 2023 (W41)**, los [CNCF community groups alrededor del globo](https://community.cncf.io/chapters/) organizarán eventos en sus ciudades con un enfoque en la nube nativa. sostenibilidad. Estos eventos pueden ser organizados por cualquier persona interesada en apoyar el esfuerzo. Además, el [CNCF Environmental Sustainability Technical Advisory Group (TAG ENV)](http://github.com/cncf/tag-env-sustainability), organizará un evento virtual. Las grabaciones del evento virtual y grabación presencial se subirán a esta [playlist en YouTube](https://youtube.com/playlist?list=PL_3_oSSuNpD4cdUFtW68Ejl5FpD7fEFdg&si=iBEY_qa1-DccqWz_).
 
-| **Meetups alrededor del globo** | **[Blog Posts Diarios](https://tag-env-sustainability.cncf.io/blog/)** | **[Mini Conferencias Virtuales](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/)** | **[Livestreams Diarios en YouTube](https://www.youtube.com/@kubesimplify)**
+| **Eventos alrededor del globo** | **[Blog Posts Diarios](https://tag-env-sustainability.cncf.io/blog/)** | **[Mini Conferencias Virtuales](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/)** | **[Livestreams Diarios en YouTube](https://www.youtube.com/@kubesimplify)**
 |---|---|---|---|
 
 ## Eventos
 
-Organizaremos 21 reuniones locales en 16 países y 4 continentes. A continuación, tu verás una representación visual de todas las reuniones locales.
+Organizaremos 21 eventos locales en 16 países y 4 continentes. A continuación, tu verás una representación visual de todas los eventos locales.
 
-### Meetups Locales
+### Eventos Locales
 
 <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://www.google.com/maps/d/u/0/embed?mid=1cYKhhpzyOaLNEs-TIxqQTxYV98NBFJ8&ehbc=2E312F&noprof=1"></iframe>
@@ -56,7 +56,7 @@ Organizaremos 21 reuniones locales en 16 países y 4 continentes. A continuació
 
 ### Mini Conferencia Virtual en Oct.12
 
-[Mini Conferencia Virtual](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/) es un meetup organizado por el CNCF Environmental Sustainability Technical Advisory Group (TAG ENV). Es un evento de 2 horas con presentaciones de ponentes de la comunidad y mantenedores del TAG ENV. Puedes encontrar el evento en la página de CNCF [Aquí](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/). La grabación puede encontrarse [Aquí](https://youtube.com/playlist?list=PL_3_oSSuNpD4cdUFtW68Ejl5FpD7fEFdg&si=iBEY_qa1-DccqWz_).
+[Mini Conferencia Virtual](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/) es un evento organizado por el CNCF Environmental Sustainability Technical Advisory Group (TAG ENV). Es un evento de 2 horas con presentaciones de ponentes de la comunidad y mantenedores del TAG ENV. Puedes encontrar el evento en la página de CNCF [Aquí](https://community.cncf.io/events/details/cncf-cloud-native-sustainability-presents-virtual-mini-conference-cloud-native-sustainability-week/). La grabación puede encontrarse [Aquí](https://youtube.com/playlist?list=PL_3_oSSuNpD4cdUFtW68Ejl5FpD7fEFdg&si=iBEY_qa1-DccqWz_).
 
 ### Blog Posts
 
@@ -101,10 +101,10 @@ Este [documento](https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEE
 ## Contacto y Recursos
 
 Comunícate con nosotros a través del [CNCF Slack workspace](https://slack.cncf.io/) en el canal [tag-env-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6 ), si tienes algún comentario o pregunta. Todos los recursos son de acceso público.
-Si es organizador de una meetup, tenemos un [tracking issue](https://github.com/cncf/tag-env-sustainability/issues/134) para recopilar comentarios y preguntas.
+Si eres organizador de un evento, tenemos un [tracking issue](https://github.com/cncf/tag-env-sustainability/issues/134) para recopilar comentarios y preguntas.
 
 * **Tracking Issue General**: <https://github.com/cncf/tag-env-sustainability/issues/95>
-* **Guía General de Organizador de Meetup**: <https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit?usp=sharing>
+* **Guía General de Organizador de Eventos**: <https://docs.google.com/document/d/1s28lqqc3IBAMw4T7n13zfyAuUEEc3I4_xhPxCLA4_dk/edit?usp=sharing>
 * **Milestone para dar seguimiento a la organización de tareas de evento**: <https://github.com/cncf/tag-env-sustainability/milestone/3>
 * **Folder de Google Drive**: <https://drive.google.com/drive/folders/1pdBQTxlpvDr0QFIuIpjfERau1IQNfdaX?ths=true>
 
@@ -114,4 +114,4 @@ El evento está organizado únicamente por voluntarios que dedican su tiempo lib
 
 <!-- cspell:disable-next-line -->
 Un agradecimiento especial a Kristina Devochko, Leonard Pahlke, Nancy Chauhan, Mercy Bamiduro y a la comunidad TAG ENV en general por ayudar a organizar el evento.
-Muchas gracias a todos los organizadores locales de meetups y a todo el equipo de CNCF por su apoyo.
+Muchas gracias a todos los organizadores locales de eventos y a todo el equipo de CNCF por su apoyo.

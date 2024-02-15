@@ -1,7 +1,6 @@
 ---
 title: Grupos de trabajo
-description: 
-Esta sección provee información sobre los grupos de trabajo que operan sobre el TAG de Environmental Sustainability.
+description: Esta sección provee información sobre los grupos de trabajo que operan sobre el TAG de Environmental Sustainability.
 slug: working-groups
 ---
 
