@@ -1,6 +1,6 @@
 {
     "version": "0.2",
-    "language": "en",
+    "locale": "*",
     "caseSensitive": false,
     "dictionaries": ["en_US", "en-gb", "companies", "softwareTerms", "misc", "filetypes", "tag", "html", "cpp", "k8s"],
     "ignorePaths": [],
