@@ -1,8 +1,7 @@
 {
     "version": "0.2",
     "import": ["@cspell/dict-es-es/cspell-ext.json"],
-    "locale": "*",
-    "languageId": "*",
+    "language": "en,es",
     "caseSensitive": false,    
     "dictionaries": ["en_US", "en-gb", "es-es", "companies", "softwareTerms", "misc", "filetypes", "tag", "html", "cpp", "k8s"],
     "ignorePaths": [],
