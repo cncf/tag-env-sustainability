@@ -3,8 +3,8 @@
     "locale": "*",
     "languageId": "*",
     "caseSensitive": false,
-    "usePnP": true,
     "import": ["@cspell/dict-es-es/cspell-ext.json"],
+    "dictionaries": ["en_US", "en-gb", "es-es", "companies", "softwareTerms", "misc", "filetypes", "tag", "html", "cpp", "k8s"],
     "ignorePaths": [],
     "dictionaryDefinitions": [
         { "name": "tag", "path": "./tag-custom-dictionary-cspell.txt"}
