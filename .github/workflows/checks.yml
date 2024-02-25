@@ -36,7 +36,7 @@ jobs:
     - run: npm install -g @cspell/dict-es-es
     
     - name: Validate spelling
-      uses: streetsidesoftware/cspell-action@v4.0.1
+      uses: streetsidesoftware/cspell-action@v5.4.0
       with:
         config: 'cspell.json'
         files: '**/*.md'
