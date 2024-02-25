@@ -3,6 +3,7 @@
     "locale": "*",
     "languageId": "*",
     "caseSensitive": false,
+    "usePnP": true,
     "import": ["@cspell/dict-es-es/cspell-ext.json"],
     "ignorePaths": [],
     "dictionaryDefinitions": [
