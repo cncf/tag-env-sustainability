@@ -1,9 +1,9 @@
 {
     "version": "0.2",
+    "import": ["@cspell/dict-es-es/cspell-ext.json"],
     "locale": "*",
     "languageId": "*",
-    "caseSensitive": false,
-    "import": ["@cspell/dict-es-es/cspell-ext.json"],
+    "caseSensitive": false,    
     "dictionaries": ["en_US", "en-gb", "es-es", "companies", "softwareTerms", "misc", "filetypes", "tag", "html", "cpp", "k8s"],
     "ignorePaths": [],
     "dictionaryDefinitions": [
