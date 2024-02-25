@@ -313,8 +313,8 @@ La fase de programación a nivel de clúster ayuda a reducir la energía consumi
    Esto proporciona una nueva forma de realizar la orquestación al pasar de un modelo imperativo a un modelo basado en la intención para seleccionar la ubicación de la carga de trabajo. En este modelo, los usuarios expresan su intención en forma de objetivos (como objetivos de latencia, rendimiento o confiabilidad requeridos) y la propia pila de orquestación determina los recursos en la infraestructura necesarios para lograr esos objetivos. Este nuevo enfoque continuará aprovechando las inversiones de la comunidad en programación (determinando cuándo y dónde colocar las cargas de trabajo), aumentadas por un ciclo de planificación de ejecución continua que determina qué y cómo configurar el sistema. Ya se están realizando trabajos preliminares para utilizar esto en entornos de energía óptima.
 
 * :green_book: Programador de Kubernetes sensible al carbono - [Programador de Kubernetes con bajas emisiones de carbono](https://ceur-ws.org/Vol-2382/ICT4S2019_paper_28.pdf)
-<!-- markdown-link-check-disable-siguiente-línea -->
-* :green_book: Programación consciente de la energía \[documento técnico] [Mejora de la eficiencia del centro de datos mediante la programación holística en Kubernetes](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
+<!-- markdown-link-check-disable-next-line -->
+* :green_book: Programación consciente de la energía [documento técnico] [Mejora de la eficiencia del centro de datos mediante la programación holística en Kubernetes](https://www.researchgate.net/publication/333062266_Improving_Data_Center_Efficiency_Through_Holistic_Scheduling_In_Kubernetes)
 
 ### Escalado
 

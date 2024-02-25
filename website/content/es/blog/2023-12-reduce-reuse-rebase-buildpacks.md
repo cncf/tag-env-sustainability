@@ -24,7 +24,7 @@ El ecosistema cloud-native ha aportado productividad y mejoras operacionales al 
 
 ## Reducir, Reusar, Reemplazar
 
-Las imágenes de contenedores construidas a partir de un `Dockerfile` requieren una construcción completa cuando una nueva actualización del sistema opeartivo se encuentra disponible, incluso si tu aplicación no necesita una recompilación o reinstalación para ser compatible con la actualización (Por ejemplo, la actualización es [compatible con ABI]([https://](https://es.wikipedia.org/wiki/Interfaz_binaria_de_aplicaciones)). Este no es el caso cuando se usa Buildpacks.
+Las imágenes de contenedores construidas a partir de un `Dockerfile` requieren una construcción completa cuando una nueva actualización del sistema opeartivo se encuentra disponible, incluso si tu aplicación no necesita una recompilación o reinstalación para ser compatible con la actualización (Por ejemplo, la actualización es [compatible con ABI](https://es.wikipedia.org/wiki/Interfaz_binaria_de_aplicaciones). Este no es el caso cuando se usa Buildpacks.
 
 Cuando una imágen base del sistema opeartivo se encuentra disponible para una imagen generada a través de un _buildpack_, las capas existentes que se posan sobre el sistema operativo son reusadas. Este proceso, ilustrado abajo, se le conoce como _rebasing_ o reconstrucción de la base. Las capas de la aplicación, con el mismo SHA, pueden ser posicionadas sobre las capas del nuevo sistema operativo. 
 
