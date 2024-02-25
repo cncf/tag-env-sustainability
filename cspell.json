@@ -1,8 +1,9 @@
 {
     "version": "0.2",
     "locale": "*",
+    "languageId": "*",
     "caseSensitive": false,
-    "dictionaries": ["en_US", "en-gb", "companies", "softwareTerms", "misc", "filetypes", "tag", "html", "cpp", "k8s"],
+    "import": ["@cspell/dict-es-es/cspell-ext.json"],
     "ignorePaths": [],
     "dictionaryDefinitions": [
         { "name": "tag", "path": "./tag-custom-dictionary-cspell.txt"}
