@@ -27,7 +27,14 @@ jobs:
         config: '.markdownlint.json' 
         fix: true
       continue-on-error: false
-
+    
+    - name: Install Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+    
+    - run: npm install -g @cspell/dict-es-es
+    
     - name: Validate spelling
       uses: streetsidesoftware/cspell-action@v4.0.1
       with:
