@@ -8,7 +8,7 @@ TAG Environmental Sustainability has working groups and teams to effectively col
 
 Following working groups operate under the TAG Environmental Sustainability:
 
-| Name                | Scope and Goals            | Hora de Reunión                          |
+| Name                | Scope and Goals            | Meeting Time                          |
 |---------------------|----------------------------|---------------------------------------|
 | [Green Reviews](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/green-reviews) | [Green Reviews Working Group Charter](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/green-reviews/charter.md) | [Green Reviews Working Group - Meetings and Contact](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/green-reviews/README.md#meetings-and-contact) |
 | [Communications](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/communications)| [Communications Working Group Charter](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/communications/charter.md) | [Communications Working Group - Meetings and Contact](https://github.com/cncf/tag-env-sustainability/blob/main/working-groups/communications/README.md#meetings-and-contact) |
