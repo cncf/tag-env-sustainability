@@ -1,5 +1,5 @@
 ---
-title: Kubecon CloudNativeCon EU 2024
+title: Kubecon + CloudNativeCon EU 2024
 description: TAG Environmental Sustainability presence at Cloud Native Computing Foundation’s flagship conference in Paris, France from 19-22 March, 2024.
 ---
 
