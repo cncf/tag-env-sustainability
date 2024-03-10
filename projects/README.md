@@ -17,10 +17,10 @@ Fork the TAG ENV repository and add a new folder with the project name and the s
 
 - **Project Leads**: 
     - *link GitHub user profile*
-- **TAG ENV Lead represantative**: *link GitHub user profile*
+- **TAG ENV Lead representative**: *link GitHub user profile*
 - **Project started**: *XX-XX-XX*
 - **Project completed at**: *XX-XX-XX*
-- **Project drive folder**: link <!-- ask the TAG Lead represantative to create a folder if it does not exist yet -->
+- **Project drive folder**: link <!-- ask the TAG Lead representative to create a folder if it does not exist yet -->
 - **Project tracking issue**: #XXX
 
 ### Description <!-- description of the project proposal -->
