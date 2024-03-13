@@ -1,6 +1,7 @@
 ---
 title: KubeCon + CloudNativeCon NA 2023
 description: TAG Environmental Sustainability presence at Cloud Native Computing Foundation’s flagship conference in Chicago, USA from 6-9 November, 2023.
+weight: 2
 ---
 
 The Cloud Native Computing Foundation’s flagship conference gathers adopters and technologists from leading open source and cloud native communities for the second time in 2023. This time KubeCon+CloudNativeCon event takes place in the windy city of Chicago, USA from 6-9 November, 2023. Both us from the TAG will be delivering a few sessions on-site, and there will be multiple sustainability-related sessions from other community members that we would like to highlight here!
