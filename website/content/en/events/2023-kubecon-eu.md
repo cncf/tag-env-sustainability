@@ -1,6 +1,7 @@
 ---
 title: Kubecon CloudNativeCon EU 2023
 description: TAG Environmental Sustainability presence at Cloud Native Computing Foundation’s flagship conference in Amsterdam, The Netherlands from 18-21 April, 2023.
+weight: 99
 ---
 
 The Cloud Native Computing Foundation’s flagship conference gathers adopters and technologists from leading open source and cloud native communities in Amsterdam, The Netherlands from 18-21 April, 2023.
