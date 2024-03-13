@@ -23,17 +23,9 @@ In tech, sustainability is not just an ideal but a pressing technical challenge,
 
 ### Tuesday 19th of March
 
-10:25 - 10:50 CET
-
-* [Panel: Argo for ML: Achieving Scalability and User Experience](https://sched.co/1YFeX)
-
 10:30 - 10:37 CET
 
 * [Sustainable Computing: Measuring Application Energy Consumption in Kubernetes Environments with Kepler | Project Lightning Talk](https://sched.co/1aQWg)
-
-11:40 - 12:15 CET
-
-* [Panel: A Front Row Seat to Backstage Adoption](https://sched.co/1YFfz)
 
 17:35 - 17:40 CET
 
