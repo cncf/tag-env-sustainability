@@ -3,7 +3,7 @@ title: CNCF Cloud Native Sustainability Week
 linkTitle: Cloud Native Sustainability Week
 exclude_search: true
 description: Cloud Native Sustainability Week is a global event where the CNCF community organizes local meetings around the theme of Cloud Native Sustainability. The Cloud Native Sustainability Week will take place in the second week of October 2023.
-weight: 3
+weight: 97
 slug: cloud-native-sustainability-week
 aliases:
   - /cloud-native-sustainability-week
