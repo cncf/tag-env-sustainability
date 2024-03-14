@@ -38,6 +38,10 @@ In tech, sustainability is not just an ideal but a pressing technical challenge,
 
 * [Keynote Panel Discussion: Optimizing Performance and Sustainability for AI](https://sched.co/1YhIO)
 
+11:30 - 12:15 CET
+
+* [CloudNativeHacks: Panel Discussion Facilitated by The Sustainability Working Group](https://sched.co/1Yvvp)
+
 14:30 - 16:00 CET
 
 * [Tutorial: Cloud Native Sustainable LLM Inference in Action](https://sched.co/1YeMh)
