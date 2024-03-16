@@ -76,7 +76,7 @@ Please keep in mind that only some components of the described vision are in pro
 
 ## Reflecting on Green Reviews WG's journey till now
 
-Since its formal announcement at KubeCon + CloudNativeCon North America 2023, the **Green Reviews Working Group** (WG) has been on a journey, making progress in the realm of sustainability within the cloud native ecosystem.
+Since its formal announcement at KubeCon + CloudNativeCon North America 2023, the Green Reviews Working Group (WG) has been on a journey, making progress in the realm of sustainability within the cloud native ecosystem.
 
 Reflecting on the WG’s progress, we would like to share the milestones that have been achieved so far: in a collaborative effort, we reached our first 100+ commits and successfully addressed our first 10+ issues. The group’s GitHub repository is progressively taking shape, driven by engaging discussions and gaining momentum, especially with the very first collaboration with the Falco project team, which will be the pilot CNCF project to perform a sustainability footprint assessment with the help of the WG’s technical platform.
 
