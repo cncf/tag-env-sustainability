@@ -54,7 +54,7 @@ We are happy to share that our cloud infrastructure is now fully operational. Ou
 
 Flux is responsible for deploying all the selected observability tools and the CNCF projects. After the GitHub Action triggers all the defined use cases, Kepler will produce the energy metrics and export them natively to Prometheus. 
 
-### Sustainability metrics & the Software Carbon Intensity specification
+### Sustainability metrics and the Software Carbon Intensity specification
 
 This infrastructure is used to generate the initial data to calculate the carbon intensity of Falco using the [Software Carbon Intensity](https://learn.greensoftware.foundation/measurement#software-carbon-intensity-specification) (SCI) specification, a soon-to-be [ISO standard](https://www.iso.org/standard/86612.html) developed by the [Green Software Foundation](https://greensoftware.foundation/). This dashboard showcases the SCI factors, such as the energy consumption of Falco, the carbon emissions of the Equinix geographical location, and the embedded carbon of the hardware the software is running on. The dashboard is a public Grafana dashboard, illustrating our commitment to transparency and continuous improvement.
 
