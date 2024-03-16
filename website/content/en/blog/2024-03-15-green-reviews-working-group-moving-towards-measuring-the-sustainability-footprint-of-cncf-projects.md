@@ -86,7 +86,7 @@ The most recent milestone was even harder because we had to balance the scalabil
 
 The Falco project was also challenging because many of the WG contributors were not familiar with the complex nature of this security software. Ensuring that Falco was running with the correct load and specifically with a meaningful kernel_event_rate was challenging, but luckily the Falco maintainers and contributors were very collaborative. 
 
-Before KubeCon + CloudNativeCon Europe 2024, the WG’s goal was to present the first implementation of a sustainability footprint assessment workflow to the community. At the point of writing the blog post, version 0.1 is up and running, though it still needs improvements, including:
+Before KubeCon + CloudNativeCon Europe 2024, the WG’s goal was to present the first implementation of a sustainability footprint assessment workflow to the community. At the point of writing the blog post, **version 0.1** is up and running, though it still needs improvements, including:
 
 - The definition of the GitHub Actions workflow that the release of the CNCF project will trigger;
 - The steps needed to provision Equinix servers on-demand;
