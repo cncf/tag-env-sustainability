@@ -96,7 +96,7 @@ Please refer to the WG’s [Roadmap](https://github.com/cncf-tags/green-reviews-
 
 ## Green Reviews WG is always looking for new contributors - please come and join us! 💚
 
-All the activities and communication that are going on in the **Green Reviews Working Group** are transparent, public, and open to everyone. The Working Group is fully volunteer-run and is always on the lookout for new contributors to help with tasks. We always have a few [issues with labels such as "helped wanted"](https://github.com/cncf-tags/green-reviews-tooling/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) in the repository that folks can pick up or pair on!
+All the activities and communication that are going on in the **Green Reviews Working Group** are transparent, public, and open to everyone. The Working Group is fully volunteer-run and is always on the lookout for new contributors to help with tasks. We always have a few [issues with labels such as "help wanted"](https://github.com/cncf-tags/green-reviews-tooling/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) in the repository that folks can pick up or pair on!
 
 If you’re looking for ways to contribute technically to a project in the cloud native sustainability domain, then you are in the right place! Our Working Group is diverse and inclusive, and we’re happy to welcome everyone who would like to join us and contribute to the group.
 
