@@ -1,6 +1,6 @@
 ---
 title: "Green Reviews Working Group: Moving towards measuring the sustainability footprint of CNCF projects"
-description: "The Green Reviews Working Group is moving towards measuring the sustainability footprint of CNCF projects"
+description: "In this blog post we will take a look at how the Green Reviews Working Group is contributing to moving towards continuously measuring the sustainability footprint of CNCF projects"
 slug: 2024-green-reviews-working-group-measuring-sustainability
 weight: 1
 date:   2024-03-15 10:00:00 +0000
