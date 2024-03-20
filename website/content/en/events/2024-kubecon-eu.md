@@ -14,7 +14,7 @@ TAG members will be at our booth on the AM of Wednesday, Thursday, and Friday! F
 
 ## TAG Meetup
 
-We are currently planning a meet up in a TBD time and location!
+We're hosting an informal meetup for everyone who's interested in the TAG ENV on Thursday, 21st of March, 15:30 - 16:45. We will meet on the venue terrace! It's accessible via the escalators from level 7.3 up to level 7.4, specifically from the MAIN LOBBY side (you can recognize it due to presence of windows).
 
 ## TAG [Talk](https://sched.co/1Yhgd)
 
