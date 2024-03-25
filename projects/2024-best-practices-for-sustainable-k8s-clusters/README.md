@@ -14,7 +14,7 @@
 To quote the description from an earlier proposal on this subject ([#54](https://github.com/cncf/tag-env-sustainability/issues/54)):
 
 > Kubernetes is the key driver and foundation of the cloud native universe. Within this project, we will work on the basic capabilities, best practices and scheduling mechanism as well as extensions to improve the K8s GHG impact.
-
+>
 > Where [there] are patterns, there are anti-patterns, where we improve for speed, resistance and security, there is space for configurations and setting with a negative impact on power consumption and the following chain.
 
 Our ambition is to provide Kubernetes operators with basic, but useful recommendations for running Kubernetes clusters that do less damage to the environment. We want to start small and create a base to expand on in the future.
