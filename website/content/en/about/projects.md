@@ -12,4 +12,4 @@ Following projects operate under the TAG Environmental Sustainability:
 <!-- Status: Completed / In Progress / Cancelled -->
 | **Project Name** | **Details Link** | **Project Leads** | **Status** |
 |---|---|---|---|
-|   |   |   |   |
+| Best practices for environmentally sustainable Kubernetes clusters  | [Project Proposal](https://github.com/cncf/tag-env-sustainability/issues/339)  | [@JacobValdemar](https://github.com/JacobValdemar), [@xamebax](https://github.com/xamebax)  | In Progress |
