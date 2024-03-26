@@ -29,4 +29,4 @@ assignees: ''
 
 #### Comments
 
-<!-- Anything you like to refer to, people you like to link, additional deatils  -->
+<!-- Anything you like to refer to, people you like to link, additional details  -->
