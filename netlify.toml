@@ -1,6 +1,2 @@
 [build]
-publish = "website/public"
-command = "npm run build:preview"
-
-[context.production]
-command = "npm run build:production"
+base = "website"
