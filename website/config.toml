@@ -109,7 +109,7 @@ version = "0.0"
 url_latest_version = "https://tag-env-sustainability.cncf.io"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "06963a606b9934e7b"
+# gcs_engine_id = "06963a606b9934e7b"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
