@@ -69,7 +69,7 @@ weight = 3
 contentDir = "content/es"
 [languages.de]
 title = "CNCF TAG Environmental Sustainability"
-description = "TAG Environmental Sustainability konzentriert sich auf die Unterstützung von Projekten und Initiativen im Zusammenhang mit der Bereitstellung von Cloud-nativen Anwendungen, einschließlich deren Entwicklung, Bereitstellung, Verwaltung und Betrieb."
+description = "TAG Environmental Sustainability konzentriert sich auf die Unterstützung von Projekten und Initiativen im Zusammenhang mit der Bereitstellung von Cloud Nativen Anwendungen, einschließlich deren Entwicklung, Bereitstellung, Verwaltung und Betrieb."
 languageName ="Deutsch"
 # Weight used for sorting.
 weight = 4
