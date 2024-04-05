@@ -13,8 +13,11 @@ The working group currently has two chairs serving a term of 6 months and as lon
 The following individuals are currently the working group chairs:
 
 <!-- cSpell:disable -->
-- Cara Delia, [@caradelia](https://github.com/caradelia), start of term 01.10.2023
 - Tricia Cahill, [@patricia-cahill](https://github.com/patricia-cahill), start of term 01.10.2023
+- TBD
+
+Emeritus WG Chair
+- Cara Delia, [@caradelia](https://github.com/caradelia), 01.10.2023 - 01.04.2024
 <!-- cSpell:enable -->
 
 In addition to working group chairs there are currently two subarea leads that focus on specific activity areas of the Communications working group:
