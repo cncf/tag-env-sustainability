@@ -4,6 +4,10 @@ This page lists current TAG projects. Working groups can be found in the [workin
 The TAG has a number of smaller initiatives that do not require the formation of a working group.
 Projects are not only smaller, but also more scoped and have a clear goal to be achieved once the project is completed.
 
+| **Projects** | **Status**            | **Created**                         |
+|---------------|-------------------|---------------------------------------|
+| [Kubernetes Best Pratices](./2024-best-practices-for-sustainable-k8s-clusters/README.md) | In Progress | March 2024 |
+
 ## Starting a project
 
 If you would like to start a project in TAG ENV, you are more than welcome to propose your idea. Please open an [issue](https://github.com/cncf/tag-env-sustainability/issues/new?assignees=&labels=triage-required&projects=&template=suggestion.md&title=%5BSuggestion%2FProposal%5D+some+descriptive+title) and follow the instructions. We are looking forward to your ideas!
