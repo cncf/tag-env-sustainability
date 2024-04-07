@@ -1,8 +1,9 @@
 # Best practices for environmentally sustainable Kubernetes clusters - In Progress
 
-- **Project Leads**: 
-    - [@JacobValdemar](https://github.com/JacobValdemar)
-    - [@xamebax](https://github.com/xamebax)
+- **Project Leads**:
+  - [@JacobValdemar](https://github.com/JacobValdemar)
+  - [@xamebax](https://github.com/xamebax)
+
 - **TAG ENV Lead representative**: [@mkorbi](https://github.com/mkorbi)
 - **Project started**: *2024-03-04*
 - **Project completed at**: *N/A*
@@ -62,6 +63,6 @@ We want to provide actions and optional extra context for operators with extra c
 
 #### Additional info and comments
 
-- Reference to supporting material: 
-	- Previously gathered tips on the subject: https://docs.google.com/document/d/1lgXe-37JKeIxrRQan9vzVdjzAu8SQzGXKiTOmU2jWkE/edit#heading=h.73pgf6pbinj0 
-- Slack channel for discussion and collaboration on the project: #tag-env-k8s-best-practices
+- Reference to supporting material:
+  - [Previously gathered tips on the subject](https://docs.google.com/document/d/1lgXe-37JKeIxrRQan9vzVdjzAu8SQzGXKiTOmU2jWkE/edit#heading=h.73pgf6pbinj0)
+- Slack channel for discussion and collaboration on the project: ```#tag-env-k8s-best-practices```
