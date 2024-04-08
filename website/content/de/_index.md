@@ -6,7 +6,7 @@ toc_hide: true
 <div class="row mt-5 mb-3">
     <div class="col-lg-6">
         <div class="lead">
-        TAG Environmental Sustainability unterstützt Projekte und Initiativen im Zusammenhang mit der Bereitstellung von Cloud-nativen Anwendungen, einschließlich deren Erstellung, Verpackung, Bereitstellung, Verwaltung und Betrieb.
+        TAG Environmental Sustainability unterstützt Projekte und Initiativen im Zusammenhang mit der Bereitstellung von Cloud Nativen Anwendungen, einschließlich deren Erstellung, Verpackung, Bereitstellung, Verwaltung und Betrieb.
         </div>
     </div>
     <div class="col-lg-6">
