@@ -16,7 +16,7 @@ toc_hide: true
 
 <p class="mt-5 mb-5"><img src="/images/tag-env-sustainability-header.webp" alt="TAG Environmental Sustainability"></p>
 
-Das Ziel dieser TAG ist es, Initiativen zur Umweltfreundlichen Nachhaltigkeit in Cloud-nativen Technologien zu befürworten, zu entwickeln, zu unterstützen und zu evaluieren. Diese TAG wird Werte und mögliche Anreize für Dienstleister identifizieren, um ihren Verbrauch und ihren CO2-Fußabdruck durch den Einsatz von Cloud-nativen Werkzeugen zu reduzieren.
+Das Ziel dieser TAG ist es, Initiativen zur Umweltfreundlichen Nachhaltigkeit in Cloud Nativen Technologien zu befürworten, zu entwickeln, zu unterstützen und zu evaluieren. Diese TAG wird Werte und mögliche Anreize für Dienstleister identifizieren, um ihren Verbrauch und ihren CO2-Fußabdruck durch den Einsatz von Cloud Nativen Werkzeugen zu reduzieren.
 
 <!-- cSpell:ignore Linktree -->
 
