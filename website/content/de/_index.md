@@ -58,5 +58,4 @@ Fügen Sie den TAG ENV-Kalender-Feed von folgender URL in Ihren Kalender ein: [T
 - [Leonard Pahlke](https://github.com/leonardpahlke) (Chair)
 - [Marlow Weston](https://github.com/catblade) (Chair)
 - [Max Körbächer](https://github.com/mkorbi) (Chair)
-- [Cara Delia](https://github.com/caradelia) (TL)
 - [Kristina Devochko](https://github.com/guidemetothemoon) (TL)
