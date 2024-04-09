@@ -26,15 +26,15 @@ Alle wichtigen Links für die TAG Environmental Sustainability sind auch von ein
 - [TAG Charter](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md)
 - [Events](https://tag-env-sustainability.cncf.io/events/)
 - Slack-Kanäle:
-  - [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6)
-  - [#tag-env-wg-comms](https://cloud-native.slack.com/archives/C068XUD9AEA)
-  - [#tag-env-wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431)
-  - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
+  - [#tag-umwelt-nachhaltigkeit](https://cloud-native.slack.com/archives/C03F270PDU6)
+  - [#tag-env-wg-Komms](https://cloud-native.slack.com/archives/C068XUD9AEA)
+  - [#tag-env-wg-green-bewertungen](https://cloud-native.slack.com/archives/C060EDHN431)
+  - [Laden Sie sich selbst zum CNCF Slack ein](https://slack.cncf.io/)
 - Social Media:
   - [LinkedIn](https://www.linkedin.com/company/cncf-tag-environmental-sustainability)
   - [Twitter/X](https://twitter.com/CNCFEnvTAG)
-- [Mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/topics)
-- [Surveys](https://github.com/cncf/tag-env-sustainability/tree/main/artifacts/surveys)
+- [Mailingliste](https://lists.cncf.io/g/cncf-tag-env-sustainability/topics)
+- [Umfragen](https://github.com/cncf/tag-env-sustainability/tree/main/artifacts/surveys)
 
 ## Meetings
 
