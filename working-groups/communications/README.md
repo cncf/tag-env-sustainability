@@ -14,9 +14,9 @@ The following individuals are currently the working group chairs:
 
 <!-- cSpell:disable -->
 - Tricia Cahill, [@patricia-cahill](https://github.com/patricia-cahill), start of term 01.10.2023
-- TBD
+- Claire Fletcher, [@claire-fletcher](https://github.com/claire-fletcher), start of term 10.04.2024
 
-Emeritus WG Chair
+Emeritus WG Chair:
 - Cara Delia, [@caradelia](https://github.com/caradelia), 01.10.2023 - 01.04.2024
 <!-- cSpell:enable -->
 
@@ -24,7 +24,10 @@ In addition to working group chairs there are currently two subarea leads that f
 
 <!-- cSpell:disable -->
 - Blog lead: Savitha Raghunathan, [@savitharaghunathan](https://github.com/savitharaghunathan)
-- Events lead: Claire Fletcher, [@claire-fletcher](https://github.com/claire-fletcher)
+- Events lead: *TBD*
+- Social Media lead: *TBD*
+- Contributor Experience lead: *TBD*
+- Website lead: *TBD*
 <!-- cSpell:enable -->
 
 ## Meetings and Contact
