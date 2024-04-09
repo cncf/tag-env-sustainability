@@ -16,11 +16,11 @@ toc_hide: true
 
 <p class="mt-5 mb-5"><img src="/images/tag-env-sustainability-header.webp" alt="TAG Environmental Sustainability"></p>
 
-Das Ziel dieser TAG ist es, Initiativen zur Umweltfreundlichen Nachhaltigkeit in Cloud Nativen Technologien zu befürworten, zu entwickeln, zu unterstützen und zu evaluieren. Diese TAG wird Werte und mögliche Anreize für Dienstleister identifizieren, um ihren Verbrauch und ihren CO2-Fußabdruck durch den Einsatz von Cloud Nativen Werkzeugen zu reduzieren.
+Das Ziel dieser TAG ist es, Initiativen zur Umweltfreundlichen Nachhaltigkeit in Cloud Nativen Technologien zu fördern, zu unterstützen und zu evaluieren. Diese TAG wird Werte und mögliche Anreize für Dienstleister identifizieren, um ihren Verbrauch und ihren CO2-Fußabdruck durch den Einsatz von Cloud Nativen Werkzeugen zu reduzieren.
 
 <!-- cSpell:ignore Linktree -->
 
-Alle wichtigen Links für die Umweltschutznachhaltigkeit von TAG sind auch von einer einzigen Linktree-Seite aus verfügbar: [cncfenvtag](https://linktr.ee/cncfenvtag).
+Alle wichtigen Links für die TAG Environmental Sustainability sind auch von einer einzigen Linktree-Seite aus verfügbar: [cncfenvtag](https://linktr.ee/cncfenvtag).
 
 - [GitHub Repository](https://github.com/cncf/tag-env-sustainability)
 - [TAG Charter](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md)
@@ -30,18 +30,18 @@ Alle wichtigen Links für die Umweltschutznachhaltigkeit von TAG sind auch von e
   - [#tag-env-wg-comms](https://cloud-native.slack.com/archives/C068XUD9AEA)
   - [#tag-env-wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431)
   - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
-- Social-Media-Konten:
+- Social Media:
   - [LinkedIn](https://www.linkedin.com/company/cncf-tag-environmental-sustainability)
   - [Twitter/X](https://twitter.com/CNCFEnvTAG)
 - [Mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/topics)
 - [Surveys](https://github.com/cncf/tag-env-sustainability/tree/main/artifacts/surveys)
 
-## Treffen
+## Meetings
 
 1. und 3. Mittwoch jeden Monats um 16:00 UTC ([Konvertierung in Ihre lokale
    Zeitzone](https://dateful.com/convert/utc?t=16)).
 
-Die Treffen sind im [Hauptkalender des CNCF](https://www.cncf.io/calendar/)
+Die Meetings sind im [Hauptkalender des CNCF](https://www.cncf.io/calendar/)
 sowie im [TAG ENV-Kalender](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com&ctz=America%2FChicago) aufgeführt.
 
 Sie können die Meeting-Reihe der Arbeitsgruppe zu Ihrem Kalender hinzufügen,
@@ -51,9 +51,9 @@ Fügen Sie den TAG ENV-Kalender-Feed von folgender URL in Ihren Kalender ein: [T
 
 - [Agenda und Notizen](https://bit.ly/cncf-tag-env-meeting-notes)
 - [Zoom-Meeting](https://zoom.us/my/cncftagenvsustainability) (Passwort: `77777`)
-- [Aufzeichnungen früherer Treffen](https://www.youtube.com/@CNCFEnvTAG/playlists) (Uploads erfolgen in Stapeln am Ende des Monats)
+- [Aufzeichnungen früherer Treffen](https://www.youtube.com/@CNCFEnvTAG/playlists) (Uploads erfolgen in gestaffelt am Ende des Monats)
 
-## Leiter
+## TAG Leitung
 
 - [Leonard Pahlke](https://github.com/leonardpahlke) (Chair)
 - [Marlow Weston](https://github.com/catblade) (Chair)
