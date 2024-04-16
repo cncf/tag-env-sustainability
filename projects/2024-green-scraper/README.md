@@ -1,14 +1,15 @@
 # Green Scraper - Tool for automatic event list generation for the TAG ENV website - In Progress
 
 - **Project Leads**:
-  - [@wrkode](https://github.com/wrkode)
+  - [@guidemetothemoon](https://github.com/guidemetothemoon)
   - [@Al-HusseinHameedJasim](https://github.com/Al-HusseinHameedJasim)
 
 - **TAG ENV Lead representative**: [@guidemetothemoon](https://github.com/guidemetothemoon)
 - **Project started**: *2024-04-02*
 - **Project completed at**: *N/A*
-- **Project drive folder**: since it's a tool we will reference it's source code repository [tag-env-tooling/greenscraper](https://github.com/cncf-tags/tag-env-tooling/tree/main/greenscraper) and [tag-env-tooling/green-talks-scraper](https://github.com/cncf-tags/tag-env-tooling/tree/main/green-talks-scraper)
+- **Project drive folder**: [CNCF Technical Advisory Group – Project Green Scraper](https://drive.google.com/drive/folders/1wem48mKn88oh7yGVIt430lpY2an5UdUZ?usp=drive_link).Since it's a tool we will also reference it's source code repository [tag-env-tooling/greenscraper](https://github.com/cncf-tags/tag-env-tooling/tree/main/greenscraper) and [tag-env-tooling/green-talks-scraper](https://github.com/cncf-tags/tag-env-tooling/tree/main/green-talks-scraper)
 - **Project tracking issue**: [#345](https://github.com/cncf/tag-env-sustainability/issues/345)
+- **Project meeting notes**: [Meeting Notes - CNCF TAG - Env Sustainability - Project Green Scraper](https://docs.google.com/document/d/1auQNB62ozY3KSwipoBp68GT1sRujZpBeCyRnjKKNnT0/edit?usp=sharing)
 
 ## Description
 
