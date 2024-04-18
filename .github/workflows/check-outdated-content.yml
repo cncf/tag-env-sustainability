@@ -125,7 +125,7 @@ jobs:
     - name: Print files to translate per language
       shell: bash
       run: |
-        languages=("es" "zh")
-        for lang in ${languages[@]}; do
-            echo "${{steps.to_translate.outputs."$lang"_files}}"
-        done
+          echo "(DEBUG) ES files" 
+          echo "${{steps.to_translate.outputs.es_files}}"
+          echo "(DEBUG) ZH files"
+          echo "${{steps.to_translate.outputs.es_files}}"
