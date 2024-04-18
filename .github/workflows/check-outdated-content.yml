@@ -143,3 +143,4 @@ jobs:
         delete-branch: true
         reviewers: Dianmz
         assignees: sergioarmgpl
+        labels: help wanted,translations,good first issue,issue/tracking
