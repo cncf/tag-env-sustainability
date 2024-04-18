@@ -108,6 +108,8 @@ jobs:
     - name: Print pending translations per language
       shell: bash
       run: |
+        CONTENT_DIR="website/content"
+        cd $CONTENT_DIR
         echo "(DEBUG) Current folder: "$(pwd)
         languages=("es" "zh")
         for lang in ${languages[@]}; do
