@@ -115,17 +115,17 @@ jobs:
         languages=("es" "zh")
         for lang in ${languages[@]}; do
             FILES=""
-            echo "*(DEBUG) Docs to translate for "$lang" language* <br />\n"
+            echo "*(DEBUG) Docs to translate for "$lang" language* <br />\n" > $lang"_files"
             while IFS= read -r line
             do
               FILES+="- $line <br />\n"
             done < "$lang.txt"
-            echo $lang"_files=$FILES" >> $GITHUB_OUTPUT    
+            echo FILES >> $lang"_files.txt"
         done
     - name: Print files to translate per language
       shell: bash
       run: |
           echo "(DEBUG) ES files" 
-          echo "${{steps.to_translate.outputs.es_files}}"
+          echo $(cat es_files.txt)
           echo "(DEBUG) ZH files"
-          echo "${{steps.to_translate.outputs.es_files}}"
+          echo $(cat zh_files.txt)
