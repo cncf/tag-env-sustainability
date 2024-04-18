@@ -105,7 +105,8 @@ jobs:
 
         find outdated -iname "*.md" | sed -e "s/outdated/website\/content/g" > $base_lang.txt
             
-    - name: Print pending translations per language
+    - name: Generate content for translation issues
+      id: to_translate
       shell: bash
       run: |
         CONTENT_DIR="website/content"
@@ -113,9 +114,18 @@ jobs:
         echo "(DEBUG) Current folder: "$(pwd)
         languages=("es" "zh")
         for lang in ${languages[@]}; do
-            echo "(DEBUG) Docs to translate for "$lang" language"
+            FILES=""
+            echo "*(DEBUG) Docs to translate for "$lang" language* <br />\n"
             while IFS= read -r line
             do
-              echo "$line"
+              FILES+="- $line <br />\n"
             done < "$lang.txt"
+            echo $lang"_files=$FILES" >> $GITHUB_OUTPUT    
+        done
+    - name: Print files to translate per language
+      shell: bash
+      run: |
+        languages=("es" "zh")
+        for lang in ${languages[@]}; do
+            echo "${{steps.to_translate.outputs."$lang"_files}}"
         done
