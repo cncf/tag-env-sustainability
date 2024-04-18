@@ -114,5 +114,8 @@ jobs:
         languages=("es" "zh")
         for lang in ${languages[@]}; do
             echo "(DEBUG) Docs to translate for "$lang" language"
-            echo $(cat $lang.txt)
+            while IFS= read -r line
+            do
+              echo "$line"
+            done < "$lang.txt"
         done
