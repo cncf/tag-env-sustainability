@@ -141,4 +141,5 @@ jobs:
         branch: tag-env-sustainability/PR-Translation
         branch-suffix: random
         delete-branch: true
-        reviewers: sergioarmgpl
+        reviewers: Dianmz
+        assignees: sergioarmgpl
