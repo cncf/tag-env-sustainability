@@ -1,3 +1,4 @@
+# Contribution by Cloud Native Guatemala folks :)
 # This workflow will check if a localized content is outdated or not
 # by comparing English content in the old branch and the latest branch.
 name: Check outdated content
@@ -38,10 +39,13 @@ jobs:
         echo "(DEBUG) github.base_ref: ${{github.base_ref}}"
         #####################################################
 
-        echo "(DEBUG) Current folder: "$(pwd)
         OUTPUT_DIR="./outdated"
+        CONTENT_DIR="website/content"
         languages=("es" "zh")
         base_lang="en"
+        cd $CONTENT_DIR
+
+        echo "(DEBUG) Current folder: "$(pwd)
 
         for lang in ${languages[@]}; do
             touch $lang.txt
@@ -107,6 +111,6 @@ jobs:
         echo "(DEBUG) Current folder: "$(pwd)
         languages=("es" "zh")
         for lang in ${languages[@]}; do
-            echo "Docs to translate for "$lang" language"
-            cat $lang.txt
+            echo "(DEBUG) Docs to translate for "$lang" language"
+            echo $(cat $lang.txt)
         done
