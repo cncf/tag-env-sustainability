@@ -115,7 +115,7 @@ jobs:
         languages=("es" "zh")
         for lang in ${languages[@]}; do
             FILES=""
-            echo -e "*(DEBUG) Docs to translate for "$lang" language* <br />\n" > $lang"_files"
+            echo -e "*Docs to translate for "$lang" language* <br />\n" > $lang"_files.txt"
             while IFS= read -r line
             do
               FILES+="- $line <br />\n"
@@ -144,3 +144,8 @@ jobs:
         reviewers: Dianmz
         assignees: sergioarmgpl
         labels: help wanted,translations,good first issue,issue/tracking
+
+        #Queda pendiente:
+          #Texto mas bonito
+          #Action para enviar el idioma como parametro para generar el issue por idioma
+          #ponernos de acuerdo para que coloquen el nombre del grupo al que se le asigna
