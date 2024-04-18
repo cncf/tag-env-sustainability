@@ -136,7 +136,7 @@ jobs:
       with:
         commit-message: Files to be Translated ES              
         title: Files Revision to be Translated to ES 
-        body-path: 'website/content/es_files.md'
+        body-path: 'website/content/es_files.txt'
         branch: tag-env-sustainability/PR-Translation
         branch-suffix: random
         delete-branch: true
