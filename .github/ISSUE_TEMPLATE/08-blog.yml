@@ -1,0 +1,116 @@
+name: Blog
+description: Blog post tracking issue
+title: "[BLOG] <blog title>"
+labels: ["wg-comms/blog", "issue/needs-triage", "board/wg-comms", "issue/tracking"]
+projects: ["cncf/10"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the TAG! Please use this issue template only if you are planning to write a blog post for the TAG Environmental Sustainability. The blog can be found here: https://tag-env-sustainability.cncf.io/blog/.
+  - id: authors
+    type: input
+    attributes:
+      label: GitHub tag of Blog Authors
+    validations:
+      required: true
+  - id: reviewers
+    type: input
+    attributes:
+      label: GitHub tag of Blog Reviewers
+      value: updated once people start reviewing the blog
+    validations:
+      required: false
+  - id: tag_env_sponsors
+    type: input
+    attributes:
+      label: GitHub tag of TAG ENV Lead that sponsors the blog
+      value: updated once a TAG ENV lead assigned themselve
+    validations:
+      required: false
+  - id: blog_abstract
+    type: textarea
+    attributes:
+      label: Abstract
+      description: Please summarize what this blog post is about
+    validations:
+      required: true
+  - id: blog_scope
+    type: textarea
+    attributes:
+      label: Scope
+      description: Please summarize the scope of the blog post
+    validations:
+      required: true
+  - id: blog_goals_and_non_goals
+    type: textarea
+    attributes:
+      label: Goals and Non Goals
+      description: Please summarize the goals of the blog post
+    validations:
+      required: true
+  - id: todo_list_start
+    type: checkboxes
+    attributes:
+      label: Todo items starting the blog post process
+      description: make sure to check off these before moving to the next step 
+      options:
+        - label: "[Author] described the abstract of the blog post, defined the scope, goals and non-goals, and defined the expected audience."
+          required: false
+        - label: "[Author] notified TAG ENV community to review the outline via Slack on the `tag-env-sustainability` channel."
+        - label: "[TAG ENV Lead] One of the TAG ENV leads assigned themselves to wrangle the blog"
+          required: false
+        - label: "[TAG ENV Lead] Blog post outline and theme has been discussed"
+          required: false
+        - label: "[Author] Blog post written and ready for review"
+          required: false
+  - id: todo_list_review
+    type: checkboxes
+    attributes:
+      label: Todo items reviewing the blog post
+      description: make sure to check off these before moving to the next step 
+      options:
+        - label: "[Author] blog post PR opened (blog posts are added to the [`website/content/en/blog`](https://github.com/cncf/tag-env-sustainability/tree/main/website/content/en/blog) folder for English content, images to [`website/static/images/blog/<YEAR>-<MONTH>-<title>/*.jpg`](https://github.com/cncf/tag-env-sustainability/tree/main/website/static/images))"
+          required: false
+        - label: "[Author] gave a minimum of a week to collect public feedback, depending on reviews this will get extended. If there is a major event (conference, etc.) or holidays coming up, please extend accordingly."
+          required: false
+        - label: "[Author] Feedback and comments have been resolved."
+          required: false
+        - label: "[Reviewers] reviewed blog post."
+          required: false
+        - label: "[TAG ENV Lead] reviewed blog post."
+          required: false
+        - label: "[TAG ENV Lead] ready to get published."
+          required: false
+        - label: "[TAG ENV Lead] notified one of the ToC liaisons to sign off the blog post."
+          required: false
+        - label: "[OPTIONAL TAG ENV ToC Liaison] reviewed blog post."
+          required: false
+  - id: todo_list_publish
+    type: checkboxes
+    attributes:
+      label: Todo items reviewing the blog post
+      description: make sure to check off these before moving to the next step 
+      options:
+        - label: "[TAG ENV Lead] merged blog post."
+          required: false
+        - label: "[OPTIONAL TAG ENV Lead] schedule the blog post on the CNCF blog next to the TAG ENV blog"
+          required: false
+        - label: "[Author] Wrote feedback about the blog post process as a comment under this issue"
+          required: false
+  - id: coc
+    type: checkboxes
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://www.cncf.io/conduct/). 
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - id: comments
+    type: textarea
+    attributes:
+      label: Comments
+      description: Space to add any other comments about the blog post
+      placeholder: None
+    validations:
+        required: false

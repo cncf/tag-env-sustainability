@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: TAG ENV Tooling
+    url: https://github.com/cncf-tags/tag-env-tooling
+    about: Please ask and answer questions here.
+  - name: Working Group Green Reviews
+    url: https://github.com/cncf-tags/green-reviews-tooling 
+    about: Please ask and answer questions here.

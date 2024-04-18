@@ -1,0 +1,52 @@
+name: Tracking/Action Item
+description: Use this issue type to track and manage any actions that require a significant amount of time to complete. Avoid using this issue type for tasks expected to be closed within hours.
+title: "[<Tracking>/<Action>] <some descriptive title>"
+labels: ["issue/needs-triage", "board/unassigned"]
+projects: ["cncf/10"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the TAG!
+        Please remember that an issue is not the place to ask a question.
+        The README documents how to reach us https://github.com/cncf/tag-env-sustainability#contact 
+        Thank you :)
+  - id: description
+    type: textarea
+    attributes:
+      label: Description
+      description: What is your activity about? Describe the action item here.
+    validations:
+      required: true
+  - id: outcome
+    type: textarea
+    attributes:
+      label: Outcome
+      description: What do you want to achieve and share with the community?
+    validations:
+      required: true
+  - id: todo
+    type: textarea
+    attributes:
+      label: To-Do
+      description: What specific actions do you need to do to implement it?
+      value: |
+        - [ ] ...
+    validations:
+        required: false
+  - id: coc
+    type: checkboxes
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://www.cncf.io/conduct/).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - id: comments
+    type: textarea
+    attributes:
+      label: Comments
+      description: Space to add any other comments, refer to people, or provide additional details.
+      placeholder: None
+    validations:
+        required: false
