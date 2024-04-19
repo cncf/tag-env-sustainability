@@ -4,23 +4,9 @@
 name: Check outdated content
 on:
   pull_request:
-#  push:
-#    branches:
-#      - main
-#    paths:
-#      - 'website/content/en/**'
-#  push:
-#    branches:
-#      - '**'
-#  pull_request:
-##    branches:    
-##      - '*'
-#    paths:
-#      - 'website/content/en/**'
 
 jobs:
   check-outdated-content:
-    #if: startsWith(github.ref, 'refs/heads/')
     name: Check outdated content
     runs-on: ubuntu-latest
     # permissions:
