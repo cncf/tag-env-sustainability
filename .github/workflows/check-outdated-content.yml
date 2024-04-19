@@ -3,11 +3,12 @@
 # by comparing English content in the old branch and the latest branch.
 name: Check outdated content
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'website/content/en/**'
+  pull_request:
+#  push:
+#    branches:
+#      - main
+#    paths:
+#      - 'website/content/en/**'
 #  push:
 #    branches:
 #      - '**'
@@ -146,9 +147,9 @@ jobs:
         commit-message: Files to be Translated ES              
         title: Files Revision to be Translated to ES 
         body-path: 'website/content/es_files.txt'
-        #base: main
-        branch: tag-env-sustainability/PR-Translation
-        branch-suffix: random
+        base: main
+#        branch: tag-env-sustainability/PR-Translation
+#        branch-suffix: random
         delete-branch: true
         reviewers: Dianmz
         assignees: sergioarmgpl
