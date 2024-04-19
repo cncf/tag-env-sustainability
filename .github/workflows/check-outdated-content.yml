@@ -111,12 +111,19 @@ jobs:
         languages=("es" "zh")
         for lang in ${languages[@]}; do
             FILES=""
-            echo -e "*Docs to translate for "$lang" language* <br />\n" > $lang"_files.txt"
+
+            echo "---" > $lang"_files.md"
+            echo "title: Pending pages to translate into $lang" >> $lang"_files.md"
+            echo "assignees: sergioarmgpl" >> $lang"_files.md"
+            echo "labels: help wanted,translations,good first issue,issue/tracking" >> $lang"_files.md"
+            echo "---" >> $lang"_files.md"
+            echo "Last change by: {{ payload.sender.login }}." >> $lang"_files.md"
+            echo -e "*Docs to translate for "$lang" language* <br />\n" >> $lang"_files.md"
             while IFS= read -r line
             do
               FILES+="- $line <br />\n"
             done < "$lang.txt"
-            echo -e $FILES >> $lang"_files.txt"
+            echo -e $FILES >> $lang"_files.md"
         done
     - name: Print files to translate per language
       shell: bash
@@ -124,9 +131,9 @@ jobs:
           CONTENT_DIR="website/content"
           echo "(DEBUG) Current folder "$(pwd)
           echo "(DEBUG) ES files" 
-          echo -e $(cat $CONTENT_DIR/es_files.txt)
+          echo -e $(cat $CONTENT_DIR/es_files.md)
           echo "(DEBUG) ZH files"
-          echo -e $(cat $CONTENT_DIR/zh_files.txt)
+          echo -e $(cat $CONTENT_DIR/zh_files.md)
     - name: Create Issue to Translate into Spanish
       uses: peter-evans/create-issue-from-file@v5
       with:
@@ -138,3 +145,11 @@ jobs:
           translations
           good first issue
           issue/tracking
+    - uses: JasonEtco/create-an-issue@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ASSIGNEES: sergioarmgpl, Dianmz
+        LABELS: help wanted,translations,good first issue,issue/tracking
+      with:
+        update_existing: true
+        filename: website/content/es_files.md
