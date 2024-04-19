@@ -114,8 +114,8 @@ jobs:
 
             echo "---" > $lang"_files.md"
             echo "title: Pending pages to translate into $lang" >> $lang"_files.md"
-            echo "assignees: {{ env.ASSIGNEES }}" >> $lang"_files.md"
-            echo "labels: {{ env.LABELS }}" >> $lang"_files.md"
+            echo "assignees: sergioarmgpl" >> $lang"_files.md"
+            echo "labels: help wanted,translations,good first issue,issue/tracking" >> $lang"_files.md"
             echo "---" >> $lang"_files.md"
             echo "Last change by: {{ payload.sender.login }}." >> $lang"_files.md"
             echo -e "*Docs to translate for "$lang" language* <br />\n" >> $lang"_files.md"
