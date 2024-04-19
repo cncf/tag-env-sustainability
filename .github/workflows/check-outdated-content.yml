@@ -9,12 +9,12 @@ on:
   pull_request:
 #    branches:    
 #      - '*'
-#    paths:
-#      - 'website/content/en/**'
+    paths:
+      - 'website/content/en/**'
 
 jobs:
   check-outdated-content:
-    if: startsWith(github.ref, 'refs/heads/')
+    #if: startsWith(github.ref, 'refs/heads/')
     name: Check outdated content
     runs-on: ubuntu-latest
     # permissions:
