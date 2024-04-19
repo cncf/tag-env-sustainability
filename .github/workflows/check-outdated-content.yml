@@ -3,9 +3,9 @@
 # by comparing English content in the old branch and the latest branch.
 name: Check outdated content
 on:
-#  push:
-#    branches:
-#      - '**'
+  push:
+    branches:
+      - '**'
   pull_request:
 #    branches:    
 #      - '*'
