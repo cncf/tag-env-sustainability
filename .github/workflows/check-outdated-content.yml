@@ -1,17 +1,17 @@
 # Contribution by Cloud Native Guatemala folks :)
 # This workflow will check if a localized content is outdated or not
 # by comparing English content in the old branch and the latest branch.
+---
 name: Check outdated content
+
 on:
   pull_request:
+
 
 jobs:
   check-outdated-content:
     name: Check outdated content
     runs-on: ubuntu-latest
-    # permissions:
-    #   issues: write
-    
     steps:
     - name: Checkout 
       uses: actions/checkout@v4
