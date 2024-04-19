@@ -5,12 +5,17 @@ name: Check outdated content
 on:
   push:
     branches:
-      - '**'
-  pull_request:
-#    branches:    
-#      - '*'
+      - main
     paths:
       - 'website/content/en/**'
+#  push:
+#    branches:
+#      - '**'
+#  pull_request:
+##    branches:    
+##      - '*'
+#    paths:
+#      - 'website/content/en/**'
 
 jobs:
   check-outdated-content:
