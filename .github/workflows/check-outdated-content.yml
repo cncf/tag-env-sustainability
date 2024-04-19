@@ -141,21 +141,13 @@ jobs:
           echo -e $(cat $CONTENT_DIR/es_files.txt)
           echo "(DEBUG) ZH files"
           echo -e $(cat $CONTENT_DIR/zh_files.txt)
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v5
+    - uses: JasonEtco/create-an-issue@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        commit-message: Files to be Translated ES              
-        title: Files Revision to be Translated to ES 
-        body-path: 'website/content/es_files.txt'
-        base: main
-#        branch: tag-env-sustainability/PR-Translation
-#        branch-suffix: random
-        delete-branch: true
-        reviewers: Dianmz
-        assignees: sergioarmgpl
-        labels: help wanted,translations,good first issue,issue/tracking
-
-        #Queda pendiente:
-          #Texto mas bonito
-          #Action para enviar el idioma como parametro para generar el issue por idioma
-          #ponernos de acuerdo para que coloquen el nombre del grupo al que se le asigna
+        filename: website/content/es_files.txt
+      id: create-issue
+      assignees: Dianmz, sergioarmgpl
+      milestone: 1
+      update_existing: true
+      search_existing: all
