@@ -1,0 +1,96 @@
+name: Project Proposal / Suggestion
+description: Idea for a new project that will improve or enhance the TAG Environmental Sustainability. Choose "Proposal" if you intend to implement the idea, otherwise name it "Suggestion".
+title: "[PROJECT <PROPOSAL> / <SUGGESTION>] <some descriptive title>"
+labels: ["board/unassigned", "issue/needs-triage"]
+projects: ["cncf/10"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for opening this proposal! If you personally want to lead the project, call it a "proposal", if not, call it a "suggestion". If you want to lead the project, it is much more likely that the proposal will be accepted!
+  - id: description
+    type: textarea
+    attributes:
+      label: Description
+      description: Describe your idea here.
+    validations:
+      required: true
+  - id: impact
+    type: textarea
+    attributes:
+      label: Impact
+      description: Describe your hopes for how this would reduce risk for the cloud native ecosystem. Who will this help? How will it help them?
+    validations:
+      required: true
+  - id: scope
+    type: textarea
+    attributes:
+      label: Scope
+      description: Define what is in scope and out of scope for this project.
+      value: |
+        **In Scope**: ...
+
+        **Out of Scope**: ...
+    validations:
+      required: true
+  - id: goals
+    type: textarea
+    attributes:
+      label: Goals and Non-Goals
+      description: Outline the goals and non-goals for this project.
+      value: |
+        **Goals**: ...
+
+        **Non Goals**: ...
+    validations:
+      required: true
+  - id: deliverables
+    type: textarea
+    attributes:
+      label: Deliverables
+      description: List the artifacts to be created to complete this project (e.g., blogs, whitepapers, documentation, videos).
+      value: |
+        - ...
+    validations:
+      required: true
+  - id: additional_info
+    type: textarea
+    attributes:
+      label: Additional Info and Comments
+      description: Provide any additional information or comments about the project. Like supporting material, related links etc.
+    validations:
+      required: false
+  - id: todo
+    type: checkboxes
+    attributes:
+      label: To-Do List
+      description: Check off the following tasks as you complete them.
+      options:
+        - label: "Project proposal / suggestion details added to this issue."
+          required: true
+        - label: "Project Leads found (link project leads here)."
+          required: false
+        - label: "Project proposal discussed in the TAG."
+          required: false
+        - label: "Project proposal accepted / rejected by the TAG leads."
+          required: false
+        - label: "Project sponsor found (TAG Chair / TAG TL)."
+          required: false
+        - label: "Project tracking issue opened (see templates)."
+          required: false
+  - id: coc
+    type: checkboxes
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://www.cncf.io/conduct/).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - id: comments
+    type: textarea
+    attributes:
+      label: Comments
+      description: Space to add any other comments about the proposal/suggestion.
+      value: cc @cncf/tag-env-sustainability
+    validations:
+        required: false
