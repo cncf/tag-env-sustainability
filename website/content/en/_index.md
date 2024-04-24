@@ -18,7 +18,7 @@ toc_hide: true
 
 <p class="mt-5 mb-5"><img src="/images/tag-env-sustainability-header.webp" alt="TAG Environmental Sustainability"></p>
 
-This TAG's goal is to advocate for, develop, support, and help evaluate environmental sustainability initiatives in cloud native technologies. This TAG will identify values and possible incentives for service providers to reduce their consumption and carbon footprint through cloud native tooling.
+This Technical Advisory Group's goal is to advocate for, develop, support, and help evaluate environmental sustainability initiatives in cloud native technologies. This TAG will identify values and possible incentives for service providers to reduce their consumption and carbon footprint through cloud native tooling.
 
 <!-- cSpell:ignore Linktree -->
 All the most important links for TAG Environmental Sustainability are also available from a single Linktree page: [cncfenvtag](https://linktr.ee/cncfenvtag).
