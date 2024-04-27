@@ -20,7 +20,7 @@ All relevant wordings can be found explained here in the [glossary](https://tag-
 
 ## Summary
 
-<i class="fas fa-globe-asia mb-3"></i>[Read the Korean translation of this document here](/landscape-ko/).
+<i class="fas fa-globe-asia mb-3"></i>[Read the Korean translation of this document here](/ko/landscape/).
 
 Cloud computing has revolutionized the way we store and process data, enabling organizations to be more agile, efficient, and scalable.
 However, as companies transform their business models to meet sustainability requirements, concerns about environmental sustainability in cloud computing have also emerged.
