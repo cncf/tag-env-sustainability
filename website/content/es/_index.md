@@ -1,5 +1,5 @@
 ---
-title: TAG Environmental Sustainability TEST
+title: TAG Environmental Sustainability
 toc_hide: true
 --- 
 
