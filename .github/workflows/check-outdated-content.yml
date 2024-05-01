@@ -149,7 +149,6 @@ jobs:
     - uses: JasonEtco/create-an-issue@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        ASSIGNEES: sergioarmgpl, Dianmz
         LABELS: help wanted,translations,good first issue,issue/tracking
       with:
         update_existing: true
@@ -157,7 +156,6 @@ jobs:
     - uses: JasonEtco/create-an-issue@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        ASSIGNEES: sergioarmgpl, Dianmz
         LABELS: help wanted,translations,good first issue,issue/tracking
       with:
         update_existing: true
