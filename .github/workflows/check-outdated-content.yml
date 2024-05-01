@@ -112,13 +112,11 @@ jobs:
         for lang in ${languages[@]}; do
             FILES=""
 
-           if test "$lang" = "es"; then
-                TEAM="Dianmz" #"tag-env-translators-spanish"
-            elif test "$lang" = "zh"; then
-                TEAM="sergioarmgpl" #"tag-env-translators-spanish"
-            else
-                TEAM="leonardpahlke"
-            fi
+#            if test "$lang" = "es"; then
+#                TEAM="Dianmz" #"tag-env-translators-spanish"
+#            elif test "$lang" = "zh"; then
+#                TEAM="sergioarmgpl" #"tag-env-translators-spanish"
+#            fi
 
             echo "---" > $lang"_files.md"
             echo "title: Pending pages to translate into $lang" >> $lang"_files.md"
@@ -150,6 +148,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         LABELS: help wanted,translations,good first issue,issue/tracking
+        ASSIGNEES: sergioarmgpl, Dianmz
       with:
         update_existing: true
         filename: website/content/es_files.md
@@ -157,6 +156,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         LABELS: help wanted,translations,good first issue,issue/tracking
+        ASSIGNEES: sergioarmgpl, Dianmz
       with:
         update_existing: true
         filename: website/content/zh_files.md
