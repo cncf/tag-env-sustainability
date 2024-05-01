@@ -1,5 +1,5 @@
 ---
-title: TAG Environmental Sustainability 12345
+title: TAG Environmental Sustainability
 toc_hide: true
 ---
 
