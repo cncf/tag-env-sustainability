@@ -112,12 +112,6 @@ jobs:
         for lang in ${languages[@]}; do
             FILES=""
 
-#            if test "$lang" = "es"; then
-#                TEAM="Dianmz" #"tag-env-translators-spanish"
-#            elif test "$lang" = "zh"; then
-#                TEAM="sergioarmgpl" #"tag-env-translators-spanish"
-#            fi
-
             echo "---" > $lang"_files.md"
             echo "title: Pending pages to translate into $lang" >> $lang"_files.md"
             echo "assignees: "$TEAM >> $lang"_files.md"
