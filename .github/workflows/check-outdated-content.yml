@@ -112,10 +112,10 @@ jobs:
         for lang in ${languages[@]}; do
             FILES=""
 
-            if test "$lang" = "es"; then
-                TEAM="tag-env-translators-spanish"
+           if test "$lang" = "es"; then
+                TEAM="Dianmz" #"tag-env-translators-spanish"
             elif test "$lang" = "zh"; then
-                TEAM="tag-env-translators-spanish"
+                TEAM="sergioarmgpl" #"tag-env-translators-spanish"
             else
                 TEAM="leonardpahlke"
             fi
