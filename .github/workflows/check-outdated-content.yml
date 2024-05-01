@@ -114,7 +114,7 @@ jobs:
 
             echo "---" > $lang"_files.md"
             echo "title: Pending pages to translate into $lang" >> $lang"_files.md"
-            echo "assignees: "$TEAM >> $lang"_files.md"
+            echo "assignees: sergioarmgpl" >> $lang"_files.md"
             echo 'labels:' >> $lang"_files.md"
             echo '  - help wanted' >> $lang"_files.md"
             echo '  - translations' >> $lang"_files.md"
