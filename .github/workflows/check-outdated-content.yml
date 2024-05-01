@@ -141,16 +141,12 @@ jobs:
     - uses: JasonEtco/create-an-issue@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        LABELS: help wanted,translations,good first issue,issue/tracking
-        ASSIGNEES: sergioarmgpl, Dianmz
       with:
         update_existing: true
         filename: website/content/es_files.md
     - uses: JasonEtco/create-an-issue@v2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        LABELS: help wanted,translations,good first issue,issue/tracking
-        ASSIGNEES: sergioarmgpl, Dianmz
       with:
         update_existing: true
         filename: website/content/zh_files.md
