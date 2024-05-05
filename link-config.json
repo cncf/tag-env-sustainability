@@ -8,7 +8,7 @@
       "pattern": "https:\/\/communityinviter.com\/apps\/cloud-native\/cncf"
     },
     {
-      "pattern": "^/(.+)?/landscape(.+)?/"
+      "pattern": "^/landscape(.+)?/|(.+)?/landscape(.+)?/"
     }
   ],
   "replacementPatterns": [
