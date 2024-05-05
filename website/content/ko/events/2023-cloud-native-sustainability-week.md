@@ -37,7 +37,7 @@ We will host 21 local meetups happening across 16 countries and 4 continents. Be
 | 4 | Colombia, Bogota | Oct.26 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-bogota-presents-1-cloud-native-bogota/) | Ivan Camargo |
 | 5 | Colombia, Medellin | Oct.21 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-medellin-presents-bienvenidos-a-cloud-native-medellin-cncf-cloud-native-sustainability-week/) | Elias Quintero, Samantha Upegui |
 | 6 | France, Paris | Oct.10 | [Link](https://www.meetup.com/cloud-native-computing-paris/events/296073417/) | Andrea Giardini, Tim Carry |
-| 7 | Germany, Hamburg | Oct.10 | [Link](https://community.cncf.io/events/details/cncf-hamburg-presents-cloud-native-sustainability-week-meetup-in-hamburg/) | Leonard Pahlke |
+| 7 | Germany, Hamburg | Oct.10 | [Link](https://www.meetup.com/hamburg-kubernetes-meetup/events/296100283/) | Leonard Pahlke |
 | 8 | Germany, Karlsruhe | Oct.10 | [Link](https://www.meetup.com/de-DE/green-software-development-karlsruhe/events/296165492/) | Aydin Mir Mohammadi |
 | 9 | Germany, Munich | Oct.9 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-munich-presents-cncf-cloud-native-sustainability-week-munich/) | Antonio Di Turi, Max Körbächer |
 | 10 | Guatemala | Nov.23 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-guatemala-presents-sustainability-week-cloud-native-guatemala/) | Sergio Méndez, Jefferson Molina |
