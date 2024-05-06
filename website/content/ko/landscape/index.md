@@ -1,11 +1,16 @@
 ---
 title: 클라우드 네이티브의 지속가능성 랜드스케이프(Cloud Native Sustainability Landscape, v0.1)
+linkTitle: 랜드스케이프 
 description: 클라우드 네이티브 환경 내에서 알려진 지속 가능성을 위한 노력을 알아보고 극복해야 하는 영역을 확인할 수 있습니다.
-slug: landscape-ko
-url: /landscape-ko
-aliases:
-- /about/landscape-ko
 toc_hide: true
+exclude_search: true
+menu:
+  main:
+    weight: 30
+slug: landscape
+aliases:
+- /about/landscape
+
 ---
 
 <i class="fas fa-globe-americas mb-3"></i>[Read the English translation of this document here](/landscape/).

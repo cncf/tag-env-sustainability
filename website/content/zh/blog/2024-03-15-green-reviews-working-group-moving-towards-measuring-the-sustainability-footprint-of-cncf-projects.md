@@ -50,7 +50,7 @@ WG的工作流愿景是，每个要求进行可持续性足迹评估的版本都
 5. 收集与可持续发展相关的指标
 6. 发布可持续发展指标
 
-我们很高兴地分享我们的云基础设施现已全面投入使用。我们的 Kubernetes (k8s) 集群托管在社区实验室的 Equinix Metal 服务器上。该集群使用 GitOps 方法，使用 Flux 部署可观察性工具，如 Kepler、Prometheus 和 Grafana。我们的基础设施设置记录在 [这里](https://github.com/cncf-tags/green-reviews-tooling/blob/main/docs/infrastructure/README.md)。这些对于进行可持续性足迹评估至关重要。特别是 [Kepler](https://github.com/sustainable-computing-io/kepler)，它是一个 CNCF 项目，使用 eBPF 和 RAPL 在各种类型的云环境中提供准确的能源指标，从裸机到公共云中的 VM，并将其与 Pod 和其他 Kubernetes 资源相关联。
+我们很高兴地分享我们的云基础设施现已全面投入使用。我们的 Kubernetes (k8s) 集群托管在社区实验室的 Equinix Metal 服务器上。该集群使用 GitOps 方法，使用 Flux 部署可观察性工具，如 Kepler、Prometheus 和 Grafana。我们的基础设施设置记录在 [这里](https://github.com/cncf-tags/green-reviews-tooling/blob/main/website/content/docs/infrastructure/about.md)。这些对于进行可持续性足迹评估至关重要。特别是 [Kepler](https://github.com/sustainable-computing-io/kepler)，它是一个 CNCF 项目，使用 eBPF 和 RAPL 在各种类型的云环境中提供准确的能源指标，从裸机到公共云中的 VM，并将其与 Pod 和其他 Kubernetes 资源相关联。
 
 Flux 负责部署所有选定的可观察性工具和 CNCF 项目。在 GitHub Action 触发所有定义的使用案例后，Kepler 将生成能量指标并将其本地导出到 Prometheus。
 
@@ -60,7 +60,7 @@ Flux 负责部署所有选定的可观察性工具和 CNCF 项目。在 GitHub A
 
 <p class="mt-5 mb-5"><img src="/images/blogs/2024-03-15-green-reviews-working-group-moving-towards-measuring-the-sustainability-footprint-of-cncf-projects/sci-grafana-dashboard.webp" alt="SCI index componentes Grafana dashboard"></p>
 
-可持续性足迹指标不限于 SCI 规范，但我们将其作为北极星。这是一个展示其云原生参考架构的机会。有关这些测量的更多信息，请参阅项目的 [文档](https://github.com/cncf-tags/green-reviews-tooling/blob/main/docs/measurement/sci.md)。要访问公共 Grafana 实例并查看仪表板，请按照 [此处](https://github.com/cncf-tags/green-reviews-tooling/blob/main/docs/infrastructure/README.md#monitoring) 的步骤进行操作。
+可持续性足迹指标不限于 SCI 规范，但我们将其作为北极星。这是一个展示其云原生参考架构的机会。有关这些测量的更多信息，请参阅项目的 [文档](https://github.com/cncf-tags/green-reviews-tooling/blob/main/website/content/docs/measurement/sci.md)。要访问公共 Grafana 实例并查看仪表板，请按照 [此处](https://github.com/cncf-tags/green-reviews-tooling/blob/main/website/content/docs/infrastructure/about.md#monitoring) 的步骤进行操作。
 
 在撰写这篇博客文章时，尚未确定发布可持续发展指标的目的地。[CNCF devstats](https://devstats.cncf.io/)正在讨论作为另一种可能公开此类数据的地方。
 
@@ -70,9 +70,9 @@ Kubernetes集群的持续运行引发了人们对该解决方案可持续性的�
 
 在进行可持续性足迹评估时，我们能否按需创建节点，而不是一直运行节点？另一个改进机会是，目前，Falco总是被部署，内核总是被测试，我们希望在2024年欧洲KubeCon + CloudNativeCon之后进行改进，以便我们在管道本身中使用最少的能量。这些问题对WG的使命至关重要，我们期待着社区的建议和贡献。
 
-此外，可持续性足迹评估本身将是我们在下一个里程碑中需要解决的事情。WG的目标是使可持续性足迹评估管道对CNCF项目维护者（如Falco维护者）有用。随着我们进入项目的“审查”阶段，我们将继续与各个项目维护者合作。这种可持续性足迹评估的灵感来自TAG Security的安全评估（TSSA）等流程，该流程已用于CNCF项目。有关Green Reviews WG和CNCF项目维护者之间合作的更多信息，请参阅[文档](https://github.com/cncf-tags/green-reviews-tooling/tree/main/docs/cncf-projects)。欢迎对项目评估感兴趣的CNCF项目维护者[在此处](https://github.com/cncf/tag-env-sustainability/issues/223)标记他们的兴趣！
+此外，可持续性足迹评估本身将是我们在下一个里程碑中需要解决的事情。WG的目标是使可持续性足迹评估管道对CNCF项目维护者（如Falco维护者）有用。随着我们进入项目的“审查”阶段，我们将继续与各个项目维护者合作。这种可持续性足迹评估的灵感来自TAG Security的安全评估（TSSA）等流程，该流程已用于CNCF项目。有关Green Reviews WG和CNCF项目维护者之间合作的更多信息，请参阅[文档](https://github.com/cncf-tags/green-reviews-tooling/blob/main/website/content/docs/cncf-projects/cncf-projects.md)。欢迎对项目评估感兴趣的CNCF项目维护者[在此处](https://github.com/cncf/tag-env-sustainability/issues/223)标记他们的兴趣！
 
-请记住，在撰写这篇博客文章时，所描述的愿景中只有部分组件正在生产中。如果您想了解有关Green Reviews WG正在进行的最新工作状态的更多信息，请加入我们的社区 [Green Reviews WGSlack频道](https://cloud-native.slack.com/archives/C060EDHN431)或[TAG ENV Slack频道](https://cloud-native.slack.com/archives/C03F270PDU6)，或查看GitHub上的[文档](https://github.com/cncf-tags/green-reviews-tooling/tree/main/docs)。
+请记住，在撰写这篇博客文章时，所描述的愿景中只有部分组件正在生产中。如果您想了解有关Green Reviews WG正在进行的最新工作状态的更多信息，请加入我们的社区 [Green Reviews WGSlack频道](https://cloud-native.slack.com/archives/C060EDHN431)或[TAG ENV Slack频道](https://cloud-native.slack.com/archives/C03F270PDU6)，或查看GitHub上的[文档](https://github.com/cncf-tags/green-reviews-tooling/blob/main/website/content/docs)。
 
 ## 回顾Green Reviews WG至今的历程
 
@@ -104,7 +104,7 @@ Falco项目也具有挑战性，因为许多WG贡献者并不熟悉这种安全�
 
 - 阅读博客[作为TAG环境可持续贡献者入门](https://tag-env-sustainability.cncf.io/blog/2023-getting-started-as-tag-env-contributor)。这是一份关于如何在TAG环境可持续性方面入门的通用指南，博客文章中提供的许多步骤也适用于绿色评论WG。
 - 查看[Green Reviews WG章程](https://github.com/cncf/tag-env-sustainability/blob/main/working-groups/green-reviews/charter.md)。它概述了工作组的动机、范围、目标、非目标和交付成果。
-- 阅读绿色评论工具 GitHub 存储库中的 [文档](https://github.com/cncf-tags/green-reviews-tooling/tree/main/docs)。
+- 阅读绿色评论工具 GitHub 存储库中的 [文档](https://github.com/cncf-tags/green-reviews-tooling/blob/main/website/content/docs)。
 - 加入[CNCF Slack](https://slack.cncf.io)工作区中的WG Slack频道[#tag-env-wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431)，并参加小组[会议](http://bit.ly/wg-green-reviews)。
 - 查看工作组的积压，寻找适合初学者的问题，并查看[贡献指南](https://github.com/cncf-tags/green-reviews-tooling/blob/main/CONTRIBUTING.md)! 欢迎所有类型的贡献: 代码贡献、问题、对产品路线图等内容的建议、问题和文档。
 

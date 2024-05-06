@@ -74,6 +74,13 @@ languageName ="Deutsch"
 # Weight used for sorting.
 weight = 4
 contentDir = "content/de"
+[languages.ko]
+title = "CNCF TAG Environmental Sustainability"
+description = "TAG 환경 지속가능성은 클라우드 네이티브 애플케이션, 구축, 배포, 관리 그리고 운영을 위한 프로젝트와 이니셔티브를 중심으로 하고 있습니다."
+languageName ="Korean"
+# Weight used for sorting.
+weight = 5
+contentDir = "content/ko"
 
 [markup]
   [markup.goldmark]
