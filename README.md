@@ -52,6 +52,7 @@ All the most important links for TAG Environmental Sustainability are also avail
 ### TAG Environmental Sustainability Tech Leads
 
 * [Kristina Devochko](https://github.com/guidemetothemoon)
+* [Saiyam Pathak ](https://github.com/saiyam1814)
 
 ## New contributors
 
