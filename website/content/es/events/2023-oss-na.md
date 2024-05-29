@@ -1,7 +1,7 @@
 ---
 title: Open Source Summit NA 2023
 description: TAG de Sostenibilidad Ambiental en la conferencia principal de la Linux Foundation en Vancouver, Columbia Británica a partir del 10 Mayo del 2023.
-weight: 2
+weight: 98
 ---
 
 Mejora tu conocimiento de código abierto con acceso a 15 microconferencias, incluida SustainabilityCon, y más de 300 sesiones. Únete a la reunión definitiva de innovadores de código abierto para aprender, establecer contactos y colaborar en Vancouver, Columbia Británica, del 10 al 12 de mayo de 2023.
