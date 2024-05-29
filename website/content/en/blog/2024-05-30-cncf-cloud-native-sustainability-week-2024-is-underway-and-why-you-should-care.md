@@ -56,7 +56,7 @@ Reflecting back on last year’s event, which was also organized for the first t
 
 If you would like to relive the highlights of the Cloud Native Sustainability Week 2023 and hear some significant testimonials about the event, check out the [following video](https://youtu.be/ezGSYtvQH2c?si=3q-USUPyLVjBq9wH). This video gathers the experiences of participants and organizers, offering an inspiring look at the conducted activities and highlighting the most memorable moments from the event. We’ve also published a blog post wrapping up the CNCF Cloud Native Sustainability Week 2023: [Cloud Native Sustainability Week 2023 - putting sustainability on the community radar](https://tag-env-sustainability.cncf.io/blog/2024-wrap-up-cloud-native-sustainability-week-2023)
 
-## The CNCF Cloud Native Sustainability Week is YOU!
+## The CNCF Cloud Native Sustainability Week needs YOU!
 
 The success of the CNCF Sustainability Week relies on the contribution of passionate volunteers, and there are several ways you can help:
 
