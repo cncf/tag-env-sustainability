@@ -64,7 +64,7 @@ The success of the CNCF Sustainability Week relies on the contribution of passio
 * Sharing Your Expertise: If you have experience in sustainable practices or cloud native technologies, consider hosting a session or workshop. Sharing your knowledge can have a significant impact and inspire others to adopt sustainable practices.
 * Active Participation: Even just attending events, promoting them within your network, and sharing your ideas can help create a more aware and engaged community. Every voice counts, and your contribution can make a difference.
 
-Join us in promoting sustainable practices and making a difference. For more information and to sign up as a volunteer, visit the CNCF website.
+Join us in promoting sustainable practices and making a difference. For more information and to sign up as a volunteer, visit the [TAG ENV website](https://tag-env-sustainability.cncf.io/events).
 
 ### Are YOU joining us at the CNCF Cloud Native Sustainability Week 2024?
 
