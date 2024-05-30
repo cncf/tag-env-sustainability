@@ -60,9 +60,9 @@ If you would like to relive the highlights of the Cloud Native Sustainability We
 
 The success of the CNCF Sustainability Week relies on the contribution of passionate volunteers, and there are several ways you can help:
 
-Organizing Events: If you're willing, you can organize an event, support other local gatherings, or virtual sessions. This role is crucial to ensure each event runs smoothly and reaches its full potential.
-Sharing Your Expertise: If you have experience in sustainable practices or cloud native technologies, consider hosting a session or workshop. Sharing your knowledge can have a significant impact and inspire others to adopt sustainable practices.
-Active Participation: Even just attending events, promoting them within your network, and sharing your ideas can help create a more aware and engaged community. Every voice counts, and your contribution can make a difference.
+* Organizing Events: If you're willing, you can organize an event, support other local gatherings, or virtual sessions. This role is crucial to ensure each event runs smoothly and reaches its full potential.
+* Sharing Your Expertise: If you have experience in sustainable practices or cloud native technologies, consider hosting a session or workshop. Sharing your knowledge can have a significant impact and inspire others to adopt sustainable practices.
+* Active Participation: Even just attending events, promoting them within your network, and sharing your ideas can help create a more aware and engaged community. Every voice counts, and your contribution can make a difference.
 
 Join us in promoting sustainable practices and making a difference. For more information and to sign up as a volunteer, visit the CNCF website.
 
