@@ -1,7 +1,5 @@
 # CNCF TAG Environmental Sustainability - APAC meeting notes
 
-# CNCF TAG Environmental Sustainability
-
 Welcome to the CNCF TAG Environmental Sustainability APAC meetings! This group focuses on promoting sustainable practices within the cloud-native ecosystem.
 
 ## Quick Links
@@ -11,7 +9,6 @@ Welcome to the CNCF TAG Environmental Sustainability APAC meetings! This group f
 - [GitHub Project Board](https://github.com/orgs/cncf/projects/10)
 - [Mailing List](https://lists.cncf.io/g/cncf-tag-env-sustainability/topics)
 - [Calendar](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com&ctz=America%2FChicago)
-- [YouTube Playlist](#)
 
 ## Biweekly Meetings
 
@@ -32,12 +29,10 @@ Join us on Slack: `#tag-environmental-sustainability`
 
 ### Communications Working Group
 - **Meeting Time:** Thursday, 11AM EST (5pm GMT +2:00)
-- **Zoom:** [Join Meeting](#)
 - **Slack Channel:** `#tag-env-wg-comms`
 
 ### Green Reviews Working Group
 - **Meeting Time:** Every 2nd & 4th Wednesday, 5pm GMT +2:00, 8AM Pacific, 11AM Eastern
-- **Zoom:** [Join Meeting](#)
 - **Slack Channel:** `#tag-env-wg-green-reviews`
 
 *Additional working group meetings may be scheduled and will be announced on the `#tag-environmental-sustainability` Slack channel, as well as in the [TAG Environmental Sustainability CNCF calendar](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com&ctz=America%2FChicago).*
@@ -75,7 +70,7 @@ We adhere to the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/
   - WG Comms [meeting notes]
   - WG Green Reviews [meeting notes] [issue board]
 - Projects
-  - Best practices for environmentally sustainable K8s clusters [tracking issue][issue board]
+  - Best practices for environmentally sustainable K8s clusters "tracking issue" "issue board"
   - Landscape Document Rewrite v2 [tracking issue]
   - GreenScraper [tracking issue]
   - Cloud Native Sustainability Learning Path [tracking issue]
