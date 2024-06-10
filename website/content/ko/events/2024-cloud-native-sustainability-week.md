@@ -9,7 +9,7 @@ aliases:
   - /cloud-native-sustainability-week
 ---
 
-<p class="mt-5 mb-5"><img src="/images/cloud-native-sustainability-week-banner.webp" alt="CNCF Cloud Native Sustainability Week Banner"></p>
+<p class="mt-5 mb-5"><img src="/images/cloud-native-sustainability-week-v1-logo.webp" alt="CNCF Cloud Native Sustainability Week Banner"></p>
 
 The CNCF Sustainability Week is an annual event that is organized by the [CNCF Technical Advisory Group for Environmental Sustainability (TAG ENV)](http://github.com/cncf/tag-env-sustainability) in collaboration with the [Cloud Native Computing Foundation (CNCF)](http://cncf.io). The main goal of the event is to promote environmental sustainability in the cloud native industry and open source space.
 
