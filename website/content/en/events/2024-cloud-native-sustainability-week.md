@@ -23,7 +23,7 @@ After the successful [Sustainability Week 2023](https://tag-env-sustainability.c
 
 ## Meetup Locations
 
-*Note that this list is changing, we will publish a complete overview a few weeks for the event! Take a look at [this document](https://docs.google.com/document/d/1xfUqxt0EeMhrsg8h5p_cAJ1ZHzWryrIywue53rVRFJw/edit?usp=sharing) to check the latest status, and persons to contact.*
+*Note that this list is changing, we will publish a complete overview a few weeks before the event! Take a look at [this document](https://docs.google.com/document/d/1xfUqxt0EeMhrsg8h5p_cAJ1ZHzWryrIywue53rVRFJw/edit?usp=sharing) to check the latest status, and people to contact.*
 
 <!-- cSpell:disable -->
 | **NR** | **Location** | **Date** | **Event Link** | **Name** |
@@ -45,7 +45,7 @@ After the successful [Sustainability Week 2023](https://tag-env-sustainability.c
 3. **Foster project collaboration**: Encourage participants to actively collaborate on further development and improvement of existing projects and tools that pertain to the field of cloud native sustainability.
 4. **Raise awareness**: Enhance awareness and knowledge sharing around the topic of cloud native environmental sustainability.
 5. **Promote TAG ENV and CNCF**: Promoting the #tag-environmental-sustainability and raising awareness about the CNCF in general.
-6. **Survey**: distributing a survey to gather information on end user adoption of cloud native sustainability.
+6. **Survey**: distributing a survey to gather information on end-user adoption of cloud native sustainability.
 7. **Badges**: providing badges from credly for organizers and potentially speakers.
 
 ## Why Participate
