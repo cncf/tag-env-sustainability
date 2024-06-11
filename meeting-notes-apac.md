@@ -81,3 +81,71 @@ We adhere to the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/
   - Anything we parked for later?
   - Anything not on the agenda?
   - Check the TAG project board
+ 
+========================================
+### Tuesday 11th June 2024 Meeting
+**Host:**  Saiyam Pathak
+**Notes:**  Saiyam Pathak
+**Attendees:**  
+- Saloni Narang
+- Saiyam Pathak
+- Sunyanan Choochotkaew
+- Sam Yuan
+- Vandit Pandya
+- Leonard Pahlke
+- Aakash Nagpal
+
+- Code of Conduct
+- Welcome any new members or attendees - Done (Kepler maintainers, new joiners joined)
+- 
+- Projects
+  - Best practices for environmentally sustainable K8s clusters "tracking issue" "issue board"
+  - Landscape Document Rewrite v2 - Looking to restructure and looking for contributors
+      - Landscape already exists [Link](https://tag-env-sustainability.cncf.io/landscape/)
+      - [Github link for landscape document] (https://github.com/cncf/tag-env-sustainability/tree/main/website/content/en/landscape)
+      - New iteration on how the project will look like to understand and dig better into the landscape
+      - New projects, ideas, more projects tracking and how to include them in the landscape
+      - Process for adding a project to the landscape
+      - Tiles like structuring (maybe)
+      - Create a new GitHub issue for landscape v2 so that people can add more resources (TODO)
+  - GreenScraper - Going well, feel free to get involved
+  - Cloud Native Sustainability Learning Path - Looking to restructure and looking for contributors
+      - Resources availanle from Green foundation , need someone to structure it well.
+      - Right now thinking to freeze
+  - Cloud Native Sustainability Week 2024 [github link](https://github.com/orgs/cncf/projects/10?pane=issue&itemId=51943272)  - Going well, feel free to get involved
+      - Vandit wants to join and will be trying to team up or organize as suggested by Leo.
+      - Can we host on comunity.cncf.io? or meetup? - Yes we can host there and use bevy platfrom 
+- Planned Presentation(s):
+   - NA for this one, for next one we will create issue going forward or slack thread.
+- Open Discussion:
+  - Leo 
+    - Project updates - Once a month would be great (specialy Kepler)
+    - Discussion on research topics - Show and tell
+    - Create issue for each meeting to add what needs to be discussed, slack thread ? open to discussion
+    - CI discussion and getting metrics, benchmarking, grafana dashboard => need expert inputs
+    - What is working in projects, timeline, challenges and help needed.
+    - Every project has labels and there is a project board post KubeCon
+    - Need more people to lead the projects
+    - One more host for the meeting
+
+  - Pang
+      - Summary of main meeting or highlights 
+      - Draft any questions where opinions required
+      - Validate power model for CI to find the reported number is correct or not
+      - Fixed a few issues
+
+  - Sam
+    - green review wg - CI stuff => Kepler team to catchup and check CI between both and collaborate to make them better
+    - Updated paper in [landscape ticket] (https://github.com/cncf/tag-env-sustainability/issues/413#issuecomment-2160707399)
+    - Want to know more about current project dashboard updates, project update highlights maybe?
+          - We can pick projects and ask the leads to join APAC meeting - Leo
+    - Cross timezone discussion sync
+      
+  - Saiyam
+      - Github issue walthrough - once a month?
+      - Highlights of the issues
+
+Question - Was the meeting useful
++1 from ALL :) 
+
+General mote: Impact <> People Interested <> Collaboration <> working roadmap <> People contribute <> move to end goal   
