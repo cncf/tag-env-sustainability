@@ -44,7 +44,7 @@ time](https://dateful.com/convert/utc?t=16)).
 
 TAG ENVカレンダーのフィードをあなたのカレンダーに追加することで、ワーキンググループミーティングシリーズを追加することができます。
 
-以下のURLからTAG ENVカレンダーのフィードをカレンダーにインポートしてください: [TAG ENV カレンダー](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com). Googleカレンダーでの操作方法は以下の通りです: [Googleカレンダーに登録する](https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DDesktop). この場合、新しいイベントが公開されると、カレンダーは自動的に更新されます。
+以下のURLからTAG ENVカレンダーのフィードをカレンダーにインポートしてください: [TAG ENVカレンダー](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com). Googleカレンダーでの操作方法は以下の通りです: [Googleカレンダーに登録する](https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DDesktop). この場合、新しいイベントが公開されると、カレンダーは自動的に更新されます。
 
 * [アジェンダと議事録](https://bit.ly/cncf-tag-env-meeting-notes)
 * [Zoom ミーティング](https://zoom.us/my/cncftagenvsustainability) (パスコード: `77777`)
