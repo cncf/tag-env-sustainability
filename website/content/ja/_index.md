@@ -19,9 +19,9 @@ toc_hide: true
 このテクニカルアドバイザリーグループの目的は、クラウドネイティブテクノロジーにおける環境の持続可能性イニシアチブの開発やサポート、そして評価するのに役立つ提唱をします。このTAGは、クラウドネイティブツールを通じてサービスプロバイダーが消費量やカーボンフットプリントを削減するための価値と可能なインセンティブを特定します。
 
 <!-- cSpell:ignore Linktree -->
-TAG Environmental Sustainabilityの最も重要なリンクは、Linktreeページから利用できます。: [cncfenvtag](https://linktr.ee/cncfenvtag).
+TAG Environmental Sustainabilityの最も重要なリンクは、Linktreeページから利用できます: [cncfenvtag](https://linktr.ee/cncfenvtag).
 
-- [GitHub レポジトリ](https://github.com/cncf/tag-env-sustainability)
+- [GitHubレポジトリ](https://github.com/cncf/tag-env-sustainability)
 - [TAG Charter](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md)
 - [イベント](https://tag-env-sustainability.cncf.io/events/)
 - Slack チャンネル:
