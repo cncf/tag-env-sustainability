@@ -21,7 +21,7 @@ toc_hide: true
 <!-- cSpell:ignore Linktree -->
 TAG Environmental Sustainabilityの最も重要なリンクは、Linktreeページから利用できます: [cncfenvtag](https://linktr.ee/cncfenvtag).
 
-- [GitHubレポジトリ](https://github.com/cncf/tag-env-sustainability)
+- [GitHubリポジトリ](https://github.com/cncf/tag-env-sustainability)
 - [TAG Charter](https://github.com/cncf/tag-env-sustainability/blob/main/charter.md)
 - [イベント](https://tag-env-sustainability.cncf.io/events/)
 - Slack チャンネル:
