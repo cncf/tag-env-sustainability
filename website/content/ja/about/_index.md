@@ -1,6 +1,6 @@
 ---
 title: TAG Environmental Sustainabilityについて
-linkTitle: About
+linkTitle: TAG ENVについて
 toc_hide: true
 list_pages: true
 menu:
