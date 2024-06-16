@@ -321,6 +321,7 @@ flowchart TB
     click influx_telegraf "https://github.com/influxdata/telegraf" "Source"
     click carbon_ql "https://github.com/Green-Software-Foundation/carbon-ql" "Source"
     click powertop "https://github.com/fenrus75/powertop" "Source"
+    click tracarbon "https://github.com/fvaleye/tracarbon" "Source"
 
     classDef sections fill:#ececff,stroke:#9572db,stroke-width:4px
     class obs sections;
@@ -355,6 +356,8 @@ We display these visualizations in a dashboard for developers, sustainability le
 * 👀 [PowerTOP](https://github.com/fenrus75/powertop) - a Linux tool, which among other things allows you to monitor the power consumption per process running on the Linux machine.
 * 📗 OSTI [Paper] [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
 * 📗 [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): The Carbon Aware SDK is a WebApi and Command Line Interface (CLI) to assist in building carbon aware software.
+* 👀 [Tracarbon](https://github.com/fvaleye/tracarbon): Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location using Python.
+
 
 ### Infrastructure Tooling
 
