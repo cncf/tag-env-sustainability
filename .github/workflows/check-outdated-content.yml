@@ -1,0 +1,164 @@
+# Contribution by Cloud Native Guatemala folks :)
+# This workflow will check if a localized content is outdated or not
+# by comparing English content in the old branch and the latest branch.
+---
+name: Check outdated content
+
+on:
+  pull_request:
+
+
+jobs:
+  check-outdated-content:
+    name: Check outdated content
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout 
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # fetch all history for all tags and branches
+    - name: Detecting pending translations
+      shell: bash
+      run: |
+        #####################################################
+        # Set variables to detect pending translations
+        OUTPUT_DIR="./outdated"
+        # Directory to compare for pending translations
+        CONTENT_DIR="website/content"
+        # Here we should add a new language every time a new one is added e.g: ("es" "zh" "de" "etc")
+        languages=("es" "zh")
+        # This is the base language to use, in this case English will be the base language
+        base_lang="en"
+
+        cd $CONTENT_DIR
+        # The following lines create the necessary files to compare 
+        # pending translations compared to the base_lang defined
+        # This files will contain the list of pending files to translate for each language
+        for lang in ${languages[@]}; do
+            touch $lang.txt
+        done
+        # This line create the base language file where the pending
+        touch $base_lang.txt
+
+
+        # Make an output directory where the pending translated files are detected
+        if [[ ! -e $OUTPUT_DIR ]]; then
+            mkdir $OUTPUT_DIR
+        elif [[ ! -d $OUTPUT_DIR ]]; then
+            echo "$OUTPUT_DIR already exists but is not a directory" 1>&2
+        fi
+
+        # This part perform the comparition between the main branch and the PR branch to compare
+        # and detect pending translations for languages different than English (EN)
+        LATEST_BRANCH=${GITHUB_REF#refs/}
+        echo "(DEBUG) LATEST_BRANCH: ${LATEST_BRANCH}"
+
+        # Get the old branch from 'github.base_ref' 
+        # The old branch can be 'upstream/dev-ko'
+        OLD_BRANCH="origin/${{github.base_ref}}"
+        echo "(DEBUG) OLD_BRANCH: ${OLD_BRANCH}"
+            
+        # This function output a file inside the OUTPUT_DIR that is pending to translate for
+        # the current supported languages
+        compare () {
+            FILE_PATH=$1
+            # Actually compare between the old and latest English content and log diff in the file
+            # This detect
+            if [[ -f "${FILE_PATH}" ]]; then
+                # File exists
+                # Check changes
+                git diff ${OLD_BRANCH}..${LATEST_BRANCH} -- ${FILE_PATH} > temp.diff
+                # This detect if something was changed in English (Base Language)
+                if [[ -s "temp.diff" ]]; then
+                    echo "(DEBUG) ${FILE_PATH} is outdated."
+                    mkdir -p ${OUTPUT_DIR}/${FILE_PATH%/*}
+                    mv temp.diff ${OUTPUT_DIR}/${FILE_PATH}
+                else 
+                # Detect if the file doesn't exists for the supported languages. This means that the file is 
+                # pending to translate
+                    echo "check if ${FILE_PATH} exist in other languages"
+                    for lang in ${languages[@]}; do
+                        NEW_FILE_PATH=$(echo "${FILE_PATH}" | sed -e "s/${base_lang}\//${lang}\//g")
+                        if [[ ! -e "${NEW_FILE_PATH}" ]]; then
+                            echo "The file ${FILE_PATH} needs to be translated to $lang"
+                            echo ${NEW_FILE_PATH} >> $lang.txt
+                        fi
+                    done
+                fi
+            else
+                echo "(DEBUG) ${FILE_PATH} does not exist."
+            fi
+        }
+
+        # Get the list of files in the website for the base language (EN) and output this in files.txt
+        find $base_lang -iname "*.md" > files.txt
+        # Sort this file by name the final output is in files.txt
+        sort files.txt > files_temp.txt;mv files_temp.txt files.txt
+        # INFILE contains the name of this temporary file
+        INFILE=files.txt
+
+        # This loop call the function compare and send the file path as a parameter to check if already exists
+        # in the directory for the supported languages (e.g: website/es, website/zh ) different than English (EN)
+        while IFS= read -r line
+        do
+          compare "$line"
+        done < "$INFILE"
+
+        # This can be used to support changes for the base language English
+        find outdated -iname "*.md" | sed -e "s/outdated/website\/content/g" > $base_lang.txt
+            
+    - name: Generate content for translation issues
+      id: to_translate
+      shell: bash
+      run: |
+        # This step generates the md file per language used to create the issue for the
+        # pending files to translate using the action JasonEtco/create-an-issue@v2
+        # also this creates the file for each language defined in the languages variable
+        CONTENT_DIR="website/content"
+        cd $CONTENT_DIR
+        echo "(DEBUG) Current folder: "$(pwd)
+        languages=("es" "zh")
+        for lang in ${languages[@]}; do
+            FILES=""
+
+            # This part autoasign the different groups depending on the language to translate to the
+            # issue to be created
+            if [ "$lang" == "es" ]; then
+                TEAM="Dianmz"
+            elif [ "$lang" == "zh" ]; then
+                TEAM="sergioarmgpl"
+            fi
+
+            # This lines output the file to be used to create the issue for pending translations per language
+            echo "---" > $lang"_files.md"
+            echo "title: Pending pages to translate into $lang" >> $lang"_files.md"
+            echo "assignees: $TEAM" >> $lang"_files.md"
+            echo 'labels:' >> $lang"_files.md"
+            echo '  - help wanted' >> $lang"_files.md"
+            echo '  - translations' >> $lang"_files.md"
+            echo '  - good first issue' >> $lang"_files.md"
+            echo '  - issue/tracking' >> $lang"_files.md"
+            echo "---" >> $lang"_files.md"
+            echo "Last change by: {{ payload.sender.login }}." >> $lang"_files.md"
+            echo -e "*Docs to translate for "$lang" language* <br />\n" >> $lang"_files.md"
+            while IFS= read -r line
+            do
+              FILES+="- $line <br />\n"
+            done < "$lang.txt"
+            echo -e $FILES >> $lang"_files.md"
+        done
+    # Creates the issue of pending files to translate for Spanish language
+    - uses: JasonEtco/create-an-issue@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        update_existing: true
+        filename: website/content/es_files.md
+    # Creates the issue of pending files to translate for Chinese language
+    - uses: JasonEtco/create-an-issue@v2
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        update_existing: true
+        filename: website/content/zh_files.md
+   
