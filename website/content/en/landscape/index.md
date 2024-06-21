@@ -357,7 +357,9 @@ We display these visualizations in a dashboard for developers, sustainability le
 * 📗 OSTI [Paper] [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
 * 📗 [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): The Carbon Aware SDK is a WebApi and Command Line Interface (CLI) to assist in building carbon aware software.
 * 👀 [Tracarbon](https://github.com/fvaleye/tracarbon): Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location using Python.
-
+* 👀 [Green Metrics Tool](https://www.green-coding.io/projects/green-metrics-tool/): Modular energy and carbon benchmarking suite with dashboard, API, timeline and comparisons included
+* 👀 [Eco-CI](https://github.com/green-coding-solutions/eco-ci-energy-estimation/): Show energy and carbon for CI/CD pipelines on GitHub and GitLab
+* 👀 [Cloud Energy](https://github.com/green-coding-solutions/cloud-energy/): ML model to estimate energy and carbon for restricted cloud environments
 
 ### Infrastructure Tooling
 
