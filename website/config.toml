@@ -58,7 +58,7 @@ description = "TAG Environmental Sustainability focuses on enabling projects and
 
 [languages.zh]
 title = "CNCF TAG Environmental Sustainability"
-languageName ="中文"
+languageName ="简体中文 (Simplified Chinese)"
 # Weight used for sorting.
 weight = 2
 contentDir = "content/zh"
@@ -68,7 +68,7 @@ description = "TAG环境可持续性专注于与交付云原生应用程序相�
 
 [languages.es]
 title = "CNCF TAG Environmental Sustainability"
-languageName ="Español"
+languageName ="Español (Spanish)"
 # Weight used for sorting.
 weight = 3
 contentDir = "content/es"
@@ -78,7 +78,7 @@ description = "TAG Sostenibilidad Ambiental se enfoca en habilitar proyectos e i
 
 [languages.de]
 title = "CNCF TAG Environmental Sustainability"
-languageName ="Deutsch"
+languageName ="Deutsch (German)"
 # Weight used for sorting.
 weight = 4
 contentDir = "content/de"
@@ -88,7 +88,7 @@ description = "TAG Environmental Sustainability konzentriert sich auf die Unters
 
 [languages.ko]
 title = "CNCF TAG Environmental Sustainability"
-languageName ="Korean"
+languageName ="한국어 (Korean)"
 # Weight used for sorting.
 weight = 5
 contentDir = "content/ko"
@@ -98,7 +98,7 @@ description = "TAG 환경 지속가능성은 클라우드 네이티브 애플케
 
 [languages.ja]
 title = "CNCF TAG Environmental Sustainability"
-languageName ="日本語"
+languageName ="日本語 (Japanese)"
 # Weight used for sorting.
 weight = 6
 contentDir = "content/ja"
