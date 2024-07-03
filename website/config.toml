@@ -56,11 +56,41 @@ contentDir = "content/en"
 [languages.en.params]
 description = "TAG Environmental Sustainability focuses on enabling projects and initiatives related to delivering cloud-native applications, including building, deploying, managing, and operating them."
 
+[languages.de]
+title = "CNCF TAG Environmental Sustainability"
+languageName ="Deutsch (German)"
+# Weight used for sorting.
+weight = 2
+contentDir = "content/de"
+
+[languages.de.params]
+description = "TAG Environmental Sustainability konzentriert sich auf die Unterstützung von Projekten und Initiativen im Zusammenhang mit der Bereitstellung von Cloud Nativen Anwendungen, einschließlich deren Entwicklung, Bereitstellung, Verwaltung und Betrieb."
+
+[languages.ja]
+title = "CNCF TAG Environmental Sustainability"
+languageName ="日本語 (Japanese)"
+# Weight used for sorting.
+weight = 3
+contentDir = "content/ja"
+
+[languages.ja.params]
+description = "TAG Environmental Sustainabilityは、クラウドネイティブアプリケーションの構築、デプロイ、管理、運用を含むプロジェクトとイニシアチブの実現に焦点を当てています。"
+
+[languages.ko]
+title = "CNCF TAG Environmental Sustainability"
+languageName ="한국어 (Korean)"
+# Weight used for sorting.
+weight = 4
+contentDir = "content/ko"
+
+[languages.ko.params]
+description = "TAG 환경 지속가능성은 클라우드 네이티브 애플케이션, 구축, 배포, 관리 그리고 운영을 위한 프로젝트와 이니셔티브를 중심으로 하고 있습니다."
+
 [languages.zh]
 title = "CNCF TAG Environmental Sustainability"
 languageName ="简体中文 (Simplified Chinese)"
 # Weight used for sorting.
-weight = 2
+weight = 5
 contentDir = "content/zh"
 
 [languages.zh.params]
@@ -70,41 +100,11 @@ description = "TAG环境可持续性专注于与交付云原生应用程序相�
 title = "CNCF TAG Environmental Sustainability"
 languageName ="Español (Spanish)"
 # Weight used for sorting.
-weight = 3
+weight = 6
 contentDir = "content/es"
 
 [languages.es.params]
 description = "TAG Sostenibilidad Ambiental se enfoca en habilitar proyectos e iniciativas para entregar aplicaciones cloud-native, incluyendo la construcción, despliegue, administración y las operaciones de las mismas."
-
-[languages.de]
-title = "CNCF TAG Environmental Sustainability"
-languageName ="Deutsch (German)"
-# Weight used for sorting.
-weight = 4
-contentDir = "content/de"
-
-[languages.de.params]
-description = "TAG Environmental Sustainability konzentriert sich auf die Unterstützung von Projekten und Initiativen im Zusammenhang mit der Bereitstellung von Cloud Nativen Anwendungen, einschließlich deren Entwicklung, Bereitstellung, Verwaltung und Betrieb."
-
-[languages.ko]
-title = "CNCF TAG Environmental Sustainability"
-languageName ="한국어 (Korean)"
-# Weight used for sorting.
-weight = 5
-contentDir = "content/ko"
-
-[languages.ko.params]
-description = "TAG 환경 지속가능성은 클라우드 네이티브 애플케이션, 구축, 배포, 관리 그리고 운영을 위한 프로젝트와 이니셔티브를 중심으로 하고 있습니다."
-
-[languages.ja]
-title = "CNCF TAG Environmental Sustainability"
-languageName ="日本語 (Japanese)"
-# Weight used for sorting.
-weight = 6
-contentDir = "content/ja"
-
-[languages.ja.params]
-description = "TAG Environmental Sustainabilityは、クラウドネイティブアプリケーションの構築、デプロイ、管理、運用を含むプロジェクトとイニシアチブの実現に焦点を当てています。"
 
 [markup]
   [markup.goldmark]
