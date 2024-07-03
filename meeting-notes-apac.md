@@ -81,7 +81,48 @@ We adhere to the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/
   - Anything we parked for later?
   - Anything not on the agenda?
   - Check the TAG project board
- 
+========================================
+
+### Tuesday 25thh June 2024 Meeting
+**Host:**  Saiyam Pathak
+**Notes:**  Saiyam Pathak
+**Attendees:**  
+- Sunyanan Choochotkaew
+- Sam Yuan
+- Leo
+- Saiyam
+- Xuezhao
+
+  
+- Code of Conduct
+- Welcome any new members or attendees - 1 new member :) 
+- Adding the organizer guide on website for cloud native sustainability week
+- China having national holiday first week of October
+    - to host maybe in September or November with some support from CNCF/LF
+    - Blog posts to be tracked, create an issue(SCI, Kepler), start writing and then TAG members review + publish
+- Projects
+  - Best practices for environmentally sustainable K8s clusters "tracking issue" "issue board" - update provided by Saiyam
+  - Landscape Document Rewrite v2 - Looking to restructure and looking for contributors
+      - Landscape already exists [Link](https://tag-env-sustainability.cncf.io/landscape/)
+      - [Github link for landscape document] (https://github.com/cncf/tag-env-sustainability/tree/main/website/content/en/landscape)
+      - Create a new GitHub issue for landscape v2 so that people can add more resources (DONE)
+  - GreenScraper - Going well, feel free to get involved - update given by Saiyam
+  - Cloud Native Sustainability Learning Path - PAUSED
+  - Cloud Native Sustainability Week 2024 [github link](https://github.com/orgs/cncf/projects/10?pane=issue&itemId=51943272)  - Going well, feel free to get involved - Updte given by Leo
+- Planned Presentation(s):
+  - Kepler project CI - very similar to WG Greens
+      - [Kepler team](https://github.com/sustainable-computing-io/kepler-metal-ci) [Green Review WG](https://github.com/cncf-tags/green-reviews-tooling/tree/main)
+      - How can Kepler team work alongside Kepler team to make sure they are notwokring towards a same thing in a different way.
+      - Reuse Kepler existing pipeline to generate report on maybe project like istio
+      - k8s with prometheus and stuff deployed can be used as well
+      - WG Greens already have goals defined and we can remove some parts form WG towards kepler CI to create as a product to be used by wider projects.
+      - Goals of Kepler CI
+      - Maybe Kepler to reuse Green review tooling
+      - Issue to be looked by Kepler team [issue](https://github.com/cncf-tags/green-reviews-tooling/issues/83), [Design proposal](https://github.com/cncf-tags/green-reviews-tooling/tree/main/docs/proposals)
+- Open Discussion:
+    - Main TODO is - Kepler team to get in touch with Green reviews Leads to chat more on this and even involve in detained discussio/call 
+    - Tool posted by Pang [scer](https://github.com/Green-Software-Foundation/scer/tree/Dev)
+    
 ========================================
 ### Tuesday 11th June 2024 Meeting
 **Host:**  Saiyam Pathak
