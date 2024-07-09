@@ -82,6 +82,55 @@ We adhere to the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/
   - Anything not on the agenda?
   - Check the TAG project board
 ========================================
+### Tuesday 9th July 2024 Meeting
+**Host:**  Saiyam Pathak
+**Notes:**  Saiyam Pathak
+**Attendees:**  
+```
+- Saiyam Pathak
+- Sam Yuan
+- Nancy
+- Anita
+- Leon
+```
+  
+- Code of Conduct
+- Welcome any new members or attendees - Nancy, Anita, Leon 
+- China having national holiday first week of October
+  - to host maybe in September or November with some support from CNCF/LF - Sam setup meeting with LF member for Friday.
+  - Blog posts to be tracked, create an issue(SCI, Kepler), start writing and then TAG members review + publish: SCI metrics, translation blog merged, the blog to be published to social media.
+    Blog for China only - Another blog in progress by Sam for APAC meeting, sustainable meet for more people to join in progress.
+    Suggestion by Saiyam - APAC team meetign member, Joint blog and then you can translate in Chinese and distribute locally.
+    Banner issue - In China, reluctant to use the banner of the current cloud native sustainability week that might lead to potential political risks. (Nancy to sync up to see if Banner can be edited to avoid political conflicts)
+
+- Projects
+  - Best practices for environmentally sustainable K8s clusters "tracking issue" "issue board" - update provided by Saiyam (https://docs.google.com/document/d/12EAPH2vTM7tgqbQOv-9XizlMgQyIWp5LlBsHdry-Dxg/edit)
+    CNCF mentor/mentee program - Can we submit project and get contributor (suggested by Sam): [Mentor repo to see details](https://github.com/cncf/mentoring/blob/f78215f178501cefd53e4baa16d458baaaf73b0a/programs/lfx-mentorship/2024/03-Sep-Nov/README.md?plain=1)
+
+  - Landscape Document Rewrite v2 - Looking to restructure and looking for contributors
+      - Landscape already exists [Link](https://tag-env-sustainability.cncf.io/landscape/)
+      - [Github link for landscape document] (https://github.com/cncf/tag-env-sustainability/tree/main/website/content/en/landscape)
+      - Create a new GitHub issue for landscape v2 so that people can add more resources (DONE)
+  - GreenScraper - Going well, feel free to get involved - update given by Saiyam
+  - Cloud Native Sustainability Learning Path - PAUSED
+  - Cloud Native Sustainability Week 2024 [github link](https://github.com/orgs/cncf/projects/10?pane=issue&itemId=51943272)  - Going well, feel free to get involved - Update by Nancy
+- Planned Presentation(s):
+  - Kepler project CI - very similar to WG Greens
+      - [Kepler team](https://github.com/sustainable-computing-io/kepler-metal-ci) [Green Review WG](https://github.com/cncf-tags/green-reviews-tooling/tree/main)
+        UPDATE - for reuse with kepler CI, we had a discussion in slack, but it seems kepler's CI is on fundamental level, progress level... some difference with TAG's CI, let's see how to reuse them in the feature?
+        Setup everything from zero - including Kubernetes
+        TAG - already have a Kubernetes cluster
+        workload orcehstration - Github repo and Tekton(this can be reused by other projects eg Istio)
+        Kepler has its own set of workload and TAG has their own workload orchestration.
+        TAG Green reviews and Kepler agree to do some implementation in CI like dashboard or metrics or functionality or calculation.
+        Suggestion - Can we write up a post on how the Kepler CI is being done (Saiyam): First the kepler community will focus on creating a sample repo with pipelines(tekton based) that start from zero with all steps to replicate it for projects and then to put that in a blog. Also to propose this to mentor.mentee program is in thoughts, Also opn for suggestions and discussions. Kepler to validate Kelper itself is the first goal to be achieved! accuracy and kepler CI demos
+        
+- Open Discussion:
+
+    
+
+========================================
+
 
 ### Tuesday 25thh June 2024 Meeting
 **Host:**  Saiyam Pathak
