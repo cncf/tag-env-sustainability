@@ -1,0 +1,21 @@
+name: Update event list with Green Scraper
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - './github/workflows/event-list-update.yml'
+
+jobs:
+  call-green-scraper-workflow:
+    permissions:
+      contents: read
+      pull-requests: write
+    uses: cncf-tags/tag-env-tooling/.github/workflows/green-talks-scraper.yml@main
+    with:
+      output-path: 'website/content/en/events/event-list.md'
+      repository: 'cncf/tag-env-sustainability'
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}
