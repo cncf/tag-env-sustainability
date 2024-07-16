@@ -34,7 +34,7 @@ CNCF可持续发展周是由[CNCF环境可持续性技术咨询小组（TAG ENV�
 | 2 | Guatemala | TBD | TBD | Sergio Méndez
 | 3 | China | TBD | TBD | Sam Yuan
 | 4 | Norway | TBD | TBD | Marta Paciorkowska
-| 5 | Tokyo, Japan | TBD | TBD | Sunyanan Choochotkaew
+| 5 | Tokyo, Japan | Oct.4 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-community-japan-presents-cncf-cloud-native-sustainability-week-2024-local-meetup-tokyo/) | Sunyanan Choochotkaew
 | 6 | Milan, Italy | TBD | TBD |  Michel Murabito
 | 7 | Sao Paulo, Brazil | TBD | TBD | Carol Valenica
 | 8 | India | TBD | TBD | Saiyam

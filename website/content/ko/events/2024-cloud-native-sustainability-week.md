@@ -17,9 +17,26 @@ This global event, which includes both in-person meet-ups and virtual sessions, 
 
 After the successful [Sustainability Week 2023](https://tag-env-sustainability.cncf.io/events/cloud-native-sustainability-week-2023/), planning for this year's edition is already underway, with a renewed commitment to increasingly green and engaging initiatives.
 
-**At the beginning week of October 2024**, the [CNCF community groups around the globe](https://community.cncf.io/chapters/) will organize meetups in their cities with a focus on cloud native sustainability. These meetups can be organized by anyone interested in supporting the effort. Additionally, the [CNCF Environmental Sustainability Technical Advisory Group (TAG ENV)](http://github.com/cncf/tag-env-sustainability), will host a virtual meetup. The recordings of the virtual and recorded in person event will be uploaded to the playlist on YouTube.
+**At the first full week of October 2024** (October 7th to 13th), the [CNCF community groups around the globe](https://community.cncf.io/chapters/) will organize meetups in their cities with a focus on cloud native sustainability. These meetups can be organized by anyone interested in supporting the effort. Additionally, the [CNCF Environmental Sustainability Technical Advisory Group (TAG ENV)](http://github.com/cncf/tag-env-sustainability), will host a virtual meetup. The recordings of the virtual and recorded in person event will be uploaded to the playlist on YouTube.
 
-<center><iframe width="600" height="400" src="https://www.youtube.com/embed/ezGSYtvQH2c?si=Qz5inM2pI4rHuerm" title="Sustainability Week 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ezGSYtvQH2c?si=Qz5inM2pI4rHuerm" title="Sustainability Week 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+## Meetup Locations
+
+*Note that this list is changing, we will publish a complete overview a few weeks for the event! Take a look at [this document](https://docs.google.com/document/d/1xfUqxt0EeMhrsg8h5p_cAJ1ZHzWryrIywue53rVRFJw/edit?usp=sharing) to check the latest status, and persons to contact.*
+
+<!-- cSpell:disable -->
+| **NR** | **Location** | **Date** | **Event Link** | **Name** |
+|---|---|---|---|---|
+| 1 | Amsterdam, Netherlands | TBD | TBD | Brendan Kamp
+| 2 | Guatemala | TBD | TBD | Sergio Méndez
+| 3 | China | TBD | TBD | Sam Yuan
+| 4 | Norway | TBD | TBD | Marta Paciorkowska
+| 5 | Tokyo, Japan | Oct.4 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-community-japan-presents-cncf-cloud-native-sustainability-week-2024-local-meetup-tokyo/) | Sunyanan Choochotkaew
+| 6 | Milan, Italy | TBD | TBD |  Michel Murabito
+| 7 | Sao Paulo, Brazil | TBD | TBD | Carol Valenica
+| 8 | India | TBD | TBD | Saiyam
+<!-- cSpell:enable -->
 
 ## Event Goals
 
