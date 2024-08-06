@@ -81,6 +81,54 @@ We adhere to the [CNCF Code of Conduct](https://github.com/cncf/foundation/blob/
   - Anything we parked for later?
   - Anything not on the agenda?
   - Check the TAG project board
+
+========================================
+### Tuesday 6th august 2024 Meeting
+**Host:**  Saiyam Pathak
+**Notes:**  Saiyam Pathak
+**Attendees:**  
+```
+- Saiyam Pathak
+- Sam Yuan
+- Pang
+- Aravind
+```
+  
+- Code of Conduct
+- Welcome any new members or attendees - Aravind
+- China having national holiday first week of October
+  - to host maybe in September or November with some support from CNCF/LF - Sam setup meeting with LF member for Friday.
+    Started working with local volunteers, leaders, CNCF and also cohost from kubecon China. Trying to get more sponsors to get the meetup.
+    last year - kepler , basic ops integrations, basic sustainability concepts.
+    This year - trying to get local CNCF member/voluteer already working on sustainability practices for more practical implementations.
+    Scope - more focus on communication, if not more sponsors then do it smaller level else bigger level , a day event. (3rd or 4th week of October)
+
+  - Blog posts to be tracked, create an issue(SCI, Kepler), start writing and then TAG members review + publish: SCI metrics, translation blog merged, the blog to be published to social media. - Merged 
+    Blog for China only - Another blog in progress by Sam for APAC meeting, sustainable meet for more people to join in progress - published
+    Suggestion by Saiyam - APAC team meetign member, Joint blog and then you can translate in Chinese and distribute locally.
+    Banner issue - In China, reluctant to use the banner of the current cloud native sustainability week that might lead to potential political risks. (Nancy to sync up to see if Banner can be edited to avoid political conflicts) - check with Nancy for update
+
+- Projects
+  - Best practices for environmentally sustainable K8s clusters "tracking issue" "issue board" - update provided by Saiyam (https://docs.google.com/document/d/12EAPH2vTM7tgqbQOv-9XizlMgQyIWp5LlBsHdry-Dxg/edit)
+    CNCF mentor/mentee program - Can we submit project and get contributor (suggested by Sam): [Mentor repo to see details](https://github.com/cncf/mentoring/blob/f78215f178501cefd53e4baa16d458baaaf73b0a/programs/lfx-mentorship/2024/03-Sep-Nov/README.md?plain=1)
+
+  - Landscape Document Rewrite v2 - Looking to restructure and looking for contributors
+      - Landscape already exists [Link](https://tag-env-sustainability.cncf.io/landscape/)
+      - [Github link for landscape document] (https://github.com/cncf/tag-env-sustainability/tree/main/website/content/en/landscape)
+      - Create a new GitHub issue for landscape v2 so that people can add more resources (DONE)
+  - GreenScraper - Going well, feel free to get involved - update given by Saiyam
+  - Cloud Native Sustainability Learning Path - PAUSED
+  - Cloud Native Sustainability Week 2024 [github link](https://github.com/orgs/cncf/projects/10?pane=issue&itemId=51943272)  - Going well, feel free to get involved - Updates by Pang and Saiyam
+- Planned Presentation(s):
+ https://github.com/sustainable-computing-io/kepler-metal-ci/actions  - updates form Kepler team, good progress made. 
+- Open Discussion:
+  Start new project discussions - 
+  Where to contirbute - Aravind
+  
+    
+
+========================================
+
 ========================================
 ### Tuesday 9th July 2024 Meeting
 **Host:**  Saiyam Pathak
