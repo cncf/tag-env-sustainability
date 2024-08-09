@@ -36,6 +36,7 @@ After the successful [Sustainability Week 2023](https://tag-env-sustainability.c
 | 6 | Milan, Italy | TBD | TBD |  Michel Murabito
 | 7 | Sao Paulo, Brazil | TBD | TBD | Carol Valenica
 | 8 | India | TBD | TBD | Saiyam
+| 9 | Aarhus, Denmark | October 7th | TBD | [Cloud Native Aarhus Organizers](https://community.cncf.io/aarhus/)
 <!-- cSpell:enable -->
 
 ## Event Goals
