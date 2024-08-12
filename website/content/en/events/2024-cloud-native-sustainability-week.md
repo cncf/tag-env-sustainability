@@ -32,10 +32,12 @@ After the successful [Sustainability Week 2023](https://tag-env-sustainability.c
 | 2 | Guatemala | TBD | TBD | Sergio Méndez
 | 3 | China | TBD | TBD | Sam Yuan
 | 4 | Norway | TBD | TBD | Marta Paciorkowska
-| 5 | Tokyo, Japan | Oct.4 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-community-japan-presents-cncf-cloud-native-sustainability-week-2024-local-meetup-tokyo/) | Sunyanan Choochotkaew
+| 5 | Tokyo, Japan | Oct. 4 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-community-japan-presents-cncf-cloud-native-sustainability-week-2024-local-meetup-tokyo/) | Sunyanan Choochotkaew
 | 6 | Milan, Italy | TBD | TBD |  Michel Murabito, Valeria Salis, Ludovica Bonaldo
 | 7 | Sao Paulo, Brazil | TBD | TBD | Carol Valenica
 | 8 | India | TBD | TBD | Saiyam
+| 9 | Aarhus, Denmark | October 7th | TBD | [Cloud Native Aarhus Organizers](https://community.cncf.io/aarhus/)
+| 10 | Kuala Lumpur, Malaysia | Oct. 22 | TBD | Mageshwaran Sekar, Khairul Anuar, Ahmed Zidan
 <!-- cSpell:enable -->
 
 ## Event Goals
