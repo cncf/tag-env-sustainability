@@ -38,6 +38,7 @@ After the successful [Sustainability Week 2023](https://tag-env-sustainability.c
 | 8 | India | TBD | TBD | Saiyam
 | 9 | Aarhus, Denmark | October 7th | TBD | [Cloud Native Aarhus Organizers](https://community.cncf.io/aarhus/)
 | 10 | Kuala Lumpur, Malaysia | Oct. 22 | TBD | Mageshwaran Sekar, Khairul Anuar, Ahmed Zidan
+| 11 | Stuttgart, Germany | TBD| TBD | Danijel Soldo, Stefan Bergstein
 <!-- cSpell:enable -->
 
 ## Event Goals
