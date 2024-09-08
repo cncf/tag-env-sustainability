@@ -34,7 +34,7 @@ After the successful [Sustainability Week 2023](https://tag-env-sustainability.c
 | 4 | Oslo, Norway | Oct.9 | TBD | Marta Paciorkowska, Kristina Devochko, [Green Software - Oslo](https://www.meetup.com/gsf-oslo)
 | 5 | Tokyo, Japan | Oct.4 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-community-japan-presents-cncf-cloud-native-sustainability-week-2024-local-meetup-tokyo/) | Sunyanan Choochotkeaw ([Cloud Native Community Japan](https://community.cncf.io/cloud-native-community-japan/))
 | 6 | Milan, Italy | TBD | TBD |  Michel Murabito
-| 7 | Sao Paulo, Brazil | TBD | TBD | Carol Valenica
+| 7 | Sao Paulo, Brazil | TBD | TBD | Carol Valencia, Tiago Reichert
 | 8 | India | TBD | TBD | Saiyam
 <!-- cSpell:enable -->
 
