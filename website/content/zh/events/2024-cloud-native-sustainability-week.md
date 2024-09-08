@@ -1,8 +1,8 @@
 ---
-title: CNCF Cloud Native Sustainability Week 2024
-linkTitle: Cloud Native Sustainability Week 2024
+title: CNCF2024云原生可持续发展周
+linkTitle: 2024云原生可持续发展周 
 exclude_search: true
-description: Cloud Native Sustainability Week is a global event where the CNCF community organizes local meetings around the theme of Cloud Native Sustainability. The Cloud Native Sustainability Week will take place at the first week of October 2024.
+description: 云原生可持续发展周是一项全球性活动，CNCF社区围绕云原生可持续性主题组织当地会议。云原生可持续发展周将于2024年10月的第一周举行。
 weight: 94
 slug: cloud-native-sustainability-week
 aliases:
@@ -11,13 +11,15 @@ aliases:
 
 <p class="mt-5 mb-5"><img src="/images/cloud-native-sustainability-week-v1-logo.webp" alt="CNCF Cloud Native Sustainability Week Banner"></p>
 
-The CNCF Sustainability Week is an annual event that is organized by the [CNCF Technical Advisory Group for Environmental Sustainability (TAG ENV)](http://github.com/cncf/tag-env-sustainability) in collaboration with the [Cloud Native Computing Foundation (CNCF)](http://cncf.io). The main goal of the event is to promote environmental sustainability in the cloud native industry and open source space.
+CNCF可持续发展周是由[CNCF环境可持续性技术咨询小组（TAG ENV）](http://github.com/cncf/tag-env-sustainability)组织[云原生计算基金会（CNCF）](http://cncf.io)的年度活动. 该活动的主要目标是促进云原生产业和环境可持续性的开源领域发展。
 
-This global event, which includes both in-person meet-ups and virtual sessions, is organized by local tech communities around the world and coordinated by the TAG ENV. We believe that by encouraging such global intercontinental collaboration, we can enable people from all over the globe to understand how sustainability is an integral factor in the technology sector and how, sometimes with very little, technological and innovative initiatives can be carried out while respecting the environment.
+这项全球活动包括面对面会议和虚拟会议，由世界各地的当地技术社区组织，并由TAG ENV协调。我们认为，通过鼓励这种全球洲际合作，我们可以让世界各地的人们了解可持续性是技术部门不可或缺的因素，以及任何哪怕微小的实施技术和创新举措以实现环境友好（有助于实现环境可持续目标）。
 
-After the successful [Sustainability Week 2023](https://tag-env-sustainability.cncf.io/events/cloud-native-sustainability-week-2023/), planning for this year's edition is already underway, with a renewed commitment to increasingly green and engaging initiatives.
+成功举办[2023年可持续发展周](https://tag-env-sustainability.cncf.io/events/cloud-native-sustainability-week-2023/)之后，今年的活动规划已经在进行中，并重新致力于越来越环保和吸引人的举措。
 
-**At the first week of October 2024**, the [CNCF community groups around the globe](https://community.cncf.io/chapters/) will organize meetups in their cities with a focus on cloud native sustainability. These meetups can be organized by anyone interested in supporting the effort. Additionally, the [CNCF Environmental Sustainability Technical Advisory Group (TAG ENV)](http://github.com/cncf/tag-env-sustainability), will host a virtual meetup. The recordings of the virtual and recorded in person event will be uploaded to the playlist on YouTube.
+**在2024年10月的第一周**，[CNCF全球社区团体](https://community.cncf.io/chapters/)将在各自城市组织会议，重点关注云原生可持续性。任何有兴趣支持这项工作的人都可以组织这些聚会。此外，[CNCF环境可持续性技术咨询小组（TAG ENV）](http://github.com/cncf/tag-env-sustainability)，将举办一场虚拟聚会。虚拟和现场录制的活动录音将上传到YouTube上的播放列表中。
+
+请注意，由于时逢国庆，国内meet up的具体筹备时间待定。
 
 <div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ezGSYtvQH2c?si=Qz5inM2pI4rHuerm" title="Sustainability Week 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
@@ -31,30 +33,30 @@ After the successful [Sustainability Week 2023](https://tag-env-sustainability.c
 | 1 | Amsterdam, Netherlands | TBD | TBD | Brendan Kamp
 | 2 | Guatemala | TBD | TBD | Sergio Méndez
 | 3 | China | TBD | TBD | Sam Yuan
-| 4 | Norway | TBD | TBD | Marta Paciorkowska
-| 5 | Tokyo, Japan | TBD | TBD | Sunyanan Choochotkaew
+| 4 | Oslo, Norway | Oct.9 | TBD | Marta Paciorkowska, Kristina Devochko, [Green Software - Oslo](https://www.meetup.com/gsf-oslo)
+| 5 | Tokyo, Japan | Oct.4 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-community-japan-presents-cncf-cloud-native-sustainability-week-2024-local-meetup-tokyo/) | Sunyanan Choochotkeaw ([Cloud Native Community Japan](https://community.cncf.io/cloud-native-community-japan/))
 | 6 | Milan, Italy | TBD | TBD |  Michel Murabito
-| 7 | Sao Paulo, Brazil | TBD | TBD | Carol Valenica
+| 7 | Sao Paulo, Brazil | TBD | TBD | Carol Valencia, Tiago Reichert
 | 8 | India | TBD | TBD | Saiyam
 <!-- cSpell:enable -->
 
-## Event Goals
+## 活动目标
 
-1. **Gain better insights into the current [Cloud Native Sustainability Landscape](/landscape/)**: Engage with the community and IT industry as a whole to develop a deeper understanding of the [Cloud Native Sustainability Landscape](/landscape/).
-2. **Identify knowledge gaps**: Recognize domain areas for cloud native environmental sustainability where further exploration and knowledge sharing is needed.
-3. **Foster project collaboration**: Encourage participants to actively collaborate on further development and improvement of existing projects and tools that pertain to the field of cloud native sustainability.
-4. **Raise awareness**: Enhance awareness and knowledge sharing around the topic of cloud native environmental sustainability.
-5. **Promote TAG ENV and CNCF**: Promoting the #tag-environmental-sustainability and raising awareness about the CNCF in general.
-6. **Survey**: distributing a survey to gather information on end user adoption of cloud native sustainability.
-7. **Badges**: providing badges from credly for organizers and potentially speakers.
+1. **更好地了解当前的[云原生可持续发展前景](/landscape/)**：与社区和整个IT行业接触，对[云原生的可持续发展前景](/landscape/)有更深入的了解。
+2. **识别知识差距**：识别需要进一步探索和知识共享的云原生环境可持续性领域。
+3. **促进项目合作**：鼓励参与者积极合作，进一步开发和改进与云原生可持续性领域相关的现有项目和工具。
+4. **提高认识**：加强对云原生环境可持续性主题的认识和知识共享。
+5. **促进TAG ENV和CNCF**：促进#TAG环境可持续性，提高对CNCF的总体认识。
+6. **调查**：分发一份调查，以收集最终用户采用云原生可持续性的信息。
+7. **徽章**：为组织者和潜在演讲者提供可信的徽章。
 
-## Why Participate
+## 参与活动您可以
 
-1. **Make a Difference**: As the world faces increasing environmental challenges, it's crucial for the technology industry to address its impact.
-2. **Community Engagement & Networking**: The event brings together a diverse community of like-minded individuals who are passionate about cloud native technologies and sustainability. By organizing the event, you have the chance to network with industry experts, potential collaborators, and like-minded individuals. 
-3. **Knowledge Sharing**: Hosting a meetup provides a platform to share knowledge and insights about cloud native environmental sustainability. You can invite experts, thought leaders, and practitioners to give talks, lead discussions, and share best practices.
-4. **Amplify Your Voice**: Organizing a meetup allows you to contribute to a larger collective voice coming from the CNCF. We are stronger together!
-5. **Personal Fulfillment**: Making a positive impact on the environment and being part of a global movement can be personally fulfilling.
+1. **有所作为**：随着世界面临越来越多的环境挑战，科技行业应对其影响至关重要。
+2. **社区参与和网络**：该活动汇集了一个由志同道合的人组成的多元化社区，他们对云原生技术和可持续性充满热情。通过组织活动，您有机会与行业专家、潜在合作者和志同道合的个人建立联系。
+3. **知识共享**：举办会议提供了一个分享云原生环境可持续性知识和见解的平台。您可以邀请专家、思想领袖和从业者进行演讲、领导讨论并分享最佳实践。
+4. **放大你的声音**：组织一次聚会可以让你为来自CNCF的更大的集体声音做出贡献。我们在一起更强大！
+5. **个人成就感**：对环境产生积极影响，并成为全球运动的一部分，这可能是个人成就感。
 
 ## Contact and Resources
 

@@ -294,7 +294,7 @@ OpenTelemetry integrates with popular libraries and frameworks such as Spring, A
 
 ### Observability Tooling
 
-The diagram below illustrates the infrastructure dimension of the sustainable cloud computing landscape.
+The diagram below illustrates the observability dimension of the sustainable cloud computing landscape.
 
 ```mermaid
 %%{init: {'theme':'neutral'}}%%
