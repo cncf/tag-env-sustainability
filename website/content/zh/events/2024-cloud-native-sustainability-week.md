@@ -36,7 +36,7 @@ CNCF可持续发展周是由[CNCF环境可持续性技术咨询小组（TAG ENV�
 | 4 | Oslo, Norway | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/303318869/) | Marta Paciorkowska, Kristina Devochko, [Green Software - Oslo](https://www.meetup.com/gsf-oslo)
 | 5 | Tokyo, Japan | Oct.4 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-community-japan-presents-cncf-cloud-native-sustainability-week-2024-local-meetup-tokyo/) | Sunyanan Choochotkeaw ([Cloud Native Community Japan](https://community.cncf.io/cloud-native-community-japan/))
 | 6 | Milan, Italy | TBD | TBD |  Michel Murabito
-| 7 | Sao Paulo, Brazil | TBD | TBD | Carol Valencia, Tiago Reichert
+| 7 | Sao Paulo, Brazil | Oct. 22 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-sao-paulo-presents-27-cloud-native-sao-paulo-sustainability-day-na-aws/) | Carol Valencia, Tiago Reichert, Pedro Ignácio, Erivaldo Lopes
 | 8 | India | TBD | TBD | Saiyam
 <!-- cSpell:enable -->
 
