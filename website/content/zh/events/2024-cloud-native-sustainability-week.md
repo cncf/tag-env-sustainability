@@ -38,6 +38,10 @@ CNCF可持续发展周是由[CNCF环境可持续性技术咨询小组（TAG ENV�
 | 6 | Milan, Italy | TBD | TBD |  Michel Murabito
 | 7 | Sao Paulo, Brazil | Oct. 22 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-sao-paulo-presents-27-cloud-native-sao-paulo-sustainability-day-na-aws/) | Carol Valencia, Tiago Reichert, Pedro Ignácio, Erivaldo Lopes
 | 8 | India | TBD | TBD | Saiyam
+| 9 | Aarhus, Denmark | October 7th | [Link](https://community.cncf.io/events/details/cncf-aarhus-presents-cncf-sustainability-week-aarhus-2024/) | [Cloud Native Aarhus Organizers](https://community.cncf.io/aarhus/)
+| 10 | Kuala Lumpur, Malaysia | Oct. 21 | TBD | Mageshwaran Sekar, Khairul Anuar, Ahmed Zidan
+| 11 | Stuttgart, Germany | TBD| TBD | Danijel Soldo, Stefan Bergstein
+| 12 | Paris, France | Oct. 15 | TBD | Smaine Kahlouch [Cloud Native Paris](https://community.cncf.io/paris/)
 <!-- cSpell:enable -->
 
 ## 活动目标
