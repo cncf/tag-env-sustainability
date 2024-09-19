@@ -28,12 +28,12 @@ CNCFサステナビリティ週間は、[環境持続可能性のためのCNCF T
 <!-- cSpell:disable -->
 | **番号** | **場所** | **日付** | **イベントリンク** | **名前** |
 |---|---|---|---|---|
-| 1 | Amsterdam, Netherlands | TBD | TBD | Brendan Kamp
+| 1 | Amsterdam, Netherlands | 10th October | [link](https://community.cncf.io/e/mwszqh/) | Julie Chenadec, Alessandro Vozza, Pavel Chunyayev, Matteo Bianchi
 | 2 | Guatemala | TBD | TBD | Sergio Méndez
 | 3 | China | TBD | TBD | Sam Yuan
-| 4 | Oslo, Norway | Oct.9 | [Link](https://www.meetup.com/gsf-oslo/events/303318869/) | Marta Paciorkowska, Kristina Devochko, [Green Software - Oslo](https://www.meetup.com/gsf-oslo)
-| 5 | Tokyo, Japan | Oct.4 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-community-japan-presents-cncf-cloud-native-sustainability-week-2024-local-meetup-tokyo/) | Sunyanan Choochotkeaw ([Cloud Native Community Japan](https://community.cncf.io/cloud-native-community-japan/))
-| 6 | Milan, Italy | TBD | TBD |  Michel Murabito
+| 4 | Oslo, Norway | Oct. 9 | [Link](https://www.meetup.com/gsf-oslo/events/303318869/) | Marta Paciorkowska, Kristina Devochko, [Green Software - Oslo](https://www.meetup.com/gsf-oslo)
+| 5 | Tokyo, Japan | Oct. 4 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-community-japan-presents-cncf-cloud-native-sustainability-week-2024-local-meetup-tokyo/) | Sunyanan Choochotkeaw ([Cloud Native Community Japan](https://community.cncf.io/cloud-native-community-japan/))
+| 6 | Milan, Italy | Sep. 30 & Oct. 7 | [Link Sep. 30](https://www.meetup.com/digital-platform-builders/events/303350215) - [Link Oct. 7](https://www.meetup.com/digital-platform-builders/events/303350378) |  Michel Murabito, Valeria Salis, Ludovica Bonaldo
 | 7 | Sao Paulo, Brazil | Oct. 22 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-sao-paulo-presents-27-cloud-native-sao-paulo-sustainability-day-na-aws/) | Carol Valencia, Tiago Reichert, Pedro Ignácio, Erivaldo Lopes
 | 8 | India | TBD | TBD | Saiyam
 | 9 | Aarhus, Denmark | October 7th | [Link](https://community.cncf.io/events/details/cncf-aarhus-presents-cncf-sustainability-week-aarhus-2024/) | [Cloud Native Aarhus Organizers](https://community.cncf.io/aarhus/)
