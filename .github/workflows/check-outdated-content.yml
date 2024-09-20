@@ -5,8 +5,8 @@
 name: Check outdated content
 
 on:
-  pull_request:
-
+#  pull_request:
+  workflow_dispatch:
 
 jobs:
   check-outdated-content:
