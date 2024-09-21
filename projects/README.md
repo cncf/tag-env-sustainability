@@ -8,7 +8,7 @@ Projects are not only smaller, but also more scoped and have a clear goal to be 
 |---------------|-------------------|---------------------------------------|
 | [Green Scraper](./2024-green-scraper/README.md) | In Progress | April 2024 |
 | [Cloud Native Sustainability Week 2024](./2024-cloud-native-sustainability-week-2024/README.md) | In Progress | April 2024 |
-| [Kubernetes Best Pratices](./archived/2024-best-practices-for-sustainable-k8s-clusters/README.md) | Archived | March 2024 |
+| [Kubernetes Best Pratices](./archived/2024-best-practices-for-sustainable-k8s-clusters/README.md) | Cancelled | March 2024 |
 | [Landscape Rework 2.0](./archived/2024-landscape-rework-2/README.md) | Cancelled | December 2023 |
 | [Learning Path Toward Sustainability in Cloud Native](./archived/2024-learning-path-sustainability/README.md) | Cancelled | November 2023 |
 
