@@ -12,4 +12,4 @@ TAG Environmental Sustainability项目是旨在合作和协调实现共同目标
 <!-- Status: Completed / In Progress / Cancelled -->
 | **Project Name** | **Details Link** | **Project Leads** | **Status** |
 |---|---|---|---|
-| Best practices for environmentally sustainable Kubernetes clusters  | [Project Proposal](https://github.com/cncf/tag-env-sustainability/issues/339)  | [@JacobValdemar](https://github.com/JacobValdemar), [@xamebax](https://github.com/xamebax)  | In Progress |
+| Best practices for environmentally sustainable Kubernetes clusters  | [Project Proposal](https://github.com/cncf/tag-env-sustainability/issues/339)  | [@JacobValdemar](https://github.com/JacobValdemar), [@xamebax](https://github.com/xamebax)  | Cancelled |

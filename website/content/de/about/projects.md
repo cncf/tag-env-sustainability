@@ -13,4 +13,4 @@ Die folgenden Projekte existieren unter dem TAG Environmental Sustainability:
 <!-- Status: Completed / In Progress / Cancelled -->
 | **Name des Projektes** | **Details Link** | **Projekt Leitung** | **Status** |
 |---|---|---|---|
-| Bewährte Verfahren für ökologisch nachhaltige Kubernetes-Cluster  | [Projektvorschlag](https://github.com/cncf/tag-env-sustainability/issues/339)  | [@JacobValdemar](https://github.com/JacobValdemar), [@xamebax](https://github.com/xamebax)  | In Arbeit |
+| Bewährte Verfahren für ökologisch nachhaltige Kubernetes-Cluster  | [Projektvorschlag](https://github.com/cncf/tag-env-sustainability/issues/339)  | [@JacobValdemar](https://github.com/JacobValdemar), [@xamebax](https://github.com/xamebax)  | Abgesagt |

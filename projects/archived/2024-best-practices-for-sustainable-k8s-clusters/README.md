@@ -1,4 +1,4 @@
-# Best practices for environmentally sustainable Kubernetes clusters - In Progress
+# Best practices for environmentally sustainable Kubernetes clusters - Cancelled
 
 - **Project Leads**:
   - [@JacobValdemar](https://github.com/JacobValdemar)
@@ -6,7 +6,7 @@
 
 - **TAG ENV Lead representative**: [@mkorbi](https://github.com/mkorbi)
 - **Project started**: *2024-03-04*
-- **Project completed at**: *N/A*
+- **Project cancelled at**: 3rd of July 2024
 - **Project drive folder**: [Project drive](https://drive.google.com/drive/folders/1KVJGOtCGJk9WFn_iS5AxOCyfKa_CM0He)
 - **Project tracking issue**: [#347](https://github.com/cncf/tag-env-sustainability/issues/347)
 
