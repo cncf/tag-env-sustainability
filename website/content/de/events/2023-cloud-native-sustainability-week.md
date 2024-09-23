@@ -66,7 +66,6 @@ aller lokalen Treffen.
 | 20     | Taiwan, Taipeh         | 24. Okt   | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/)      | Phil Huang (@pichuang), Sarah Hsu, Moris Wu             |
 | 21     | USA, Südflorida        | 19. Okt   | [Link](https://community.cncf.io/events/details/cncf-south-florida-presents-south-florida-meetup-cncf-cloud-native-sustainability-week/)                        | Angel Ramirez, Hitomi Mizugaki, Cristher Castro         |
 | 22     | USA, Colorado          | 16. Okt   | [Link](https://www.meetup.com/colorado-kubernetes-cloud-native/events/296665831/)                                                                               | Karen Chu, Kris Woyna                                   |
-| 23     | Brighton, UK           | 16. Okt   | [Link](https://www.meetup.com/gsf-brighton/events/303193268)                                                                                                    | Adam Newman                                             |
 <!-- cSpell:enable -->
 
 ### Virtuelle Mini-Konferenz am 12. Oktober
