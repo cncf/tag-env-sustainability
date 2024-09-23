@@ -51,7 +51,6 @@ Organizaremos 21 eventos locales en 16 países y 4 continentes. A continuación,
 | 20 | Taiwan, Taipei | Oct.24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-taiwan-user-group-presents-cncf-sustainability-week-taiwan-x-green-software-foundation/) | Phil Huang (@pichuang), Sarah Hsu, Moris Wu |
 | 21 | USA, South Florida | Oct.19 | [Link](https://community.cncf.io/events/details/cncf-south-florida-presents-south-florida-meetup-cncf-cloud-native-sustainability-week/) | Angel Ramirez, Hitomi Mizugaki, Cristher Castro |
 | 22 | USA, Colorado | Oct.16 | [Link](https://www.meetup.com/colorado-kubernetes-cloud-native/events/296665831/) | Karen Chu, Kris Woyna |
-| 23 | Brighton, UK | Oct. 16 | [Link](https://www.meetup.com/gsf-brighton/events/303193268) | Adam Newman, [Green Software Brighton](https://greensoftwarebrighton.co.uk)
 <!-- cSpell:enable -->
 
 ### Mini Conferencia Virtual en Oct.12
