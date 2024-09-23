@@ -42,6 +42,7 @@ CNCF可持续发展周是由[CNCF环境可持续性技术咨询小组（TAG ENV�
 | 10 | Kuala Lumpur, Malaysia | Oct. 21 | TBD | Mageshwaran Sekar, Khairul Anuar, Ahmed Zidan
 | 11 | Stuttgart, Germany | TBD| TBD | Danijel Soldo, Stefan Bergstein
 | 12 | Paris, France | Oct. 15 | TBD | Smaine Kahlouch [Cloud Native Paris](https://community.cncf.io/paris/)
+| 13 | Brighton, UK | Oct. 16 | [Link](https://www.meetup.com/gsf-brighton/events/303193268) | Adam Newman, [Green Software Brighton](https://greensoftwarebrighton.co.uk)
 <!-- cSpell:enable -->
 
 ## 活动目标
