@@ -13,28 +13,29 @@ The working group currently has two chairs serving a term of 6 months and as lon
 The following individuals are currently the working group chairs:
 
 <!-- cSpell:disable -->
-- Tricia Cahill, [@patricia-cahill](https://github.com/patricia-cahill), start of term 01.10.2023
 - Claire Fletcher, [@claire-fletcher](https://github.com/claire-fletcher), start of term 10.04.2024
 
 Emeritus WG Chair:
+- Tricia Cahill, [@patricia-cahill](https://github.com/patricia-cahill), 01.10.2023 - 02.05.2024
 - Cara Delia, [@caradelia](https://github.com/caradelia), 01.10.2023 - 01.04.2024
 <!-- cSpell:enable -->
 
-In addition to working group chairs there are currently two subarea leads that focus on specific activity areas of the Communications working group:
+In addition to working group chairs there are currently two sub-area leads that focus on specific activity areas of the Communications working group:
 
 <!-- cSpell:disable -->
 - Blog lead: Savitha Raghunathan, [@savitharaghunathan](https://github.com/savitharaghunathan)
 - Events lead: *TBD*
-- Social Media lead: *TBD*
+- Social Media lead: Kristina Devochko [@guidemetothemoon](https://github.com/guidemetothemoon)
 - Contributor Experience lead: *TBD*
-- Website lead: *TBD*
+- Website co-lead: Sergio Méndez [@sergioarmgpl](https://github.com/sergioarmgpl)
+- Website co-lead: Diana Menendez [@dianmz](https://github.com/Dianmz)
 <!-- cSpell:enable -->
 
 ## Meetings and Contact
 
 The Communications Working Group utilizes TAG Environmental Sustainability channels for communication.
 
-- Meeting time and frequency: Every Thursday, 5pm GMT +2:00, 8AM Pacific, 11AM Eastern
+- Meeting time and frequency: Every Wednesday, 15:00 (16:00 CET/CEST)
 - Join meeting: [Zoom](https://zoom.us/my/cncftagenvsustainability)
 - Meeting agenda and notes: check [Agenda and Notes](https://docs.google.com/document/d/1TT-Yxgc2bSQHAutguMyGtyywZBl_x1_wWGQAM5SWeHk/edit) for all past and upcoming meetings.
 - Meeting recordings: check [TAG Environmental Sustainability YouTube channel](https://www.youtube.com/@CNCFEnvTAG) for recordings of all previous meetings.

@@ -20,7 +20,7 @@ Todos los textos relevantes pueden encontrarse explicados aquí en el  [glossary
 
 ## Resumen
 
-<i class="fas fa-globe-asia mb-3"></i>[Lea la traducción Coreana de este documento aqui](/landscape-ko/).
+<i class="fas fa-globe-asia mb-3"></i>[Lea la traducción Coreana de este documento aqui](/ko/landscape/).
 
 La computación en la nube ha revolucionado la forma en que almacenamos y procesamos datos, permitiendo que las organizaciones sean más ágiles, eficientes y escalables. Sin embargo, a medida que las empresas transforman sus modelos de negocio para cumplir con los requisitos de sostenibilidad, también han surgido preocupaciones sobre la sostenibilidad ambiental en la computación en la nube. La huella de carbono de los servicios en la nube se han convertido en un tema de discusión, ya que indirectamente provoca enormes cantidades de emisiones debido a su consumo de energía. Como resultado, se ha vuelto imperativo cuantificar y reducir las emisiones de carbono asociadas con la computación en la nube para mitigar el impacto en el medio ambiente.
 

@@ -6,7 +6,11 @@ Projects are not only smaller, but also more scoped and have a clear goal to be 
 
 | **Projects** | **Status**            | **Created**                         |
 |---------------|-------------------|---------------------------------------|
+| [Learning Path Toward Sustainability in Cloud Native](./2024-learning-path-sustainability/README.md) | Cancelled | November 2023 |
+| [Landscape Rework 2.0](./2024-landscape-rework-2/README.md) | Cancelled | December 2023 |
 | [Kubernetes Best Pratices](./2024-best-practices-for-sustainable-k8s-clusters/README.md) | In Progress | March 2024 |
+| [Green Scraper](./2024-green-scraper/README.md) | In Progress | April 2024 |
+| [Cloud Native Sustainability Week 2024](./2024-cloud-native-sustainability-week-2024/README.md) | In Progress | April 2024 |
 
 ## Starting a project
 
@@ -27,23 +31,23 @@ Fork the TAG ENV repository and add a new folder with the project name and the s
 - **Project drive folder**: link <!-- ask the TAG Lead representative to create a folder if it does not exist yet -->
 - **Project tracking issue**: #XXX
 
-### Description <!-- description of the project proposal -->
+## Description <!-- description of the project proposal -->
 
 ...
 
-#### Impact <!-- impact of the project proposal -->
+## Impact <!-- impact of the project proposal -->
 
 ...
 
-#### Scope <!-- scope of the project proposal -->
+## Scope <!-- scope of the project proposal -->
 
 ...
 
-#### Goals and Non Goals <!-- goals and non goals of the project proposal -->
+## Goals and Non Goals <!-- goals and non goals of the project proposal -->
 
 ...
 
-#### Deliverables <!-- deliverables of the project proposal -->
+## Deliverables <!-- deliverables of the project proposal -->
 
 - *Deliverable A*
 - *Deliverable B*

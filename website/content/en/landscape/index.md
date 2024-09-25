@@ -20,7 +20,7 @@ All relevant wordings can be found explained here in the [glossary](https://tag-
 
 ## Summary
 
-<i class="fas fa-globe-asia mb-3"></i>[Read the Korean translation of this document here](/landscape-ko/).
+<i class="fas fa-globe-asia mb-3"></i>[Read the Korean translation of this document here](/ko/landscape/).
 
 Cloud computing has revolutionized the way we store and process data, enabling organizations to be more agile, efficient, and scalable.
 However, as companies transform their business models to meet sustainability requirements, concerns about environmental sustainability in cloud computing have also emerged.
@@ -294,7 +294,7 @@ OpenTelemetry integrates with popular libraries and frameworks such as Spring, A
 
 ### Observability Tooling
 
-The diagram below illustrates the infrastructure dimension of the sustainable cloud computing landscape.
+The diagram below illustrates the observability dimension of the sustainable cloud computing landscape.
 
 ```mermaid
 %%{init: {'theme':'neutral'}}%%
@@ -321,6 +321,7 @@ flowchart TB
     click influx_telegraf "https://github.com/influxdata/telegraf" "Source"
     click carbon_ql "https://github.com/Green-Software-Foundation/carbon-ql" "Source"
     click powertop "https://github.com/fenrus75/powertop" "Source"
+    click tracarbon "https://github.com/fvaleye/tracarbon" "Source"
 
     classDef sections fill:#ececff,stroke:#9572db,stroke-width:4px
     class obs sections;
@@ -355,6 +356,10 @@ We display these visualizations in a dashboard for developers, sustainability le
 * 👀 [PowerTOP](https://github.com/fenrus75/powertop) - a Linux tool, which among other things allows you to monitor the power consumption per process running on the Linux machine.
 * 📗 OSTI [Paper] [Metrics for Evaluating Energy Saving Techniques for Resilient HPC Systems](https://www.osti.gov/servlets/purl/1140455)
 * 📗 [Carbon Aware SDK](https://github.com/Green-Software-Foundation/carbon-aware-sdk): The Carbon Aware SDK is a WebApi and Command Line Interface (CLI) to assist in building carbon aware software.
+* 👀 [Tracarbon](https://github.com/fvaleye/tracarbon): Tracarbon tracks your device's energy consumption and calculates your carbon emissions using your location using Python.
+* 👀 [Green Metrics Tool](https://www.green-coding.io/projects/green-metrics-tool/): Modular energy and carbon benchmarking suite with dashboard, API, timeline and comparisons included
+* 👀 [Eco-CI](https://github.com/green-coding-solutions/eco-ci-energy-estimation/): Show energy and carbon for CI/CD pipelines on GitHub and GitLab
+* 👀 [Cloud Energy](https://github.com/green-coding-solutions/cloud-energy/): ML model to estimate energy and carbon for restricted cloud environments
 
 ### Infrastructure Tooling
 
