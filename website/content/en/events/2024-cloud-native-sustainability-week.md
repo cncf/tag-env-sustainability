@@ -42,6 +42,7 @@ After the successful [Sustainability Week 2023](https://tag-env-sustainability.c
 | 12 | Paris, France | Oct. 15 | TBD | Smaine Kahlouch [Cloud Native Paris](https://community.cncf.io/paris/)
 | 13 | Brighton, UK | Oct. 16 | [Link](https://www.meetup.com/gsf-brighton/events/303193268) | Adam Newman, [Green Software Brighton](https://greensoftwarebrighton.co.uk)
 | 14 | Lorient, FR | Sept. 25 | [Link](https://community.cncf.io/events/details/cncf-lorient-presents-cloud-native-lorient-5/) | Sébastien DAVOULT [cloud Native Lorient](https://community.cncf.io/lorient/)
+| 15 | Barcelona, Spain | October 9th | [Link](https://community.cncf.io/events/details/cncf-cloud-native-barcelona-presents-cloud-native-sustainability-week-2024-barcelona-edition/) - [Link](https://www.meetup.com/cloud-native-bcn/events/303352183) | Christian Polanco, Imma Valls
 <!-- cSpell:enable -->
 
 ## Event Goals
