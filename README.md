@@ -46,7 +46,6 @@ All the most important links for TAG Environmental Sustainability are also avail
 ### TAG Environmental Sustainability Co-Chairs
 
 * [Marlow Weston](https://github.com/catblade)
-* [Max Körbächer](https://github.com/mkorbi)
 * [Leonard Vincent Simon Pahlke](https://github.com/leonardpahlke)
 
 ### TAG Environmental Sustainability Tech Leads
@@ -57,3 +56,7 @@ All the most important links for TAG Environmental Sustainability are also avail
 ## New contributors
 
 We encourage new contributors to read the [contributing documentation](CONTRIBUTING.md). If you have any questions, please contact us through the channels mentioned above.
+
+### TAG Emeritus Leaders:
+* [Max Körbächer](https://github.com/mkorbi)
+
