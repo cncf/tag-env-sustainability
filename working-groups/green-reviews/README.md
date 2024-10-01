@@ -21,6 +21,7 @@ The working group currently has 2 chairs serving a term of 6 months and as long 
 
 <!-- cSpell:disable -->
 - Ross Fairbanks, [@rossf7](https://github.com/rossf7), serving as TL since 14.12.2023
+- Flavia Paganelli, [@locomundo](https://github.com/locomundo), serving as TL since 1.10.2024
 <!-- cSpell:enable -->
 
 ## Meetings and Contact
