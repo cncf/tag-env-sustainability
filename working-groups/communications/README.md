@@ -14,13 +14,17 @@ The following individuals are currently the working group chairs:
 
 <!-- cSpell:disable -->
 - Claire Fletcher, [@claire-fletcher](https://github.com/claire-fletcher), start of term 10.04.2024
+- Nancy Chauhan, [@nancy-chauhan](https://github.com/nancy-chauhan), start of term 25.09.2024
 
 Emeritus WG Chair:
 - Tricia Cahill, [@patricia-cahill](https://github.com/patricia-cahill), 01.10.2023 - 02.05.2024
 - Cara Delia, [@caradelia](https://github.com/caradelia), 01.10.2023 - 01.04.2024
 <!-- cSpell:enable -->
 
-In addition to working group chairs there are currently two sub-area leads that focus on specific activity areas of the Communications working group:
+The following individuals are the working group technical leads:
+- Valeria Salis [@vallss](https://github.com/vallss), start of term 30.09.2024
+
+In addition to working group chairs there are currently sub-area leads that focus on specific activity areas of the Communications working group:
 
 <!-- cSpell:disable -->
 - Blog lead: Savitha Raghunathan, [@savitharaghunathan](https://github.com/savitharaghunathan)
