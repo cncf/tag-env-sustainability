@@ -29,7 +29,7 @@ CNCFサステナビリティ週間は、[環境持続可能性のためのCNCF T
 | **番号** | **場所** | **日付** | **イベントリンク** | **名前** |
 |---|---|---|---|---|
 | 1 | Amsterdam, Netherlands | 10th October | [link](https://community.cncf.io/e/mwszqh/) | Julie Chenadec, Alessandro Vozza, Pavel Chunyayev, Matteo Bianchi
-| 2 | Guatemala | TBD | TBD | Sergio Méndez
+| 2 | Guatemala | Oct. 26 | [Link](https://community.cncf.io/e/m8chk2/) | Diana Menendez, Sergio Méndez
 | 3 | China | TBD | TBD | Sam Yuan
 | 4 | Oslo, Norway | Oct. 9 | [Link](https://www.meetup.com/gsf-oslo/events/303318869/) | Marta Paciorkowska, Kristina Devochko, [Green Software - Oslo](https://www.meetup.com/gsf-oslo)
 | 5 | Tokyo, Japan | Oct. 4 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-community-japan-presents-cncf-cloud-native-sustainability-week-2024-local-meetup-tokyo/) | Sunyanan Choochotkeaw ([Cloud Native Community Japan](https://community.cncf.io/cloud-native-community-japan/))
