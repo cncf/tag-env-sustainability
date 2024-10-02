@@ -41,9 +41,8 @@ Join us on Slack: `#tag-environmental-sustainability`
 
 | Name              | Role     | GitHub            | Slack           | E-mail                      | Company      |
 |-------------------|----------|-------------------|-----------------|-----------------------------|--------------|
-| Leonard Pahlke    | Chair    | @leonardpahlke    | leonardpahlke   | Leonard Pahlke              | Liquid Reply |
-| Marlow Weston     | Chair    | @catblade         | MarlowWeston    | catblade@gmail.com          | Intel        |
-| Max Körbächer     | Chair    | @mkorbi           | mkorbi          | m.koerbaecher@reply.de      | Liquid Reply |
+| Leonard Pahlke    | Chair    | @leonardpahlke    | leonardpahlke   | leonard.pahlke@googlemail.com | BWI |
+| Marlow Weston     | Chair    | @catblade         | MarlowWeston    | catblade@gmail.com          | SchedMD |
 | Kristina Devochko | Tech Lead| @guidemetothemoon | happyunicorrrn  |                             | Tietoevry    |
 | Saiyam Pathak     | Tech Lead| @saiyam1814       | saiyampathak    | saiyam911@gmail.com         |              |
 
