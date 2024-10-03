@@ -1,0 +1,76 @@
+name: Presentation
+description: Have something you want to share with the group? Or someone you would like to invite to speak? Propose a presentation for the TAG Environmental Sustainability regular meetings.
+title: "[Presentation] <some descriptive title>"
+labels: ["issue/needs-triage", "board/unassigned", "kind/presentation"]
+projects: ["cncf/10"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the TAG!
+        Please remind that an issue is not the place to ask a question.
+        The README documents how to reach us https://github.com/cncf/tag-env-sustainability#contact 
+        Thank you :).
+  - id: title
+    type: input
+    attributes:
+      label: Title
+      description: What is the title of your presentation?
+    validations:
+      required: true
+  - id: presentation_speaker
+    type: input
+    attributes:
+      label: Who will be presenting this? List names/github IDs of presenters.
+      description: please tag your GitHub profile here
+    validations:
+      required: true
+  - id: description
+    type: textarea
+    attributes:
+      label: Description
+      description: Describe in a short paragraph what the presentation is about.
+    validations:
+      required: true
+  - id: time
+    type: textarea
+    attributes:
+      label: Time
+      description: How long will the presentation take? Please aim for 10 minutes or limit the presentation to 15 minutes to leave enough time for discussion and other agenda items. (estimate)
+    validations:
+      required: true
+  - id: availability
+    type: textarea
+    attributes:
+      label: Availability
+      description: What is the availability times of the speakers to present the topic? Meeting times are listed on the landing page.
+    validations:
+      required: true
+  - id: todo_list
+    type: checkboxes
+    attributes:
+      label: Todo items reviewing the blog post
+      description: make sure to check off these before moving to the next step 
+      options:
+        - label: "First, contact one of [TAG ENV Co-Chairs](https://github.com/cncf/tag-env-sustainability#tag-environmental-sustainability-co-chairs) or [TLs](https://github.com/cncf/tag-env-sustainability#tag-environmental-sustainability-tech-leads) to confirm your presentation. You can tag them in this GitHub issue or contact them through the [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) channel [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6)."
+          required: false
+        - label: "Then, add the topic to the Agenda of the upcoming regular meeting in the [meeting notes](https://docs.google.com/document/d/1TkmMyXJABC66NfYmivnh7z8Y_vpq9f9foaOuDVQS_Lo/edit). Format: `[NAME] Presentation: '<title of your presentation>' <link to this issue>`"
+          required: false
+        - label: "Post a message in the [CNCF Slack](https://communityinviter.com/apps/cloud-native/cncf) channel [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6) to inform other TAG ENV contributors so that they can join!"
+          required: false
+  - id: coc
+    type: checkboxes
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://www.cncf.io/conduct/). 
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - id: comments
+    type: textarea
+    attributes:
+      label: Comments
+      description: Space to add any other comments about the blog post
+      placeholder: None
+    validations:
+        required: false

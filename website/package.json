@@ -25,17 +25,18 @@
     "preserve": "npm run _prebuild",
     "serve:dev": "npm run _serve:dev",
     "serve": "npm run _serve:hugo",
+    "serve:with-pagefind": "hugo --baseURL=/ --theme=docsy && npm_config_yes=true npx pagefind --site 'public' --output-subdir '../static/pagefind' && npm run serve",
     "test": "npm run check:links"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.0",
-    "hugo-extended": "0.104.3",
-    "postcss": "^8.3.7",
-    "postcss-cli": "^9.0.2"
+    "autoprefixer": "^10.4.19",
+    "hugo-extended": "^0.127.0",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0"
   },
   "enginesComment": "Ensure that engines.node stays consistent with .nvmrc",
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "words": "cSpell:ignore htmltest precheck refcache postget -"
 }

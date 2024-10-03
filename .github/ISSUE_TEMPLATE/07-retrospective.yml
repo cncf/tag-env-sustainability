@@ -1,0 +1,46 @@
+name: Retrospective
+description: Retrospective issue to reflect on a project, presence of the TAG at an event, or any other matter.
+title: "[RETRO] <some descriptive title>"
+labels: ["kind/retrospective", "issue/needs-triage", "board/unassigned"]
+projects: ["cncf/10"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the TAG!
+        Please remember that an issue is not the place to ask a question.
+        The README documents how to reach us https://github.com/cncf/tag-env-sustainability#contact 
+        Thank you :)
+  - id: retro_schema
+    type: textarea
+    attributes:
+      label: Schema of the retrospective
+      value: |
+        This tracking issue is used to collect async retro items from anyone of `PROJECT NAME`. 
+        
+        Please use the following template to leave feedback:
+
+        * **KEEP DOING**:
+        * **MORE OF**:
+        * **START DOING**:
+        * **STOP DOING**:
+        * **LESS OF**:
+        * **IDEAS**:
+
+        We will discuss anything added to the issue in the upcoming retro meeting on `XX-XX` and report on the results in the TAG Meeting on `XX-XX`.
+  - id: coc
+    type: checkboxes
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://www.cncf.io/conduct/). 
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - id: comments
+    type: textarea
+    attributes:
+      label: Comments
+      description: Space to add any other comments about the blog post
+      value: cc @cncf/tag-env-sustainability
+    validations:
+        required: false

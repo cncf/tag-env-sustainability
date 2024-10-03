@@ -1,0 +1,143 @@
+name: Project Tracking
+description: Use this template to track the ongoing progress of an accepted project proposal or suggestion within the TAG Environmental Sustainability.
+title: "[PROJECT TRACKING] <some descriptive title>"
+projects: ["cncf/10"]
+labels: ["board/tag", "issue/tracking", "issue/needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the TAG!
+        Please remember that an issue is not the place to ask a question.
+        The README documents how to reach us https://github.com/cncf/tag-env-sustainability#contact 
+        Thank you :)
+  - type: markdown
+    attributes:
+      value: |
+        If you personally want to lead the project, call it a "proposal", IF NOT, call it a "suggestion". If you want to lead the project, it is much more likely that the proposal will be accepted!
+  - id: description
+    type: textarea
+    attributes:
+      label: Description
+      description: Describe your idea here.
+    validations:
+      required: true
+  - id: impact
+    type: textarea
+    attributes:
+      label: Impact
+      description: Describe your hopes for how this would reduce risk for the cloud native ecosystem. Who will this help? How will it help them?
+    validations:
+      required: true
+  - id: scope
+    type: textarea
+    attributes:
+      label: Scope
+      description: Define what is in scope and out of scope for this project.
+      value: |
+        **In Scope**: ...
+
+        **Out of Scope**: ...
+    validations:
+      required: true
+  - id: goals
+    type: textarea
+    attributes:
+      label: Goals and Non-Goals
+      description: Outline the goals and non-goals for this project.
+      value: |
+        **Goals**: ...
+
+        **Non Goals**: ...
+    validations:
+      required: true
+  - id: deliverables
+    type: textarea
+    attributes:
+      label: Deliverables
+      description: List the artifacts to be created to complete this project (e.g., blogs, whitepapers, documentation, videos).
+      value: |
+        - ...
+    validations:
+      required: true
+  - id: additional_info
+    type: textarea
+    attributes:
+      label: Additional Info and Comments
+      description: Provide any additional information or comments about the project. Like supporting material, related links etc.
+    validations:
+      required: false
+  - id: project_details
+    type: textarea
+    attributes:
+      label: Project Details
+      description: |
+        Provide details about the project leads, TAG ENV lead representative, project timeline, drive folder, and meeting details.
+      value: |
+        - **Project Leads**: ...
+        - **TAG ENV Lead Representative**: ...
+        - **Project Started**: XX-XX-XX
+        - **Project Completed At**: XX-XX-XX
+        - **Project Drive Folder**: ...
+        - **Meeting Details**: ...
+           - *link*: `password`
+           - Meeting Notes: link
+           - Schedule: *every two weeks on Thursday* see [calendar](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com)
+        - Past Meetings:
+            - XX-XX: meeting title - YT recording link 
+  - id: todo
+    type: checkboxes
+    attributes:
+      label: To-Do List starting the project
+      description: Check off the following tasks as you complete them.
+      options:
+        - label: "Project details added to this issue."
+          required: true
+        - label: "Slack Channel created (if needed)."
+          required: false
+        - label: "Project Google Drive folder and meeting notes document created. Information added to the this issue."
+          required: false
+        - label: "Meeting Time & Day scheduled. Information added to the this issue."
+          required: false
+  - id: updates_to_tag
+    type: textarea
+    attributes:
+      label: Ongoing Project Updates to TAG ENV
+      description: This list is used to record the updates that are communicated to the TAG via the project development.
+      value: |
+        <!-- Format: 
+        - Update given on *YYYY-MM-DD*: <summary>
+        -->
+        - *No update given yet*
+  - id: todo_closing
+    type: checkboxes
+    attributes:
+      label: Tasks after completion of the project deliverables and conclusion of the project.
+      description: Check off the following tasks as you complete them.
+      options:
+        - label: "Reached out to the TAG Lead representative to complete the project deliverables."
+          required: false
+        - label: "TAG Lead commented under this issue about checking the deliverables"
+          required: false
+        - label: "Deliverables releases to the community if applicable"
+          required: false
+        - label: "Project retrospective issue opened opened (see issue templates)"
+          required: false
+        - label: "Project retrospective completed"
+          required: false
+  - id: coc
+    type: checkboxes
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://www.cncf.io/conduct/).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - id: comments
+    type: textarea
+    attributes:
+      label: Comments
+      description: Space to add any other comments about the tracking of this project.
+      value: cc @cncf/tag-env-sustainability
+    validations:
+        required: false

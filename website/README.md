@@ -21,8 +21,4 @@ cd website
 npm install
 ```
 
-You can then serve the site from the `website` directory using:
-
-```sh
-npm run serve
-```
+Then run the site using `npm run serve`. To have the site run locally with a functioning local search, run `npm run serve:with-pagefind`.

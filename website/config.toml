@@ -48,10 +48,63 @@ anchor = "smart"
 [languages]
 [languages.en]
 title = "CNCF TAG Environmental Sustainability"
-description = "TAG Environmental Sustainability focuses on enabling projects and initiatives related to delivering cloud-native applications, including building, deploying, managing, and operating them."
 languageName ="English"
 # Weight used for sorting.
 weight = 1
+contentDir = "content/en"
+
+[languages.en.params]
+description = "TAG Environmental Sustainability focuses on enabling projects and initiatives related to delivering cloud-native applications, including building, deploying, managing, and operating them."
+
+[languages.de]
+title = "CNCF TAG Environmental Sustainability"
+languageName ="Deutsch (German)"
+# Weight used for sorting.
+weight = 2
+contentDir = "content/de"
+
+[languages.de.params]
+description = "TAG Environmental Sustainability konzentriert sich auf die Unterstützung von Projekten und Initiativen im Zusammenhang mit der Bereitstellung von Cloud Nativen Anwendungen, einschließlich deren Entwicklung, Bereitstellung, Verwaltung und Betrieb."
+
+[languages.ja]
+title = "CNCF TAG Environmental Sustainability"
+languageName ="日本語 (Japanese)"
+# Weight used for sorting.
+weight = 3
+contentDir = "content/ja"
+
+[languages.ja.params]
+description = "TAG Environmental Sustainabilityは、クラウドネイティブアプリケーションの構築、デプロイ、管理、運用を含むプロジェクトとイニシアチブの実現に焦点を当てています。"
+
+[languages.ko]
+title = "CNCF TAG Environmental Sustainability"
+languageName ="한국어 (Korean)"
+# Weight used for sorting.
+weight = 4
+contentDir = "content/ko"
+
+[languages.ko.params]
+description = "TAG 환경 지속가능성은 클라우드 네이티브 애플케이션, 구축, 배포, 관리 그리고 운영을 위한 프로젝트와 이니셔티브를 중심으로 하고 있습니다."
+
+[languages.zh]
+title = "CNCF TAG Environmental Sustainability"
+languageName ="简体中文 (Simplified Chinese)"
+# Weight used for sorting.
+weight = 5
+contentDir = "content/zh"
+
+[languages.zh.params]
+description = "TAG环境可持续性专注于与交付云原生应用程序相关的扶持项目和举措，包括构建、部署、管理和运营这些应用程序。"
+
+[languages.es]
+title = "CNCF TAG Environmental Sustainability"
+languageName ="Español (Spanish)"
+# Weight used for sorting.
+weight = 6
+contentDir = "content/es"
+
+[languages.es.params]
+description = "TAG Sostenibilidad Ambiental se enfoca en habilitar proyectos e iniciativas para entregar aplicaciones cloud-native, incluyendo la construcción, despliegue, administración y las operaciones de las mismas."
 
 [markup]
   [markup.goldmark]
@@ -72,7 +125,7 @@ copyright = "CNCF"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
-image = "https://tag-env-sustainability.cncf.io/images/cncf-sustainability-share.jpg"
+image = "https://tag-env-sustainability.cncf.io/images/cncf-sustainability-share.webp"
 
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.
@@ -93,7 +146,7 @@ version = "0.0"
 url_latest_version = "https://tag-env-sustainability.cncf.io"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
-gcs_engine_id = "06963a606b9934e7b"
+# gcs_engine_id = "06963a606b9934e7b"
 
 # Enable Algolia DocSearch
 algolia_docsearch = false
@@ -137,8 +190,8 @@ sidebar_search_disable = false
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/cncf/cartografos/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/cncf/cartografos/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/cncf/tag-env-sustainability/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/cncf/tag-env-sustainability/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page, 

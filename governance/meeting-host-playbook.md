@@ -2,6 +2,16 @@
 
 Meetings are held to coordinate and discuss TAG ENV activities. The TAG ENV leads host these meetings. The following playbook can be used for reference to structure the meeting, you don't need to stick step by step (word by word), it should give guidance how a meeting usually is structured.
 
+- [TAG Environmental Sustainability Meeting Host Playbook](#tag-environmental-sustainability-meeting-host-playbook)
+  - [Requirements to host the meeting](#requirements-to-host-the-meeting)
+  - [Pre-Meeting](#pre-meeting)
+  - [During the Meeting](#during-the-meeting)
+    - [Preparation](#preparation)
+    - [Intro](#intro)
+    - [Agenda](#agenda)
+    - [End of the Meeting](#end-of-the-meeting)
+  - [Post-Meeting](#post-meeting)
+
 ## Requirements to host the meeting
 
 * Install Zoom and check your settings (especially audio and video).
@@ -10,10 +20,10 @@ Meetings are held to coordinate and discuss TAG ENV activities. The TAG ENV lead
 
 ## Pre-Meeting
 
-* Add a new blank agenda entry to the meeting notes by copying the template and editing the details accordingly.
-* Announce a day in advance in Slack to add agenda items to meeting notes.
-* Announce the meeting about an hour before in the `#tag-env-sustainability` Slack channel.
-* Announce the meeting over [social media](https://github.com/cncf/tag-env-sustainability#contact) a day before. If there is a special presentation / occasion, you may want to announce it a total of two times a week in advance.
+* Add a new blank agenda entry to the [meeting notes](https://bit.ly/cncf-tag-env-meeting-notes) by copying the template and editing the details accordingly.
+* Announce a day in advance in Slack to add agenda items to [meeting notes](https://bit.ly/cncf-tag-env-meeting-notes).
+* Announce the meeting about an hour before in the `#tag-environmental-sustainability` Slack channel.
+* Announce the meeting over [social media](https://github.com/cncf/tag-env-sustainability#contact) a day before. If there is a special presentation / occasion. You may want to announce it a total of two times a week in advance.
 
   ```markdown
   Hi folks! The CNCF TAG ENV bi-weekly meeting takes place 1 hour from now.
@@ -86,7 +96,7 @@ Meetings are held to coordinate and discuss TAG ENV activities. The TAG ENV lead
 
   <list of outstanding discussion items>
 
-  Talk to you all latest at the next TAG ENV meeting on the [<data>](https://tockify.com/cncf.public.events/monthly?search=TAG%20Environmental%20Sustainability).
+  Talk to you all latest at the next TAG ENV meeting on the [<data>](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com&ctz=America%2FChicago).
   ```
 
 Go to the [CNCF TAG YouTube Channel Studio Page](https://studio.youtube.com/channel/UCMOopJuyyIWB8vXGct1ffNw/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D) and look up your recent meeting. This may take up to 1h to show up.

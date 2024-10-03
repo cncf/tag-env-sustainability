@@ -2,7 +2,7 @@
 
 This document describes the process writing blogs for the CNCF TAG Environmental Sustainability (TAG ENV) blog.
 The blog is found under [tag-env-sustainability.cncf.io/blog](https://tag-env-sustainability.cncf.io/blog/).
-The website is part of the TAG ENV repository, blog post are located in this folder [`website/content/blog`](https://github.com/cncf/tag-env-sustainability/tree/main/website/content/blog).
+The website is part of the TAG ENV repository, blog post are located in this folder [`website/content/en/blog`](https://github.com/cncf/tag-env-sustainability/tree/main/website/content/en/blog) for English content.
 
 - [Process for creating blog post](#process-for-creating-blog-post)
   - [Process](#process)
@@ -78,7 +78,7 @@ By including these sections, you have more guidance for a well-structured and ta
 ### Asking for reviews
 
 When seeking blog post reviews, it is essential to adopt a public and transparent approach to encourage participation and diverse perspectives.
-Begin by posting a Slack message in `#tag-env-sustainability`, asking for reviews and providing a link to the blog post.
+Begin by posting a Slack message in `#tag-environmental-sustainability`, asking for reviews and providing a link to the blog post.
 Post under their GitHub issue once you've taken someone's feedback so they can take another look at it.
 Additionally, consider mentioning the blog post during one of the TAG meetings to raise awareness.
 In the event of insufficient reviews, notify the assigned TAG Lead, seeking their support in facilitating the review process.
@@ -94,7 +94,7 @@ If a conflict cannot be resolved, ask your TAG ENV Blog Post Sponsor for assista
 
 ## Sponsorship
 
-Co-Chairs of the TAG are responsible for the content that the TAG produces, as such a Co-chair or Technical lead should be the primary "sponsor" of a blog post that allows a contributor or member of the TAG to lead the content creation, timelines, communication, and tracking approvals.
+Co-Chairs of the TAG are responsible for the content that the TAG produces, as such a Co-chair or Technical lead should be the primary "sponsor" of a blog post that allows a TAG ENV contributor to lead the content creation, timelines, communication, and tracking approvals.
 Once the "sponsor" is satisfied with the content, they notify the TOC liaison to review and provide final sign-off.
 
 As described in the previous chapter, one of the co-chairs or technical leads will assign your blogpost proposal themselves after an issue has been opened with an outline.

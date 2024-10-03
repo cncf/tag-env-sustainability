@@ -1,0 +1,36 @@
+{
+  "aliveStatusCodes": [200, 206, 402],
+  "ignorePatterns": [
+    {
+      "pattern": "^(http|https):\/\/(www\\.)?(linkedin|twitter|slack)"
+    },
+    {
+      "pattern": "https:\/\/communityinviter.com\/apps\/cloud-native\/cncf"
+    },
+    {
+      "pattern": "^/landscape(.+)?/|(.+)?/landscape(.+)?/"
+    }
+  ],
+  "replacementPatterns": [
+    {
+      "pattern": "^/images/",
+      "replacement": "/website/static/images/"
+    },
+    {
+      "pattern": "^/",
+      "replacement": "{{BASEURL}}/"
+    }
+  ],
+  "httpHeaders": [
+    {
+      "urls": ["https://docs.github.com/"],
+      "headers": {
+        "Accept-Encoding": "zstd, br, gzip, deflate"
+      }
+    }
+  ],
+  "retryCount": 3,
+  "retryOn429": true,
+  "fallbackRetryDelay": "60s",
+  "timeout": "20s"
+}

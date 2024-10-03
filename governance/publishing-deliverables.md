@@ -3,6 +3,16 @@
 As part of regular business of TAG Environmental Sustainability, we publish several artifacts as deliverables coming out of different projects.
 The following guide is intended to help future project leads to deliver their artifacts by learning from past experiences of delivering such artifacts.
 
+- [Guidance on Publishing and Delivering Artifacts](#guidance-on-publishing-and-delivering-artifacts)
+  - [Using GitHub Issues to Track Progress](#using-github-issues-to-track-progress)
+  - [Identifying External Dependencies](#identifying-external-dependencies)
+  - [Get Help from CNCF Service Desk](#get-help-from-cncf-service-desk)
+  - [Define Stages of Publication](#define-stages-of-publication)
+  - [Write a Blog](#write-a-blog)
+  - [Common Mistakes to Avoid](#common-mistakes-to-avoid)
+  - [Sharing Far and Wide](#sharing-far-and-wide)
+  - [Take Ownership and Give Credit](#take-ownership-and-give-credit)
+
 ## Using GitHub Issues to Track Progress
 
 All deliverables need a single place where, anyone can go to:
