@@ -57,6 +57,5 @@ Import the TAG ENV Calendar feed into your calendar from following URL: [TAG ENV
 
 - [Leonard Pahlke](https://github.com/leonardpahlke) (Chair)
 - [Marlow Weston](https://github.com/catblade) (Chair)
-- [Max Körbächer](https://github.com/mkorbi) (Chair)
 - [Kristina Devochko](https://github.com/guidemetothemoon) (TL)
 - [Saiyam Pathak ](https://github.com/saiyam1814) (TL)
