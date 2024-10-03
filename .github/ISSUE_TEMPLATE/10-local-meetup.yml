@@ -32,11 +32,11 @@ body:
       description: What are the goals and activities planned for the meetup?
     validations:
       required: true
-  - id: todo
+  - id: todo-prepare
     type: checkboxes
     attributes:
-      label: To-Do
-      description: What specific actions are needed to organize this meetup?      
+      label: To-Do (Preparation)
+      description: What specific actions are needed to organize this meetup?
       options:
         - label: Review the [Meetup Organizer Guide](https://docs.google.com/document/d/1xfUqxt0EeMhrsg8h5p_cAJ1ZHzWryrIywue53rVRFJw/edit?usp=sharing) for onboarding.
           required: true
@@ -55,6 +55,32 @@ body:
         - label: Announce the event.
           required: false
         - label: Reach out to the Cloud Native Sustainability Week Organizer team to promote the event.
+          required: false
+  - id: todo-execution
+    type: checkboxes
+    attributes:
+      label: To-Do (During Execution)
+      description: What specific actions to do during event execution?
+      options:
+        - label: Use the [Artworks](https://www.figma.com/design/gydAB5esFpNxO3smhZTCkl/Sustainability-Week-Layouts---Shared?node-id=8-90&node-type=canvas) and [Presentation Template](https://docs.google.com/presentation/d/15Ywyw2YjNyckXs7lEWySrjC4fh7pLglUkDZOipLDQB4/edit#slide=id.g302f22217e4_2_173). You can use some slides in the template at the begining of the event for introducing the cloud native sustainability week event.
+          required: false
+        - label: Distribute the feedback survey to attendees. Use the [Survey Blueprint](https://docs.google.com/forms/d/e/1FAIpQLSeIsz3T5XHhQf9ZMhfmHAchvGX5_enteQ5j9ZmIsMoFjshfGg/viewform).
+          required: false
+        - label: Record the event with photos or video recordings.
+          required: false
+  - id: todo-after
+    type: checkboxes
+    attributes:
+      label: To-Do (After Event)
+      description: What specific actions to do after the event?
+      options:
+        - label: Share the event records, summary via blog post, recordings to `#tag-env-cloud-native-sustainability-week` slack channel.
+          required: false
+        - label: Share the survey summary from attendees.
+          required: false
+        - label: Leave feedbacks/comments (KEEP DOING, MORE OF, START DOING, STOP DOING, LESS OF, IDEAS) about organzing the event in this issue.
+          required: false
+        - label: Submit the information of organizers, speakers to issue the credly badges. [to put the submission form here]
           required: false
   - id: coc
     type: checkboxes
