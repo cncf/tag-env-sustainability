@@ -31,7 +31,7 @@ CNCF可持续发展周是由[CNCF环境可持续性技术咨询小组（TAG ENV�
 | **NR** | **Location** | **Date** | **Event Link** | **Name** |
 |---|---|---|---|---|
 | 1 | Amsterdam, Netherlands | 10th October | [link](https://community.cncf.io/e/mwszqh/) | Julie Chenadec, Alessandro Vozza, Pavel Chunyayev, Matteo Bianchi
-| 2 | Guatemala | TBD | TBD | Sergio Méndez
+| 2 | Guatemala | Oct. 26 | [Link](https://community.cncf.io/e/m8chk2/) | Diana Menendez, Sergio Méndez
 | 3 | China | TBD | TBD | Sam Yuan
 | 4 | Oslo, Norway | Oct. 9 | [Link](https://www.meetup.com/gsf-oslo/events/303318869/) | Marta Paciorkowska, Kristina Devochko, [Green Software - Oslo](https://www.meetup.com/gsf-oslo)
 | 5 | Tokyo, Japan | Oct. 4 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-community-japan-presents-cncf-cloud-native-sustainability-week-2024-local-meetup-tokyo/) | Sunyanan Choochotkeaw ([Cloud Native Community Japan](https://community.cncf.io/cloud-native-community-japan/))
@@ -41,8 +41,11 @@ CNCF可持续发展周是由[CNCF环境可持续性技术咨询小组（TAG ENV�
 | 9 | Aarhus, Denmark | October 7th | [Link](https://community.cncf.io/events/details/cncf-aarhus-presents-cncf-sustainability-week-aarhus-2024/) | [Cloud Native Aarhus Organizers](https://community.cncf.io/aarhus/)
 | 10 | Kuala Lumpur, Malaysia | Oct. 21 | TBD | Mageshwaran Sekar, Khairul Anuar, Ahmed Zidan
 | 11 | Stuttgart, Germany | TBD| TBD | Danijel Soldo, Stefan Bergstein
-| 12 | Paris, France | Oct. 15 | TBD | Smaine Kahlouch [Cloud Native Paris](https://community.cncf.io/paris/)
+| 12 | Paris, France | Oct. 15 | [Link](https://community.cncf.io/events/details/cncf-paris-presents-cloud-native-sustainability-week-akamai/) | Smaine Kahlouch [Cloud Native Paris](https://community.cncf.io/paris/)
 | 13 | Brighton, UK | Oct. 16 | [Link](https://www.meetup.com/gsf-brighton/events/303193268) | Adam Newman, [Green Software Brighton](https://greensoftwarebrighton.co.uk)
+| 14 | Lorient, FR | Sept. 25 | [Link](https://community.cncf.io/events/details/cncf-lorient-presents-cloud-native-lorient-5/) | Sébastien DAVOULT [cloud Native Lorient](https://community.cncf.io/lorient/)
+| 15 | Barcelona, Spain | October 9th | [Link](https://community.cncf.io/events/details/cncf-cloud-native-barcelona-presents-cloud-native-sustainability-week-2024-barcelona-edition/) - [Link](https://www.meetup.com/cloud-native-bcn/events/303352183) | Christian Polanco, Imma Valls
+| 16 | Karlsruhe, Germany | Oct. 15 | [Link](https://www.meetup.com/gsf-brighton/events/303193268) | Aydin Mir Mohammadi, [Green Software Development Karlsruhe](https://www.meetup.com/green-software-development-karlsruhe)
 <!-- cSpell:enable -->
 
 ## 活动目标
