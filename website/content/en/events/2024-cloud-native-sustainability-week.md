@@ -35,7 +35,7 @@ After the successful [Sustainability Week 2023](https://tag-env-sustainability.c
 | 5 | Tokyo, Japan | Oct. 4 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-community-japan-presents-cncf-cloud-native-sustainability-week-2024-local-meetup-tokyo/) | Sunyanan Choochotkeaw ([Cloud Native Community Japan](https://community.cncf.io/cloud-native-community-japan/))
 | 6 | Milan, Italy | Sep. 30 & Oct. 7 | [Link Sep. 30](https://www.meetup.com/digital-platform-builders/events/303350215) - [Link Oct. 7](https://www.meetup.com/digital-platform-builders/events/303350378) |  Michel Murabito, Valeria Salis, Ludovica Bonaldo
 | 7 | Sao Paulo, Brazil | Oct. 22 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-sao-paulo-presents-27-cloud-native-sao-paulo-sustainability-day-na-aws/) | Carol Valencia, Tiago Reichert, Pedro Ignácio, Erivaldo Lopes
-| 8 | India | TBD | TBD | Saiyam
+| 8 | India, Bangalore | Oct. 19 | TBD | Prakash Mishra, Humble Devassy Chirammal, Kiran Mova
 | 9 | Aarhus, Denmark | October 7th | [Link](https://community.cncf.io/events/details/cncf-aarhus-presents-cncf-sustainability-week-aarhus-2024/) | [Cloud Native Aarhus Organizers](https://community.cncf.io/aarhus/)
 | 10 | Kuala Lumpur, Malaysia | Oct. 21 | [Link](https://community.cncf.io/e/mjtwmr) | Mageshwaran Sekar, Khairul Anuar, Ahmed Zidan
 | 11 | Stuttgart, Germany | October 10th | [Link](https://community.cncf.io/events/details/cncf-cloud-native-stuttgart-presents-cncf-sustainability-week-stuttgart-2024/) | Danijel Soldo, Jens Schwarzer, Stefan Bergstein, Wolfram Richter
@@ -44,7 +44,8 @@ After the successful [Sustainability Week 2023](https://tag-env-sustainability.c
 | 14 | Lorient, FR | Sept. 25 | [Link](https://community.cncf.io/events/details/cncf-lorient-presents-cloud-native-lorient-5/) | Sébastien DAVOULT [cloud Native Lorient](https://community.cncf.io/lorient/)
 | 15 | Barcelona, Spain | October 9th | [Link](https://community.cncf.io/events/details/cncf-cloud-native-barcelona-presents-cloud-native-sustainability-week-2024-barcelona-edition/) - [Link](https://www.meetup.com/cloud-native-bcn/events/303352183) | Christian Polanco, Imma Valls
 | 16 | Karlsruhe, Germany | Oct. 15 | [Link](https://www.meetup.com/gsf-brighton/events/303193268) | Aydin Mir Mohammadi, [Green Software Development Karlsruhe](https://www.meetup.com/green-software-development-karlsruhe)
-| 17 | Santiago, Chile | Oct. 22 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-santiago-presents-cncf-cloud-native-sustainability-week-2024-santiago-meetup/) | Pablo Rene Esquerra Veas, Jesus A. Rodriguez B., Mary Montesinos, Efrain Esteban Duarte Campos, Sergio Canales, [Cloud Native Santiago](https://community.cncf.io/cloud-native-santiago/)
+| 17 | Berlin, Germany | Oct. 17 | TBD | Chris Chinchilla, plus others TBD
+| 18 | Santiago, Chile | Oct. 22 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-santiago-presents-cncf-cloud-native-sustainability-week-2024-santiago-meetup/) | Pablo Rene Esquerra Veas, Jesus A. Rodriguez B., Mary Montesinos, Efrain Esteban Duarte Campos, Sergio Canales, [Cloud Native Santiago](https://community.cncf.io/cloud-native-santiago/)
 <!-- cSpell:enable -->
 
 ## Event Goals
