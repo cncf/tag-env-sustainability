@@ -104,7 +104,7 @@ There are many ways to begin your contributor journey. We recommend checking out
 
 - Read the blog [Getting started as a TAG Environmental Sustainability Contributor](https://tag-env-sustainability.cncf.io/blog/2023-getting-started-as-tag-env-contributor). It’s a general guide on how to get started in the TAG Environmental Sustainability, and many of the steps provided in the blog post also apply to the Green Reviews WG.
 - Check the [Green Reviews WG Charter](https://github.com/cncf/tag-env-sustainability/blob/main/working-groups/green-reviews/charter.md). It outlines the WG's motivation, scope, goals, non-goals, and deliverables.
-- Read the [documentation](https://github.com/cncf-tags/green-reviews-tooling/blob/main/website/content/docs) in the green-reviews tooling GitHub repository.
+- Read the [documentation](https://github.com/cncf-tags/green-reviews-tooling/blob/main/docs) in the green-reviews tooling GitHub repository.
 - Join the WG Slack channel [#tag-env-wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431) in the [CNCF Slack](https://slack.cncf.io) workspace and attend the group [meetings](http://bit.ly/wg-green-reviews).
 - Check out the Working Group's backlog to find beginner-friendly issues to work on, and check the [contributing guide](https://github.com/cncf-tags/green-reviews-tooling/blob/main/CONTRIBUTING.md)! All types of contributions are welcome: code contributions, issues, suggestions for things like product roadmap, questions, and documentation.
 
