@@ -1,6 +1,6 @@
-name: TAG ENV Member Onboarding
+name: TAG ENV Lead Onboarding
 description: Use this issue if a TAG ENV Chair, TL or WG Chair, TL or Project Lead joins.
-title: "[Tracking] Onboarding <MEMBER>"
+title: "[Tracking] Onboarding <GH Handle>"
 labels: ["issue/needs-triage", "board/unassigned"]
 projects: ["cncf/10"]
 body:
@@ -8,7 +8,7 @@ body:
     type: textarea
     attributes:
       label: Description
-      description: <MEMBER> joined <DATE> as TAG ENV <ROLE>. This issue is used as anchor point to coordinate onboarding.
+      description: <GH Handle> joined <DATE> as TAG ENV <ROLE>. This issue is used as anchor point to coordinate onboarding.
     validations:
       required: true
   - id: steps
@@ -46,11 +46,11 @@ body:
       value: https://github.com/<XYZ>
     validations:
       required: false
-  - id: tagmember
+  - id: taglead
     type: textarea
     attributes:
-      label: Ask member to agree to onboarding
-      placeholder: <MEMBER> - please confirm your onboarding to the TAG ENV project by adding the comment "Agree to get onboarded +1" as a comment to this issue. Welcome!
+      label: Ask the contributor joining the TAG leadership team to agree to onboarding
+      placeholder: <GH Handle> - please confirm your onboarding to the TAG ENV project by adding the comment "Agree to get onboarded +1" as a comment to this issue. Welcome!
     validations:
         required: true
   - id: comments
