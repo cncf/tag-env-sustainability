@@ -1,0 +1,58 @@
+name: TAG ENV Lead Offboarding
+description: Use this issue if a TAG ENV Chair, TL or WG Chair, TL or Project Lead retires from their role.
+title: "[Tracking] Offboarding <GH Handle>"
+labels: ["issue/needs-triage", "board/unassigned"]
+projects: ["cncf/10"]
+body:
+  - id: description
+    type: textarea
+    attributes:
+      label: Description
+      description: <GH Handle> stepped <DATE> as TAG ENV <ROLE>. This issue is used as anchor point to coordinate offboarding.
+    validations:
+      required: true
+  - id: steps
+    type: checkboxes
+    attributes:
+      label: Offboarding steps
+      description: Offboarding steps. Some steps may not be applicable depending on the role.
+      options:
+        - label: TAG ENV Leadership references updated on our [website](https://tag-env-sustainability.cncf.io/)
+          required: false
+        - label: Meeting Notes Document(s) updated
+          required: false
+        - label: Update Google Drive Shared Access (only applicable for TAG ENV Chairs)
+          required: false
+        - label: Update CNCF Service Desk & CNCF Email Groups Access (only applicable for TAG ENV Chairs)
+          required: false
+        - label: Update TAG ENV Repository Settings ([cncf/people](https://github.com/cncf/people/) & [cncf-tags/](https://github.com/cncf-tags/org-admin))
+          required: false
+        - label: Update Private Slack Channels (Only a Slack Admin e.g. CNCF personell can update these settings. CNCF staff can join the Channel update the member list and leave again)
+          required: false
+        - label: Update YouTube Channel Membership ([channel](https://studio.youtube.com/channel/UCMOopJuyyIWB8vXGct1ffNw))
+          required: false
+        - label: Update Google Calendar Sharing & Edit Permissions (only applicable for TAG Chairs, TL and WG Chairs)
+          required: false
+  - id: role
+    type: input
+    attributes:
+      label: Role (TAG Chair, TAG TL, WG Chair, WG TL, Project Lead)
+      value: |
+        ...
+    validations:
+      required: false
+  - id: taglead
+    type: textarea
+    attributes:
+      label: Ask the contributor joining the TAG leadership team to agree to offboarding
+      placeholder: <GH Handle> - please confirm your offboarding from the TAG ENV project by adding the comment "Agree to get offboarded +1" as a comment to this issue. We appreciate your contributions and look forward to your continued participation in the community as your schedule and interests allow!
+    validations:
+        required: true
+  - id: comments
+    type: textarea
+    attributes:
+      label: Comments
+      description: Space to add any other comments, refer to people, or provide additional details. If you need assistance from CNCF staff, you can also use this field for this purpose!
+      placeholder: None
+    validations:
+        required: false
