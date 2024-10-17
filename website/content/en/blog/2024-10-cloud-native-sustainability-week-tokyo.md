@@ -27,7 +27,7 @@ After an hour of keynotes, we’ll pick up the pace with some dynamic moments fe
 
 Scott introduced the [SusQL operator](https://github.com/sustainable-computing-io/susql-operator/tree/main), of which he is a top contributor. SusQL integrates together with the energy metric collectors like Kepler and carbon emission API like Carbon Aware SDK to aggregate energy consumption and carbon emissions for user-specified workloads, particularly in AI model training. 
 
-Akiho showcased how to use [Kepler](https://github.com/sustainable-computing-io/kepler) to monitor the energy consumption of local large language models on Kubernetes. His findings revealed that Llama 3.2B actually consumes more energy than Gemma2 9B when processing the same prompt, highlighting some surprising trends in energy usage among different models. 
+Akiho showcased how to use [Kepler](https://github.com/sustainable-computing-io/kepler) to monitor the energy consumption of local large language models on Kubernetes. His findings revealed that Llama 3.2B actually consumes more energy than Gemma 2.9B when processing the same prompt, highlighting some surprising trends in energy usage among different models. 
 
 Lastly, we have Ohri presenting the newly announced [Carbon Footprint of Products (CFP) calculation rule](https://www.kankyouclub.or.jp/activity/doc/CFPCalculationRule_v1.1.pdf), developed through collaboration among nine companies at the Life Cycle Assessment Society of Japan (LCA) in March 2024. He demonstrated how to implement this rule using cloud providers and measurement tools like Kepler, and he also discussed the remaining challenges that need to be addressed.
 
