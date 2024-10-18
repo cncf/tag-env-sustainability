@@ -54,3 +54,8 @@ TAG Environmental Sustainability has a dedicated [YouTube channel](https://www.y
 Currently TAG ENV chairs, TAG ENV tech leads and Working Group chairs have access to record the sessions and upload those to the YouTube channel, as well as administer the YouTube channel itself.
 
 If there's a significant need for a Working Group tech lead to get access to record meetings and administer the YouTube channel, it will be evaluated on case-by-case basis. Request for access for the Working Group tech lead can be flagged to the TAG ENV leads by the respective Working Group chair, for example during the TAG/WG lead sync.
+In this case access will be provided for a limited time period - for example until:
+
+- a meeting recording has been uploaded to the YouTube channel
+- an event has been finalized
+- a project has been completed
