@@ -42,3 +42,20 @@ The [`CONTRIBUTING.md`](../CONTRIBUTING.md) gives more information about how to 
 
 The TAG uses a [project board](https://github.com/orgs/cncf/projects/10) to visualize and track issues.
 The project board has views for working groups or projects.
+
+## TAG ENV social media accounts permissions and administration
+
+General information about creation and management of TAG ENV's social media accounts can be found in [communication-channels.md](./communication-channels.md).
+
+### YouTube channel
+
+TAG Environmental Sustainability has a dedicated [YouTube channel](https://www.youtube.com/@CNCFEnvTAG) where we publish recordings of all the meetings, as well as recordings from the events that were organized in context of the TAG ENV, for example meetup recordings from Cloud Native Sustainability Week.
+
+Currently TAG ENV chairs, TAG ENV tech leads and Working Group chairs have access to record the sessions and upload those to the YouTube channel, as well as administer the YouTube channel itself.
+
+If there's a significant need for a Working Group tech lead to get access to record meetings and administer the YouTube channel, it will be evaluated on case-by-case basis. Request for access for the Working Group tech lead can be flagged to the TAG ENV leads by the respective Working Group chair, for example during the TAG/WG lead sync.
+In this case access will be provided for a limited time period - for example until:
+
+- a meeting recording has been uploaded to the YouTube channel
+- an event has been finalized
+- a project has been completed
