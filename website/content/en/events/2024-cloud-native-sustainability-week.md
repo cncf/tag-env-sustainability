@@ -46,6 +46,7 @@ After the successful [Sustainability Week 2023](https://tag-env-sustainability.c
 | 16 | Karlsruhe, Germany | Oct. 15 | [Link](https://www.meetup.com/gsf-brighton/events/303193268) | Aydin Mir Mohammadi, [Green Software Development Karlsruhe](https://www.meetup.com/green-software-development-karlsruhe)
 | 17 | Santiago, Chile | Oct. 22 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-santiago-presents-cncf-cloud-native-sustainability-week-2024-santiago-meetup/) | Pablo Rene Esquerra Veas, Jesus A. Rodriguez B., Mary Montesinos, Efrain Esteban Duarte Campos, Sergio Canales, [Cloud Native Santiago](https://community.cncf.io/cloud-native-santiago/)
 | 18 | Calgary, Canada | Oct. 23 | [Link](https://www.meetup.com/cncf-cloud-native-sustainability-week-2024-calgary/events/303855000/) | Jialin Yang, Zainab Saad
+| 19 | London, United Kingdom | Oct. 24 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-westminster-presents-cncf-sustainability-week-2024-london-meetup/) | Rohit Ghumare, Ella Speranska, Santosh Kumar Perumal, Vinod SR
 <!-- cSpell:enable -->
 
 ## Event Goals
