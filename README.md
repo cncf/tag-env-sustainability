@@ -57,13 +57,12 @@ Please take a look at the [Project folder](projects/README.md) to discover all s
 
 ## Meeting administration
 
-* Meetings are every 1st and 3rd Wed at 8am PST on [Zoom](https://zoom.us/my/cncftagenvsustainability).
-
-  Add TAG ENV Calendar to your calendar:
-  - Import the TAG ENV Calendar feed into your calendar from following URL: [TAG ENV Calendar](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com). [Subscribe to someone’s Google Calendar](https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DDesktop). In this case your calendar will be automatically updated once new events are published.
-
-  Meeting notes & agenda [here](https://docs.google.com/document/d/1TkmMyXJABC66NfYmivnh7z8Y_vpq9f9foaOuDVQS_Lo/edit#)
+* Meetings are every 1st and 3rd Wednesday of the month at 8am PST on [Zoom](https://zoom.us/my/cncftagenvsustainability).
+  Meeting notes and agenda are available [here](https://docs.google.com/document/d/1TkmMyXJABC66NfYmivnh7z8Y_vpq9f9foaOuDVQS_Lo/edit#).
+* TAG ENV APAC meetings are taking place every 2nd and 4th Tuesday of the month at 12pm GMT/5:30am PT on [Zoom](https://zoom.us/my/cncftagenvsustainability).
 * [Mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/) via [cncf-tag-env-sustainability@lists.cncf.io](mailto:cncf-tag-env-sustainability@lists.cncf.io)
+  Meeting notes are available [here](https://github.com/cncf/tag-env-sustainability/blob/main/meeting-notes-apac.md).
+  Agenda is created as a [GitHub issue](https://github.com/cncf/tag-env-sustainability/issues?q=is%3Aissue%20state%3Aopen%20label%3Atag-env-apac%2Fmeeting-agenda) for every upcoming meeting.
 * Slack channels on ```slack.cncf.io```:
   * [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6)
   * [#tag-env-wg-comms](https://cloud-native.slack.com/archives/C068XUD9AEA)
@@ -72,6 +71,11 @@ Please take a look at the [Project folder](projects/README.md) to discover all s
   * LinkedIn: [CNCF TAG Environmental Sustainability](https://www.linkedin.com/company/cncf-tag-environmental-sustainability)
   * Twitter/X: [@CNCFEnvTAG](https://twitter.com/CNCFEnvTAG)
   * YouTube: [@CNCFEnvTAG](https://www.youtube.com/@CNCFEnvTAG)
+
+### Add TAG ENV meeting Calendar to your calendar
+
+Import the TAG ENV Calendar feed into your calendar from following URL: [TAG ENV Calendar](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com).
+[Subscribe to someone’s Google Calendar](https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform%3DDesktop). In this case your calendar will be automatically updated once new events are published.
 
 ## Roadmap
 
