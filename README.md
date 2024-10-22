@@ -79,4 +79,4 @@ Currently we don't have a dedicated roadmap document, but we have a [GitHub issu
 
 ## Charter
 
-The [TAG Environmental Sustainability Charter](charter.md) further outlines the scope of our group activities as well as the goals and intended deliverables.
+The [CNCF TAG Environmental Sustainability Charter](https://github.com/cncf/toc/blob/main/tags/tag-charters/environmentalsustainability.md) in the TOC repository further outlines the scope of our group activities as well as the goals and intended deliverables.
