@@ -79,7 +79,10 @@ Import the TAG ENV Calendar feed into your calendar from following URL: [TAG ENV
 
 ## Roadmap
 
-Currently we don't have a dedicated roadmap document, but we have a [GitHub issue](https://github.com/cncf/tag-env-sustainability/issues/560) to track the work related to its creation. Once the document is created, this section will be updated.
+Currently we don't have a dedicated roadmap document, but we have a [GitHub issue](https://github.com/cncf/tag-env-sustainability/issues/560) to track the work related to its creation.
+Once the document is created, this section will be updated.
+
+[Project board](https://github.com/orgs/cncf/projects/10) can also be referenced for more details regarding items that the TAG is working on.
 
 ## Charter
 
