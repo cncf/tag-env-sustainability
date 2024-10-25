@@ -59,3 +59,4 @@ Fügen Sie den TAG ENV-Kalender-Feed von folgender URL in Ihren Kalender ein: [T
 - [Marlow Weston](https://github.com/catblade) (Chair)
 - [Kristina Devochko](https://github.com/guidemetothemoon) (TL)
 - [Saiyam Pathak ](https://github.com/saiyam1814) (TL)
+- [Alessandro Vozza](https:/github.com/ams0) (TL)
