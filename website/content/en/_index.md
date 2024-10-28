@@ -59,4 +59,4 @@ Import the TAG ENV Calendar feed into your calendar from following URL: [TAG ENV
 - [Marlow Weston](https://github.com/catblade) (Chair)
 - [Kristina Devochko](https://github.com/guidemetothemoon) (TL)
 - [Saiyam Pathak ](https://github.com/saiyam1814) (TL)
-- [Alessandro Vozza](https:/github.com/ams0) (TL)
+- [Alessandro Vozza](https://github.com/ams0) (TL)
