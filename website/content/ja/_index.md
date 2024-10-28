@@ -56,3 +56,4 @@ TAG ENVカレンダーのフィードをあなたのカレンダーに追加す�
 - [Marlow Weston](https://github.com/catblade) (Chair)
 - [Kristina Devochko](https://github.com/guidemetothemoon) (Chair)
 - [Saiyam Pathak ](https://github.com/saiyam1814) (TL)
+- [Alessandro Vozza](https://github.com/ams0) (TL)

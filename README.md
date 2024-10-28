@@ -27,6 +27,7 @@ Working group, project and initiative leadership is agreed between the TAG and t
 ### TAG Environmental Sustainability Tech Leads
 
 * [Saiyam Pathak ](https://github.com/saiyam1814)
+* [Alessandro Vozza](https://github.com/ams0) (TL)
 
 ### TAG Emeritus Leaders:
 * [Max Körbächer](https://github.com/mkorbi)
