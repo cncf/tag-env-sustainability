@@ -54,5 +54,6 @@ Importe la fuente del calendario TAG ENV a su calendario desde la siguiente URL:
 
 - [Leonard Pahlke](https://github.com/leonardpahlke) (Chair)
 - [Marlow Weston](https://github.com/catblade) (Chair)
-- [Kristina Devochko](https://github.com/guidemetothemoon) (TL)
+- [Kristina Devochko](https://github.com/guidemetothemoon) (Chair)
 - [Saiyam Pathak ](https://github.com/saiyam1814) (TL)
+- [Alessandro Vozza](https://github.com/ams0) (TL)
