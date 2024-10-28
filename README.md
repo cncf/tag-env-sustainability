@@ -22,10 +22,10 @@ Working group, project and initiative leadership is agreed between the TAG and t
 
 * [Marlow Weston](https://github.com/catblade)
 * [Leonard Vincent Simon Pahlke](https://github.com/leonardpahlke)
+* [Kristina Devochko](https://github.com/guidemetothemoon)
 
 ### TAG Environmental Sustainability Tech Leads
 
-* [Kristina Devochko](https://github.com/guidemetothemoon)
 * [Saiyam Pathak ](https://github.com/saiyam1814)
 * [Alessandro Vozza](https://github.com/ams0) (TL)
 
