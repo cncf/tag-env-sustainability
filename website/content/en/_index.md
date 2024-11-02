@@ -44,6 +44,7 @@ time](https://dateful.com/convert/utc?t=16)).
 
 Meetings are listed on the [main CNCF calendar](https://www.cncf.io/calendar/)
 as well as the [TAG ENV Calendar](https://calendar.google.com/calendar/embed?src=72e93a411f02e5664bb4485c04311b83dae6a62574e4ab882a1ccf8526aa9bf1%40group.calendar.google.com&ctz=America%2FChicago).
+Please note that due to regular updates on meetings and times, we highly suggest using the TAG ENV calendar instead of the main CNCF one.
 
 You can add working group meeting series by adding TAG ENV Calendar feed to your calendar.
 
