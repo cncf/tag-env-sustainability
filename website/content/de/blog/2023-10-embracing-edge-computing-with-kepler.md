@@ -3,11 +3,11 @@ title: Edge-Computing mit Kepler – Einblick in Remote-Monitoring, zentrales Da
 description: Kepler ermöglicht das Remote-Monitoring, zentrales Dashboarding und die Visualisierung des Energieverbrauchs und revolutioniert damit die Energie-Überwachung am Edge.
 slug: 2023-embracing-edge-computing-with-kepler
 weight: 1
-date:   2023-10-11 00:00:00 +0000
+date: 2023-10-11 00:00:00 +0000
 author: Parul Singh
 ---
 
-*Gastbeitrag der Community im Rahmen der [Cloud Native Sustainability Week](https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/)*
+_Gastbeitrag der Community im Rahmen der [Cloud Native Sustainability Week](https://tag-env-sustainability.cncf.io/cloud-native-sustainability-week/)_
 
 In der sich ständig weiterentwickelnden Technologielandschaft hat sich Edge Computing als Game-Changer etabliert, der die Verarbeitung von Echtzeitdaten näher an der Datenquelle ermöglicht. Kepler, mit seiner Integration in OpenTelemetry (OTEL), hat den Weg für die Erkundung von Remote-Monitoring und zentralen Dashboard-Optionen am Edge geebnet. Dieser revolutionäre Ansatz bietet wertvolle Einblicke in den Energieverbrauch von Geräten und Workloads und stellt einen entscheidenden Wandel im Bereich der Energie-Überwachung dar.
 
@@ -31,4 +31,4 @@ Die Architektur von Kepler erfasst effizient Metriken auf Pod-/Container-/Prozes
 
 Abschließend lässt sich sagen, dass Kepler zusammen mit OpenTelemetry und seinem Fokus auf Edge Computing einen bedeutenden Sprung im Bereich der Leistungsüberwachung darstellt. Folgen Sie [diesem Link](https://github.com/husky-parul/otel-observability) für die Bereitstellungsschritte. Bleiben Sie dran für weitere Updates zur [Instrumentation des Kepler OTEL SDK](https://github.com/sustainable-computing-io/kepler/issues/659).
 
-Referenz: [Hybrid Cloud Patterns](https://hybrid-cloud-patterns.io/learn/about/)
+Referenz: [Validated Patterns](https://validatedpatterns.io/learn/about-validated-patterns/)
