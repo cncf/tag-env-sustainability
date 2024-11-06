@@ -35,7 +35,7 @@ All the most important links for TAG Environmental Sustainability are also avail
   - [LinkedIn](https://www.linkedin.com/company/cncf-tag-environmental-sustainability)
   - [Twitter/X](https://twitter.com/CNCFEnvTAG)
 - [Mailing list](https://lists.cncf.io/g/cncf-tag-env-sustainability/topics)
-- [Surveys](https://github.com/cncf/tag-env-sustainability/tree/main/artifacts/surveys)
+- [Surveys](https://github.com/cncf/tag-env-sustainability/blob/main/artifacts.md)
 
 ## Meetings
 
