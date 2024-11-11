@@ -28,7 +28,7 @@ After the successful [Sustainability Week 2023](https://tag-env-sustainability.c
 <!-- cSpell:disable -->
 | **NR** | **Location** | **Date** | **Event Link** | **Name** |
 |---|---|---|---|---|
-| 1 | Amsterdam, Netherlands | 10th October | [link](https://community.cncf.io/e/mwszqh/) | Julie Chenadec, Alessandro Vozza, Pavel Chunyayev, Matteo Bianchi
+| 1 | Amsterdam, Netherlands | 10th October | [Link](https://community.cncf.io/e/mwszqh/) | Julie Chenadec, Alessandro Vozza, Pavel Chunyayev, Matteo Bianchi
 | 2 | Guatemala | Oct. 26 | [Link](https://community.cncf.io/e/m8chk2/) | Diana Menendez, Sergio Méndez
 | 3 | China | TBD | TBD | Sam Yuan
 | 4 | Oslo, Norway | Oct. 9 | [Link](https://www.meetup.com/gsf-oslo/events/303318869/) | Marta Paciorkowska, Kristina Devochko, [Green Software - Oslo](https://www.meetup.com/gsf-oslo)
