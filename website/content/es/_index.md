@@ -26,7 +26,7 @@ Todos los enlaces más importantes para la sostenibilidad medioambiental de TAG 
 - [Events](https://tag-env-sustainability.cncf.io/events/)
 - Slack channels:
   - [#tag-environmental-sustainability](https://cloud-native.slack.com/archives/C03F270PDU6)
-  - [#tag-env-wg-comms](https://cloud-native.slack.com/archives/C068XUD9AEA)
+  - [#tag-env-wg-sustainability-advocacy](https://cloud-native.slack.com/archives/C068XUD9AEA)
   - [#tag-env-wg-green-reviews](https://cloud-native.slack.com/archives/C060EDHN431)
   - [Invite yourself to the CNCF Slack](https://slack.cncf.io/)
 - Cuentas en redes sociales:
