@@ -12,6 +12,8 @@ In this blog post we’ll share some highlights and post-event reflections from 
 For the second Italian edition of this event, we brought together developers, CEOs, advocates, graphic designers and many other people with different backgrounds and knowledge.
 Yet everyone had a common starting point: we have a responsibility to share information and best practices to live in a more sustainable, inclusive and accessible Planet.
 
+<p class="mt-5 mb-5"><img src="/images/blogs/2024-11-cloud-native-sustainability-week-milan/milan-meetup.webp" alt="A large screen was positioned in the room so people would see where the meetup would have taken place entering from the main door."></p>
+
 ## The event(s): September 30th meetup
 
 We kicked off on **September 30th** with an in-person meetup and three talks.
@@ -27,7 +29,7 @@ In the Cloud, being efficient means doing more while consuming less energy becau
 Then, **Graziano Casto**, Developer Relations Engineer @ Mia-Platform, closed the meetup with his talk _“An open-source first step to greenify your cloud native environment”_.
 In his talk, Graziano shared his experience as a developer who actually took the time to understand the impact of the feature he and his team were developing. He talked about the importance of **collecting data**, trying to define a baseline of **how much energy we’re using** and **how dirty it is**, knowing what kind of **hardware our software is running on** and measuring our **impact**. Graziano also went into detail about **managing our environments** (local, production, test, etc.) in a more environmentally and economically sustainable way, which basically means turning them off when we don't need them! He talked about [Kube-green](https://kube-green.dev/), an open source project aimed at reducing the carbon footprint of clusters.
 
-<p class="mt-10 mb-10"><img src="/images/blogs/2024-11-cloud-native-sutainability-week-milan/collage.png"></p>
+<p class="mt-5 mb-5"><img src="/images/blogs/2024-11-cloud-native-sustainability-week-milan/collage.webp" alt="Collage of some images from our meetup in Milan: three speakers talking and some gadgets!"></p>
 
 ## The event(s): October 7th virtual meetup
 
