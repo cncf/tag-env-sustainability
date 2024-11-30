@@ -79,7 +79,7 @@ reviewers: Kristina Devochko, Leonard Pahlke, Marlow Weston
 
    - **Green Reviews**. 该小组旨在设计一种战略方法，帮助CNCF项目追踪和改善其环境可持续足迹。感兴趣吗？查看详细[信息](https://github.com/cncf/tag-env-sustainability/blob/main/working-groups/green-reviews/charter.md).
 
-   - **Communications**. 有效的沟通与技术工作本身一样至关重要，因为它确保我们工作组的有影响力的行动得到更广泛受众的理解和赞赏。工作组章程将很快发布，但目前您可以在以下PR中找到更多[详细信息](https://github.com/cncf/tag-env-sustainability/pull/247)
+   - **Sustainability Advocacy**. 有效的沟通与技术工作本身一样至关重要，因为它确保我们工作组的有影响力的行动得到更广泛受众的理解和赞赏。工作组章程将很快发布，但目前您可以在以下PR中找到更多[详细信息](https://github.com/cncf/tag-env-sustainability/pull/247)
 
 7. [解决 GitHub Issues:](https://github.com/cncf/tag-env-sustainability/issues) 如果你有应对特定挑战的技巧，或者你正在寻求更短的承诺，GitHub问题可能是你的选择。浏览它们并确定您可以在哪些方面做出贡献。如果你感到失落，不知道从哪里开始，一个好的起点总是["Help wanted"标签的问题](https://github.com/cncf/tag-env-sustainability/labels/help%20wanted).
 

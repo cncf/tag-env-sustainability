@@ -4,7 +4,7 @@ The Sustainability Advocacy [Working Group](https://github.com/cncf/toc/tree/mai
 
 The Sustainability Advocacy Working Group has its main focus on the marketing communications, public and member relations of the TAG Environmental Sustainability. It provides member-neutral contribution, ecosystem development and marketing services, collaborative management, branding and compatibility.
 
-See the working group charter here: <https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/sustainability-advocacycharter.md>
+See the working group charter here: <https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/sustainability-advocacy/charter.md>
 
 ## Chairs
 
@@ -24,7 +24,7 @@ Emeritus WG Chair:
 The following individuals are the working group technical leads:
 - Valeria Salis [@vallss](https://github.com/vallss), start of term 30.09.2024
 
-In addition to working group chairs there are currently sub-area leads that focus on specific activity areas of the Communications working group:
+In addition to working group chairs there are currently sub-area leads that focus on specific activity areas of the Sustainability Advocacy working group:
 
 <!-- cSpell:disable -->
 - Blog lead: Savitha Raghunathan, [@savitharaghunathan](https://github.com/savitharaghunathan)
