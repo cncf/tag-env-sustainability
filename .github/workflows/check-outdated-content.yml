@@ -6,6 +6,8 @@ name: Check outdated content
 
 on:
   pull_request:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
