@@ -4,7 +4,7 @@ The Sustainability Advocacy [Working Group](https://github.com/cncf/toc/tree/mai
 
 The Sustainability Advocacy Working Group has its main focus on the marketing communications, public and member relations of the TAG Environmental Sustainability. It provides member-neutral contribution, ecosystem development and marketing services, collaborative management, branding and compatibility.
 
-See the working group charter here: <https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/sustainability-advocacycharter.md>
+See the working group charter here: <https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/sustainability-advocacy/charter.md>
 
 ## Chairs
 
