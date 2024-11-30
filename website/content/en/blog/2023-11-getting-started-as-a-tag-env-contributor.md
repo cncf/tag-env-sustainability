@@ -85,7 +85,7 @@ Here you can find some of the suggested actions that will help you get started:
 
    - **Green Reviews**. This group aims to design a strategic approach to aid CNCF projects in tracing and improving their environmental sustainability footprint. Intrigued? Dive into the specifics by checking out [the charter](https://github.com/cncf/tag-env-sustainability/blob/main/working-groups/green-reviews/charter.md).
 
-   - **Communications**. Effective communication is as crucial as the technical work itself, as it ensures that the impactful actions of our working group are understood and appreciated by a wider audience. The working group charter will be published soon, but for now you can find additional details in following PR: <https://github.com/cncf/tag-env-sustainability/pull/247>
+   - **Sustainability Advocacy**. Effective communication is as crucial as the technical work itself, as it ensures that the impactful actions of our working group are understood and appreciated by a wider audience. The working group charter will be published soon, but for now you can find additional details in following PR: <https://github.com/cncf/tag-env-sustainability/pull/247>
 
 7. [Tackle GitHub Issues:](https://github.com/cncf/tag-env-sustainability/issues) If you have a knack for addressing specific challenges or if you're seeking a shorter commitment, GitHub issues might be your calling. Browse through them and identify where you can contribute. If you feel lost and you don't know where to start, a good starting point is always an issue with the ["Help wanted" label](https://github.com/cncf/tag-env-sustainability/labels/help%20wanted).
 

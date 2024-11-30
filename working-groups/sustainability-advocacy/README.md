@@ -24,7 +24,7 @@ Emeritus WG Chair:
 The following individuals are the working group technical leads:
 - Valeria Salis [@vallss](https://github.com/vallss), start of term 30.09.2024
 
-In addition to working group chairs there are currently sub-area leads that focus on specific activity areas of the Communications working group:
+In addition to working group chairs there are currently sub-area leads that focus on specific activity areas of the Sustainability Advocacy working group:
 
 <!-- cSpell:disable -->
 - Blog lead: Savitha Raghunathan, [@savitharaghunathan](https://github.com/savitharaghunathan)
