@@ -10,6 +10,10 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: read
+  issues: write 
+
 jobs:
   check-outdated-content:
     name: Check outdated content
