@@ -28,10 +28,10 @@ Join us on Slack: `#tag-environmental-sustainability`
 
 ## Working Groups
 
-### Communications Working Group
+### Sustainability Advocacy Working Group
 
 - **Meeting Time:** Thursday, 11AM EST (5pm GMT +2:00)
-- **Slack Channel:** `#tag-env-wg-comms`
+- **Slack Channel:** `#tag-env-wg-sustainability-advocacy`
 
 ### Green Reviews Working Group
 

@@ -50,7 +50,7 @@ Following [working groups](https://github.com/cncf/toc/tree/main/workinggroups) 
 | Working Group | Scope and Goals            | Meeting Time                          |
 |---------------|-------------------|---------------------------------------|
 | [Green Reviews](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/green-reviews) | [green-reviews/charter.md](./working-groups/green-reviews/charter.md) | [green-reviews/README.md#meetings-and-contact](./working-groups/green-reviews/README.md#meetings-and-contact) |
-| [Communications](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/communications) | [communications/charter.md](./working-groups/communications/charter.md) | [communications/README.md#meetings-and-contact](./working-groups/communications/README.md#meetings-and-contact) |
+| [Sustainability Advocacy](https://github.com/cncf/tag-env-sustainability/tree/main/working-groups/sustainability-advocacy) | [sustainability-advocacy/charter.md](./working-groups/sustainability-advocacy/charter.md) | [sustainability-advocacy/README.md#meetings-and-contact](./working-groups/sustainability-advocacy/README.md#meetings-and-contact) |
 
 ### Projects
 
