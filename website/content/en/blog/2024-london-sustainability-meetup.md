@@ -10,13 +10,13 @@ author: Rohit Ghumare, Mathew Joseph, Vinod Sulochana Raveendran, Santosh Kumar 
 
 We are thrilled to share the highlights from organizing the first-ever [CNCF Cloud Native Sustainability Week London 2024 Meetup](https://community.cncf.io/events/details/cncf-cloud-native-westminster-presents-cncf-sustainability-week-2024-london-meetup/) hosted by [Cloud Native Westminster](https://community.cncf.io/cloud-native-westminster/) during TAG ENV's [CNCF Cloud Native Sustainability Week 2024](https://tag-env-sustainability.cncf.io/events/cloud-native-sustainability-week/)! This groundbreaking event brought together distinguished speakers and technology enthusiasts, united by a shared commitment to promoting sustainability through cloud-native practices. During this exciting session, we delivered three impactful presentations covering various aspects of sustainable computing, accompanied by engaging discussions and networking opportunities.
 
-<p class="mt-10 mb-10"><img src="../static/images/blogs/2024-london-sustainability-meetup/groupphoto.jpeg" alt="Group photo of the London Sustainability Meetup"></p>
+<p class="mt-10 mb-10"><img src="/images/blogs/2024-london-sustainability-meetup/groupphoto.jpeg" alt="Group photo of the London Sustainability Meetup"></p>
 
 ## Keynote Highlights
 
 ### The Three C's: Cost, Carbon, and Cloud
 
-<img src="../static/images/blogs/2024-london-sustainability-meetup/keynote1.png" alt="Subramanian Kuppuswami">
+<img src="/images/blogs/2024-london-sustainability-meetup/keynote1.png" alt="Subramanian Kuppuswami">
 
 Our keynote speaker, **Subramanian Kuppuswami**, Global Sustainability Head for Banking, Financial Services & Insurance and one of 2024's Top 25 Sustainability Leaders, opened the event with a compelling perspective on sustainability in technology. His presentation centered on the "3 C's" framework—Cost, Carbon, and Cloud—which serves as foundational pillars for sustainable technology practices.
 
@@ -26,7 +26,7 @@ The presentation revealed that the ICT industry currently accounts for 2.1–3.9
 
 ### eBPF: Revolutionizing Data Center Efficiency
 
-<img src="../static/images/blogs/2024-london-sustainability-meetup/keynote2.jpeg" alt="Daniel Finneran">
+<img src="/images/blogs/2024-london-sustainability-meetup/keynote2.jpeg" alt="Daniel Finneran">
 
 **Daniel Finneran**, Principal Community Advocate at Isovalent, highlighted how [eBPF](https://ebpf.io/) (Extended Berkeley Packet Filter) is transforming data center efficiency. Over the past decade, data centers have improved energy efficiency through virtualization, containerization, and Kubernetes. Now, eBPF is taking this evolution further by reducing reliance on additional hardware devices.
 
@@ -34,7 +34,7 @@ Finneran explained how eBPF can replace traditional hardware components like loa
 
 ### Practical Approaches to Green Computing
 
-<img src="../static/images/blogs/2024-london-sustainability-meetup/keynote3.png" alt="Charles Humble">
+<img src="/images/blogs/2024-london-sustainability-meetup/keynote3.png" alt="Charles Humble">
 
 **Charles Humble**, a freelance technology consultant from Conissaaunce Limited, shared practical insights on implementing sustainable practices. While managed cloud services offer efficiency through high compute density, Humble emphasized the importance of applying green software principles across all environments.
 
@@ -48,13 +48,13 @@ He introduced the concept of energy proportionality, noting that even idle serve
 
 ### Supply Chain Sustainability: The Missing Link
 
-<img src="../static/images/blogs/2024-london-sustainability-meetup/keynote4.png" alt="Dr. Swati Murthy">
+<img src="/images/blogs/2024-london-sustainability-meetup/keynote4.png" alt="Dr. Swati Murthy">
 
 **Dr. Swati Murthy**, Practice Director of Sustainability at Tata Consultancy Services, addressed the crucial role of supply chain decarbonization in achieving net-zero targets. She highlighted current limitations in sustainability measurement frameworks, which often focus on enterprise-level ESG goals without considering industry-wide standards for cross-ecosystem sustainability outcomes.
 
 Dr. Murthy proposed a comprehensive approach to embed sustainability throughout the design process, emphasizing the need to integrate environmental considerations from the ground up in supply chain management to drive meaningful impact across industries.
 
-<img src="../static/images/blogs/2024-london-sustainability-meetup/audience.png" alt="Audience">
+<img src="/images/blogs/2024-london-sustainability-meetup/audience.png" alt="Audience">
 
 Thank you to all the speakers, attendees, and organizers for making this Cloud Native Westminster meetup a success! Here’s to fostering more sustainable practices in technology together! 💡💚 🌍
 
