@@ -31,6 +31,7 @@ Working group, project and initiative leadership is agreed between the TAG and t
 
 ### TAG Emeritus Leaders:
 * [Max Körbächer](https://github.com/mkorbi)
+* [Cara Delia](https://github.com.caradelia)
 
 <!-- cSpell:ignore Linktree -->
 ## TAG Structures
