@@ -1,0 +1,85 @@
+name: Pre-event tracking checklist
+description: Use this template to track the activities before an event relevant for the TAG Environmental Sustainability.
+title: "[TRACKING] <event name>"
+labels: ["wg-advocacy/event", "issue/needs-triage", "board/wg-advocacy", "issue/tracking"]
+projects: ["cncf/10"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the TAG!
+        Please remember that an issue is not the place to ask questions.
+        For inquiries, please refer to the README on how to reach us: [Contact](https://github.com/cncf/tag-env-sustainability#contact).
+        Thank you! :)
+  - id: description
+    type: textarea
+    attributes:
+      label: Description
+      description: |
+        Please update these details along the way.  
+      value: |
+        * **Location/Region:** tbd
+        * **Date:** tbd
+        * **Event link:** tbd
+    validations:
+      required: true
+  - id: todo-pre-general-event
+    type: checkboxes
+    attributes:
+      label: To-Do (Pre general event activities)
+      description: The followings are the main activities to prepare for a general event. Please check the boxes when you have completed the tasks.
+      options:
+        - label: Outline content plan for social media posts
+          required: false
+        - label: Schedule social media posts on Buffer
+          required: false
+        - label: Add event description + session list to the TAG ENV website
+          required: false     
+        - label: Coordinate with CNCF to cross-share social media posts
+          required: false 
+        - label: Create illustrations/designs for relevant sessions and activities for sharing on social media
+          required: false   
+        - label: Create blog posts: one on sessions/highlights the TAG is looking forward to for an event and one for key learnings after the event (add social photos, screenshots from sessions for more lively blog posts)
+          required: false
+  - id: todo-pre-kubecon-event
+    type: checkboxes
+    attributes:
+      label: To-Do (Pre Kubecon event activities)
+      description: The followings are the main activities to prepare for a Kubecon event. Please check the boxes when you have completed the tasks.
+      options:
+        - label: Apply/Coordinate for environmental sustainability track with CNCF
+          required: false
+        - label: Apply/Coordinate for a co-location event with CNCF
+          required: false          
+        - label: Maintainer talk speakers and content
+          required: false
+        - label: Apply for maintainer talk before deadline
+          required: false
+        - label: Apply for TAG booth before deadline
+          required: false
+        - label: Create a list of volunteers for the TAG booth
+          required: false
+        - label: Prepare a schedule for the TAG booth
+          required: false
+        - label: Prepare materials for the booth (stickers, website/presentation for monitor)
+          required: false
+        - label: Prepare presentation for maintainer talk (don’t forget contributor shoutouts 🙂)
+          required: false
+        - label: Confirm maintainer talk presenters
+          required: false
+  - id: coc
+    type: checkboxes
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://www.cncf.io/conduct/).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - id: comments
+    type: textarea
+    attributes:
+      label: Comments
+      description: Additional comments or details.
+      placeholder: None
+    validations:
+        required: false
