@@ -34,7 +34,9 @@ body:
         - label: Schedule social media posts on Buffer
           required: false
         - label: Add event description + session list to the TAG ENV website
-          required: false     
+          required: false
+        - label: Coordinate optional in person TAG meetup based on interest.
+          required: false
         - label: Coordinate with CNCF to cross-share social media posts
           required: false 
         - label: Create illustrations/designs for relevant sessions and activities for sharing on social media
