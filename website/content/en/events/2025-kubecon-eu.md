@@ -1,0 +1,51 @@
+---
+title: Kubecon + CloudNativeCon EU 2025
+description: TAG Environmental Sustainability presence at Cloud Native Computing Foundation’s flagship conference in London, UK from 1-4 April, 2025.
+weight: 92
+---
+
+The Cloud Native Computing Foundation’s flagship conference gathers adopters and technologists from leading open source and cloud native communities in London, UK from 1-4 April 2025.
+
+The TAG will also be running a few things in Paris!
+
+## TAG Booth
+
+TAG members will be at our booth on the AM of Wednesday, Thursday, and Friday! Find us at Solutions Showcase | Level 7.2 | Hall 7.2 | Project Pavilion Booth #PP20-B! Come and chat to us about the work we are currently doing, different projects and working groups, or how you can get involved!
+
+## TAG Meetup
+
+We're hosting an informal meetup for everyone who's interested in the TAG ENV on Thursday, 21st of March, 15:30 - 16:45. We will meet on the venue terrace! It's accessible via the escalators from level 7.3 up to level 7.4, specifically from the MAIN LOBBY side (you can recognize it due to presence of windows).
+
+
+## Sustainability related talks at a glance
+
+### Tuesday 1st of April
+
+14:43:30 - 14:48 CET
+
+* [Project Lightning Talk: Kepler Project Updates - Kaiyi Liu, Maintainer](https://kccnceu2025.sched.com/event/1tcwI)
+
+
+### Wednesday 2nd of April
+
+15:15 - 15:45
+
+* [More Data Please: Hands on Green Cloud Experiments - Leonard Pahlke, BWI GmbH & Antonio Di Turi, Data Reply](https://kccnceu2025.sched.com/event/1tx9z)
+
+17:45 - 18:15
+
+* [How Green Is My OpenTelemetry Collector? - Nancy Chauhan, Student & Adriana Villela, Dynatrace](https://kccnceu2025.sched.com/event/1txEL)
+
+### Thursday 3rd of April
+
+
+### Friday 4th of April
+
+11:45 - 12:15
+
+* [Kubernetes Meets Climate Science: Building Large-scale Feature Detection From Climate Data Records - Armagan Karatosun & Roope Tervo, European Organisation for the Exploitation of Meteorological Satellites](https://kccnceu2025.sched.com/event/1txAZ)
+
+
+15:15 - 15:45
+
+* [Green AI in Cloud Native Ecosystems: Strategies for Sustainability and Efficiency - Vincent Caldeira, Red Hat & Tamar Eilam, IBM Research](https://kccnceu2025.sched.com/event/1tx9n)
