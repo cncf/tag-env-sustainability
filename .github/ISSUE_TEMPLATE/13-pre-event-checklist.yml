@@ -41,7 +41,7 @@ body:
           required: false 
         - label: Create illustrations/designs for relevant sessions and activities for sharing on social media
           required: false   
-        - label: Create blog posts: one on sessions/highlights the TAG is looking forward to for an event and one for key learnings after the event (add social photos, screenshots from sessions for more lively blog posts)
+        - label: Create blog posts - one on sessions/highlights the TAG is looking forward to for an event and one for key learnings after the event (add social photos, screenshots from sessions for more lively blog posts)
           required: false
   - id: todo-pre-kubecon-event
     type: checkboxes
