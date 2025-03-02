@@ -38,6 +38,7 @@ We're hosting an informal meetup for everyone who's interested in the TAG ENV, m
 
 ### Thursday 3rd of April
 
+* No talks :(
 
 ### Friday 4th of April
 
