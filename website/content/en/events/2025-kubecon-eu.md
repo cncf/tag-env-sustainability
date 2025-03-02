@@ -10,7 +10,7 @@ The TAG will also be running a few things in Paris!
 
 ## TAG Booth
 
-TAG members will be at our booth on the AM of Wednesday, Thursday, and Friday! Find us at Solutions Showcase | Level 7.2 | Hall 7.2 | Project Pavilion Booth #PP20-B! Come and chat to us about the work we are currently doing, different projects and working groups, or how you can get involved!
+TAG members will be at our booth on the AM of Wednesday, Thursday, and Friday! Find us at Solutions Showcase <LOCATION> Come and chat to us about the work we are currently doing, different projects and working groups, or how you can get involved!
 
 ## TAG Meetup
 
