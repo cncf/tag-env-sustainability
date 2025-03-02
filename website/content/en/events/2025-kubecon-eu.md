@@ -6,7 +6,6 @@ weight: 92
 
 The Cloud Native Computing Foundation’s flagship conference gathers adopters and technologists from leading open source and cloud native communities in London, UK from 1-4 April 2025.
 
-The TAG will also be running a few things in Paris!
 
 ## TAG Booth
 
