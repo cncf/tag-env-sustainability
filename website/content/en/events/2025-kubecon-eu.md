@@ -10,11 +10,11 @@ The TAG will also be running a few things in Paris!
 
 ## TAG Booth
 
-TAG members will be at our booth on the AM of Wednesday, Thursday, and Friday! Find us at Solutions Showcase <LOCATION> Come and chat to us about the work we are currently doing, different projects and working groups, or how you can get involved!
+TAG members will be at our booth on the AM of Wednesday, Thursday, and Friday! Find us at: Level 1 | Hall Entrance N8 - N9 | Project Pavilion. Come and chat to us about the work we are currently doing, different projects and working groups, or how you can get involved!
 
 ## TAG Meetup
 
-We're hosting an informal meetup for everyone who's interested in the TAG ENV on Thursday, 21st of March, 15:30 - 16:45. We will meet on the venue terrace! It's accessible via the escalators from level 7.3 up to level 7.4, specifically from the MAIN LOBBY side (you can recognize it due to presence of windows).
+We're hosting an informal meetup for everyone who's interested in the TAG ENV, more details to follow!
 
 
 ## Sustainability related talks at a glance
