@@ -12,7 +12,13 @@ TAG members will be at our booth on the AM of Wednesday, Thursday, and Friday! F
 
 ## TAG Meetup
 
-We're hosting an informal meetup for everyone who's interested in the TAG ENV, more details to follow!
+We're hosting an informal meetup for everyone who's interested in the TAG ENV - join us!
+
+**Date:** Thursday, April 3rd
+**Time:** 12:15 - 13:00
+**Location:** Outside the event venue, green space to the right from the venue entrance (See image below). More information can be found in [TAG ENV Slack channel thread](https://cloud-native.slack.com/archives/C03F270PDU6/p1743579910036349?thread_ts=1740582621.964429&cid=C03F270PDU6)
+
+<p class="mt-10 mb-10"><img src="/images/blogs/2025-kubecon-eu/meetup-location-map.webp" alt="Screenshot of the TAG ENV meetup location map"></p>
 
 ## Sustainability related talks at a glance
 
