@@ -45,7 +45,7 @@ hochgeladen.
 | 7 | Sao Paulo, Brazil | Oct. 22 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-sao-paulo-presents-27-cloud-native-sao-paulo-sustainability-day-na-aws/) | Carol Valencia, Tiago Reichert, Pedro Ignácio, Erivaldo Lopes
 | 8 | Bangalore, India | Oct. 19 | [Link](https://community.cncf.io/events/details/cncf-cloud-native-bangalore-presents-cncf-sustainability-bangalore-meetup-2024/) | Prakash Mishra, Humble Devassy Chirammal, Kiran Mova
 | 9 | Aarhus, Denmark | October 7th | [Link](https://community.cncf.io/events/details/cncf-aarhus-presents-cncf-sustainability-week-aarhus-2024/) | [Cloud Native Aarhus Organizers](https://community.cncf.io/aarhus/)
-| 10 | Kuala Lumpur, Malaysia | Oct. 21 | [Link](https://community.cncf.io/e/mjtwmr) | Mageshwaran Sekar, Nick Khalid Khan, Nasir Ahmed, Kwong Tng Nan, Hafiz Syed Ashir Hassan
+| 10 | Kuala Lumpur, Malaysia | Oct. 21 | [Link](https://community.cncf.io/e/mjtwmr) | Mageshwaran Sekar, Nick Khalid Khan, Nasir Ahmed, Kwong Tung Nan, Hafiz Syed Ashir Hassan
 | 11 | Stuttgart, Germany | October 10th | [Link](https://community.cncf.io/events/details/cncf-cloud-native-stuttgart-presents-cncf-sustainability-week-stuttgart-2024/) | Danijel Soldo, Jens Schwarzer, Stefan Bergstein, Wolfram Richter
 | 12 | Paris, France | Oct. 15 | [Link](https://community.cncf.io/events/details/cncf-paris-presents-cloud-native-sustainability-week-akamai/) | Smaine Kahlouch [Cloud Native Paris](https://community.cncf.io/paris/)
 | 13 | Brighton, UK | Oct. 16 | [Link](https://www.meetup.com/gsf-brighton/events/303193268) | Adam Newman, [Green Software Brighton](https://greensoftwarebrighton.co.uk)
