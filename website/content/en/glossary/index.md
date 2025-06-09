@@ -32,6 +32,18 @@ Often used by organizations and companies to express that they equalize the caus
 This typically happens by buying negative carbon emissions from organizations that really saved carbon or are net-zero or even reduce more carbon than they produce.
 However, it is important to understand that this is only a compensation and does not have to imply a new product development leading to more sustainability. Please also read about the term "Net Zero" as both terms are often mixed or misleadingly used.
 
+### **Carbon-Aware Scheduling**
+A method of optimizing workload execution times based on the carbon intensity of the energy grid. By scheduling tasks during periods when renewable energy sources are more prevalent, this approach aims to reduce the carbon footprint of computing operations.
+
+### **Cloud Native Sustainability**
+An approach that integrates sustainability principles into cloud-native technologies. It involves building and operating applications that are scalable and resilient while also being energy-efficient and environmentally responsible throughout their lifecycle.
+
+### **Carbon Transparency**
+The ability to measure and communicate the carbon emissions associated with specific cloud workloads or software services. It often includes automated tooling and reporting, helping developers and users make more informed decisions about sustainability trade-offs.
+
+### **Carbon-Aware Kubernetes**
+A Kubernetes scheduling strategy or extension that considers the carbon intensity of the electricity powering different clusters or nodes. It allows workloads to be directed toward regions or times with cleaner energy availability, enabling more sustainable cloud-native operations.
+
 ## E
 
 ### **Eco-Efficiency**
@@ -63,6 +75,12 @@ Any kind of gasses caused by nature or human activities that trap heat in the at
 These gasses are called greenhouse gas because they have the same effect as a greenhouse: the sunlight can enter the house and part is reflected back, but it can‘t leave the greenhouse fully because the roof prevents the heat from escaping.
 This causes the inside of a greenhouse to get hotter and hotter, the same as what is going on with the earth. See also: Emissions.
 
+### **Green Software**
+Software designed and developed with energy efficiency and environmental impact in mind. This includes optimizing code to consume fewer resources, reducing unnecessary computations, and ensuring that applications run efficiently on hardware to minimize energy use.
+
+### **Green Reviews**
+Evaluations conducted to assess the environmental impact of software projects or infrastructure. These reviews aim to identify areas where energy consumption can be reduced and sustainability can be improved within the development and deployment processes.
+
 ## N
 
 ### **Net Zero**
@@ -87,6 +105,9 @@ PUE is calculated either through:
 Total Facility Energy / IT Equipment Energy
 1 + Non-IT Facility Energy / IT Equipment Energy
 
+### **Power-Aware Scheduling**
+A strategy that involves scheduling computing tasks based on the power consumption characteristics of hardware and the availability of energy resources. The goal is to optimize energy usage and reduce environmental impact without compromising performance.
+
 ## S
 
 ### **Server Idle Energy Coefficiency (SIEC)**
@@ -94,6 +115,9 @@ Total Facility Energy / IT Equipment Energy
 Developed by the research project LEAP and is done by measuring the server energy consumption. What is relevant here is the continuous energy consumption of the server VS. the actually required energy by the chip.
 This mainly depends on the configuration or modus of the server power management. Very simplified, it's the SIEC calculated by the energy wasted during idle time decided by the energy consumption in total.
 The higher the number (given as %) the worse it is.
+
+### **Sustainable Computing**
+The practice of designing, manufacturing, using, and disposing of computers and associated subsystems efficiently and effectively with minimal impact on the environment. This encompasses energy-efficient hardware, resource-optimized software, and responsible end-of-life disposal.
 
 ## Abbreviations
 
@@ -107,3 +131,4 @@ SIEC - Server Idle Energy Coefficiency
 
 * [1] Glossary of Climate Change - <https://www.wikiwand.com/en/Glossary_of_climate_change>
 * [2] Climate Change Vocabulary - <https://winapps.umt.edu/winapps/media2/wilderness/toolboxes/documents/climate/Climate%20Change%20Glossary.pdf>
+* [3] Green Software Practitioner Guide - <https://learn.greensoftware.foundation/>
